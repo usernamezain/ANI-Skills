@@ -1,5 +1,5 @@
 ---
-name: antigravity:dsa-dijkstras-shortest-path
+name: ani:dsa-dijkstras-shortest-path
 description: Finds the shortest path between nodes in a weighted graph. Triggered by dijkstra, shortest path weighted, network delay time, path with maximum probability.
 ---
 

@@ -1,6 +1,0 @@
-description = "|-"
-
-prompt = """
-Invoke the skill:claude-api skill.
-Load the prompt instructions from skills/claude-api/SKILL.md and consult the copy-pasteable references or guidelines inside skills/claude-api/references/ to complete the task.
-"""

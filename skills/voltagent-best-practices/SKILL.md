@@ -1,5 +1,5 @@
 ---
-name: antigravity:voltagent-best-practices
+name: ani:voltagent-best-practices
 # prettier-ignore
 description: VoltAgent architectural patterns and conventions. Covers agents vs workflows, project layout, memory, servers, and observability.
 license: MIT

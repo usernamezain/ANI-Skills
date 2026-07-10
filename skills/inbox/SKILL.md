@@ -1,5 +1,5 @@
 ---
-name: antigravity:inbox
+name: ani:inbox
 description: Triage and review open GitHub issues and PRs against project templates and contribution guidelines.
 argument-hint: "[--issues] [--prs] [--label] [--close-incomplete] [--repo owner/repo]"
 allowed-tools:

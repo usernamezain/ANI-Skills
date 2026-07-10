@@ -1,5 +1,5 @@
 ---
-name: antigravity:tinybird-cli-guidelines
+name: ani:tinybird-cli-guidelines
 description: Tinybird CLI commands, workflows, and operations. Use when running tb commands, managing local development, deploying, or working with data operations.
 ---
 

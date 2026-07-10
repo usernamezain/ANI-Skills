@@ -1,6 +1,0 @@
-description = "Reference for the VoltAgent class: constructor options, lifecycle methods, and runtime behavior."
-
-prompt = """
-Invoke the skill:voltagent-core-reference skill.
-Load the prompt instructions from skills/voltagent-core-reference/SKILL.md and consult the copy-pasteable references or guidelines inside skills/voltagent-core-reference/references/ to complete the task.
-"""

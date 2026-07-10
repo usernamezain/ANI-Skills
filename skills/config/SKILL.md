@@ -1,5 +1,5 @@
 ---
-name: antigravity:config
+name: ani:config
 description: Configure antigravity settings — workflow toggles, advanced knobs, integrations, and model profile
 argument-hint: "[--advanced | --integrations | --profile <name>]"
 allowed-tools:

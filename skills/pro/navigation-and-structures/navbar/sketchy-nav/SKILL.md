@@ -1,5 +1,5 @@
 ---
-name: antigravity:pro:navigation:sketchy-nav
+name: ani:pro:navigation:sketchy-nav
 description: Generate a hand-drawn, organic navbar with SVG scribble path animations for the active state — built for indie makers, creative portfolios, and personality-driven brands.
 ---
 

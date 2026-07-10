@@ -1,5 +1,5 @@
 ---
-name: antigravity:next
+name: ani:next
 description: "Smart entry — detect project state and route to the right next ANI action."
 effort: low
 allowed-tools:

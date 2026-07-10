@@ -1,5 +1,5 @@
-﻿---
-name: antigravity:pro:complete-landing-pages:playful-brutal
+---
+name: ani:pro:complete-landing-pages:playful-brutal
 description: A high-energy, vibrant, and interactive landing page mixing brutalist grid structures with playful animations, marquee tickers, and physics-based interactions.
 version: 1.0.0
 tags: ["landing-page", "gsap", "framer-motion", "brutalism", "playful", "marquee", "lenis"]

@@ -1,5 +1,5 @@
 ---
-name: antigravity:find-models
+name: ani:find-models
 description: Find AI models on Replicate using search and curated collections.
 ---
 

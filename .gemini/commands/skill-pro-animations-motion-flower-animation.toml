@@ -1,6 +1,0 @@
-description = "Generate a complex, animated CSS/React blooming flower scene. Use this whenever the user requests a flower animation, blooming flowers, or a pure CSS/React animated background scene featuring nature elements."
-
-prompt = """
-Invoke the skill:pro:flower-animation skill.
-Load the prompt instructions from skills/pro/animations-motion/flower-animation/SKILL.md and consult the copy-pasteable references or guidelines inside skills/pro/animations-motion/flower-animation/references/ to complete the task.
-"""

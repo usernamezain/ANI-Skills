@@ -1,0 +1,6 @@
+description = "Build a bold closing call-to-action section with a large magnetic button, animated gradient/glow background, and a scroll-scrubbed entrance that builds anticipation. Use whenever the user wants a \"CTA section\", \"call to action\", \"final section\", \"get started section\", or \"closing banner\" before the footer."
+
+prompt = """
+Invoke the ani:magnetic-cta-section skill.
+Load the prompt instructions from skills/magnetic-cta-section/SKILL.md and consult the copy-pasteable references or guidelines inside skills/magnetic-cta-section/references/ to complete the task.
+"""

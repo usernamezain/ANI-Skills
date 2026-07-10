@@ -1,0 +1,6 @@
+description = "Build Amazon Machine Images (AMIs) with Packer using the amazon-ebs builder. Use when creating custom AMIs for EC2 instances."
+
+prompt = """
+Invoke the ani:aws-ami-builder skill.
+Load the prompt instructions from skills/aws-ami-builder/SKILL.md and consult the copy-pasteable references or guidelines inside skills/aws-ami-builder/references/ to complete the task.
+"""

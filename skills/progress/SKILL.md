@@ -1,5 +1,5 @@
 ---
-name: antigravity:progress
+name: ani:progress
 description: Check progress, advance workflow, or dispatch freeform intent — the unified antigravity situational command
 argument-hint: "[--forensic | --next | --do \"task description\"]"
 allowed-tools:

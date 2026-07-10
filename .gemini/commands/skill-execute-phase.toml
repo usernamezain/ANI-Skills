@@ -1,6 +1,0 @@
-description = "Execute all plans in a phase with wave-based parallelization"
-
-prompt = """
-Invoke the skill:execute-phase skill.
-Load the prompt instructions from skills/execute-phase/SKILL.md and consult the copy-pasteable references or guidelines inside skills/execute-phase/references/ to complete the task.
-"""

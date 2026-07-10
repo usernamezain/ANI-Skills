@@ -1,6 +1,0 @@
-description = ">"
-
-prompt = """
-Invoke the skill:stripe-projects skill.
-Load the prompt instructions from skills/stripe-projects/SKILL.md and consult the copy-pasteable references or guidelines inside skills/stripe-projects/references/ to complete the task.
-"""

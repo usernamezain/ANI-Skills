@@ -1,5 +1,5 @@
 ---
-name: antigravity:pro:complete-landing-pages:wabi-sabi
+name: ani:pro:complete-landing-pages:wabi-sabi
 description: Generate a full Japanese Wabi-Sabi philosophy landing page featuring washi paper textures, hanko stamp cursors, vertical kanji-style navigation, parallax scroll, and a deep minimalist atmosphere of impermanence and stillness.
 version: 1.0.0
 tags: ["landing-page", "framer-motion", "gsap", "zen", "minimalist", "lenis", "textures", "japanese"]

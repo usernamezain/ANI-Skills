@@ -1,5 +1,5 @@
 ---
-name: antigravity:pro:swiss-style
+name: ani:pro:swiss-style
 description: Generate a premium Swiss design-inspired hero section featuring strict grid layouts, massive typography, smooth scrolling (Lenis), and interactive 3D WebGL images.
 ---
 

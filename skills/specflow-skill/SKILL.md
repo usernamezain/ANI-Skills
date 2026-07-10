@@ -1,5 +1,5 @@
 ---
-name: antigravity:specflow-skill
+name: ani:specflow-skill
 description: >
   Generates SpecFlow BDD tests for C#/.NET with Gherkin feature files and
   step bindings. Use when user mentions "SpecFlow", "C# BDD", ".NET Gherkin",

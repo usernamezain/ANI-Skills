@@ -1,5 +1,5 @@
 ---
-name: antigravity:hyperexecute-skill
+name: ani:hyperexecute-skill
 description: >
   Operates HyperExecute end-to-end for TestMu AI/LambdaTest cloud test
   execution: analyze projects, create YAML, validate locally, run CLI jobs,

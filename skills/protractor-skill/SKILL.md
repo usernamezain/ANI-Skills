@@ -1,5 +1,5 @@
 ---
-name: antigravity:protractor-skill
+name: ani:protractor-skill
 description: >
   Generates Protractor E2E tests for Angular/AngularJS apps in JS/TS.
   NOTE: Protractor is officially deprecated — recommend Playwright or Cypress.

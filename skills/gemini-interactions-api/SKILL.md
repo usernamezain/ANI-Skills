@@ -1,5 +1,5 @@
 ---
-name: antigravity:gemini-interactions-api
+name: ani:gemini-interactions-api
 description: Use this skill when writing code that calls the Gemini API for text generation, multi-turn chat, multimodal understanding, image generation, video generation, streaming responses, background research tasks, function calling, structured output, or migrating from the old generateContent API. This skill covers the Interactions API, the recommended way to use Gemini models and agents in Python and TypeScript.
 ---
 

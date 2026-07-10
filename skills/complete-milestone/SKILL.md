@@ -1,6 +1,6 @@
 ---
 type: prompt
-name: antigravity:complete-milestone
+name: ani:complete-milestone
 description: Archive completed milestone and prepare for next version
 argument-hint: <version>
 allowed-tools:

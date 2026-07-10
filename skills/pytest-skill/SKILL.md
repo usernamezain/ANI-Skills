@@ -1,5 +1,5 @@
 ---
-name: antigravity:pytest-skill
+name: ani:pytest-skill
 description: >
   Generates production-grade pytest tests in Python with fixtures, parametrize,
   markers, mocking, and conftest patterns. Use when user mentions "pytest",

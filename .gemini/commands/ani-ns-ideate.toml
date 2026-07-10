@@ -1,0 +1,6 @@
+description = "exploration capture | explore sketch spike spec capture"
+
+prompt = """
+Invoke the ani:ideate skill.
+Load the prompt instructions from skills/ns-ideate/SKILL.md and consult the copy-pasteable references or guidelines inside skills/ns-ideate/references/ to complete the task.
+"""

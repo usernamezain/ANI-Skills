@@ -1,5 +1,5 @@
 ---
-name: antigravity:dsa-sliding-window
+name: ani:dsa-sliding-window
 description: Solves subarray or substring problems requiring tracking a contiguous sequence of elements. Triggered by sliding window, longest substring, minimum size subarray sum, maximum sum subarray of size k.
 ---
 

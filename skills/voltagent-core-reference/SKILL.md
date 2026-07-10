@@ -1,5 +1,5 @@
 ---
-name: antigravity:voltagent-core-reference
+name: ani:voltagent-core-reference
 # prettier-ignore
 description: Reference for the VoltAgent class: constructor options, lifecycle methods, and runtime behavior.
 license: MIT

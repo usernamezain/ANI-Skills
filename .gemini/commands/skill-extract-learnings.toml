@@ -1,6 +1,0 @@
-description = "Extract decisions, lessons, patterns, and surprises from completed phase artifacts"
-
-prompt = """
-Invoke the skill:extract-learnings skill.
-Load the prompt instructions from skills/extract-learnings/SKILL.md and consult the copy-pasteable references or guidelines inside skills/extract-learnings/references/ to complete the task.
-"""

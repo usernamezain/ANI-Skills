@@ -1,6 +1,0 @@
-description = "Build a full-bleed video background hero section with a dark gradient overlay for text legibility, lazy/deferred video loading for performance, a mute/unmute control, and scroll-scrubbed fade-out. Use whenever the user wants a \"video hero\", \"video background section\", \"autoplay video header\", or \"hero with background video\"."
-
-prompt = """
-Invoke the skill:video-hero-section skill.
-Load the prompt instructions from skills/video-hero-section/SKILL.md and consult the copy-pasteable references or guidelines inside skills/video-hero-section/references/ to complete the task.
-"""

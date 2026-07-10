@@ -1,5 +1,5 @@
 ---
-name: antigravity:cypress-skill
+name: ani:cypress-skill
 description: >
   Generates production-grade Cypress E2E and component tests in JavaScript
   or TypeScript. Supports local execution and TestMu AI cloud. Use when

@@ -1,5 +1,5 @@
 ---
-name: antigravity:pro:living-porcelain
+name: ani:pro:living-porcelain
 description: Generate a premium editorial hero section featuring a 3D morphing porcelain sphere reacting to cursor velocity, accompanied by sophisticated serif typography and noise overlays.
 ---
 

@@ -1,5 +1,5 @@
 ---
-name: antigravity:webdriverio-skill
+name: ani:webdriverio-skill
 description: >
   Generates WebdriverIO (WDIO) automation tests in JavaScript or TypeScript.
   Supports local and TestMu AI cloud. Use when user mentions "WebdriverIO",

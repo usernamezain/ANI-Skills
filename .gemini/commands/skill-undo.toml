@@ -1,6 +1,0 @@
-description = "Safe git revert. Roll back phase or plan commits using the phase manifest with dependency checks."
-
-prompt = """
-Invoke the skill:undo skill.
-Load the prompt instructions from skills/undo/SKILL.md and consult the copy-pasteable references or guidelines inside skills/undo/references/ to complete the task.
-"""

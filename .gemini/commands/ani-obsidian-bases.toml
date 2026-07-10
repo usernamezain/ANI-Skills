@@ -1,0 +1,6 @@
+description = "Create and edit Obsidian Bases (.base files) with views, filters, formulas, and summaries. Use when working with .base files, creating database-like views of notes, or when the user mentions Bases, table views, card views, filters, or formulas in Obsidian."
+
+prompt = """
+Invoke the ani:obsidian-bases skill.
+Load the prompt instructions from skills/obsidian-bases/SKILL.md and consult the copy-pasteable references or guidelines inside skills/obsidian-bases/references/ to complete the task.
+"""

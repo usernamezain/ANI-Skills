@@ -1,5 +1,5 @@
 ---
-name: antigravity:tinybird
+name: ani:tinybird
 description: Tinybird file formats, SQL rules, optimization patterns, and best practices for datasources, pipes, endpoints, and materialized views.
 ---
 

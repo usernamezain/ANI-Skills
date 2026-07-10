@@ -1,5 +1,5 @@
 ---
-name: antigravity:pause-work
+name: ani:pause-work
 description: Create context handoff when pausing work mid-phase
 argument-hint: "[--report]"
 allowed-tools:

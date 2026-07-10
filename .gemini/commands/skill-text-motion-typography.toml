@@ -1,6 +1,0 @@
-description = "Animate text and typography — interactive/variable fonts that react to hover or mouse position, character/word/line stagger reveals, animated counters, typewriter effects, and text loading animations. Use whenever the user asks for \"text animation\", \"interactive font\", \"animated headline\", \"text reveal\", \"typewriter\", \"split text\", \"counter animation\", or \"text loading\". Covers both GSAP SplitText-style and dependency-free approaches."
-
-prompt = """
-Invoke the skill:text-motion-typography skill.
-Load the prompt instructions from skills/text-motion-typography/SKILL.md and consult the copy-pasteable references or guidelines inside skills/text-motion-typography/references/ to complete the task.
-"""

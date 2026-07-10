@@ -1,6 +1,0 @@
-description = "Compare Replicate models by cost, speed, quality, and capabilities."
-
-prompt = """
-Invoke the skill:compare-models skill.
-Load the prompt instructions from skills/compare-models/SKILL.md and consult the copy-pasteable references or guidelines inside skills/compare-models/references/ to complete the task.
-"""

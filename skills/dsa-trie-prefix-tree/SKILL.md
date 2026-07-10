@@ -1,5 +1,5 @@
 ---
-name: antigravity:dsa-trie-prefix-tree
+name: ani:dsa-trie-prefix-tree
 description: Constructs character dictionary trees for fast lookup, prefixes, and auto-complete checks. Triggered by trie, prefix tree, search words, word dictionary.
 ---
 

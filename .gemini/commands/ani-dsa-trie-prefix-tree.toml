@@ -1,0 +1,6 @@
+description = "Constructs character dictionary trees for fast lookup, prefixes, and auto-complete checks. Triggered by trie, prefix tree, search words, word dictionary."
+
+prompt = """
+Invoke the ani:dsa-trie-prefix-tree skill.
+Load the prompt instructions from skills/dsa-trie-prefix-tree/SKILL.md and consult the copy-pasteable references or guidelines inside skills/dsa-trie-prefix-tree/references/ to complete the task.
+"""

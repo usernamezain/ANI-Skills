@@ -1,5 +1,5 @@
 ---
-name: antigravity:build-models
+name: ani:build-models
 description: >
   Package and build custom AI models with Cog for deployment on Replicate.
   Use when creating a cog.yaml or predict.py, defining model inputs and

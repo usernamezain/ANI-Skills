@@ -1,5 +1,5 @@
 ---
-name: antigravity:xcuitest-skill
+name: ani:xcuitest-skill
 description: >
   Generates XCUITest UI tests for iOS/iPadOS apps in Swift. Apple's native
   testing framework for reliable, fast UI automation. Supports local simulators

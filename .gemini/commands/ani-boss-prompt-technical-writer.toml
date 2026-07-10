@@ -1,0 +1,6 @@
+description = "Maps codebase configurations and builds technical guides, readmes, and Architectural Decision Records."
+
+prompt = """
+Invoke the ani:boss-prompt-technical-writer skill.
+Load the prompt instructions from skills/boss-prompts/technical-writer/SKILL.md and consult the copy-pasteable references or guidelines inside skills/boss-prompts/technical-writer/ to complete the task.
+"""

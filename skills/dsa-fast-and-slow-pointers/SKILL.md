@@ -1,5 +1,5 @@
 ---
-name: antigravity:dsa-fast-and-slow-pointers
+name: ani:dsa-fast-and-slow-pointers
 description: Detects cycles or finds midpoints in linked lists or arrays using two pointers moving at different speeds. Triggered by fast and slow pointers, linked list cycle, happy number, middle of the linked list.
 ---
 

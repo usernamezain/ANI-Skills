@@ -1,6 +1,0 @@
-description = "Create context handoff when pausing work mid-phase"
-
-prompt = """
-Invoke the skill:pause-work skill.
-Load the prompt instructions from skills/pause-work/SKILL.md and consult the copy-pasteable references or guidelines inside skills/pause-work/references/ to complete the task.
-"""

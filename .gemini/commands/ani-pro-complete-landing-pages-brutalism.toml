@@ -1,0 +1,6 @@
+description = "Generate a comprehensive Brutalist landing page featuring aggressive typography, hard shadows, GSAP-driven horizontal scroll pinning, and 3D tilting Framer Motion cards."
+
+prompt = """
+Invoke the ani:pro:brutalism skill.
+Load the prompt instructions from skills/pro/complete-landing-pages/brutalism/SKILL.md and consult the copy-pasteable references or guidelines inside skills/pro/complete-landing-pages/brutalism/references/ to complete the task.
+"""

@@ -1,6 +1,0 @@
-description = "Build morph and mask reveal animations — shape morphing between SVG paths, clip-path mask wipes/reveals for images and sections, page/section transition overlays, and blob morph loaders. Use whenever the user asks for \"morph animation\", \"mask reveal\", \"clip path reveal\", \"shape morph\", \"page transition\", \"wipe transition\", or \"blob animation\". These are distinct from simple opacity fades — the defining trait is a moving edge/boundary that reveals or reshapes content."
-
-prompt = """
-Invoke the skill:morph-mask-reveal-transitions skill.
-Load the prompt instructions from skills/morph-mask-reveal-transitions/SKILL.md and consult the copy-pasteable references or guidelines inside skills/morph-mask-reveal-transitions/references/ to complete the task.
-"""

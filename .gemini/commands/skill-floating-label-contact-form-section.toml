@@ -1,6 +1,0 @@
-description = "Build a contact form section with animated floating labels, focus-state underline draw-in, inline validation micro-shakes, and a success-state morph on submit. Use whenever the user wants a \"contact form\", \"contact section\", \"get in touch form\", or a form with more polish than default browser styling. Pairs with morph-mask-reveal-transitions for the submit success state."
-
-prompt = """
-Invoke the skill:floating-label-contact-form-section skill.
-Load the prompt instructions from skills/floating-label-contact-form-section/SKILL.md and consult the copy-pasteable references or guidelines inside skills/floating-label-contact-form-section/references/ to complete the task.
-"""

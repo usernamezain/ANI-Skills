@@ -1,6 +1,0 @@
-description = ">"
-
-prompt = """
-Invoke the skill:prompt-videos skill.
-Load the prompt instructions from skills/prompt-videos/SKILL.md and consult the copy-pasteable references or guidelines inside skills/prompt-videos/references/ to complete the task.
-"""

@@ -1,5 +1,5 @@
 ---
-name: antigravity:azure-image-builder
+name: ani:azure-image-builder
 description: Build Azure managed images and Azure Compute Gallery images with Packer. Use when creating custom images for Azure VMs.
 ---
 

@@ -1,6 +1,0 @@
-description = ">-"
-
-prompt = """
-Invoke the skill:stripe-best-practices skill.
-Load the prompt instructions from skills/stripe-best-practices/SKILL.md and consult the copy-pasteable references or guidelines inside skills/stripe-best-practices/references/ to complete the task.
-"""

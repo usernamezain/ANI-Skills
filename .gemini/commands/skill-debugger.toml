@@ -1,6 +1,0 @@
-description = "Investigates bugs using scientific method, manages debug sessions, handles checkpoints. Spawned by /antigravity:debug orchestrator."
-
-prompt = """
-Invoke the skill:debugger skill.
-Load the prompt instructions from skills/debugger/SKILL.md and consult the copy-pasteable references or guidelines inside skills/debugger/references/ to complete the task.
-"""

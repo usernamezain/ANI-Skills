@@ -1,0 +1,6 @@
+description = "Resume work from previous session with full context restoration"
+
+prompt = """
+Invoke the ani:resume-work skill.
+Load the prompt instructions from skills/resume-work/SKILL.md and consult the copy-pasteable references or guidelines inside skills/resume-work/references/ to complete the task.
+"""

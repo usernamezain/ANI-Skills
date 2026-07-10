@@ -1,5 +1,5 @@
 ---
-name: antigravity:stripe-directory
+name: ani:stripe-directory
 description: >-
   Use when the user wants to find businesses, software, service providers, or
   partners for a specific industry, workflow, pain point, capability, or job to

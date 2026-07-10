@@ -1,0 +1,6 @@
+description = "Skill for designing infinite horizontal marquee text banners."
+
+prompt = """
+Invoke the ani:ticker-banner-designer skill.
+Load the prompt instructions from skills/ticker-banner-designer/SKILL.md and consult the copy-pasteable references or guidelines inside skills/ticker-banner-designer/references/ to complete the task.
+"""

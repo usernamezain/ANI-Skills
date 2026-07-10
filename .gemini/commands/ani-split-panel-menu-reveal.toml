@@ -1,0 +1,6 @@
+description = "Build a navigation menu where two panels split open from the center (or one panel wipes across) to reveal fullscreen navigation underneath, like theater curtains parting. Use whenever the user wants a \"split menu\", \"panels that open\", \"curtain-style menu split down the middle\", or a more dramatic/cinematic alternative to a simple fade-in fullscreen overlay."
+
+prompt = """
+Invoke the ani:split-panel-menu-reveal skill.
+Load the prompt instructions from skills/split-panel-menu-reveal/SKILL.md and consult the copy-pasteable references or guidelines inside skills/split-panel-menu-reveal/references/ to complete the task.
+"""

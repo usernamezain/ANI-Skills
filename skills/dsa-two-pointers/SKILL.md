@@ -1,5 +1,5 @@
 ---
-name: antigravity:dsa-two-pointers
+name: ani:dsa-two-pointers
 description: Optimizes search in sorted arrays/lists by iterating from both ends or at different speeds. Triggered by two pointers, two sum sorted, remove duplicates, squarring sorted array, triplet sum to zero.
 ---
 

@@ -1,5 +1,5 @@
 ---
-name: antigravity:tinybird-python-sdk-guidelines
+name: ani:tinybird-python-sdk-guidelines
 description: Tinybird Python SDK for defining datasources, pipes, and queries in Python. Use when working with tinybird-sdk, Python Tinybird projects, or data ingestion and queries in Python.
 ---
 

@@ -1,0 +1,6 @@
+description = "Diagnose planning directory health and optionally repair issues"
+
+prompt = """
+Invoke the ani:health skill.
+Load the prompt instructions from skills/health/SKILL.md and consult the copy-pasteable references or guidelines inside skills/health/references/ to complete the task.
+"""

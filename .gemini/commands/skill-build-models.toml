@@ -1,6 +1,0 @@
-description = ">"
-
-prompt = """
-Invoke the skill:build-models skill.
-Load the prompt instructions from skills/build-models/SKILL.md and consult the copy-pasteable references or guidelines inside skills/build-models/references/ to complete the task.
-"""

@@ -1,5 +1,5 @@
 ---
-name: antigravity:extract-learnings
+name: ani:extract-learnings
 description: Extract decisions, lessons, patterns, and surprises from completed phase artifacts
 argument-hint: <phase-number>
 allowed-tools:

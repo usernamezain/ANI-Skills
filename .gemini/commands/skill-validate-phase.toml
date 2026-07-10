@@ -1,6 +1,0 @@
-description = "Retroactively audit and fill Nyquist validation gaps for a completed phase"
-
-prompt = """
-Invoke the skill:validate-phase skill.
-Load the prompt instructions from skills/validate-phase/SKILL.md and consult the copy-pasteable references or guidelines inside skills/validate-phase/references/ to complete the task.
-"""

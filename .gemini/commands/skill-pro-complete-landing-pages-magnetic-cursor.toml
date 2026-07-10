@@ -1,6 +1,0 @@
-description = "A complete landing page component featuring a custom spring-physics magnetic cursor, noise overlays, and spotlight bento grids, built with Framer Motion."
-
-prompt = """
-Invoke the skill:pro:complete-landing-pages:magnetic-cursor skill.
-Load the prompt instructions from skills/pro/complete-landing-pages/magnetic-cursor/SKILL.md and consult the copy-pasteable references or guidelines inside skills/pro/complete-landing-pages/magnetic-cursor/references/ to complete the task.
-"""

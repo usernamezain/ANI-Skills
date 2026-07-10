@@ -1,6 +1,0 @@
-description = "Smart entry — detect project state and route to the right next ANI action."
-
-prompt = """
-Invoke the skill:next skill.
-Load the prompt instructions from skills/next/SKILL.md and consult the copy-pasteable references or guidelines inside skills/next/references/ to complete the task.
-"""

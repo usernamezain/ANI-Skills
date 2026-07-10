@@ -1,5 +1,5 @@
-﻿---
-name: antigravity:pro:complete-landing-pages:invisible-dimension
+---
+name: ani:pro:complete-landing-pages:invisible-dimension
 description: An award-winning creative landing page featuring dynamic dual-layer rendering, high-accuracy client mouse flashlight masking tracking, custom mix-blend mode cursors, and grain overlay filters.
 category: pro/complete-landing-pages
 tags:

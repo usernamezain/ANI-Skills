@@ -1,6 +1,6 @@
 ---
 type: prompt
-name: antigravity:forensics
+name: ani:forensics
 description: Post-mortem investigation for failed antigravity workflows — diagnoses what went wrong.
 argument-hint: "[problem description]"
 allowed-tools:

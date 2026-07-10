@@ -1,5 +1,5 @@
 ---
-name: antigravity:codeception-skill
+name: ani:codeception-skill
 description: >
   Generates Codeception tests in PHP covering acceptance, functional, and unit
   testing. BDD-style with Actor pattern. Use when user mentions "Codeception",

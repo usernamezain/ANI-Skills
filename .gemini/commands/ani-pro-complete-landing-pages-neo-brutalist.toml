@@ -1,0 +1,6 @@
+description = "A bold, high-contrast, \"chunky\" Neo-Brutalist landing page featuring 3D tilt cards, harsh shadows, and acid colors."
+
+prompt = """
+Invoke the ani:pro:complete-landing-pages:neo-brutalist skill.
+Load the prompt instructions from skills/pro/complete-landing-pages/neo-brutalist/SKILL.md and consult the copy-pasteable references or guidelines inside skills/pro/complete-landing-pages/neo-brutalist/references/ to complete the task.
+"""

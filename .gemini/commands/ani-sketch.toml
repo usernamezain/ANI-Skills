@@ -1,0 +1,6 @@
+description = "Sketch UI/design ideas with throwaway HTML mockups, or propose what to sketch next (frontier mode)"
+
+prompt = """
+Invoke the ani:sketch skill.
+Load the prompt instructions from skills/sketch/SKILL.md and consult the copy-pasteable references or guidelines inside skills/sketch/references/ to complete the task.
+"""

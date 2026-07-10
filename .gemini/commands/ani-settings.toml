@@ -1,0 +1,6 @@
+description = "Configure antigravity workflow toggles and model profile"
+
+prompt = """
+Invoke the ani:settings skill.
+Load the prompt instructions from skills/settings/SKILL.md and consult the copy-pasteable references or guidelines inside skills/settings/references/ to complete the task.
+"""

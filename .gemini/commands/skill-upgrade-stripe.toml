@@ -1,6 +1,0 @@
-description = "Guide for upgrading Stripe API versions and SDKs"
-
-prompt = """
-Invoke the skill:upgrade-stripe skill.
-Load the prompt instructions from skills/upgrade-stripe/SKILL.md and consult the copy-pasteable references or guidelines inside skills/upgrade-stripe/references/ to complete the task.
-"""

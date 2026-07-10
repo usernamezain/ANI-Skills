@@ -1,6 +1,0 @@
-description = "config workspace | workstreams thread update ship inbox"
-
-prompt = """
-Invoke the skill:manage skill.
-Load the prompt instructions from skills/ns-manage/SKILL.md and consult the copy-pasteable references or guidelines inside skills/ns-manage/references/ to complete the task.
-"""

@@ -1,5 +1,5 @@
 ---
-name: antigravity:stripe-best-practices
+name: ani:stripe-best-practices
 description: >-
   Guides Stripe integration decisions — API selection (Checkout Sessions vs
   PaymentIntents), Connect platform setup (Accounts v2, controller properties),

@@ -1,5 +1,5 @@
 ---
-name: antigravity:dsa-merge-intervals
+name: ani:dsa-merge-intervals
 description: Handles overlapping intervals, scheduling, and range queries. Triggered by merge intervals, insert interval, interval intersection, conflicting appointments, minimum meeting rooms.
 ---
 

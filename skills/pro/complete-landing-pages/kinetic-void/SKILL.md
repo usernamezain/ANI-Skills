@@ -1,5 +1,5 @@
-﻿---
-name: antigravity:pro:complete-landing-pages:kinetic-void
+---
+name: ani:pro:complete-landing-pages:kinetic-void
 description: A premier creative landing page utilizing Three.js React-Three-Fiber fluid-distort spheres, GSAP initial timeline revelations, glassmorphic floating navigations, bento grids, and scroll metrics.
 category: pro/complete-landing-pages
 tags:

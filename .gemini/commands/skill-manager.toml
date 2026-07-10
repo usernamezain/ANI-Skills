@@ -1,6 +1,0 @@
-description = "Interactive command center for managing multiple phases from one terminal"
-
-prompt = """
-Invoke the skill:manager skill.
-Load the prompt instructions from skills/manager/SKILL.md and consult the copy-pasteable references or guidelines inside skills/manager/references/ to complete the task.
-"""

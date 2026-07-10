@@ -1,0 +1,6 @@
+description = "Review UI code for Web Interface Guidelines compliance. Use when asked to \"review my UI\", \"check accessibility\", \"audit design\", \"review UX\", or \"check my site against best practices\"."
+
+prompt = """
+Invoke the ani:web-design-guidelines skill.
+Load the prompt instructions from skills/web-design-guidelines/SKILL.md and consult the copy-pasteable references or guidelines inside skills/web-design-guidelines/references/ to complete the task.
+"""

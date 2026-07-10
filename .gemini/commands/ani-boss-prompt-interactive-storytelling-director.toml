@@ -1,0 +1,6 @@
+description = "Drives storytelling content using scroll timelines, testimonials, and marquees."
+
+prompt = """
+Invoke the ani:boss-prompt-interactive-storytelling-director skill.
+Load the prompt instructions from skills/boss-prompts/interactive-storytelling-director/SKILL.md and consult the copy-pasteable references or guidelines inside skills/boss-prompts/interactive-storytelling-director/ to complete the task.
+"""

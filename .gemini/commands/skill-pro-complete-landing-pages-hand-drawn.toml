@@ -1,6 +1,0 @@
-description = "An organic, pleasantly imperfect landing page utilizing complex SVG displacement turbulence maps, scroll-triggered text highlights, hover-scribble buttons, self-drawing SVG arrows, and vintage grid-paper layout structures."
-
-prompt = """
-Invoke the skill:pro:complete-landing-pages:hand-drawn skill.
-Load the prompt instructions from skills/pro/complete-landing-pages/hand-drawn/SKILL.md and consult the copy-pasteable references or guidelines inside skills/pro/complete-landing-pages/hand-drawn/references/ to complete the task.
-"""

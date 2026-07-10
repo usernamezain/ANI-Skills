@@ -1,5 +1,5 @@
 ---
-name: antigravity:graphify
+name: ani:graphify
 description: "Build, query, and inspect the project knowledge graph in .planning/graphs/"
 argument-hint: "[build|query <term>|status|diff]"
 allowed-tools:

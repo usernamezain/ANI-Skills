@@ -1,5 +1,5 @@
 ---
-name: antigravity:serenity-bdd-skill
+name: ani:serenity-bdd-skill
 description: >
   Generates Serenity BDD tests in Java with Screenplay pattern, rich reporting,
   and Cucumber integration. Use when user mentions "Serenity", "Screenplay",

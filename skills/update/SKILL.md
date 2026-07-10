@@ -1,5 +1,5 @@
 ---
-name: antigravity:update
+name: ani:update
 description: Update antigravity to latest version with changelog display
 argument-hint: "[--sync | --reapply]"
 allowed-tools:

@@ -1,6 +1,0 @@
-description = "Manages multi-cycle /antigravity:debug checkpoint and continuation loop in isolated context. Spawns debugger agents, handles checkpoints via AskUserQuestion, dispatches specialist skills, applies fixes. Returns compact summary to main context. Spawned by /antigravity:debug command."
-
-prompt = """
-Invoke the skill:debug-session-manager skill.
-Load the prompt instructions from skills/debug-session-manager/SKILL.md and consult the copy-pasteable references or guidelines inside skills/debug-session-manager/references/ to complete the task.
-"""

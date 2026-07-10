@@ -1,5 +1,5 @@
 ---
-name: antigravity:mempalace-capture
+name: ani:mempalace-capture
 description: "File a phase artifact into MemPalace; mirror decision facts into its temporal KG"
 argument-hint: "[CONTEXT.md|PLAN.md|SUMMARY.md]"
 allowed-tools:

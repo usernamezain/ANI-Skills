@@ -1,0 +1,6 @@
+description = "Sequence complex multi-element animations precisely using GSAP timelines — labels, relative position parameters, nested timelines, and function-based stagger — instead of chaining many separate tweens with guessed delay values. Use whenever an animation involves more than 2-3 elements that need to move in relation to each other (hero entrances, multi-step reveals, coordinated section transitions), or when the user says animations feel \"out of sync\" or \"the timing is off.\""
+
+prompt = """
+Invoke the ani:gsap-timeline-choreography skill.
+Load the prompt instructions from skills/gsap-timeline-choreography/SKILL.md and consult the copy-pasteable references or guidelines inside skills/gsap-timeline-choreography/references/ to complete the task.
+"""

@@ -1,5 +1,5 @@
 ---
-name: antigravity:cucumber-skill
+name: ani:cucumber-skill
 description: >
   Generates Cucumber BDD tests with Gherkin feature files and step definitions
   in Java, JavaScript, or Ruby. Use when user mentions "Cucumber", "Gherkin",

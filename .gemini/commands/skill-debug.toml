@@ -1,6 +1,0 @@
-description = "Systematic debugging with persistent state across context resets"
-
-prompt = """
-Invoke the skill:debug skill.
-Load the prompt instructions from skills/debug/SKILL.md and consult the copy-pasteable references or guidelines inside skills/debug/references/ to complete the task.
-"""

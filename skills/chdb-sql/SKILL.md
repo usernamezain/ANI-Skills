@@ -1,5 +1,5 @@
 ---
-name: antigravity:chdb-sql
+name: ani:chdb-sql
 description: >-
   Use when the user wants to run SQL — especially analytical SQL — on
   local files (parquet/csv/json), URLs, S3 paths, or remote databases

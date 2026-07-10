@@ -1,0 +1,6 @@
+description = "Gather phase context through adaptive questioning before planning."
+
+prompt = """
+Invoke the ani:discuss-phase skill.
+Load the prompt instructions from skills/discuss-phase/SKILL.md and consult the copy-pasteable references or guidelines inside skills/discuss-phase/references/ to complete the task.
+"""

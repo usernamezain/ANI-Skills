@@ -1,5 +1,5 @@
 ---
-name: antigravity:dsa-union-find-disjoint-set
+name: ani:dsa-union-find-disjoint-set
 description: Tracks dynamic connectivity and grouping in undirected graphs. Triggered by union find, disjoint set, redundancy connection, number of provinces.
 ---
 

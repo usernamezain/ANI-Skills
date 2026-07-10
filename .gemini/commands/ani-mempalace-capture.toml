@@ -1,0 +1,6 @@
+description = "File a phase artifact into MemPalace; mirror decision facts into its temporal KG"
+
+prompt = """
+Invoke the ani:mempalace-capture skill.
+Load the prompt instructions from skills/mempalace-capture/SKILL.md and consult the copy-pasteable references or guidelines inside skills/mempalace-capture/references/ to complete the task.
+"""

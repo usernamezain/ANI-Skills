@@ -1,6 +1,0 @@
-description = "Generates professional slide deck images from content. Creates outlines with style instructions, then generates individual slide images. Use when user asks to \"create slides\", \"make a presentation\", \"generate deck\", \"slide deck\", or \"PPT\"."
-
-prompt = """
-Invoke the skill:baoyu-slide-deck skill.
-Load the prompt instructions from skills/baoyu-slide-deck/SKILL.md and consult the copy-pasteable references or guidelines inside skills/baoyu-slide-deck/references/ to complete the task.
-"""

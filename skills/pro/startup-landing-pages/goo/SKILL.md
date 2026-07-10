@@ -1,5 +1,5 @@
 ---
-name: antigravity:pro:startup-landing-pages:goo
+name: ani:pro:startup-landing-pages:goo
 description: Generate a full premium startup landing page with fluid gradient blobs, 3D tilt perspective hero, mouse-tracking bento grid glow effects, and framer-motion animations — the "Goo" aesthetic.
 ---
 

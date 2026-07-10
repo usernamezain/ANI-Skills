@@ -1,5 +1,5 @@
 ---
-name: antigravity:publish-models
+name: ani:publish-models
 description: >
   Push and publish custom AI models to Replicate, and set up CI/CD for
   releasing new model versions safely. Use when running cog push,

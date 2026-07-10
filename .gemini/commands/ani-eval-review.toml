@@ -1,0 +1,6 @@
+description = "Audit an executed AI phase's evaluation coverage and produce an EVAL-REVIEW.md remediation plan."
+
+prompt = """
+Invoke the ani:eval-review skill.
+Load the prompt instructions from skills/eval-review/SKILL.md and consult the copy-pasteable references or guidelines inside skills/eval-review/references/ to complete the task.
+"""

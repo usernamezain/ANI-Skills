@@ -1,5 +1,5 @@
 ---
-name: antigravity:pro:retro-80s
+name: ani:pro:retro-80s
 description: Generate a premium outrun/synthwave-styled 80s/90s retro hero section featuring CRT overlays, perspective grid movement, and text scrambling matrix effects.
 ---
 

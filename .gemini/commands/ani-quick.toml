@@ -1,0 +1,6 @@
+description = "Execute a quick task with antigravity guarantees (atomic commits, state tracking) but skip optional agents"
+
+prompt = """
+Invoke the ani:quick skill.
+Load the prompt instructions from skills/quick/SKILL.md and consult the copy-pasteable references or guidelines inside skills/quick/references/ to complete the task.
+"""

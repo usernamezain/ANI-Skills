@@ -1,6 +1,0 @@
-description = "Display project statistics — phases, plans, requirements, git metrics, and timeline"
-
-prompt = """
-Invoke the skill:stats skill.
-Load the prompt instructions from skills/stats/SKILL.md and consult the copy-pasteable references or guidelines inside skills/stats/references/ to complete the task.
-"""

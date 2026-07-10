@@ -1,0 +1,6 @@
+description = "Analyzes codebase and writes structured intel files to .planning/intel/."
+
+prompt = """
+Invoke the ani:intel-updater skill.
+Load the prompt instructions from skills/intel-updater/SKILL.md and consult the copy-pasteable references or guidelines inside skills/intel-updater/references/ to complete the task.
+"""

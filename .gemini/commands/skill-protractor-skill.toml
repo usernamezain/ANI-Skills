@@ -1,6 +1,0 @@
-description = ">"
-
-prompt = """
-Invoke the skill:protractor-skill skill.
-Load the prompt instructions from skills/protractor-skill/SKILL.md and consult the copy-pasteable references or guidelines inside skills/protractor-skill/references/ to complete the task.
-"""

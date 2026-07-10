@@ -1,5 +1,5 @@
 ---
-name: antigravity:mocha-skill
+name: ani:mocha-skill
 description: >
   Generates Mocha tests in JavaScript with Chai assertions and Sinon mocking.
   Use when user mentions "Mocha", "Chai", "sinon", "describe/it (not Jest)".

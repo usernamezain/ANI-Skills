@@ -1,5 +1,5 @@
 ---
-name: antigravity:fast
+name: ani:fast
 description: Execute a trivial task inline — no subagents, no planning overhead
 argument-hint: "[task description]"
 allowed-tools:

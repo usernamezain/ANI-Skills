@@ -1,0 +1,6 @@
+description = "Find AI models on Replicate using search and curated collections."
+
+prompt = """
+Invoke the ani:find-models skill.
+Load the prompt instructions from skills/find-models/SKILL.md and consult the copy-pasteable references or guidelines inside skills/find-models/references/ to complete the task.
+"""

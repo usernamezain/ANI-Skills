@@ -1,6 +1,0 @@
-description = "Tinybird file formats, SQL rules, optimization patterns, and best practices for datasources, pipes, endpoints, and materialized views."
-
-prompt = """
-Invoke the skill:tinybird skill.
-Load the prompt instructions from skills/tinybird/SKILL.md and consult the copy-pasteable references or guidelines inside skills/tinybird/references/ to complete the task.
-"""

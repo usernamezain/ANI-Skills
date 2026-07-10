@@ -1,0 +1,6 @@
+description = "Synthesizes classified planning docs into a single consolidated context. Applies precedence rules, detects cross-ref cycles, enforces LOCKED-vs-LOCKED hard-blocks, and writes INGEST-CONFLICTS.md with three buckets (auto-resolved, competing-variants, unresolved-blockers). Spawned by /ani:ingest-docs."
+
+prompt = """
+Invoke the ani:doc-synthesizer skill.
+Load the prompt instructions from skills/doc-synthesizer/SKILL.md and consult the copy-pasteable references or guidelines inside skills/doc-synthesizer/references/ to complete the task.
+"""

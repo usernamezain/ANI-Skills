@@ -1,6 +1,0 @@
-description = "Use when encountering any bug, test failure, or unexpected behavior, before proposing fixes"
-
-prompt = """
-Invoke the skill:systematic-debugging skill.
-Load the prompt instructions from skills/systematic-debugging/SKILL.md and consult the copy-pasteable references or guidelines inside skills/systematic-debugging/references/ to complete the task.
-"""

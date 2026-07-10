@@ -1,5 +1,5 @@
 ---
-name: antigravity:neon
+name: ani:neon
 description: >-
   Overview of the Neon platform for apps and agents, spanning Postgres, Auth,
   Data API, and the new services: Object Storage, Compute Functions, and AI

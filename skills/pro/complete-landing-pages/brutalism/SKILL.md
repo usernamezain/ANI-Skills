@@ -1,5 +1,5 @@
 ---
-name: antigravity:pro:brutalism
+name: ani:pro:brutalism
 description: Generate a comprehensive Brutalist landing page featuring aggressive typography, hard shadows, GSAP-driven horizontal scroll pinning, and 3D tilting Framer Motion cards.
 ---
 

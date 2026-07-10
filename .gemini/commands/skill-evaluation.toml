@@ -1,6 +1,0 @@
-description = "This skill should be used when the user asks to \"evaluate agent performance\", \"build test framework\", \"measure agent quality\", \"create evaluation rubrics\", or mentions LLM-as-judge, multi-dimensional evaluation, agent testing, or quality gates for agent pipelines."
-
-prompt = """
-Invoke the skill:evaluation skill.
-Load the prompt instructions from skills/evaluation/SKILL.md and consult the copy-pasteable references or guidelines inside skills/evaluation/references/ to complete the task.
-"""

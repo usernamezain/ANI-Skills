@@ -1,5 +1,5 @@
 ---
-name: antigravity:dsa-k-way-merge
+name: ani:dsa-k-way-merge
 description: Merges K sorted arrays, lists, or streams using a min-heap. Triggered by k way merge, merge k sorted lists, Kth smallest number in M sorted lists, Kth smallest number in a sorted matrix.
 ---
 

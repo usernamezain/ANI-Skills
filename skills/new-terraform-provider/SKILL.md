@@ -1,5 +1,5 @@
 ---
-name: antigravity:new-terraform-provider
+name: ani:new-terraform-provider
 description: Use this when scaffolding a new Terraform provider.
 license: MPL-2.0
 metadata:

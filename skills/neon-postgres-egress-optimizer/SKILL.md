@@ -1,5 +1,5 @@
 ---
-name: antigravity:neon-postgres-egress-optimizer
+name: ani:neon-postgres-egress-optimizer
 description: >-
   Diagnose and fix excessive Postgres egress (network data transfer) in a codebase.
   Use when a user mentions high database bills, unexpected data transfer costs,

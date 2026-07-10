@@ -1,5 +1,5 @@
 ---
-name: antigravity:unittest-skill
+name: ani:unittest-skill
 description: >
   Generates Python unittest tests. Built-in testing framework with TestCase,
   setUp/tearDown, and assertion methods. Use when user mentions "unittest",

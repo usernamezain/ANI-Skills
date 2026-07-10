@@ -1,6 +1,0 @@
-description = "Guidance for distinctive, intentional visual design when building new UI or reshaping an existing one. Helps with aesthetic direction, typography, and making choices that don't read as templated defaults."
-
-prompt = """
-Invoke the skill:frontend-design skill.
-Load the prompt instructions from skills/frontend-design/SKILL.md and consult the copy-pasteable references or guidelines inside skills/frontend-design/references/ to complete the task.
-"""

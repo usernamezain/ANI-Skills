@@ -1,5 +1,5 @@
-﻿---
-name: antigravity:pro:complete-landing-pages:disorder-grid
+---
+name: ani:pro:complete-landing-pages:disorder-grid
 description: An avant-garde brutalist aesthetic landing page characterized by systematic grid shattering, tension-based animations, staggered viewport-locked letter reveals, and parallax smooth scrolling.
 category: pro/complete-landing-pages
 tags:

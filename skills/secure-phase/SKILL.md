@@ -1,5 +1,5 @@
 ---
-name: antigravity:secure-phase
+name: ani:secure-phase
 description: Retroactively verify threat mitigations for a completed phase
 argument-hint: "[phase number]"
 allowed-tools:

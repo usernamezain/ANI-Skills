@@ -1,5 +1,5 @@
 ---
-name: antigravity:neon-object-storage
+name: ani:neon-object-storage
 description: >-
   S3-compatible object storage that branches with your Neon project, so files
   and the database stay in sync across every branch. Use when a user wants

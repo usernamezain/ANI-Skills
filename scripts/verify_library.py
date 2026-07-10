@@ -20,8 +20,8 @@ skills_dir = "skills"
 skill_paths = glob.glob(os.path.join(skills_dir, "**/SKILL.md"), recursive=True)
 print(f"Total SKILL.md files found: {len(skill_paths)}")
 
-# Validate we have exactly 444 skills
-expected_total = 444
+# Validate we have exactly 466 skills
+expected_total = 466
 if len(skill_paths) != expected_total:
     print(f"Error: Expected {expected_total} skills, but found {len(skill_paths)}.")
     sys.exit(1)

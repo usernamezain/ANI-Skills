@@ -1,6 +1,0 @@
-description = "Discover existing cloud resources using Terraform Search queries and bulk import them into Terraform management. Use when bringing unmanaged infrastructure under Terraform control, auditing cloud resources, or migrating to IaC."
-
-prompt = """
-Invoke the skill:terraform-search-import skill.
-Load the prompt instructions from skills/terraform-search-import/SKILL.md and consult the copy-pasteable references or guidelines inside skills/terraform-search-import/references/ to complete the task.
-"""

@@ -1,0 +1,6 @@
+description = "Traverses binary trees recursively or with stack (depth-first search) to evaluate paths or sums. Triggered by tree DFS, binary tree path sum, all paths for a sum, sum of path numbers, path with given sequence."
+
+prompt = """
+Invoke the ani:dsa-tree-dfs skill.
+Load the prompt instructions from skills/dsa-tree-dfs/SKILL.md and consult the copy-pasteable references or guidelines inside skills/dsa-tree-dfs/references/ to complete the task.
+"""

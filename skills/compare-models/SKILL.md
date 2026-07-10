@@ -1,5 +1,5 @@
 ---
-name: antigravity:compare-models
+name: ani:compare-models
 description: Compare Replicate models by cost, speed, quality, and capabilities.
 ---
 

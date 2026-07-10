@@ -1,0 +1,6 @@
+description = "MUST USE when reviewing ClickHouse schemas, queries, or configurations. Contains 31 rules that MUST be checked before providing recommendations. Always read relevant rule files and cite specific rules in responses."
+
+prompt = """
+Invoke the ani:clickhouse-best-practices skill.
+Load the prompt instructions from skills/clickhouse-best-practices/SKILL.md and consult the copy-pasteable references or guidelines inside skills/clickhouse-best-practices/references/ to complete the task.
+"""

@@ -1,5 +1,5 @@
 ---
-name: antigravity:clickhousectl-cloud-deploy
+name: ani:clickhousectl-cloud-deploy
 description: Use when a user wants to deploy ClickHouse to the cloud, go to production, use ClickHouse Cloud, host a managed ClickHouse service, or migrate from a local ClickHouse setup to ClickHouse Cloud.
 license: Apache-2.0
 metadata:

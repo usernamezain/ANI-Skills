@@ -1,0 +1,6 @@
+description = ">-"
+
+prompt = """
+Invoke the ani:neon-ai-gateway skill.
+Load the prompt instructions from skills/neon-ai-gateway/SKILL.md and consult the copy-pasteable references or guidelines inside skills/neon-ai-gateway/references/ to complete the task.
+"""

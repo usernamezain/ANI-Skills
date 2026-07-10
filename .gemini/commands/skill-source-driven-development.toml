@@ -1,6 +1,0 @@
-description = "Grounds every implementation decision in official documentation. Use when you want authoritative, source-cited code free from outdated patterns. Use when building with any framework or library where correctness matters."
-
-prompt = """
-Invoke the skill:source-driven-development skill.
-Load the prompt instructions from skills/source-driven-development/SKILL.md and consult the copy-pasteable references or guidelines inside skills/source-driven-development/references/ to complete the task.
-"""

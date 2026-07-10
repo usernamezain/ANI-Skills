@@ -1,5 +1,5 @@
 ---
-name: antigravity:junit-5-skill
+name: ani:junit-5-skill
 description: >
   Generates production-grade JUnit 5 unit and integration tests in Java.
   Covers assertions, parameterized tests, lifecycle hooks, mocking with

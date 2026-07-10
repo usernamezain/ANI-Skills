@@ -1,5 +1,5 @@
 ---
-name: antigravity:health
+name: ani:health
 description: Diagnose planning directory health and optionally repair issues
 argument-hint: "[--repair] [--context]"
 allowed-tools:

@@ -1,0 +1,6 @@
+description = ">-"
+
+prompt = """
+Invoke the ani:neon-postgres skill.
+Load the prompt instructions from skills/neon-postgres/SKILL.md and consult the copy-pasteable references or guidelines inside skills/neon-postgres/references/ to complete the task.
+"""

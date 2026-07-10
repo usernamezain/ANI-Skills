@@ -1,0 +1,6 @@
+description = "CRUD for phases in ROADMAP.md — add, insert, remove, or edit phases"
+
+prompt = """
+Invoke the ani:phase skill.
+Load the prompt instructions from skills/phase/SKILL.md and consult the copy-pasteable references or guidelines inside skills/phase/references/ to complete the task.
+"""

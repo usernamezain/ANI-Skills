@@ -1,6 +1,0 @@
-description = ">"
-
-prompt = """
-Invoke the skill:playwright-skill skill.
-Load the prompt instructions from skills/playwright-skill/SKILL.md and consult the copy-pasteable references or guidelines inside skills/playwright-skill/references/ to complete the task.
-"""

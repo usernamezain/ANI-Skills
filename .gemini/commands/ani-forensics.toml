@@ -1,0 +1,6 @@
+description = "Post-mortem investigation for failed antigravity workflows — diagnoses what went wrong."
+
+prompt = """
+Invoke the ani:forensics skill.
+Load the prompt instructions from skills/forensics/SKILL.md and consult the copy-pasteable references or guidelines inside skills/forensics/references/ to complete the task.
+"""

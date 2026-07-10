@@ -1,5 +1,5 @@
 ---
-name: antigravity:test-framework-migration-skill
+name: ani:test-framework-migration-skill
 description: >
   Migrates and converts test automation scripts between Selenium, Playwright,
   Puppeteer, and Cypress. Use when the user asks to migrate, convert, or port

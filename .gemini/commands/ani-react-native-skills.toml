@@ -1,0 +1,6 @@
+description = "React Native and Expo best practices for building performant mobile apps. Use"
+
+prompt = """
+Invoke the ani:vercel-react-native-skills skill.
+Load the prompt instructions from skills/react-native-skills/SKILL.md and consult the copy-pasteable references or guidelines inside skills/react-native-skills/references/ to complete the task.
+"""

@@ -1,5 +1,5 @@
 ---
-name: antigravity:selenide-skill
+name: ani:selenide-skill
 description: >
   Generates Selenide tests in Java. Concise UI testing framework built on
   Selenium with automatic waits and fluent API. Use when user mentions "Selenide",

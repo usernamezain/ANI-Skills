@@ -1,5 +1,5 @@
 ---
-name: antigravity:score-eval
+name: ani:score-eval
 description: Score the evaluation diff against the evaluation rubric.
 disable-model-invocation: true
 ---

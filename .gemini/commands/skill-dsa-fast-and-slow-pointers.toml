@@ -1,6 +1,0 @@
-description = "Detects cycles or finds midpoints in linked lists or arrays using two pointers moving at different speeds. Triggered by fast and slow pointers, linked list cycle, happy number, middle of the linked list."
-
-prompt = """
-Invoke the skill:dsa-fast-and-slow-pointers skill.
-Load the prompt instructions from skills/dsa-fast-and-slow-pointers/SKILL.md and consult the copy-pasteable references or guidelines inside skills/dsa-fast-and-slow-pointers/references/ to complete the task.
-"""

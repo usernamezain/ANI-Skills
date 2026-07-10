@@ -1,6 +1,0 @@
-description = "project lifecycle | milestones audits summary"
-
-prompt = """
-Invoke the skill:project skill.
-Load the prompt instructions from skills/ns-project/SKILL.md and consult the copy-pasteable references or guidelines inside skills/ns-project/references/ to complete the task.
-"""

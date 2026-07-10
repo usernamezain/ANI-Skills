@@ -1,5 +1,5 @@
 ---
-name: antigravity:detox-skill
+name: ani:detox-skill
 description: >
   Generates Detox E2E tests for React Native apps in JavaScript. Gray-box testing
   framework with automatic synchronization. Supports local simulators/emulators

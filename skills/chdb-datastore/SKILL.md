@@ -1,5 +1,5 @@
 ---
-name: antigravity:chdb-datastore
+name: ani:chdb-datastore
 description: >-
   Use when the user has tabular data (pandas DataFrame, parquet, csv,
   Arrow, json) and wants to filter, group, aggregate, join, or speed

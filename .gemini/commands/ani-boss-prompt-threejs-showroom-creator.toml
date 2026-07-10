@@ -1,0 +1,6 @@
+description = "Constructs WebGL showrooms, mouse-reactive particle background systems, and preloading assets."
+
+prompt = """
+Invoke the ani:boss-prompt-threejs-showroom-creator skill.
+Load the prompt instructions from skills/boss-prompts/threejs-showroom-creator/SKILL.md and consult the copy-pasteable references or guidelines inside skills/boss-prompts/threejs-showroom-creator/ to complete the task.
+"""

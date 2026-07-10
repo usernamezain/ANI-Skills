@@ -1,5 +1,5 @@
 ---
-name: antigravity:pro:image-cursor-trail
+name: ani:pro:image-cursor-trail
 description: Generate a premium React GSAP image trail effect that follows the user's cursor. Use this whenever the user asks for a mouse trailing effect, cursor images, or interactive hero backgrounds.
 ---
 

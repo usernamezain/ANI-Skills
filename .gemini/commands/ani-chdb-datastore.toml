@@ -1,0 +1,6 @@
+description = ">-"
+
+prompt = """
+Invoke the ani:chdb-datastore skill.
+Load the prompt instructions from skills/chdb-datastore/SKILL.md and consult the copy-pasteable references or guidelines inside skills/chdb-datastore/references/ to complete the task.
+"""

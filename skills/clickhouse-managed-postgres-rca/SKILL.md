@@ -1,5 +1,5 @@
 ---
-name: antigravity:clickhouse-managed-postgres-rca
+name: ani:clickhouse-managed-postgres-rca
 description: MUST USE when investigating performance issues on a ClickHouse-managed Postgres instance. Provides an evidence-based RCA workflow that scrapes the Prometheus endpoint for system signal, pulls per-digest evidence from the Slow Query Patterns API, and recommends (does not apply) a fix.
 license: Apache-2.0
 metadata:

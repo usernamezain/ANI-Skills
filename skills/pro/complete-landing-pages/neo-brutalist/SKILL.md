@@ -1,5 +1,5 @@
-﻿---
-name: antigravity:pro:complete-landing-pages:neo-brutalist
+---
+name: ani:pro:complete-landing-pages:neo-brutalist
 description: A bold, high-contrast, "chunky" Neo-Brutalist landing page featuring 3D tilt cards, harsh shadows, and acid colors.
 version: 1.0.0
 tags: ["landing-page", "framer-motion", "neo-brutalism", "3d-tilt", "chunky"]

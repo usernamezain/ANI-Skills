@@ -1,0 +1,6 @@
+description = "Orchestrates sign-up boxes, custom fields, and large navigation headers to drive user conversions."
+
+prompt = """
+Invoke the ani:boss-prompt-marketing-funnel-architect skill.
+Load the prompt instructions from skills/boss-prompts/marketing-funnel-architect/SKILL.md and consult the copy-pasteable references or guidelines inside skills/boss-prompts/marketing-funnel-architect/ to complete the task.
+"""

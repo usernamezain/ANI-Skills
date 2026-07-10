@@ -1,6 +1,0 @@
-description = "Generate a premium glassmorphic OS-style hero section with a bento grid layout, scrambling text, live clocks, and subtle noise overlays."
-
-prompt = """
-Invoke the skill:pro:glass-operating-system skill.
-Load the prompt instructions from skills/pro/core-landing-pages/glass-operating-system/SKILL.md and consult the copy-pasteable references or guidelines inside skills/pro/core-landing-pages/glass-operating-system/references/ to complete the task.
-"""

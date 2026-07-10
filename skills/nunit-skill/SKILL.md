@@ -1,5 +1,5 @@
 ---
-name: antigravity:nunit-skill
+name: ani:nunit-skill
 description: >
   Generates NUnit 3 tests in C#. Covers Assert.That constraint model,
   parameterized tests, setup/teardown, and Moq mocking. Use when user mentions

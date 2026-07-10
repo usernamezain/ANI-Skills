@@ -1,0 +1,6 @@
+description = ">"
+
+prompt = """
+Invoke the ani:karma-skill skill.
+Load the prompt instructions from skills/karma-skill/SKILL.md and consult the copy-pasteable references or guidelines inside skills/karma-skill/references/ to complete the task.
+"""

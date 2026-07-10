@@ -1,0 +1,6 @@
+description = "Use when executing implementation plans with independent tasks in the current session"
+
+prompt = """
+Invoke the ani:subagent-driven-development skill.
+Load the prompt instructions from skills/subagent-driven-development/SKILL.md and consult the copy-pasteable references or guidelines inside skills/subagent-driven-development/references/ to complete the task.
+"""

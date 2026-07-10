@@ -1,6 +1,0 @@
-description = "Skill for designing staggered reveal overlay slat animations."
-
-prompt = """
-Invoke the skill:slat-reveal-designer skill.
-Load the prompt instructions from skills/slat-reveal-designer/SKILL.md and consult the copy-pasteable references or guidelines inside skills/slat-reveal-designer/references/ to complete the task.
-"""

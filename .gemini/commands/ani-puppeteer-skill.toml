@@ -1,0 +1,6 @@
+description = ">"
+
+prompt = """
+Invoke the ani:puppeteer-skill skill.
+Load the prompt instructions from skills/puppeteer-skill/SKILL.md and consult the copy-pasteable references or guidelines inside skills/puppeteer-skill/references/ to complete the task.
+"""

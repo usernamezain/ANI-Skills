@@ -1,0 +1,6 @@
+description = "Synthesizes research outputs from parallel researcher agents into SUMMARY.md. Spawned by /ani:new-project after 4 researcher agents complete."
+
+prompt = """
+Invoke the ani:research-synthesizer skill.
+Load the prompt instructions from skills/research-synthesizer/SKILL.md and consult the copy-pasteable references or guidelines inside skills/research-synthesizer/references/ to complete the task.
+"""

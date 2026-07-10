@@ -1,0 +1,6 @@
+description = "Socratic ideation and idea routing — think through ideas before committing to plans"
+
+prompt = """
+Invoke the ani:explore skill.
+Load the prompt instructions from skills/explore/SKILL.md and consult the copy-pasteable references or guidelines inside skills/explore/references/ to complete the task.
+"""

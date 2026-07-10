@@ -1,5 +1,5 @@
 ---
-name: antigravity:testunit-skill
+name: ani:testunit-skill
 description: >
   Generates Test::Unit tests in Ruby. Classic xUnit-style testing with assert
   methods and test case classes. Use when user mentions "Test::Unit",

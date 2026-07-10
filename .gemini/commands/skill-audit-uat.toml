@@ -1,6 +1,0 @@
-description = "Cross-phase audit of all outstanding UAT and verification items"
-
-prompt = """
-Invoke the skill:audit-uat skill.
-Load the prompt instructions from skills/audit-uat/SKILL.md and consult the copy-pasteable references or guidelines inside skills/audit-uat/references/ to complete the task.
-"""

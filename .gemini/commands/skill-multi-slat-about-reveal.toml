@@ -1,6 +1,0 @@
-description = "Skill for designing scroll-pinned multi-slat reveals with alternating layers."
-
-prompt = """
-Invoke the skill:multi-slat-about-reveal skill.
-Load the prompt instructions from skills/multi-slat-about-reveal/SKILL.md and consult the copy-pasteable references or guidelines inside skills/multi-slat-about-reveal/references/ to complete the task.
-"""

@@ -1,0 +1,6 @@
+description = "[BETA] Offload plan phase to Claude Code's ultraplan cloud; review in browser and import back."
+
+prompt = """
+Invoke the ani:ultraplan-phase skill.
+Load the prompt instructions from skills/ultraplan-phase/SKILL.md and consult the copy-pasteable references or guidelines inside skills/ultraplan-phase/references/ to complete the task.
+"""

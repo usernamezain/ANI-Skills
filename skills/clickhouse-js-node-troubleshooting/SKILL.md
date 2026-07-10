@@ -1,5 +1,5 @@
 ---
-name: antigravity:clickhouse-js-node-troubleshooting
+name: ani:clickhouse-js-node-troubleshooting
 description: >
   Troubleshoot and resolve common issues with the ClickHouse Node.js client
   (@clickhouse/client). Use this skill whenever a user reports errors, unexpected

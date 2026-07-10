@@ -1,6 +1,0 @@
-description = "A high-end photography/portfolio landing page featuring smooth scrolling, complex parallax masonry grids, and magnetic interactive elements."
-
-prompt = """
-Invoke the skill:pro:complete-landing-pages:parallax-masonry skill.
-Load the prompt instructions from skills/pro/complete-landing-pages/parallax-masonry/SKILL.md and consult the copy-pasteable references or guidelines inside skills/pro/complete-landing-pages/parallax-masonry/references/ to complete the task.
-"""

@@ -1,5 +1,5 @@
 ---
-name: antigravity:upgrade-stripe
+name: ani:upgrade-stripe
 description: Guide for upgrading Stripe API versions and SDKs
 
 ---

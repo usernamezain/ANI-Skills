@@ -1,0 +1,6 @@
+description = ">"
+
+prompt = """
+Invoke the ani:mstest-skill skill.
+Load the prompt instructions from skills/mstest-skill/SKILL.md and consult the copy-pasteable references or guidelines inside skills/mstest-skill/references/ to complete the task.
+"""

@@ -1,6 +1,0 @@
-description = "Autonomous audit-to-fix pipeline — find issues, classify, fix, test, commit"
-
-prompt = """
-Invoke the skill:audit-fix skill.
-Load the prompt instructions from skills/audit-fix/SKILL.md and consult the copy-pasteable references or guidelines inside skills/audit-fix/references/ to complete the task.
-"""

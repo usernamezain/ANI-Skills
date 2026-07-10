@@ -1,5 +1,5 @@
 ---
-name: antigravity:karma-skill
+name: ani:karma-skill
 description: >
   Generates Karma test runner configurations for browser-based JavaScript testing.
   Works with Jasmine, Mocha, or QUnit. Use when user mentions "Karma",

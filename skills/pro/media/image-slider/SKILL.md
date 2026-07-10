@@ -1,5 +1,5 @@
 ---
-name: antigravity:pro:image-slider
+name: ani:pro:image-slider
 description: Generate a premium WebGL (THREE.js) + GSAP React image slider. Use this whenever the user asks for a beautiful, cinematic image slider, hero slider, or specific WebGL transition galleries. Highly customizable based on user's design requests.
 ---
 

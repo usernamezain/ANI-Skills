@@ -1,6 +1,0 @@
-description = "Guide existing codebase onboarding through mapping, doc ingest, and planning setup"
-
-prompt = """
-Invoke the skill:onboard skill.
-Load the prompt instructions from skills/onboard/SKILL.md and consult the copy-pasteable references or guidelines inside skills/onboard/references/ to complete the task.
-"""

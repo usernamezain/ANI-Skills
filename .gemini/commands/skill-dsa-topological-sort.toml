@@ -1,6 +1,0 @@
-description = "Performs linear ordering of vertices in directed acyclic graphs (DAG). Triggered by topological sort, tasks scheduling, tasks scheduling order, alien dictionary, reconstructing a sequence."
-
-prompt = """
-Invoke the skill:dsa-topological-sort skill.
-Load the prompt instructions from skills/dsa-topological-sort/SKILL.md and consult the copy-pasteable references or guidelines inside skills/dsa-topological-sort/references/ to complete the task.
-"""

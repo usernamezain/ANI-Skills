@@ -1,5 +1,5 @@
 ---
-name: antigravity:lettuce-skill
+name: ani:lettuce-skill
 description: >
   Generates Lettuce BDD tests for Python with feature files and step definitions.
   Note: Lettuce is legacy/unmaintained; consider Behave for new projects. Use when

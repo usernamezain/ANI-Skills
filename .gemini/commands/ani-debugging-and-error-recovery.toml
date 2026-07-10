@@ -1,0 +1,6 @@
+description = "Guides systematic root-cause debugging. Use when tests fail, builds break, behavior doesn't match expectations, or you encounter any unexpected error. Use when you need a systematic approach to finding and fixing the root cause rather than guessing."
+
+prompt = """
+Invoke the ani:debugging-and-error-recovery skill.
+Load the prompt instructions from skills/debugging-and-error-recovery/SKILL.md and consult the copy-pasteable references or guidelines inside skills/debugging-and-error-recovery/references/ to complete the task.
+"""

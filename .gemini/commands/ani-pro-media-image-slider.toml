@@ -1,0 +1,6 @@
+description = "Generate a premium WebGL (THREE.js) + GSAP React image slider. Use this whenever the user asks for a beautiful, cinematic image slider, hero slider, or specific WebGL transition galleries. Highly customizable based on user's design requests."
+
+prompt = """
+Invoke the ani:pro:image-slider skill.
+Load the prompt instructions from skills/pro/media/image-slider/SKILL.md and consult the copy-pasteable references or guidelines inside skills/pro/media/image-slider/references/ to complete the task.
+"""

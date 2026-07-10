@@ -1,6 +1,0 @@
-description = "Plan a phase as a vertical MVP slice — user story, SPIDR splitting, then plan-phase"
-
-prompt = """
-Invoke the skill:mvp-phase skill.
-Load the prompt instructions from skills/mvp-phase/SKILL.md and consult the copy-pasteable references or guidelines inside skills/mvp-phase/references/ to complete the task.
-"""

@@ -1,5 +1,5 @@
 ---
-name: antigravity:profile-user
+name: ani:profile-user
 description: Generate developer behavioral profile and create Claude-discoverable artifacts
 argument-hint: "[--questionnaire] [--refresh]"
 allowed-tools:

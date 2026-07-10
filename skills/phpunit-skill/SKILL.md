@@ -1,5 +1,5 @@
 ---
-name: antigravity:phpunit-skill
+name: ani:phpunit-skill
 description: >
   Generates PHPUnit tests in PHP. Covers assertions, data providers, mocking,
   and test doubles. Use when user mentions "PHPUnit", "TestCase", "assertEquals",

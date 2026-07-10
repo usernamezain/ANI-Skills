@@ -1,0 +1,6 @@
+description = "Ingest external plans with conflict detection against project decisions before writing anything."
+
+prompt = """
+Invoke the ani:import skill.
+Load the prompt instructions from skills/import/SKILL.md and consult the copy-pasteable references or guidelines inside skills/import/references/ to complete the task.
+"""

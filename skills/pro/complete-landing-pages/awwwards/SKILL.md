@@ -1,5 +1,5 @@
 ---
-name: antigravity:pro:awwwards
+name: ani:pro:awwwards
 description: Generate a premium, multi-section Awwwards-style complete landing page featuring horizontal scroll, parallax galleries, custom cursors, and GSAP ScrollTrigger typography reveals.
 ---
 

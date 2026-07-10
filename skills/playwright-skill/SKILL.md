@@ -1,5 +1,5 @@
 ---
-name: antigravity:playwright-skill
+name: ani:playwright-skill
 description: >
   Generates production-grade Playwright automation scripts and E2E tests
   in TypeScript, JavaScript, Python, Java, or C#. Supports local execution

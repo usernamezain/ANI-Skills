@@ -1,5 +1,5 @@
 ---
-name: antigravity:prompt-videos
+name: ani:prompt-videos
 description: >
   Prompting techniques for AI video generation models on Replicate.
   Use when writing prompts for video models or building video

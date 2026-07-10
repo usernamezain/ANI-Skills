@@ -1,0 +1,6 @@
+description = "Use when creating new skills, editing existing skills, or verifying skills work before deployment"
+
+prompt = """
+Invoke the ani:writing-skills skill.
+Load the prompt instructions from skills/writing-skills/SKILL.md and consult the copy-pasteable references or guidelines inside skills/writing-skills/references/ to complete the task.
+"""

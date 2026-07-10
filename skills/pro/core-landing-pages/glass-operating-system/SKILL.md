@@ -1,5 +1,5 @@
 ---
-name: antigravity:pro:glass-operating-system
+name: ani:pro:glass-operating-system
 description: Generate a premium glassmorphic OS-style hero section with a bento grid layout, scrambling text, live clocks, and subtle noise overlays.
 ---
 

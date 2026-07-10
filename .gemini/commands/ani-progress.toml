@@ -1,0 +1,6 @@
+description = "Check progress, advance workflow, or dispatch freeform intent — the unified antigravity situational command"
+
+prompt = """
+Invoke the ani:progress skill.
+Load the prompt instructions from skills/progress/SKILL.md and consult the copy-pasteable references or guidelines inside skills/progress/references/ to complete the task.
+"""

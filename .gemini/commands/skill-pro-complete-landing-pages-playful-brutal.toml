@@ -1,6 +1,0 @@
-description = "A high-energy, vibrant, and interactive landing page mixing brutalist grid structures with playful animations, marquee tickers, and physics-based interactions."
-
-prompt = """
-Invoke the skill:pro:complete-landing-pages:playful-brutal skill.
-Load the prompt instructions from skills/pro/complete-landing-pages/playful-brutal/SKILL.md and consult the copy-pasteable references or guidelines inside skills/pro/complete-landing-pages/playful-brutal/references/ to complete the task.
-"""

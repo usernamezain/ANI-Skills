@@ -1,5 +1,5 @@
 ---
-name: antigravity:robot-framework-skill
+name: ani:robot-framework-skill
 description: >
   Generates Robot Framework tests in keyword-driven syntax with Python.
   Supports SeleniumLibrary, RequestsLibrary, and custom keywords. Use when

@@ -1,5 +1,5 @@
 ---
-name: antigravity:jasmine-skill
+name: ani:jasmine-skill
 description: >
   Generates Jasmine tests in JavaScript. BDD-style framework with spies and
   async support. Use when user mentions "Jasmine", "jasmine.createSpy",

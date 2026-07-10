@@ -2,7 +2,7 @@
   {
     "id": "add-tests",
     "path": "skills/add-tests",
-    "name": "antigravity:add-tests",
+    "name": "ani:add-tests",
     "description": "Generate tests for a completed phase based on UAT criteria and implementation"
   },
   {
@@ -20,7 +20,7 @@
   {
     "id": "ai-integration-phase",
     "path": "skills/ai-integration-phase",
-    "name": "antigravity:ai-integration-phase",
+    "name": "ani:ai-integration-phase",
     "description": "Generate an AI-SPEC.md design contract for phases that involve building AI systems."
   },
   {
@@ -38,13 +38,13 @@
   {
     "id": "angular-developer",
     "path": "skills/angular-developer",
-    "name": "antigravity:angular-developer",
+    "name": "ani:angular-developer",
     "description": "Generates Angular code and provides architectural guidance. Trigger when creating projects, components, or services, or for best practices on reactivity (signals, linkedSignal, resource), forms, dependency injection, routing, SSR, accessibility (ARIA), animations, styling (component styles, Tailwind CSS), testing, or CLI tooling."
   },
   {
     "id": "angular-new-app",
     "path": "skills/angular-new-app",
-    "name": "antigravity:angular-new-app",
+    "name": "ani:angular-new-app",
     "description": "Creates a new Angular app using the Angular CLI. This skill should be used whenever a user wants to create a new Angular application and contains important guidelines for how to effectively create a modern Angular application."
   },
   {
@@ -62,13 +62,13 @@
   {
     "id": "api-and-interface-design",
     "path": "skills/api-and-interface-design",
-    "name": "antigravity:api-and-interface-design",
+    "name": "ani:api-and-interface-design",
     "description": "Guides stable API and interface design. Use when designing APIs, module boundaries, or any public interface. Use when creating REST or GraphQL endpoints, defining type contracts between modules, or establishing boundaries between frontend and backend."
   },
   {
     "id": "appium-skill",
     "path": "skills/appium-skill",
-    "name": "antigravity:appium-skill",
+    "name": "ani:appium-skill",
     "description": ">"
   },
   {
@@ -80,43 +80,43 @@
   {
     "id": "audit-fix",
     "path": "skills/audit-fix",
-    "name": "antigravity:audit-fix",
+    "name": "ani:audit-fix",
     "description": "Autonomous audit-to-fix pipeline — find issues, classify, fix, test, commit"
   },
   {
     "id": "audit-milestone",
     "path": "skills/audit-milestone",
-    "name": "antigravity:audit-milestone",
+    "name": "ani:audit-milestone",
     "description": "Audit milestone completion against original intent before archiving"
   },
   {
     "id": "audit-uat",
     "path": "skills/audit-uat",
-    "name": "antigravity:audit-uat",
+    "name": "ani:audit-uat",
     "description": "Cross-phase audit of all outstanding UAT and verification items"
   },
   {
     "id": "autonomous",
     "path": "skills/autonomous",
-    "name": "antigravity:autonomous",
+    "name": "ani:autonomous",
     "description": "Run all remaining phases autonomously — discuss→plan→execute per phase"
   },
   {
     "id": "aws-ami-builder",
     "path": "skills/aws-ami-builder",
-    "name": "antigravity:aws-ami-builder",
+    "name": "ani:aws-ami-builder",
     "description": "Build Amazon Machine Images (AMIs) with Packer using the amazon-ebs builder. Use when creating custom AMIs for EC2 instances."
   },
   {
     "id": "azure-image-builder",
     "path": "skills/azure-image-builder",
-    "name": "antigravity:azure-image-builder",
+    "name": "ani:azure-image-builder",
     "description": "Build Azure managed images and Azure Compute Gallery images with Packer. Use when creating custom images for Azure VMs."
   },
   {
     "id": "azure-verified-modules",
     "path": "skills/azure-verified-modules",
-    "name": "antigravity:azure-verified-modules",
+    "name": "ani:azure-verified-modules",
     "description": "Azure Verified Modules (AVM) requirements and best practices for developing certified Azure Terraform modules. Use when creating or reviewing Azure modules that need AVM certification."
   },
   {
@@ -248,20 +248,152 @@
   {
     "id": "behat-skill",
     "path": "skills/behat-skill",
-    "name": "antigravity:behat-skill",
+    "name": "ani:behat-skill",
     "description": ">"
   },
   {
     "id": "behave-skill",
     "path": "skills/behave-skill",
-    "name": "antigravity:behave-skill",
+    "name": "ani:behave-skill",
     "description": ">"
   },
   {
     "id": "better-auth-best-practices",
     "path": "skills/better-auth-best-practices",
-    "name": "antigravity:better-auth-best-practices",
+    "name": "ani:better-auth-best-practices",
     "description": "Configure Better Auth server and client, set up database adapters, manage sessions, add plugins, and handle environment variables. Use when users mention Better Auth, betterauth, auth.ts, or need to set up TypeScript authentication with email/password, OAuth, or plugin configuration."
+  },
+  {
+    "id": "boss-prompts/agile-release-manager",
+    "path": "skills/boss-prompts/agile-release-manager",
+    "name": "ani:boss-prompt-agile-release-manager",
+    "description": "Coordinates user acceptance tests, builds release manifests, and updates roadmaps."
+  },
+  {
+    "id": "boss-prompts/ci-cd-automation",
+    "path": "skills/boss-prompts/ci-cd-automation",
+    "name": "ani:boss-prompt-ci-cd-automation",
+    "description": "Designs Git workflows, automation runner hooks, testing gates, and release steps."
+  },
+  {
+    "id": "boss-prompts/creative-director",
+    "path": "skills/boss-prompts/creative-director",
+    "name": "ani:boss-prompt-creative-director",
+    "description": "Orchestrates immersive visual aesthetics, fluid page transitions, and smooth scrolling for high-end landing pages."
+  },
+  {
+    "id": "boss-prompts/e-commerce-ux-architect",
+    "path": "skills/boss-prompts/e-commerce-ux-architect",
+    "name": "ani:boss-prompt-e-commerce-ux-architect",
+    "description": "Builds high-performance e-commerce user interfaces with mega-menus, product details, and accordion FAQs."
+  },
+  {
+    "id": "boss-prompts/error-recovery-specialist",
+    "path": "skills/boss-prompts/error-recovery-specialist",
+    "name": "ani:boss-prompt-error-recovery-specialist",
+    "description": "Diagnoses project failures, reviews logs, and applies corrections to restore standard setups."
+  },
+  {
+    "id": "boss-prompts/full-stack-integrator",
+    "path": "skills/boss-prompts/full-stack-integrator",
+    "name": "ani:boss-prompt-full-stack-integrator",
+    "description": "Coordinates REST/GraphQL APIs and contracts between frontend UI layers and backend databases."
+  },
+  {
+    "id": "boss-prompts/interactive-storytelling-director",
+    "path": "skills/boss-prompts/interactive-storytelling-director",
+    "name": "ani:boss-prompt-interactive-storytelling-director",
+    "description": "Drives storytelling content using scroll timelines, testimonials, and marquees."
+  },
+  {
+    "id": "boss-prompts/llm-eval-judge",
+    "path": "skills/boss-prompts/llm-eval-judge",
+    "name": "ani:boss-prompt-llm-eval-judge",
+    "description": "Constructs Rubric scoring tables and checks for biases to evaluate language models."
+  },
+  {
+    "id": "boss-prompts/marketing-funnel-architect",
+    "path": "skills/boss-prompts/marketing-funnel-architect",
+    "name": "ani:boss-prompt-marketing-funnel-architect",
+    "description": "Orchestrates sign-up boxes, custom fields, and large navigation headers to drive user conversions."
+  },
+  {
+    "id": "boss-prompts/micro-interaction-expert",
+    "path": "skills/boss-prompts/micro-interaction-expert",
+    "name": "ani:boss-prompt-micro-interaction-expert",
+    "description": "Builds subtle, delightful micro-animations for interactive elements like custom cursors, CTAs, and headers."
+  },
+  {
+    "id": "boss-prompts/migration-consultant",
+    "path": "skills/boss-prompts/migration-consultant",
+    "name": "ani:boss-prompt-migration-consultant",
+    "description": "Evaluates deprecation metrics, updates APIs, and structures branches for refactored systems."
+  },
+  {
+    "id": "boss-prompts/monorepo-architect",
+    "path": "skills/boss-prompts/monorepo-architect",
+    "name": "ani:boss-prompt-monorepo-architect",
+    "description": "Structures workspaces, configure changesets, and compiles workspace registries."
+  },
+  {
+    "id": "boss-prompts/performance-auditor",
+    "path": "skills/boss-prompts/performance-auditor",
+    "name": "ani:boss-prompt-performance-auditor",
+    "description": "Reviews codebase assets, transitions, and loops to optimize CLS, LCP, and ensure 120fps smooth renders."
+  },
+  {
+    "id": "boss-prompts/portfolio-builder",
+    "path": "skills/boss-prompts/portfolio-builder",
+    "name": "ani:boss-prompt-portfolio-builder",
+    "description": "Assembles responsive developer portfolios featuring grid animations and overlays."
+  },
+  {
+    "id": "boss-prompts/saas-dashboard-designer",
+    "path": "skills/boss-prompts/saas-dashboard-designer",
+    "name": "ani:boss-prompt-saas-dashboard-designer",
+    "description": "Constructs responsive admin grids, counter metrics, and sliding menus for SaaS applications."
+  },
+  {
+    "id": "boss-prompts/security-warden",
+    "path": "skills/boss-prompts/security-warden",
+    "name": "ani:boss-prompt-security-warden",
+    "description": "Reviews codebase inputs, dependencies, authentication parameters, and secret leaks to secure modules."
+  },
+  {
+    "id": "boss-prompts/socratic-planner",
+    "path": "skills/boss-prompts/socratic-planner",
+    "name": "ani:boss-prompt-socratic-planner",
+    "description": "Refines product ideas, analyzes blocker edge cases, and constructs modular roadmap plans."
+  },
+  {
+    "id": "boss-prompts/spec-driven-developer",
+    "path": "skills/boss-prompts/spec-driven-developer",
+    "name": "ani:boss-prompt-spec-driven-developer",
+    "description": "Drives implementation loops by planning, discussing boundary requirements, writing tests first, and executing."
+  },
+  {
+    "id": "boss-prompts/systematic-debugger",
+    "path": "skills/boss-prompts/systematic-debugger",
+    "name": "ani:boss-prompt-systematic-debugger",
+    "description": "Investigates errors, evaluates system assumptions, and instruments log observers to resolve bugs systematically."
+  },
+  {
+    "id": "boss-prompts/technical-writer",
+    "path": "skills/boss-prompts/technical-writer",
+    "name": "ani:boss-prompt-technical-writer",
+    "description": "Maps codebase configurations and builds technical guides, readmes, and Architectural Decision Records."
+  },
+  {
+    "id": "boss-prompts/threejs-showroom-creator",
+    "path": "skills/boss-prompts/threejs-showroom-creator",
+    "name": "ani:boss-prompt-threejs-showroom-creator",
+    "description": "Constructs WebGL showrooms, mouse-reactive particle background systems, and preloading assets."
+  },
+  {
+    "id": "boss-prompts/web-scraper-and-tester",
+    "path": "skills/boss-prompts/web-scraper-and-tester",
+    "name": "ani:boss-prompt-web-scraper-and-tester",
+    "description": "Orchestrates browser automation, dynamic page crawling, element selecting, and end-to-end user flow testing using Puppeteer, Playwright, Selenium, and Cypress."
   },
   {
     "id": "brainstorming",
@@ -278,13 +410,13 @@
   {
     "id": "browser-testing-with-devtools",
     "path": "skills/browser-testing-with-devtools",
-    "name": "antigravity:browser-testing-with-devtools",
+    "name": "ani:browser-testing-with-devtools",
     "description": "Tests in real browsers via Chrome DevTools MCP. Use when building or debugging anything that runs in a browser. Use when you need to inspect the DOM, capture console errors, analyze network requests, profile performance, or verify visual output with real runtime data. Requires the chrome-devtools MCP server to be configured."
   },
   {
     "id": "build-models",
     "path": "skills/build-models",
-    "name": "antigravity:build-models",
+    "name": "ani:build-models",
     "description": ">"
   },
   {
@@ -302,37 +434,37 @@
   {
     "id": "capture",
     "path": "skills/capture",
-    "name": "antigravity:capture",
+    "name": "ani:capture",
     "description": "Capture ideas, tasks, notes, and seeds to their destination"
   },
   {
     "id": "capybara-skill",
     "path": "skills/capybara-skill",
-    "name": "antigravity:capybara-skill",
+    "name": "ani:capybara-skill",
     "description": ">"
   },
   {
     "id": "chdb-datastore",
     "path": "skills/chdb-datastore",
-    "name": "antigravity:chdb-datastore",
+    "name": "ani:chdb-datastore",
     "description": ">-"
   },
   {
     "id": "chdb-sql",
     "path": "skills/chdb-sql",
-    "name": "antigravity:chdb-sql",
+    "name": "ani:chdb-sql",
     "description": ">-"
   },
   {
     "id": "ci-cd-and-automation",
     "path": "skills/ci-cd-and-automation",
-    "name": "antigravity:ci-cd-and-automation",
+    "name": "ani:ci-cd-and-automation",
     "description": "Automates CI/CD pipeline setup. Use when setting up or modifying build and deployment pipelines. Use when you need to automate quality gates, configure test runners in CI, or establish deployment strategies."
   },
   {
     "id": "cicd-pipeline-skill",
     "path": "skills/cicd-pipeline-skill",
-    "name": "antigravity:cicd-pipeline-skill",
+    "name": "ani:cicd-pipeline-skill",
     "description": ">"
   },
   {
@@ -344,67 +476,67 @@
   {
     "id": "claimable-postgres",
     "path": "skills/claimable-postgres",
-    "name": "antigravity:claimable-postgres",
+    "name": "ani:claimable-postgres",
     "description": ">-"
   },
   {
     "id": "claude-api",
     "path": "skills/claude-api",
-    "name": "antigravity:claude-api",
+    "name": "ani:claude-api",
     "description": "|-"
   },
   {
     "id": "cleanup",
     "path": "skills/cleanup",
-    "name": "antigravity:cleanup",
+    "name": "ani:cleanup",
     "description": "Archive accumulated phase directories from completed milestones"
   },
   {
     "id": "clickhouse-architecture-advisor",
     "path": "skills/clickhouse-architecture-advisor",
-    "name": "antigravity:clickhouse-architecture-advisor",
+    "name": "ani:clickhouse-architecture-advisor",
     "description": "MUST USE when designing ClickHouse architectures, selecting between ingestion or modeling patterns, or translating best practices into workload-specific system designs. Complements clickhouse-best-practices with decision frameworks and explicit provenance labels."
   },
   {
     "id": "clickhouse-best-practices",
     "path": "skills/clickhouse-best-practices",
-    "name": "antigravity:clickhouse-best-practices",
+    "name": "ani:clickhouse-best-practices",
     "description": "MUST USE when reviewing ClickHouse schemas, queries, or configurations. Contains 31 rules that MUST be checked before providing recommendations. Always read relevant rule files and cite specific rules in responses."
   },
   {
     "id": "clickhouse-js-node-coding",
     "path": "skills/clickhouse-js-node-coding",
-    "name": "antigravity:clickhouse-js-node-coding",
+    "name": "ani:clickhouse-js-node-coding",
     "description": ">"
   },
   {
     "id": "clickhouse-js-node-rowbinary",
     "path": "skills/clickhouse-js-node-rowbinary",
-    "name": "antigravity:clickhouse-js-node-rowbinary",
+    "name": "ani:clickhouse-js-node-rowbinary",
     "description": ">"
   },
   {
     "id": "clickhouse-js-node-troubleshooting",
     "path": "skills/clickhouse-js-node-troubleshooting",
-    "name": "antigravity:clickhouse-js-node-troubleshooting",
+    "name": "ani:clickhouse-js-node-troubleshooting",
     "description": ">"
   },
   {
     "id": "clickhouse-managed-postgres-rca",
     "path": "skills/clickhouse-managed-postgres-rca",
-    "name": "antigravity:clickhouse-managed-postgres-rca",
+    "name": "ani:clickhouse-managed-postgres-rca",
     "description": "MUST USE when investigating performance issues on a ClickHouse-managed Postgres instance. Provides an evidence-based RCA workflow that scrapes the Prometheus endpoint for system signal, pulls per-digest evidence from the Slow Query Patterns API, and recommends (does not apply) a fix."
   },
   {
     "id": "clickhousectl-cloud-deploy",
     "path": "skills/clickhousectl-cloud-deploy",
-    "name": "antigravity:clickhousectl-cloud-deploy",
+    "name": "ani:clickhousectl-cloud-deploy",
     "description": "Use when a user wants to deploy ClickHouse to the cloud, go to production, use ClickHouse Cloud, host a managed ClickHouse service, or migrate from a local ClickHouse setup to ClickHouse Cloud."
   },
   {
     "id": "clickhousectl-local-dev",
     "path": "skills/clickhousectl-local-dev",
-    "name": "antigravity:clickhousectl-local-dev",
+    "name": "ani:clickhousectl-local-dev",
     "description": "Use when a user wants to build an application with ClickHouse, set up a local ClickHouse development environment, install ClickHouse, create a local server, create tables, or start developing with ClickHouse. Covers the full flow from zero to a working local ClickHouse setup."
   },
   {
@@ -416,13 +548,13 @@
   {
     "id": "code-review",
     "path": "skills/code-review",
-    "name": "antigravity:code-review",
+    "name": "ani:code-review",
     "description": "Review source files changed during a phase for bugs, security issues, and code quality problems"
   },
   {
     "id": "code-review-and-quality",
     "path": "skills/code-review-and-quality",
-    "name": "antigravity:code-review-and-quality",
+    "name": "ani:code-review-and-quality",
     "description": "Conducts multi-axis code review. Use before merging any change. Use when reviewing code written by yourself, another agent, or a human. Use when you need to assess code quality across multiple dimensions before it enters the main branch."
   },
   {
@@ -434,7 +566,7 @@
   {
     "id": "code-simplification",
     "path": "skills/code-simplification",
-    "name": "antigravity:code-simplification",
+    "name": "ani:code-simplification",
     "description": "Simplifies code for clarity. Use when refactoring code for clarity without changing behavior. Use when code works but is harder to read, maintain, or extend than it should be. Use when reviewing code that has accumulated unnecessary complexity."
   },
   {
@@ -446,25 +578,25 @@
   {
     "id": "codeception-skill",
     "path": "skills/codeception-skill",
-    "name": "antigravity:codeception-skill",
+    "name": "ani:codeception-skill",
     "description": ">"
   },
   {
     "id": "compare-models",
     "path": "skills/compare-models",
-    "name": "antigravity:compare-models",
+    "name": "ani:compare-models",
     "description": "Compare Replicate models by cost, speed, quality, and capabilities."
   },
   {
     "id": "complete-milestone",
     "path": "skills/complete-milestone",
-    "name": "antigravity:complete-milestone",
+    "name": "ani:complete-milestone",
     "description": "Archive completed milestone and prepare for next version"
   },
   {
     "id": "composio",
     "path": "skills/composio",
-    "name": "antigravity:composio",
+    "name": "ani:composio",
     "description": "Use 1000+ external apps via Composio - either directly through the CLI or by building AI agents and apps with the SDK"
   },
   {
@@ -476,25 +608,25 @@
   {
     "id": "config",
     "path": "skills/config",
-    "name": "antigravity:config",
+    "name": "ani:config",
     "description": "Configure antigravity settings — workflow toggles, advanced knobs, integrations, and model profile"
   },
   {
     "id": "connect-recommend",
     "path": "skills/connect-recommend",
-    "name": "antigravity:connect-recommend",
+    "name": "ani:connect-recommend",
     "description": ">-"
   },
   {
     "id": "content-experimentation-best-practices",
     "path": "skills/content-experimentation-best-practices",
-    "name": "antigravity:content-experimentation-best-practices",
+    "name": "ani:content-experimentation-best-practices",
     "description": "Content experimentation and A/B testing guidance covering experiment design, hypotheses, metrics, sample size, statistical foundations, CMS-managed variants, and common analysis pitfalls. Use this skill when planning experiments, setting up variants, choosing success metrics, interpreting statistical results, or building experimentation workflows in a CMS or frontend stack."
   },
   {
     "id": "content-modeling-best-practices",
     "path": "skills/content-modeling-best-practices",
-    "name": "antigravity:content-modeling-best-practices",
+    "name": "ani:content-modeling-best-practices",
     "description": "Structured content modeling guidance for schema design, content architecture, content reuse, references versus embedded objects, separation of concerns, and taxonomies across Sanity and other headless CMSes. Use this skill when designing or refactoring content types, deciding field shapes, debating reusable versus nested content, planning omnichannel content models, or reviewing whether a schema is too page-shaped or presentation-driven."
   },
   {
@@ -512,7 +644,7 @@
   {
     "id": "context-engineering",
     "path": "skills/context-engineering",
-    "name": "antigravity:context-engineering",
+    "name": "ani:context-engineering",
     "description": "Optimizes agent context setup. Use when starting a new session, when agent output quality degrades, when switching between tasks, or when you need to configure rules files and context for a project."
   },
   {
@@ -530,19 +662,19 @@
   {
     "id": "courier-notification-skills",
     "path": "skills/courier-notification-skills",
-    "name": "antigravity:courier-notification-skills",
+    "name": "ani:courier-notification-skills",
     "description": "Use when building notifications with Courier across email, SMS, push, in-app inbox, Slack, Teams, or WhatsApp. Covers transactional messages (password reset, OTP, orders, billing), growth notifications (onboarding, engagement, referral), multi-channel routing, preferences and topics, reliability and webhooks, journeys (multi-step notification sequences via API), template CRUD and Elemental content, routing strategies, provider configuration, the Courier CLI and MCP server, and migrations from Knock, Novu, or other notification systems."
   },
   {
     "id": "create-auth-skill",
     "path": "skills/create-auth-skill",
-    "name": "antigravity:create-auth-skill",
+    "name": "ani:create-auth-skill",
     "description": "Scaffold and implement authentication in TypeScript/JavaScript apps using Better Auth. Detect frameworks, configure database adapters, set up route handlers, add OAuth providers, and create auth UI pages. Use when users want to add login, sign-up, or authentication to a new or existing project with Better Auth."
   },
   {
     "id": "create-voltagent",
     "path": "skills/create-voltagent",
-    "name": "antigravity:create-voltagent",
+    "name": "ani:create-voltagent",
     "description": "Skill for creating AI agent projects using the VoltAgent framework. Guide for CLI setup and manual bootstrapping."
   },
   {
@@ -554,7 +686,7 @@
   {
     "id": "cucumber-skill",
     "path": "skills/cucumber-skill",
-    "name": "antigravity:cucumber-skill",
+    "name": "ani:cucumber-skill",
     "description": ">"
   },
   {
@@ -572,13 +704,13 @@
   {
     "id": "cypress-skill",
     "path": "skills/cypress-skill",
-    "name": "antigravity:cypress-skill",
+    "name": "ani:cypress-skill",
     "description": ">"
   },
   {
     "id": "debug",
     "path": "skills/debug",
-    "name": "antigravity:debug",
+    "name": "ani:debug",
     "description": "Systematic debugging with persistent state across context resets"
   },
   {
@@ -596,7 +728,7 @@
   {
     "id": "debugging-and-error-recovery",
     "path": "skills/debugging-and-error-recovery",
-    "name": "antigravity:debugging-and-error-recovery",
+    "name": "ani:debugging-and-error-recovery",
     "description": "Guides systematic root-cause debugging. Use when tests fail, builds break, behavior doesn't match expectations, or you encounter any unexpected error. Use when you need a systematic approach to finding and fixing the root cause rather than guessing."
   },
   {
@@ -608,19 +740,19 @@
   {
     "id": "deprecation-and-migration",
     "path": "skills/deprecation-and-migration",
-    "name": "antigravity:deprecation-and-migration",
+    "name": "ani:deprecation-and-migration",
     "description": "Manages deprecation and migration. Use when removing old systems, APIs, or features. Use when migrating users from one implementation to another. Use when deciding whether to maintain or sunset existing code."
   },
   {
     "id": "detox-skill",
     "path": "skills/detox-skill",
-    "name": "antigravity:detox-skill",
+    "name": "ani:detox-skill",
     "description": ">"
   },
   {
     "id": "discuss-phase",
     "path": "skills/discuss-phase",
-    "name": "antigravity:discuss-phase",
+    "name": "ani:discuss-phase",
     "description": "Gather phase context through adaptive questioning before planning."
   },
   {
@@ -662,13 +794,13 @@
   {
     "id": "docs-update",
     "path": "skills/docs-update",
-    "name": "antigravity:docs-update",
+    "name": "ani:docs-update",
     "description": "Generate or update project documentation verified against the codebase"
   },
   {
     "id": "documentation-and-adrs",
     "path": "skills/documentation-and-adrs",
-    "name": "antigravity:documentation-and-adrs",
+    "name": "ani:documentation-and-adrs",
     "description": "Records decisions and documentation. Use when making architectural decisions, changing public APIs, shipping features, or when you need to record context that future engineers and agents will need to understand the codebase."
   },
   {
@@ -686,139 +818,139 @@
   {
     "id": "doubt-driven-development",
     "path": "skills/doubt-driven-development",
-    "name": "antigravity:doubt-driven-development",
+    "name": "ani:doubt-driven-development",
     "description": "Subjects every non-trivial decision to a fresh-context adversarial review before it stands. Use when correctness matters more than speed, when working in unfamiliar code, when stakes are high (production, security-sensitive logic, irreversible operations), or any time a confident output would be cheaper to verify now than to debug later."
   },
   {
     "id": "dsa-backtracking-sudoku-solver",
     "path": "skills/dsa-backtracking-sudoku-solver",
-    "name": "antigravity:dsa-backtracking-sudoku-solver",
+    "name": "ani:dsa-backtracking-sudoku-solver",
     "description": "Solves constraint-satisfaction problems recursively by trying options and backtracking on failures. Triggered by backtracking, sudoku solver, n queens, solve constraint satisfaction."
   },
   {
     "id": "dsa-cyclic-sort",
     "path": "skills/dsa-cyclic-sort",
-    "name": "antigravity:dsa-cyclic-sort",
+    "name": "ani:dsa-cyclic-sort",
     "description": "Sorts arrays containing numbers in a given range (e.g. 1 to N) in-place without extra space. Triggered by cyclic sort, find missing number, find all duplicate numbers, find duplicate number."
   },
   {
     "id": "dsa-dijkstras-shortest-path",
     "path": "skills/dsa-dijkstras-shortest-path",
-    "name": "antigravity:dsa-dijkstras-shortest-path",
+    "name": "ani:dsa-dijkstras-shortest-path",
     "description": "Finds the shortest path between nodes in a weighted graph. Triggered by dijkstra, shortest path weighted, network delay time, path with maximum probability."
   },
   {
     "id": "dsa-fast-and-slow-pointers",
     "path": "skills/dsa-fast-and-slow-pointers",
-    "name": "antigravity:dsa-fast-and-slow-pointers",
+    "name": "ani:dsa-fast-and-slow-pointers",
     "description": "Detects cycles or finds midpoints in linked lists or arrays using two pointers moving at different speeds. Triggered by fast and slow pointers, linked list cycle, happy number, middle of the linked list."
   },
   {
     "id": "dsa-in-place-reversal-of-linked-list",
     "path": "skills/dsa-in-place-reversal-of-linked-list",
-    "name": "antigravity:dsa-in-place-reversal-of-linked-list",
+    "name": "ani:dsa-in-place-reversal-of-linked-list",
     "description": "Reverses a linked list or sub-list in-place without using extra memory nodes. Triggered by reverse linked list, reverse sub-list, reverse every k-element sub-list."
   },
   {
     "id": "dsa-k-way-merge",
     "path": "skills/dsa-k-way-merge",
-    "name": "antigravity:dsa-k-way-merge",
+    "name": "ani:dsa-k-way-merge",
     "description": "Merges K sorted arrays, lists, or streams using a min-heap. Triggered by k way merge, merge k sorted lists, Kth smallest number in M sorted lists, Kth smallest number in a sorted matrix."
   },
   {
     "id": "dsa-knapsack-dynamic-programming",
     "path": "skills/dsa-knapsack-dynamic-programming",
-    "name": "antigravity:dsa-knapsack-dynamic-programming",
+    "name": "ani:dsa-knapsack-dynamic-programming",
     "description": "Solves optimization problems with capacity/bounds constraints using dynamic programming (memoization). Triggered by knapsack, target sum, equal subset sum partition, subset sum."
   },
   {
     "id": "dsa-merge-intervals",
     "path": "skills/dsa-merge-intervals",
-    "name": "antigravity:dsa-merge-intervals",
+    "name": "ani:dsa-merge-intervals",
     "description": "Handles overlapping intervals, scheduling, and range queries. Triggered by merge intervals, insert interval, interval intersection, conflicting appointments, minimum meeting rooms."
   },
   {
     "id": "dsa-modified-binary-search",
     "path": "skills/dsa-modified-binary-search",
-    "name": "antigravity:dsa-modified-binary-search",
+    "name": "ani:dsa-modified-binary-search",
     "description": "Searches sorted lists or arrays with rotational shifts or infinite boundaries. Triggered by modified binary search, order-agnostic binary search, ceiling of a number, next letter, search in a sorted infinite array."
   },
   {
     "id": "dsa-segment-tree-range-queries",
     "path": "skills/dsa-segment-tree-range-queries",
-    "name": "antigravity:dsa-segment-tree-range-queries",
+    "name": "ani:dsa-segment-tree-range-queries",
     "description": "Performs fast range query calculations (sum/min/max) and updates on arrays. Triggered by segment tree, range queries, range sum query, range min query."
   },
   {
     "id": "dsa-sliding-window",
     "path": "skills/dsa-sliding-window",
-    "name": "antigravity:dsa-sliding-window",
+    "name": "ani:dsa-sliding-window",
     "description": "Solves subarray or substring problems requiring tracking a contiguous sequence of elements. Triggered by sliding window, longest substring, minimum size subarray sum, maximum sum subarray of size k."
   },
   {
     "id": "dsa-subsets",
     "path": "skills/dsa-subsets",
-    "name": "antigravity:dsa-subsets",
+    "name": "ani:dsa-subsets",
     "description": "Generates permutations, combinations, and subsets using BFS backtracking. Triggered by subsets, subsets with duplicates, permutations, string permutations, uppercase/lowercase letters permutation."
   },
   {
     "id": "dsa-top-k-elements",
     "path": "skills/dsa-top-k-elements",
-    "name": "antigravity:dsa-top-k-elements",
+    "name": "ani:dsa-top-k-elements",
     "description": "Finds or processes the largest/smallest K elements in a set using heaps. Triggered by top k elements, top k frequent numbers, Kth largest number in a stream, Kth smallest number."
   },
   {
     "id": "dsa-topological-sort",
     "path": "skills/dsa-topological-sort",
-    "name": "antigravity:dsa-topological-sort",
+    "name": "ani:dsa-topological-sort",
     "description": "Performs linear ordering of vertices in directed acyclic graphs (DAG). Triggered by topological sort, tasks scheduling, tasks scheduling order, alien dictionary, reconstructing a sequence."
   },
   {
     "id": "dsa-tree-bfs",
     "path": "skills/dsa-tree-bfs",
-    "name": "antigravity:dsa-tree-bfs",
+    "name": "ani:dsa-tree-bfs",
     "description": "Traverses binary tree levels (breadth-first search). Triggered by tree BFS, level order traversal, zigzag traversal, level average, level order successor."
   },
   {
     "id": "dsa-tree-dfs",
     "path": "skills/dsa-tree-dfs",
-    "name": "antigravity:dsa-tree-dfs",
+    "name": "ani:dsa-tree-dfs",
     "description": "Traverses binary trees recursively or with stack (depth-first search) to evaluate paths or sums. Triggered by tree DFS, binary tree path sum, all paths for a sum, sum of path numbers, path with given sequence."
   },
   {
     "id": "dsa-trie-prefix-tree",
     "path": "skills/dsa-trie-prefix-tree",
-    "name": "antigravity:dsa-trie-prefix-tree",
+    "name": "ani:dsa-trie-prefix-tree",
     "description": "Constructs character dictionary trees for fast lookup, prefixes, and auto-complete checks. Triggered by trie, prefix tree, search words, word dictionary."
   },
   {
     "id": "dsa-two-heaps",
     "path": "skills/dsa-two-heaps",
-    "name": "antigravity:dsa-two-heaps",
+    "name": "ani:dsa-two-heaps",
     "description": "Maintains values in a dataset split into min-heap and max-heap partitions (e.g. median search). Triggered by two heaps, find the median of a number stream, sliding window median, maximize capital."
   },
   {
     "id": "dsa-two-pointers",
     "path": "skills/dsa-two-pointers",
-    "name": "antigravity:dsa-two-pointers",
+    "name": "ani:dsa-two-pointers",
     "description": "Optimizes search in sorted arrays/lists by iterating from both ends or at different speeds. Triggered by two pointers, two sum sorted, remove duplicates, squarring sorted array, triplet sum to zero."
   },
   {
     "id": "dsa-union-find-disjoint-set",
     "path": "skills/dsa-union-find-disjoint-set",
-    "name": "antigravity:dsa-union-find-disjoint-set",
+    "name": "ani:dsa-union-find-disjoint-set",
     "description": "Tracks dynamic connectivity and grouping in undirected graphs. Triggered by union find, disjoint set, redundancy connection, number of provinces."
   },
   {
     "id": "email-and-password-best-practices",
     "path": "skills/email-and-password-best-practices",
-    "name": "antigravity:email-and-password-best-practices",
+    "name": "ani:email-and-password-best-practices",
     "description": "Configure email verification, implement password reset flows, set password policies, and customise hashing algorithms for Better Auth email/password authentication. Use when users need to set up login, sign-in, sign-up, credential authentication, or password security with Better Auth."
   },
   {
     "id": "espresso-skill",
     "path": "skills/espresso-skill",
-    "name": "antigravity:espresso-skill",
+    "name": "ani:espresso-skill",
     "description": ">"
   },
   {
@@ -836,7 +968,7 @@
   {
     "id": "eval-review",
     "path": "skills/eval-review",
-    "name": "antigravity:eval-review",
+    "name": "ani:eval-review",
     "description": "Audit an executed AI phase's evaluation coverage and produce an EVAL-REVIEW.md remediation plan."
   },
   {
@@ -848,7 +980,7 @@
   {
     "id": "execute-phase",
     "path": "skills/execute-phase",
-    "name": "antigravity:execute-phase",
+    "name": "ani:execute-phase",
     "description": "Execute all plans in a phase with wave-based parallelization"
   },
   {
@@ -866,19 +998,19 @@
   {
     "id": "explore",
     "path": "skills/explore",
-    "name": "antigravity:explore",
+    "name": "ani:explore",
     "description": "Socratic ideation and idea routing — think through ideas before committing to plans"
   },
   {
     "id": "extract-learnings",
     "path": "skills/extract-learnings",
-    "name": "antigravity:extract-learnings",
+    "name": "ani:extract-learnings",
     "description": "Extract decisions, lessons, patterns, and surprises from completed phase artifacts"
   },
   {
     "id": "fast",
     "path": "skills/fast",
-    "name": "antigravity:fast",
+    "name": "ani:fast",
     "description": "Execute a trivial task inline — no subagents, no planning overhead"
   },
   {
@@ -890,7 +1022,7 @@
   {
     "id": "find-models",
     "path": "skills/find-models",
-    "name": "antigravity:find-models",
+    "name": "ani:find-models",
     "description": "Find AI models on Replicate using search and curated collections."
   },
   {
@@ -902,37 +1034,37 @@
   {
     "id": "firecrawl-build",
     "path": "skills/firecrawl-build",
-    "name": "antigravity:firecrawl-build",
+    "name": "ani:firecrawl-build",
     "description": "Integrate Firecrawl into application code whenever a product, agent, or workflow needs web data inside the app: web search, live search results, page scraping, structured extraction, or browser interaction. Use when building any feature that needs data from the web in code, even if the user does not mention Firecrawl explicitly and only describes wanting web data, website content, search, scraping, or interaction in an application. Trigger for Firecrawl requests, \"fire girl\" shorthand, and generic app-level web-data needs that should map to `/scrape`, `/search`, or `/interact`. Do not use this skill for one-off terminal-only web tasks during the current session; use `firecrawl/cli` for those."
   },
   {
     "id": "firecrawl-build-interact",
     "path": "skills/firecrawl-build-interact",
-    "name": "antigravity:firecrawl-build-interact",
+    "name": "ani:firecrawl-build-interact",
     "description": "Integrate Firecrawl `/interact` into product code for dynamic pages and browser actions after scraping. Use when a feature needs clicks, form fills, pagination, authentication-aware flows, or other multi-step interactions that plain `/scrape` cannot complete."
   },
   {
     "id": "firecrawl-build-onboarding",
     "path": "skills/firecrawl-build-onboarding",
-    "name": "antigravity:firecrawl-build-onboarding",
+    "name": "ani:firecrawl-build-onboarding",
     "description": "Get Firecrawl credentials and SDK setup into a project. Use when an application needs `FIRECRAWL_API_KEY`, when an agent should add Firecrawl to `.env`, when the user wants to authenticate Firecrawl for app code, or when choosing the first SDK and docs for a new Firecrawl integration. This skill includes its own browser auth flow, so it does not depend on the website onboarding skill."
   },
   {
     "id": "firecrawl-build-scrape",
     "path": "skills/firecrawl-build-scrape",
-    "name": "antigravity:firecrawl-build-scrape",
+    "name": "ani:firecrawl-build-scrape",
     "description": "Integrate Firecrawl `/scrape` into product code for single-page extraction. Use when an app already has a URL and needs markdown, HTML, links, screenshots, metadata, or structured page output. Prefer this skill over broader crawl patterns when the feature is page-level."
   },
   {
     "id": "firecrawl-build-search",
     "path": "skills/firecrawl-build-search",
-    "name": "antigravity:firecrawl-build-search",
+    "name": "ani:firecrawl-build-search",
     "description": "Integrate Firecrawl `/search` into product code and agent workflows. Use when an app needs discovery before extraction, when the feature starts with a query instead of a URL, or when the system should search the web and optionally hydrate result content."
   },
   {
     "id": "firecrawl-research-index",
     "path": "skills/firecrawl-research-index",
-    "name": "antigravity:firecrawl-research-index",
+    "name": "ani:firecrawl-research-index",
     "description": "Find the papers that answer a research query with Firecrawl Research, using semantic search, semantic and structural expansion, and in-body verification. Always use this skill for any literature-finding / paper-retrieval task — single-paper lookups or full multi-paper sets."
   },
   {
@@ -950,13 +1082,13 @@
   {
     "id": "flutter-testing-skill",
     "path": "skills/flutter-testing-skill",
-    "name": "antigravity:flutter-testing-skill",
+    "name": "ani:flutter-testing-skill",
     "description": ">"
   },
   {
     "id": "forensics",
     "path": "skills/forensics",
-    "name": "antigravity:forensics",
+    "name": "ani:forensics",
     "description": "Post-mortem investigation for failed antigravity workflows — diagnoses what went wrong."
   },
   {
@@ -968,13 +1100,13 @@
   {
     "id": "frontend-design",
     "path": "skills/frontend-design",
-    "name": "antigravity:frontend-design",
+    "name": "ani:frontend-design",
     "description": "Guidance for distinctive, intentional visual design when building new UI or reshaping an existing one. Helps with aesthetic direction, typography, and making choices that don't read as templated defaults."
   },
   {
     "id": "frontend-ui-engineering",
     "path": "skills/frontend-ui-engineering",
-    "name": "antigravity:frontend-ui-engineering",
+    "name": "ani:frontend-ui-engineering",
     "description": "Builds production-quality UIs. Use when building or modifying user-facing interfaces. Use when creating components, implementing layouts, managing state, or when the output needs to look and feel production-quality rather than AI-generated."
   },
   {
@@ -986,49 +1118,49 @@
   {
     "id": "gauge-skill",
     "path": "skills/gauge-skill",
-    "name": "antigravity:gauge-skill",
+    "name": "ani:gauge-skill",
     "description": ">"
   },
   {
     "id": "geb-skill",
     "path": "skills/geb-skill",
-    "name": "antigravity:geb-skill",
+    "name": "ani:geb-skill",
     "description": ">"
   },
   {
     "id": "gemini-api-dev",
     "path": "skills/gemini-api-dev",
-    "name": "antigravity:gemini-api-dev",
+    "name": "ani:gemini-api-dev",
     "description": "Use this skill when building applications with Gemini API hosted models, including Gemini and Gemma 4, working with multimodal content (text, images, audio, video), implementing function calling, using structured outputs, or needing current model specifications. Covers SDK usage (google-genai for Python, @google/genai for JavaScript/TypeScript, com.google.genai:google-genai for Java, google.golang.org/genai for Go), model selection, and API capabilities."
   },
   {
     "id": "gemini-interactions-api",
     "path": "skills/gemini-interactions-api",
-    "name": "antigravity:gemini-interactions-api",
+    "name": "ani:gemini-interactions-api",
     "description": "Use this skill when writing code that calls the Gemini API for text generation, multi-turn chat, multimodal understanding, image generation, video generation, streaming responses, background research tasks, function calling, structured output, or migrating from the old generateContent API. This skill covers the Interactions API, the recommended way to use Gemini models and agents in Python and TypeScript."
   },
   {
     "id": "gemini-live-api-dev",
     "path": "skills/gemini-live-api-dev",
-    "name": "antigravity:gemini-live-api-dev",
+    "name": "ani:gemini-live-api-dev",
     "description": "Use this skill when building real-time, bidirectional streaming applications with the Gemini Live API. Covers WebSocket-based audio/video/text streaming, voice activity detection (VAD), native audio features, function calling, session management, ephemeral tokens for client-side auth, live translation, and all Live API configuration options. SDKs covered - google-genai (Python), @google/genai (JavaScript/TypeScript)."
   },
   {
     "id": "gemini-omni-flash-api",
     "path": "skills/gemini-omni-flash-api",
-    "name": "antigravity:gemini-omni-flash-api",
+    "name": "ani:gemini-omni-flash-api",
     "description": "Use this skill for generative video editing, text-to-video, image-referenced video generation, and first-frame-to-video transition animations using the official google-genai SDK. Includes workflows for pre-processing/optimizing high-resolution or long source videos with ffmpeg, stripping audio for full sound regeneration, and handling turn-by-turn video editing and parallel execution."
   },
   {
     "id": "git-workflow-and-versioning",
     "path": "skills/git-workflow-and-versioning",
-    "name": "antigravity:git-workflow-and-versioning",
+    "name": "ani:git-workflow-and-versioning",
     "description": "Structures git workflow practices. Use when making any code change. Use when committing, branching, resolving conflicts, or when you need to organize work across multiple parallel streams. Use when cutting a release, choosing a semantic version bump, tagging, or writing a changelog."
   },
   {
     "id": "graphify",
     "path": "skills/graphify",
-    "name": "antigravity:graphify",
+    "name": "ani:graphify",
     "description": "Build, query, and inspect the project knowledge graph in .planning/graphs/"
   },
   {
@@ -1046,13 +1178,13 @@
   {
     "id": "health",
     "path": "skills/health",
-    "name": "antigravity:health",
+    "name": "ani:health",
     "description": "Diagnose planning directory health and optionally repair issues"
   },
   {
     "id": "help",
     "path": "skills/help",
-    "name": "antigravity:help",
+    "name": "ani:help",
     "description": "Show available antigravity commands and usage guide"
   },
   {
@@ -1082,37 +1214,37 @@
   {
     "id": "hyperexecute-skill",
     "path": "skills/hyperexecute-skill",
-    "name": "antigravity:hyperexecute-skill",
+    "name": "ani:hyperexecute-skill",
     "description": ">"
   },
   {
     "id": "idea-refine",
     "path": "skills/idea-refine",
-    "name": "antigravity:idea-refine",
+    "name": "ani:idea-refine",
     "description": "Refines raw ideas into sharp, actionable concepts through structured divergent and convergent thinking. Use when an idea is still vague, when you need to stress-test assumptions before committing to a plan, or when you want to expand options before converging on one. Triggers on \"ideate\", \"refine this idea\", or \"stress-test my plan\"."
   },
   {
     "id": "import",
     "path": "skills/import",
-    "name": "antigravity:import",
+    "name": "ani:import",
     "description": "Ingest external plans with conflict detection against project decisions before writing anything."
   },
   {
     "id": "inbox",
     "path": "skills/inbox",
-    "name": "antigravity:inbox",
+    "name": "ani:inbox",
     "description": "Triage and review open GitHub issues and PRs against project templates and contribution guidelines."
   },
   {
     "id": "incremental-implementation",
     "path": "skills/incremental-implementation",
-    "name": "antigravity:incremental-implementation",
+    "name": "ani:incremental-implementation",
     "description": "Delivers changes incrementally. Use when implementing any feature or change that touches more than one file. Use when you're about to write a large amount of code at once, or when a task feels too big to land in one step."
   },
   {
     "id": "ingest-docs",
     "path": "skills/ingest-docs",
-    "name": "antigravity:ingest-docs",
+    "name": "ani:ingest-docs",
     "description": "Bootstrap or merge a .planning/ setup from existing ADRs, PRDs, SPECs, and docs in a repo."
   },
   {
@@ -1136,19 +1268,19 @@
   {
     "id": "interview-me",
     "path": "skills/interview-me",
-    "name": "antigravity:interview-me",
+    "name": "ani:interview-me",
     "description": "Extracts what the user actually wants instead of what they think they should want. Achieves this through one-question-at-a-time interview until ~95% confidence about the underlying intent. Use when an ask is underspecified (\"build me X\" without \"for whom\" or \"why now\"), when the user explicitly invokes (\"interview me\", \"grill me\", \"are we sure?\", \"stress-test my thinking\"), or when you catch yourself silently filling in ambiguous requirements before any plan, spec, or code exists."
   },
   {
     "id": "jasmine-skill",
     "path": "skills/jasmine-skill",
-    "name": "antigravity:jasmine-skill",
+    "name": "ani:jasmine-skill",
     "description": ">"
   },
   {
     "id": "jest-skill",
     "path": "skills/jest-skill",
-    "name": "antigravity:jest-skill",
+    "name": "ani:jest-skill",
     "description": ">"
   },
   {
@@ -1160,13 +1292,13 @@
   {
     "id": "junit-5-skill",
     "path": "skills/junit-5-skill",
-    "name": "antigravity:junit-5-skill",
+    "name": "ani:junit-5-skill",
     "description": ">"
   },
   {
     "id": "karma-skill",
     "path": "skills/karma-skill",
-    "name": "antigravity:karma-skill",
+    "name": "ani:karma-skill",
     "description": ">"
   },
   {
@@ -1178,13 +1310,13 @@
   {
     "id": "laravel-dusk-skill",
     "path": "skills/laravel-dusk-skill",
-    "name": "antigravity:laravel-dusk-skill",
+    "name": "ani:laravel-dusk-skill",
     "description": ">"
   },
   {
     "id": "lettuce-skill",
     "path": "skills/lettuce-skill",
-    "name": "antigravity:lettuce-skill",
+    "name": "ani:lettuce-skill",
     "description": ">"
   },
   {
@@ -1202,13 +1334,13 @@
   {
     "id": "manager",
     "path": "skills/manager",
-    "name": "antigravity:manager",
+    "name": "ani:manager",
     "description": "Interactive command center for managing multiple phases from one terminal"
   },
   {
     "id": "map-codebase",
     "path": "skills/map-codebase",
-    "name": "antigravity:map-codebase",
+    "name": "ani:map-codebase",
     "description": "Analyze codebase with parallel mapper agents to produce .planning/codebase/ documents"
   },
   {
@@ -1244,25 +1376,25 @@
   {
     "id": "mempalace-capture",
     "path": "skills/mempalace-capture",
-    "name": "antigravity:mempalace-capture",
+    "name": "ani:mempalace-capture",
     "description": "File a phase artifact into MemPalace; mirror decision facts into its temporal KG"
   },
   {
     "id": "mempalace-recall",
     "path": "skills/mempalace-recall",
-    "name": "antigravity:mempalace-recall",
+    "name": "ani:mempalace-recall",
     "description": "Recall decisions, patterns, and surprises from MemPalace before planning"
   },
   {
     "id": "milestone-summary",
     "path": "skills/milestone-summary",
-    "name": "antigravity:milestone-summary",
+    "name": "ani:milestone-summary",
     "description": "Generate a comprehensive project summary from milestone artifacts for team onboarding and review"
   },
   {
     "id": "mocha-skill",
     "path": "skills/mocha-skill",
-    "name": "antigravity:mocha-skill",
+    "name": "ani:mocha-skill",
     "description": ">"
   },
   {
@@ -1286,7 +1418,7 @@
   {
     "id": "mstest-skill",
     "path": "skills/mstest-skill",
-    "name": "antigravity:mstest-skill",
+    "name": "ani:mstest-skill",
     "description": ">"
   },
   {
@@ -1304,85 +1436,85 @@
   {
     "id": "mvp-phase",
     "path": "skills/mvp-phase",
-    "name": "antigravity:mvp-phase",
+    "name": "ani:mvp-phase",
     "description": "Plan a phase as a vertical MVP slice — user story, SPIDR splitting, then plan-phase"
   },
   {
     "id": "nemojs-skill",
     "path": "skills/nemojs-skill",
-    "name": "antigravity:nemojs-skill",
+    "name": "ani:nemojs-skill",
     "description": ">"
   },
   {
     "id": "neon",
     "path": "skills/neon",
-    "name": "antigravity:neon",
+    "name": "ani:neon",
     "description": ">-"
   },
   {
     "id": "neon-ai-gateway",
     "path": "skills/neon-ai-gateway",
-    "name": "antigravity:neon-ai-gateway",
+    "name": "ani:neon-ai-gateway",
     "description": ">-"
   },
   {
     "id": "neon-functions",
     "path": "skills/neon-functions",
-    "name": "antigravity:neon-functions",
+    "name": "ani:neon-functions",
     "description": ">-"
   },
   {
     "id": "neon-object-storage",
     "path": "skills/neon-object-storage",
-    "name": "antigravity:neon-object-storage",
+    "name": "ani:neon-object-storage",
     "description": ">-"
   },
   {
     "id": "neon-postgres",
     "path": "skills/neon-postgres",
-    "name": "antigravity:neon-postgres",
+    "name": "ani:neon-postgres",
     "description": ">-"
   },
   {
     "id": "neon-postgres-branches",
     "path": "skills/neon-postgres-branches",
-    "name": "antigravity:neon-postgres-branches",
+    "name": "ani:neon-postgres-branches",
     "description": ">-"
   },
   {
     "id": "neon-postgres-egress-optimizer",
     "path": "skills/neon-postgres-egress-optimizer",
-    "name": "antigravity:neon-postgres-egress-optimizer",
+    "name": "ani:neon-postgres-egress-optimizer",
     "description": ">-"
   },
   {
     "id": "new-milestone",
     "path": "skills/new-milestone",
-    "name": "antigravity:new-milestone",
+    "name": "ani:new-milestone",
     "description": "Start a new milestone cycle — update PROJECT.md and route to requirements"
   },
   {
     "id": "new-project",
     "path": "skills/new-project",
-    "name": "antigravity:new-project",
+    "name": "ani:new-project",
     "description": "Initialize a new project with deep context gathering and PROJECT.md"
   },
   {
     "id": "new-terraform-provider",
     "path": "skills/new-terraform-provider",
-    "name": "antigravity:new-terraform-provider",
+    "name": "ani:new-terraform-provider",
     "description": "Use this when scaffolding a new Terraform provider."
   },
   {
     "id": "next",
     "path": "skills/next",
-    "name": "antigravity:next",
+    "name": "ani:next",
     "description": "Smart entry — detect project state and route to the right next ANI action."
   },
   {
     "id": "nightwatchjs-skill",
     "path": "skills/nightwatchjs-skill",
-    "name": "antigravity:nightwatchjs-skill",
+    "name": "ani:nightwatchjs-skill",
     "description": ">"
   },
   {
@@ -1430,7 +1562,7 @@
   {
     "id": "nunit-skill",
     "path": "skills/nunit-skill",
-    "name": "antigravity:nunit-skill",
+    "name": "ani:nunit-skill",
     "description": ">"
   },
   {
@@ -1442,7 +1574,7 @@
   {
     "id": "observability-and-instrumentation",
     "path": "skills/observability-and-instrumentation",
-    "name": "antigravity:observability-and-instrumentation",
+    "name": "ani:observability-and-instrumentation",
     "description": "Instruments code so production behavior is visible and diagnosable. Use when adding logging, metrics, tracing, or alerting. Use when shipping any feature that runs in production and you need evidence it works. Use when production issues are reported but you can't tell what happened from the available data."
   },
   {
@@ -1466,7 +1598,7 @@
   {
     "id": "onboard",
     "path": "skills/onboard",
-    "name": "antigravity:onboard",
+    "name": "ani:onboard",
     "description": "Guide existing codebase onboarding through mapping, doc ingest, and planning setup"
   },
   {
@@ -1478,7 +1610,7 @@
   {
     "id": "organization-best-practices",
     "path": "skills/organization-best-practices",
-    "name": "antigravity:organization-best-practices",
+    "name": "ani:organization-best-practices",
     "description": "Configure multi-tenant organizations, manage members and invitations, define custom roles and permissions, set up teams, and implement RBAC using Better Auth's organization plugin. Use when users need org setup, team management, member roles, access control, or the Better Auth organization plugin."
   },
   {
@@ -1490,7 +1622,7 @@
   {
     "id": "pause-work",
     "path": "skills/pause-work",
-    "name": "antigravity:pause-work",
+    "name": "ani:pause-work",
     "description": "Create context handoff when pausing work mid-phase"
   },
   {
@@ -1502,13 +1634,13 @@
   {
     "id": "performance-optimization",
     "path": "skills/performance-optimization",
-    "name": "antigravity:performance-optimization",
+    "name": "ani:performance-optimization",
     "description": "Optimizes application performance. Use when performance requirements exist, when you suspect performance regressions, or when Core Web Vitals or load times need improvement. Use when profiling reveals bottlenecks that need fixing."
   },
   {
     "id": "phase",
     "path": "skills/phase",
-    "name": "antigravity:phase",
+    "name": "ani:phase",
     "description": "CRUD for phases in ROADMAP.md — add, insert, remove, or edit phases"
   },
   {
@@ -1520,7 +1652,7 @@
   {
     "id": "phpunit-skill",
     "path": "skills/phpunit-skill",
-    "name": "antigravity:phpunit-skill",
+    "name": "ani:phpunit-skill",
     "description": ">"
   },
   {
@@ -1538,13 +1670,13 @@
   {
     "id": "plan-phase",
     "path": "skills/plan-phase",
-    "name": "antigravity:plan-phase",
+    "name": "ani:plan-phase",
     "description": "Create detailed phase plan (PLAN.md) with verification loop"
   },
   {
     "id": "plan-review-convergence",
     "path": "skills/plan-review-convergence",
-    "name": "antigravity:plan-review-convergence",
+    "name": "ani:plan-review-convergence",
     "description": "Cross-AI plan convergence loop — replan with review feedback until no HIGH concerns remain."
   },
   {
@@ -1556,7 +1688,7 @@
   {
     "id": "planning-and-task-breakdown",
     "path": "skills/planning-and-task-breakdown",
-    "name": "antigravity:planning-and-task-breakdown",
+    "name": "ani:planning-and-task-breakdown",
     "description": "Breaks work into ordered tasks. Use when you have a spec or clear requirements and need to break work into implementable tasks. Use when a task feels too large to start, when you need to estimate scope, or when parallel work is possible."
   },
   {
@@ -1568,19 +1700,19 @@
   {
     "id": "playwright-skill",
     "path": "skills/playwright-skill",
-    "name": "antigravity:playwright-skill",
+    "name": "ani:playwright-skill",
     "description": ">"
   },
   {
     "id": "portable-text-conversion",
     "path": "skills/portable-text-conversion",
-    "name": "antigravity:portable-text-conversion",
+    "name": "ani:portable-text-conversion",
     "description": "Convert HTML and Markdown content into Portable Text blocks for Sanity. Use when migrating content from legacy CMSs, importing HTML or Markdown into Sanity, building content pipelines that ingest external content, converting rich text between formats, or programmatically creating Portable Text documents. Covers @portabletext/markdown (markdownToPortableText), @portabletext/block-tools (htmlToBlocks), custom deserializers, and the Portable Text specification for manual block construction."
   },
   {
     "id": "portable-text-serialization",
     "path": "skills/portable-text-serialization",
-    "name": "antigravity:portable-text-serialization",
+    "name": "ani:portable-text-serialization",
     "description": "Render and serialize Portable Text to React, Svelte, Vue, Astro, HTML, Markdown, and plain text. Use when implementing Portable Text rendering in any frontend framework, building custom serializers for non-standard block types, converting Portable Text to HTML strings server-side, converting Portable Text to Markdown, extracting plain text from Portable Text, or troubleshooting rendering issues with marks, blocks, lists, or custom types."
   },
   {
@@ -1598,7 +1730,7 @@
   {
     "id": "pr-branch",
     "path": "skills/pr-branch",
-    "name": "antigravity:pr-branch",
+    "name": "ani:pr-branch",
     "description": "Create a clean PR branch by filtering out .planning/ commits — ready for code review"
   },
   {
@@ -1616,253 +1748,253 @@
   {
     "id": "pro/animations-motion/flower-animation",
     "path": "skills/pro/animations-motion/flower-animation",
-    "name": "antigravity:pro:flower-animation",
+    "name": "ani:pro:flower-animation",
     "description": "Generate a complex, animated CSS/React blooming flower scene. Use this whenever the user requests a flower animation, blooming flowers, or a pure CSS/React animated background scene featuring nature elements."
   },
   {
     "id": "pro/backgrounds-visuals/cable-cursor",
     "path": "skills/pro/backgrounds-visuals/cable-cursor",
-    "name": "antigravity:pro:cable-cursor",
+    "name": "ani:pro:cable-cursor",
     "description": "Generate a premium interactive HTML5 Canvas-based cable/whip cursor trailing effect (Harmonic Stream) with additive blending, dynamic HSL rainbow colors responsive to mouse velocity, orbit physics, and smooth tail histories. Use this skill when the user asks for a sketchy line cursor, interactive ribbon cursor, cosmic particle whip, or colorful custom cursor trails on canvas."
   },
   {
     "id": "pro/backgrounds-visuals/liquid-reveal",
     "path": "skills/pro/backgrounds-visuals/liquid-reveal",
-    "name": "antigravity:pro:liquid-reveal",
+    "name": "ani:pro:liquid-reveal",
     "description": "Generate a highly interactive WebGL fluid simulation component for React. Use this whenever the user requests a liquid reveal, smoke simulation, interactive fluid background, or WebGL fluid canvas."
   },
   {
     "id": "pro/complete-landing-pages/awwwards",
     "path": "skills/pro/complete-landing-pages/awwwards",
-    "name": "antigravity:pro:awwwards",
+    "name": "ani:pro:awwwards",
     "description": "Generate a premium, multi-section Awwwards-style complete landing page featuring horizontal scroll, parallax galleries, custom cursors, and GSAP ScrollTrigger typography reveals."
   },
   {
     "id": "pro/complete-landing-pages/brutalism",
     "path": "skills/pro/complete-landing-pages/brutalism",
-    "name": "antigravity:pro:brutalism",
+    "name": "ani:pro:brutalism",
     "description": "Generate a comprehensive Brutalist landing page featuring aggressive typography, hard shadows, GSAP-driven horizontal scroll pinning, and 3D tilting Framer Motion cards."
   },
   {
     "id": "pro/complete-landing-pages/chrome-liquid",
     "path": "skills/pro/complete-landing-pages/chrome-liquid",
-    "name": "antigravity:pro:chrome-liquid",
+    "name": "ani:pro:chrome-liquid",
     "description": "Generate a premium Chrome/Liquid Metal aesthetic landing page featuring advanced SVG filters (Gooey, DisplacementMap), heavy physics-based mouse tracking, and layered metallic text rendering."
   },
   {
     "id": "pro/complete-landing-pages/controlled-chaos",
     "path": "skills/pro/complete-landing-pages/controlled-chaos",
-    "name": "antigravity:pro:complete-landing-pages:controlled-chaos",
+    "name": "ani:pro:complete-landing-pages:controlled-chaos",
     "description": "Generate a full brutalist, maximalist startup landing page with hand-drawn SVG animations, GSAP scroll pinning, loud rotated typography, offset solid shadows, mouse-reactive parallax, and deliberately rule-breaking layouts."
   },
   {
     "id": "pro/complete-landing-pages/dimensions",
     "path": "skills/pro/complete-landing-pages/dimensions",
-    "name": "antigravity:pro:complete-landing-pages:dimensions",
+    "name": "ani:pro:complete-landing-pages:dimensions",
     "description": "A stunning, high-contrast black-and-cyan multi-dimensional landing page utilizing GSAP scroll hijacking, vertical-to-horizontal pinning, parallax masonry grids, exploding 3D bentos, and infinite marquee loops."
   },
   {
     "id": "pro/complete-landing-pages/disorder-grid",
     "path": "skills/pro/complete-landing-pages/disorder-grid",
-    "name": "antigravity:pro:complete-landing-pages:disorder-grid",
+    "name": "ani:pro:complete-landing-pages:disorder-grid",
     "description": "An avant-garde brutalist aesthetic landing page characterized by systematic grid shattering, tension-based animations, staggered viewport-locked letter reveals, and parallax smooth scrolling."
   },
   {
     "id": "pro/complete-landing-pages/hand-drawn",
     "path": "skills/pro/complete-landing-pages/hand-drawn",
-    "name": "antigravity:pro:complete-landing-pages:hand-drawn",
+    "name": "ani:pro:complete-landing-pages:hand-drawn",
     "description": "An organic, pleasantly imperfect landing page utilizing complex SVG displacement turbulence maps, scroll-triggered text highlights, hover-scribble buttons, self-drawing SVG arrows, and vintage grid-paper layout structures."
   },
   {
     "id": "pro/complete-landing-pages/invisible-dimension",
     "path": "skills/pro/complete-landing-pages/invisible-dimension",
-    "name": "antigravity:pro:complete-landing-pages:invisible-dimension",
+    "name": "ani:pro:complete-landing-pages:invisible-dimension",
     "description": "An award-winning creative landing page featuring dynamic dual-layer rendering, high-accuracy client mouse flashlight masking tracking, custom mix-blend mode cursors, and grain overlay filters."
   },
   {
     "id": "pro/complete-landing-pages/kinetic-void",
     "path": "skills/pro/complete-landing-pages/kinetic-void",
-    "name": "antigravity:pro:complete-landing-pages:kinetic-void",
+    "name": "ani:pro:complete-landing-pages:kinetic-void",
     "description": "A premier creative landing page utilizing Three.js React-Three-Fiber fluid-distort spheres, GSAP initial timeline revelations, glassmorphic floating navigations, bento grids, and scroll metrics."
   },
   {
     "id": "pro/complete-landing-pages/magazine",
     "path": "skills/pro/complete-landing-pages/magazine",
-    "name": "antigravity:pro:complete-landing-pages:magazine",
+    "name": "ani:pro:complete-landing-pages:magazine",
     "description": "A ultra-premium, high-end creative editorial layout featuring spring-damped floating cursor images, typographic headers, asymmetric visual Indexes, and deep category menus."
   },
   {
     "id": "pro/complete-landing-pages/magnetic-cursor",
     "path": "skills/pro/complete-landing-pages/magnetic-cursor",
-    "name": "antigravity:pro:complete-landing-pages:magnetic-cursor",
+    "name": "ani:pro:complete-landing-pages:magnetic-cursor",
     "description": "A complete landing page component featuring a custom spring-physics magnetic cursor, noise overlays, and spotlight bento grids, built with Framer Motion."
   },
   {
     "id": "pro/complete-landing-pages/neo-brutalist",
     "path": "skills/pro/complete-landing-pages/neo-brutalist",
-    "name": "antigravity:pro:complete-landing-pages:neo-brutalist",
+    "name": "ani:pro:complete-landing-pages:neo-brutalist",
     "description": "A bold, high-contrast, \"chunky\" Neo-Brutalist landing page featuring 3D tilt cards, harsh shadows, and acid colors."
   },
   {
     "id": "pro/complete-landing-pages/parallax-masonry",
     "path": "skills/pro/complete-landing-pages/parallax-masonry",
-    "name": "antigravity:pro:complete-landing-pages:parallax-masonry",
+    "name": "ani:pro:complete-landing-pages:parallax-masonry",
     "description": "A high-end photography/portfolio landing page featuring smooth scrolling, complex parallax masonry grids, and magnetic interactive elements."
   },
   {
     "id": "pro/complete-landing-pages/playful-brutal",
     "path": "skills/pro/complete-landing-pages/playful-brutal",
-    "name": "antigravity:pro:complete-landing-pages:playful-brutal",
+    "name": "ani:pro:complete-landing-pages:playful-brutal",
     "description": "A high-energy, vibrant, and interactive landing page mixing brutalist grid structures with playful animations, marquee tickers, and physics-based interactions."
   },
   {
     "id": "pro/complete-landing-pages/sketchy",
     "path": "skills/pro/complete-landing-pages/sketchy",
-    "name": "antigravity:pro:complete-landing-pages:sketchy",
+    "name": "ani:pro:complete-landing-pages:sketchy",
     "description": "A creative, hand-drawn aesthetic landing page featuring SVG distortion filters to create wobbly \"pencil\" lines and interactive \"sketchbook\" mechanics."
   },
   {
     "id": "pro/complete-landing-pages/the-edit",
     "path": "skills/pro/complete-landing-pages/the-edit",
-    "name": "antigravity:pro:complete-landing-pages:the-edit",
+    "name": "ani:pro:complete-landing-pages:the-edit",
     "description": "A minimalist, high-fashion editorial landing page focusing on typography, generous whitespace, and subtle parallax imagery."
   },
   {
     "id": "pro/complete-landing-pages/wabi-sabi",
     "path": "skills/pro/complete-landing-pages/wabi-sabi",
-    "name": "antigravity:pro:complete-landing-pages:wabi-sabi",
+    "name": "ani:pro:complete-landing-pages:wabi-sabi",
     "description": "Generate a full Japanese Wabi-Sabi philosophy landing page featuring washi paper textures, hanko stamp cursors, vertical kanji-style navigation, parallax scroll, and a deep minimalist atmosphere of impermanence and stillness."
   },
   {
     "id": "pro/core-landing-pages/cartoonish",
     "path": "skills/pro/core-landing-pages/cartoonish",
-    "name": "antigravity:pro:cartoonish",
+    "name": "ani:pro:cartoonish",
     "description": "Generate a premium, highly energetic Neo-Brutalist \"Cartoonish\" hero landing page section with active cursor eye-tracking pupil animations, floating stickers with physics-based sine wave hovering, thick black outlines, infinite marquees, and elastic GSAP pop entrance reveals. Use this skill when the user requests a playful cartoonish landing page, neo-brutalist interface, loud bold typography, or custom eye-tracking elements."
   },
   {
     "id": "pro/core-landing-pages/draggable",
     "path": "skills/pro/core-landing-pages/draggable",
-    "name": "antigravity:pro:draggable",
+    "name": "ani:pro:draggable",
     "description": "Generate a highly interactive retro-styled desktop hero playground section (Playground.OS) using Framer Motion constraints dragging, dynamic z-index layers, OS window frames, bouncing elements, stickers, and Polaroid photos. Use this skill when the user requests a draggable landing page, interactive retro OS desk, collage UI layouts, or web toys built on framer-motion."
   },
   {
     "id": "pro/core-landing-pages/glass-operating-system",
     "path": "skills/pro/core-landing-pages/glass-operating-system",
-    "name": "antigravity:pro:glass-operating-system",
+    "name": "ani:pro:glass-operating-system",
     "description": "Generate a premium glassmorphic OS-style hero section with a bento grid layout, scrambling text, live clocks, and subtle noise overlays."
   },
   {
     "id": "pro/core-landing-pages/living-porcelain",
     "path": "skills/pro/core-landing-pages/living-porcelain",
-    "name": "antigravity:pro:living-porcelain",
+    "name": "ani:pro:living-porcelain",
     "description": "Generate a premium editorial hero section featuring a 3D morphing porcelain sphere reacting to cursor velocity, accompanied by sophisticated serif typography and noise overlays."
   },
   {
     "id": "pro/core-landing-pages/marble",
     "path": "skills/pro/core-landing-pages/marble",
-    "name": "antigravity:pro:marble",
+    "name": "ani:pro:marble",
     "description": "Generate a premium dark-themed hero section featuring a 3D morphing obsidian/marble stone, GSAP typography animations, and precise lighting with Three.js."
   },
   {
     "id": "pro/core-landing-pages/retro-80s",
     "path": "skills/pro/core-landing-pages/retro-80s",
-    "name": "antigravity:pro:retro-80s",
+    "name": "ani:pro:retro-80s",
     "description": "Generate a premium outrun/synthwave-styled 80s/90s retro hero section featuring CRT overlays, perspective grid movement, and text scrambling matrix effects."
   },
   {
     "id": "pro/core-landing-pages/russian-website",
     "path": "skills/pro/core-landing-pages/russian-website",
-    "name": "antigravity:pro:russian-website",
+    "name": "ani:pro:russian-website",
     "description": "Generate a premium high-contrast, cyberpunk-themed Russian Samurai promotional website with terminal boot preloader, diagonal sliced parallax image reveal scrolling, and interactive grid boards with red neon borders. Use this skill when the user asks for a Russian-themed design, cyber samurai layout, black-and-red high contrast cyberpunk pages, or terminal preloaded websites."
   },
   {
     "id": "pro/core-landing-pages/sketchy",
     "path": "skills/pro/core-landing-pages/sketchy",
-    "name": "antigravity:pro:sketchy",
+    "name": "ani:pro:sketchy",
     "description": "Generate a premium hand-drawn, \"sketchy\" notebook-style hero section featuring drawn 3D shapes, SVG squiggles, and GSAP stroke drawing animations."
   },
   {
     "id": "pro/core-landing-pages/swiss-style",
     "path": "skills/pro/core-landing-pages/swiss-style",
-    "name": "antigravity:pro:swiss-style",
+    "name": "ani:pro:swiss-style",
     "description": "Generate a premium Swiss design-inspired hero section featuring strict grid layouts, massive typography, smooth scrolling (Lenis), and interactive 3D WebGL images."
   },
   {
     "id": "pro/media/grid-distortion",
     "path": "skills/pro/media/grid-distortion",
-    "name": "antigravity:pro:grid-distortion",
+    "name": "ani:pro:grid-distortion",
     "description": "Generate an interactive WebGL-based grid displacement distortion canvas using Three.js DataTexture and custom shaders. Features chromatic aberration (RGB channels split) responsive to mouse gesture speeds, relaxation friction physics, and automatic container aspect ratio cover fitting. Use this skill when the user requests grid distortion, mouse ripples on images, interactive liquid picture distortion, or chromatic WebGL image hover warp effects."
   },
   {
     "id": "pro/media/image-slider",
     "path": "skills/pro/media/image-slider",
-    "name": "antigravity:pro:image-slider",
+    "name": "ani:pro:image-slider",
     "description": "Generate a premium WebGL (THREE.js) + GSAP React image slider. Use this whenever the user asks for a beautiful, cinematic image slider, hero slider, or specific WebGL transition galleries. Highly customizable based on user's design requests."
   },
   {
     "id": "pro/media/slider-page",
     "path": "skills/pro/media/slider-page",
-    "name": "antigravity:pro:slider-page",
+    "name": "ani:pro:slider-page",
     "description": "Generate an ultra-premium WebGL-based slideshow component utilizing Three.js and custom shaders to produce liquid glass refractions, chromatic aberrations, and bubble lens displacement transitions. Includes auto-play linear progress indicators, Tweakpane configuration binds, and a smooth radial dot canvas preloader. Use this skill when the user requests a WebGL slider, liquid glass displacement transition, three.js media slideshow, or interactive photo gallery with professional controls."
   },
   {
     "id": "pro/navigation-and-structures/navbar/apple-glass-nav",
     "path": "skills/pro/navigation-and-structures/navbar/apple-glass-nav",
-    "name": "antigravity:pro:navigation:apple-glass-nav",
+    "name": "ani:pro:navigation:apple-glass-nav",
     "description": "Generate a glassmorphic, iOS/macOS-inspired navbar with a Framer Motion layoutId-driven animated active pill that glides between nav items with Apple-caliber spring physics."
   },
   {
     "id": "pro/navigation-and-structures/navbar/gradient-border-nav",
     "path": "skills/pro/navigation-and-structures/navbar/gradient-border-nav",
-    "name": "antigravity:pro:navigation:gradient-border-nav",
+    "name": "ani:pro:navigation:gradient-border-nav",
     "description": "Generate a dark, premium SaaS/AI navbar with a spinning conic-gradient animated border, glassmorphism backdrop, and a controlled active state — the go-to for AI-native and modern SaaS brands."
   },
   {
     "id": "pro/navigation-and-structures/navbar/sketchy-nav",
     "path": "skills/pro/navigation-and-structures/navbar/sketchy-nav",
-    "name": "antigravity:pro:navigation:sketchy-nav",
+    "name": "ani:pro:navigation:sketchy-nav",
     "description": "Generate a hand-drawn, organic navbar with SVG scribble path animations for the active state — built for indie makers, creative portfolios, and personality-driven brands."
   },
   {
     "id": "pro/special-elements/404-page",
     "path": "skills/pro/special-elements/404-page",
-    "name": "antigravity:pro:404-page",
+    "name": "ani:pro:404-page",
     "description": "Generate a pixel-perfect React/Next.js Parallax 404 Canyon error page with interactive animations. Use this whenever the user requests a 404 error page, \"not found\" page, or specifically asks for the canyon parallax 404 component."
   },
   {
     "id": "pro/startup-landing-pages/goo",
     "path": "skills/pro/startup-landing-pages/goo",
-    "name": "antigravity:pro:startup-landing-pages:goo",
+    "name": "ani:pro:startup-landing-pages:goo",
     "description": "Generate a full premium startup landing page with fluid gradient blobs, 3D tilt perspective hero, mouse-tracking bento grid glow effects, and framer-motion animations — the \"Goo\" aesthetic."
   },
   {
     "id": "pro/startup-landing-pages/kinetic",
     "path": "skills/pro/startup-landing-pages/kinetic",
-    "name": "antigravity:pro:startup-landing-pages:kinetic",
+    "name": "ani:pro:startup-landing-pages:kinetic",
     "description": "Generate a full motion-driven, agency-grade landing page with GSAP ScrollTrigger parallax, Lenis smooth scrolling, physics-based magnetic cursors, and velocity-skew image columns — the \"Kinetic\" aesthetic."
   },
   {
     "id": "pro/startup-landing-pages/loo",
     "path": "skills/pro/startup-landing-pages/loo",
-    "name": "antigravity:pro:startup-landing-pages:loo",
+    "name": "ani:pro:startup-landing-pages:loo",
     "description": "Generate a full brutalist, CLI/developer-tool landing page with sharp GSAP entrance animations, a 3D CSS cube hero, horizontally pinned workflow pipeline, and mono typography — the \"Loo\" aesthetic."
   },
   {
     "id": "pro/ui-components/image-cursor-trail",
     "path": "skills/pro/ui-components/image-cursor-trail",
-    "name": "antigravity:pro:image-cursor-trail",
+    "name": "ani:pro:image-cursor-trail",
     "description": "Generate a premium React GSAP image trail effect that follows the user's cursor. Use this whenever the user asks for a mouse trailing effect, cursor images, or interactive hero backgrounds."
   },
   {
     "id": "profile-user",
     "path": "skills/profile-user",
-    "name": "antigravity:profile-user",
+    "name": "ani:profile-user",
     "description": "Generate developer behavioral profile and create Claude-discoverable artifacts"
   },
   {
     "id": "progress",
     "path": "skills/progress",
-    "name": "antigravity:progress",
+    "name": "ani:progress",
     "description": "Check progress, advance workflow, or dispatch freeform intent — the unified antigravity situational command"
   },
   {
@@ -1880,73 +2012,73 @@
   {
     "id": "prompt-images",
     "path": "skills/prompt-images",
-    "name": "antigravity:prompt-images",
+    "name": "ani:prompt-images",
     "description": ">"
   },
   {
     "id": "prompt-videos",
     "path": "skills/prompt-videos",
-    "name": "antigravity:prompt-videos",
+    "name": "ani:prompt-videos",
     "description": ">"
   },
   {
     "id": "protractor-skill",
     "path": "skills/protractor-skill",
-    "name": "antigravity:protractor-skill",
+    "name": "ani:protractor-skill",
     "description": ">"
   },
   {
     "id": "provider-actions",
     "path": "skills/provider-actions",
-    "name": "antigravity:provider-actions",
+    "name": "ani:provider-actions",
     "description": "Implement Terraform Provider actions using the Plugin Framework. Use when developing imperative operations that execute at lifecycle events (before/after create, update, destroy)."
   },
   {
     "id": "provider-docs",
     "path": "skills/provider-docs",
-    "name": "antigravity:provider-docs",
+    "name": "ani:provider-docs",
     "description": "Create, update, and review Terraform provider documentation for Terraform Registry using HashiCorp-recommended patterns, tfplugindocs templates, and schema descriptions. Use when adding or changing provider configuration, resources, data sources, ephemeral resources, list resources, functions, or guides; when validating generated docs; and when troubleshooting missing or incorrect Registry documentation."
   },
   {
     "id": "provider-resources",
     "path": "skills/provider-resources",
-    "name": "antigravity:provider-resources",
+    "name": "ani:provider-resources",
     "description": "Implement Terraform Provider resources and data sources using the Plugin Framework. Use when developing CRUD operations, schema design, state management, and acceptance testing for provider resources."
   },
   {
     "id": "provider-test-patterns",
     "path": "skills/provider-test-patterns",
-    "name": "antigravity:provider-test-patterns",
+    "name": "ani:provider-test-patterns",
     "description": ">-"
   },
   {
     "id": "publish-models",
     "path": "skills/publish-models",
-    "name": "antigravity:publish-models",
+    "name": "ani:publish-models",
     "description": ">"
   },
   {
     "id": "puppeteer-skill",
     "path": "skills/puppeteer-skill",
-    "name": "antigravity:puppeteer-skill",
+    "name": "ani:puppeteer-skill",
     "description": ">"
   },
   {
     "id": "push-to-registry",
     "path": "skills/push-to-registry",
-    "name": "antigravity:push-to-registry",
+    "name": "ani:push-to-registry",
     "description": "Push Packer build metadata to HCP Packer registry for tracking and managing image lifecycle. Use when integrating Packer builds with HCP Packer for version control and governance."
   },
   {
     "id": "pytest-skill",
     "path": "skills/pytest-skill",
-    "name": "antigravity:pytest-skill",
+    "name": "ani:pytest-skill",
     "description": ">"
   },
   {
     "id": "quick",
     "path": "skills/quick",
-    "name": "antigravity:quick",
+    "name": "ani:quick",
     "description": "Execute a quick task with antigravity guarantees (atomic commits, state tracking) but skip optional agents"
   },
   {
@@ -1970,7 +2102,7 @@
   {
     "id": "refactor-module",
     "path": "skills/refactor-module",
-    "name": "antigravity:refactor-module",
+    "name": "ani:refactor-module",
     "description": "Transform monolithic Terraform configurations into reusable, maintainable modules following HashiCorp's module design principles and community best practices."
   },
   {
@@ -1982,13 +2114,13 @@
   {
     "id": "remotion-best-practices",
     "path": "skills/remotion-best-practices",
-    "name": "antigravity:remotion-best-practices",
+    "name": "ani:remotion-best-practices",
     "description": "Best practices and domain knowledge for building videos programmatically with Remotion (videos in React/TypeScript, rendered to MP4). Use whenever writing or editing Remotion code — scaffolding a video project, animating with interpolate/spring over useCurrentFrame(), sequencing scenes and transitions, captions/subtitles, audio, GIFs/Lottie/3D, charts, visual effects, dynamic duration via calculateMetadata, or rendering. Consult before reaching for a Remotion API, since its components and props evolve (e.g. @remotion/media)."
   },
   {
     "id": "reqnroll-skill",
     "path": "skills/reqnroll-skill",
-    "name": "antigravity:reqnroll-skill",
+    "name": "ani:reqnroll-skill",
     "description": ">"
   },
   {
@@ -2006,7 +2138,7 @@
   {
     "id": "resume-work",
     "path": "skills/resume-work",
-    "name": "antigravity:resume-work",
+    "name": "ani:resume-work",
     "description": "Resume work from previous session with full context restoration"
   },
   {
@@ -2018,13 +2150,13 @@
   {
     "id": "review",
     "path": "skills/review",
-    "name": "antigravity:review",
+    "name": "ani:review",
     "description": "Request cross-AI peer review of phase plans from external AI CLIs"
   },
   {
     "id": "review-backlog",
     "path": "skills/review-backlog",
-    "name": "antigravity:review-backlog",
+    "name": "ani:review-backlog",
     "description": "Review and promote backlog items to active milestone"
   },
   {
@@ -2036,43 +2168,43 @@
   {
     "id": "robot-framework-skill",
     "path": "skills/robot-framework-skill",
-    "name": "antigravity:robot-framework-skill",
+    "name": "ani:robot-framework-skill",
     "description": ">"
   },
   {
     "id": "rspec-skill",
     "path": "skills/rspec-skill",
-    "name": "antigravity:rspec-skill",
+    "name": "ani:rspec-skill",
     "description": ">"
   },
   {
     "id": "run-acceptance-tests",
     "path": "skills/run-acceptance-tests",
-    "name": "antigravity:run-acceptance-tests",
+    "name": "ani:run-acceptance-tests",
     "description": "Guide for running acceptance tests for a Terraform provider. Use this when asked to run an acceptance test or to run a test with the prefix `TestAcc`."
   },
   {
     "id": "run-models",
     "path": "skills/run-models",
-    "name": "antigravity:run-models",
+    "name": "ani:run-models",
     "description": "Run AI models on Replicate via predictions, webhooks, and streaming."
   },
   {
     "id": "sanity-best-practices",
     "path": "skills/sanity-best-practices",
-    "name": "antigravity:sanity-best-practices",
+    "name": "ani:sanity-best-practices",
     "description": "Sanity development best practices for schema design, GROQ queries, TypeGen, Visual Editing, images, Portable Text, Studio structure, localization, migrations, Sanity Functions, Blueprints, and framework integrations such as Next.js, Nuxt, Astro, Remix, SvelteKit, Angular, Hydrogen, and the App SDK. Use this skill whenever working with Sanity schemas, defineType or defineField, GROQ or defineQuery, content modeling, Presentation or preview setups, Sanity-powered frontend integrations, Sanity Functions, documentEventHandler, defineDocumentFunction, defineMediaLibraryAssetFunction, @sanity/functions, @sanity/blueprints, sanity.blueprint.ts, event-driven content automation, or when reviewing and fixing a Sanity codebase."
   },
   {
     "id": "sanity-migration",
     "path": "skills/sanity-migration",
-    "name": "antigravity:sanity-migration",
+    "name": "ani:sanity-migration",
     "description": "Plans, implements, and reviews migrations from other CMSes and content systems into Sanity. Use when migrating or replatforming to Sanity from AEM, Adobe Experience Manager, Contentful, Strapi, Webflow, WordPress, Payload, Drupal, Markdown/MDX/frontmatter files, WXR/XML exports, CMS APIs, database dumps, static HTML, or when designing extraction, transformation, Portable Text conversion, asset migration, redirects, validation, and cutover workflows."
   },
   {
     "id": "score-eval",
     "path": "skills/score-eval",
-    "name": "antigravity:score-eval",
+    "name": "ani:score-eval",
     "description": "Score the evaluation diff against the evaluation rubric."
   },
   {
@@ -2102,13 +2234,13 @@
   {
     "id": "secure-phase",
     "path": "skills/secure-phase",
-    "name": "antigravity:secure-phase",
+    "name": "ani:secure-phase",
     "description": "Retroactively verify threat mitigations for a completed phase"
   },
   {
     "id": "security-and-hardening",
     "path": "skills/security-and-hardening",
-    "name": "antigravity:security-and-hardening",
+    "name": "ani:security-and-hardening",
     "description": "Hardens code against vulnerabilities. Use when handling user input, authentication, data storage, or external integrations. Use when building any feature that accepts untrusted data, manages user sessions, or interacts with third-party services."
   },
   {
@@ -2120,43 +2252,43 @@
   {
     "id": "selenide-skill",
     "path": "skills/selenide-skill",
-    "name": "antigravity:selenide-skill",
+    "name": "ani:selenide-skill",
     "description": ">"
   },
   {
     "id": "selenium-skill",
     "path": "skills/selenium-skill",
-    "name": "antigravity:selenium-skill",
+    "name": "ani:selenium-skill",
     "description": ">"
   },
   {
     "id": "seo-aeo-best-practices",
     "path": "skills/seo-aeo-best-practices",
-    "name": "antigravity:seo-aeo-best-practices",
+    "name": "ani:seo-aeo-best-practices",
     "description": "SEO and AEO best practices for metadata, Open Graph, sitemaps, robots.txt, hreflang, JSON-LD structured data, EEAT, and content optimized for search engines and AI answer surfaces. Use this skill when implementing page SEO, technical SEO, schema markup, international SEO, AI-overview readiness, or improving content for Google, ChatGPT, Perplexity, and similar assistants."
   },
   {
     "id": "serenity-bdd-skill",
     "path": "skills/serenity-bdd-skill",
-    "name": "antigravity:serenity-bdd-skill",
+    "name": "ani:serenity-bdd-skill",
     "description": ">"
   },
   {
     "id": "settings",
     "path": "skills/settings",
-    "name": "antigravity:settings",
+    "name": "ani:settings",
     "description": "Configure antigravity workflow toggles and model profile"
   },
   {
     "id": "ship",
     "path": "skills/ship",
-    "name": "antigravity:ship",
+    "name": "ani:ship",
     "description": "Create PR, run review, and prepare for merge after verification passes"
   },
   {
     "id": "shipping-and-launch",
     "path": "skills/shipping-and-launch",
-    "name": "antigravity:shipping-and-launch",
+    "name": "ani:shipping-and-launch",
     "description": "Prepares production launches. Use when preparing to deploy to production. Use when you need a pre-launch checklist, when setting up monitoring, when planning a staged rollout, or when you need a rollback strategy."
   },
   {
@@ -2168,7 +2300,7 @@
   {
     "id": "sketch",
     "path": "skills/sketch",
-    "name": "antigravity:sketch",
+    "name": "ani:sketch",
     "description": "Sketch UI/design ideas with throwaway HTML mockups, or propose what to sketch next (frontier mode)"
   },
   {
@@ -2192,7 +2324,7 @@
   {
     "id": "smartui-skill",
     "path": "skills/smartui-skill",
-    "name": "antigravity:smartui-skill",
+    "name": "ani:smartui-skill",
     "description": ">"
   },
   {
@@ -2204,31 +2336,31 @@
   {
     "id": "source-driven-development",
     "path": "skills/source-driven-development",
-    "name": "antigravity:source-driven-development",
+    "name": "ani:source-driven-development",
     "description": "Grounds every implementation decision in official documentation. Use when you want authoritative, source-cited code free from outdated patterns. Use when building with any framework or library where correctness matters."
   },
   {
     "id": "spec-driven-development",
     "path": "skills/spec-driven-development",
-    "name": "antigravity:spec-driven-development",
+    "name": "ani:spec-driven-development",
     "description": "Creates specs before coding. Use when starting a new project, feature, or significant change and no specification exists yet. Use when requirements are unclear, ambiguous, or only exist as a vague idea."
   },
   {
     "id": "spec-phase",
     "path": "skills/spec-phase",
-    "name": "antigravity:spec-phase",
+    "name": "ani:spec-phase",
     "description": "Clarify WHAT a phase delivers with ambiguity scoring; produces a SPEC.md before discuss-phase."
   },
   {
     "id": "specflow-skill",
     "path": "skills/specflow-skill",
-    "name": "antigravity:specflow-skill",
+    "name": "ani:specflow-skill",
     "description": ">"
   },
   {
     "id": "spike",
     "path": "skills/spike",
-    "name": "antigravity:spike",
+    "name": "ani:spike",
     "description": "Spike an idea through experiential exploration, or propose what to spike next (frontier mode)"
   },
   {
@@ -2246,25 +2378,25 @@
   {
     "id": "stats",
     "path": "skills/stats",
-    "name": "antigravity:stats",
+    "name": "ani:stats",
     "description": "Display project statistics — phases, plans, requirements, git metrics, and timeline"
   },
   {
     "id": "stripe-best-practices",
     "path": "skills/stripe-best-practices",
-    "name": "antigravity:stripe-best-practices",
+    "name": "ani:stripe-best-practices",
     "description": ">-"
   },
   {
     "id": "stripe-directory",
     "path": "skills/stripe-directory",
-    "name": "antigravity:stripe-directory",
+    "name": "ani:stripe-directory",
     "description": ">-"
   },
   {
     "id": "stripe-projects",
     "path": "skills/stripe-projects",
-    "name": "antigravity:stripe-projects",
+    "name": "ani:stripe-projects",
     "description": ">"
   },
   {
@@ -2276,19 +2408,19 @@
   {
     "id": "supabase",
     "path": "skills/supabase",
-    "name": "antigravity:supabase",
+    "name": "ani:supabase",
     "description": "Use when doing ANY task involving Supabase. Triggers: Supabase products (Database, Auth, Edge Functions, Realtime, Storage, Vectors, Cron, Queues); client libraries and SSR integrations (supabase-js, @supabase/ssr) in Next.js, React, SvelteKit, Astro, Remix; auth issues (login, logout, sessions, JWT, cookies, getSession, getUser, getClaims, RLS); Supabase CLI or MCP server; schema changes, migrations, security audits, Postgres extensions (pg_graphql, pg_cron, pg_vector)."
   },
   {
     "id": "supabase-postgres-best-practices",
     "path": "skills/supabase-postgres-best-practices",
-    "name": "antigravity:supabase-postgres-best-practices",
+    "name": "ani:supabase-postgres-best-practices",
     "description": "Postgres performance optimization and best practices from Supabase. Use this skill when writing, reviewing, or optimizing Postgres queries, schema designs, or database configurations."
   },
   {
     "id": "surface",
     "path": "skills/surface",
-    "name": "antigravity:surface",
+    "name": "ani:surface",
     "description": "Toggle which skills are surfaced — apply a profile, list, or disable a cluster without reinstall"
   },
   {
@@ -2300,25 +2432,25 @@
   {
     "id": "terraform-search-import",
     "path": "skills/terraform-search-import",
-    "name": "antigravity:terraform-search-import",
+    "name": "ani:terraform-search-import",
     "description": "Discover existing cloud resources using Terraform Search queries and bulk import them into Terraform management. Use when bringing unmanaged infrastructure under Terraform control, auditing cloud resources, or migrating to IaC."
   },
   {
     "id": "terraform-stacks",
     "path": "skills/terraform-stacks",
-    "name": "antigravity:terraform-stacks",
+    "name": "ani:terraform-stacks",
     "description": "Comprehensive guide for working with HashiCorp Terraform Stacks. Use when creating, modifying, or validating Terraform Stack configurations (.tfcomponent.hcl, .tfdeploy.hcl files), working with stack components and deployments from local modules, public registry, or private registry sources, managing multi-region or multi-environment infrastructure, or troubleshooting Terraform Stacks syntax and structure."
   },
   {
     "id": "terraform-style-guide",
     "path": "skills/terraform-style-guide",
-    "name": "antigravity:terraform-style-guide",
+    "name": "ani:terraform-style-guide",
     "description": "Generate Terraform HCL code following HashiCorp's official style conventions and best practices. Use when writing, reviewing, or generating Terraform configurations."
   },
   {
     "id": "terraform-test",
     "path": "skills/terraform-test",
-    "name": "antigravity:terraform-test",
+    "name": "ani:terraform-test",
     "description": "Comprehensive guide for writing and running Terraform tests. Use when creating test files (.tftest.hcl), writing test scenarios with run blocks, validating infrastructure behavior with assertions, mocking providers and data sources, testing module outputs and resource configurations, or troubleshooting Terraform test syntax and execution."
   },
   {
@@ -2330,25 +2462,25 @@
   {
     "id": "test-framework-migration-skill",
     "path": "skills/test-framework-migration-skill",
-    "name": "antigravity:test-framework-migration-skill",
+    "name": "ani:test-framework-migration-skill",
     "description": ">"
   },
   {
     "id": "testcafe-skill",
     "path": "skills/testcafe-skill",
-    "name": "antigravity:testcafe-skill",
+    "name": "ani:testcafe-skill",
     "description": ">"
   },
   {
     "id": "testng-skill",
     "path": "skills/testng-skill",
-    "name": "antigravity:testng-skill",
+    "name": "ani:testng-skill",
     "description": ">"
   },
   {
     "id": "testunit-skill",
     "path": "skills/testunit-skill",
-    "name": "antigravity:testunit-skill",
+    "name": "ani:testunit-skill",
     "description": ">"
   },
   {
@@ -2366,7 +2498,7 @@
   {
     "id": "thread",
     "path": "skills/thread",
-    "name": "antigravity:thread",
+    "name": "ani:thread",
     "description": "Manage persistent context threads for cross-session work"
   },
   {
@@ -2408,25 +2540,25 @@
   {
     "id": "tinybird",
     "path": "skills/tinybird",
-    "name": "antigravity:tinybird",
+    "name": "ani:tinybird",
     "description": "Tinybird file formats, SQL rules, optimization patterns, and best practices for datasources, pipes, endpoints, and materialized views."
   },
   {
     "id": "tinybird-cli-guidelines",
     "path": "skills/tinybird-cli-guidelines",
-    "name": "antigravity:tinybird-cli-guidelines",
+    "name": "ani:tinybird-cli-guidelines",
     "description": "Tinybird CLI commands, workflows, and operations. Use when running tb commands, managing local development, deploying, or working with data operations."
   },
   {
     "id": "tinybird-python-sdk-guidelines",
     "path": "skills/tinybird-python-sdk-guidelines",
-    "name": "antigravity:tinybird-python-sdk-guidelines",
+    "name": "ani:tinybird-python-sdk-guidelines",
     "description": "Tinybird Python SDK for defining datasources, pipes, and queries in Python. Use when working with tinybird-sdk, Python Tinybird projects, or data ingestion and queries in Python."
   },
   {
     "id": "tinybird-typescript-sdk-guidelines",
     "path": "skills/tinybird-typescript-sdk-guidelines",
-    "name": "antigravity:tinybird-typescript-sdk-guidelines",
+    "name": "ani:tinybird-typescript-sdk-guidelines",
     "description": "Tinybird TypeScript SDK for defining datasources, pipes, and queries with full type inference. Use when working with @tinybirdco/sdk, TypeScript Tinybird projects, or type-safe data ingestion and queries."
   },
   {
@@ -2444,7 +2576,7 @@
   {
     "id": "two-factor-authentication-best-practices",
     "path": "skills/two-factor-authentication-best-practices",
-    "name": "antigravity:two-factor-authentication-best-practices",
+    "name": "ani:two-factor-authentication-best-practices",
     "description": "Configure TOTP authenticator apps, send OTP codes via email/SMS, manage backup codes, handle trusted devices, and implement 2FA sign-in flows using Better Auth's twoFactor plugin. Use when users need MFA, multi-factor authentication, authenticator setup, or login security with Better Auth."
   },
   {
@@ -2462,7 +2594,7 @@
   {
     "id": "ui-phase",
     "path": "skills/ui-phase",
-    "name": "antigravity:ui-phase",
+    "name": "ani:ui-phase",
     "description": "Generate UI design contract (UI-SPEC.md) for frontend phases"
   },
   {
@@ -2474,7 +2606,7 @@
   {
     "id": "ui-review",
     "path": "skills/ui-review",
-    "name": "antigravity:ui-review",
+    "name": "ani:ui-review",
     "description": "Retroactive 6-pillar visual audit of implemented frontend code"
   },
   {
@@ -2486,31 +2618,31 @@
   {
     "id": "ultraplan-phase",
     "path": "skills/ultraplan-phase",
-    "name": "antigravity:ultraplan-phase",
+    "name": "ani:ultraplan-phase",
     "description": "[BETA] Offload plan phase to Claude Code's ultraplan cloud; review in browser and import back."
   },
   {
     "id": "undo",
     "path": "skills/undo",
-    "name": "antigravity:undo",
+    "name": "ani:undo",
     "description": "Safe git revert. Roll back phase or plan commits using the phase manifest with dependency checks."
   },
   {
     "id": "unittest-skill",
     "path": "skills/unittest-skill",
-    "name": "antigravity:unittest-skill",
+    "name": "ani:unittest-skill",
     "description": ">"
   },
   {
     "id": "update",
     "path": "skills/update",
-    "name": "antigravity:update",
+    "name": "ani:update",
     "description": "Update antigravity to latest version with changelog display"
   },
   {
     "id": "upgrade-stripe",
     "path": "skills/upgrade-stripe",
-    "name": "antigravity:upgrade-stripe",
+    "name": "ani:upgrade-stripe",
     "description": "Guide for upgrading Stripe API versions and SDKs"
   },
   {
@@ -2522,7 +2654,7 @@
   {
     "id": "using-agent-skills",
     "path": "skills/using-agent-skills",
-    "name": "antigravity:using-agent-skills",
+    "name": "ani:using-agent-skills",
     "description": "Discovers and invokes agent skills. Use when starting a session or when you need to discover which skill applies to the current task. This is the meta-skill that governs how all other skills are discovered and invoked."
   },
   {
@@ -2540,7 +2672,7 @@
   {
     "id": "validate-phase",
     "path": "skills/validate-phase",
-    "name": "antigravity:validate-phase",
+    "name": "ani:validate-phase",
     "description": "Retroactively audit and fill Nyquist validation gaps for a completed phase"
   },
   {
@@ -2558,7 +2690,7 @@
   {
     "id": "verify-work",
     "path": "skills/verify-work",
-    "name": "antigravity:verify-work",
+    "name": "ani:verify-work",
     "description": "Validate built features through conversational UAT"
   },
   {
@@ -2570,25 +2702,25 @@
   {
     "id": "vitest-skill",
     "path": "skills/vitest-skill",
-    "name": "antigravity:vitest-skill",
+    "name": "ani:vitest-skill",
     "description": ">"
   },
   {
     "id": "voltagent-best-practices",
     "path": "skills/voltagent-best-practices",
-    "name": "antigravity:voltagent-best-practices",
+    "name": "ani:voltagent-best-practices",
     "description": "VoltAgent architectural patterns and conventions. Covers agents vs workflows, project layout, memory, servers, and observability."
   },
   {
     "id": "voltagent-core-reference",
     "path": "skills/voltagent-core-reference",
-    "name": "antigravity:voltagent-core-reference",
+    "name": "ani:voltagent-core-reference",
     "description": "Reference for the VoltAgent class: constructor options, lifecycle methods, and runtime behavior."
   },
   {
     "id": "voltagent-docs-bundle",
     "path": "skills/voltagent-docs-bundle",
-    "name": "antigravity:voltagent-docs-bundle",
+    "name": "ani:voltagent-docs-bundle",
     "description": "Look up VoltAgent documentation embedded in node_modules/@voltagent/core/docs for version-matched docs. Use for API signatures, guides, and examples."
   },
   {
@@ -2612,25 +2744,25 @@
   {
     "id": "webdriverio-skill",
     "path": "skills/webdriverio-skill",
-    "name": "antigravity:webdriverio-skill",
+    "name": "ani:webdriverio-skill",
     "description": ">"
   },
   {
     "id": "windows-builder",
     "path": "skills/windows-builder",
-    "name": "antigravity:windows-builder",
+    "name": "ani:windows-builder",
     "description": "Build Windows images with Packer using WinRM communicator and PowerShell provisioners. Use when creating Windows AMIs, Azure images, or VMware templates."
   },
   {
     "id": "workspace",
     "path": "skills/workspace",
-    "name": "antigravity:workspace",
+    "name": "ani:workspace",
     "description": "Manage antigravity workspaces — create, list, or remove isolated workspace environments"
   },
   {
     "id": "workstreams",
     "path": "skills/workstreams",
-    "name": "antigravity:workstreams",
+    "name": "ani:workstreams",
     "description": "Manage parallel workstreams — list, create, switch, status, progress, complete, and resume"
   },
   {
@@ -2648,7 +2780,7 @@
   {
     "id": "xcuitest-skill",
     "path": "skills/xcuitest-skill",
-    "name": "antigravity:xcuitest-skill",
+    "name": "ani:xcuitest-skill",
     "description": ">"
   },
   {
@@ -2660,7 +2792,7 @@
   {
     "id": "xunit-skill",
     "path": "skills/xunit-skill",
-    "name": "antigravity:xunit-skill",
+    "name": "ani:xunit-skill",
     "description": ">"
   }
 ]

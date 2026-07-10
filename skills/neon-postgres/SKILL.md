@@ -1,5 +1,5 @@
 ---
-name: antigravity:neon-postgres
+name: ani:neon-postgres
 description: >-
   Guides and best practices for working with Neon Serverless Postgres.
   Covers setup, connection methods, branching, autoscaling, scale-to-zero,

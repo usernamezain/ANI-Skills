@@ -1,5 +1,5 @@
 ---
-name: antigravity:xunit-skill
+name: ani:xunit-skill
 description: >
   Generates xUnit.net tests in C#. Covers Fact/Theory, constructor injection,
   IClassFixture, and FluentAssertions. Use when user mentions "xUnit",

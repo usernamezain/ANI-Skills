@@ -1,5 +1,5 @@
 ---
-name: antigravity:explore
+name: ani:explore
 description: Socratic ideation and idea routing — think through ideas before committing to plans
 allowed-tools:
   - Read

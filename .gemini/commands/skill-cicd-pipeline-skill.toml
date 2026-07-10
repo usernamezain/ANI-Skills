@@ -1,6 +1,0 @@
-description = ">"
-
-prompt = """
-Invoke the skill:cicd-pipeline-skill skill.
-Load the prompt instructions from skills/cicd-pipeline-skill/SKILL.md and consult the copy-pasteable references or guidelines inside skills/cicd-pipeline-skill/references/ to complete the task.
-"""

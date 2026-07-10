@@ -1,5 +1,5 @@
 ---
-name: antigravity:run-models
+name: ani:run-models
 description: Run AI models on Replicate via predictions, webhooks, and streaming.
 ---
 

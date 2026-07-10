@@ -1,5 +1,5 @@
 ---
-name: antigravity:clickhouse-js-node-rowbinary
+name: ani:clickhouse-js-node-rowbinary
 description: >
   Generate TypeScript/JavaScript code that reads/decodes AND writes/encodes
   ClickHouse RowBinary streams for the ClickHouse HTTP server.
