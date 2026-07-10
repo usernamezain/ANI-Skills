@@ -1,0 +1,1045 @@
+# Core Algorithms and Functions
+
+## Function Registry
+- JS Function: `showBanner()` in file `bin\install.js`
+- JS Function: `shouldLink()` in file `bin\install.js`
+- JS Function: `copyRecursiveSync()` in file `bin\install.js`
+- JS Function: `if()` in file `bin\install.js`
+- JS Function: `if()` in file `bin\install.js`
+- JS Function: `catch()` in file `bin\install.js`
+- JS Function: `if()` in file `bin\install.js`
+- JS Function: `catch()` in file `bin\install.js`
+- JS Function: `linkOrCopy()` in file `bin\install.js`
+- JS Function: `catch()` in file `bin\install.js`
+- JS Function: `if()` in file `bin\install.js`
+- JS Function: `if()` in file `bin\install.js`
+- JS Function: `catch()` in file `bin\install.js`
+- JS Function: `if()` in file `bin\install.js`
+- JS Function: `catch()` in file `bin\install.js`
+- JS Function: `catch()` in file `bin\install.js`
+- JS Function: `configureEnvironment()` in file `bin\install.js`
+- JS Function: `if()` in file `bin\install.js`
+- JS Function: `generateRules()` in file `bin\install.js`
+- JS Function: `catch()` in file `bin\install.js`
+- JS Function: `localInstall()` in file `bin\install.js`
+- JS Function: `catch()` in file `bin\install.js`
+- JS Function: `compileIndex()` in file `bin\install.js`
+- JS Function: `catch()` in file `bin\install.js`
+- JS Function: `mainMenu()` in file `bin\install.js`
+- JS Function: `switch()` in file `bin\install.js`
+- JS Function: `runAutoInstall()` in file `bin\install.js`
+- JS Function: `if()` in file `bin\install.js`
+- JS Function: `if()` in file `bin\install.js`
+- JS Function: `catch()` in file `bin\install.js`
+- JS Function: `if()` in file `bin\install.js`
+- JS Function: `if()` in file `bin\install.js`
+- Python Function: `extract_code_blocks(md_content)` in file `scripts\build_references.py`
+- Python Function: `build_animation_reference(skill_name, md_content, dest_folder)` in file `scripts\build_references.py`
+- Python Function: `build_workflow_reference(skill_name, md_content, dest_folder)` in file `scripts\build_references.py`
+- Python Function: `extract_description(skill_md_path)` in file `scripts\update_skills_index.py`
+- Python Function: `update_index()` in file `scripts\update_skills_index.py`
+- Python Function: `f(x)` in file `skills\advanced-evaluation\scripts\evaluation_example.py`
+- Python Function: `calc_total(items)` in file `skills\advanced-evaluation\scripts\evaluation_example.py`
+- JS Function: `initializeSeed()` in file `skills\algorithmic-art\templates\generator_template.js`
+- JS Function: `setup()` in file `skills\algorithmic-art\templates\generator_template.js`
+- JS Function: `draw()` in file `skills\algorithmic-art\templates\generator_template.js`
+- JS Function: `constructor()` in file `skills\algorithmic-art\templates\generator_template.js`
+- JS Function: `update()` in file `skills\algorithmic-art\templates\generator_template.js`
+- JS Function: `display()` in file `skills\algorithmic-art\templates\generator_template.js`
+- JS Function: `hexToRgb()` in file `skills\algorithmic-art\templates\generator_template.js`
+- JS Function: `colorFromPalette()` in file `skills\algorithmic-art\templates\generator_template.js`
+- JS Function: `mapRange()` in file `skills\algorithmic-art\templates\generator_template.js`
+- JS Function: `easeInOutCubic()` in file `skills\algorithmic-art\templates\generator_template.js`
+- JS Function: `wrapAround()` in file `skills\algorithmic-art\templates\generator_template.js`
+- JS Function: `updateParameter()` in file `skills\algorithmic-art\templates\generator_template.js`
+- JS Function: `regenerate()` in file `skills\algorithmic-art\templates\generator_template.js`
+- JS Function: `fadeBackground()` in file `skills\algorithmic-art\templates\generator_template.js`
+- JS Function: `getNoiseValue()` in file `skills\algorithmic-art\templates\generator_template.js`
+- JS Function: `vectorFromAngle()` in file `skills\algorithmic-art\templates\generator_template.js`
+- JS Function: `exportImage()` in file `skills\algorithmic-art\templates\generator_template.js`
+- JS Function: `function()` in file `skills\brainstorming\scripts\helper.js`
+- JS Function: `connect()` in file `skills\brainstorming\scripts\helper.js`
+- JS Function: `onopen()` in file `skills\brainstorming\scripts\helper.js`
+- JS Function: `onmessage()` in file `skills\brainstorming\scripts\helper.js`
+- JS Function: `if()` in file `skills\brainstorming\scripts\helper.js`
+- JS Function: `onclose()` in file `skills\brainstorming\scripts\helper.js`
+- JS Function: `sendEvent()` in file `skills\brainstorming\scripts\helper.js`
+- JS Function: `if()` in file `skills\brainstorming\scripts\helper.js`
+- JS Function: `if()` in file `skills\brainstorming\scripts\helper.js`
+- JS Function: `if()` in file `skills\brainstorming\scripts\helper.js`
+- JS Function: `function()` in file `skills\brainstorming\scripts\helper.js`
+- JS Function: `if()` in file `skills\brainstorming\scripts\helper.js`
+- JS Function: `if()` in file `skills\brainstorming\scripts\helper.js`
+- JS Function: `if()` in file `skills\brainstorming\scripts\index.js`
+- JS Function: `isFullDocument()` in file `skills\brainstorming\scripts\index.js`
+- JS Function: `wrapInFrame()` in file `skills\brainstorming\scripts\index.js`
+- JS Function: `getNewestScreen()` in file `skills\brainstorming\scripts\index.js`
+- JS Function: `if()` in file `skills\brainstorming\scripts\index.js`
+- JS Function: `if()` in file `skills\brainstorming\scripts\index.js`
+- JS Function: `if()` in file `skills\brainstorming\scripts\index.js`
+- JS Function: `if()` in file `skills\brainstorming\scripts\index.js`
+- JS Function: `if()` in file `skills\brainstorming\scripts\index.js`
+- JS Function: `if()` in file `skills\brainstorming\scripts\index.js`
+- JS Function: `if()` in file `skills\brainstorming\scripts\index.js`
+- JS Function: `computeAcceptKey()` in file `skills\brainstorming\scripts\server.cjs`
+- JS Function: `encodeFrame()` in file `skills\brainstorming\scripts\server.cjs`
+- JS Function: `if()` in file `skills\brainstorming\scripts\server.cjs`
+- JS Function: `if()` in file `skills\brainstorming\scripts\server.cjs`
+- JS Function: `decodeFrame()` in file `skills\brainstorming\scripts\server.cjs`
+- JS Function: `if()` in file `skills\brainstorming\scripts\server.cjs`
+- JS Function: `if()` in file `skills\brainstorming\scripts\server.cjs`
+- JS Function: `for()` in file `skills\brainstorming\scripts\server.cjs`
+- JS Function: `isFullDocument()` in file `skills\brainstorming\scripts\server.cjs`
+- JS Function: `wrapInFrame()` in file `skills\brainstorming\scripts\server.cjs`
+- JS Function: `getNewestScreen()` in file `skills\brainstorming\scripts\server.cjs`
+- JS Function: `handleRequest()` in file `skills\brainstorming\scripts\server.cjs`
+- JS Function: `if()` in file `skills\brainstorming\scripts\server.cjs`
+- JS Function: `if()` in file `skills\brainstorming\scripts\server.cjs`
+- JS Function: `if()` in file `skills\brainstorming\scripts\server.cjs`
+- JS Function: `if()` in file `skills\brainstorming\scripts\server.cjs`
+- JS Function: `handleUpgrade()` in file `skills\brainstorming\scripts\server.cjs`
+- JS Function: `if()` in file `skills\brainstorming\scripts\server.cjs`
+- JS Function: `while()` in file `skills\brainstorming\scripts\server.cjs`
+- JS Function: `catch()` in file `skills\brainstorming\scripts\server.cjs`
+- JS Function: `switch()` in file `skills\brainstorming\scripts\server.cjs`
+- JS Function: `handleMessage()` in file `skills\brainstorming\scripts\server.cjs`
+- JS Function: `catch()` in file `skills\brainstorming\scripts\server.cjs`
+- JS Function: `if()` in file `skills\brainstorming\scripts\server.cjs`
+- JS Function: `broadcast()` in file `skills\brainstorming\scripts\server.cjs`
+- JS Function: `for()` in file `skills\brainstorming\scripts\server.cjs`
+- JS Function: `write()` in file `skills\brainstorming\scripts\server.cjs`
+- JS Function: `touchActivity()` in file `skills\brainstorming\scripts\server.cjs`
+- JS Function: `startServer()` in file `skills\brainstorming\scripts\server.cjs`
+- JS Function: `if()` in file `skills\brainstorming\scripts\server.cjs`
+- JS Function: `shutdown()` in file `skills\brainstorming\scripts\server.cjs`
+- JS Function: `ownerAlive()` in file `skills\brainstorming\scripts\server.cjs`
+- JS Function: `kill()` in file `skills\brainstorming\scripts\server.cjs`
+- JS Function: `if()` in file `skills\brainstorming\scripts\server.cjs`
+- JS Function: `catch()` in file `skills\brainstorming\scripts\server.cjs`
+- JS Function: `if()` in file `skills\brainstorming\scripts\server.cjs`
+- JS Function: `if()` in file `skills\brainstorming\scripts\server.cjs`
+- JS Function: `computeAcceptKey()` in file `skills\brainstorming\scripts\server.js`
+- JS Function: `encodeFrame()` in file `skills\brainstorming\scripts\server.js`
+- JS Function: `if()` in file `skills\brainstorming\scripts\server.js`
+- JS Function: `if()` in file `skills\brainstorming\scripts\server.js`
+- JS Function: `decodeFrame()` in file `skills\brainstorming\scripts\server.js`
+- JS Function: `if()` in file `skills\brainstorming\scripts\server.js`
+- JS Function: `if()` in file `skills\brainstorming\scripts\server.js`
+- JS Function: `for()` in file `skills\brainstorming\scripts\server.js`
+- JS Function: `isFullDocument()` in file `skills\brainstorming\scripts\server.js`
+- JS Function: `wrapInFrame()` in file `skills\brainstorming\scripts\server.js`
+- JS Function: `getNewestScreen()` in file `skills\brainstorming\scripts\server.js`
+- JS Function: `handleRequest()` in file `skills\brainstorming\scripts\server.js`
+- JS Function: `if()` in file `skills\brainstorming\scripts\server.js`
+- JS Function: `if()` in file `skills\brainstorming\scripts\server.js`
+- JS Function: `if()` in file `skills\brainstorming\scripts\server.js`
+- JS Function: `if()` in file `skills\brainstorming\scripts\server.js`
+- JS Function: `handleUpgrade()` in file `skills\brainstorming\scripts\server.js`
+- JS Function: `if()` in file `skills\brainstorming\scripts\server.js`
+- JS Function: `while()` in file `skills\brainstorming\scripts\server.js`
+- JS Function: `catch()` in file `skills\brainstorming\scripts\server.js`
+- JS Function: `switch()` in file `skills\brainstorming\scripts\server.js`
+- JS Function: `handleMessage()` in file `skills\brainstorming\scripts\server.js`
+- JS Function: `catch()` in file `skills\brainstorming\scripts\server.js`
+- JS Function: `if()` in file `skills\brainstorming\scripts\server.js`
+- JS Function: `broadcast()` in file `skills\brainstorming\scripts\server.js`
+- JS Function: `for()` in file `skills\brainstorming\scripts\server.js`
+- JS Function: `write()` in file `skills\brainstorming\scripts\server.js`
+- JS Function: `touchActivity()` in file `skills\brainstorming\scripts\server.js`
+- JS Function: `startServer()` in file `skills\brainstorming\scripts\server.js`
+- JS Function: `if()` in file `skills\brainstorming\scripts\server.js`
+- JS Function: `shutdown()` in file `skills\brainstorming\scripts\server.js`
+- JS Function: `ownerAlive()` in file `skills\brainstorming\scripts\server.js`
+- JS Function: `kill()` in file `skills\brainstorming\scripts\server.js`
+- JS Function: `if()` in file `skills\brainstorming\scripts\server.js`
+- Python Function: `check(name, fn)` in file `skills\chdb-datastore\scripts\verify_install.py`
+- Python Function: `check_python_version()` in file `skills\chdb-datastore\scripts\verify_install.py`
+- Python Function: `check_chdb_import()` in file `skills\chdb-datastore\scripts\verify_install.py`
+- Python Function: `check_datastore_import_from_datastore()` in file `skills\chdb-datastore\scripts\verify_install.py`
+- Python Function: `check_datastore_import_from_chdb()` in file `skills\chdb-datastore\scripts\verify_install.py`
+- Python Function: `check_datastore_as_pd()` in file `skills\chdb-datastore\scripts\verify_install.py`
+- Python Function: `check_basic_operations()` in file `skills\chdb-datastore\scripts\verify_install.py`
+- Python Function: `check_sort()` in file `skills\chdb-datastore\scripts\verify_install.py`
+- Python Function: `check_groupby()` in file `skills\chdb-datastore\scripts\verify_install.py`
+- Python Function: `check(name, fn)` in file `skills\chdb-sql\scripts\verify_install.py`
+- Python Function: `check_python_version()` in file `skills\chdb-sql\scripts\verify_install.py`
+- Python Function: `check_chdb_import()` in file `skills\chdb-sql\scripts\verify_install.py`
+- Python Function: `check_basic_query()` in file `skills\chdb-sql\scripts\verify_install.py`
+- Python Function: `check_dataframe_output()` in file `skills\chdb-sql\scripts\verify_install.py`
+- Python Function: `check_session()` in file `skills\chdb-sql\scripts\verify_install.py`
+- Python Function: `check_parametrized()` in file `skills\chdb-sql\scripts\verify_install.py`
+- JS Function: `leb()` in file `skills\clickhouse-js-node-rowbinary\tests\wasm-int128.experiment.mjs`
+- JS Function: `str()` in file `skills\clickhouse-js-node-rowbinary\tests\wasm-int128.experiment.mjs`
+- JS Function: `section()` in file `skills\clickhouse-js-node-rowbinary\tests\wasm-int128.experiment.mjs`
+- JS Function: `ms()` in file `skills\clickhouse-js-node-rowbinary\tests\wasm-int128.experiment.mjs`
+- JS Function: `gbs()` in file `skills\clickhouse-js-node-rowbinary\tests\wasm-int128.experiment.mjs`
+- JS Function: `for()` in file `skills\clickhouse-js-node-rowbinary\tests\wasm-int128.experiment.mjs`
+- JS Function: `for()` in file `skills\clickhouse-js-node-rowbinary\tests\wasm-int128.experiment.mjs`
+- JS Function: `for()` in file `skills\clickhouse-js-node-rowbinary\tests\wasm-int128.experiment.mjs`
+- JS Function: `row()` in file `skills\clickhouse-js-node-rowbinary\tests\wasm-int128.experiment.mjs`
+- Python Function: `login(user, password)` in file `skills\context-fundamentals\scripts\context_manager.py`
+- JS Function: `setupNodeEvents()` in file `skills\cypress-skill\templates\cypress.config.js`
+- Python Function: `generate_scan(target_dir)` in file `skills\deep-code-scan\scripts\deep_scan.py`
+- Python Function: `main()` in file `skills\docx\ooxml\scripts\pack.py`
+- Python Function: `pack_document(input_dir, output_file, validate=False)` in file `skills\docx\ooxml\scripts\pack.py`
+- Python Function: `validate_document(doc_path)` in file `skills\docx\ooxml\scripts\pack.py`
+- Python Function: `condense_xml(xml_file)` in file `skills\docx\ooxml\scripts\pack.py`
+- Python Function: `main()` in file `skills\docx\ooxml\scripts\validate.py`
+- Python Function: `__init__(self, unpacked_dir, original_file, verbose=False)` in file `skills\docx\ooxml\scripts\validation\base.py`
+- Python Function: `validate(self)` in file `skills\docx\ooxml\scripts\validation\base.py`
+- Python Function: `validate_xml(self)` in file `skills\docx\ooxml\scripts\validation\base.py`
+- Python Function: `validate_namespaces(self)` in file `skills\docx\ooxml\scripts\validation\base.py`
+- Python Function: `validate_unique_ids(self)` in file `skills\docx\ooxml\scripts\validation\base.py`
+- Python Function: `validate_file_references(self)` in file `skills\docx\ooxml\scripts\validation\base.py`
+- Python Function: `validate_all_relationship_ids(self)` in file `skills\docx\ooxml\scripts\validation\base.py`
+- Python Function: `_get_expected_relationship_type(self, element_name)` in file `skills\docx\ooxml\scripts\validation\base.py`
+- Python Function: `validate_content_types(self)` in file `skills\docx\ooxml\scripts\validation\base.py`
+- Python Function: `validate_file_against_xsd(self, xml_file, verbose=False)` in file `skills\docx\ooxml\scripts\validation\base.py`
+- Python Function: `validate_against_xsd(self)` in file `skills\docx\ooxml\scripts\validation\base.py`
+- Python Function: `_get_schema_path(self, xml_file)` in file `skills\docx\ooxml\scripts\validation\base.py`
+- Python Function: `_clean_ignorable_namespaces(self, xml_doc)` in file `skills\docx\ooxml\scripts\validation\base.py`
+- Python Function: `_remove_ignorable_elements(self, root)` in file `skills\docx\ooxml\scripts\validation\base.py`
+- Python Function: `_preprocess_for_mc_ignorable(self, xml_doc)` in file `skills\docx\ooxml\scripts\validation\base.py`
+- Python Function: `_validate_single_file_xsd(self, xml_file, base_path)` in file `skills\docx\ooxml\scripts\validation\base.py`
+- Python Function: `_get_original_file_errors(self, xml_file)` in file `skills\docx\ooxml\scripts\validation\base.py`
+- Python Function: `_remove_template_tags_from_text_nodes(self, xml_doc)` in file `skills\docx\ooxml\scripts\validation\base.py`
+- Python Function: `process_text_content(text, content_type)` in file `skills\docx\ooxml\scripts\validation\base.py`
+- Python Function: `validate(self)` in file `skills\docx\ooxml\scripts\validation\docx.py`
+- Python Function: `validate_whitespace_preservation(self)` in file `skills\docx\ooxml\scripts\validation\docx.py`
+- Python Function: `validate_deletions(self)` in file `skills\docx\ooxml\scripts\validation\docx.py`
+- Python Function: `count_paragraphs_in_unpacked(self)` in file `skills\docx\ooxml\scripts\validation\docx.py`
+- Python Function: `count_paragraphs_in_original(self)` in file `skills\docx\ooxml\scripts\validation\docx.py`
+- Python Function: `validate_insertions(self)` in file `skills\docx\ooxml\scripts\validation\docx.py`
+- Python Function: `compare_paragraph_counts(self)` in file `skills\docx\ooxml\scripts\validation\docx.py`
+- Python Function: `validate(self)` in file `skills\docx\ooxml\scripts\validation\pptx.py`
+- Python Function: `validate_uuid_ids(self)` in file `skills\docx\ooxml\scripts\validation\pptx.py`
+- Python Function: `_looks_like_uuid(self, value)` in file `skills\docx\ooxml\scripts\validation\pptx.py`
+- Python Function: `validate_slide_layout_ids(self)` in file `skills\docx\ooxml\scripts\validation\pptx.py`
+- Python Function: `validate_no_duplicate_slide_layouts(self)` in file `skills\docx\ooxml\scripts\validation\pptx.py`
+- Python Function: `validate_notes_slide_references(self)` in file `skills\docx\ooxml\scripts\validation\pptx.py`
+- Python Function: `__init__(self, unpacked_dir, original_docx, verbose=False)` in file `skills\docx\ooxml\scripts\validation\redlining.py`
+- Python Function: `validate(self)` in file `skills\docx\ooxml\scripts\validation\redlining.py`
+- Python Function: `_generate_detailed_diff(self, original_text, modified_text)` in file `skills\docx\ooxml\scripts\validation\redlining.py`
+- Python Function: `_get_git_word_diff(self, original_text, modified_text)` in file `skills\docx\ooxml\scripts\validation\redlining.py`
+- Python Function: `_remove_claude_tracked_changes(self, root)` in file `skills\docx\ooxml\scripts\validation\redlining.py`
+- Python Function: `_extract_text_content(self, root)` in file `skills\docx\ooxml\scripts\validation\redlining.py`
+- Python Function: `_get_next_change_id(self)` in file `skills\docx\scripts\document.py`
+- Python Function: `_ensure_w16du_namespace(self)` in file `skills\docx\scripts\document.py`
+- Python Function: `_ensure_w16cex_namespace(self)` in file `skills\docx\scripts\document.py`
+- Python Function: `_ensure_w14_namespace(self)` in file `skills\docx\scripts\document.py`
+- Python Function: `_inject_attributes_to_nodes(self, nodes)` in file `skills\docx\scripts\document.py`
+- Python Function: `is_inside_deletion(elem)` in file `skills\docx\scripts\document.py`
+- Python Function: `add_rsid_to_p(elem)` in file `skills\docx\scripts\document.py`
+- Python Function: `add_rsid_to_r(elem)` in file `skills\docx\scripts\document.py`
+- Python Function: `add_tracked_change_attrs(elem)` in file `skills\docx\scripts\document.py`
+- Python Function: `add_comment_attrs(elem)` in file `skills\docx\scripts\document.py`
+- Python Function: `add_comment_extensible_date(elem)` in file `skills\docx\scripts\document.py`
+- Python Function: `add_xml_space_to_t(elem)` in file `skills\docx\scripts\document.py`
+- Python Function: `replace_node(self, elem, new_content)` in file `skills\docx\scripts\document.py`
+- Python Function: `insert_after(self, elem, xml_content)` in file `skills\docx\scripts\document.py`
+- Python Function: `insert_before(self, elem, xml_content)` in file `skills\docx\scripts\document.py`
+- Python Function: `append_to(self, elem, xml_content)` in file `skills\docx\scripts\document.py`
+- Python Function: `revert_insertion(self, elem)` in file `skills\docx\scripts\document.py`
+- Python Function: `revert_deletion(self, elem)` in file `skills\docx\scripts\document.py`
+- Python Function: `suggest_deletion(self, elem)` in file `skills\docx\scripts\document.py`
+- Python Function: `__del__(self)` in file `skills\docx\scripts\document.py`
+- Python Function: `_get_next_comment_id(self)` in file `skills\docx\scripts\document.py`
+- Python Function: `_load_existing_comments(self)` in file `skills\docx\scripts\document.py`
+- Python Function: `_setup_tracking(self, track_revisions=False)` in file `skills\docx\scripts\document.py`
+- Python Function: `_update_people_xml(self, path)` in file `skills\docx\scripts\document.py`
+- Python Function: `_add_content_type_for_people(self, path)` in file `skills\docx\scripts\document.py`
+- Python Function: `_add_relationship_for_people(self, path)` in file `skills\docx\scripts\document.py`
+- Python Function: `_update_settings(self, path, track_revisions=False)` in file `skills\docx\scripts\document.py`
+- Python Function: `_add_to_comments_extended_xml(self, para_id, parent_para_id)` in file `skills\docx\scripts\document.py`
+- Python Function: `_add_to_comments_ids_xml(self, para_id, durable_id)` in file `skills\docx\scripts\document.py`
+- Python Function: `_add_to_comments_extensible_xml(self, durable_id)` in file `skills\docx\scripts\document.py`
+- Python Function: `_comment_range_start_xml(self, comment_id)` in file `skills\docx\scripts\document.py`
+- Python Function: `_comment_range_end_xml(self, comment_id)` in file `skills\docx\scripts\document.py`
+- Python Function: `_comment_ref_run_xml(self, comment_id)` in file `skills\docx\scripts\document.py`
+- Python Function: `_has_relationship(self, editor, target)` in file `skills\docx\scripts\document.py`
+- Python Function: `_has_override(self, editor, part_name)` in file `skills\docx\scripts\document.py`
+- Python Function: `_has_author(self, editor, author)` in file `skills\docx\scripts\document.py`
+- Python Function: `_add_author_to_people(self, author)` in file `skills\docx\scripts\document.py`
+- Python Function: `_ensure_comment_relationships(self)` in file `skills\docx\scripts\document.py`
+- Python Function: `_ensure_comment_content_types(self)` in file `skills\docx\scripts\document.py`
+- Python Function: `__init__(self, xml_path)` in file `skills\docx\scripts\utilities.py`
+- Python Function: `_get_element_text(self, elem)` in file `skills\docx\scripts\utilities.py`
+- Python Function: `replace_node(self, elem, new_content)` in file `skills\docx\scripts\utilities.py`
+- Python Function: `insert_after(self, elem, xml_content)` in file `skills\docx\scripts\utilities.py`
+- Python Function: `insert_before(self, elem, xml_content)` in file `skills\docx\scripts\utilities.py`
+- Python Function: `append_to(self, elem, xml_content)` in file `skills\docx\scripts\utilities.py`
+- Python Function: `get_next_rid(self)` in file `skills\docx\scripts\utilities.py`
+- Python Function: `save(self)` in file `skills\docx\scripts\utilities.py`
+- Python Function: `_parse_fragment(self, xml_content)` in file `skills\docx\scripts\utilities.py`
+- Python Function: `_create_line_tracking_parser()` in file `skills\docx\scripts\utilities.py`
+- Python Function: `set_content_handler(dom_handler)` in file `skills\docx\scripts\utilities.py`
+- Python Function: `startElementNS(name, tagName, attrs)` in file `skills\docx\scripts\utilities.py`
+- Python Function: `main()` in file `skills\docx\scripts\office\validate.py`
+- Python Function: `traverse(node)` in file `skills\docx\scripts\office\helpers\merge_runs.py`
+- Python Function: `_get_child(parent, tag: str)` in file `skills\docx\scripts\office\helpers\merge_runs.py`
+- Python Function: `_remove_elements(root, tag: str)` in file `skills\docx\scripts\office\helpers\merge_runs.py`
+- Python Function: `_strip_run_rsid_attrs(root)` in file `skills\docx\scripts\office\helpers\merge_runs.py`
+- Python Function: `_first_child_run(container)` in file `skills\docx\scripts\office\helpers\merge_runs.py`
+- Python Function: `_next_element_sibling(node)` in file `skills\docx\scripts\office\helpers\merge_runs.py`
+- Python Function: `_next_sibling_run(node)` in file `skills\docx\scripts\office\helpers\merge_runs.py`
+- Python Function: `_merge_run_content(target, source)` in file `skills\docx\scripts\office\helpers\merge_runs.py`
+- Python Function: `_consolidate_text(run)` in file `skills\docx\scripts\office\helpers\merge_runs.py`
+- Python Function: `_merge_tracked_content(target, source)` in file `skills\docx\scripts\office\helpers\simplify_redlines.py`
+- Python Function: `traverse(node)` in file `skills\docx\scripts\office\helpers\simplify_redlines.py`
+- Python Function: `__init__(self, unpacked_dir, original_file=None, verbose=False)` in file `skills\docx\scripts\office\validators\base.py`
+- Python Function: `validate(self)` in file `skills\docx\scripts\office\validators\base.py`
+- Python Function: `validate_xml(self)` in file `skills\docx\scripts\office\validators\base.py`
+- Python Function: `validate_namespaces(self)` in file `skills\docx\scripts\office\validators\base.py`
+- Python Function: `validate_unique_ids(self)` in file `skills\docx\scripts\office\validators\base.py`
+- Python Function: `validate_file_references(self)` in file `skills\docx\scripts\office\validators\base.py`
+- Python Function: `validate_all_relationship_ids(self)` in file `skills\docx\scripts\office\validators\base.py`
+- Python Function: `_get_expected_relationship_type(self, element_name)` in file `skills\docx\scripts\office\validators\base.py`
+- Python Function: `validate_content_types(self)` in file `skills\docx\scripts\office\validators\base.py`
+- Python Function: `validate_file_against_xsd(self, xml_file, verbose=False)` in file `skills\docx\scripts\office\validators\base.py`
+- Python Function: `validate_against_xsd(self)` in file `skills\docx\scripts\office\validators\base.py`
+- Python Function: `_get_schema_path(self, xml_file)` in file `skills\docx\scripts\office\validators\base.py`
+- Python Function: `_clean_ignorable_namespaces(self, xml_doc)` in file `skills\docx\scripts\office\validators\base.py`
+- Python Function: `_remove_ignorable_elements(self, root)` in file `skills\docx\scripts\office\validators\base.py`
+- Python Function: `_preprocess_for_mc_ignorable(self, xml_doc)` in file `skills\docx\scripts\office\validators\base.py`
+- Python Function: `_validate_single_file_xsd(self, xml_file, base_path)` in file `skills\docx\scripts\office\validators\base.py`
+- Python Function: `_get_original_file_errors(self, xml_file)` in file `skills\docx\scripts\office\validators\base.py`
+- Python Function: `_remove_template_tags_from_text_nodes(self, xml_doc)` in file `skills\docx\scripts\office\validators\base.py`
+- Python Function: `process_text_content(text, content_type)` in file `skills\docx\scripts\office\validators\base.py`
+- Python Function: `validate(self)` in file `skills\docx\scripts\office\validators\docx.py`
+- Python Function: `validate_whitespace_preservation(self)` in file `skills\docx\scripts\office\validators\docx.py`
+- Python Function: `validate_deletions(self)` in file `skills\docx\scripts\office\validators\docx.py`
+- Python Function: `count_paragraphs_in_unpacked(self)` in file `skills\docx\scripts\office\validators\docx.py`
+- Python Function: `count_paragraphs_in_original(self)` in file `skills\docx\scripts\office\validators\docx.py`
+- Python Function: `validate_insertions(self)` in file `skills\docx\scripts\office\validators\docx.py`
+- Python Function: `compare_paragraph_counts(self)` in file `skills\docx\scripts\office\validators\docx.py`
+- Python Function: `validate_id_constraints(self)` in file `skills\docx\scripts\office\validators\docx.py`
+- Python Function: `validate_comment_markers(self)` in file `skills\docx\scripts\office\validators\docx.py`
+- Python Function: `validate(self)` in file `skills\docx\scripts\office\validators\pptx.py`
+- Python Function: `validate_uuid_ids(self)` in file `skills\docx\scripts\office\validators\pptx.py`
+- Python Function: `_looks_like_uuid(self, value)` in file `skills\docx\scripts\office\validators\pptx.py`
+- Python Function: `validate_slide_layout_ids(self)` in file `skills\docx\scripts\office\validators\pptx.py`
+- Python Function: `validate_no_duplicate_slide_layouts(self)` in file `skills\docx\scripts\office\validators\pptx.py`
+- Python Function: `validate_notes_slide_references(self)` in file `skills\docx\scripts\office\validators\pptx.py`
+- Python Function: `__init__(self, unpacked_dir, original_docx, verbose=False, author="Claude")` in file `skills\docx\scripts\office\validators\redlining.py`
+- Python Function: `validate(self)` in file `skills\docx\scripts\office\validators\redlining.py`
+- Python Function: `_generate_detailed_diff(self, original_text, modified_text)` in file `skills\docx\scripts\office\validators\redlining.py`
+- Python Function: `_get_git_word_diff(self, original_text, modified_text)` in file `skills\docx\scripts\office\validators\redlining.py`
+- Python Function: `_remove_author_tracked_changes(self, root)` in file `skills\docx\scripts\office\validators\redlining.py`
+- Python Function: `_extract_text_content(self, root)` in file `skills\docx\scripts\office\validators\redlining.py`
+- Python Function: `get_api_key(args)` in file `skills\gemini-omni-flash-api\scripts\upload_file.py`
+- Python Function: `detect_mime_type(file_path)` in file `skills\gemini-omni-flash-api\scripts\upload_file.py`
+- Python Function: `upload_file(file_path, display_name=None, api_key=None)` in file `skills\gemini-omni-flash-api\scripts\upload_file.py`
+- Python Function: `wait_for_active(file_name, api_key, poll_interval=3, max_attempts=30, backoff_factor=1.5, max_interval=30)` in file `skills\gemini-omni-flash-api\scripts\upload_file.py`
+- Python Function: `main()` in file `skills\gemini-omni-flash-api\scripts\upload_file.py`
+- Python Function: `get_api_key(args)` in file `skills\gemini-omni-flash-api\scripts\video\generate_video.py`
+- Python Function: `is_file_uri(uri)` in file `skills\gemini-omni-flash-api\scripts\video\generate_video.py`
+- Python Function: `normalize_file_uri(uri)` in file `skills\gemini-omni-flash-api\scripts\video\generate_video.py`
+- Python Function: `slugify(text)` in file `skills\gemini-omni-flash-api\scripts\video\generate_video.py`
+- Python Function: `parse_and_validate_duration(value)` in file `skills\gemini-omni-flash-api\scripts\video\generate_video.py`
+- Python Function: `argparse_duration_type(value)` in file `skills\gemini-omni-flash-api\scripts\video\generate_video.py`
+- Python Function: `resolve_or_upload_asset(asset_path, mime_type, api_key, strip_audio=False)` in file `skills\gemini-omni-flash-api\scripts\video\generate_video.py`
+- Python Function: `download_video_file(file_uri, output_path, api_key)` in file `skills\gemini-omni-flash-api\scripts\video\generate_video.py`
+- Python Function: `generate_video(prompt, api_key, model="gemini-omni-flash-preview", aspect_ratio="16:9", duration=None, image_path=None, video_path=None, output_path="output.mp4", strip_audio=False, previous_interaction_id=None)` in file `skills\gemini-omni-flash-api\scripts\video\generate_video.py`
+- Python Function: `run_job(job, api_key)` in file `skills\gemini-omni-flash-api\scripts\video\generate_video.py`
+- Python Function: `main()` in file `skills\gemini-omni-flash-api\scripts\video\generate_video.py`
+- Python Function: `format_size(size_bytes)` in file `skills\gemini-omni-flash-api\scripts\video\inspect_video.py`
+- Python Function: `parse_fps(fps_str)` in file `skills\gemini-omni-flash-api\scripts\video\inspect_video.py`
+- Python Function: `inspect_video(file_path, raw=False)` in file `skills\gemini-omni-flash-api\scripts\video\inspect_video.py`
+- Python Function: `print_terminal_report(info)` in file `skills\gemini-omni-flash-api\scripts\video\inspect_video.py`
+- Python Function: `main()` in file `skills\gemini-omni-flash-api\scripts\video\inspect_video.py`
+- Python Function: `parse_timecode(time_str, total_duration=None)` in file `skills\gemini-omni-flash-api\scripts\video\prep_video.py`
+- Python Function: `prep_video(input_path, output_path, start_time_str=None, duration=10, fps=None, resolution=None, strip_audio=False)` in file `skills\gemini-omni-flash-api\scripts\video\prep_video.py`
+- Python Function: `main()` in file `skills\gemini-omni-flash-api\scripts\video\prep_video.py`
+- JS Function: `readFlag()` in file `skills\hyperexecute-skill\scripts\build-command.js`
+- JS Function: `hasFlag()` in file `skills\hyperexecute-skill\scripts\build-command.js`
+- JS Function: `quote()` in file `skills\hyperexecute-skill\scripts\build-command.js`
+- JS Function: `if()` in file `skills\hyperexecute-skill\scripts\build-command.js`
+- JS Function: `if()` in file `skills\hyperexecute-skill\scripts\build-command.js`
+- JS Function: `if()` in file `skills\hyperexecute-skill\scripts\build-command.js`
+- JS Function: `readFlag()` in file `skills\hyperexecute-skill\scripts\doctor.js`
+- JS Function: `hasFlag()` in file `skills\hyperexecute-skill\scripts\doctor.js`
+- JS Function: `ok()` in file `skills\hyperexecute-skill\scripts\doctor.js`
+- JS Function: `warn()` in file `skills\hyperexecute-skill\scripts\doctor.js`
+- JS Function: `fail()` in file `skills\hyperexecute-skill\scripts\doctor.js`
+- JS Function: `if()` in file `skills\hyperexecute-skill\scripts\doctor.js`
+- JS Function: `if()` in file `skills\hyperexecute-skill\scripts\doctor.js`
+- JS Function: `if()` in file `skills\hyperexecute-skill\scripts\doctor.js`
+- JS Function: `walk()` in file `skills\hyperexecute-skill\scripts\summarize-artifacts.js`
+- JS Function: `for()` in file `skills\hyperexecute-skill\scripts\summarize-artifacts.js`
+- JS Function: `if()` in file `skills\hyperexecute-skill\scripts\summarize-artifacts.js`
+- JS Function: `if()` in file `skills\hyperexecute-skill\scripts\summarize-artifacts.js`
+- JS Function: `if()` in file `skills\hyperexecute-skill\scripts\summarize-artifacts.js`
+- JS Function: `for()` in file `skills\hyperexecute-skill\scripts\summarize-artifacts.js`
+- JS Function: `if()` in file `skills\hyperexecute-skill\scripts\summarize-artifacts.js`
+- JS Function: `fail()` in file `skills\hyperexecute-skill\scripts\validate-config.js`
+- JS Function: `warn()` in file `skills\hyperexecute-skill\scripts\validate-config.js`
+- JS Function: `hasKey()` in file `skills\hyperexecute-skill\scripts\validate-config.js`
+- JS Function: `keyValue()` in file `skills\hyperexecute-skill\scripts\validate-config.js`
+- JS Function: `if()` in file `skills\hyperexecute-skill\scripts\validate-config.js`
+- JS Function: `if()` in file `skills\hyperexecute-skill\scripts\validate-config.js`
+- JS Function: `if()` in file `skills\hyperexecute-skill\scripts\validate-config.js`
+- JS Function: `if()` in file `skills\hyperexecute-skill\scripts\validate-config.js`
+- JS Function: `if()` in file `skills\hyperexecute-skill\scripts\validate-config.js`
+- JS Function: `if()` in file `skills\hyperexecute-skill\scripts\validate-config.js`
+- JS Function: `if()` in file `skills\hyperexecute-skill\scripts\validate-config.js`
+- Python Function: `__init__(self)` in file `skills\mcp-builder\scripts\connections.py`
+- Python Function: `_create_context(self)` in file `skills\mcp-builder\scripts\connections.py`
+- Python Function: `__aenter__(self)` in file `skills\mcp-builder\scripts\connections.py`
+- Python Function: `__aexit__(self, exc_type, exc_val, exc_tb)` in file `skills\mcp-builder\scripts\connections.py`
+- Python Function: `__init__(self, command: str, args: list[str] = None, env: dict[str, str] = None)` in file `skills\mcp-builder\scripts\connections.py`
+- Python Function: `_create_context(self)` in file `skills\mcp-builder\scripts\connections.py`
+- Python Function: `__init__(self, url: str, headers: dict[str, str] = None)` in file `skills\mcp-builder\scripts\connections.py`
+- Python Function: `_create_context(self)` in file `skills\mcp-builder\scripts\connections.py`
+- Python Function: `__init__(self, url: str, headers: dict[str, str] = None)` in file `skills\mcp-builder\scripts\connections.py`
+- Python Function: `_create_context(self)` in file `skills\mcp-builder\scripts\connections.py`
+- Python Function: `main()` in file `skills\mcp-builder\scripts\evaluation.py`
+- Python Function: `main()` in file `skills\notebooklm\scripts\ask_question.py`
+- Python Function: `__init__(self)` in file `skills\notebooklm\scripts\auth_manager.py`
+- Python Function: `_save_browser_state(self, context: BrowserContext)` in file `skills\notebooklm\scripts\auth_manager.py`
+- Python Function: `_save_auth_info(self)` in file `skills\notebooklm\scripts\auth_manager.py`
+- Python Function: `main()` in file `skills\notebooklm\scripts\auth_manager.py`
+- Python Function: `__init__(self, session_id: str, context: BrowserContext, notebook_url: str)` in file `skills\notebooklm\scripts\browser_session.py`
+- Python Function: `_initialize(self)` in file `skills\notebooklm\scripts\browser_session.py`
+- Python Function: `_wait_for_ready(self)` in file `skills\notebooklm\scripts\browser_session.py`
+- Python Function: `reset(self)` in file `skills\notebooklm\scripts\browser_session.py`
+- Python Function: `close(self)` in file `skills\notebooklm\scripts\browser_session.py`
+- Python Function: `_inject_cookies(context: BrowserContext)` in file `skills\notebooklm\scripts\browser_utils.py`
+- Python Function: `random_delay(min_ms: int = 100, max_ms: int = 500)` in file `skills\notebooklm\scripts\browser_utils.py`
+- Python Function: `human_type(page: Page, selector: str, text: str, wpm_min: int = 320, wpm_max: int = 480)` in file `skills\notebooklm\scripts\browser_utils.py`
+- Python Function: `realistic_click(page: Page, selector: str)` in file `skills\notebooklm\scripts\browser_utils.py`
+- Python Function: `__init__(self)` in file `skills\notebooklm\scripts\cleanup_manager.py`
+- Python Function: `print_cleanup_preview(self, preserve_library: bool = False)` in file `skills\notebooklm\scripts\cleanup_manager.py`
+- Python Function: `main()` in file `skills\notebooklm\scripts\cleanup_manager.py`
+- Python Function: `__init__(self)` in file `skills\notebooklm\scripts\notebook_manager.py`
+- Python Function: `_load_library(self)` in file `skills\notebooklm\scripts\notebook_manager.py`
+- Python Function: `_save_library(self)` in file `skills\notebooklm\scripts\notebook_manager.py`
+- Python Function: `main()` in file `skills\notebooklm\scripts\notebook_manager.py`
+- Python Function: `get_venv_python()` in file `skills\notebooklm\scripts\run.py`
+- Python Function: `ensure_venv()` in file `skills\notebooklm\scripts\run.py`
+- Python Function: `main()` in file `skills\notebooklm\scripts\run.py`
+- Python Function: `__init__(self)` in file `skills\notebooklm\scripts\setup_environment.py`
+- Python Function: `main()` in file `skills\notebooklm\scripts\setup_environment.py`
+- Python Function: `ensure_venv_and_run()` in file `skills\notebooklm\scripts\__init__.py`
+- Python Function: `rects_intersect(r1, r2)` in file `skills\pdf\scripts\check_bounding_boxes.py`
+- Python Function: `create_json_stream(self, data)` in file `skills\pdf\scripts\check_bounding_boxes_test.py`
+- Python Function: `test_no_intersections(self)` in file `skills\pdf\scripts\check_bounding_boxes_test.py`
+- Python Function: `test_label_entry_intersection_same_field(self)` in file `skills\pdf\scripts\check_bounding_boxes_test.py`
+- Python Function: `test_intersection_between_different_fields(self)` in file `skills\pdf\scripts\check_bounding_boxes_test.py`
+- Python Function: `test_different_pages_no_intersection(self)` in file `skills\pdf\scripts\check_bounding_boxes_test.py`
+- Python Function: `test_entry_height_too_small(self)` in file `skills\pdf\scripts\check_bounding_boxes_test.py`
+- Python Function: `test_entry_height_adequate(self)` in file `skills\pdf\scripts\check_bounding_boxes_test.py`
+- Python Function: `test_default_font_size(self)` in file `skills\pdf\scripts\check_bounding_boxes_test.py`
+- Python Function: `test_no_entry_text(self)` in file `skills\pdf\scripts\check_bounding_boxes_test.py`
+- Python Function: `test_multiple_errors_limit(self)` in file `skills\pdf\scripts\check_bounding_boxes_test.py`
+- Python Function: `test_edge_touching_boxes(self)` in file `skills\pdf\scripts\check_bounding_boxes_test.py`
+- Python Function: `convert(pdf_path, output_dir, max_dim=1000)` in file `skills\pdf\scripts\convert_pdf_to_images.py`
+- Python Function: `create_validation_image(page_number, fields_json_path, input_path, output_path)` in file `skills\pdf\scripts\create_validation_image.py`
+- Python Function: `get_full_annotation_field_id(annotation)` in file `skills\pdf\scripts\extract_form_field_info.py`
+- Python Function: `make_field_dict(field, field_id)` in file `skills\pdf\scripts\extract_form_field_info.py`
+- Python Function: `get_field_info(reader: PdfReader)` in file `skills\pdf\scripts\extract_form_field_info.py`
+- Python Function: `sort_key(f)` in file `skills\pdf\scripts\extract_form_field_info.py`
+- Python Function: `write_field_info(pdf_path: str, json_output_path: str)` in file `skills\pdf\scripts\extract_form_field_info.py`
+- Python Function: `extract_form_structure(pdf_path)` in file `skills\pdf\scripts\extract_form_structure.py`
+- Python Function: `main()` in file `skills\pdf\scripts\extract_form_structure.py`
+- Python Function: `fill_pdf_fields(input_pdf_path: str, fields_json_path: str, output_pdf_path: str)` in file `skills\pdf\scripts\fill_fillable_fields.py`
+- Python Function: `validation_error_for_field_value(field_info, field_value)` in file `skills\pdf\scripts\fill_fillable_fields.py`
+- Python Function: `monkeypatch_pydpf_method()` in file `skills\pdf\scripts\fill_fillable_fields.py`
+- Python Function: `patched_get_inherited(self, key: str, default = None)` in file `skills\pdf\scripts\fill_fillable_fields.py`
+- Python Function: `transform_from_image_coords(bbox, image_width, image_height, pdf_width, pdf_height)` in file `skills\pdf\scripts\fill_pdf_form_with_annotations.py`
+- Python Function: `transform_from_pdf_coords(bbox, pdf_height)` in file `skills\pdf\scripts\fill_pdf_form_with_annotations.py`
+- Python Function: `fill_pdf_form(input_pdf_path, fields_json_path, output_pdf_path)` in file `skills\pdf\scripts\fill_pdf_form_with_annotations.py`
+- Python Function: `main()` in file `skills\planning-with-files\scripts\session-catchup.py`
+- Python Function: `main()` in file `skills\playwright-skill\scripts\validate-config.py`
+- Python Function: `main()` in file `skills\pptx\ooxml\scripts\pack.py`
+- Python Function: `pack_document(input_dir, output_file, validate=False)` in file `skills\pptx\ooxml\scripts\pack.py`
+- Python Function: `validate_document(doc_path)` in file `skills\pptx\ooxml\scripts\pack.py`
+- Python Function: `condense_xml(xml_file)` in file `skills\pptx\ooxml\scripts\pack.py`
+- Python Function: `main()` in file `skills\pptx\ooxml\scripts\validate.py`
+- Python Function: `__init__(self, unpacked_dir, original_file, verbose=False)` in file `skills\pptx\ooxml\scripts\validation\base.py`
+- Python Function: `validate(self)` in file `skills\pptx\ooxml\scripts\validation\base.py`
+- Python Function: `validate_xml(self)` in file `skills\pptx\ooxml\scripts\validation\base.py`
+- Python Function: `validate_namespaces(self)` in file `skills\pptx\ooxml\scripts\validation\base.py`
+- Python Function: `validate_unique_ids(self)` in file `skills\pptx\ooxml\scripts\validation\base.py`
+- Python Function: `validate_file_references(self)` in file `skills\pptx\ooxml\scripts\validation\base.py`
+- Python Function: `validate_all_relationship_ids(self)` in file `skills\pptx\ooxml\scripts\validation\base.py`
+- Python Function: `_get_expected_relationship_type(self, element_name)` in file `skills\pptx\ooxml\scripts\validation\base.py`
+- Python Function: `validate_content_types(self)` in file `skills\pptx\ooxml\scripts\validation\base.py`
+- Python Function: `validate_file_against_xsd(self, xml_file, verbose=False)` in file `skills\pptx\ooxml\scripts\validation\base.py`
+- Python Function: `validate_against_xsd(self)` in file `skills\pptx\ooxml\scripts\validation\base.py`
+- Python Function: `_get_schema_path(self, xml_file)` in file `skills\pptx\ooxml\scripts\validation\base.py`
+- Python Function: `_clean_ignorable_namespaces(self, xml_doc)` in file `skills\pptx\ooxml\scripts\validation\base.py`
+- Python Function: `_remove_ignorable_elements(self, root)` in file `skills\pptx\ooxml\scripts\validation\base.py`
+- Python Function: `_preprocess_for_mc_ignorable(self, xml_doc)` in file `skills\pptx\ooxml\scripts\validation\base.py`
+- Python Function: `_validate_single_file_xsd(self, xml_file, base_path)` in file `skills\pptx\ooxml\scripts\validation\base.py`
+- Python Function: `_get_original_file_errors(self, xml_file)` in file `skills\pptx\ooxml\scripts\validation\base.py`
+- Python Function: `_remove_template_tags_from_text_nodes(self, xml_doc)` in file `skills\pptx\ooxml\scripts\validation\base.py`
+- Python Function: `process_text_content(text, content_type)` in file `skills\pptx\ooxml\scripts\validation\base.py`
+- Python Function: `validate(self)` in file `skills\pptx\ooxml\scripts\validation\docx.py`
+- Python Function: `validate_whitespace_preservation(self)` in file `skills\pptx\ooxml\scripts\validation\docx.py`
+- Python Function: `validate_deletions(self)` in file `skills\pptx\ooxml\scripts\validation\docx.py`
+- Python Function: `count_paragraphs_in_unpacked(self)` in file `skills\pptx\ooxml\scripts\validation\docx.py`
+- Python Function: `count_paragraphs_in_original(self)` in file `skills\pptx\ooxml\scripts\validation\docx.py`
+- Python Function: `validate_insertions(self)` in file `skills\pptx\ooxml\scripts\validation\docx.py`
+- Python Function: `compare_paragraph_counts(self)` in file `skills\pptx\ooxml\scripts\validation\docx.py`
+- Python Function: `validate(self)` in file `skills\pptx\ooxml\scripts\validation\pptx.py`
+- Python Function: `validate_uuid_ids(self)` in file `skills\pptx\ooxml\scripts\validation\pptx.py`
+- Python Function: `_looks_like_uuid(self, value)` in file `skills\pptx\ooxml\scripts\validation\pptx.py`
+- Python Function: `validate_slide_layout_ids(self)` in file `skills\pptx\ooxml\scripts\validation\pptx.py`
+- Python Function: `validate_no_duplicate_slide_layouts(self)` in file `skills\pptx\ooxml\scripts\validation\pptx.py`
+- Python Function: `validate_notes_slide_references(self)` in file `skills\pptx\ooxml\scripts\validation\pptx.py`
+- Python Function: `__init__(self, unpacked_dir, original_docx, verbose=False)` in file `skills\pptx\ooxml\scripts\validation\redlining.py`
+- Python Function: `validate(self)` in file `skills\pptx\ooxml\scripts\validation\redlining.py`
+- Python Function: `_generate_detailed_diff(self, original_text, modified_text)` in file `skills\pptx\ooxml\scripts\validation\redlining.py`
+- Python Function: `_get_git_word_diff(self, original_text, modified_text)` in file `skills\pptx\ooxml\scripts\validation\redlining.py`
+- Python Function: `_remove_claude_tracked_changes(self, root)` in file `skills\pptx\ooxml\scripts\validation\redlining.py`
+- Python Function: `_extract_text_content(self, root)` in file `skills\pptx\ooxml\scripts\validation\redlining.py`
+- JS Function: `getBodyDimensions()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `if()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `validateDimensions()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `if()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `if()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `validateTextBoxPosition()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `for()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `if()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `if()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `getText()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `addBackground()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `if()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `if()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `addElements()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `for()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `if()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `if()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `if()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `if()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `if()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `if()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `if()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `if()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `extractSlideData()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `shouldSkipBold()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `pxToInch()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `pxToPoints()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `rgbToHex()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `extractAlpha()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `applyTextTransform()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `if()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `getRotation()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `if()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `if()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `if()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `const()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `if()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `if()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `getPositionAndSize()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `if()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `if()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `parseBoxShadow()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `if()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `if()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `if()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `parseInlineFormatting()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `if()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `if()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `if()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `if()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `if()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `if()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `textTransform()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `if()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `if()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `if()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `if()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `if()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `if()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `if()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `if()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `if()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `if()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `if()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `if()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `if()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `if()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `if()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `for()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `if()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `if()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `if()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `if()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `if()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `if()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `if()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `if()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `if()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `if()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `if()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `if()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `if()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `if()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `if()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `if()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `if()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `if()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `if()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `html2pptx()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `if()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `if()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `if()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `if()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `if()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `if()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `catch()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `if()` in file `skills\pptx\scripts\html2pptx.js`
+- Python Function: `main()` in file `skills\pptx\scripts\inventory.py`
+- Python Function: `__init__(self, paragraph: Any)` in file `skills\pptx\scripts\inventory.py`
+- Python Function: `main()` in file `skills\pptx\scripts\rearrange.py`
+- Python Function: `duplicate_slide(pres, index)` in file `skills\pptx\scripts\rearrange.py`
+- Python Function: `delete_slide(pres, index)` in file `skills\pptx\scripts\rearrange.py`
+- Python Function: `reorder_slides(pres, slide_index, target_index)` in file `skills\pptx\scripts\rearrange.py`
+- Python Function: `rearrange_presentation(template_path, output_path, slide_sequence)` in file `skills\pptx\scripts\rearrange.py`
+- Python Function: `clear_paragraph_bullets(paragraph)` in file `skills\pptx\scripts\replace.py`
+- Python Function: `apply_paragraph_properties(paragraph, para_data: Dict[str, Any])` in file `skills\pptx\scripts\replace.py`
+- Python Function: `apply_font_properties(run, para_data: Dict[str, Any])` in file `skills\pptx\scripts\replace.py`
+- Python Function: `check_duplicate_keys(pairs)` in file `skills\pptx\scripts\replace.py`
+- Python Function: `apply_replacements(pptx_file: str, json_file: str, output_file: str)` in file `skills\pptx\scripts\replace.py`
+- Python Function: `main()` in file `skills\pptx\scripts\replace.py`
+- Python Function: `main()` in file `skills\pptx\scripts\thumbnail.py`
+- Python Function: `main()` in file `skills\pptx\scripts\office\validate.py`
+- Python Function: `traverse(node)` in file `skills\pptx\scripts\office\helpers\merge_runs.py`
+- Python Function: `_get_child(parent, tag: str)` in file `skills\pptx\scripts\office\helpers\merge_runs.py`
+- Python Function: `_remove_elements(root, tag: str)` in file `skills\pptx\scripts\office\helpers\merge_runs.py`
+- Python Function: `_strip_run_rsid_attrs(root)` in file `skills\pptx\scripts\office\helpers\merge_runs.py`
+- Python Function: `_first_child_run(container)` in file `skills\pptx\scripts\office\helpers\merge_runs.py`
+- Python Function: `_next_element_sibling(node)` in file `skills\pptx\scripts\office\helpers\merge_runs.py`
+- Python Function: `_next_sibling_run(node)` in file `skills\pptx\scripts\office\helpers\merge_runs.py`
+- Python Function: `_merge_run_content(target, source)` in file `skills\pptx\scripts\office\helpers\merge_runs.py`
+- Python Function: `_consolidate_text(run)` in file `skills\pptx\scripts\office\helpers\merge_runs.py`
+- Python Function: `_merge_tracked_content(target, source)` in file `skills\pptx\scripts\office\helpers\simplify_redlines.py`
+- Python Function: `traverse(node)` in file `skills\pptx\scripts\office\helpers\simplify_redlines.py`
+- Python Function: `__init__(self, unpacked_dir, original_file=None, verbose=False)` in file `skills\pptx\scripts\office\validators\base.py`
+- Python Function: `validate(self)` in file `skills\pptx\scripts\office\validators\base.py`
+- Python Function: `validate_xml(self)` in file `skills\pptx\scripts\office\validators\base.py`
+- Python Function: `validate_namespaces(self)` in file `skills\pptx\scripts\office\validators\base.py`
+- Python Function: `validate_unique_ids(self)` in file `skills\pptx\scripts\office\validators\base.py`
+- Python Function: `validate_file_references(self)` in file `skills\pptx\scripts\office\validators\base.py`
+- Python Function: `validate_all_relationship_ids(self)` in file `skills\pptx\scripts\office\validators\base.py`
+- Python Function: `_get_expected_relationship_type(self, element_name)` in file `skills\pptx\scripts\office\validators\base.py`
+- Python Function: `validate_content_types(self)` in file `skills\pptx\scripts\office\validators\base.py`
+- Python Function: `validate_file_against_xsd(self, xml_file, verbose=False)` in file `skills\pptx\scripts\office\validators\base.py`
+- Python Function: `validate_against_xsd(self)` in file `skills\pptx\scripts\office\validators\base.py`
+- Python Function: `_get_schema_path(self, xml_file)` in file `skills\pptx\scripts\office\validators\base.py`
+- Python Function: `_clean_ignorable_namespaces(self, xml_doc)` in file `skills\pptx\scripts\office\validators\base.py`
+- Python Function: `_remove_ignorable_elements(self, root)` in file `skills\pptx\scripts\office\validators\base.py`
+- Python Function: `_preprocess_for_mc_ignorable(self, xml_doc)` in file `skills\pptx\scripts\office\validators\base.py`
+- Python Function: `_validate_single_file_xsd(self, xml_file, base_path)` in file `skills\pptx\scripts\office\validators\base.py`
+- Python Function: `_get_original_file_errors(self, xml_file)` in file `skills\pptx\scripts\office\validators\base.py`
+- Python Function: `_remove_template_tags_from_text_nodes(self, xml_doc)` in file `skills\pptx\scripts\office\validators\base.py`
+- Python Function: `process_text_content(text, content_type)` in file `skills\pptx\scripts\office\validators\base.py`
+- Python Function: `validate(self)` in file `skills\pptx\scripts\office\validators\docx.py`
+- Python Function: `validate_whitespace_preservation(self)` in file `skills\pptx\scripts\office\validators\docx.py`
+- Python Function: `validate_deletions(self)` in file `skills\pptx\scripts\office\validators\docx.py`
+- Python Function: `count_paragraphs_in_unpacked(self)` in file `skills\pptx\scripts\office\validators\docx.py`
+- Python Function: `count_paragraphs_in_original(self)` in file `skills\pptx\scripts\office\validators\docx.py`
+- Python Function: `validate_insertions(self)` in file `skills\pptx\scripts\office\validators\docx.py`
+- Python Function: `compare_paragraph_counts(self)` in file `skills\pptx\scripts\office\validators\docx.py`
+- Python Function: `validate_id_constraints(self)` in file `skills\pptx\scripts\office\validators\docx.py`
+- Python Function: `validate_comment_markers(self)` in file `skills\pptx\scripts\office\validators\docx.py`
+- Python Function: `validate(self)` in file `skills\pptx\scripts\office\validators\pptx.py`
+- Python Function: `validate_uuid_ids(self)` in file `skills\pptx\scripts\office\validators\pptx.py`
+- Python Function: `_looks_like_uuid(self, value)` in file `skills\pptx\scripts\office\validators\pptx.py`
+- Python Function: `validate_slide_layout_ids(self)` in file `skills\pptx\scripts\office\validators\pptx.py`
+- Python Function: `validate_no_duplicate_slide_layouts(self)` in file `skills\pptx\scripts\office\validators\pptx.py`
+- Python Function: `validate_notes_slide_references(self)` in file `skills\pptx\scripts\office\validators\pptx.py`
+- Python Function: `__init__(self, unpacked_dir, original_docx, verbose=False, author="Claude")` in file `skills\pptx\scripts\office\validators\redlining.py`
+- Python Function: `validate(self)` in file `skills\pptx\scripts\office\validators\redlining.py`
+- Python Function: `_generate_detailed_diff(self, original_text, modified_text)` in file `skills\pptx\scripts\office\validators\redlining.py`
+- Python Function: `_get_git_word_diff(self, original_text, modified_text)` in file `skills\pptx\scripts\office\validators\redlining.py`
+- Python Function: `_remove_author_tracked_changes(self, root)` in file `skills\pptx\scripts\office\validators\redlining.py`
+- Python Function: `_extract_text_content(self, root)` in file `skills\pptx\scripts\office\validators\redlining.py`
+- Python Function: `main()` in file `skills\skill-creator\scripts\aggregate_benchmark.py`
+- Python Function: `main()` in file `skills\skill-creator\scripts\generate_report.py`
+- Python Function: `main()` in file `skills\skill-creator\scripts\improve_description.py`
+- Python Function: `main()` in file `skills\skill-creator\scripts\init_skill.py`
+- Python Function: `title_case_skill_name(skill_name)` in file `skills\skill-creator\scripts\init_skill.py`
+- Python Function: `init_skill(skill_name, path)` in file `skills\skill-creator\scripts\init_skill.py`
+- Python Function: `main()` in file `skills\skill-creator\scripts\init_skill.py`
+- Python Function: `package_skill(skill_path, output_dir=None)` in file `skills\skill-creator\scripts\package_skill.py`
+- Python Function: `main()` in file `skills\skill-creator\scripts\package_skill.py`
+- Python Function: `validate_skill(skill_path)` in file `skills\skill-creator\scripts\quick_validate.py`
+- Python Function: `main()` in file `skills\skill-creator\scripts\run_eval.py`
+- Python Function: `print_eval_stats(label, results, elapsed)` in file `skills\skill-creator\scripts\run_loop.py`
+- Python Function: `main()` in file `skills\skill-creator\scripts\run_loop.py`
+- Python Function: `get_easing(name: str = "linear")` in file `skills\slack-gif-creator\core\easing.py`
+- Python Function: `__init__(self, width: int = 480, height: int = 480, fps: int = 15)` in file `skills\slack-gif-creator\core\gif_builder.py`
+- Python Function: `add_frame(self, frame: np.ndarray | Image.Image)` in file `skills\slack-gif-creator\core\gif_builder.py`
+- Python Function: `add_frames(self, frames: list[np.ndarray | Image.Image])` in file `skills\slack-gif-creator\core\gif_builder.py`
+- Python Function: `clear(self)` in file `skills\slack-gif-creator\core\gif_builder.py`
+- JS Function: `normalizeApiBase()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `output()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `error()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `readConfigFile()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `getApiKey()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `getDefaultSocialSetId()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `formatSocialSetsForDisplay()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `requireSocialSetId()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `resolveDraftTarget()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `requireApiKey()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `authenticationFailureDetails()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `errorIfAuthenticationFailure()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `extractGlobalArgs()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `for()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `extractApiErrorMessage()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `for()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `apiRequest()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `parseArgs()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `while()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `coerceFlagValueToString()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `pushStringFlag()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `getQuotePostUrlFromParsed()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `addQuotePostUrl()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `sanitizePostForPlatform()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `for()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `getXContentDisclosuresFromParsed()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `addXContentDisclosures()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `validateXOnlyPostOptions()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `hasParsedArg()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `parsePlatformList()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `hasXArticleDraftFlags()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `validateXArticlePlatformUsage()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `for()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `buildXArticlePlatformConfig()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `getPostTextFromParsed()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `parseCsvArg()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `getSocialSetIdFromParsed()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `getRequiredStringArgFromParsed()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `for()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `getOptionalStringArgFromParsed()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `for()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `resolveSocialSetIdFromParsed()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `resolveDraftTargetFromParsed()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `splitThreadText()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `getContentType()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `sleep()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `sanitizeFilename()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `cmdMeGet()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `cmdSocialSetsList()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `cmdSocialSetsGet()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `cmdLinkedInOrganizationsResolve()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `cmdAnalyticsPostsList()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `cmdAnalyticsFollowersGet()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `prompt()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `writeConfig()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `cmdSetup()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `catch()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `catch()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `cmdConfigShow()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `cmdConfigSetDefault()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `catch()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `cmdDraftsList()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `cmdDraftsGet()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `getFirstConnectedPlatform()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `for()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `getAllConnectedPlatforms()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `for()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `cmdDraftsCreate()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `for()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `cmdDraftsUpdate()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `for()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `for()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `cmdCreateDraftAlias()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `cmdUpdateDraftAlias()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `cmdDraftsDelete()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `cmdDraftsSchedule()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `cmdDraftsPublish()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `requireDraftIdPositional()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `requireThreadPositional()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `requireCommentPositional()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `cmdCommentsList()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `cmdCommentsCreate()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `cmdCommentsReply()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `cmdCommentsResolve()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `cmdCommentsUpdate()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `cmdCommentsDelete()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `cmdQueueGet()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `cmdQueueScheduleGet()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `cmdQueueSchedulePut()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `cmdTagsList()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `cmdTagsCreate()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `cmdMediaUpload()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `pollIntervalMs()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `while()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `cmdMediaStatus()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `showHelp()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `main()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `catch()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- Python Function: `__init__(self, k1=1.5, b=0.75)` in file `skills\ui-ux-pro-max\scripts\core.py`
+- Python Function: `tokenize(self, text)` in file `skills\ui-ux-pro-max\scripts\core.py`
+- Python Function: `fit(self, documents)` in file `skills\ui-ux-pro-max\scripts\core.py`
+- Python Function: `score(self, query)` in file `skills\ui-ux-pro-max\scripts\core.py`
+- Python Function: `_load_csv(filepath)` in file `skills\ui-ux-pro-max\scripts\core.py`
+- Python Function: `_search_csv(filepath, search_cols, output_cols, query, max_results)` in file `skills\ui-ux-pro-max\scripts\core.py`
+- Python Function: `detect_domain(query)` in file `skills\ui-ux-pro-max\scripts\core.py`
+- Python Function: `search(query, domain=None, max_results=MAX_RESULTS)` in file `skills\ui-ux-pro-max\scripts\core.py`
+- Python Function: `search_stack(query, stack, max_results=MAX_RESULTS)` in file `skills\ui-ux-pro-max\scripts\core.py`
+- Python Function: `format_output(result)` in file `skills\ui-ux-pro-max\scripts\search.py`
+- Python Function: `is_server_ready(port, timeout=30)` in file `skills\webapp-testing\scripts\with_server.py`
+- Python Function: `main()` in file `skills\webapp-testing\scripts\with_server.py`
+- JS Function: `extractDotBlocks()` in file `skills\writing-skills\render-graphs.js`
+- JS Function: `while()` in file `skills\writing-skills\render-graphs.js`
+- JS Function: `extractGraphBody()` in file `skills\writing-skills\render-graphs.js`
+- JS Function: `combineGraphs()` in file `skills\writing-skills\render-graphs.js`
+- JS Function: `renderToSvg()` in file `skills\writing-skills\render-graphs.js`
+- JS Function: `catch()` in file `skills\writing-skills\render-graphs.js`
+- JS Function: `main()` in file `skills\writing-skills\render-graphs.js`
+- JS Function: `if()` in file `skills\writing-skills\render-graphs.js`
+- JS Function: `if()` in file `skills\writing-skills\render-graphs.js`
+- JS Function: `if()` in file `skills\writing-skills\render-graphs.js`
+- JS Function: `if()` in file `skills\writing-skills\render-graphs.js`
+- JS Function: `if()` in file `skills\writing-skills\render-graphs.js`
+- JS Function: `if()` in file `skills\writing-skills\render-graphs.js`
+- JS Function: `for()` in file `skills\writing-skills\render-graphs.js`
+- JS Function: `if()` in file `skills\writing-skills\render-graphs.js`
+- Python Function: `setup_libreoffice_macro()` in file `skills\xlsx\recalc.py`
+- Python Function: `recalc(filename, timeout=30)` in file `skills\xlsx\recalc.py`
+- Python Function: `main()` in file `skills\xlsx\recalc.py`
+- Python Function: `has_gtimeout()` in file `skills\xlsx\scripts\recalc.py`
+- Python Function: `setup_libreoffice_macro()` in file `skills\xlsx\scripts\recalc.py`
+- Python Function: `recalc(filename, timeout=30)` in file `skills\xlsx\scripts\recalc.py`
+- Python Function: `main()` in file `skills\xlsx\scripts\recalc.py`
+- Python Function: `main()` in file `skills\xlsx\scripts\office\validate.py`
+- Python Function: `traverse(node)` in file `skills\xlsx\scripts\office\helpers\merge_runs.py`
+- Python Function: `_get_child(parent, tag: str)` in file `skills\xlsx\scripts\office\helpers\merge_runs.py`
+- Python Function: `_remove_elements(root, tag: str)` in file `skills\xlsx\scripts\office\helpers\merge_runs.py`
+- Python Function: `_strip_run_rsid_attrs(root)` in file `skills\xlsx\scripts\office\helpers\merge_runs.py`
+- Python Function: `_first_child_run(container)` in file `skills\xlsx\scripts\office\helpers\merge_runs.py`
+- Python Function: `_next_element_sibling(node)` in file `skills\xlsx\scripts\office\helpers\merge_runs.py`
+- Python Function: `_next_sibling_run(node)` in file `skills\xlsx\scripts\office\helpers\merge_runs.py`
+- Python Function: `_merge_run_content(target, source)` in file `skills\xlsx\scripts\office\helpers\merge_runs.py`
+- Python Function: `_consolidate_text(run)` in file `skills\xlsx\scripts\office\helpers\merge_runs.py`
+- Python Function: `_merge_tracked_content(target, source)` in file `skills\xlsx\scripts\office\helpers\simplify_redlines.py`
+- Python Function: `traverse(node)` in file `skills\xlsx\scripts\office\helpers\simplify_redlines.py`
+- Python Function: `__init__(self, unpacked_dir, original_file=None, verbose=False)` in file `skills\xlsx\scripts\office\validators\base.py`
+- Python Function: `validate(self)` in file `skills\xlsx\scripts\office\validators\base.py`
+- Python Function: `validate_xml(self)` in file `skills\xlsx\scripts\office\validators\base.py`
+- Python Function: `validate_namespaces(self)` in file `skills\xlsx\scripts\office\validators\base.py`
+- Python Function: `validate_unique_ids(self)` in file `skills\xlsx\scripts\office\validators\base.py`
+- Python Function: `validate_file_references(self)` in file `skills\xlsx\scripts\office\validators\base.py`
+- Python Function: `validate_all_relationship_ids(self)` in file `skills\xlsx\scripts\office\validators\base.py`
+- Python Function: `_get_expected_relationship_type(self, element_name)` in file `skills\xlsx\scripts\office\validators\base.py`
+- Python Function: `validate_content_types(self)` in file `skills\xlsx\scripts\office\validators\base.py`
+- Python Function: `validate_file_against_xsd(self, xml_file, verbose=False)` in file `skills\xlsx\scripts\office\validators\base.py`
+- Python Function: `validate_against_xsd(self)` in file `skills\xlsx\scripts\office\validators\base.py`
+- Python Function: `_get_schema_path(self, xml_file)` in file `skills\xlsx\scripts\office\validators\base.py`
+- Python Function: `_clean_ignorable_namespaces(self, xml_doc)` in file `skills\xlsx\scripts\office\validators\base.py`
+- Python Function: `_remove_ignorable_elements(self, root)` in file `skills\xlsx\scripts\office\validators\base.py`
+- Python Function: `_preprocess_for_mc_ignorable(self, xml_doc)` in file `skills\xlsx\scripts\office\validators\base.py`
+- Python Function: `_validate_single_file_xsd(self, xml_file, base_path)` in file `skills\xlsx\scripts\office\validators\base.py`
+- Python Function: `_get_original_file_errors(self, xml_file)` in file `skills\xlsx\scripts\office\validators\base.py`
+- Python Function: `_remove_template_tags_from_text_nodes(self, xml_doc)` in file `skills\xlsx\scripts\office\validators\base.py`
+- Python Function: `process_text_content(text, content_type)` in file `skills\xlsx\scripts\office\validators\base.py`
+- Python Function: `validate(self)` in file `skills\xlsx\scripts\office\validators\docx.py`
+- Python Function: `validate_whitespace_preservation(self)` in file `skills\xlsx\scripts\office\validators\docx.py`
+- Python Function: `validate_deletions(self)` in file `skills\xlsx\scripts\office\validators\docx.py`
+- Python Function: `count_paragraphs_in_unpacked(self)` in file `skills\xlsx\scripts\office\validators\docx.py`
+- Python Function: `count_paragraphs_in_original(self)` in file `skills\xlsx\scripts\office\validators\docx.py`
+- Python Function: `validate_insertions(self)` in file `skills\xlsx\scripts\office\validators\docx.py`
+- Python Function: `compare_paragraph_counts(self)` in file `skills\xlsx\scripts\office\validators\docx.py`
+- Python Function: `validate_id_constraints(self)` in file `skills\xlsx\scripts\office\validators\docx.py`
+- Python Function: `validate_comment_markers(self)` in file `skills\xlsx\scripts\office\validators\docx.py`
+- Python Function: `validate(self)` in file `skills\xlsx\scripts\office\validators\pptx.py`
+- Python Function: `validate_uuid_ids(self)` in file `skills\xlsx\scripts\office\validators\pptx.py`
+- Python Function: `_looks_like_uuid(self, value)` in file `skills\xlsx\scripts\office\validators\pptx.py`
+- Python Function: `validate_slide_layout_ids(self)` in file `skills\xlsx\scripts\office\validators\pptx.py`
+- Python Function: `validate_no_duplicate_slide_layouts(self)` in file `skills\xlsx\scripts\office\validators\pptx.py`
+- Python Function: `validate_notes_slide_references(self)` in file `skills\xlsx\scripts\office\validators\pptx.py`
+- Python Function: `__init__(self, unpacked_dir, original_docx, verbose=False, author="Claude")` in file `skills\xlsx\scripts\office\validators\redlining.py`
+- Python Function: `validate(self)` in file `skills\xlsx\scripts\office\validators\redlining.py`
+- Python Function: `_generate_detailed_diff(self, original_text, modified_text)` in file `skills\xlsx\scripts\office\validators\redlining.py`
+- Python Function: `_get_git_word_diff(self, original_text, modified_text)` in file `skills\xlsx\scripts\office\validators\redlining.py`
+- Python Function: `_remove_author_tracked_changes(self, root)` in file `skills\xlsx\scripts\office\validators\redlining.py`
+- Python Function: `_extract_text_content(self, root)` in file `skills\xlsx\scripts\office\validators\redlining.py`

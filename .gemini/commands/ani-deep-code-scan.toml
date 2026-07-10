@@ -1,0 +1,6 @@
+description = "Deep static scan of codebase to generate .codebase documentation reports"
+
+prompt = """
+Invoke the ani:deep-code-scan skill.
+Run python skills/deep-code-scan/scripts/deep_scan.py to scan the codebase and write results inside the .codebase/ directory.
+"""

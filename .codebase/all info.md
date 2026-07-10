@@ -1,0 +1,6458 @@
+# Codebase Inspection - Complete Analysis Report
+
+---
+# Codebase Summary
+
+This repository is a consolidated professional skills library (`ani-skills`) designed for advanced AI agent workspaces. It hosts 466 skills covering UI/UX animations, plans, testing suites, scraping directives, and DSA workflows. It is mapped to the `ani:` trigger namespace for clean execution under multiple platforms.
+
+
+---
+# Time-stamp of Last Scan
+
+- **Date and Time of Scan:** `2026-07-11 00:56:21`
+- **Files Scanned:** 4393
+- **Scan Base Directory:** `c:\Users\SHABBIR TRADERS\Desktop\skills`
+
+
+---
+# Technology Stack
+
+## Core Technologies
+- Node.js / NPM
+- Python
+- JavaScript (Node.js)
+- Go
+
+## Dependencies
+- None detected
+
+
+---
+# AI Used and Cloned Repositories
+
+## Detected References
+- AI integration reference: 'gemini' (found in `GEMINI.md`)
+- GitHub Repository: https://github.com/usernamezain/ANI-Skills.git (referenced in `package.json`)
+- GitHub Repository: https://github.com/usernamezain/ANI-Skills (referenced in `package.json`)
+- GitHub Repository: https://github.com/usernamezain/ANI-Skills (referenced in `package.json`)
+- AI integration reference: 'gemini' (found in `package.json`)
+- AI integration reference: 'claude' (found in `package.json`)
+- AI integration reference: 'gemini' (found in `README.md`)
+- AI integration reference: 'claude' (found in `README.md`)
+- AI integration reference: 'llm' (found in `README.md`)
+- AI integration reference: 'gemini' (found in `skills_index.json`)
+- AI integration reference: 'claude' (found in `skills_index.json`)
+- AI integration reference: 'openai' (found in `skills_index.json`)
+- AI integration reference: 'replicate' (found in `skills_index.json`)
+- AI integration reference: 'llm' (found in `skills_index.json`)
+- GitHub Repository: https://github.com/guanyang/antigravity-skills (referenced in `.claude-plugin\plugin.json`)
+- GitHub Repository: https://github.com/guanyang/antigravity-skills (referenced in `.claude-plugin\plugin.json`)
+- AI integration reference: 'claude' (found in `.claude-plugin\plugin.json`)
+- AI integration reference: 'llm' (found in `.gemini\commands\ani-advanced-evaluation.toml`)
+- AI integration reference: 'gemini' (found in `.gemini\commands\ani-baoyu-danger-gemini-web.toml`)
+- AI integration reference: 'openai' (found in `.gemini\commands\ani-baoyu-imagine.toml`)
+- AI integration reference: 'replicate' (found in `.gemini\commands\ani-baoyu-imagine.toml`)
+- AI integration reference: 'llm' (found in `.gemini\commands\ani-boss-prompt-llm-eval-judge.toml`)
+- AI integration reference: 'claude' (found in `.gemini\commands\ani-claude-api.toml`)
+- AI integration reference: 'replicate' (found in `.gemini\commands\ani-compare-models.toml`)
+- AI integration reference: 'llm' (found in `.gemini\commands\ani-evaluation.toml`)
+- AI integration reference: 'replicate' (found in `.gemini\commands\ani-find-models.toml`)
+- AI integration reference: 'llm' (found in `.gemini\commands\ani-framework-selector.toml`)
+- AI integration reference: 'gemini' (found in `.gemini\commands\ani-gemini-api-dev.toml`)
+- AI integration reference: 'gemini' (found in `.gemini\commands\ani-gemini-interactions-api.toml`)
+- AI integration reference: 'gemini' (found in `.gemini\commands\ani-gemini-live-api-dev.toml`)
+- AI integration reference: 'gemini' (found in `.gemini\commands\ani-gemini-omni-flash-api.toml`)
+- AI integration reference: 'claude' (found in `.gemini\commands\ani-internal-comms.toml`)
+- AI integration reference: 'gemini' (found in `.gemini\commands\ani-notebooklm.toml`)
+- AI integration reference: 'claude' (found in `.gemini\commands\ani-notebooklm.toml`)
+- AI integration reference: 'claude' (found in `.gemini\commands\ani-profile-user.toml`)
+- AI integration reference: 'llm' (found in `.gemini\commands\ani-project-development.toml`)
+- AI integration reference: 'replicate' (found in `.gemini\commands\ani-run-models.toml`)
+- AI integration reference: 'claude' (found in `.gemini\commands\ani-ultraplan-phase.toml`)
+- AI integration reference: 'claude' (found in `.gemini\commands\ani-web-artifacts-builder.toml`)
+- AI integration reference: 'gemini' (found in `bin\install.js`)
+- AI integration reference: 'claude' (found in `bin\install.js`)
+- AI integration reference: 'llm' (found in `boss-prompts\llm-eval-judge.md`)
+- AI integration reference: 'llm' (found in `commands\skill-advanced-evaluation.md`)
+- AI integration reference: 'gemini' (found in `commands\skill-baoyu-danger-gemini-web.md`)
+- AI integration reference: 'openai' (found in `commands\skill-baoyu-imagine.md`)
+- AI integration reference: 'replicate' (found in `commands\skill-baoyu-imagine.md`)
+- AI integration reference: 'claude' (found in `commands\skill-claude-api.md`)
+- AI integration reference: 'replicate' (found in `commands\skill-compare-models.md`)
+- AI integration reference: 'llm' (found in `commands\skill-evaluation.md`)
+- AI integration reference: 'replicate' (found in `commands\skill-find-models.md`)
+- AI integration reference: 'llm' (found in `commands\skill-framework-selector.md`)
+- AI integration reference: 'gemini' (found in `commands\skill-gemini-api-dev.md`)
+- AI integration reference: 'gemini' (found in `commands\skill-gemini-interactions-api.md`)
+- AI integration reference: 'gemini' (found in `commands\skill-gemini-live-api-dev.md`)
+- AI integration reference: 'gemini' (found in `commands\skill-gemini-omni-flash-api.md`)
+- AI integration reference: 'claude' (found in `commands\skill-internal-comms.md`)
+- AI integration reference: 'gemini' (found in `commands\skill-notebooklm.md`)
+- AI integration reference: 'claude' (found in `commands\skill-notebooklm.md`)
+- AI integration reference: 'claude' (found in `commands\skill-profile-user.md`)
+- AI integration reference: 'llm' (found in `commands\skill-project-development.md`)
+- AI integration reference: 'replicate' (found in `commands\skill-run-models.md`)
+- AI integration reference: 'claude' (found in `commands\skill-ultraplan-phase.md`)
+- AI integration reference: 'claude' (found in `commands\skill-web-artifacts-builder.md`)
+- AI integration reference: 'gemini' (found in `docs\USER-GUIDE.md`)
+- AI integration reference: 'claude' (found in `docs\USER-GUIDE.md`)
+- AI integration reference: 'claude' (found in `skills\add-tests\SKILL.md`)
+- AI integration reference: 'llm' (found in `skills\advanced-evaluation\SKILL.md`)
+- AI integration reference: 'claude' (found in `skills\advanced-evaluation\references\bias-mitigation.md`)
+- AI integration reference: 'llm' (found in `skills\advanced-evaluation\references\bias-mitigation.md`)
+- AI integration reference: 'llm' (found in `skills\advanced-evaluation\references\implementation-patterns.md`)
+- AI integration reference: 'llm' (found in `skills\advanced-evaluation\references\metrics-guide.md`)
+- AI integration reference: 'llm' (found in `skills\advanced-evaluation\scripts\evaluation_example.py`)
+- AI integration reference: 'claude' (found in `skills\advisor-researcher\SKILL.md`)
+- AI integration reference: 'claude' (found in `skills\ai-integration-phase\SKILL.md`)
+- AI integration reference: 'claude' (found in `skills\ai-researcher\SKILL.md`)
+- AI integration reference: 'openai' (found in `skills\ai-researcher\SKILL.md`)
+- AI integration reference: 'llm' (found in `skills\ai-researcher\SKILL.md`)
+- AI integration reference: 'vector db' (found in `skills\ai-researcher\SKILL.md`)
+- AI integration reference: 'claude' (found in `skills\algorithmic-art\SKILL.md`)
+- AI integration reference: 'gemini' (found in `skills\angular-developer\references\mcp.md`)
+- AI integration reference: 'gemini' (found in `skills\angular-new-app\SKILL.md`)
+- AI integration reference: 'claude' (found in `skills\angular-new-app\SKILL.md`)
+- AI integration reference: 'claude' (found in `skills\audit-fix\SKILL.md`)
+- AI integration reference: 'claude' (found in `skills\audit-milestone\SKILL.md`)
+- AI integration reference: 'claude' (found in `skills\audit-uat\SKILL.md`)
+- AI integration reference: 'claude' (found in `skills\autonomous\SKILL.md`)
+- GitHub Repository: https://github.com/hashicorp/amazon (referenced in `skills\aws-ami-builder\SKILL.md`)
+- GitHub Repository: https://github.com/hashicorp/azure (referenced in `skills\azure-image-builder\SKILL.md`)
+- GitHub Repository: https://github.com/xxx/yyy (referenced in `skills\azure-verified-modules\SKILL.md`)
+- GitHub Repository: https://github.com/terraform-docs/terraform-docs (referenced in `skills\azure-verified-modules\SKILL.md`)
+- GitHub Repository: https://github.com/JimLiu/baoyu-skills (referenced in `skills\baoyu-article-illustrator\SKILL.md`)
+- GitHub Repository: https://github.com/JimLiu/baoyu-skills (referenced in `skills\baoyu-comic\SKILL.md`)
+- GitHub Repository: https://github.com/JimLiu/baoyu-skills (referenced in `skills\baoyu-compress-image\SKILL.md`)
+- GitHub Repository: https://github.com/JimLiu/baoyu-skills (referenced in `skills\baoyu-cover-image\SKILL.md`)
+- AI integration reference: 'openai' (found in `skills\baoyu-cover-image\references\workflow\reference-images.md`)
+- AI integration reference: 'replicate' (found in `skills\baoyu-cover-image\references\workflow\reference-images.md`)
+- GitHub Repository: https://github.com/JimLiu/baoyu-skills (referenced in `skills\baoyu-danger-gemini-web\SKILL.md`)
+- AI integration reference: 'gemini' (found in `skills\baoyu-danger-gemini-web\SKILL.md`)
+- AI integration reference: 'gemini' (found in `skills\baoyu-danger-gemini-web\references\README.md`)
+- AI integration reference: 'gemini' (found in `skills\baoyu-danger-gemini-web\scripts\package.json`)
+- GitHub Repository: https://github.com/JimLiu/baoyu-skills (referenced in `skills\baoyu-danger-x-to-markdown\SKILL.md`)
+- GitHub Repository: https://github.com/JimLiu/baoyu-skills (referenced in `skills\baoyu-format-markdown\SKILL.md`)
+- AI integration reference: 'claude' (found in `skills\baoyu-format-markdown\SKILL.md`)
+- GitHub Repository: https://github.com/sponsors/wooorm (referenced in `skills\baoyu-format-markdown\scripts\package-lock.json`)
+- GitHub Repository: https://github.com/sponsors/wooorm (referenced in `skills\baoyu-format-markdown\scripts\package-lock.json`)
+- GitHub Repository: https://github.com/sponsors/wooorm (referenced in `skills\baoyu-format-markdown\scripts\package-lock.json`)
+- GitHub Repository: https://github.com/sponsors/wooorm (referenced in `skills\baoyu-format-markdown\scripts\package-lock.json`)
+- GitHub Repository: https://github.com/sponsors/wooorm (referenced in `skills\baoyu-format-markdown\scripts\package-lock.json`)
+- GitHub Repository: https://github.com/sponsors/sindresorhus (referenced in `skills\baoyu-format-markdown\scripts\package-lock.json`)
+- GitHub Repository: https://github.com/sponsors/wooorm (referenced in `skills\baoyu-format-markdown\scripts\package-lock.json`)
+- GitHub Repository: https://github.com/sponsors/sindresorhus (referenced in `skills\baoyu-format-markdown\scripts\package-lock.json`)
+- GitHub Repository: https://github.com/sponsors/sindresorhus (referenced in `skills\baoyu-format-markdown\scripts\package-lock.json`)
+- GitHub Repository: https://github.com/sponsors/wooorm (referenced in `skills\baoyu-format-markdown\scripts\package-lock.json`)
+- GitHub Repository: https://github.com/sponsors/wooorm (referenced in `skills\baoyu-format-markdown\scripts\package-lock.json`)
+- GitHub Repository: https://github.com/sponsors/unifiedjs (referenced in `skills\baoyu-format-markdown\scripts\package-lock.json`)
+- GitHub Repository: https://github.com/sponsors/unifiedjs (referenced in `skills\baoyu-format-markdown\scripts\package-lock.json`)
+- GitHub Repository: https://github.com/sponsors/unifiedjs (referenced in `skills\baoyu-format-markdown\scripts\package-lock.json`)
+- GitHub Repository: https://github.com/sponsors/unifiedjs (referenced in `skills\baoyu-format-markdown\scripts\package-lock.json`)
+- GitHub Repository: https://github.com/sponsors/unifiedjs (referenced in `skills\baoyu-format-markdown\scripts\package-lock.json`)
+- GitHub Repository: https://github.com/sponsors/unifiedjs (referenced in `skills\baoyu-format-markdown\scripts\package-lock.json`)
+- GitHub Repository: https://github.com/sponsors/unifiedjs (referenced in `skills\baoyu-format-markdown\scripts\package-lock.json`)
+- GitHub Repository: https://github.com/sponsors/unifiedjs (referenced in `skills\baoyu-format-markdown\scripts\package-lock.json`)
+- GitHub Repository: https://github.com/sponsors/unifiedjs (referenced in `skills\baoyu-format-markdown\scripts\package-lock.json`)
+- GitHub Repository: https://github.com/sponsors/unifiedjs (referenced in `skills\baoyu-format-markdown\scripts\package-lock.json`)
+- GitHub Repository: https://github.com/sponsors/unifiedjs (referenced in `skills\baoyu-format-markdown\scripts\package-lock.json`)
+- GitHub Repository: https://github.com/sponsors/unifiedjs (referenced in `skills\baoyu-format-markdown\scripts\package-lock.json`)
+- GitHub Repository: https://github.com/sponsors/unifiedjs (referenced in `skills\baoyu-format-markdown\scripts\package-lock.json`)
+- GitHub Repository: https://github.com/sponsors/unifiedjs (referenced in `skills\baoyu-format-markdown\scripts\package-lock.json`)
+- GitHub Repository: https://github.com/sponsors/unifiedjs (referenced in `skills\baoyu-format-markdown\scripts\package-lock.json`)
+- GitHub Repository: https://github.com/sponsors/unifiedjs (referenced in `skills\baoyu-format-markdown\scripts\package-lock.json`)
+- GitHub Repository: https://github.com/sponsors/unifiedjs (referenced in `skills\baoyu-format-markdown\scripts\package-lock.json`)
+- GitHub Repository: https://github.com/sponsors/unifiedjs (referenced in `skills\baoyu-format-markdown\scripts\package-lock.json`)
+- GitHub Repository: https://github.com/sponsors/unifiedjs (referenced in `skills\baoyu-format-markdown\scripts\package-lock.json`)
+- GitHub Repository: https://github.com/sponsors/unifiedjs (referenced in `skills\baoyu-format-markdown\scripts\package-lock.json`)
+- GitHub Repository: https://github.com/sponsors/unifiedjs (referenced in `skills\baoyu-format-markdown\scripts\package-lock.json`)
+- GitHub Repository: https://github.com/sponsors/wooorm (referenced in `skills\baoyu-format-markdown\scripts\package-lock.json`)
+- GitHub Repository: https://github.com/sponsors/eemeli (referenced in `skills\baoyu-format-markdown\scripts\package-lock.json`)
+- GitHub Repository: https://github.com/sponsors/wooorm (referenced in `skills\baoyu-format-markdown\scripts\package-lock.json`)
+- GitHub Repository: https://github.com/JimLiu/baoyu-skills (referenced in `skills\baoyu-image-cards\SKILL.md`)
+- AI integration reference: 'claude' (found in `skills\baoyu-image-cards\references\confirmation.md`)
+- GitHub Repository: https://github.com/JimLiu/baoyu-skills (referenced in `skills\baoyu-imagine\SKILL.md`)
+- AI integration reference: 'gemini' (found in `skills\baoyu-imagine\SKILL.md`)
+- AI integration reference: 'openai' (found in `skills\baoyu-imagine\SKILL.md`)
+- AI integration reference: 'replicate' (found in `skills\baoyu-imagine\SKILL.md`)
+- AI integration reference: 'gemini' (found in `skills\baoyu-imagine\references\usage-examples.md`)
+- AI integration reference: 'openai' (found in `skills\baoyu-imagine\references\usage-examples.md`)
+- AI integration reference: 'replicate' (found in `skills\baoyu-imagine\references\usage-examples.md`)
+- AI integration reference: 'gemini' (found in `skills\baoyu-imagine\references\config\first-time-setup.md`)
+- AI integration reference: 'openai' (found in `skills\baoyu-imagine\references\config\first-time-setup.md`)
+- AI integration reference: 'replicate' (found in `skills\baoyu-imagine\references\config\first-time-setup.md`)
+- AI integration reference: 'gemini' (found in `skills\baoyu-imagine\references\config\preferences-schema.md`)
+- AI integration reference: 'openai' (found in `skills\baoyu-imagine\references\config\preferences-schema.md`)
+- AI integration reference: 'replicate' (found in `skills\baoyu-imagine\references\config\preferences-schema.md`)
+- AI integration reference: 'gemini' (found in `skills\baoyu-imagine\references\providers\openrouter.md`)
+- AI integration reference: 'openai' (found in `skills\baoyu-imagine\references\providers\openrouter.md`)
+- AI integration reference: 'replicate' (found in `skills\baoyu-imagine\references\providers\replicate.md`)
+- GitHub Repository: https://github.com/JimLiu/baoyu-skills (referenced in `skills\baoyu-infographic\SKILL.md`)
+- GitHub Repository: https://github.com/JimLiu/baoyu-skills (referenced in `skills\baoyu-markdown-to-html\SKILL.md`)
+- GitHub Repository: https://github.com/JimLiu/baoyu-skills (referenced in `skills\baoyu-post-to-wechat\SKILL.md`)
+- AI integration reference: 'claude' (found in `skills\baoyu-post-to-wechat\references\article-posting.md`)
+- AI integration reference: 'claude' (found in `skills\baoyu-post-to-wechat\references\image-text-posting.md`)
+- GitHub Repository: https://github.com/JimLiu/baoyu-skills (referenced in `skills\baoyu-post-to-weibo\SKILL.md`)
+- GitHub Repository: https://github.com/JimLiu/baoyu-skills (referenced in `skills\baoyu-post-to-x\SKILL.md`)
+- AI integration reference: 'claude' (found in `skills\baoyu-post-to-x\SKILL.md`)
+- AI integration reference: 'openai' (found in `skills\baoyu-post-to-x\SKILL.md`)
+- AI integration reference: 'claude' (found in `skills\baoyu-post-to-x\references\articles.md`)
+- AI integration reference: 'claude' (found in `skills\baoyu-post-to-x\references\regular-posts.md`)
+- GitHub Repository: https://github.com/JimLiu/baoyu-skills (referenced in `skills\baoyu-slide-deck\SKILL.md`)
+- AI integration reference: 'claude' (found in `skills\baoyu-slide-deck\references\confirmation.md`)
+- GitHub Repository: https://github.com/JimLiu/baoyu-skills (referenced in `skills\baoyu-translate\SKILL.md`)
+- GitHub Repository: https://github.com/JimLiu/baoyu-skills (referenced in `skills\baoyu-url-to-markdown\SKILL.md`)
+- GitHub Repository: https://github.com/JimLiu/baoyu-skills (referenced in `skills\baoyu-xhs-images\SKILL.md`)
+- AI integration reference: 'claude' (found in `skills\baoyu-xhs-images\references\confirmation.md`)
+- GitHub Repository: https://github.com/JimLiu/baoyu-skills (referenced in `skills\baoyu-youtube-transcript\SKILL.md`)
+- AI integration reference: 'replicate' (found in `skills\baoyu-youtube-transcript\prompts\speaker-transcript.md`)
+- AI integration reference: 'llm' (found in `skills\bdi-mental-states\SKILL.md`)
+- AI integration reference: 'llm' (found in `skills\bdi-mental-states\references\framework-integration.md`)
+- GitHub Repository: https://github.com/better-auth/better-auth (referenced in `skills\better-auth-best-practices\SKILL.md`)
+- GitHub Repository: https://github.com/better-auth/better-auth (referenced in `skills\better-auth-best-practices\SKILL.md`)
+- AI integration reference: 'llm' (found in `skills\boss-prompts\llm-eval-judge\SKILL.md`)
+- AI integration reference: 'gemini' (found in `skills\brainstorming\visual-companion.md`)
+- AI integration reference: 'claude' (found in `skills\brainstorming\visual-companion.md`)
+- AI integration reference: 'claude' (found in `skills\brainstorming\scripts\index.js`)
+- GitHub Repository: https://github.com/sponsors/sindresorhus (referenced in `skills\brainstorming\scripts\package-lock.json`)
+- GitHub Repository: https://github.com/sponsors/ljharb (referenced in `skills\brainstorming\scripts\package-lock.json`)
+- GitHub Repository: https://github.com/sponsors/ljharb (referenced in `skills\brainstorming\scripts\package-lock.json`)
+- GitHub Repository: https://github.com/sponsors/ljharb (referenced in `skills\brainstorming\scripts\package-lock.json`)
+- GitHub Repository: https://github.com/sponsors/ljharb (referenced in `skills\brainstorming\scripts\package-lock.json`)
+- GitHub Repository: https://github.com/sponsors/ljharb (referenced in `skills\brainstorming\scripts\package-lock.json`)
+- GitHub Repository: https://github.com/sponsors/sindresorhus (referenced in `skills\brainstorming\scripts\package-lock.json`)
+- GitHub Repository: https://github.com/sponsors/ljharb (referenced in `skills\brainstorming\scripts\package-lock.json`)
+- GitHub Repository: https://github.com/sponsors/jonschlinkert (referenced in `skills\brainstorming\scripts\package-lock.json`)
+- GitHub Repository: https://github.com/sponsors/ljharb (referenced in `skills\brainstorming\scripts\package-lock.json`)
+- GitHub Repository: https://github.com/sponsors/feross (referenced in `skills\brainstorming\scripts\package-lock.json`)
+- GitHub Repository: https://github.com/sponsors/ljharb (referenced in `skills\brainstorming\scripts\package-lock.json`)
+- GitHub Repository: https://github.com/sponsors/ljharb (referenced in `skills\brainstorming\scripts\package-lock.json`)
+- GitHub Repository: https://github.com/sponsors/ljharb (referenced in `skills\brainstorming\scripts\package-lock.json`)
+- GitHub Repository: https://github.com/sponsors/ljharb (referenced in `skills\brainstorming\scripts\package-lock.json`)
+- AI integration reference: 'claude' (found in `skills\brainstorming\scripts\package.json`)
+- AI integration reference: 'claude' (found in `skills\browser-testing-with-devtools\SKILL.md`)
+- GitHub Repository: https://github.com/replicate/cog (referenced in `skills\build-models\SKILL.md`)
+- GitHub Repository: https://github.com/replicate/cog-examples. (referenced in `skills\build-models\SKILL.md`)
+- GitHub Repository: https://github.com/replicate/cog-examples (referenced in `skills\build-models\SKILL.md`)
+- GitHub Repository: https://github.com/replicate/cog-template (referenced in `skills\build-models\SKILL.md`)
+- GitHub Repository: https://github.com/github/scripts-to-rule-them-all (referenced in `skills\build-models\SKILL.md`)
+- GitHub Repository: https://github.com/replicate/pget (referenced in `skills\build-models\SKILL.md`)
+- GitHub Repository: https://github.com/replicate/cog-examples (referenced in `skills\build-models\SKILL.md`)
+- GitHub Repository: https://github.com/replicate/cog-template (referenced in `skills\build-models\SKILL.md`)
+- GitHub Repository: https://github.com/replicate/cog-flux (referenced in `skills\build-models\SKILL.md`)
+- GitHub Repository: https://github.com/replicate/cog-flux-kontext (referenced in `skills\build-models\SKILL.md`)
+- GitHub Repository: https://github.com/replicate/cog-vllm (referenced in `skills\build-models\SKILL.md`)
+- GitHub Repository: https://github.com/replicate/cog-comfyui (referenced in `skills\build-models\SKILL.md`)
+- GitHub Repository: https://github.com/replicate/flux-fine-tuner (referenced in `skills\build-models\SKILL.md`)
+- GitHub Repository: https://github.com/replicate/vibevoice (referenced in `skills\build-models\SKILL.md`)
+- GitHub Repository: https://github.com/replicate/pget (referenced in `skills\build-models\SKILL.md`)
+- AI integration reference: 'replicate' (found in `skills\build-models\SKILL.md`)
+- AI integration reference: 'llm' (found in `skills\build-models\SKILL.md`)
+- AI integration reference: 'claude' (found in `skills\canvas-design\SKILL.md`)
+- AI integration reference: 'claude' (found in `skills\capture\SKILL.md`)
+- GitHub Repository: https://github.com/chdb-io/chdb (referenced in `skills\chdb-datastore\metadata.json`)
+- GitHub Repository: https://github.com/chdb-io/chdb (referenced in `skills\chdb-datastore\README.md`)
+- AI integration reference: 'claude' (found in `skills\chdb-datastore\SKILL.md`)
+- GitHub Repository: https://github.com/chdb-io/chdb (referenced in `skills\chdb-sql\metadata.json`)
+- GitHub Repository: https://github.com/chdb-io/chdb (referenced in `skills\chdb-sql\README.md`)
+- AI integration reference: 'claude' (found in `skills\chdb-sql\SKILL.md`)
+- AI integration reference: 'llm' (found in `skills\chdb-sql\references\api-reference.md`)
+- GitHub Repository: https://github.com/anthropics/anthropic-sdk-go (referenced in `skills\claude-api\SKILL.md`)
+- AI integration reference: 'gemini' (found in `skills\claude-api\SKILL.md`)
+- AI integration reference: 'claude' (found in `skills\claude-api\SKILL.md`)
+- AI integration reference: 'openai' (found in `skills\claude-api\SKILL.md`)
+- AI integration reference: 'llm' (found in `skills\claude-api\SKILL.md`)
+- AI integration reference: 'claude' (found in `skills\claude-api\csharp\claude-api.md`)
+- AI integration reference: 'claude' (found in `skills\claude-api\curl\examples.md`)
+- GitHub Repository: https://github.com/owner/repo (referenced in `skills\claude-api\curl\managed-agents.md`)
+- AI integration reference: 'claude' (found in `skills\claude-api\curl\managed-agents.md`)
+- GitHub Repository: https://github.com/anthropics/anthropic-sdk-go (referenced in `skills\claude-api\go\claude-api.md`)
+- GitHub Repository: https://github.com/anthropics/anthropic-sdk-go (referenced in `skills\claude-api\go\claude-api.md`)
+- GitHub Repository: https://github.com/anthropics/anthropic-sdk-go (referenced in `skills\claude-api\go\claude-api.md`)
+- GitHub Repository: https://github.com/anthropics/anthropic-sdk-go (referenced in `skills\claude-api\go\claude-api.md`)
+- GitHub Repository: https://github.com/anthropics/anthropic-sdk-go (referenced in `skills\claude-api\go\claude-api.md`)
+- GitHub Repository: https://github.com/anthropics/anthropic-sdk-go (referenced in `skills\claude-api\go\claude-api.md`)
+- AI integration reference: 'claude' (found in `skills\claude-api\go\claude-api.md`)
+- GitHub Repository: https://github.com/anthropics/anthropic-sdk-go (referenced in `skills\claude-api\go\managed-agents\README.md`)
+- GitHub Repository: https://github.com/anthropics/anthropic-sdk-go (referenced in `skills\claude-api\go\managed-agents\README.md`)
+- GitHub Repository: https://github.com/anthropics/anthropic-sdk-go (referenced in `skills\claude-api\go\managed-agents\README.md`)
+- GitHub Repository: https://github.com/anthropics/anthropic-sdk-go (referenced in `skills\claude-api\go\managed-agents\README.md`)
+- GitHub Repository: https://github.com/anthropics/anthropic-sdk-go (referenced in `skills\claude-api\go\managed-agents\README.md`)
+- GitHub Repository: https://github.com/org/repo (referenced in `skills\claude-api\go\managed-agents\README.md`)
+- GitHub Repository: https://github.com/org/frontend (referenced in `skills\claude-api\go\managed-agents\README.md`)
+- GitHub Repository: https://github.com/org/backend (referenced in `skills\claude-api\go\managed-agents\README.md`)
+- AI integration reference: 'claude' (found in `skills\claude-api\go\managed-agents\README.md`)
+- AI integration reference: 'claude' (found in `skills\claude-api\java\claude-api.md`)
+- GitHub Repository: https://github.com/org/repo (referenced in `skills\claude-api\java\managed-agents\README.md`)
+- GitHub Repository: https://github.com/org/frontend (referenced in `skills\claude-api\java\managed-agents\README.md`)
+- GitHub Repository: https://github.com/org/backend (referenced in `skills\claude-api\java\managed-agents\README.md`)
+- AI integration reference: 'claude' (found in `skills\claude-api\java\managed-agents\README.md`)
+- AI integration reference: 'claude' (found in `skills\claude-api\php\claude-api.md`)
+- GitHub Repository: https://github.com/org/repo (referenced in `skills\claude-api\php\managed-agents\README.md`)
+- GitHub Repository: https://github.com/org/frontend (referenced in `skills\claude-api\php\managed-agents\README.md`)
+- GitHub Repository: https://github.com/org/backend (referenced in `skills\claude-api\php\managed-agents\README.md`)
+- AI integration reference: 'claude' (found in `skills\claude-api\php\managed-agents\README.md`)
+- AI integration reference: 'claude' (found in `skills\claude-api\python\agent-sdk\patterns.md`)
+- AI integration reference: 'claude' (found in `skills\claude-api\python\agent-sdk\README.md`)
+- AI integration reference: 'claude' (found in `skills\claude-api\python\claude-api\batches.md`)
+- AI integration reference: 'claude' (found in `skills\claude-api\python\claude-api\files-api.md`)
+- AI integration reference: 'claude' (found in `skills\claude-api\python\claude-api\README.md`)
+- AI integration reference: 'claude' (found in `skills\claude-api\python\claude-api\streaming.md`)
+- GitHub Repository: https://github.com/anthropics/anthropic-sdk-python (referenced in `skills\claude-api\python\claude-api\tool-use.md`)
+- AI integration reference: 'claude' (found in `skills\claude-api\python\claude-api\tool-use.md`)
+- GitHub Repository: https://github.com/owner/repo (referenced in `skills\claude-api\python\managed-agents\README.md`)
+- AI integration reference: 'claude' (found in `skills\claude-api\python\managed-agents\README.md`)
+- AI integration reference: 'claude' (found in `skills\claude-api\references\README.md`)
+- AI integration reference: 'openai' (found in `skills\claude-api\references\README.md`)
+- AI integration reference: 'claude' (found in `skills\claude-api\ruby\claude-api.md`)
+- GitHub Repository: https://github.com/org/repo (referenced in `skills\claude-api\ruby\managed-agents\README.md`)
+- GitHub Repository: https://github.com/org/frontend (referenced in `skills\claude-api\ruby\managed-agents\README.md`)
+- GitHub Repository: https://github.com/org/backend (referenced in `skills\claude-api\ruby\managed-agents\README.md`)
+- AI integration reference: 'claude' (found in `skills\claude-api\ruby\managed-agents\README.md`)
+- AI integration reference: 'claude' (found in `skills\claude-api\shared\agent-design.md`)
+- AI integration reference: 'claude' (found in `skills\claude-api\shared\error-codes.md`)
+- GitHub Repository: https://github.com/anthropics/anthropic-sdk-python (referenced in `skills\claude-api\shared\live-sources.md`)
+- GitHub Repository: https://github.com/anthropics/anthropic-sdk-typescript (referenced in `skills\claude-api\shared\live-sources.md`)
+- GitHub Repository: https://github.com/anthropics/anthropic-sdk-java (referenced in `skills\claude-api\shared\live-sources.md`)
+- GitHub Repository: https://github.com/anthropics/anthropic-sdk-go (referenced in `skills\claude-api\shared\live-sources.md`)
+- GitHub Repository: https://github.com/anthropics/anthropic-sdk-ruby (referenced in `skills\claude-api\shared\live-sources.md`)
+- GitHub Repository: https://github.com/anthropics/anthropic-sdk-csharp (referenced in `skills\claude-api\shared\live-sources.md`)
+- GitHub Repository: https://github.com/anthropics/anthropic-sdk-php (referenced in `skills\claude-api\shared\live-sources.md`)
+- AI integration reference: 'claude' (found in `skills\claude-api\shared\live-sources.md`)
+- GitHub Repository: https://github.com/owner/repo (referenced in `skills\claude-api\shared\managed-agents-api-reference.md`)
+- AI integration reference: 'claude' (found in `skills\claude-api\shared\managed-agents-api-reference.md`)
+- AI integration reference: 'claude' (found in `skills\claude-api\shared\managed-agents-core.md`)
+- GitHub Repository: https://github.com/owner/repo (referenced in `skills\claude-api\shared\managed-agents-environments.md`)
+- GitHub Repository: https://github.com/owner/repo (referenced in `skills\claude-api\shared\managed-agents-environments.md`)
+- AI integration reference: 'claude' (found in `skills\claude-api\shared\managed-agents-environments.md`)
+- AI integration reference: 'claude' (found in `skills\claude-api\shared\managed-agents-multiagent.md`)
+- GitHub Repository: https://github.com/org/repo (referenced in `skills\claude-api\shared\managed-agents-onboarding.md`)
+- AI integration reference: 'claude' (found in `skills\claude-api\shared\managed-agents-onboarding.md`)
+- AI integration reference: 'claude' (found in `skills\claude-api\shared\managed-agents-outcomes.md`)
+- AI integration reference: 'claude' (found in `skills\claude-api\shared\managed-agents-self-hosted-sandboxes.md`)
+- AI integration reference: 'claude' (found in `skills\claude-api\shared\managed-agents-tools.md`)
+- AI integration reference: 'claude' (found in `skills\claude-api\shared\model-migration.md`)
+- AI integration reference: 'claude' (found in `skills\claude-api\shared\models.md`)
+- AI integration reference: 'claude' (found in `skills\claude-api\shared\prompt-caching.md`)
+- AI integration reference: 'claude' (found in `skills\claude-api\shared\tool-use-concepts.md`)
+- AI integration reference: 'claude' (found in `skills\claude-api\typescript\agent-sdk\patterns.md`)
+- AI integration reference: 'claude' (found in `skills\claude-api\typescript\agent-sdk\README.md`)
+- AI integration reference: 'claude' (found in `skills\claude-api\typescript\claude-api\batches.md`)
+- AI integration reference: 'claude' (found in `skills\claude-api\typescript\claude-api\files-api.md`)
+- AI integration reference: 'claude' (found in `skills\claude-api\typescript\claude-api\README.md`)
+- AI integration reference: 'claude' (found in `skills\claude-api\typescript\claude-api\streaming.md`)
+- GitHub Repository: https://github.com/anthropics/anthropic-sdk-typescript (referenced in `skills\claude-api\typescript\claude-api\tool-use.md`)
+- AI integration reference: 'claude' (found in `skills\claude-api\typescript\claude-api\tool-use.md`)
+- GitHub Repository: https://github.com/owner/repo (referenced in `skills\claude-api\typescript\managed-agents\README.md`)
+- AI integration reference: 'claude' (found in `skills\claude-api\typescript\managed-agents\README.md`)
+- AI integration reference: 'claude' (found in `skills\cleanup\SKILL.md`)
+- GitHub Repository: https://github.com/ClickHouse/mcp-clickhouse (referenced in `skills\clickhouse-best-practices\AGENTS.md`)
+- GitHub Repository: https://github.com/ClickHouse/mcp-clickhouse (referenced in `skills\clickhouse-best-practices\AGENTS.md`)
+- GitHub Repository: https://github.com/ClickHouse/ClickHouse (referenced in `skills\clickhouse-best-practices\AGENTS.md`)
+- GitHub Repository: https://github.com/ClickHouse/ClickHouse (referenced in `skills\clickhouse-best-practices\AGENTS.md`)
+- AI integration reference: 'claude' (found in `skills\clickhouse-best-practices\AGENTS.md`)
+- GitHub Repository: https://github.com/ClickHouse/ClickHouse (referenced in `skills\clickhouse-best-practices\metadata.json`)
+- AI integration reference: 'claude' (found in `skills\clickhouse-best-practices\README.md`)
+- AI integration reference: 'llm' (found in `skills\clickhouse-best-practices\SKILL.md`)
+- GitHub Repository: https://github.com/ClickHouse/mcp-clickhouse (referenced in `skills\clickhouse-best-practices\rules\agent-connect-mcp.md`)
+- AI integration reference: 'claude' (found in `skills\clickhouse-best-practices\rules\agent-connect-mcp.md`)
+- GitHub Repository: https://github.com/ClickHouse/clickhouse-js (referenced in `skills\clickhouse-js-node-coding\SKILL.md`)
+- GitHub Repository: https://github.com/ClickHouse/clickhouse-js (referenced in `skills\clickhouse-js-node-coding\SKILL.md`)
+- GitHub Repository: https://github.com/ClickHouse/clickhouse-js (referenced in `skills\clickhouse-js-node-coding\SKILL.md`)
+- GitHub Repository: https://github.com/ClickHouse/clickhouse-js (referenced in `skills\clickhouse-js-node-coding\SKILL.md`)
+- GitHub Repository: https://github.com/ClickHouse/clickhouse-js (referenced in `skills\clickhouse-js-node-coding\SKILL.md`)
+- GitHub Repository: https://github.com/ClickHouse/clickhouse-js (referenced in `skills\clickhouse-js-node-coding\reference\async-insert.md`)
+- GitHub Repository: https://github.com/ClickHouse/clickhouse-js (referenced in `skills\clickhouse-js-node-coding\reference\insert-formats.md`)
+- GitHub Repository: https://github.com/ClickHouse/clickhouse-js (referenced in `skills\clickhouse-js-node-coding\reference\select-formats.md`)
+- GitHub Repository: https://github.com/ClickHouse/clickhouse-js (referenced in `skills\clickhouse-js-node-coding\reference\select-formats.md`)
+- GitHub Repository: https://github.com/ClickHouse/clickhouse-js (referenced in `skills\clickhouse-js-node-coding\reference\select-formats.md`)
+- GitHub Repository: https://github.com/ClickHouse/clickhouse-js (referenced in `skills\clickhouse-js-node-coding\reference\select-formats.md`)
+- GitHub Repository: https://github.com/ClickHouse/clickhouse-js (referenced in `skills\clickhouse-js-node-coding\reference\select-formats.md`)
+- GitHub Repository: https://github.com/ClickHouse/clickhouse-js (referenced in `skills\clickhouse-js-node-rowbinary\CHANGELOG.md`)
+- GitHub Repository: https://github.com/ClickHouse/clickhouse-js (referenced in `skills\clickhouse-js-node-rowbinary\CHANGELOG.md`)
+- GitHub Repository: https://github.com/ClickHouse/clickhouse-js (referenced in `skills\clickhouse-js-node-rowbinary\CHANGELOG.md`)
+- GitHub Repository: https://github.com/ClickHouse/clickhouse-js (referenced in `skills\clickhouse-js-node-rowbinary\CHANGELOG.md`)
+- GitHub Repository: https://github.com/ClickHouse/clickhouse-js (referenced in `skills\clickhouse-js-node-rowbinary\CHANGELOG.md`)
+- GitHub Repository: https://github.com/ClickHouse/clickhouse-js (referenced in `skills\clickhouse-js-node-rowbinary\CHANGELOG.md`)
+- AI integration reference: 'claude' (found in `skills\clickhouse-js-node-rowbinary\eval_result.md`)
+- AI integration reference: 'llm' (found in `skills\clickhouse-js-node-rowbinary\eval_result.md`)
+- AI integration reference: 'claude' (found in `skills\clickhouse-js-node-rowbinary\eval_result_composer.md`)
+- AI integration reference: 'llm' (found in `skills\clickhouse-js-node-rowbinary\eval_result_composer.md`)
+- AI integration reference: 'claude' (found in `skills\clickhouse-js-node-rowbinary\eval_result_haiku.md`)
+- AI integration reference: 'llm' (found in `skills\clickhouse-js-node-rowbinary\eval_result_haiku.md`)
+- AI integration reference: 'claude' (found in `skills\clickhouse-js-node-rowbinary\eval_result_sonnet.md`)
+- AI integration reference: 'llm' (found in `skills\clickhouse-js-node-rowbinary\eval_result_sonnet.md`)
+- GitHub Repository: https://github.com/sponsors/Brooooooklyn (referenced in `skills\clickhouse-js-node-rowbinary\package-lock.json`)
+- GitHub Repository: https://github.com/sponsors/Boshen (referenced in `skills\clickhouse-js-node-rowbinary\package-lock.json`)
+- GitHub Repository: https://github.com/sponsors/ai (referenced in `skills\clickhouse-js-node-rowbinary\package-lock.json`)
+- GitHub Repository: https://github.com/sponsors/sxzz (referenced in `skills\clickhouse-js-node-rowbinary\package-lock.json`)
+- GitHub Repository: https://github.com/sponsors/jonschlinkert (referenced in `skills\clickhouse-js-node-rowbinary\package-lock.json`)
+- GitHub Repository: https://github.com/sponsors/ai (referenced in `skills\clickhouse-js-node-rowbinary\package-lock.json`)
+- GitHub Repository: https://github.com/sponsors/SuperchupuDev (referenced in `skills\clickhouse-js-node-rowbinary\package-lock.json`)
+- GitHub Repository: https://github.com/vitejs/vite (referenced in `skills\clickhouse-js-node-rowbinary\package-lock.json`)
+- GitHub Repository: https://github.com/ClickHouse/clickhouse-js (referenced in `skills\clickhouse-js-node-rowbinary\package.json`)
+- GitHub Repository: https://github.com/ClickHouse/clickhouse-js.git (referenced in `skills\clickhouse-js-node-rowbinary\package.json`)
+- AI integration reference: 'claude' (found in `skills\clickhouse-js-node-rowbinary\README.md`)
+- AI integration reference: 'llm' (found in `skills\clickhouse-js-node-rowbinary\README.md`)
+- GitHub Repository: https://github.com/ClickHouse/clickhouse-js (referenced in `skills\clickhouse-js-node-troubleshooting\SKILL.md`)
+- GitHub Repository: https://github.com/ClickHouse/ClickHouse (referenced in `skills\clickhouse-js-node-troubleshooting\reference\query-format-clause.md`)
+- GitHub Repository: https://github.com/ClickHouse/clickhouse-js (referenced in `skills\clickhouse-js-node-troubleshooting\reference\socket-hangup.md`)
+- AI integration reference: 'claude' (found in `skills\clickhouse-managed-postgres-rca\README.md`)
+- GitHub Repository: https://github.com/ClickHouse/clickhousectl (referenced in `skills\clickhousectl-cloud-deploy\metadata.json`)
+- GitHub Repository: https://github.com/ClickHouse/clickhousectl (referenced in `skills\clickhousectl-local-dev\metadata.json`)
+- AI integration reference: 'openai' (found in `skills\cloudflare-skills-agents-sdk\references\browse-the-web.md`)
+- AI integration reference: 'llm' (found in `skills\cloudflare-skills-agents-sdk\references\browse-the-web.md`)
+- AI integration reference: 'llm' (found in `skills\cloudflare-skills-agents-sdk\references\codemode.md`)
+- AI integration reference: 'openai' (found in `skills\cloudflare-skills-agents-sdk\references\human-in-the-loop.md`)
+- AI integration reference: 'llm' (found in `skills\cloudflare-skills-agents-sdk\references\human-in-the-loop.md`)
+- AI integration reference: 'openai' (found in `skills\cloudflare-skills-agents-sdk\references\mcp.md`)
+- AI integration reference: 'llm' (found in `skills\cloudflare-skills-agents-sdk\references\server-driven-messages.md`)
+- AI integration reference: 'openai' (found in `skills\cloudflare-skills-agents-sdk\references\streaming-chat.md`)
+- AI integration reference: 'llm' (found in `skills\cloudflare-skills-agents-sdk\references\think.md`)
+- AI integration reference: 'openai' (found in `skills\cloudflare-skills-cloudflare\references\agents-sdk\api.md`)
+- AI integration reference: 'openai' (found in `skills\cloudflare-skills-cloudflare\references\agents-sdk\gotchas.md`)
+- AI integration reference: 'openai' (found in `skills\cloudflare-skills-cloudflare\references\agents-sdk\patterns.md`)
+- AI integration reference: 'openai' (found in `skills\cloudflare-skills-cloudflare\references\agents-sdk\README.md`)
+- AI integration reference: 'openai' (found in `skills\cloudflare-skills-cloudflare\references\ai-gateway\configuration.md`)
+- AI integration reference: 'claude' (found in `skills\cloudflare-skills-cloudflare\references\ai-gateway\dynamic-routing.md`)
+- AI integration reference: 'gemini' (found in `skills\cloudflare-skills-cloudflare\references\ai-gateway\features.md`)
+- AI integration reference: 'claude' (found in `skills\cloudflare-skills-cloudflare\references\ai-gateway\features.md`)
+- AI integration reference: 'openai' (found in `skills\cloudflare-skills-cloudflare\references\ai-gateway\features.md`)
+- AI integration reference: 'claude' (found in `skills\cloudflare-skills-cloudflare\references\ai-gateway\README.md`)
+- AI integration reference: 'openai' (found in `skills\cloudflare-skills-cloudflare\references\ai-gateway\README.md`)
+- AI integration reference: 'claude' (found in `skills\cloudflare-skills-cloudflare\references\ai-gateway\sdk-integration.md`)
+- AI integration reference: 'openai' (found in `skills\cloudflare-skills-cloudflare\references\ai-gateway\sdk-integration.md`)
+- AI integration reference: 'openai' (found in `skills\cloudflare-skills-cloudflare\references\ai-gateway\troubleshooting.md`)
+- AI integration reference: 'llm' (found in `skills\cloudflare-skills-cloudflare\references\ai-search\api.md`)
+- AI integration reference: 'llm' (found in `skills\cloudflare-skills-cloudflare\references\ai-search\patterns.md`)
+- AI integration reference: 'llm' (found in `skills\cloudflare-skills-cloudflare\references\ai-search\README.md`)
+- GitHub Repository: https://github.com/cloudflare/cloudflare-go (referenced in `skills\cloudflare-skills-cloudflare\references\api\api.md`)
+- GitHub Repository: https://github.com/cloudflare/cloudflare-go (referenced in `skills\cloudflare-skills-cloudflare\references\api\api.md`)
+- GitHub Repository: https://github.com/cloudflare/cloudflare-typescript (referenced in `skills\cloudflare-skills-cloudflare\references\argo-smart-routing\gotchas.md`)
+- GitHub Repository: https://github.com/cloudflare/cloudflare-python (referenced in `skills\cloudflare-skills-cloudflare\references\argo-smart-routing\gotchas.md`)
+- AI integration reference: 'llm' (found in `skills\cloudflare-skills-cloudflare\references\bindings\README.md`)
+- AI integration reference: 'claude' (found in `skills\cloudflare-skills-cloudflare\references\bot-management\configuration.md`)
+- GitHub Repository: https://github.com/cloudflare/workers-sdk (referenced in `skills\cloudflare-skills-cloudflare\references\cron-triggers\gotchas.md`)
+- GitHub Repository: https://github.com/lambrospetrou/durable-utils (referenced in `skills\cloudflare-skills-cloudflare\references\do-storage\patterns.md`)
+- GitHub Repository: https://github.com/cloudflare/actors (referenced in `skills\cloudflare-skills-cloudflare\references\do-storage\patterns.md`)
+- GitHub Repository: https://github.com/cloudflare/cloudflare-typescript (referenced in `skills\cloudflare-skills-cloudflare\references\network-interconnect\api.md`)
+- GitHub Repository: https://github.com/cloudflare/cloudflare-python (referenced in `skills\cloudflare-skills-cloudflare\references\network-interconnect\api.md`)
+- AI integration reference: 'llm' (found in `skills\cloudflare-skills-cloudflare\references\pages-functions\api.md`)
+- GitHub Repository: https://github.com/cloudflare/pages-example-projects (referenced in `skills\cloudflare-skills-cloudflare\references\pages-functions\gotchas.md`)
+- GitHub Repository: https://github.com/pulumi/pulumi-cloudflare (referenced in `skills\cloudflare-skills-cloudflare\references\pulumi\gotchas.md`)
+- GitHub Repository: https://github.com/pulumi/pulumi-cloudflare (referenced in `skills\cloudflare-skills-cloudflare\references\pulumi\README.md`)
+- GitHub Repository: https://github.com/apache/iceberg (referenced in `skills\cloudflare-skills-cloudflare\references\r2-data-catalog\api.md`)
+- GitHub Repository: https://github.com/cloudflare/orange (referenced in `skills\cloudflare-skills-cloudflare\references\realtime-sfu\README.md`)
+- GitHub Repository: https://github.com/cloudflare/calls-examples (referenced in `skills\cloudflare-skills-cloudflare\references\realtime-sfu\README.md`)
+- GitHub Repository: https://github.com/cloudflare/realtimekit-web-examples (referenced in `skills\cloudflare-skills-cloudflare\references\realtimekit\README.md`)
+- GitHub Repository: https://github.com/cloudflare/sandbox-sdk (referenced in `skills\cloudflare-skills-cloudflare\references\sandbox\gotchas.md`)
+- GitHub Repository: https://github.com/user/repo.git (referenced in `skills\cloudflare-skills-cloudflare\references\sandbox\patterns.md`)
+- GitHub Repository: https://github.com/user/repo.git (referenced in `skills\cloudflare-skills-cloudflare\references\sandbox\patterns.md`)
+- GitHub Repository: https://github.com/cloudflare/cloudflare-go (referenced in `skills\cloudflare-skills-cloudflare\references\spectrum\api.md`)
+- GitHub Repository: https://github.com/cloudflare/orange (referenced in `skills\cloudflare-skills-cloudflare\references\turn\README.md`)
+- AI integration reference: 'openai' (found in `skills\cloudflare-skills-cloudflare\references\vectorize\patterns.md`)
+- AI integration reference: 'openai' (found in `skills\cloudflare-skills-cloudflare\references\vectorize\README.md`)
+- AI integration reference: 'llm' (found in `skills\cloudflare-skills-cloudflare\references\vectorize\README.md`)
+- GitHub Repository: https://github.com/cloudflare/workerd (referenced in `skills\cloudflare-skills-cloudflare\references\workerd\gotchas.md`)
+- AI integration reference: 'openai' (found in `skills\cloudflare-skills-cloudflare\references\workers-ai\api.md`)
+- AI integration reference: 'openai' (found in `skills\cloudflare-skills-cloudflare\references\workers-ai\configuration.md`)
+- AI integration reference: 'openai' (found in `skills\cloudflare-skills-cloudflare\references\workers-ai\gotchas.md`)
+- AI integration reference: 'openai' (found in `skills\cloudflare-skills-cloudflare\references\workers-ai\README.md`)
+- GitHub Repository: https://github.com/cloudflare/vibesdk (referenced in `skills\cloudflare-skills-cloudflare\references\workers-for-platforms\patterns.md`)
+- GitHub Repository: https://github.com/cloudflare/workers-for-platforms-example (referenced in `skills\cloudflare-skills-cloudflare\references\workers-for-platforms\README.md`)
+- GitHub Repository: https://github.com/cloudflare/workers-for-platforms-example (referenced in `skills\cloudflare-skills-cloudflare\references\workers-for-platforms\README.md`)
+- GitHub Repository: https://github.com/cloudflare/workers-sdk (referenced in `skills\cloudflare-skills-cloudflare\references\wrangler\gotchas.md`)
+- GitHub Repository: https://github.com/cloudflare/agents (referenced in `skills\cloudflare-skills-cloudflare-email-service\SKILL.md`)
+- AI integration reference: 'claude' (found in `skills\cloudflare-skills-cloudflare-email-service\SKILL.md`)
+- GitHub Repository: https://github.com/cloudflare/mcp (referenced in `skills\cloudflare-skills-cloudflare-email-service\references\cli-and-mcp.md`)
+- GitHub Repository: https://github.com/lambrospetrou/durable-utils (referenced in `skills\cloudflare-skills-durable-objects\references\rules.md`)
+- GitHub Repository: https://github.com/cloudflare/actors (referenced in `skills\cloudflare-skills-durable-objects\references\rules.md`)
+- GitHub Repository: https://github.com/cloudflare/sandbox-sdk (referenced in `skills\cloudflare-skills-sandbox-sdk\SKILL.md`)
+- AI integration reference: 'openai' (found in `skills\cloudflare-skills-sandbox-sdk\SKILL.md`)
+- AI integration reference: 'llm' (found in `skills\cloudflare-skills-sandbox-sdk\SKILL.md`)
+- GitHub Repository: https://github.com/cloudflare/sandbox-sdk (referenced in `skills\cloudflare-skills-sandbox-sdk\references\examples.md`)
+- AI integration reference: 'claude' (found in `skills\cloudflare-skills-sandbox-sdk\references\examples.md`)
+- AI integration reference: 'openai' (found in `skills\cloudflare-skills-sandbox-sdk\references\examples.md`)
+- GitHub Repository: https://github.com/cloudflare/skills (referenced in `skills\cloudflare-skills-turnstile-spin\README.md`)
+- GitHub Repository: https://github.com/cloudflare/skills (referenced in `skills\cloudflare-skills-turnstile-spin\README.md`)
+- GitHub Repository: https://github.com/cloudflare/turnstile-siteverify (referenced in `skills\cloudflare-skills-turnstile-spin\README.md`)
+- GitHub Repository: https://github.com/cloudflare/skills (referenced in `skills\cloudflare-skills-turnstile-spin\README.md`)
+- AI integration reference: 'claude' (found in `skills\cloudflare-skills-turnstile-spin\README.md`)
+- AI integration reference: 'claude' (found in `skills\cloudflare-skills-turnstile-spin\SKILL.md`)
+- GitHub Repository: https://github.com/cloudflare/skills (referenced in `skills\cloudflare-skills-turnstile-spin\templates\worker\package.json`)
+- GitHub Repository: https://github.com/cloudflare/skills (referenced in `skills\cloudflare-skills-turnstile-spin\templates\worker\README.md`)
+- AI integration reference: 'claude' (found in `skills\cloudflare-skills-turnstile-spin\tests\validation.md`)
+- AI integration reference: 'claude' (found in `skills\code-fixer\SKILL.md`)
+- AI integration reference: 'claude' (found in `skills\code-review\SKILL.md`)
+- AI integration reference: 'claude' (found in `skills\code-reviewer\SKILL.md`)
+- GitHub Repository: https://github.com/anthropics/claude-plugins-official (referenced in `skills\code-simplification\SKILL.md`)
+- AI integration reference: 'claude' (found in `skills\code-simplification\SKILL.md`)
+- AI integration reference: 'claude' (found in `skills\codebase-mapper\SKILL.md`)
+- AI integration reference: 'replicate' (found in `skills\compare-models\SKILL.md`)
+- AI integration reference: 'replicate' (found in `skills\compare-models\references\README.md`)
+- AI integration reference: 'claude' (found in `skills\complete-milestone\SKILL.md`)
+- AI integration reference: 'claude' (found in `skills\composio\AGENTS.md`)
+- AI integration reference: 'openai' (found in `skills\composio\AGENTS.md`)
+- AI integration reference: 'openai' (found in `skills\composio\rules\app-auth-configs.md`)
+- AI integration reference: 'openai' (found in `skills\composio\rules\app-fetch-tools.md`)
+- AI integration reference: 'claude' (found in `skills\composio\rules\building-with-composio.md`)
+- AI integration reference: 'openai' (found in `skills\composio\rules\building-with-composio.md`)
+- AI integration reference: 'claude' (found in `skills\composio\rules\setup-api-keys.md`)
+- AI integration reference: 'openai' (found in `skills\composio\rules\setup-api-keys.md`)
+- AI integration reference: 'llm' (found in `skills\composio\rules\setup-api-keys.md`)
+- AI integration reference: 'openai' (found in `skills\composio\rules\tr-building-chat-ui.md`)
+- AI integration reference: 'llm' (found in `skills\composio\rules\tr-building-chat-ui.md`)
+- AI integration reference: 'openai' (found in `skills\composio\rules\tr-framework-ai-sdk.md`)
+- GitHub Repository: https://github.com/openai/agents (referenced in `skills\composio\rules\tr-framework-integration.md`)
+- GitHub Repository: https://github.com/anthropics/anthropic-sdk-typescript (referenced in `skills\composio\rules\tr-framework-integration.md`)
+- AI integration reference: 'claude' (found in `skills\composio\rules\tr-framework-integration.md`)
+- AI integration reference: 'openai' (found in `skills\composio\rules\tr-framework-integration.md`)
+- AI integration reference: 'llm' (found in `skills\composio\rules\tr-framework-integration.md`)
+- AI integration reference: 'openai' (found in `skills\composio\rules\tr-framework-mastra.md`)
+- AI integration reference: 'claude' (found in `skills\composio\rules\tr-mcp-vs-native.md`)
+- AI integration reference: 'claude' (found in `skills\config\SKILL.md`)
+- AI integration reference: 'llm' (found in `skills\context-compression\SKILL.md`)
+- AI integration reference: 'llm' (found in `skills\context-compression\references\evaluation-framework.md`)
+- AI integration reference: 'openai' (found in `skills\context-compression\scripts\compression_evaluator.py`)
+- AI integration reference: 'llm' (found in `skills\context-compression\scripts\compression_evaluator.py`)
+- AI integration reference: 'llm' (found in `skills\context-degradation\scripts\degradation_detector.py`)
+- AI integration reference: 'claude' (found in `skills\context-engineering\SKILL.md`)
+- AI integration reference: 'openai' (found in `skills\context-engineering\SKILL.md`)
+- AI integration reference: 'claude' (found in `skills\context-fundamentals\SKILL.md`)
+- AI integration reference: 'openai' (found in `skills\context-fundamentals\SKILL.md`)
+- AI integration reference: 'openai' (found in `skills\context-fundamentals\scripts\context_manager.py`)
+- AI integration reference: 'gemini' (found in `skills\context-optimization\scripts\compaction.py`)
+- AI integration reference: 'claude' (found in `skills\context-optimization\scripts\compaction.py`)
+- AI integration reference: 'openai' (found in `skills\context-optimization\scripts\compaction.py`)
+- AI integration reference: 'llm' (found in `skills\context-optimization\scripts\compaction.py`)
+- GitHub Repository: https://github.com/trycourier/courier-skills.git (referenced in `skills\courier-notification-skills\README.md`)
+- GitHub Repository: https://github.com/trycourier/courier-skills.git (referenced in `skills\courier-notification-skills\README.md`)
+- GitHub Repository: https://github.com/trycourier/courier-skills.git (referenced in `skills\courier-notification-skills\README.md`)
+- AI integration reference: 'claude' (found in `skills\courier-notification-skills\README.md`)
+- AI integration reference: 'claude' (found in `skills\courier-notification-skills\SKILL.md`)
+- GitHub Repository: https://github.com/trycourier/courier-cli (referenced in `skills\courier-notification-skills\resources\guides\cli.md`)
+- GitHub Repository: https://github.com/trycourier/courier-cli (referenced in `skills\courier-notification-skills\resources\guides\cli.md`)
+- AI integration reference: 'claude' (found in `skills\courier-notification-skills\resources\guides\cli.md`)
+- AI integration reference: 'llm' (found in `skills\courier-notification-skills\resources\guides\journeys.md`)
+- AI integration reference: 'claude' (found in `skills\courier-notification-skills\resources\guides\mcp.md`)
+- AI integration reference: 'openai' (found in `skills\courier-notification-skills\resources\guides\mcp.md`)
+- AI integration reference: 'replicate' (found in `skills\courier-notification-skills\resources\guides\migrate-from-novu.md`)
+- GitHub Repository: https://github.com/better-auth/examples (referenced in `skills\create-auth-skill\SKILL.md`)
+- GitHub Repository: https://github.com/VoltAgent/skills (referenced in `skills\create-voltagent\SKILL.md`)
+- GitHub Repository: https://github.com/voltagent/voltagent (referenced in `skills\create-voltagent\SKILL.md`)
+- AI integration reference: 'gemini' (found in `skills\create-voltagent\SKILL.md`)
+- AI integration reference: 'claude' (found in `skills\create-voltagent\SKILL.md`)
+- AI integration reference: 'openai' (found in `skills\create-voltagent\SKILL.md`)
+- AI integration reference: 'claude' (found in `skills\debug\SKILL.md`)
+- AI integration reference: 'claude' (found in `skills\debugger\SKILL.md`)
+- AI integration reference: 'gemini' (found in `skills\deep-code-scan\scripts\deep_scan.py`)
+- AI integration reference: 'claude' (found in `skills\deep-code-scan\scripts\deep_scan.py`)
+- AI integration reference: 'openai' (found in `skills\deep-code-scan\scripts\deep_scan.py`)
+- AI integration reference: 'replicate' (found in `skills\deep-code-scan\scripts\deep_scan.py`)
+- AI integration reference: 'dify' (found in `skills\deep-code-scan\scripts\deep_scan.py`)
+- AI integration reference: 'llm' (found in `skills\deep-code-scan\scripts\deep_scan.py`)
+- AI integration reference: 'vector db' (found in `skills\deep-code-scan\scripts\deep_scan.py`)
+- AI integration reference: 'chroma' (found in `skills\deep-code-scan\scripts\deep_scan.py`)
+- AI integration reference: 'pinecone' (found in `skills\deep-code-scan\scripts\deep_scan.py`)
+- AI integration reference: 'replicate' (found in `skills\deprecation-and-migration\SKILL.md`)
+- AI integration reference: 'claude' (found in `skills\discuss-phase\SKILL.md`)
+- AI integration reference: 'claude' (found in `skills\dispatching-parallel-agents\SKILL.md`)
+- AI integration reference: 'llm' (found in `skills\doc-classifier\SKILL.md`)
+- AI integration reference: 'claude' (found in `skills\doc-coauthoring\SKILL.md`)
+- AI integration reference: 'claude' (found in `skills\doc-verifier\SKILL.md`)
+- AI integration reference: 'claude' (found in `skills\doc-writer\SKILL.md`)
+- AI integration reference: 'claude' (found in `skills\docs-update\SKILL.md`)
+- AI integration reference: 'claude' (found in `skills\documentation-and-adrs\SKILL.md`)
+- AI integration reference: 'claude' (found in `skills\docx\ooxml.md`)
+- AI integration reference: 'claude' (found in `skills\docx\SKILL.md`)
+- AI integration reference: 'claude' (found in `skills\docx\ooxml\scripts\validation\redlining.py`)
+- AI integration reference: 'claude' (found in `skills\docx\scripts\comment.py`)
+- AI integration reference: 'claude' (found in `skills\docx\scripts\document.py`)
+- AI integration reference: 'claude' (found in `skills\docx\scripts\office\pack.py`)
+- AI integration reference: 'claude' (found in `skills\docx\scripts\office\validate.py`)
+- AI integration reference: 'claude' (found in `skills\docx\scripts\office\helpers\simplify_redlines.py`)
+- AI integration reference: 'claude' (found in `skills\docx\scripts\office\validators\redlining.py`)
+- AI integration reference: 'claude' (found in `skills\domain-researcher\SKILL.md`)
+- AI integration reference: 'llm' (found in `skills\domain-researcher\SKILL.md`)
+- AI integration reference: 'gemini' (found in `skills\doubt-driven-development\SKILL.md`)
+- AI integration reference: 'claude' (found in `skills\doubt-driven-development\SKILL.md`)
+- AI integration reference: 'claude' (found in `skills\eval-auditor\SKILL.md`)
+- AI integration reference: 'llm' (found in `skills\eval-auditor\SKILL.md`)
+- AI integration reference: 'claude' (found in `skills\eval-planner\SKILL.md`)
+- AI integration reference: 'openai' (found in `skills\eval-planner\SKILL.md`)
+- AI integration reference: 'llm' (found in `skills\eval-planner\SKILL.md`)
+- AI integration reference: 'claude' (found in `skills\eval-review\SKILL.md`)
+- AI integration reference: 'llm' (found in `skills\evaluation\SKILL.md`)
+- AI integration reference: 'llm' (found in `skills\evaluation\scripts\evaluator.py`)
+- AI integration reference: 'claude' (found in `skills\execute-phase\SKILL.md`)
+- AI integration reference: 'claude' (found in `skills\executing-plans\SKILL.md`)
+- AI integration reference: 'claude' (found in `skills\executor\SKILL.md`)
+- AI integration reference: 'claude' (found in `skills\explore\SKILL.md`)
+- AI integration reference: 'claude' (found in `skills\extract-learnings\SKILL.md`)
+- AI integration reference: 'claude' (found in `skills\fast\SKILL.md`)
+- AI integration reference: 'llm' (found in `skills\filesystem-context\scripts\filesystem_context.py`)
+- AI integration reference: 'replicate' (found in `skills\find-models\SKILL.md`)
+- AI integration reference: 'replicate' (found in `skills\find-models\references\README.md`)
+- GitHub Repository: https://github.com/firecrawl/skills (referenced in `skills\firecrawl-build\SKILL.md`)
+- GitHub Repository: https://github.com/firecrawl/skills (referenced in `skills\firecrawl-build-interact\SKILL.md`)
+- GitHub Repository: https://github.com/firecrawl/skills (referenced in `skills\firecrawl-build-onboarding\SKILL.md`)
+- GitHub Repository: https://github.com/firecrawl/skills (referenced in `skills\firecrawl-build-scrape\SKILL.md`)
+- AI integration reference: 'llm' (found in `skills\firecrawl-build-scrape\SKILL.md`)
+- GitHub Repository: https://github.com/firecrawl/skills (referenced in `skills\firecrawl-build-search\SKILL.md`)
+- AI integration reference: 'claude' (found in `skills\forensics\SKILL.md`)
+- AI integration reference: 'gemini' (found in `skills\framework-selector\SKILL.md`)
+- AI integration reference: 'claude' (found in `skills\framework-selector\SKILL.md`)
+- AI integration reference: 'openai' (found in `skills\framework-selector\SKILL.md`)
+- AI integration reference: 'llm' (found in `skills\framework-selector\SKILL.md`)
+- AI integration reference: 'llm' (found in `skills\framework-selector\references\README.md`)
+- AI integration reference: 'gemini' (found in `skills\gemini-api-dev\SKILL.md`)
+- AI integration reference: 'gemini' (found in `skills\gemini-api-dev\references\README.md`)
+- GitHub Repository: https://github.com/my-org/backend (referenced in `skills\gemini-interactions-api\SKILL.md`)
+- GitHub Repository: https://github.com/my-org/backend (referenced in `skills\gemini-interactions-api\SKILL.md`)
+- AI integration reference: 'gemini' (found in `skills\gemini-interactions-api\SKILL.md`)
+- AI integration reference: 'gemini' (found in `skills\gemini-interactions-api\references\migration.md`)
+- AI integration reference: 'gemini' (found in `skills\gemini-interactions-api\references\README.md`)
+- AI integration reference: 'gemini' (found in `skills\gemini-live-api-dev\SKILL.md`)
+- AI integration reference: 'gemini' (found in `skills\gemini-live-api-dev\references\README.md`)
+- GitHub Repository: https://github.com/google-gemini/gemini-skills (referenced in `skills\gemini-omni-flash-api\SKILL.md`)
+- AI integration reference: 'gemini' (found in `skills\gemini-omni-flash-api\SKILL.md`)
+- AI integration reference: 'gemini' (found in `skills\gemini-omni-flash-api\references\README.md`)
+- AI integration reference: 'gemini' (found in `skills\gemini-omni-flash-api\scripts\upload_file.py`)
+- AI integration reference: 'gemini' (found in `skills\gemini-omni-flash-api\scripts\video\generate_video.py`)
+- AI integration reference: 'gemini' (found in `skills\gemini-omni-flash-api\scripts\video\prep_video.py`)
+- GitHub Repository: https://github.com/charmbracelet/vhs (referenced in `skills\google-workspace-vhs\SKILL.md`)
+- AI integration reference: 'claude' (found in `skills\graphify\SKILL.md`)
+- AI integration reference: 'claude' (found in `skills\health\SKILL.md`)
+- AI integration reference: 'claude' (found in `skills\help\SKILL.md`)
+- GitHub Repository: https://github.com/sst/opencode (referenced in `skills\hosted-agents\SKILL.md`)
+- GitHub Repository: https://github.com/en/apps (referenced in `skills\hosted-agents\references\infrastructure-patterns.md`)
+- AI integration reference: 'openai' (found in `skills\hosted-agents\references\infrastructure-patterns.md`)
+- AI integration reference: 'claude' (found in `skills\import\SKILL.md`)
+- AI integration reference: 'claude' (found in `skills\inbox\SKILL.md`)
+- AI integration reference: 'claude' (found in `skills\ingest-docs\SKILL.md`)
+- AI integration reference: 'claude' (found in `skills\integration-checker\SKILL.md`)
+- AI integration reference: 'claude' (found in `skills\intel-updater\SKILL.md`)
+- AI integration reference: 'claude' (found in `skills\internal-comms\SKILL.md`)
+- AI integration reference: 'claude' (found in `skills\internal-comms\references\README.md`)
+- GitHub Repository: https://github.com/obsidianmd/jsoncanvas (referenced in `skills\json-canvas\SKILL.md`)
+- AI integration reference: 'replicate' (found in `skills\keyboard-grid-designer\references\IMPLEMENTATION.md`)
+- AI integration reference: 'claude' (found in `skills\manager\SKILL.md`)
+- AI integration reference: 'claude' (found in `skills\map-codebase\SKILL.md`)
+- AI integration reference: 'claude' (found in `skills\mcp-builder\reference\evaluation.md`)
+- AI integration reference: 'llm' (found in `skills\mcp-builder\reference\evaluation.md`)
+- AI integration reference: 'claude' (found in `skills\mcp-builder\scripts\evaluation.py`)
+- GitHub Repository: https://github.com/getzep/graphiti (referenced in `skills\memory-systems\SKILL.md`)
+- GitHub Repository: https://github.com/topoteretes/cognee (referenced in `skills\memory-systems\SKILL.md`)
+- AI integration reference: 'llm' (found in `skills\memory-systems\SKILL.md`)
+- AI integration reference: 'claude' (found in `skills\milestone-summary\SKILL.md`)
+- AI integration reference: 'llm' (found in `skills\multi-agent-patterns\references\frameworks.md`)
+- AI integration reference: 'llm' (found in `skills\multi-agent-patterns\scripts\coordination.py`)
+- AI integration reference: 'claude' (found in `skills\mvp-phase\SKILL.md`)
+- AI integration reference: 'llm' (found in `skills\neon\SKILL.md`)
+- AI integration reference: 'gemini' (found in `skills\neon-ai-gateway\SKILL.md`)
+- AI integration reference: 'claude' (found in `skills\neon-ai-gateway\SKILL.md`)
+- AI integration reference: 'openai' (found in `skills\neon-ai-gateway\SKILL.md`)
+- AI integration reference: 'llm' (found in `skills\neon-ai-gateway\SKILL.md`)
+- GitHub Repository: https://github.com/websockets/ws (referenced in `skills\neon-functions\SKILL.md`)
+- GitHub Repository: https://github.com/modelcontextprotocol/typescript-sdk (referenced in `skills\neon-functions\SKILL.md`)
+- GitHub Repository: https://github.com/honojs/middleware (referenced in `skills\neon-functions\SKILL.md`)
+- AI integration reference: 'claude' (found in `skills\neon-functions\SKILL.md`)
+- AI integration reference: 'llm' (found in `skills\neon-functions\SKILL.md`)
+- AI integration reference: 'gemini' (found in `skills\neon-functions\references\ai-sdk.md`)
+- AI integration reference: 'claude' (found in `skills\neon-functions\references\ai-sdk.md`)
+- AI integration reference: 'openai' (found in `skills\neon-functions\references\ai-sdk.md`)
+- AI integration reference: 'claude' (found in `skills\neon-functions\references\mastra-studio.md`)
+- GitHub Repository: https://github.com/modelcontextprotocol/typescript-sdk (referenced in `skills\neon-functions\references\mcp.md`)
+- GitHub Repository: https://github.com/honojs/middleware (referenced in `skills\neon-functions\references\mcp.md`)
+- GitHub Repository: https://github.com/instructa/mcporter (referenced in `skills\neon-functions\references\mcp.md`)
+- AI integration reference: 'claude' (found in `skills\neon-functions\references\mcp.md`)
+- AI integration reference: 'gemini' (found in `skills\neon-postgres\SKILL.md`)
+- AI integration reference: 'claude' (found in `skills\neon-postgres\SKILL.md`)
+- GitHub Repository: https://github.com/neondatabase/preview-branches-with-cloudflare (referenced in `skills\neon-postgres-branches\SKILL.md`)
+- GitHub Repository: https://github.com/neondatabase/preview-branches-with-vercel (referenced in `skills\neon-postgres-branches\SKILL.md`)
+- GitHub Repository: https://github.com/neondatabase/preview-branches-with-fly (referenced in `skills\neon-postgres-branches\SKILL.md`)
+- GitHub Repository: https://github.com/marketplace/actions (referenced in `skills\neon-postgres-branches\SKILL.md`)
+- AI integration reference: 'gemini' (found in `skills\netlify-skills-netlify-agent-runner\SKILL.md`)
+- AI integration reference: 'claude' (found in `skills\netlify-skills-netlify-agent-runner\SKILL.md`)
+- AI integration reference: 'gemini' (found in `skills\netlify-skills-netlify-ai-gateway\SKILL.md`)
+- AI integration reference: 'claude' (found in `skills\netlify-skills-netlify-ai-gateway\SKILL.md`)
+- AI integration reference: 'openai' (found in `skills\netlify-skills-netlify-ai-gateway\SKILL.md`)
+- GitHub Repository: https://github.com/org/repo (referenced in `skills\netlify-skills-netlify-deploy\SKILL.md`)
+- GitHub Repository: https://github.com/netlify/cli (referenced in `skills\netlify-skills-netlify-deploy\references\cli-commands.md`)
+- GitHub Repository: https://github.com/user/my-app.git (referenced in `skills\netlify-skills-netlify-deploy\references\deployment-patterns.md`)
+- GitHub Repository: https://github.com/netlify/gotrue (referenced in `skills\netlify-skills-netlify-identity\SKILL.md`)
+- AI integration reference: 'claude' (found in `skills\netlify-skills-netlify-mcp-servers\SKILL.md`)
+- AI integration reference: 'claude' (found in `skills\netlify-skills-netlify-mcp-servers\references\connecting-clients.md`)
+- AI integration reference: 'claude' (found in `skills\new-milestone\SKILL.md`)
+- AI integration reference: 'claude' (found in `skills\new-project\SKILL.md`)
+- GitHub Repository: https://github.com/hashicorp/terraform-plugin-framework (referenced in `skills\new-terraform-provider\SKILL.md`)
+- AI integration reference: 'claude' (found in `skills\next\SKILL.md`)
+- GitHub Repository: https://github.com/microsoft/playwright (referenced in `skills\notebooklm\AUTHENTICATION.md`)
+- GitHub Repository: https://github.com/microsoft/playwright (referenced in `skills\notebooklm\AUTHENTICATION.md`)
+- GitHub Repository: https://github.com/microsoft/playwright (referenced in `skills\notebooklm\AUTHENTICATION.md`)
+- GitHub Repository: https://github.com/microsoft/playwright (referenced in `skills\notebooklm\AUTHENTICATION.md`)
+- AI integration reference: 'claude' (found in `skills\notebooklm\AUTHENTICATION.md`)
+- AI integration reference: 'gemini' (found in `skills\notebooklm\CHANGELOG.md`)
+- GitHub Repository: https://github.com/anthropics/claude-code (referenced in `skills\notebooklm\README.md`)
+- GitHub Repository: https://github.com/PleasePrompto/notebooklm-mcp (referenced in `skills\notebooklm\README.md`)
+- GitHub Repository: https://github.com/PleasePrompto/notebooklm-skill (referenced in `skills\notebooklm\README.md`)
+- GitHub Repository: https://github.com/PleasePrompto/notebooklm-mcp (referenced in `skills\notebooklm\README.md`)
+- GitHub Repository: https://github.com/anthropics/claude-code (referenced in `skills\notebooklm\README.md`)
+- GitHub Repository: https://github.com/anthropics/claude-code (referenced in `skills\notebooklm\README.md`)
+- GitHub Repository: https://github.com/anthropics/claude-code (referenced in `skills\notebooklm\README.md`)
+- GitHub Repository: https://github.com/anthropics/claude-code (referenced in `skills\notebooklm\README.md`)
+- GitHub Repository: https://github.com/PleasePrompto/notebooklm-skill (referenced in `skills\notebooklm\README.md`)
+- GitHub Repository: https://github.com/PleasePrompto/notebooklm-mcp (referenced in `skills\notebooklm\README.md`)
+- GitHub Repository: https://github.com/PleasePrompto/notebooklm-mcp (referenced in `skills\notebooklm\README.md`)
+- GitHub Repository: https://github.com/PleasePrompto/notebooklm-mcp (referenced in `skills\notebooklm\README.md`)
+- GitHub Repository: https://github.com/PleasePrompto/notebooklm-mcp (referenced in `skills\notebooklm\README.md`)
+- GitHub Repository: https://github.com/PleasePrompto/notebooklm-skill (referenced in `skills\notebooklm\README.md`)
+- GitHub Repository: https://github.com/PleasePrompto/notebooklm-mcp (referenced in `skills\notebooklm\README.md`)
+- AI integration reference: 'gemini' (found in `skills\notebooklm\README.md`)
+- AI integration reference: 'claude' (found in `skills\notebooklm\README.md`)
+- AI integration reference: 'gemini' (found in `skills\notebooklm\SKILL.md`)
+- AI integration reference: 'claude' (found in `skills\notebooklm\SKILL.md`)
+- AI integration reference: 'claude' (found in `skills\notebooklm\references\api_reference.md`)
+- AI integration reference: 'claude' (found in `skills\notebooklm\references\troubleshooting.md`)
+- AI integration reference: 'claude' (found in `skills\notebooklm\references\usage_patterns.md`)
+- GitHub Repository: https://github.com/microsoft/playwright (referenced in `skills\notebooklm\scripts\ask_question.py`)
+- AI integration reference: 'claude' (found in `skills\notebooklm\scripts\ask_question.py`)
+- GitHub Repository: https://github.com/microsoft/playwright (referenced in `skills\notebooklm\scripts\auth_manager.py`)
+- GitHub Repository: https://github.com/Kaliiiiiiiiii-Vinyzu/patchright-python (referenced in `skills\notebooklm\scripts\setup_environment.py`)
+- AI integration reference: 'claude' (found in `skills\nyquist-auditor\SKILL.md`)
+- AI integration reference: 'claude' (found in `skills\onboard\SKILL.md`)
+- AI integration reference: 'claude' (found in `skills\pattern-mapper\SKILL.md`)
+- AI integration reference: 'claude' (found in `skills\pause-work\SKILL.md`)
+- AI integration reference: 'claude' (found in `skills\phase\SKILL.md`)
+- GitHub Repository: https://github.com/org/repo (referenced in `skills\phase-researcher\SKILL.md`)
+- AI integration reference: 'claude' (found in `skills\phase-researcher\SKILL.md`)
+- AI integration reference: 'claude' (found in `skills\plan-checker\SKILL.md`)
+- AI integration reference: 'claude' (found in `skills\plan-phase\SKILL.md`)
+- AI integration reference: 'gemini' (found in `skills\plan-review-convergence\SKILL.md`)
+- AI integration reference: 'claude' (found in `skills\plan-review-convergence\SKILL.md`)
+- AI integration reference: 'openai' (found in `skills\plan-review-convergence\SKILL.md`)
+- AI integration reference: 'claude' (found in `skills\planner\SKILL.md`)
+- AI integration reference: 'openai' (found in `skills\planner\SKILL.md`)
+- AI integration reference: 'claude' (found in `skills\planning-with-files\SKILL.md`)
+- AI integration reference: 'claude' (found in `skills\planning-with-files\scripts\session-catchup.py`)
+- GitHub Repository: https://github.com/portabletext/editor (referenced in `skills\portable-text-conversion\rules\html-to-pt.md`)
+- GitHub Repository: https://github.com/portabletext/portabletext (referenced in `skills\portable-text-conversion\rules\manual-construction.md`)
+- GitHub Repository: https://github.com/sanity-io/sanity (referenced in `skills\portable-text-conversion\rules\manual-construction.md`)
+- GitHub Repository: https://github.com/portabletext/editor (referenced in `skills\portable-text-conversion\rules\markdown-to-pt.md`)
+- GitHub Repository: https://github.com/portabletext/editor (referenced in `skills\portable-text-conversion\rules\markdown-to-pt.md`)
+- GitHub Repository: https://github.com/markdown-it/markdown-it (referenced in `skills\portable-text-conversion\rules\markdown-to-pt.md`)
+- GitHub Repository: https://github.com/theisel/astro-portabletext (referenced in `skills\portable-text-serialization\rules\astro.md`)
+- GitHub Repository: https://github.com/portabletext/to-html (referenced in `skills\portable-text-serialization\rules\html.md`)
+- GitHub Repository: https://github.com/portabletext/editor (referenced in `skills\portable-text-serialization\rules\markdown.md`)
+- GitHub Repository: https://github.com/portabletext/editor (referenced in `skills\portable-text-serialization\rules\markdown.md`)
+- AI integration reference: 'llm' (found in `skills\portable-text-serialization\rules\markdown.md`)
+- GitHub Repository: https://github.com/portabletext/toolkit (referenced in `skills\portable-text-serialization\rules\plain-text.md`)
+- GitHub Repository: https://github.com/portabletext/react-portabletext (referenced in `skills\portable-text-serialization\rules\react.md`)
+- GitHub Repository: https://github.com/portabletext/svelte-portabletext (referenced in `skills\portable-text-serialization\rules\svelte.md`)
+- GitHub Repository: https://github.com/portabletext/vue-portabletext (referenced in `skills\portable-text-serialization\rules\vue.md`)
+- AI integration reference: 'claude' (found in `skills\pptx\ooxml\scripts\validation\redlining.py`)
+- AI integration reference: 'claude' (found in `skills\pptx\scripts\office\pack.py`)
+- AI integration reference: 'claude' (found in `skills\pptx\scripts\office\validate.py`)
+- AI integration reference: 'claude' (found in `skills\pptx\scripts\office\helpers\simplify_redlines.py`)
+- AI integration reference: 'claude' (found in `skills\pptx\scripts\office\validators\redlining.py`)
+- AI integration reference: 'claude' (found in `skills\pr-branch\SKILL.md`)
+- AI integration reference: 'claude' (found in `skills\profile-user\SKILL.md`)
+- AI integration reference: 'claude' (found in `skills\profile-user\references\README.md`)
+- AI integration reference: 'claude' (found in `skills\progress\SKILL.md`)
+- GitHub Repository: https://github.com/karpathy/hn-time-capsule (referenced in `skills\project-development\SKILL.md`)
+- AI integration reference: 'claude' (found in `skills\project-development\SKILL.md`)
+- AI integration reference: 'llm' (found in `skills\project-development\SKILL.md`)
+- GitHub Repository: https://github.com/karpathy/hn-time-capsule (referenced in `skills\project-development\references\case-studies.md`)
+- AI integration reference: 'claude' (found in `skills\project-development\references\case-studies.md`)
+- AI integration reference: 'llm' (found in `skills\project-development\references\case-studies.md`)
+- AI integration reference: 'llm' (found in `skills\project-development\references\pipeline-patterns.md`)
+- AI integration reference: 'claude' (found in `skills\project-development\scripts\pipeline_template.py`)
+- AI integration reference: 'openai' (found in `skills\project-development\scripts\pipeline_template.py`)
+- AI integration reference: 'llm' (found in `skills\project-development\scripts\pipeline_template.py`)
+- AI integration reference: 'claude' (found in `skills\project-researcher\SKILL.md`)
+- AI integration reference: 'replicate' (found in `skills\prompt-images\SKILL.md`)
+- AI integration reference: 'replicate' (found in `skills\prompt-videos\SKILL.md`)
+- GitHub Repository: https://github.com/hashicorp/terraform (referenced in `skills\provider-actions\SKILL.md`)
+- GitHub Repository: https://github.com/hashicorp/terraform-plugin-framework-validators (referenced in `skills\provider-actions\SKILL.md`)
+- GitHub Repository: https://github.com/hashicorp/terraform-plugin-framework-validators (referenced in `skills\provider-actions\SKILL.md`)
+- GitHub Repository: https://github.com/hashicorp/terraform-plugin-framework (referenced in `skills\provider-actions\SKILL.md`)
+- GitHub Repository: https://github.com/hashicorp/terraform-plugin-testing (referenced in `skills\provider-actions\SKILL.md`)
+- GitHub Repository: https://github.com/hashicorp/terraform-plugin-docs (referenced in `skills\provider-docs\SKILL.md`)
+- GitHub Repository: https://github.com/hashicorp/terraform-plugin-docs (referenced in `skills\provider-docs\references\hashicorp-provider-docs.md`)
+- GitHub Repository: https://github.com/hashicorp/terraform-plugin-docs (referenced in `skills\provider-docs\references\hashicorp-provider-docs.md`)
+- GitHub Repository: https://github.com/hashicorp/terraform-plugin-docs (referenced in `skills\provider-docs\references\hashicorp-provider-docs.md`)
+- GitHub Repository: https://github.com/hashicorp/terraform-plugin-framework (referenced in `skills\provider-resources\SKILL.md`)
+- GitHub Repository: https://github.com/hashicorp/terraform-plugin-testing (referenced in `skills\provider-test-patterns\SKILL.md`)
+- GitHub Repository: https://github.com/hashicorp/terraform-plugin-framework (referenced in `skills\provider-test-patterns\SKILL.md`)
+- GitHub Repository: https://github.com/org/repo (referenced in `skills\provider-test-patterns\SKILL.md`)
+- GitHub Repository: https://github.com/hashicorp/terraform-plugin-testing (referenced in `skills\provider-test-patterns\references\ephemeral.md`)
+- GitHub Repository: https://github.com/replicate/cog-safe-push (referenced in `skills\publish-models\SKILL.md`)
+- GitHub Repository: https://github.com/replicate/model-ci-template. (referenced in `skills\publish-models\SKILL.md`)
+- GitHub Repository: https://github.com/replicate/cog-safe-push (referenced in `skills\publish-models\SKILL.md`)
+- GitHub Repository: https://github.com/replicate/model-ci-template (referenced in `skills\publish-models\SKILL.md`)
+- GitHub Repository: https://github.com/replicate/cog-safe-push.git (referenced in `skills\publish-models\SKILL.md`)
+- GitHub Repository: https://github.com/replicate/cog-safe-push.git (referenced in `skills\publish-models\SKILL.md`)
+- GitHub Repository: https://github.com/replicate/cog-safe-push (referenced in `skills\publish-models\SKILL.md`)
+- GitHub Repository: https://github.com/replicate/model-ci-template (referenced in `skills\publish-models\SKILL.md`)
+- GitHub Repository: https://github.com/replicate/cog-official-template (referenced in `skills\publish-models\SKILL.md`)
+- GitHub Repository: https://github.com/replicate/cog-flux (referenced in `skills\publish-models\SKILL.md`)
+- GitHub Repository: https://github.com/replicate/cog-comfyui (referenced in `skills\publish-models\SKILL.md`)
+- GitHub Repository: https://github.com/replicate/cog-pagerduty-check (referenced in `skills\publish-models\SKILL.md`)
+- AI integration reference: 'claude' (found in `skills\publish-models\SKILL.md`)
+- AI integration reference: 'replicate' (found in `skills\publish-models\SKILL.md`)
+- AI integration reference: 'claude' (found in `skills\quick\SKILL.md`)
+- GitHub Repository: https://github.com/shuding/better-all (referenced in `skills\react-best-practices\AGENTS.md`)
+- GitHub Repository: https://github.com/shuding/better-all (referenced in `skills\react-best-practices\AGENTS.md`)
+- GitHub Repository: https://github.com/isaacs/node-lru-cache (referenced in `skills\react-best-practices\AGENTS.md`)
+- GitHub Repository: https://github.com/isaacs/node-lru-cache (referenced in `skills\react-best-practices\AGENTS.md`)
+- GitHub Repository: https://github.com/paulirish/5d52fb081b3570c81e3a (referenced in `skills\react-best-practices\AGENTS.md`)
+- GitHub Repository: https://github.com/shuding/better-all (referenced in `skills\react-best-practices\AGENTS.md`)
+- GitHub Repository: https://github.com/shuding/better-all (referenced in `skills\react-best-practices\AGENTS.md`)
+- GitHub Repository: https://github.com/isaacs/node-lru-cache (referenced in `skills\react-best-practices\AGENTS.md`)
+- GitHub Repository: https://github.com/isaacs/node-lru-cache (referenced in `skills\react-best-practices\AGENTS.md`)
+- GitHub Repository: https://github.com/shuding/better-all (referenced in `skills\react-best-practices\metadata.json`)
+- GitHub Repository: https://github.com/isaacs/node-lru-cache (referenced in `skills\react-best-practices\metadata.json`)
+- AI integration reference: 'llm' (found in `skills\react-best-practices\README.md`)
+- GitHub Repository: https://github.com/shuding/better-all (referenced in `skills\react-best-practices\rules\async-dependencies.md`)
+- GitHub Repository: https://github.com/shuding/better-all (referenced in `skills\react-best-practices\rules\async-dependencies.md`)
+- GitHub Repository: https://github.com/paulirish/5d52fb081b3570c81e3a (referenced in `skills\react-best-practices\rules\js-batch-dom-css.md`)
+- GitHub Repository: https://github.com/isaacs/node-lru-cache (referenced in `skills\react-best-practices\rules\server-cache-lru.md`)
+- GitHub Repository: https://github.com/isaacs/node-lru-cache (referenced in `skills\react-best-practices\rules\server-cache-lru.md`)
+- GitHub Repository: https://github.com/jsx-eslint/eslint-plugin-react (referenced in `skills\react-native-skills\AGENTS.md`)
+- GitHub Repository: https://github.com/nandorojo/galeria (referenced in `skills\react-native-skills\AGENTS.md`)
+- GitHub Repository: https://github.com/nandorojo/galeria (referenced in `skills\react-native-skills\AGENTS.md`)
+- GitHub Repository: https://github.com/nandorojo/galeria (referenced in `skills\react-native-skills\AGENTS.md`)
+- GitHub Repository: https://github.com/nandorojo/galeria (referenced in `skills\react-native-skills\AGENTS.md`)
+- GitHub Repository: https://github.com/nandorojo/galeria (referenced in `skills\react-native-skills\metadata.json`)
+- GitHub Repository: https://github.com/jsx-eslint/eslint-plugin-react (referenced in `skills\react-native-skills\rules\rendering-no-falsy-and.md`)
+- GitHub Repository: https://github.com/nandorojo/galeria (referenced in `skills\react-native-skills\rules\ui-image-gallery.md`)
+- AI integration reference: 'claude' (found in `skills\receiving-code-review\SKILL.md`)
+- GitHub Repository: https://github.com/org/terraform-modules.git (referenced in `skills\refactor-module\SKILL.md`)
+- GitHub Repository: https://github.com/remotion-dev/remotion (referenced in `skills\remotion\rules\html-in-canvas.md`)
+- GitHub Repository: https://github.com/kapishdima/soundcn (referenced in `skills\remotion\rules\sfx.md`)
+- GitHub Repository: https://github.com/remotion-dev/remotion (referenced in `skills\remotion-best-practices\rules\html-in-canvas.md`)
+- GitHub Repository: https://github.com/kapishdima/soundcn (referenced in `skills\remotion-best-practices\rules\sfx.md`)
+- AI integration reference: 'claude' (found in `skills\research-synthesizer\SKILL.md`)
+- AI integration reference: 'claude' (found in `skills\resume-work\SKILL.md`)
+- AI integration reference: 'gemini' (found in `skills\review\SKILL.md`)
+- AI integration reference: 'claude' (found in `skills\review\SKILL.md`)
+- AI integration reference: 'claude' (found in `skills\roadmapper\SKILL.md`)
+- AI integration reference: 'replicate' (found in `skills\run-models\SKILL.md`)
+- AI integration reference: 'replicate' (found in `skills\run-models\references\README.md`)
+- GitHub Repository: https://github.com/sanity-io/blueprints-actions (referenced in `skills\sanity-best-practices\references\blueprints.md`)
+- GitHub Repository: https://github.com/sanity-io/blueprints-actions (referenced in `skills\sanity-best-practices\references\functions.md`)
+- AI integration reference: 'claude' (found in `skills\sanity-best-practices\references\get-started.md`)
+- GitHub Repository: https://github.com/sanity-io/hydrogen-sanity (referenced in `skills\sanity-best-practices\references\hydrogen.md`)
+- GitHub Repository: https://github.com/demo-repositories/aem-to-sanity (referenced in `skills\sanity-migration\references\aem.md`)
+- AI integration reference: 'claude' (found in `skills\secure-phase\SKILL.md`)
+- AI integration reference: 'llm' (found in `skills\security-and-hardening\SKILL.md`)
+- AI integration reference: 'claude' (found in `skills\security-auditor\SKILL.md`)
+- AI integration reference: 'claude' (found in `skills\settings\SKILL.md`)
+- AI integration reference: 'claude' (found in `skills\ship\SKILL.md`)
+- AI integration reference: 'claude' (found in `skills\sketch\SKILL.md`)
+- AI integration reference: 'claude' (found in `skills\skill-creator\SKILL.md`)
+- AI integration reference: 'claude' (found in `skills\skill-creator\references\output-patterns.md`)
+- AI integration reference: 'claude' (found in `skills\skill-creator\references\schemas.md`)
+- AI integration reference: 'claude' (found in `skills\skill-creator\references\workflows.md`)
+- AI integration reference: 'claude' (found in `skills\skill-creator\scripts\generate_report.py`)
+- AI integration reference: 'claude' (found in `skills\skill-creator\scripts\improve_description.py`)
+- AI integration reference: 'claude' (found in `skills\skill-creator\scripts\init_skill.py`)
+- AI integration reference: 'claude' (found in `skills\skill-creator\scripts\run_eval.py`)
+- AI integration reference: 'claude' (found in `skills\spec-phase\SKILL.md`)
+- AI integration reference: 'claude' (found in `skills\spike\SKILL.md`)
+- AI integration reference: 'claude' (found in `skills\stats\SKILL.md`)
+- AI integration reference: 'claude' (found in `skills\stripe-projects\SKILL.md`)
+- AI integration reference: 'llm' (found in `skills\stripe-projects\SKILL.md`)
+- AI integration reference: 'vector db' (found in `skills\stripe-projects\SKILL.md`)
+- GitHub Repository: https://github.com/supabase/agent-skills (referenced in `skills\supabase\CHANGELOG.md`)
+- GitHub Repository: https://github.com/supabase/agent-skills (referenced in `skills\supabase\CHANGELOG.md`)
+- GitHub Repository: https://github.com/supabase/agent-skills (referenced in `skills\supabase\CHANGELOG.md`)
+- GitHub Repository: https://github.com/supabase/agent-skills (referenced in `skills\supabase\CHANGELOG.md`)
+- GitHub Repository: https://github.com/supabase/agent-skills (referenced in `skills\supabase\CHANGELOG.md`)
+- GitHub Repository: https://github.com/supabase/agent-skills (referenced in `skills\supabase\CHANGELOG.md`)
+- GitHub Repository: https://github.com/supabase/agent-skills (referenced in `skills\supabase\CHANGELOG.md`)
+- GitHub Repository: https://github.com/supabase/agent-skills (referenced in `skills\supabase\CHANGELOG.md`)
+- GitHub Repository: https://github.com/supabase/agent-skills (referenced in `skills\supabase\CHANGELOG.md`)
+- GitHub Repository: https://github.com/supabase/agent-skills (referenced in `skills\supabase\CHANGELOG.md`)
+- GitHub Repository: https://github.com/supabase/agent-skills (referenced in `skills\supabase\CHANGELOG.md`)
+- GitHub Repository: https://github.com/supabase/agent-skills (referenced in `skills\supabase\CHANGELOG.md`)
+- GitHub Repository: https://github.com/supabase/agent-skills (referenced in `skills\supabase\CHANGELOG.md`)
+- GitHub Repository: https://github.com/supabase/agent-skills (referenced in `skills\supabase\CHANGELOG.md`)
+- GitHub Repository: https://github.com/supabase/agent-skills (referenced in `skills\supabase\CHANGELOG.md`)
+- GitHub Repository: https://github.com/supabase/agent-skills (referenced in `skills\supabase\CHANGELOG.md`)
+- GitHub Repository: https://github.com/supabase/agent-skills (referenced in `skills\supabase\CHANGELOG.md`)
+- GitHub Repository: https://github.com/supabase/agent-skills (referenced in `skills\supabase\CHANGELOG.md`)
+- GitHub Repository: https://github.com/supabase/agent-skills (referenced in `skills\supabase\CHANGELOG.md`)
+- GitHub Repository: https://github.com/supabase/agent-skills (referenced in `skills\supabase\CHANGELOG.md`)
+- GitHub Repository: https://github.com/supabase/agent-skills (referenced in `skills\supabase\CHANGELOG.md`)
+- GitHub Repository: https://github.com/supabase/agent-skills (referenced in `skills\supabase\CHANGELOG.md`)
+- GitHub Repository: https://github.com/supabase/agent-skills (referenced in `skills\supabase\CHANGELOG.md`)
+- GitHub Repository: https://github.com/supabase/agent-skills (referenced in `skills\supabase\CHANGELOG.md`)
+- GitHub Repository: https://github.com/supabase/agent-skills (referenced in `skills\supabase\CHANGELOG.md`)
+- GitHub Repository: https://github.com/supabase/agent-skills (referenced in `skills\supabase\CHANGELOG.md`)
+- GitHub Repository: https://github.com/supabase/agent-skills (referenced in `skills\supabase\CHANGELOG.md`)
+- GitHub Repository: https://github.com/supabase/agent-skills (referenced in `skills\supabase\CHANGELOG.md`)
+- GitHub Repository: https://github.com/supabase/agent-skills (referenced in `skills\supabase\CHANGELOG.md`)
+- GitHub Repository: https://github.com/supabase/agent-skills (referenced in `skills\supabase\CHANGELOG.md`)
+- GitHub Repository: https://github.com/supabase/cli (referenced in `skills\supabase\SKILL.md`)
+- GitHub Repository: https://github.com/supabase/agent-skills (referenced in `skills\supabase\references\skill-feedback.md`)
+- GitHub Repository: https://github.com/supabase/agent-skills (referenced in `skills\supabase-postgres-best-practices\CHANGELOG.md`)
+- GitHub Repository: https://github.com/supabase/agent-skills (referenced in `skills\supabase-postgres-best-practices\CHANGELOG.md`)
+- GitHub Repository: https://github.com/supabase/agent-skills (referenced in `skills\supabase-postgres-best-practices\CHANGELOG.md`)
+- GitHub Repository: https://github.com/supabase/agent-skills (referenced in `skills\supabase-postgres-best-practices\CHANGELOG.md`)
+- GitHub Repository: https://github.com/supabase/agent-skills (referenced in `skills\supabase-postgres-best-practices\CHANGELOG.md`)
+- GitHub Repository: https://github.com/supabase/agent-skills (referenced in `skills\supabase-postgres-best-practices\CHANGELOG.md`)
+- GitHub Repository: https://github.com/supabase/agent-skills (referenced in `skills\supabase-postgres-best-practices\CHANGELOG.md`)
+- GitHub Repository: https://github.com/supabase/agent-skills (referenced in `skills\supabase-postgres-best-practices\CHANGELOG.md`)
+- GitHub Repository: https://github.com/supabase/agent-skills (referenced in `skills\supabase-postgres-best-practices\CHANGELOG.md`)
+- GitHub Repository: https://github.com/supabase/agent-skills (referenced in `skills\supabase-postgres-best-practices\CHANGELOG.md`)
+- GitHub Repository: https://github.com/supabase/agent-skills (referenced in `skills\supabase-postgres-best-practices\CHANGELOG.md`)
+- GitHub Repository: https://github.com/supabase/agent-skills (referenced in `skills\supabase-postgres-best-practices\CHANGELOG.md`)
+- GitHub Repository: https://github.com/supabase/agent-skills (referenced in `skills\supabase-postgres-best-practices\CHANGELOG.md`)
+- GitHub Repository: https://github.com/supabase/agent-skills (referenced in `skills\supabase-postgres-best-practices\CHANGELOG.md`)
+- GitHub Repository: https://github.com/supabase/agent-skills (referenced in `skills\supabase-postgres-best-practices\CHANGELOG.md`)
+- GitHub Repository: https://github.com/supabase/agent-skills (referenced in `skills\supabase-postgres-best-practices\CHANGELOG.md`)
+- GitHub Repository: https://github.com/supabase/agent-skills (referenced in `skills\supabase-postgres-best-practices\CHANGELOG.md`)
+- GitHub Repository: https://github.com/supabase/agent-skills (referenced in `skills\supabase-postgres-best-practices\CHANGELOG.md`)
+- AI integration reference: 'claude' (found in `skills\surface\SKILL.md`)
+- AI integration reference: 'claude' (found in `skills\systematic-debugging\CREATION-LOG.md`)
+- GitHub Repository: https://github.com/org/repo.git (referenced in `skills\terraform-stacks\SKILL.md`)
+- GitHub Repository: https://github.com/org/repo.git (referenced in `skills\terraform-stacks\references\component-blocks.md`)
+- GitHub Repository: https://github.com/org/repo.git (referenced in `skills\terraform-stacks\references\component-blocks.md`)
+- AI integration reference: 'claude' (found in `skills\thread\SKILL.md`)
+- AI integration reference: 'claude' (found in `skills\tool-design\references\architectural_reduction.md`)
+- AI integration reference: 'llm' (found in `skills\typefully\references\comments.md`)
+- GitHub Repository: https://github.com/typefully/agent-skills (referenced in `skills\typefully\references\setup.md`)
+- GitHub Repository: https://github.com/typefully/agent-skills (referenced in `skills\typefully\references\setup.md`)
+- AI integration reference: 'claude' (found in `skills\typefully\references\setup.md`)
+- AI integration reference: 'llm' (found in `skills\typefully\scripts\typefully.js`)
+- AI integration reference: 'claude' (found in `skills\ui-auditor\SKILL.md`)
+- AI integration reference: 'claude' (found in `skills\ui-checker\SKILL.md`)
+- AI integration reference: 'claude' (found in `skills\ui-phase\SKILL.md`)
+- AI integration reference: 'claude' (found in `skills\ui-researcher\SKILL.md`)
+- AI integration reference: 'claude' (found in `skills\ui-review\SKILL.md`)
+- AI integration reference: 'claude' (found in `skills\ui-ux-pro-max\scripts\search.py`)
+- AI integration reference: 'claude' (found in `skills\ultraplan-phase\SKILL.md`)
+- AI integration reference: 'claude' (found in `skills\ultraplan-phase\references\README.md`)
+- AI integration reference: 'claude' (found in `skills\undo\SKILL.md`)
+- AI integration reference: 'claude' (found in `skills\update\SKILL.md`)
+- AI integration reference: 'claude' (found in `skills\user-profiler\SKILL.md`)
+- AI integration reference: 'gemini' (found in `skills\using-superpowers\SKILL.md`)
+- AI integration reference: 'claude' (found in `skills\using-superpowers\SKILL.md`)
+- AI integration reference: 'claude' (found in `skills\using-superpowers\references\codex-tools.md`)
+- AI integration reference: 'claude' (found in `skills\using-superpowers\references\copilot-tools.md`)
+- AI integration reference: 'gemini' (found in `skills\using-superpowers\references\gemini-tools.md`)
+- AI integration reference: 'claude' (found in `skills\using-superpowers\references\gemini-tools.md`)
+- AI integration reference: 'claude' (found in `skills\validate-phase\SKILL.md`)
+- AI integration reference: 'openai' (found in `skills\venice-skills-venice-api-overview\SKILL.md`)
+- AI integration reference: 'gemini' (found in `skills\venice-skills-venice-audio-speech\SKILL.md`)
+- AI integration reference: 'openai' (found in `skills\venice-skills-venice-audio-speech\SKILL.md`)
+- AI integration reference: 'openai' (found in `skills\venice-skills-venice-audio-transcription\SKILL.md`)
+- AI integration reference: 'claude' (found in `skills\venice-skills-venice-billing\SKILL.md`)
+- AI integration reference: 'llm' (found in `skills\venice-skills-venice-billing\SKILL.md`)
+- AI integration reference: 'openai' (found in `skills\venice-skills-venice-characters\SKILL.md`)
+- AI integration reference: 'claude' (found in `skills\venice-skills-venice-chat\SKILL.md`)
+- AI integration reference: 'openai' (found in `skills\venice-skills-venice-chat\SKILL.md`)
+- AI integration reference: 'llm' (found in `skills\venice-skills-venice-chat\SKILL.md`)
+- AI integration reference: 'gemini' (found in `skills\venice-skills-venice-embeddings\SKILL.md`)
+- AI integration reference: 'openai' (found in `skills\venice-skills-venice-embeddings\SKILL.md`)
+- AI integration reference: 'openai' (found in `skills\venice-skills-venice-image-generate\SKILL.md`)
+- AI integration reference: 'claude' (found in `skills\venice-skills-venice-models\SKILL.md`)
+- AI integration reference: 'openai' (found in `skills\venice-skills-venice-models\SKILL.md`)
+- AI integration reference: 'llm' (found in `skills\venice-skills-venice-models\SKILL.md`)
+- AI integration reference: 'openai' (found in `skills\venice-skills-venice-responses\SKILL.md`)
+- GitHub Repository: https://github.com/vercel/next.js (referenced in `skills\vercel-next-skills\SKILL.md`)
+- AI integration reference: 'claude' (found in `skills\verifier\SKILL.md`)
+- AI integration reference: 'claude' (found in `skills\verify-work\SKILL.md`)
+- GitHub Repository: https://github.com/VoltAgent/skills (referenced in `skills\voltagent-best-practices\SKILL.md`)
+- GitHub Repository: https://github.com/voltagent/voltagent (referenced in `skills\voltagent-best-practices\SKILL.md`)
+- GitHub Repository: https://github.com/voltagent/voltagent (referenced in `skills\voltagent-best-practices\SKILL.md`)
+- AI integration reference: 'claude' (found in `skills\voltagent-best-practices\SKILL.md`)
+- AI integration reference: 'openai' (found in `skills\voltagent-best-practices\SKILL.md`)
+- GitHub Repository: https://github.com/VoltAgent/skills (referenced in `skills\voltagent-core-reference\SKILL.md`)
+- GitHub Repository: https://github.com/VoltAgent/skills (referenced in `skills\voltagent-docs-bundle\SKILL.md`)
+- AI integration reference: 'claude' (found in `skills\web-artifacts-builder\SKILL.md`)
+- AI integration reference: 'claude' (found in `skills\web-artifacts-builder\references\README.md`)
+- AI integration reference: 'claude' (found in `skills\workspace\SKILL.md`)
+- AI integration reference: 'claude' (found in `skills\writing-skills\anthropic-best-practices.md`)
+- AI integration reference: 'llm' (found in `skills\writing-skills\persuasion-principles.md`)
+- AI integration reference: 'claude' (found in `skills\writing-skills\SKILL.md`)
+- AI integration reference: 'claude' (found in `skills\writing-skills\testing-skills-with-subagents.md`)
+- AI integration reference: 'claude' (found in `skills\xlsx\scripts\office\pack.py`)
+- AI integration reference: 'claude' (found in `skills\xlsx\scripts\office\validate.py`)
+- AI integration reference: 'claude' (found in `skills\xlsx\scripts\office\helpers\simplify_redlines.py`)
+- AI integration reference: 'claude' (found in `skills\xlsx\scripts\office\validators\redlining.py`)
+
+
+---
+# Codebase Architecture
+
+## Directory Tree Map
+```
+  - marketplace.json
+  - plugin.json
+- .clinerules
+- .cursorrules
+    - ani-add-tests.toml
+    - ani-advanced-evaluation.toml
+    - ani-advisor-researcher.toml
+    - ani-ai-integration-phase.toml
+    - ani-ai-researcher.toml
+    - ani-algorithmic-art.toml
+    - ani-angular-developer.toml
+    - ani-angular-new-app.toml
+    - ani-ani-creator.toml
+    - ani-animated-stats-counter-section.toml
+    - ani-animation-accessibility-performance-audit.toml
+    - ani-api-and-interface-design.toml
+    - ani-appium-skill.toml
+    - ani-assumptions-analyzer.toml
+    - ani-audit-fix.toml
+    - ani-audit-milestone.toml
+    - ani-audit-uat.toml
+    - ani-autonomous.toml
+    - ani-aws-ami-builder.toml
+    - ani-azure-image-builder.toml
+    - ani-azure-verified-modules.toml
+    - ani-baoyu-article-illustrator.toml
+    - ani-baoyu-comic.toml
+    - ani-baoyu-compress-image.toml
+    - ani-baoyu-cover-image.toml
+    - ani-baoyu-danger-gemini-web.toml
+    - ani-baoyu-danger-x-to-markdown.toml
+    - ani-baoyu-diagram.toml
+    - ani-baoyu-format-markdown.toml
+    - ani-baoyu-image-cards.toml
+    - ani-baoyu-imagine.toml
+    - ani-baoyu-infographic.toml
+    - ani-baoyu-markdown-to-html.toml
+    - ani-baoyu-post-to-wechat.toml
+    - ani-baoyu-post-to-weibo.toml
+    - ani-baoyu-post-to-x.toml
+    - ani-baoyu-slide-deck.toml
+    - ani-baoyu-translate.toml
+    - ani-baoyu-url-to-markdown.toml
+    - ani-baoyu-xhs-images.toml
+    - ani-baoyu-youtube-transcript.toml
+    - ani-bdi-mental-states.toml
+    - ani-behat-skill.toml
+    - ani-behave-skill.toml
+    - ani-better-auth-best-practices.toml
+    - ani-boss-prompt-agile-release-manager.toml
+    - ani-boss-prompt-ci-cd-automation.toml
+    - ani-boss-prompt-creative-director.toml
+    - ani-boss-prompt-e-commerce-ux-architect.toml
+    - ani-boss-prompt-error-recovery-specialist.toml
+    - ani-boss-prompt-full-stack-integrator.toml
+    - ani-boss-prompt-interactive-storytelling-director.toml
+    - ani-boss-prompt-llm-eval-judge.toml
+    - ani-boss-prompt-marketing-funnel-architect.toml
+    - ani-boss-prompt-micro-interaction-expert.toml
+    - ani-boss-prompt-migration-consultant.toml
+    - ani-boss-prompt-monorepo-architect.toml
+    - ani-boss-prompt-performance-auditor.toml
+    - ani-boss-prompt-portfolio-builder.toml
+    - ani-boss-prompt-saas-dashboard-designer.toml
+    - ani-boss-prompt-security-warden.toml
+    - ani-boss-prompt-socratic-planner.toml
+    - ani-boss-prompt-spec-driven-developer.toml
+    - ani-boss-prompt-systematic-debugger.toml
+    - ani-boss-prompt-technical-writer.toml
+    - ani-boss-prompt-threejs-showroom-creator.toml
+    - ani-boss-prompt-web-scraper-and-tester.toml
+    - ani-brainstorming.toml
+    - ani-brand-guidelines.toml
+    - ani-browser-testing-with-devtools.toml
+    - ani-build-models.toml
+    - ani-buttery-smooth-120fps-performance.toml
+    - ani-canvas-design.toml
+    - ani-capture.toml
+    - ani-capybara-skill.toml
+    - ani-chdb-datastore.toml
+    - ani-chdb-sql.toml
+    - ani-ci-cd-and-automation.toml
+    - ani-cicd-pipeline-skill.toml
+    - ani-circular-radial-menu-reveal.toml
+    - ani-claimable-postgres.toml
+    - ani-claude-api.toml
+    - ani-cleanup.toml
+    - ani-clickhouse-architecture-advisor.toml
+    - ani-clickhouse-best-practices.toml
+    - ani-clickhouse-js-node-coding.toml
+    - ani-clickhouse-js-node-rowbinary.toml
+    - ani-clickhouse-js-node-troubleshooting.toml
+    - ani-clickhouse-managed-postgres-rca.toml
+    - ani-clickhousectl-cloud-deploy.toml
+    - ani-clickhousectl-local-dev.toml
+    - ani-cloudflare-skills-agents-sdk.toml
+    - ani-cloudflare-skills-cloudflare-email-service.toml
+    - ani-cloudflare-skills-cloudflare-one-migrations.toml
+    - ani-cloudflare-skills-cloudflare-one.toml
+    - ani-cloudflare-skills-cloudflare.toml
+    - ani-cloudflare-skills-durable-objects.toml
+    - ani-cloudflare-skills-sandbox-sdk.toml
+    - ani-cloudflare-skills-turnstile-spin.toml
+    - ani-cloudflare-skills-web-perf.toml
+    - ani-cloudflare-skills-workers-best-practices.toml
+    - ani-cloudflare-skills-wrangler.toml
+    - ani-code-fixer.toml
+    - ani-code-review-and-quality.toml
+    - ani-code-review.toml
+    - ani-code-reviewer.toml
+    - ani-code-simplification.toml
+    - ani-codebase-mapper.toml
+    - ani-codeception-skill.toml
+    - ani-compare-models.toml
+    - ani-complete-milestone.toml
+    - ani-composio.toml
+    - ani-composition-patterns.toml
+    - ani-config.toml
+    - ani-connect-recommend.toml
+    - ani-content-experimentation-best-practices.toml
+    - ani-content-modeling-best-practices.toml
+    - ani-context-compression.toml
+    - ani-context-degradation.toml
+    - ani-context-engineering.toml
+    - ani-context-fundamentals.toml
+    - ani-context-optimization.toml
+    - ani-courier-notification-skills.toml
+    - ani-create-auth-skill.toml
+    - ani-create-voltagent.toml
+    - ani-cross-device-responsive-qa.toml
+    - ani-cucumber-skill.toml
+    - ani-custom-cursor-effects.toml
+    - ani-custom-inertial-cursor.toml
+    - ani-cypress-skill.toml
+    - ani-debug-session-manager.toml
+    - ani-debug.toml
+    - ani-debugger.toml
+    - ani-debugging-and-error-recovery.toml
+    - ani-deep-code-scan.toml
+    - ani-defuddle.toml
+    - ani-deprecation-and-migration.toml
+    - ani-detox-skill.toml
+    - ani-discuss-phase.toml
+    - ani-dispatching-parallel-agents.toml
+    - ani-doc-classifier.toml
+    - ani-doc-coauthoring.toml
+    - ani-doc-synthesizer.toml
+    - ani-doc-verifier.toml
+    - ani-doc-writer.toml
+    - ani-docs-update.toml
+    - ani-documentation-and-adrs.toml
+    - ani-docx.toml
+    - ani-domain-researcher.toml
+    - ani-doubt-driven-development.toml
+    - ani-dsa-backtracking-sudoku-solver.toml
+    - ani-dsa-cyclic-sort.toml
+    - ani-dsa-dijkstras-shortest-path.toml
+    - ani-dsa-fast-and-slow-pointers.toml
+    - ani-dsa-in-place-reversal-of-linked-list.toml
+    - ani-dsa-k-way-merge.toml
+    - ani-dsa-knapsack-dynamic-programming.toml
+    - ani-dsa-merge-intervals.toml
+    - ani-dsa-modified-binary-search.toml
+    - ani-dsa-segment-tree-range-queries.toml
+    - ani-dsa-sliding-window.toml
+    - ani-dsa-subsets.toml
+    - ani-dsa-top-k-elements.toml
+    - ani-dsa-topological-sort.toml
+    - ani-dsa-tree-bfs.toml
+    - ani-dsa-tree-dfs.toml
+    - ani-dsa-trie-prefix-tree.toml
+    - ani-dsa-two-heaps.toml
+    - ani-dsa-two-pointers.toml
+    - ani-dsa-union-find-disjoint-set.toml
+    - ani-email-and-password-best-practices.toml
+    - ani-espresso-skill.toml
+    - ani-eval-auditor.toml
+    - ani-eval-planner.toml
+    - ani-eval-review.toml
+    - ani-evaluation.toml
+    - ani-execute-phase.toml
+    - ani-executing-plans.toml
+    - ani-executor.toml
+    - ani-explore.toml
+    - ani-extract-learnings.toml
+    - ani-fast.toml
+    - ani-filesystem-context.toml
+    - ani-find-models.toml
+    - ani-finishing-a-development-branch.toml
+    - ani-firecrawl-build-interact.toml
+    - ani-firecrawl-build-onboarding.toml
+    - ani-firecrawl-build-scrape.toml
+    - ani-firecrawl-build-search.toml
+    - ani-firecrawl-build.toml
+    - ani-firecrawl-research-index.toml
+    - ani-floating-label-contact-form-section.toml
+    - ani-fluid-responsive-layout-system.toml
+    - ani-flutter-testing-skill.toml
+    - ani-forensics.toml
+    - ani-framework-selector.toml
+    - ani-frontend-design.toml
+    - ani-frontend-ui-engineering.toml
+    - ani-fullscreen-menu-overlay.toml
+    - ani-gauge-skill.toml
+    - ani-geb-skill.toml
+    - ani-gemini-api-dev.toml
+    - ani-gemini-interactions-api.toml
+    - ani-gemini-live-api-dev.toml
+    - ani-gemini-omni-flash-api.toml
+    - ani-git-workflow-and-versioning.toml
+    - ani-google-design-md.toml
+    - ani-google-workspace-cli.toml
+    - ani-google-workspace-vhs.toml
+    - ani-graphify.toml
+    - ani-gsap-scrolltrigger-effects.toml
+    - ani-gsap-timeline-choreography.toml
+    - ani-health.toml
+    - ani-help.toml
+    - ani-hero-cinematic-parallax-section.toml
+    - ani-hero-split-text-reveal-section.toml
+    - ani-horizontal-scroll-gallery-section.toml
+    - ani-hosted-agents.toml
+    - ani-hyperexecute-skill.toml
+    - ani-idea-refine.toml
+    - ani-import.toml
+    - ani-inbox.toml
+    - ani-incremental-implementation.toml
+    - ani-ingest-docs.toml
+    - ani-integration-checker.toml
+    - ani-intel-updater.toml
+    - ani-internal-comms.toml
+    - ani-interview-me.toml
+    - ani-jasmine-skill.toml
+    - ani-jest-skill.toml
+    - ani-json-canvas.toml
+    - ani-junit-5-skill.toml
+    - ani-karma-skill.toml
+    - ani-keyboard-grid-designer.toml
+    - ani-laravel-dusk-skill.toml
+    - ani-lettuce-skill.toml
+    - ani-magnetic-cta-section.toml
+    - ani-magnetic-huge-text-nav-links.toml
+    - ani-manager.toml
+    - ani-map-codebase.toml
+    - ani-marquee-logo-cloud-section.toml
+    - ani-mask-reveal-footer-section.toml
+    - ani-mcp-builder.toml
+    - ani-mega-menu-dropdown.toml
+    - ani-memory-systems.toml
+    - ani-mempalace-capture.toml
+    - ani-mempalace-recall.toml
+    - ani-milestone-summary.toml
+    - ani-mocha-skill.toml
+    - ani-morph-mask-reveal-transitions.toml
+    - ani-morph-newsletter-signup-section.toml
+    - ani-morphing-hamburger-icon.toml
+    - ani-mstest-skill.toml
+    - ani-multi-agent-patterns.toml
+    - ani-multi-slat-about-reveal.toml
+    - ani-mvp-phase.toml
+    - ani-nemojs-skill.toml
+    - ani-neon-ai-gateway.toml
+    - ani-neon-functions.toml
+    - ani-neon-object-storage.toml
+    - ani-neon-postgres-branches.toml
+    - ani-neon-postgres-egress-optimizer.toml
+    - ani-neon-postgres.toml
+    - ani-neon.toml
+    - ani-netlify-skills-netlify-access-control.toml
+    - ani-netlify-skills-netlify-agent-runner.toml
+    - ani-netlify-skills-netlify-ai-gateway.toml
+    - ani-netlify-skills-netlify-blobs.toml
+    - ani-netlify-skills-netlify-caching.toml
+    - ani-netlify-skills-netlify-config.toml
+    - ani-netlify-skills-netlify-database.toml
+    - ani-netlify-skills-netlify-deploy.toml
+    - ani-netlify-skills-netlify-edge-functions.toml
+    - ani-netlify-skills-netlify-forms.toml
+    - ani-netlify-skills-netlify-frameworks.toml
+    - ani-netlify-skills-netlify-functions.toml
+    - ani-netlify-skills-netlify-identity.toml
+    - ani-netlify-skills-netlify-image-cdn.toml
+    - ani-netlify-skills-netlify-mcp-servers.toml
+    - ani-new-milestone.toml
+    - ani-new-project.toml
+    - ani-new-terraform-provider.toml
+    - ani-next.toml
+    - ani-nightwatchjs-skill.toml
+    - ani-notebooklm.toml
+    - ani-ns-context.toml
+    - ani-ns-ideate.toml
+    - ani-ns-manage.toml
+    - ani-ns-project.toml
+    - ani-ns-review.toml
+    - ani-ns-workflow.toml
+    - ani-nunit-skill.toml
+    - ani-nyquist-auditor.toml
+    - ani-observability-and-instrumentation.toml
+    - ani-obsidian-bases.toml
+    - ani-obsidian-cli.toml
+    - ani-obsidian-markdown.toml
+    - ani-onboard.toml
+    - ani-one-of-a-kind-portfolio-builder.toml
+    - ani-organization-best-practices.toml
+    - ani-pattern-mapper.toml
+    - ani-pause-work.toml
+    - ani-pdf.toml
+    - ani-performance-optimization.toml
+    - ani-phase-researcher.toml
+    - ani-phase.toml
+    - ani-phpunit-skill.toml
+    - ani-pinned-storytelling-about-section.toml
+    - ani-plan-checker.toml
+    - ani-plan-phase.toml
+    - ani-plan-review-convergence.toml
+    - ani-planner.toml
+    - ani-planning-and-task-breakdown.toml
+    - ani-planning-with-files.toml
+    - ani-playwright-skill.toml
+    - ani-portable-text-conversion.toml
+    - ani-portable-text-serialization.toml
+    - ani-portfolio-hover-reveal-grid-section.toml
+    - ani-pptx.toml
+    - ani-pr-branch.toml
+    - ani-precision-easing-motion-design.toml
+    - ani-preloader-visual-loading.toml
+    - ani-pro-animations-motion-flower-animation.toml
+    - ani-pro-backgrounds-visuals-cable-cursor.toml
+    - ani-pro-backgrounds-visuals-liquid-reveal.toml
+    - ani-pro-complete-landing-pages-awwwards.toml
+    - ani-pro-complete-landing-pages-brutalism.toml
+    - ani-pro-complete-landing-pages-chrome-liquid.toml
+    - ani-pro-complete-landing-pages-controlled-chaos.toml
+    - ani-pro-complete-landing-pages-dimensions.toml
+    - ani-pro-complete-landing-pages-disorder-grid.toml
+    - ani-pro-complete-landing-pages-hand-drawn.toml
+    - ani-pro-complete-landing-pages-invisible-dimension.toml
+    - ani-pro-complete-landing-pages-kinetic-void.toml
+    - ani-pro-complete-landing-pages-magazine.toml
+    - ani-pro-complete-landing-pages-magnetic-cursor.toml
+    - ani-pro-complete-landing-pages-neo-brutalist.toml
+    - ani-pro-complete-landing-pages-parallax-masonry.toml
+    - ani-pro-complete-landing-pages-playful-brutal.toml
+    - ani-pro-complete-landing-pages-sketchy.toml
+    - ani-pro-complete-landing-pages-the-edit.toml
+    - ani-pro-complete-landing-pages-wabi-sabi.toml
+    - ani-pro-core-landing-pages-cartoonish.toml
+    - ani-pro-core-landing-pages-draggable.toml
+    - ani-pro-core-landing-pages-glass-operating-system.toml
+    - ani-pro-core-landing-pages-living-porcelain.toml
+    - ani-pro-core-landing-pages-marble.toml
+    - ani-pro-core-landing-pages-retro-80s.toml
+    - ani-pro-core-landing-pages-russian-website.toml
+    - ani-pro-core-landing-pages-sketchy.toml
+    - ani-pro-core-landing-pages-swiss-style.toml
+    - ani-pro-media-grid-distortion.toml
+    - ani-pro-media-image-slider.toml
+    - ani-pro-media-slider-page.toml
+    - ani-pro-navigation-and-structures-navbar-apple-glass-nav.toml
+    - ani-pro-navigation-and-structures-navbar-gradient-border-nav.toml
+    - ani-pro-navigation-and-structures-navbar-sketchy-nav.toml
+    - ani-pro-special-elements-404-page.toml
+    - ani-pro-startup-landing-pages-goo.toml
+    - ani-pro-startup-landing-pages-kinetic.toml
+    - ani-pro-startup-landing-pages-loo.toml
+    - ani-pro-ui-components-image-cursor-trail.toml
+    - ani-profile-user.toml
+    - ani-progress.toml
+    - ani-project-development.toml
+    - ani-project-researcher.toml
+    - ani-prompt-images.toml
+    - ani-prompt-videos.toml
+    - ani-protractor-skill.toml
+    - ani-provider-actions.toml
+    - ani-provider-docs.toml
+    - ani-provider-resources.toml
+    - ani-provider-test-patterns.toml
+    - ani-publish-models.toml
+    - ani-puppeteer-skill.toml
+    - ani-push-to-registry.toml
+    - ani-pytest-skill.toml
+    - ani-quick.toml
+    - ani-react-best-practices.toml
+    - ani-react-native-skills.toml
+    - ani-receiving-code-review.toml
+    - ani-refactor-module.toml
+    - ani-remotion-best-practices.toml
+    - ani-remotion.toml
+    - ani-reqnroll-skill.toml
+    - ani-requesting-code-review.toml
+    - ani-research-synthesizer.toml
+    - ani-resume-work.toml
+    - ani-retro-90s-ui-effects.toml
+    - ani-review-backlog.toml
+    - ani-review.toml
+    - ani-roadmapper.toml
+    - ani-robot-framework-skill.toml
+    - ani-rspec-skill.toml
+    - ani-run-acceptance-tests.toml
+    - ani-run-models.toml
+    - ani-sanity-best-practices.toml
+    - ani-sanity-migration.toml
+    - ani-score-eval.toml
+    - ani-scroll-comparison-table-section.toml
+    - ani-scroll-morph-navbar-section.toml
+    - ani-scroll-pinned-timeline-section.toml
+    - ani-scrub-carousel-testimonials-section.toml
+    - ani-secure-phase.toml
+    - ani-security-and-hardening.toml
+    - ani-security-auditor.toml
+    - ani-selenide-skill.toml
+    - ani-selenium-skill.toml
+    - ani-seo-aeo-best-practices.toml
+    - ani-serenity-bdd-skill.toml
+    - ani-settings.toml
+    - ani-ship.toml
+    - ani-shipping-and-launch.toml
+    - ani-side-drawer-nav-menu.toml
+    - ani-sketch.toml
+    - ani-slack-gif-creator.toml
+    - ani-slat-reveal-designer.toml
+    - ani-smartui-skill.toml
+    - ani-smooth-accordion-faq-section.toml
+    - ani-source-driven-development.toml
+    - ani-spec-driven-development.toml
+    - ani-spec-phase.toml
+    - ani-specflow-skill.toml
+    - ani-spike.toml
+    - ani-split-panel-menu-reveal.toml
+    - ani-stagger-reveal-blog-cards-section.toml
+    - ani-stats.toml
+    - ani-stripe-best-practices.toml
+    - ani-stripe-directory.toml
+    - ani-stripe-projects.toml
+    - ani-subagent-driven-development.toml
+    - ani-supabase-postgres-best-practices.toml
+    - ani-supabase.toml
+    - ani-surface.toml
+    - ani-systematic-debugging.toml
+    - ani-terraform-search-import.toml
+    - ani-terraform-stacks.toml
+    - ani-terraform-style-guide.toml
+    - ani-terraform-test.toml
+    - ani-test-driven-development.toml
+    - ani-test-framework-migration-skill.toml
+    - ani-testcafe-skill.toml
+    - ani-testng-skill.toml
+    - ani-testunit-skill.toml
+    - ani-text-motion-typography.toml
+    - ani-theme-factory.toml
+    - ani-thread.toml
+    - ani-three-carousel-slider.toml
+    - ani-three-cursor-particle-explosion.toml
+    - ani-threejs-interactive-backgrounds.toml
+    - ani-ticker-banner-designer.toml
+    - ani-tilt-3d-team-cards-section.toml
+    - ani-tilt-hover-pricing-cards-section.toml
+    - ani-tinybird-cli-guidelines.toml
+    - ani-tinybird-python-sdk-guidelines.toml
+    - ani-tinybird-typescript-sdk-guidelines.toml
+    - ani-tinybird.toml
+    - ani-tool-design.toml
+    - ani-top-down-curtain-menu.toml
+    - ani-two-factor-authentication-best-practices.toml
+    - ani-typefully.toml
+    - ani-ui-auditor.toml
+    - ani-ui-checker.toml
+    - ani-ui-phase.toml
+    - ani-ui-researcher.toml
+    - ani-ui-review.toml
+    - ani-ui-ux-pro-max.toml
+    - ani-ultraplan-phase.toml
+    - ani-undo.toml
+    - ani-unittest-skill.toml
+    - ani-update.toml
+    - ani-upgrade-stripe.toml
+    - ani-user-profiler.toml
+    - ani-using-agent-skills.toml
+    - ani-using-git-worktrees.toml
+    - ani-using-superpowers.toml
+    - ani-validate-phase.toml
+    - ani-venice-skills-venice-api-keys.toml
+    - ani-venice-skills-venice-api-overview.toml
+    - ani-venice-skills-venice-audio-music.toml
+    - ani-venice-skills-venice-audio-speech.toml
+    - ani-venice-skills-venice-audio-transcription.toml
+    - ani-venice-skills-venice-augment.toml
+    - ani-venice-skills-venice-auth.toml
+    - ani-venice-skills-venice-billing.toml
+    - ani-venice-skills-venice-characters.toml
+    - ani-venice-skills-venice-chat.toml
+    - ani-venice-skills-venice-crypto-rpc.toml
+    - ani-venice-skills-venice-embeddings.toml
+    - ani-venice-skills-venice-errors.toml
+    - ani-venice-skills-venice-image-edit.toml
+    - ani-venice-skills-venice-image-generate.toml
+    - ani-venice-skills-venice-models.toml
+    - ani-venice-skills-venice-responses.toml
+    - ani-venice-skills-venice-video.toml
+    - ani-venice-skills-venice-x402.toml
+    - ani-vercel-next-skills.toml
+    - ani-verification-before-completion.toml
+    - ani-verifier.toml
+    - ani-verify-work.toml
+    - ani-video-hero-section.toml
+    - ani-vitest-skill.toml
+    - ani-voltagent-best-practices.toml
+    - ani-voltagent-core-reference.toml
+    - ani-voltagent-docs-bundle.toml
+    - ani-web-artifacts-builder.toml
+    - ani-web-design-guidelines.toml
+    - ani-webapp-testing.toml
+    - ani-webdriverio-skill.toml
+    - ani-windows-builder.toml
+    - ani-workspace.toml
+    - ani-workstreams.toml
+    - ani-writing-plans.toml
+    - ani-writing-skills.toml
+    - ani-xcuitest-skill.toml
+    - ani-xlsx.toml
+    - ani-xunit-skill.toml
+- .geminirules
+- .traerules
+- .windsurfrules
+- GEMINI.md
+- README.md
+  - install.js
+  - agile-release-manager.md
+  - ci-cd-automation.md
+  - creative-director.md
+  - e-commerce-ux-architect.md
+  - error-recovery-specialist.md
+  - full-stack-integrator.md
+  - interactive-storytelling-director.md
+  - llm-eval-judge.md
+  - marketing-funnel-architect.md
+  - micro-interaction-expert.md
+  - migration-consultant.md
+  - monorepo-architect.md
+  - performance-auditor.md
+  - portfolio-builder.md
+  - saas-dashboard-designer.md
+  - security-warden.md
+  - socratic-planner.md
+  - spec-driven-developer.md
+  - systematic-debugger.md
+  - technical-writer.md
+  - threejs-showroom-creator.md
+  - web-scraper-and-tester.md
+  - skill-add-tests.md
+  - skill-advanced-evaluation.md
+  - skill-advisor-researcher.md
+  - skill-ai-integration-phase.md
+  - skill-ai-researcher.md
+  - skill-algorithmic-art.md
+  - skill-angular-developer.md
+  - skill-angular-new-app.md
+  - skill-animated-stats-counter-section.md
+  - skill-animation-accessibility-performance-audit.md
+  - skill-api-and-interface-design.md
+  - skill-appium-skill.md
+  - skill-assumptions-analyzer.md
+  - skill-audit-fix.md
+  - skill-audit-milestone.md
+  - skill-audit-uat.md
+  - skill-autonomous.md
+  - skill-aws-ami-builder.md
+  - skill-azure-image-builder.md
+  - skill-azure-verified-modules.md
+  - skill-baoyu-article-illustrator.md
+  - skill-baoyu-comic.md
+  - skill-baoyu-compress-image.md
+  - skill-baoyu-cover-image.md
+  - skill-baoyu-danger-gemini-web.md
+  - skill-baoyu-danger-x-to-markdown.md
+  - skill-baoyu-diagram.md
+  - skill-baoyu-format-markdown.md
+  - skill-baoyu-image-cards.md
+  - skill-baoyu-imagine.md
+  - skill-baoyu-infographic.md
+  - skill-baoyu-markdown-to-html.md
+  - skill-baoyu-post-to-wechat.md
+  - skill-baoyu-post-to-weibo.md
+  - skill-baoyu-post-to-x.md
+  - skill-baoyu-slide-deck.md
+  - skill-baoyu-translate.md
+  - skill-baoyu-url-to-markdown.md
+  - skill-baoyu-xhs-images.md
+  - skill-baoyu-youtube-transcript.md
+  - skill-bdi-mental-states.md
+  - skill-behat-skill.md
+  - skill-behave-skill.md
+  - skill-better-auth-best-practices.md
+  - skill-brainstorming.md
+  - skill-brand-guidelines.md
+  - skill-browser-testing-with-devtools.md
+  - skill-build-models.md
+  - skill-buttery-smooth-120fps-performance.md
+  - skill-canvas-design.md
+  - skill-capture.md
+  - skill-capybara-skill.md
+  - skill-chdb-datastore.md
+  - skill-chdb-sql.md
+  - skill-ci-cd-and-automation.md
+  - skill-cicd-pipeline-skill.md
+  - skill-circular-radial-menu-reveal.md
+  - skill-claimable-postgres.md
+  - skill-claude-api.md
+  - skill-cleanup.md
+  - skill-clickhouse-architecture-advisor.md
+  - skill-clickhouse-best-practices.md
+  - skill-clickhouse-js-node-coding.md
+  - skill-clickhouse-js-node-rowbinary.md
+  - skill-clickhouse-js-node-troubleshooting.md
+  - skill-clickhouse-managed-postgres-rca.md
+  - skill-clickhousectl-cloud-deploy.md
+  - skill-clickhousectl-local-dev.md
+  - skill-code-fixer.md
+  - skill-code-review-and-quality.md
+  - skill-code-review.md
+  - skill-code-reviewer.md
+  - skill-code-simplification.md
+  - skill-codebase-mapper.md
+  - skill-codeception-skill.md
+  - skill-compare-models.md
+  - skill-complete-milestone.md
+  - skill-composio.md
+  - skill-composition-patterns.md
+  - skill-config.md
+  - skill-connect-recommend.md
+  - skill-content-experimentation-best-practices.md
+  - skill-content-modeling-best-practices.md
+  - skill-context-compression.md
+  - skill-context-degradation.md
+  - skill-context-engineering.md
+  - skill-context-fundamentals.md
+  - skill-context-optimization.md
+  - skill-courier-notification-skills.md
+  - skill-create-auth-skill.md
+  - skill-create-voltagent.md
+  - skill-cross-device-responsive-qa.md
+  - skill-cucumber-skill.md
+  - skill-custom-cursor-effects.md
+  - skill-custom-inertial-cursor.md
+  - skill-cypress-skill.md
+  - skill-debug-session-manager.md
+  - skill-debug.md
+  - skill-debugger.md
+  - skill-debugging-and-error-recovery.md
+  - skill-defuddle.md
+  - skill-deprecation-and-migration.md
+  - skill-detox-skill.md
+  - skill-discuss-phase.md
+  - skill-dispatching-parallel-agents.md
+  - skill-doc-classifier.md
+  - skill-doc-coauthoring.md
+  - skill-doc-synthesizer.md
+  - skill-doc-verifier.md
+  - skill-doc-writer.md
+  - skill-docs-update.md
+  - skill-documentation-and-adrs.md
+  - skill-docx.md
+  - skill-domain-researcher.md
+  - skill-doubt-driven-development.md
+  - skill-dsa-backtracking-sudoku-solver.md
+  - skill-dsa-cyclic-sort.md
+  - skill-dsa-dijkstras-shortest-path.md
+  - skill-dsa-fast-and-slow-pointers.md
+  - skill-dsa-in-place-reversal-of-linked-list.md
+  - skill-dsa-k-way-merge.md
+  - skill-dsa-knapsack-dynamic-programming.md
+  - skill-dsa-merge-intervals.md
+  - skill-dsa-modified-binary-search.md
+  - skill-dsa-segment-tree-range-queries.md
+  - skill-dsa-sliding-window.md
+  - skill-dsa-subsets.md
+  - skill-dsa-top-k-elements.md
+  - skill-dsa-topological-sort.md
+  - skill-dsa-tree-bfs.md
+  - skill-dsa-tree-dfs.md
+  - skill-dsa-trie-prefix-tree.md
+  - skill-dsa-two-heaps.md
+  - skill-dsa-two-pointers.md
+  - skill-dsa-union-find-disjoint-set.md
+  - skill-email-and-password-best-practices.md
+  - skill-espresso-skill.md
+  - skill-eval-auditor.md
+  - skill-eval-planner.md
+  - skill-eval-review.md
+  - skill-evaluation.md
+  - skill-execute-phase.md
+  - skill-executing-plans.md
+  - skill-executor.md
+  - skill-explore.md
+  - skill-extract-learnings.md
+  - skill-fast.md
+  - skill-filesystem-context.md
+  - skill-find-models.md
+  - skill-finishing-a-development-branch.md
+  - skill-firecrawl-build-interact.md
+  - skill-firecrawl-build-onboarding.md
+  - skill-firecrawl-build-scrape.md
+  - skill-firecrawl-build-search.md
+  - skill-firecrawl-build.md
+  - skill-firecrawl-research-index.md
+  - skill-floating-label-contact-form-section.md
+  - skill-fluid-responsive-layout-system.md
+  - skill-flutter-testing-skill.md
+  - skill-forensics.md
+  - skill-framework-selector.md
+  - skill-frontend-design.md
+  - skill-frontend-ui-engineering.md
+  - skill-fullscreen-menu-overlay.md
+  - skill-gauge-skill.md
+  - skill-geb-skill.md
+  - skill-gemini-api-dev.md
+  - skill-gemini-interactions-api.md
+  - skill-gemini-live-api-dev.md
+  - skill-gemini-omni-flash-api.md
+  - skill-git-workflow-and-versioning.md
+  - skill-graphify.md
+  - skill-gsap-scrolltrigger-effects.md
+  - skill-gsap-timeline-choreography.md
+  - skill-health.md
+  - skill-help.md
+  - skill-hero-cinematic-parallax-section.md
+  - skill-hero-split-text-reveal-section.md
+  - skill-horizontal-scroll-gallery-section.md
+  - skill-hosted-agents.md
+  - skill-hyperexecute-skill.md
+  - skill-idea-refine.md
+  - skill-import.md
+  - skill-inbox.md
+  - skill-incremental-implementation.md
+  - skill-ingest-docs.md
+  - skill-integration-checker.md
+  - skill-intel-updater.md
+  - skill-internal-comms.md
+  - skill-interview-me.md
+  - skill-jasmine-skill.md
+  - skill-jest-skill.md
+  - skill-json-canvas.md
+  - skill-junit-5-skill.md
+  - skill-karma-skill.md
+  - skill-keyboard-grid-designer.md
+  - skill-laravel-dusk-skill.md
+  - skill-lettuce-skill.md
+  - skill-magnetic-cta-section.md
+  - skill-magnetic-huge-text-nav-links.md
+  - skill-manager.md
+  - skill-map-codebase.md
+  - skill-marquee-logo-cloud-section.md
+  - skill-mask-reveal-footer-section.md
+  - skill-mcp-builder.md
+  - skill-mega-menu-dropdown.md
+  - skill-memory-systems.md
+  - skill-mempalace-capture.md
+  - skill-mempalace-recall.md
+  - skill-milestone-summary.md
+  - skill-mocha-skill.md
+  - skill-morph-mask-reveal-transitions.md
+  - skill-morph-newsletter-signup-section.md
+  - skill-morphing-hamburger-icon.md
+  - skill-mstest-skill.md
+  - skill-multi-agent-patterns.md
+  - skill-multi-slat-about-reveal.md
+  - skill-mvp-phase.md
+  - skill-nemojs-skill.md
+  - skill-neon-ai-gateway.md
+  - skill-neon-functions.md
+  - skill-neon-object-storage.md
+  - skill-neon-postgres-branches.md
+  - skill-neon-postgres-egress-optimizer.md
+  - skill-neon-postgres.md
+  - skill-neon.md
+  - skill-new-milestone.md
+  - skill-new-project.md
+  - skill-new-terraform-provider.md
+  - skill-next.md
+  - skill-nightwatchjs-skill.md
+  - skill-notebooklm.md
+  - skill-ns-context.md
+  - skill-ns-ideate.md
+  - skill-ns-manage.md
+  - skill-ns-project.md
+  - skill-ns-review.md
+  - skill-ns-workflow.md
+  - skill-nunit-skill.md
+  - skill-nyquist-auditor.md
+  - skill-observability-and-instrumentation.md
+  - skill-obsidian-bases.md
+  - skill-obsidian-cli.md
+  - skill-obsidian-markdown.md
+  - skill-onboard.md
+  - skill-one-of-a-kind-portfolio-builder.md
+  - skill-organization-best-practices.md
+  - skill-pattern-mapper.md
+  - skill-pause-work.md
+  - skill-pdf.md
+  - skill-performance-optimization.md
+  - skill-phase-researcher.md
+  - skill-phase.md
+  - skill-phpunit-skill.md
+  - skill-pinned-storytelling-about-section.md
+  - skill-plan-checker.md
+  - skill-plan-phase.md
+  - skill-plan-review-convergence.md
+  - skill-planner.md
+  - skill-planning-and-task-breakdown.md
+  - skill-planning-with-files.md
+  - skill-playwright-skill.md
+  - skill-portable-text-conversion.md
+  - skill-portable-text-serialization.md
+  - skill-portfolio-hover-reveal-grid-section.md
+  - skill-pptx.md
+  - skill-pr-branch.md
+  - skill-precision-easing-motion-design.md
+  - skill-preloader-visual-loading.md
+  - skill-pro-animations-motion-flower-animation.md
+  - skill-pro-backgrounds-visuals-cable-cursor.md
+  - skill-pro-backgrounds-visuals-liquid-reveal.md
+  - skill-pro-complete-landing-pages-awwwards.md
+  - skill-pro-complete-landing-pages-brutalism.md
+  - skill-pro-complete-landing-pages-chrome-liquid.md
+  - skill-pro-complete-landing-pages-controlled-chaos.md
+  - skill-pro-complete-landing-pages-dimensions.md
+  - skill-pro-complete-landing-pages-disorder-grid.md
+  - skill-pro-complete-landing-pages-hand-drawn.md
+  - skill-pro-complete-landing-pages-invisible-dimension.md
+  - skill-pro-complete-landing-pages-kinetic-void.md
+  - skill-pro-complete-landing-pages-magazine.md
+  - skill-pro-complete-landing-pages-magnetic-cursor.md
+  - skill-pro-complete-landing-pages-neo-brutalist.md
+  - skill-pro-complete-landing-pages-parallax-masonry.md
+  - skill-pro-complete-landing-pages-playful-brutal.md
+  - skill-pro-complete-landing-pages-sketchy.md
+  - skill-pro-complete-landing-pages-the-edit.md
+  - skill-pro-complete-landing-pages-wabi-sabi.md
+  - skill-pro-core-landing-pages-cartoonish.md
+  - skill-pro-core-landing-pages-draggable.md
+  - skill-pro-core-landing-pages-glass-operating-system.md
+  - skill-pro-core-landing-pages-living-porcelain.md
+  - skill-pro-core-landing-pages-marble.md
+  - skill-pro-core-landing-pages-retro-80s.md
+  - skill-pro-core-landing-pages-russian-website.md
+  - skill-pro-core-landing-pages-sketchy.md
+  - skill-pro-core-landing-pages-swiss-style.md
+  - skill-pro-media-grid-distortion.md
+  - skill-pro-media-image-slider.md
+  - skill-pro-media-slider-page.md
+  - skill-pro-navigation-and-structures-navbar-apple-glass-nav.md
+  - skill-pro-navigation-and-structures-navbar-gradient-border-nav.md
+  - skill-pro-navigation-and-structures-navbar-sketchy-nav.md
+  - skill-pro-special-elements-404-page.md
+  - skill-pro-startup-landing-pages-goo.md
+  - skill-pro-startup-landing-pages-kinetic.md
+  - skill-pro-startup-landing-pages-loo.md
+  - skill-pro-ui-components-image-cursor-trail.md
+  - skill-profile-user.md
+  - skill-progress.md
+  - skill-project-development.md
+  - skill-project-researcher.md
+  - skill-prompt-images.md
+  - skill-prompt-videos.md
+  - skill-protractor-skill.md
+  - skill-provider-actions.md
+  - skill-provider-docs.md
+  - skill-provider-resources.md
+  - skill-provider-test-patterns.md
+  - skill-publish-models.md
+  - skill-puppeteer-skill.md
+  - skill-push-to-registry.md
+  - skill-pytest-skill.md
+  - skill-quick.md
+  - skill-react-best-practices.md
+  - skill-react-native-skills.md
+  - skill-receiving-code-review.md
+  - skill-refactor-module.md
+  - skill-remotion-best-practices.md
+  - skill-remotion.md
+  - skill-reqnroll-skill.md
+  - skill-requesting-code-review.md
+  - skill-research-synthesizer.md
+  - skill-resume-work.md
+  - skill-retro-90s-ui-effects.md
+  - skill-review-backlog.md
+  - skill-review.md
+  - skill-roadmapper.md
+  - skill-robot-framework-skill.md
+  - skill-rspec-skill.md
+  - skill-run-acceptance-tests.md
+  - skill-run-models.md
+  - skill-sanity-best-practices.md
+  - skill-sanity-migration.md
+  - skill-score-eval.md
+  - skill-scroll-comparison-table-section.md
+  - skill-scroll-morph-navbar-section.md
+  - skill-scroll-pinned-timeline-section.md
+  - skill-scrub-carousel-testimonials-section.md
+  - skill-secure-phase.md
+  - skill-security-and-hardening.md
+  - skill-security-auditor.md
+  - skill-selenide-skill.md
+  - skill-selenium-skill.md
+  - skill-seo-aeo-best-practices.md
+  - skill-serenity-bdd-skill.md
+  - skill-settings.md
+  - skill-ship.md
+  - skill-shipping-and-launch.md
+  - skill-side-drawer-nav-menu.md
+  - skill-sketch.md
+  - skill-skill-creator.md
+  - skill-slack-gif-creator.md
+  - skill-slat-reveal-designer.md
+  - skill-smartui-skill.md
+  - skill-smooth-accordion-faq-section.md
+  - skill-source-driven-development.md
+  - skill-spec-driven-development.md
+  - skill-spec-phase.md
+  - skill-specflow-skill.md
+  - skill-spike.md
+  - skill-split-panel-menu-reveal.md
+  - skill-stagger-reveal-blog-cards-section.md
+  - skill-stats.md
+  - skill-stripe-best-practices.md
+  - skill-stripe-directory.md
+  - skill-stripe-projects.md
+  - skill-subagent-driven-development.md
+  - skill-supabase-postgres-best-practices.md
+  - skill-supabase.md
+  - skill-surface.md
+  - skill-systematic-debugging.md
+  - skill-terraform-search-import.md
+  - skill-terraform-stacks.md
+  - skill-terraform-style-guide.md
+  - skill-terraform-test.md
+  - skill-test-driven-development.md
+  - skill-test-framework-migration-skill.md
+  - skill-testcafe-skill.md
+  - skill-testng-skill.md
+  - skill-testunit-skill.md
+  - skill-text-motion-typography.md
+  - skill-theme-factory.md
+  - skill-thread.md
+  - skill-three-carousel-slider.md
+  - skill-three-cursor-particle-explosion.md
+  - skill-threejs-interactive-backgrounds.md
+  - skill-ticker-banner-designer.md
+  - skill-tilt-3d-team-cards-section.md
+  - skill-tilt-hover-pricing-cards-section.md
+  - skill-tinybird-cli-guidelines.md
+  - skill-tinybird-python-sdk-guidelines.md
+  - skill-tinybird-typescript-sdk-guidelines.md
+  - skill-tinybird.md
+  - skill-tool-design.md
+  - skill-top-down-curtain-menu.md
+  - skill-two-factor-authentication-best-practices.md
+  - skill-ui-auditor.md
+  - skill-ui-checker.md
+  - skill-ui-phase.md
+  - skill-ui-researcher.md
+  - skill-ui-review.md
+  - skill-ui-ux-pro-max.md
+  - skill-ultraplan-phase.md
+  - skill-undo.md
+  - skill-unittest-skill.md
+  - skill-update.md
+  - skill-upgrade-stripe.md
+  - skill-user-profiler.md
+  - skill-using-agent-skills.md
+  - skill-using-git-worktrees.md
+  - skill-using-superpowers.md
+  - skill-validate-phase.md
+  - skill-verification-before-completion.md
+  - skill-verifier.md
+  - skill-verify-work.md
+  - skill-video-hero-section.md
+  - skill-vitest-skill.md
+  - skill-voltagent-best-practices.md
+  - skill-voltagent-core-reference.md
+  - skill-voltagent-docs-bundle.md
+  - skill-web-artifacts-builder.md
+  - skill-web-design-guidelines.md
+  - skill-webapp-testing.md
+  - skill-webdriverio-skill.md
+  - skill-windows-builder.md
+  - skill-workspace.md
+  - skill-workstreams.md
+  - skill-writing-plans.md
+  - skill-writing-skills.md
+  - skill-xcuitest-skill.md
+  - skill-xlsx.md
+  - skill-xunit-skill.md
+  - USER-GUIDE.md
+- package-lock.json
+- package.json
+  - build_references.py
+  - update_skills_index.py
+  - verify_library.py
+    - SKILL.md
+      - README.md
+    - SKILL.md
+      - bias-mitigation.md
+      - evaluation-pipeline.md
+      - implementation-patterns.md
+      - metrics-guide.md
+      - evaluation_example.py
+    - SKILL.md
+      - README.md
+    - SKILL.md
+      - README.md
+    - SKILL.md
+      - README.md
+    - LICENSE.txt
+    - SKILL.md
+      - README.md
+      - generator_template.js
+      - viewer.html
+    - SKILL.md
+      - README.md
+      - angular-animations.md
+      - angular-aria.md
+      - cli.md
+      - component-harnesses.md
+      - component-styling.md
+      - components.md
+      - creating-services.md
+      - data-resolvers.md
+      - define-routes.md
+      - defining-providers.md
+      - di-fundamentals.md
+      - e2e-testing.md
+      - effects.md
+      - environment-configuration.md
+      - hierarchical-injectors.md
+      - host-elements.md
+      - injection-context.md
+      - inputs.md
+      - linked-signal.md
+      - loading-strategies.md
+      - mcp.md
+      - migrations.md
+      - navigate-to-routes.md
+      - outputs.md
+      - reactive-forms.md
+      - rendering-strategies.md
+      - resource.md
+      - route-animations.md
+      - route-guards.md
+      - router-lifecycle.md
+      - router-testing.md
+      - show-routes-with-outlets.md
+      - signal-forms.md
+      - signals-overview.md
+      - tailwind-css.md
+      - template-driven-forms.md
+      - testing-fundamentals.md
+    - SKILL.md
+      - README.md
+    - SKILL.md
+      - index.html
+    - SKILL.md
+      - index.html
+    - SKILL.md
+      - README.md
+    - SKILL.md
+      - cloud-integration.md
+      - hybrid-apps.md
+      - ios-specific.md
+      - javascript-patterns.md
+      - playbook.md
+      - python-patterns.md
+      - README.md
+    - SKILL.md
+      - README.md
+    - SKILL.md
+      - README.md
+    - SKILL.md
+      - README.md
+    - SKILL.md
+      - README.md
+    - SKILL.md
+      - README.md
+    - SKILL.md
+      - README.md
+    - SKILL.md
+      - README.md
+    - SKILL.md
+      - README.md
+    - SKILL.md
+      - system.md
+        - first-time-setup.md
+        - preferences-schema.md
+        - macaron.md
+        - mono-ink.md
+        - neon.md
+        - warm.md
+      - prompt-construction.md
+      - style-presets.md
+      - styles.md
+        - blueprint.md
+        - chalkboard.md
+        - editorial.md
+        - elegant.md
+        - fantasy-animation.md
+        - flat-doodle.md
+        - flat.md
+        - ink-notes.md
+        - intuition-machine.md
+        - minimal.md
+        - nature.md
+        - notion.md
+        - pixel-art.md
+        - playful.md
+        - retro.md
+        - scientific.md
+        - screen-print.md
+        - sketch-notes.md
+        - sketch.md
+        - vector-illustration.md
+        - vintage.md
+        - warm.md
+        - watercolor.md
+      - usage.md
+      - workflow.md
+    - SKILL.md
+      - analysis-framework.md
+        - chalk.md
+        - ink-brush.md
+        - ligne-claire.md
+        - manga.md
+        - minimalist.md
+        - realistic.md
+      - auto-selection.md
+      - base-prompt.md
+      - character-template.md
+        - first-time-setup.md
+        - preferences-schema.md
+        - watermark-guide.md
+        - cinematic.md
+        - dense.md
+        - four-panel.md
+        - mixed.md
+        - splash.md
+        - standard.md
+        - webtoon.md
+      - ohmsha-guide.md
+      - partial-workflows.md
+        - concept-story.md
+        - four-panel.md
+        - ohmsha.md
+        - shoujo.md
+        - wuxia.md
+      - storyboard-template.md
+        - action.md
+        - dramatic.md
+        - energetic.md
+        - neutral.md
+        - romantic.md
+        - vintage.md
+        - warm.md
+      - workflow.md
+      - merge-to-pdf.ts
+    - SKILL.md
+      - README.md
+      - main.ts
+    - SKILL.md
+      - auto-selection.md
+      - base-prompt.md
+      - compatibility.md
+        - first-time-setup.md
+        - preferences-schema.md
+        - watermark-guide.md
+        - font.md
+        - mood.md
+        - text.md
+        - cool.md
+        - dark.md
+        - duotone.md
+        - earth.md
+        - elegant.md
+        - macaron.md
+        - mono.md
+        - pastel.md
+        - retro.md
+        - vivid.md
+        - warm.md
+        - chalk.md
+        - digital.md
+        - flat-vector.md
+        - hand-drawn.md
+        - painterly.md
+        - pixel.md
+        - screen-print.md
+      - style-presets.md
+      - types.md
+      - visual-elements.md
+        - confirm-options.md
+        - prompt-template.md
+        - reference-images.md
+    - SKILL.md
+      - README.md
+      - bun.lock
+        - client.test.ts
+        - client.ts
+          - gem-mixin.ts
+          - index.ts
+        - constants.ts
+        - exceptions.ts
+        - index.ts
+          - candidate.ts
+          - gem.ts
+          - grpc.ts
+          - image.ts
+          - index.ts
+          - modeloutput.ts
+          - cookie-file.ts
+          - decorators.ts
+          - get-access-token.ts
+          - http.ts
+          - index.ts
+          - load-browser-cookies.ts
+          - logger.ts
+          - parsing.ts
+          - paths.ts
+          - rotate-1psidts.ts
+          - upload-file.ts
+      - main.ts
+      - package.json
+    - SKILL.md
+        - first-time-setup.md
+      - bun.lock
+      - constants.ts
+      - cookie-file.ts
+      - cookies.ts
+      - graphql.ts
+      - http.ts
+      - main.ts
+      - markdown.test.ts
+      - markdown.ts
+      - media-localizer.ts
+      - package.json
+      - paths.ts
+      - referenced-tweets.ts
+      - thread-markdown.ts
+      - thread.ts
+      - tweet-article.ts
+      - tweet-to-markdown.ts
+      - types.ts
+    - SKILL.md
+      - architecture.md
+      - flowchart.md
+      - sequence.md
+      - structural.md
+      - main.ts
+    - SKILL.md
+      - title-formulas.md
+      - autocorrect.ts
+      - bun.lock
+      - main.ts
+      - package-lock.json
+      - package.json
+      - quotes.ts
+    - SKILL.md
+        - first-time-setup.md
+        - preferences-schema.md
+        - watermark-guide.md
+      - confirmation.md
+        - canvas.md
+        - decorations.md
+        - image-effects.md
+        - typography.md
+        - macaron.md
+        - neon.md
+        - warm.md
+        - bold.md
+        - chalkboard.md
+        - cute.md
+        - fresh.md
+        - minimal.md
+        - notion.md
+        - pop.md
+        - retro.md
+        - screen-print.md
+        - sketch-notes.md
+        - study-notes.md
+        - warm.md
+      - style-presets.md
+        - analysis-framework.md
+        - outline-template.md
+        - prompt-assembly.md
+    - SKILL.md
+        - first-time-setup.md
+        - preferences-schema.md
+        - dashscope.md
+        - minimax.md
+        - openrouter.md
+        - replicate.md
+        - zai.md
+      - usage-examples.md
+      - build-batch.test.ts
+      - build-batch.ts
+      - main.test.ts
+      - main.ts
+        - azure.test.ts
+        - azure.ts
+        - dashscope.test.ts
+        - dashscope.ts
+        - google.test.ts
+        - google.ts
+        - jimeng.test.ts
+        - jimeng.ts
+        - minimax.test.ts
+        - minimax.ts
+        - openai.test.ts
+        - openai.ts
+        - openrouter.test.ts
+        - openrouter.ts
+        - replicate.test.ts
+        - replicate.ts
+        - seedream.test.ts
+        - seedream.ts
+        - zai.test.ts
+        - zai.ts
+      - types.ts
+    - SKILL.md
+      - analysis-framework.md
+      - base-prompt.md
+        - first-time-setup.md
+        - preferences-schema.md
+        - bento-grid.md
+        - binary-comparison.md
+        - bridge.md
+        - circular-flow.md
+        - comic-strip.md
+        - comparison-matrix.md
+        - dashboard.md
+        - dense-modules.md
+        - funnel.md
+        - hierarchical-layers.md
+        - hub-spoke.md
+        - iceberg.md
+        - isometric-map.md
+        - jigsaw.md
+        - linear-progression.md
+        - periodic-table.md
+        - story-mountain.md
+        - structural-breakdown.md
+        - tree-branching.md
+        - venn-diagram.md
+        - winding-roadmap.md
+      - structured-content-template.md
+        - aged-academia.md
+        - bold-graphic.md
+        - chalkboard.md
+        - claymation.md
+        - corporate-memphis.md
+        - craft-handmade.md
+        - cyberpunk-neon.md
+        - hand-drawn-edu.md
+        - ikea-manual.md
+        - kawaii.md
+        - knolling.md
+        - lego-brick.md
+        - morandi-journal.md
+        - origami.md
+        - pixel-art.md
+        - pop-laboratory.md
+        - retro-pop-grid.md
+        - retro-popup-pop.md
+        - storybook-watercolor.md
+        - subway-map.md
+        - technical-schematic.md
+        - ui-wireframe.md
+    - SKILL.md
+      - README.md
+      - bun.lock
+      - main.test.ts
+      - main.ts
+      - package.json
+    - SKILL.md
+      - api-setup.md
+      - article-posting.md
+        - first-time-setup.md
+      - image-text-posting.md
+      - multi-account.md
+      - bun.lock
+      - cdp.ts
+      - check-permissions.ts
+      - copy-to-clipboard-mac.test.ts
+      - copy-to-clipboard.ts
+      - md-to-wechat.ts
+      - package.json
+      - paste-from-clipboard.ts
+      - wechat-agent-browser.ts
+      - wechat-api.ts
+      - wechat-article-focus.test.ts
+      - wechat-article.ts
+      - wechat-browser.ts
+      - wechat-extend-config.test.ts
+      - wechat-extend-config.ts
+      - wechat-image-processor.ts
+    - SKILL.md
+      - README.md
+      - bun.lock
+      - copy-to-clipboard.ts
+      - md-to-html.ts
+      - package.json
+      - paste-from-clipboard.ts
+      - weibo-article.ts
+      - weibo-post.ts
+      - weibo-utils.ts
+    - SKILL.md
+      - articles.md
+      - regular-posts.md
+      - bun.lock
+      - check-paste-permissions.ts
+      - copy-to-clipboard.ts
+      - md-to-html.ts
+      - package.json
+      - paste-from-clipboard.ts
+      - x-article.ts
+      - x-browser.ts
+      - x-quote.ts
+      - x-utils.test.ts
+      - x-utils.ts
+      - x-video.ts
+    - SKILL.md
+      - analysis-framework.md
+      - base-prompt.md
+        - preferences-schema.md
+      - confirmation.md
+      - content-rules.md
+      - design-guidelines.md
+        - density.md
+        - mood.md
+        - presets.md
+        - texture.md
+        - typography.md
+      - layouts.md
+      - modification-guide.md
+      - outline-template.md
+        - blueprint.md
+        - bold-editorial.md
+        - chalkboard.md
+        - corporate.md
+        - dark-atmospheric.md
+        - editorial-infographic.md
+        - fantasy-animation.md
+        - hand-drawn-edu.md
+        - intuition-machine.md
+        - minimal.md
+        - notion.md
+        - pixel-art.md
+        - scientific.md
+        - sketch-notes.md
+        - vector-illustration.md
+        - vintage.md
+        - watercolor.md
+      - merge-to-pdf.ts
+      - merge-to-pptx.ts
+    - SKILL.md
+        - extend-schema.md
+        - first-time-setup.md
+      - glossary-en-zh.md
+      - refined-workflow.md
+      - subagent-prompt-template.md
+      - workflow-mechanics.md
+      - bun.lock
+      - chunk.ts
+      - main.ts
+      - package.json
+    - SKILL.md
+      - adapters.md
+        - first-time-setup.md
+      - quality-gate.md
+      - baoyu-fetch
+      - bun.lock
+            - index.ts
+            - index.ts
+          - index.ts
+          - types.ts
+            - article.ts
+            - index.ts
+            - login.ts
+            - match.ts
+            - payloads.ts
+            - session.ts
+            - shared.ts
+            - single.ts
+            - thread-loader.ts
+            - thread.ts
+            - types.ts
+            - index.ts
+            - transcript.ts
+            - utils.ts
+          - cdp-client.ts
+          - chrome-launcher.ts
+          - cookie-sidecar.ts
+          - interaction-gates.ts
+          - network-journal.ts
+          - page-snapshot.ts
+          - profile.ts
+          - session.ts
+        - cli.ts
+          - convert.ts
+          - document.ts
+          - html-cleaner.ts
+          - html-extractor.ts
+          - html-to-markdown.ts
+          - markdown-renderer.ts
+          - default-downloader.ts
+          - markdown-media.ts
+          - media-utils.ts
+          - types.ts
+          - defuddle-node.d.ts
+          - shims.d.ts
+          - logger.ts
+          - url.ts
+      - package.json
+    - SKILL.md
+        - first-time-setup.md
+        - preferences-schema.md
+        - watermark-guide.md
+      - confirmation.md
+        - canvas.md
+        - decorations.md
+        - image-effects.md
+        - typography.md
+        - macaron.md
+        - neon.md
+        - warm.md
+        - bold.md
+        - chalkboard.md
+        - cute.md
+        - fresh.md
+        - minimal.md
+        - notion.md
+        - pop.md
+        - retro.md
+        - screen-print.md
+        - sketch-notes.md
+        - study-notes.md
+        - warm.md
+      - style-presets.md
+        - analysis-framework.md
+        - outline-template.md
+        - prompt-assembly.md
+    - SKILL.md
+      - speaker-transcript.md
+      - README.md
+      - main.test.ts
+      - main.ts
+      - shared.ts
+      - storage.ts
+      - transcript.ts
+      - types.ts
+      - youtube.ts
+    - SKILL.md
+      - bdi-ontology-core.md
+      - framework-integration.md
+      - rdf-examples.md
+      - sparql-competency.md
+    - SKILL.md
+      - advanced-patterns.md
+      - playbook.md
+      - README.md
+    - SKILL.md
+      - advanced-patterns.md
+      - playbook.md
+      - README.md
+    - SKILL.md
+      - README.md
+      - SKILL.md
+      - SKILL.md
+      - SKILL.md
+      - SKILL.md
+      - SKILL.md
+      - SKILL.md
+      - SKILL.md
+      - SKILL.md
+      - SKILL.md
+      - SKILL.md
+      - SKILL.md
+      - SKILL.md
+      - SKILL.md
+      - SKILL.md
+      - SKILL.md
+      - SKILL.md
+      - SKILL.md
+      - SKILL.md
+      - SKILL.md
+      - SKILL.md
+      - SKILL.md
+      - SKILL.md
+    - SKILL.md
+      - README.md
+      - frame-template.html
+      - helper.js
+      - index.js
+      - package-lock.json
+      - package.json
+      - server.cjs
+      - server.js
+      - start-server.sh
+      - stop-server.sh
+    - spec-document-reviewer-prompt.md
+    - visual-companion.md
+    - LICENSE.txt
+    - SKILL.md
+      - README.md
+    - SKILL.md
+      - README.md
+    - SKILL.md
+      - README.md
+    - SKILL.md
+      - index.html
+    - LICENSE.txt
+    - SKILL.md
+      - ArsenalSC-OFL.txt
+      - ArsenalSC-Regular.ttf
+      - BigShoulders-Bold.ttf
+      - BigShoulders-OFL.txt
+      - BigShoulders-Regular.ttf
+      - Boldonse-OFL.txt
+      - Boldonse-Regular.ttf
+      - BricolageGrotesque-Bold.ttf
+      - BricolageGrotesque-OFL.txt
+      - BricolageGrotesque-Regular.ttf
+      - CrimsonPro-Bold.ttf
+      - CrimsonPro-Italic.ttf
+      - CrimsonPro-OFL.txt
+      - CrimsonPro-Regular.ttf
+      - DMMono-OFL.txt
+      - DMMono-Regular.ttf
+      - EricaOne-OFL.txt
+      - EricaOne-Regular.ttf
+      - GeistMono-Bold.ttf
+      - GeistMono-OFL.txt
+      - GeistMono-Regular.ttf
+      - Gloock-OFL.txt
+      - Gloock-Regular.ttf
+      - IBMPlexMono-Bold.ttf
+      - IBMPlexMono-OFL.txt
+      - IBMPlexMono-Regular.ttf
+      - IBMPlexSerif-Bold.ttf
+      - IBMPlexSerif-BoldItalic.ttf
+      - IBMPlexSerif-Italic.ttf
+      - IBMPlexSerif-Regular.ttf
+      - InstrumentSans-Bold.ttf
+      - InstrumentSans-BoldItalic.ttf
+      - InstrumentSans-Italic.ttf
+      - InstrumentSans-OFL.txt
+      - InstrumentSans-Regular.ttf
+      - InstrumentSerif-Italic.ttf
+      - InstrumentSerif-Regular.ttf
+      - Italiana-OFL.txt
+      - Italiana-Regular.ttf
+      - JetBrainsMono-Bold.ttf
+      - JetBrainsMono-OFL.txt
+      - JetBrainsMono-Regular.ttf
+      - Jura-Light.ttf
+      - Jura-Medium.ttf
+      - Jura-OFL.txt
+      - LibreBaskerville-OFL.txt
+      - LibreBaskerville-Regular.ttf
+      - Lora-Bold.ttf
+      - Lora-BoldItalic.ttf
+      - Lora-Italic.ttf
+      - Lora-OFL.txt
+      - Lora-Regular.ttf
+      - NationalPark-Bold.ttf
+      - NationalPark-OFL.txt
+      - NationalPark-Regular.ttf
+      - NothingYouCouldDo-OFL.txt
+      - NothingYouCouldDo-Regular.ttf
+      - Outfit-Bold.ttf
+      - Outfit-OFL.txt
+      - Outfit-Regular.ttf
+      - PixelifySans-Medium.ttf
+      - PixelifySans-OFL.txt
+      - PoiretOne-OFL.txt
+      - PoiretOne-Regular.ttf
+      - RedHatMono-Bold.ttf
+      - RedHatMono-OFL.txt
+      - RedHatMono-Regular.ttf
+      - Silkscreen-OFL.txt
+      - Silkscreen-Regular.ttf
+      - SmoochSans-Medium.ttf
+      - SmoochSans-OFL.txt
+      - Tektur-Medium.ttf
+      - Tektur-OFL.txt
+      - Tektur-Regular.ttf
+      - WorkSans-Bold.ttf
+      - WorkSans-BoldItalic.ttf
+      - WorkSans-Italic.ttf
+      - WorkSans-OFL.txt
+      - WorkSans-Regular.ttf
+      - YoungSerif-OFL.txt
+      - YoungSerif-Regular.ttf
+      - README.md
+    - SKILL.md
+      - README.md
+    - SKILL.md
+      - advanced-patterns.md
+      - cloud-integration.md
+      - playbook.md
+      - README.md
+    - README.md
+    - SKILL.md
+      - examples.md
+    - metadata.json
+      - README.md
+      - api-reference.md
+      - connectors.md
+      - verify_install.py
+    - README.md
+    - SKILL.md
+      - examples.md
+    - metadata.json
+      - README.md
+      - api-reference.md
+      - sql-functions.md
+      - table-functions.md
+      - verify_install.py
+    - SKILL.md
+      - README.md
+    - SKILL.md
+      - playbook.md
+      - README.md
+    - SKILL.md
+      - index.html
+    - SKILL.md
+      - README.md
+    - LICENSE.txt
+    - SKILL.md
+      - claude-api.md
+      - examples.md
+      - managed-agents.md
+      - claude-api.md
+        - README.md
+      - claude-api.md
+        - README.md
+      - claude-api.md
+        - README.md
+        - README.md
+        - patterns.md
+        - README.md
+        - batches.md
+        - files-api.md
+        - streaming.md
+        - tool-use.md
+        - README.md
+      - README.md
+      - claude-api.md
+        - README.md
+      - agent-design.md
+      - error-codes.md
+      - live-sources.md
+      - managed-agents-api-reference.md
+      - managed-agents-client-patterns.md
+      - managed-agents-core.md
+      - managed-agents-environments.md
+      - managed-agents-events.md
+      - managed-agents-memory.md
+      - managed-agents-multiagent.md
+      - managed-agents-onboarding.md
+      - managed-agents-outcomes.md
+      - managed-agents-overview.md
+      - managed-agents-self-hosted-sandboxes.md
+      - managed-agents-tools.md
+      - managed-agents-webhooks.md
+      - model-migration.md
+      - models.md
+      - prompt-caching.md
+      - tool-use-concepts.md
+        - README.md
+        - patterns.md
+        - README.md
+        - batches.md
+        - files-api.md
+        - streaming.md
+        - tool-use.md
+        - README.md
+    - SKILL.md
+      - README.md
+    - AGENTS.md
+    - README.md
+    - SKILL.md
+      - README.md
+      - finserv-market-surveillance.md
+      - observability-high-throughput.md
+      - siem-security-analytics.md
+      - doc_links.yaml
+    - metadata.json
+      - README.md
+      - decision-ingestion-strategy.md
+      - decision-join-enrichment.md
+      - decision-late-arriving-upserts.md
+      - decision-partitioning-timeseries.md
+      - decision-real-time-preaggregation.md
+      - recommendation_schema.yaml
+    - AGENTS.md
+    - README.md
+    - SKILL.md
+    - metadata.json
+      - README.md
+      - _sections.md
+      - _template.md
+      - agent-connect-mcp.md
+      - agent-discovery-schema.md
+      - agent-query-safety.md
+      - insert-async-small-batches.md
+      - insert-batch-size.md
+      - insert-format-native.md
+      - insert-mutation-avoid-delete.md
+      - insert-mutation-avoid-update.md
+      - insert-optimize-avoid-final.md
+      - query-index-skipping-indices.md
+      - query-join-choose-algorithm.md
+      - query-join-consider-alternatives.md
+      - query-join-filter-before.md
+      - query-join-null-handling.md
+      - query-join-use-any.md
+      - query-mv-incremental.md
+      - query-mv-refreshable.md
+      - schema-json-when-to-use.md
+      - schema-partition-lifecycle.md
+      - schema-partition-low-cardinality.md
+      - schema-partition-query-tradeoffs.md
+      - schema-partition-start-without.md
+      - schema-pk-cardinality-order.md
+      - schema-pk-filter-on-orderby.md
+      - schema-pk-plan-before-creation.md
+      - schema-pk-prioritize-filters.md
+      - schema-types-avoid-nullable.md
+      - schema-types-enum.md
+      - schema-types-lowcardinality.md
+      - schema-types-minimize-bitwidth.md
+      - schema-types-native-types.md
+    - SKILL.md
+      - async-insert.md
+      - client-configuration.md
+      - compression.md
+      - custom-json.md
+      - data-types.md
+      - insert-columns.md
+      - insert-formats.md
+      - insert-values.md
+      - ping.md
+      - query-parameters.md
+      - select-formats.md
+      - sessions.md
+      - README.md
+    - AGENTS.md
+    - CHANGELOG.md
+    - EXAMPLES.md
+    - README.md
+    - SKILL.md
+      - iot-rowbinary-vs-json.md
+      - ledger-rowbinary-vs-json.md
+      - logs-json-wins.md
+      - wasm-vs-js.md
+    - eval_result.md
+    - eval_result_composer.md
+    - eval_result_haiku.md
+    - eval_result_sonnet.md
+    - package-lock.json
+    - package.json
+    - reader.md
+      - README.md
+        - carts.ts
+        - events.ts
+        - iot.ts
+        - ledger.ts
+        - logs.ts
+        - observability.ts
+        - orders.ts
+        - profiles.ts
+        - telemetry.ts
+        - aggregateFunction.ts
+        - bool.ts
+        - columnar.ts
+        - compile.ts
+        - composite.ts
+        - core.ts
+        - datetime.ts
+        - decimals.ts
+        - dynamic.ts
+        - enums.ts
+        - floats.ts
+        - geo.ts
+        - header.ts
+        - integers.ts
+        - interval.ts
+        - ip.ts
+        - json.ts
+        - lowCardinality.ts
+        - nested.ts
+        - nothing.ts
+        - reader.ts
+        - rowBinaryWithNamesAndTypes.ts
+        - rows.ts
+        - simpleAggregateFunction.ts
+        - stream.ts
+        - strings.ts
+        - time.ts
+        - uuid.ts
+        - varint.ts
+        - aggregateFunction.ts
+        - bool.ts
+        - composite.ts
+        - core.ts
+        - datetime.ts
+        - decimals.ts
+        - enums.ts
+        - floats.ts
+        - geo.ts
+        - integers.ts
+        - interval.ts
+        - ip.ts
+        - lowCardinality.ts
+        - nested.ts
+        - nothing.ts
+        - rows.ts
+        - simpleAggregateFunction.ts
+        - strings.ts
+        - time.ts
+        - uuid.ts
+        - varint.ts
+        - writer.ts
+      - AggregateFunction.write.test.ts
+      - Array.test.ts
+      - BFloat16.test.ts
+      - Bool.test.ts
+      - BoolEnumFloat.write.test.ts
+      - Composite.write.test.ts
+      - Date.test.ts
+      - Date32.test.ts
+      - DateTime.test.ts
+      - DateTime.write.test.ts
+      - DateTime64.test.ts
+      - DateTime64P3.test.ts
+      - DateTime64P6.test.ts
+      - DateTime64P9.test.ts
+      - Decimal.write.test.ts
+      - Decimal128.test.ts
+      - Decimal256.test.ts
+      - Decimal32.test.ts
+      - Decimal64.test.ts
+      - Dynamic.test.ts
+      - Enum16.test.ts
+      - Enum8.test.ts
+      - FixedString.test.ts
+      - FixedStringBytes.test.ts
+      - Float32.test.ts
+      - Float64.test.ts
+      - Geo.write.test.ts
+      - Geometry.test.ts
+      - IP.write.test.ts
+      - IPv4.test.ts
+      - IPv6.test.ts
+      - Int128.test.ts
+      - Int16.test.ts
+      - Int256.test.ts
+      - Int32.test.ts
+      - Int64.test.ts
+      - Int8.test.ts
+      - Integers.write.test.ts
+      - Interval.test.ts
+      - JSON.test.ts
+      - LineString.test.ts
+      - Map.test.ts
+      - MultiLineString.test.ts
+      - MultiPolygon.test.ts
+      - Nothing.write.test.ts
+      - Nullable.test.ts
+      - Point.test.ts
+      - Polygon.test.ts
+      - Ring.test.ts
+      - Rows.write.test.ts
+      - String.test.ts
+      - String.write.test.ts
+      - Time.test.ts
+      - Time64.test.ts
+      - TimeInterval.write.test.ts
+      - Tuple.test.ts
+      - TupleNamed.test.ts
+      - UInt128.test.ts
+      - UInt16.test.ts
+      - UInt256.test.ts
+      - UInt32.test.ts
+      - UInt64.test.ts
+      - UInt8.test.ts
+      - UUID.test.ts
+      - UUID.write.test.ts
+      - UUIDBigInt.test.ts
+      - UUIDHiLo.test.ts
+      - UVarint.test.ts
+      - UVarint.write.test.ts
+      - Variant.test.ts
+      - advance.test.ts
+      - aggregateFunction.test.ts
+      - carts.bench.ts
+      - carts.example.test.ts
+      - clickhouse.ts
+      - coalesceChunks.test.ts
+      - columnar.test.ts
+      - combinations.generated.test.ts
+      - compile.test.ts
+      - encode.ts
+      - events.bench.ts
+      - events.example.test.ts
+      - framing-interleaved.test.ts
+      - framing-nested.test.ts
+      - framing.test.ts
+      - iot.bench.ts
+      - iot.columnar.bench.ts
+      - iot.wasm-headroom.bench.ts
+      - ledger.bench.ts
+      - logs.bench.ts
+      - lowCardinality.test.ts
+      - nested.test.ts
+      - nothing.test.ts
+      - observability.bench.ts
+      - observability.example.test.ts
+      - orders.bench.ts
+      - orders.example.test.ts
+      - parseIP.bench.ts
+      - profiles.bench.ts
+      - profiles.example.test.ts
+      - qbit.test.ts
+      - readHeader.test.ts
+      - readUUID.bench.ts
+      - rowBinaryWithNamesAndTypes.order.test.ts
+      - rowBinaryWithNamesAndTypes.test.ts
+      - rows.test.ts
+      - simpleAggregateFunction.test.ts
+      - streamRowBatches.test.ts
+      - streamingRow.bench.ts
+      - telemetry.bench.ts
+      - telemetry.example.test.ts
+      - wasm-int128.experiment.mjs
+    - tsconfig.build.json
+    - tsconfig.json
+    - vitest.config.ts
+    - writer.md
+    - SKILL.md
+      - compression.md
+      - data-types.md
+      - logging.md
+      - proxy-pathname.md
+      - query-format-clause.md
+      - query-params.md
+      - readonly-users.md
+      - socket-hangup.md
+      - tls.md
+      - README.md
+    - AGENTS.md
+    - README.md
+    - SKILL.md
+    - metadata.json
+      - README.md
+      - heuristic-full-scan.md
+      - heuristic-hot-loop.md
+      - heuristic-write-congestion.md
+      - openapi-discovery.md
+      - output-template.md
+      - prometheus-scrape.md
+      - recommend-only.md
+      - slow-query-patterns-fields.md
+      - triage.md
+    - SKILL.md
+    - metadata.json
+      - README.md
+    - SKILL.md
+    - metadata.json
+      - README.md
+    - SKILL.md
+      - browse-the-web.md
+      - callable.md
+      - client-sdk.md
+      - codemode.md
+      - configuration.md
+      - durable-execution.md
+      - email.md
+      - human-in-the-loop.md
+      - mcp.md
+      - observability.md
+      - queue-retries.md
+      - routing.md
+      - server-driven-messages.md
+      - state-scheduling.md
+      - streaming-chat.md
+      - think.md
+      - voice.md
+      - webhooks-push.md
+      - workflows.md
+    - SKILL.md
+      - cli-and-mcp.md
+      - deliverability.md
+      - rest-api.md
+      - routing.md
+      - sending.md
+    - SKILL.md
+    - SKILL.md
+    - SKILL.md
+        - README.md
+        - api.md
+        - configuration.md
+        - gotchas.md
+        - patterns.md
+        - README.md
+        - configuration.md
+        - dynamic-routing.md
+        - features.md
+        - sdk-integration.md
+        - troubleshooting.md
+        - README.md
+        - api.md
+        - configuration.md
+        - gotchas.md
+        - patterns.md
+        - README.md
+        - api.md
+        - configuration.md
+        - gotchas.md
+        - patterns.md
+        - README.md
+        - api.md
+        - configuration.md
+        - gotchas.md
+        - patterns.md
+        - README.md
+        - api.md
+        - configuration.md
+        - gotchas.md
+        - patterns.md
+        - README.md
+        - api.md
+        - configuration.md
+        - gotchas.md
+        - patterns.md
+        - README.md
+        - api.md
+        - configuration.md
+        - README.md
+        - api.md
+        - configuration.md
+        - gotchas.md
+        - patterns.md
+        - README.md
+        - api.md
+        - configuration.md
+        - gotchas.md
+        - patterns.md
+        - README.md
+        - api.md
+        - configuration.md
+        - gotchas.md
+        - patterns.md
+        - README.md
+        - api.md
+        - configuration.md
+        - gotchas.md
+        - patterns.md
+        - README.md
+        - api.md
+        - configuration.md
+        - gotchas.md
+        - patterns.md
+        - README.md
+        - api.md
+        - configuration.md
+        - gotchas.md
+        - patterns.md
+        - README.md
+        - api.md
+        - configuration.md
+        - gotchas.md
+        - patterns.md
+        - README.md
+        - api.md
+        - configuration.md
+        - gotchas.md
+        - patterns.md
+        - README.md
+        - api.md
+        - configuration.md
+        - gotchas.md
+        - patterns.md
+        - README.md
+        - api.md
+        - configuration.md
+        - gotchas.md
+        - patterns.md
+        - testing.md
+        - README.md
+        - api.md
+        - configuration.md
+        - gotchas.md
+        - patterns.md
+        - README.md
+        - api.md
+        - configuration.md
+        - gotchas.md
+        - patterns.md
+        - README.md
+        - api.md
+        - configuration.md
+        - gotchas.md
+        - patterns.md
+        - README.md
+        - api.md
+        - configuration.md
+        - gotchas.md
+        - patterns.md
+        - README.md
+        - api.md
+        - configuration.md
+        - gotchas.md
+        - patterns.md
+        - README.md
+        - api.md
+        - configuration.md
+        - gotchas.md
+        - patterns.md
+        - README.md
+        - api.md
+        - configuration.md
+        - gotchas.md
+        - patterns.md
+        - README.md
+        - api.md
+        - configuration.md
+        - gotchas.md
+        - patterns.md
+        - README.md
+        - api.md
+        - configuration.md
+        - gotchas.md
+        - patterns.md
+        - README.md
+        - api.md
+        - configuration.md
+        - gotchas.md
+        - patterns.md
+        - README.md
+        - api.md
+        - configuration.md
+        - gotchas.md
+        - patterns.md
+        - README.md
+        - api.md
+        - configuration.md
+        - gotchas.md
+        - patterns.md
+        - README.md
+        - api.md
+        - configuration.md
+        - gotchas.md
+        - patterns.md
+        - README.md
+        - api.md
+        - configuration.md
+        - gotchas.md
+        - patterns.md
+        - README.md
+        - api.md
+        - configuration.md
+        - gotchas.md
+        - patterns.md
+        - README.md
+        - api.md
+        - configuration.md
+        - gotchas.md
+        - patterns.md
+        - README.md
+        - api.md
+        - configuration.md
+        - gotchas.md
+        - patterns.md
+        - README.md
+        - api.md
+        - configuration.md
+        - gotchas.md
+        - patterns.md
+        - README.md
+        - api.md
+        - configuration.md
+        - gotchas.md
+        - patterns.md
+        - README.md
+        - api.md
+        - configuration.md
+        - gotchas.md
+        - patterns.md
+        - README.md
+        - api.md
+        - configuration.md
+        - gotchas.md
+        - patterns.md
+        - README.md
+        - api.md
+        - configuration.md
+        - gotchas.md
+        - patterns.md
+        - README.md
+        - api.md
+        - configuration.md
+        - gotchas.md
+        - patterns.md
+        - README.md
+        - api.md
+        - configuration.md
+        - gotchas.md
+        - patterns.md
+        - README.md
+        - api.md
+        - configuration.md
+        - gotchas.md
+        - patterns.md
+        - README.md
+        - api.md
+        - configuration.md
+        - gotchas.md
+        - patterns.md
+        - README.md
+        - api.md
+        - configuration.md
+        - gotchas.md
+        - patterns.md
+        - README.md
+        - api-live.md
+        - api.md
+        - configuration.md
+        - gotchas.md
+        - patterns.md
+        - README.md
+        - api.md
+        - configuration.md
+        - gotchas.md
+        - patterns.md
+        - README.md
+        - api.md
+        - configuration.md
+        - gotchas.md
+        - patterns.md
+        - README.md
+        - api.md
+        - configuration.md
+        - gotchas.md
+        - networking.md
+        - patterns.md
+        - README.md
+        - api.md
+        - configuration.md
+        - gotchas.md
+        - patterns.md
+        - README.md
+        - api.md
+        - configuration.md
+        - gotchas.md
+        - patterns.md
+        - README.md
+        - api.md
+        - configuration.md
+        - gotchas.md
+        - patterns.md
+        - README.md
+        - api.md
+        - configuration.md
+        - gotchas.md
+        - patterns.md
+        - README.md
+        - configuration.md
+        - gotchas.md
+        - integration.md
+        - patterns.md
+        - README.md
+        - api.md
+        - configuration.md
+        - gotchas.md
+        - patterns.md
+        - README.md
+        - api.md
+        - configuration.md
+        - gotchas.md
+        - patterns.md
+        - README.md
+        - api.md
+        - configuration.md
+        - gotchas.md
+        - patterns.md
+        - README.md
+        - api.md
+        - configuration.md
+        - gotchas.md
+        - patterns.md
+        - README.md
+        - api.md
+        - configuration.md
+        - gotchas.md
+        - patterns.md
+        - README.md
+        - api.md
+        - configuration.md
+        - frameworks.md
+        - gotchas.md
+        - patterns.md
+        - README.md
+        - api.md
+        - configuration.md
+        - gotchas.md
+        - patterns.md
+        - README.md
+        - api.md
+        - configuration.md
+        - gotchas.md
+        - patterns.md
+        - IMPLEMENTATION_SUMMARY.md
+        - README.md
+        - api.md
+        - configuration.md
+        - gotchas.md
+        - patterns.md
+    - SKILL.md
+      - rules.md
+      - testing.md
+      - workers.md
+    - SKILL.md
+      - api-quick-ref.md
+      - examples.md
+    - README.md
+    - SKILL.md
+      - astro.md
+      - hugo.md
+      - nextjs-app.md
+      - nextjs-pages.md
+      - sveltekit.md
+      - vanilla-html.md
+      - auth-probe.sh
+      - fetch-secret.sh
+      - persist-skill.sh
+      - validate.sh
+      - widget-create.sh
+      - worker-deploy.sh
+        - LICENSE
+        - README.md
+        - package.json
+          - post-deploy.html
+          - errors.ts
+          - index.ts
+          - observability.ts
+          - types.ts
+          - validate.ts
+          - deploy.test.ts
+          - integration.test.ts
+          - unit.test.ts
+          - validation.test.ts
+        - tsconfig.json
+        - vitest.config.ts
+        - wrangler.toml
+      - validation.md
+    - SKILL.md
+    - SKILL.md
+      - review.md
+      - rules.md
+    - SKILL.md
+    - SKILL.md
+      - README.md
+    - SKILL.md
+      - README.md
+    - SKILL.md
+      - README.md
+    - SKILL.md
+      - README.md
+    - SKILL.md
+      - README.md
+    - SKILL.md
+      - README.md
+    - SKILL.md
+      - advanced-patterns.md
+      - cloud-integration.md
+      - playbook.md
+      - README.md
+    - SKILL.md
+      - README.md
+    - SKILL.md
+      - README.md
+    - AGENTS.md
+    - SKILL.md
+      - README.md
+      - _template.md
+      - app-auth-configs.md
+      - app-auth-popup-ui.md
+      - app-connected-accounts.md
+      - app-custom-tools.md
+      - app-execute-tools.md
+      - app-fetch-tools.md
+      - app-modifiers.md
+      - app-tool-versions.md
+      - app-toolkits.md
+      - app-user-context.md
+      - building-with-composio.md
+      - composio-cli.md
+      - setup-api-keys.md
+      - tr-auth-auto.md
+      - tr-auth-connections.md
+      - tr-auth-manual.md
+      - tr-building-chat-ui.md
+      - tr-framework-ai-sdk.md
+      - tr-framework-integration.md
+      - tr-framework-mastra.md
+      - tr-mcp-vs-native.md
+      - tr-session-basic.md
+      - tr-session-config.md
+      - tr-session-lifecycle.md
+      - tr-toolkit-query.md
+      - tr-userid-best-practices.md
+      - triggers-create.md
+      - triggers-manage.md
+      - triggers-subscribe.md
+      - triggers-webhook.md
+    - AGENTS.md
+    - README.md
+    - SKILL.md
+    - metadata.json
+      - README.md
+      - _sections.md
+      - _template.md
+      - architecture-avoid-boolean-props.md
+      - architecture-compound-components.md
+      - patterns-children-over-render-props.md
+      - patterns-explicit-variants.md
+      - react19-no-forwardref.md
+      - state-context-interface.md
+      - state-decouple-implementation.md
+      - state-lift-state.md
+    - SKILL.md
+      - README.md
+    - SKILL.md
+      - company-researcher.md
+      - README.md
+      - account-types.md
+      - charge-patterns.md
+      - compatibility-matrix.md
+      - decision-matrix.md
+      - discovery-questions.md
+      - recommendation-template.md
+      - terminology-rules.md
+    - SKILL.md
+      - README.md
+      - cms-integration.md
+      - common-pitfalls.md
+      - experiment-design.md
+      - statistical-foundations.md
+    - SKILL.md
+      - README.md
+      - content-reuse.md
+      - reference-vs-embedding.md
+      - separation-of-concerns.md
+      - taxonomy-classification.md
+    - SKILL.md
+      - evaluation-framework.md
+      - compression_evaluator.py
+      - test_compression_evaluator.py
+    - SKILL.md
+      - patterns.md
+      - degradation_detector.py
+    - SKILL.md
+      - README.md
+    - SKILL.md
+      - context-components.md
+      - context_manager.py
+    - SKILL.md
+      - optimization_techniques.md
+      - compaction.py
+    - LICENSE
+    - README.md
+    - SKILL.md
+      - README.md
+        - email.md
+        - inbox-v7-legacy.md
+        - inbox.md
+        - ms-teams.md
+        - push.md
+        - slack.md
+        - sms.md
+        - whatsapp.md
+        - adoption.md
+        - campaigns.md
+        - engagement.md
+        - index.md
+        - onboarding.md
+        - reengagement.md
+        - referral.md
+        - batching.md
+        - catalog.md
+        - cli.md
+        - elemental.md
+        - journeys.md
+        - mcp.md
+        - migrate-from-knock.md
+        - migrate-from-novu.md
+        - migrate-general.md
+        - multi-channel.md
+        - patterns.md
+        - preferences.md
+        - providers.md
+        - quickstart.md
+        - reliability.md
+        - routing-strategies.md
+        - templates.md
+        - throttling.md
+        - account.md
+        - appointments.md
+        - authentication.md
+        - billing.md
+        - index.md
+        - orders.md
+    - SKILL.md
+      - README.md
+    - SKILL.md
+      - README.md
+    - SKILL.md
+      - README.md
+    - SKILL.md
+      - advanced-patterns.md
+      - playbook.md
+      - README.md
+    - SKILL.md
+      - index.html
+    - SKILL.md
+      - IMPLEMENTATION.md
+    - SKILL.md
+      - cloud-integration.md
+      - component-testing.md
+      - custom-commands.md
+      - debugging-flaky.md
+      - playbook.md
+      - README.md
+      - scaffold-project.sh
+      - cypress.config.js
+    - SKILL.md
+      - README.md
+    - SKILL.md
+      - README.md
+    - SKILL.md
+      - README.md
+    - SKILL.md
+      - README.md
+    - SKILL.md
+      - deep_scan.py
+    - SKILL.md
+      - README.md
+    - SKILL.md
+      - README.md
+    - SKILL.md
+      - advanced-patterns.md
+      - playbook.md
+      - README.md
+    - SKILL.md
+      - README.md
+    - SKILL.md
+      - README.md
+    - SKILL.md
+      - README.md
+    - SKILL.md
+      - README.md
+    - SKILL.md
+      - README.md
+    - SKILL.md
+      - README.md
+    - SKILL.md
+      - README.md
+    - SKILL.md
+      - README.md
+    - SKILL.md
+      - README.md
+    - LICENSE.txt
+    - SKILL.md
+    - docx-js.md
+    - ooxml.md
+          - dml-chart.xsd
+          - dml-chartDrawing.xsd
+          - dml-diagram.xsd
+          - dml-lockedCanvas.xsd
+          - dml-main.xsd
+          - dml-picture.xsd
+          - dml-spreadsheetDrawing.xsd
+          - dml-wordprocessingDrawing.xsd
+          - pml.xsd
+          - shared-additionalCharacteristics.xsd
+          - shared-bibliography.xsd
+          - shared-commonSimpleTypes.xsd
+          - shared-customXmlDataProperties.xsd
+          - shared-customXmlSchemaProperties.xsd
+          - shared-documentPropertiesCustom.xsd
+          - shared-documentPropertiesExtended.xsd
+          - shared-documentPropertiesVariantTypes.xsd
+          - shared-math.xsd
+          - shared-relationshipReference.xsd
+          - sml.xsd
+          - vml-main.xsd
+          - vml-officeDrawing.xsd
+          - vml-presentationDrawing.xsd
+          - vml-spreadsheetDrawing.xsd
+          - vml-wordprocessingDrawing.xsd
+          - wml.xsd
+          - xml.xsd
+            - opc-contentTypes.xsd
+            - opc-coreProperties.xsd
+            - opc-digSig.xsd
+            - opc-relationships.xsd
+          - mc.xsd
+          - wml-2010.xsd
+          - wml-2012.xsd
+          - wml-2018.xsd
+          - wml-cex-2018.xsd
+          - wml-cid-2016.xsd
+          - wml-sdtdatahash-2020.xsd
+          - wml-symex-2015.xsd
+        - pack.py
+        - unpack.py
+        - validate.py
+          - __init__.py
+          - base.py
+          - docx.py
+          - pptx.py
+          - redlining.py
+      - README.md
+      - __init__.py
+      - accept_changes.py
+      - comment.py
+      - document.py
+          - __init__.py
+          - merge_runs.py
+          - simplify_redlines.py
+        - pack.py
+            - dml-chart.xsd
+            - dml-chartDrawing.xsd
+            - dml-diagram.xsd
+            - dml-lockedCanvas.xsd
+            - dml-main.xsd
+            - dml-picture.xsd
+            - dml-spreadsheetDrawing.xsd
+            - dml-wordprocessingDrawing.xsd
+            - pml.xsd
+            - shared-additionalCharacteristics.xsd
+            - shared-bibliography.xsd
+            - shared-commonSimpleTypes.xsd
+            - shared-customXmlDataProperties.xsd
+            - shared-customXmlSchemaProperties.xsd
+            - shared-documentPropertiesCustom.xsd
+            - shared-documentPropertiesExtended.xsd
+            - shared-documentPropertiesVariantTypes.xsd
+            - shared-math.xsd
+            - shared-relationshipReference.xsd
+            - sml.xsd
+            - vml-main.xsd
+            - vml-officeDrawing.xsd
+            - vml-presentationDrawing.xsd
+            - vml-spreadsheetDrawing.xsd
+            - vml-wordprocessingDrawing.xsd
+            - wml.xsd
+            - xml.xsd
+              - opc-contentTypes.xsd
+              - opc-coreProperties.xsd
+              - opc-digSig.xsd
+              - opc-relationships.xsd
+            - mc.xsd
+            - wml-2010.xsd
+            - wml-2012.xsd
+            - wml-2018.xsd
+            - wml-cex-2018.xsd
+            - wml-cid-2016.xsd
+            - wml-sdtdatahash-2020.xsd
+            - wml-symex-2015.xsd
+        - soffice.py
+        - unpack.py
+        - validate.py
+          - __init__.py
+          - base.py
+          - docx.py
+          - pptx.py
+          - redlining.py
+        - comments.xml
+        - commentsExtended.xml
+        - commentsExtensible.xml
+        - commentsIds.xml
+        - people.xml
+      - utilities.py
+    - SKILL.md
+      - README.md
+    - SKILL.md
+      - README.md
+    - SKILL.md
+      - README.md
+    - SKILL.md
+      - README.md
+    - SKILL.md
+      - README.md
+    - SKILL.md
+      - README.md
+    - SKILL.md
+      - README.md
+    - SKILL.md
+      - README.md
+    - SKILL.md
+      - README.md
+    - SKILL.md
+      - README.md
+    - SKILL.md
+      - README.md
+    - SKILL.md
+      - README.md
+    - SKILL.md
+      - README.md
+    - SKILL.md
+      - README.md
+    - SKILL.md
+      - README.md
+    - SKILL.md
+      - README.md
+    - SKILL.md
+      - README.md
+    - SKILL.md
+      - README.md
+    - SKILL.md
+      - README.md
+    - SKILL.md
+      - README.md
+    - SKILL.md
+      - README.md
+    - SKILL.md
+      - README.md
+    - SKILL.md
+      - README.md
+    - SKILL.md
+      - advanced-patterns.md
+      - cloud-integration.md
+      - playbook.md
+      - README.md
+    - SKILL.md
+      - README.md
+    - SKILL.md
+      - README.md
+    - SKILL.md
+      - README.md
+    - SKILL.md
+      - metrics.md
+      - evaluator.py
+    - SKILL.md
+      - README.md
+    - SKILL.md
+      - README.md
+    - SKILL.md
+      - README.md
+    - SKILL.md
+      - README.md
+    - SKILL.md
+      - README.md
+    - SKILL.md
+      - README.md
+    - SKILL.md
+      - implementation-patterns.md
+      - filesystem_context.py
+    - SKILL.md
+      - README.md
+    - SKILL.md
+      - README.md
+    - SKILL.md
+      - README.md
+    - SKILL.md
+      - README.md
+      - auth-flow.md
+      - project-setup.md
+      - sdk-installation.md
+    - SKILL.md
+      - README.md
+    - SKILL.md
+      - README.md
+    - SKILL.md
+      - README.md
+      - auth-and-env.md
+      - endpoint-selection.md
+      - integration-patterns.md
+      - project-intake.md
+      - sdk-installation.md
+      - verification.md
+    - SKILL.md
+      - README.md
+    - SKILL.md
+      - index.html
+    - SKILL.md
+      - index.html
+    - SKILL.md
+      - advanced-patterns.md
+      - playbook.md
+      - README.md
+    - SKILL.md
+      - README.md
+    - SKILL.md
+      - README.md
+    - LICENSE.txt
+    - SKILL.md
+      - README.md
+    - SKILL.md
+      - README.md
+    - SKILL.md
+      - index.html
+    - SKILL.md
+      - advanced-patterns.md
+      - playbook.md
+      - README.md
+    - SKILL.md
+      - advanced-patterns.md
+      - cloud-integration.md
+      - playbook.md
+      - README.md
+    - SKILL.md
+      - README.md
+    - SKILL.md
+      - README.md
+      - migration.md
+    - SKILL.md
+      - README.md
+    - SKILL.md
+      - README.md
+      - upload_file.py
+        - generate_video.py
+        - inspect_video.py
+        - prep_video.py
+    - SKILL.md
+      - README.md
+    - SKILL.md
+    - SKILL.md
+    - SKILL.md
+    - SKILL.md
+      - README.md
+    - SKILL.md
+      - index.html
+    - SKILL.md
+      - index.html
+    - SKILL.md
+      - README.md
+    - SKILL.md
+      - README.md
+    - SKILL.md
+      - index.html
+    - SKILL.md
+      - index.html
+    - SKILL.md
+      - index.html
+    - SKILL.md
+      - infrastructure-patterns.md
+      - sandbox_manager.py
+    - SKILL.md
+      - ci-cd.md
+      - cli.md
+      - frameworks.md
+      - security.md
+      - troubleshooting.md
+      - yaml-patterns.md
+      - README.md
+      - build-command.js
+      - doctor.js
+      - summarize-artifacts.js
+      - validate-config.js
+    - SKILL.md
+    - examples.md
+    - frameworks.md
+      - README.md
+    - refinement-criteria.md
+      - idea-refine.sh
+    - SKILL.md
+      - README.md
+    - SKILL.md
+      - README.md
+    - SKILL.md
+      - README.md
+    - SKILL.md
+      - README.md
+    - SKILL.md
+      - README.md
+    - SKILL.md
+      - README.md
+    - LICENSE.txt
+    - SKILL.md
+      - README.md
+    - SKILL.md
+      - README.md
+    - SKILL.md
+      - advanced-patterns.md
+      - playbook.md
+      - README.md
+    - SKILL.md
+      - advanced-patterns.md
+      - playbook.md
+      - README.md
+    - SKILL.md
+      - EXAMPLES.md
+    - SKILL.md
+      - advanced-patterns.md
+      - playbook.md
+      - README.md
+    - SKILL.md
+      - advanced-patterns.md
+      - playbook.md
+      - README.md
+    - SKILL.md
+      - IMPLEMENTATION.md
+    - SKILL.md
+      - advanced-patterns.md
+      - cloud-integration.md
+      - playbook.md
+      - README.md
+    - SKILL.md
+      - advanced-patterns.md
+      - playbook.md
+      - README.md
+    - SKILL.md
+      - index.html
+    - SKILL.md
+      - index.html
+    - SKILL.md
+      - README.md
+    - SKILL.md
+      - README.md
+    - SKILL.md
+      - index.html
+    - SKILL.md
+      - index.html
+    - LICENSE.txt
+    - SKILL.md
+      - evaluation.md
+      - mcp_best_practices.md
+      - node_mcp_server.md
+      - python_mcp_server.md
+      - README.md
+      - connections.py
+      - evaluation.py
+      - example_evaluation.xml
+      - requirements.txt
+    - SKILL.md
+      - index.html
+    - SKILL.md
+      - implementation.md
+      - memory_store.py
+    - SKILL.md
+      - README.md
+    - SKILL.md
+      - README.md
+    - SKILL.md
+      - README.md
+    - SKILL.md
+      - advanced-patterns.md
+      - playbook.md
+      - README.md
+    - SKILL.md
+      - index.html
+    - SKILL.md
+      - index.html
+    - SKILL.md
+      - index.html
+    - SKILL.md
+      - advanced-patterns.md
+      - playbook.md
+      - README.md
+    - SKILL.md
+      - frameworks.md
+      - coordination.py
+    - SKILL.md
+      - README.md
+    - SKILL.md
+      - README.md
+    - SKILL.md
+      - advanced-patterns.md
+      - cloud-integration.md
+      - playbook.md
+      - README.md
+    - SKILL.md
+      - README.md
+    - SKILL.md
+      - README.md
+      - ai-sdk.md
+      - hono-websockets.md
+      - mastra-studio.md
+      - mcp.md
+      - sentry.md
+      - sse.md
+    - SKILL.md
+      - README.md
+    - SKILL.md
+      - README.md
+    - SKILL.md
+      - README.md
+    - SKILL.md
+      - README.md
+    - SKILL.md
+      - README.md
+    - SKILL.md
+      - two-layer-pattern.md
+    - SKILL.md
+    - SKILL.md
+    - SKILL.md
+    - SKILL.md
+    - SKILL.md
+    - SKILL.md
+      - cli-commands.md
+      - legacy-extension.md
+      - local-dev.md
+      - migration-from-extension.md
+      - migrations.md
+      - operational-footguns.md
+    - SKILL.md
+      - cli-commands.md
+      - deployment-patterns.md
+      - netlify-toml.md
+    - SKILL.md
+    - SKILL.md
+    - SKILL.md
+      - astro.md
+      - nextjs.md
+      - nuxt.md
+      - sveltekit.md
+      - tanstack.md
+      - vite.md
+    - SKILL.md
+    - SKILL.md
+      - advanced-patterns.md
+      - authorization-and-sessions.md
+    - SKILL.md
+      - user-uploads.md
+    - SKILL.md
+      - authentication.md
+      - connecting-clients.md
+      - file-uploads.md
+    - SKILL.md
+      - README.md
+    - SKILL.md
+      - README.md
+    - SKILL.md
+      - main.go
+      - README.md
+    - SKILL.md
+      - README.md
+    - SKILL.md
+      - advanced-patterns.md
+      - cloud-integration.md
+      - playbook.md
+      - README.md
+    - AUTHENTICATION.md
+    - CHANGELOG.md
+    - LICENSE
+    - README.md
+    - SKILL.md
+      - example_notebookchat.png
+      - api_reference.md
+      - troubleshooting.md
+      - usage_patterns.md
+    - requirements.txt
+      - __init__.py
+      - ask_question.py
+      - auth_manager.py
+      - browser_session.py
+      - browser_utils.py
+      - cleanup_manager.py
+      - config.py
+      - notebook_manager.py
+      - run.py
+      - setup_environment.py
+    - SKILL.md
+      - README.md
+    - SKILL.md
+      - README.md
+    - SKILL.md
+      - README.md
+    - SKILL.md
+      - README.md
+    - SKILL.md
+      - README.md
+    - SKILL.md
+      - README.md
+    - SKILL.md
+      - advanced-patterns.md
+      - playbook.md
+      - README.md
+    - SKILL.md
+      - README.md
+    - SKILL.md
+      - README.md
+    - SKILL.md
+      - FUNCTIONS_REFERENCE.md
+    - SKILL.md
+      - README.md
+    - SKILL.md
+      - CALLOUTS.md
+      - EMBEDS.md
+      - PROPERTIES.md
+    - SKILL.md
+      - README.md
+    - SKILL.md
+      - README.md
+    - SKILL.md
+      - README.md
+    - SKILL.md
+      - README.md
+    - SKILL.md
+      - README.md
+    - LICENSE.txt
+    - SKILL.md
+    - forms.md
+    - reference.md
+      - README.md
+      - check_bounding_boxes.py
+      - check_bounding_boxes_test.py
+      - check_fillable_fields.py
+      - convert_pdf_to_images.py
+      - create_validation_image.py
+      - extract_form_field_info.py
+      - extract_form_structure.py
+      - fill_fillable_fields.py
+      - fill_pdf_form_with_annotations.py
+    - SKILL.md
+      - README.md
+    - SKILL.md
+      - README.md
+    - SKILL.md
+      - README.md
+    - SKILL.md
+      - advanced-patterns.md
+      - playbook.md
+      - README.md
+    - SKILL.md
+      - index.html
+    - SKILL.md
+      - README.md
+    - SKILL.md
+      - README.md
+    - SKILL.md
+      - README.md
+    - SKILL.md
+      - README.md
+    - SKILL.md
+      - README.md
+    - SKILL.md
+    - examples.md
+    - reference.md
+      - README.md
+      - attest-plan.ps1
+      - attest-plan.sh
+      - check-complete.ps1
+      - check-complete.sh
+      - init-session.ps1
+      - init-session.sh
+      - resolve-plan-dir.ps1
+      - resolve-plan-dir.sh
+      - session-catchup.py
+      - set-active-plan.ps1
+      - set-active-plan.sh
+      - analytics_findings.md
+      - analytics_task_plan.md
+      - findings.md
+      - progress.md
+      - task_plan.md
+    - SKILL.md
+      - api-mocking-visual.md
+      - cloud-integration.md
+      - csharp-patterns.md
+      - debugging-flaky.md
+      - java-patterns.md
+      - mobile-testing.md
+      - page-object-model.md
+      - playbook.md
+      - python-patterns.md
+      - README.md
+      - scaffold-project.sh
+      - validate-config.py
+      - lambdatest-setup.ts
+      - playwright.config.ts
+    - SKILL.md
+      - README.md
+      - html-to-pt.md
+      - manual-construction.md
+      - markdown-to-pt.md
+    - SKILL.md
+      - README.md
+      - astro.md
+      - html.md
+      - markdown.md
+      - plain-text.md
+      - react.md
+      - svelte.md
+      - vue.md
+    - SKILL.md
+      - index.html
+    - LICENSE.txt
+    - SKILL.md
+    - editing.md
+    - html2pptx.md
+    - ooxml.md
+          - dml-chart.xsd
+          - dml-chartDrawing.xsd
+          - dml-diagram.xsd
+          - dml-lockedCanvas.xsd
+          - dml-main.xsd
+          - dml-picture.xsd
+          - dml-spreadsheetDrawing.xsd
+          - dml-wordprocessingDrawing.xsd
+          - pml.xsd
+          - shared-additionalCharacteristics.xsd
+          - shared-bibliography.xsd
+          - shared-commonSimpleTypes.xsd
+          - shared-customXmlDataProperties.xsd
+          - shared-customXmlSchemaProperties.xsd
+          - shared-documentPropertiesCustom.xsd
+          - shared-documentPropertiesExtended.xsd
+          - shared-documentPropertiesVariantTypes.xsd
+          - shared-math.xsd
+          - shared-relationshipReference.xsd
+          - sml.xsd
+          - vml-main.xsd
+          - vml-officeDrawing.xsd
+          - vml-presentationDrawing.xsd
+          - vml-spreadsheetDrawing.xsd
+          - vml-wordprocessingDrawing.xsd
+          - wml.xsd
+          - xml.xsd
+            - opc-contentTypes.xsd
+            - opc-coreProperties.xsd
+            - opc-digSig.xsd
+            - opc-relationships.xsd
+          - mc.xsd
+          - wml-2010.xsd
+          - wml-2012.xsd
+          - wml-2018.xsd
+          - wml-cex-2018.xsd
+          - wml-cid-2016.xsd
+          - wml-sdtdatahash-2020.xsd
+          - wml-symex-2015.xsd
+        - pack.py
+        - unpack.py
+        - validate.py
+          - __init__.py
+          - base.py
+          - docx.py
+          - pptx.py
+          - redlining.py
+    - pptxgenjs.md
+      - README.md
+      - __init__.py
+      - add_slide.py
+      - clean.py
+      - html2pptx.js
+      - inventory.py
+          - __init__.py
+          - merge_runs.py
+          - simplify_redlines.py
+        - pack.py
+            - dml-chart.xsd
+            - dml-chartDrawing.xsd
+            - dml-diagram.xsd
+            - dml-lockedCanvas.xsd
+            - dml-main.xsd
+            - dml-picture.xsd
+            - dml-spreadsheetDrawing.xsd
+            - dml-wordprocessingDrawing.xsd
+            - pml.xsd
+            - shared-additionalCharacteristics.xsd
+            - shared-bibliography.xsd
+            - shared-commonSimpleTypes.xsd
+            - shared-customXmlDataProperties.xsd
+            - shared-customXmlSchemaProperties.xsd
+            - shared-documentPropertiesCustom.xsd
+            - shared-documentPropertiesExtended.xsd
+            - shared-documentPropertiesVariantTypes.xsd
+            - shared-math.xsd
+            - shared-relationshipReference.xsd
+            - sml.xsd
+            - vml-main.xsd
+            - vml-officeDrawing.xsd
+            - vml-presentationDrawing.xsd
+            - vml-spreadsheetDrawing.xsd
+            - vml-wordprocessingDrawing.xsd
+            - wml.xsd
+            - xml.xsd
+              - opc-contentTypes.xsd
+              - opc-coreProperties.xsd
+              - opc-digSig.xsd
+              - opc-relationships.xsd
+            - mc.xsd
+            - wml-2010.xsd
+            - wml-2012.xsd
+            - wml-2018.xsd
+            - wml-cex-2018.xsd
+            - wml-cid-2016.xsd
+            - wml-sdtdatahash-2020.xsd
+            - wml-symex-2015.xsd
+        - soffice.py
+        - unpack.py
+        - validate.py
+          - __init__.py
+          - base.py
+          - docx.py
+          - pptx.py
+          - redlining.py
+      - rearrange.py
+      - replace.py
+      - thumbnail.py
+    - SKILL.md
+      - README.md
+    - SKILL.md
+      - index.html
+    - SKILL.md
+      - index.html
+        - DESIGN_SEEK.md
+        - SKILL.md
+          - component.tsx
+        - DESIGN_SEEK.md
+        - SKILL.md
+          - component.tsx
+        - DESIGN_SEEK.md
+        - SKILL.md
+          - component.tsx
+        - DESIGN_SEEK.md
+        - SKILL.md
+          - component.tsx
+        - DESIGN_SEEK.md
+        - SKILL.md
+          - component.tsx
+        - DESIGN_SEEK.md
+        - SKILL.md
+          - component.tsx
+        - DESIGN_SEEK.md
+        - SKILL.md
+          - component.tsx
+        - DESIGN_SEEK.md
+        - SKILL.md
+          - component.tsx
+        - DESIGN_SEEK.md
+        - SKILL.md
+          - component.tsx
+        - DESIGN_SEEK.md
+        - SKILL.md
+          - component.tsx
+        - DESIGN_SEEK.md
+        - SKILL.md
+          - component.tsx
+        - DESIGN_SEEK.md
+        - SKILL.md
+          - component.tsx
+        - DESIGN_SEEK.md
+        - SKILL.md
+          - component.tsx
+        - DESIGN_SEEK.md
+        - SKILL.md
+          - component.tsx
+        - DESIGN_SEEK.md
+        - SKILL.md
+          - component.tsx
+        - DESIGN_SEEK.md
+        - SKILL.md
+          - component.tsx
+        - DESIGN_SEEK.md
+        - SKILL.md
+          - component.tsx
+        - DESIGN_SEEK.md
+        - SKILL.md
+          - component.tsx
+        - DESIGN_SEEK.md
+        - SKILL.md
+          - component.tsx
+        - DESIGN_SEEK.md
+        - SKILL.md
+          - component.tsx
+        - DESIGN_SEEK.md
+        - SKILL.md
+          - component.tsx
+        - DESIGN_SEEK.md
+        - SKILL.md
+          - component.tsx
+        - DESIGN_SEEK.md
+        - SKILL.md
+          - component.tsx
+        - DESIGN_SEEK.md
+        - SKILL.md
+          - component.tsx
+        - DESIGN_SEEK.md
+        - SKILL.md
+          - component.tsx
+        - DESIGN_SEEK.md
+        - SKILL.md
+          - component.tsx
+        - DESIGN_SEEK.md
+        - SKILL.md
+          - component.tsx
+        - DESIGN_SEEK.md
+        - SKILL.md
+          - component.tsx
+        - DESIGN_SEEK.md
+        - SKILL.md
+          - component.tsx
+        - DESIGN_SEEK.md
+        - SKILL.md
+          - component.tsx
+        - DESIGN_SEEK.md
+        - SKILL.md
+          - component.tsx
+        - DESIGN_SEEK.md
+        - SKILL.md
+          - component.tsx
+          - DESIGN_SEEK.md
+          - SKILL.md
+            - component.tsx
+          - DESIGN_SEEK.md
+          - SKILL.md
+            - component.tsx
+          - DESIGN_SEEK.md
+          - SKILL.md
+            - component.tsx
+        - DESIGN_SEEK.md
+        - SKILL.md
+          - component.tsx
+        - DESIGN_SEEK.md
+        - SKILL.md
+          - component.tsx
+        - DESIGN_SEEK.md
+        - SKILL.md
+          - component.tsx
+        - DESIGN_SEEK.md
+        - SKILL.md
+          - component.tsx
+        - DESIGN_SEEK.md
+        - SKILL.md
+          - component.tsx
+    - SKILL.md
+      - README.md
+    - SKILL.md
+      - README.md
+    - SKILL.md
+      - case-studies.md
+      - pipeline-patterns.md
+      - pipeline_template.py
+    - SKILL.md
+      - README.md
+    - SKILL.md
+      - README.md
+    - SKILL.md
+      - README.md
+    - SKILL.md
+      - advanced-patterns.md
+      - cloud-integration.md
+      - playbook.md
+      - README.md
+    - SKILL.md
+      - README.md
+    - SKILL.md
+      - openai.yaml
+      - README.md
+      - hashicorp-provider-docs.md
+    - SKILL.md
+      - README.md
+    - SKILL.md
+      - README.md
+      - checks.md
+      - ephemeral.md
+      - sweepers.md
+    - SKILL.md
+      - README.md
+    - SKILL.md
+      - advanced-patterns.md
+      - cloud-integration.md
+      - playbook.md
+      - README.md
+    - SKILL.md
+      - README.md
+    - SKILL.md
+      - advanced-patterns.md
+      - playbook.md
+      - README.md
+    - SKILL.md
+      - README.md
+    - AGENTS.md
+    - README.md
+    - SKILL.md
+    - metadata.json
+      - README.md
+      - _sections.md
+      - _template.md
+      - advanced-effect-event-deps.md
+      - advanced-event-handler-refs.md
+      - advanced-init-once.md
+      - advanced-use-latest.md
+      - async-api-routes.md
+      - async-cheap-condition-before-await.md
+      - async-defer-await.md
+      - async-dependencies.md
+      - async-parallel.md
+      - async-suspense-boundaries.md
+      - bundle-analyzable-paths.md
+      - bundle-barrel-imports.md
+      - bundle-conditional.md
+      - bundle-defer-third-party.md
+      - bundle-dynamic-imports.md
+      - bundle-preload.md
+      - client-event-listeners.md
+      - client-localstorage-schema.md
+      - client-passive-event-listeners.md
+      - client-swr-dedup.md
+      - js-batch-dom-css.md
+      - js-cache-function-results.md
+      - js-cache-property-access.md
+      - js-cache-storage.md
+      - js-combine-iterations.md
+      - js-early-exit.md
+      - js-flatmap-filter.md
+      - js-hoist-regexp.md
+      - js-index-maps.md
+      - js-length-check-first.md
+      - js-min-max-loop.md
+      - js-request-idle-callback.md
+      - js-set-map-lookups.md
+      - js-tosorted-immutable.md
+      - rendering-activity.md
+      - rendering-animate-svg-wrapper.md
+      - rendering-conditional-render.md
+      - rendering-content-visibility.md
+      - rendering-hoist-jsx.md
+      - rendering-hydration-no-flicker.md
+      - rendering-hydration-suppress-warning.md
+      - rendering-resource-hints.md
+      - rendering-script-defer-async.md
+      - rendering-svg-precision.md
+      - rendering-usetransition-loading.md
+      - rerender-defer-reads.md
+      - rerender-dependencies.md
+      - rerender-derived-state-no-effect.md
+      - rerender-derived-state.md
+      - rerender-functional-setstate.md
+      - rerender-lazy-state-init.md
+      - rerender-memo-with-default-value.md
+      - rerender-memo.md
+      - rerender-move-effect-to-event.md
+      - rerender-no-inline-components.md
+      - rerender-simple-expression-in-memo.md
+      - rerender-split-combined-hooks.md
+      - rerender-transitions.md
+      - rerender-use-deferred-value.md
+      - rerender-use-ref-transient-values.md
+      - server-after-nonblocking.md
+      - server-auth-actions.md
+      - server-cache-lru.md
+      - server-cache-react.md
+      - server-dedup-props.md
+      - server-hoist-static-io.md
+      - server-no-shared-module-state.md
+      - server-parallel-fetching.md
+      - server-parallel-nested-fetching.md
+      - server-serialization.md
+    - AGENTS.md
+    - README.md
+    - SKILL.md
+    - metadata.json
+      - README.md
+      - _sections.md
+      - _template.md
+      - animation-derived-value.md
+      - animation-gesture-detector-press.md
+      - animation-gpu-properties.md
+      - design-system-compound-components.md
+      - fonts-config-plugin.md
+      - imports-design-system-folder.md
+      - js-hoist-intl.md
+      - list-performance-callbacks.md
+      - list-performance-function-references.md
+      - list-performance-images.md
+      - list-performance-inline-objects.md
+      - list-performance-item-expensive.md
+      - list-performance-item-memo.md
+      - list-performance-item-types.md
+      - list-performance-virtualize.md
+      - monorepo-native-deps-in-app.md
+      - monorepo-single-dependency-versions.md
+      - navigation-native-navigators.md
+      - react-compiler-destructure-functions.md
+      - react-compiler-reanimated-shared-values.md
+      - react-state-dispatcher.md
+      - react-state-fallback.md
+      - react-state-minimize.md
+      - rendering-no-falsy-and.md
+      - rendering-text-in-text-component.md
+      - scroll-position-no-state.md
+      - state-ground-truth.md
+      - ui-expo-image.md
+      - ui-image-gallery.md
+      - ui-measure-views.md
+      - ui-menus.md
+      - ui-native-modals.md
+      - ui-pressable.md
+      - ui-safe-area-scroll.md
+      - ui-scrollview-content-inset.md
+      - ui-styling.md
+    - SKILL.md
+      - README.md
+    - SKILL.md
+      - README.md
+    - SKILL.md
+      - README.md
+      - 3d.md
+        - charts-bar-chart.tsx
+        - text-animations-typewriter.tsx
+        - text-animations-word-highlight.tsx
+      - audio-visualization.md
+      - audio.md
+      - calculate-metadata.md
+      - compositions.md
+      - display-captions.md
+      - effects.md
+      - ffmpeg.md
+      - get-audio-duration.md
+      - get-video-dimensions.md
+      - get-video-duration.md
+      - gifs.md
+      - google-fonts.md
+      - html-in-canvas.md
+      - images.md
+      - import-srt-captions.md
+      - light-leaks.md
+      - local-fonts.md
+      - lottie.md
+      - maplibre.md
+      - measuring-dom-nodes.md
+      - measuring-text.md
+      - parameters.md
+      - sequencing.md
+      - sfx.md
+      - silence-detection.md
+      - subtitles.md
+      - tailwind.md
+      - text-animations.md
+      - timing.md
+      - transcribe-captions.md
+      - transitions.md
+      - transparent-videos.md
+      - trimming.md
+      - video-layout.md
+      - videos.md
+      - voiceover.md
+    - SKILL.md
+      - README.md
+      - 3d.md
+      - animations.md
+      - assets.md
+        - charts-bar-chart.tsx
+        - text-animations-typewriter.tsx
+        - text-animations-word-highlight.tsx
+      - audio-visualization.md
+      - audio.md
+      - calculate-metadata.md
+      - can-decode.md
+      - charts.md
+      - compositions.md
+      - display-captions.md
+      - extract-frames.md
+      - ffmpeg.md
+      - fonts.md
+      - get-audio-duration.md
+      - get-video-dimensions.md
+      - get-video-duration.md
+      - gifs.md
+      - google-fonts.md
+      - html-in-canvas.md
+      - images.md
+      - import-srt-captions.md
+      - light-leaks.md
+      - local-fonts.md
+      - lottie.md
+      - mapbox.md
+      - maplibre.md
+      - maps.md
+      - measuring-dom-nodes.md
+      - measuring-text.md
+      - parameters.md
+      - sequencing.md
+      - sfx.md
+      - silence-detection.md
+      - subtitles.md
+      - tailwind.md
+      - text-animations.md
+      - timing.md
+      - transcribe-captions.md
+      - transitions.md
+      - transparent-videos.md
+      - trimming.md
+      - videos.md
+      - voiceover.md
+    - SKILL.md
+      - appium-patterns.md
+      - cloud-integration.md
+      - playbook.md
+      - selenium-3-patterns.md
+      - selenium-4-patterns.md
+      - README.md
+    - SKILL.md
+    - code-reviewer.md
+      - README.md
+    - SKILL.md
+      - README.md
+    - SKILL.md
+      - README.md
+    - SKILL.md
+      - index.html
+    - SKILL.md
+      - README.md
+    - SKILL.md
+      - README.md
+    - SKILL.md
+      - README.md
+    - SKILL.md
+      - advanced-patterns.md
+      - cloud-integration.md
+      - playbook.md
+      - README.md
+    - SKILL.md
+      - advanced-patterns.md
+      - playbook.md
+      - README.md
+    - SKILL.md
+      - README.md
+    - SKILL.md
+      - README.md
+    - SKILL.md
+      - README.md
+      - angular.md
+      - app-sdk.md
+      - astro.md
+      - blueprints.md
+      - functions.md
+      - get-started.md
+      - groq.md
+      - hydrogen.md
+      - image.md
+      - localization.md
+      - migration-html-import.md
+      - migration.md
+      - nextjs.md
+      - nuxt.md
+      - page-builder.md
+      - portable-text.md
+      - project-structure.md
+      - remix.md
+      - schema.md
+      - seo.md
+      - studio-structure.md
+      - svelte.md
+      - typegen.md
+      - visual-editing.md
+    - SKILL.md
+      - README.md
+      - aem.md
+      - contentful.md
+      - drupal.md
+      - general.md
+      - markdown.md
+      - payload.md
+      - strapi.md
+      - webflow.md
+      - wordpress.md
+    - SKILL.md
+      - README.md
+    - SKILL.md
+      - index.html
+    - SKILL.md
+      - index.html
+    - SKILL.md
+      - index.html
+    - SKILL.md
+      - index.html
+    - SKILL.md
+      - README.md
+    - SKILL.md
+      - README.md
+    - SKILL.md
+      - README.md
+    - SKILL.md
+      - advanced-patterns.md
+      - cloud-integration.md
+      - playbook.md
+      - README.md
+    - SKILL.md
+      - cloud-integration.md
+      - csharp-patterns.md
+      - debugging-common-issues.md
+      - javascript-patterns.md
+      - page-object-model.md
+      - php-patterns.md
+      - playbook.md
+      - python-patterns.md
+      - ruby-patterns.md
+      - README.md
+      - scaffold-project.sh
+      - pom.xml
+    - SKILL.md
+      - README.md
+      - aeo-considerations.md
+      - eeat-principles.md
+      - structured-data.md
+      - technical-seo.md
+    - SKILL.md
+      - advanced-patterns.md
+      - playbook.md
+      - README.md
+    - SKILL.md
+      - README.md
+    - SKILL.md
+      - README.md
+    - SKILL.md
+      - README.md
+    - SKILL.md
+      - index.html
+    - SKILL.md
+      - README.md
+    - LICENSE.txt
+    - SKILL.md
+      - analyzer.md
+      - comparator.md
+      - grader.md
+      - eval_review.html
+      - generate_review.py
+      - viewer.html
+      - output-patterns.md
+      - schemas.md
+      - workflows.md
+      - __init__.py
+      - aggregate_benchmark.py
+      - generate_report.py
+      - improve_description.py
+      - init_skill.py
+      - package_skill.py
+      - quick_validate.py
+      - run_eval.py
+      - run_loop.py
+      - utils.py
+    - LICENSE.txt
+    - SKILL.md
+      - easing.py
+      - frame_composer.py
+      - gif_builder.py
+      - validators.py
+      - README.md
+    - requirements.txt
+    - SKILL.md
+      - README.md
+    - SKILL.md
+      - playbook.md
+      - README.md
+    - SKILL.md
+      - index.html
+    - SKILL.md
+      - README.md
+    - SKILL.md
+      - README.md
+    - SKILL.md
+      - README.md
+    - SKILL.md
+      - advanced-patterns.md
+      - playbook.md
+      - README.md
+    - SKILL.md
+      - README.md
+    - SKILL.md
+      - index.html
+    - SKILL.md
+      - index.html
+    - SKILL.md
+      - README.md
+    - SKILL.md
+      - README.md
+      - billing.md
+      - connect.md
+      - payments.md
+      - security.md
+      - tax.md
+      - treasury.md
+    - SKILL.md
+      - README.md
+    - SKILL.md
+      - README.md
+    - SKILL.md
+    - code-quality-reviewer-prompt.md
+    - implementer-prompt.md
+      - README.md
+    - spec-reviewer-prompt.md
+    - CHANGELOG.md
+    - SKILL.md
+      - _contributing.md
+      - _sections.md
+      - _template.md
+      - advanced-full-text-search.md
+      - advanced-jsonb-indexing.md
+      - conn-idle-timeout.md
+      - conn-limits.md
+      - conn-pooling.md
+      - conn-prepared-statements.md
+      - data-batch-inserts.md
+      - data-n-plus-one.md
+      - data-pagination.md
+      - data-upsert.md
+      - lock-advisory.md
+      - lock-deadlock-prevention.md
+      - lock-short-transactions.md
+      - lock-skip-locked.md
+      - monitor-explain-analyze.md
+      - monitor-pg-stat-statements.md
+      - monitor-vacuum-analyze.md
+      - query-composite-indexes.md
+      - query-covering-indexes.md
+      - query-index-types.md
+      - query-missing-indexes.md
+      - query-partial-indexes.md
+      - schema-constraints.md
+      - schema-data-types.md
+      - schema-foreign-key-indexes.md
+      - schema-lowercase-identifiers.md
+      - schema-partitioning.md
+      - schema-primary-keys.md
+      - security-privileges.md
+      - security-rls-basics.md
+      - security-rls-performance.md
+    - CHANGELOG.md
+    - SKILL.md
+      - feedback-issue-template.md
+      - skill-feedback.md
+    - SKILL.md
+      - README.md
+    - CREATION-LOG.md
+    - SKILL.md
+    - condition-based-waiting-example.ts
+    - condition-based-waiting.md
+    - defense-in-depth.md
+    - find-polluter.sh
+      - README.md
+    - root-cause-tracing.md
+    - test-academic.md
+    - test-pressure-1.md
+    - test-pressure-2.md
+    - test-pressure-3.md
+    - SKILL.md
+      - MANUAL-IMPORT.md
+      - README.md
+      - list_resources.sh
+    - SKILL.md
+      - README.md
+      - api-monitoring.md
+      - component-blocks.md
+      - deployment-blocks.md
+      - examples.md
+      - linked-stacks.md
+      - troubleshooting.md
+    - SECURITY.md
+    - SKILL.md
+      - README.md
+    - SKILL.md
+      - CI_CD.md
+      - EXAMPLES.md
+      - MOCK_PROVIDERS.md
+      - README.md
+    - SKILL.md
+      - README.md
+    - testing-anti-patterns.md
+    - SKILL.md
+      - cypress-to-playwright.md
+      - cypress-to-selenium.md
+      - overview.md
+      - playbook.md
+      - playwright-to-cypress.md
+      - playwright-to-puppeteer.md
+      - playwright-to-selenium.md
+      - puppeteer-to-playwright.md
+      - puppeteer-to-selenium.md
+      - selenium-to-cypress.md
+      - selenium-to-playwright.md
+      - selenium-to-puppeteer.md
+      - README.md
+    - SKILL.md
+      - advanced-patterns.md
+      - cloud-integration.md
+      - playbook.md
+      - README.md
+    - SKILL.md
+      - advanced-patterns.md
+      - playbook.md
+      - README.md
+    - SKILL.md
+      - advanced-patterns.md
+      - playbook.md
+      - README.md
+    - SKILL.md
+      - index.html
+    - LICENSE.txt
+    - SKILL.md
+      - README.md
+    - theme-showcase.pdf
+      - arctic-frost.md
+      - botanical-garden.md
+      - desert-rose.md
+      - forest-canopy.md
+      - golden-hour.md
+      - midnight-galaxy.md
+      - modern-minimalist.md
+      - ocean-depths.md
+      - sunset-boulevard.md
+      - tech-innovation.md
+    - SKILL.md
+      - README.md
+    - SKILL.md
+      - README.md
+    - SKILL.md
+      - IMPLEMENTATION.md
+    - SKILL.md
+      - index.html
+    - SKILL.md
+      - README.md
+    - SKILL.md
+      - index.html
+    - SKILL.md
+      - index.html
+    - SKILL.md
+      - README.md
+      - append-data.md
+      - branch-development.md
+      - build-deploy.md
+      - ci-cd.md
+      - cli-commands.md
+      - data-operations.md
+      - development-workflows.md
+      - local-development.md
+      - mock-data.md
+      - secrets.md
+      - tokens.md
+    - SKILL.md
+      - README.md
+      - cli-commands.md
+      - client.md
+      - configuration.md
+      - connections.md
+      - copy-sink-pipes.md
+      - defining-datasources.md
+      - defining-endpoints.md
+      - getting-started.md
+      - low-level-api.md
+      - materialized-views.md
+      - tokens.md
+    - SKILL.md
+      - README.md
+      - cli-commands.md
+      - configuration.md
+      - connections.md
+      - copy-sink-pipes.md
+      - defining-datasources.md
+      - defining-endpoints.md
+      - getting-started.md
+      - low-level-api.md
+      - materialized-views.md
+      - tokens.md
+      - typed-client.md
+    - SKILL.md
+      - README.md
+      - build-deploy.md
+      - connection-files.md
+      - copy-files.md
+      - datasource-files.md
+      - deduplication-patterns.md
+      - endpoint-files.md
+      - endpoint-optimization.md
+      - materialized-files.md
+      - materialized-join-prefilter.md
+      - pipe-files.md
+      - project-files.md
+      - sink-files.md
+      - sql.md
+      - tests.md
+    - SKILL.md
+      - architectural_reduction.md
+      - best_practices.md
+      - description_generator.py
+    - SKILL.md
+      - index.html
+    - SKILL.md
+      - README.md
+    - CHANGELOG.md
+    - SKILL.md
+      - comments.md
+      - local-development.md
+        - linkedin.md
+        - x-articles.md
+        - x.md
+      - setup.md
+      - typefully.js
+    - SKILL.md
+      - README.md
+    - SKILL.md
+      - README.md
+    - SKILL.md
+      - README.md
+    - SKILL.md
+      - README.md
+    - SKILL.md
+      - README.md
+    - SKILL.md
+      - charts.csv
+      - colors.csv
+      - landing.csv
+      - products.csv
+      - prompts.csv
+        - flutter.csv
+        - html-tailwind.csv
+        - nextjs.csv
+        - nuxt-ui.csv
+        - nuxtjs.csv
+        - react-native.csv
+        - react.csv
+        - svelte.csv
+        - swiftui.csv
+        - vue.csv
+      - styles.csv
+      - typography.csv
+      - ux-guidelines.csv
+      - README.md
+      - core.py
+      - search.py
+    - SKILL.md
+      - README.md
+    - SKILL.md
+      - README.md
+    - SKILL.md
+      - advanced-patterns.md
+      - playbook.md
+      - README.md
+    - SKILL.md
+      - README.md
+    - SKILL.md
+      - README.md
+    - SKILL.md
+      - README.md
+    - SKILL.md
+      - README.md
+    - SKILL.md
+      - README.md
+    - SKILL.md
+      - codex-tools.md
+      - copilot-tools.md
+      - gemini-tools.md
+    - SKILL.md
+      - README.md
+    - SKILL.md
+    - SKILL.md
+    - SKILL.md
+    - SKILL.md
+    - SKILL.md
+    - SKILL.md
+    - SKILL.md
+    - SKILL.md
+    - SKILL.md
+    - SKILL.md
+    - SKILL.md
+    - SKILL.md
+    - SKILL.md
+    - SKILL.md
+    - SKILL.md
+    - SKILL.md
+    - SKILL.md
+    - SKILL.md
+    - SKILL.md
+    - SKILL.md
+    - SKILL.md
+      - README.md
+    - SKILL.md
+      - README.md
+    - SKILL.md
+      - README.md
+    - SKILL.md
+      - index.html
+    - SKILL.md
+      - advanced-patterns.md
+      - playbook.md
+      - README.md
+    - SKILL.md
+      - README.md
+    - SKILL.md
+      - README.md
+    - SKILL.md
+      - README.md
+    - LICENSE.txt
+    - SKILL.md
+      - README.md
+      - bundle-artifact.sh
+      - init-artifact.sh
+      - shadcn-components.tar.gz
+    - SKILL.md
+      - README.md
+    - LICENSE.txt
+    - SKILL.md
+      - README.md
+      - with_server.py
+    - SKILL.md
+      - advanced-patterns.md
+      - cloud-integration.md
+      - playbook.md
+      - README.md
+    - SKILL.md
+      - README.md
+    - SKILL.md
+      - README.md
+    - SKILL.md
+      - README.md
+    - SKILL.md
+    - plan-document-reviewer-prompt.md
+      - README.md
+    - SKILL.md
+    - anthropic-best-practices.md
+    - graphviz-conventions.dot
+    - persuasion-principles.md
+      - README.md
+    - render-graphs.js
+    - testing-skills-with-subagents.md
+    - SKILL.md
+      - advanced-patterns.md
+      - playbook.md
+      - README.md
+    - LICENSE.txt
+    - SKILL.md
+    - recalc.py
+      - README.md
+          - __init__.py
+          - merge_runs.py
+          - simplify_redlines.py
+        - pack.py
+            - dml-chart.xsd
+            - dml-chartDrawing.xsd
+            - dml-diagram.xsd
+            - dml-lockedCanvas.xsd
+            - dml-main.xsd
+            - dml-picture.xsd
+            - dml-spreadsheetDrawing.xsd
+            - dml-wordprocessingDrawing.xsd
+            - pml.xsd
+            - shared-additionalCharacteristics.xsd
+            - shared-bibliography.xsd
+            - shared-commonSimpleTypes.xsd
+            - shared-customXmlDataProperties.xsd
+            - shared-customXmlSchemaProperties.xsd
+            - shared-documentPropertiesCustom.xsd
+            - shared-documentPropertiesExtended.xsd
+            - shared-documentPropertiesVariantTypes.xsd
+            - shared-math.xsd
+            - shared-relationshipReference.xsd
+            - sml.xsd
+            - vml-main.xsd
+            - vml-officeDrawing.xsd
+            - vml-presentationDrawing.xsd
+            - vml-spreadsheetDrawing.xsd
+            - vml-wordprocessingDrawing.xsd
+            - wml.xsd
+            - xml.xsd
+              - opc-contentTypes.xsd
+              - opc-coreProperties.xsd
+              - opc-digSig.xsd
+              - opc-relationships.xsd
+            - mc.xsd
+            - wml-2010.xsd
+            - wml-2012.xsd
+            - wml-2018.xsd
+            - wml-cex-2018.xsd
+            - wml-cid-2016.xsd
+            - wml-sdtdatahash-2020.xsd
+            - wml-symex-2015.xsd
+        - soffice.py
+        - unpack.py
+        - validate.py
+          - __init__.py
+          - base.py
+          - docx.py
+          - pptx.py
+          - redlining.py
+      - recalc.py
+    - SKILL.md
+      - advanced-patterns.md
+      - playbook.md
+      - README.md
+- skills_index.json
+```
+
+
+---
+# Codebase Navigation Guide
+
+## Entry Points
+- Main Entry File: `.clinerules`
+- Active Config Folder: `.gemini/config/`
+- Command Registry: `.gemini/commands/`
+
+## Key Paths
+- `/skills/` - Core AI Agent skills registry
+- `/bin/` - Execution scripts and installation files
+- `/scripts/` - Ingestion, compilation, and linting helpers
+
+
+---
+# Core Algorithms and Functions
+
+## Function Registry
+- JS Function: `showBanner()` in file `bin\install.js`
+- JS Function: `shouldLink()` in file `bin\install.js`
+- JS Function: `copyRecursiveSync()` in file `bin\install.js`
+- JS Function: `if()` in file `bin\install.js`
+- JS Function: `if()` in file `bin\install.js`
+- JS Function: `catch()` in file `bin\install.js`
+- JS Function: `if()` in file `bin\install.js`
+- JS Function: `catch()` in file `bin\install.js`
+- JS Function: `linkOrCopy()` in file `bin\install.js`
+- JS Function: `catch()` in file `bin\install.js`
+- JS Function: `if()` in file `bin\install.js`
+- JS Function: `if()` in file `bin\install.js`
+- JS Function: `catch()` in file `bin\install.js`
+- JS Function: `if()` in file `bin\install.js`
+- JS Function: `catch()` in file `bin\install.js`
+- JS Function: `catch()` in file `bin\install.js`
+- JS Function: `configureEnvironment()` in file `bin\install.js`
+- JS Function: `if()` in file `bin\install.js`
+- JS Function: `generateRules()` in file `bin\install.js`
+- JS Function: `catch()` in file `bin\install.js`
+- JS Function: `localInstall()` in file `bin\install.js`
+- JS Function: `catch()` in file `bin\install.js`
+- JS Function: `compileIndex()` in file `bin\install.js`
+- JS Function: `catch()` in file `bin\install.js`
+- JS Function: `mainMenu()` in file `bin\install.js`
+- JS Function: `switch()` in file `bin\install.js`
+- JS Function: `runAutoInstall()` in file `bin\install.js`
+- JS Function: `if()` in file `bin\install.js`
+- JS Function: `if()` in file `bin\install.js`
+- JS Function: `catch()` in file `bin\install.js`
+- JS Function: `if()` in file `bin\install.js`
+- JS Function: `if()` in file `bin\install.js`
+- Python Function: `extract_code_blocks(md_content)` in file `scripts\build_references.py`
+- Python Function: `build_animation_reference(skill_name, md_content, dest_folder)` in file `scripts\build_references.py`
+- Python Function: `build_workflow_reference(skill_name, md_content, dest_folder)` in file `scripts\build_references.py`
+- Python Function: `extract_description(skill_md_path)` in file `scripts\update_skills_index.py`
+- Python Function: `update_index()` in file `scripts\update_skills_index.py`
+- Python Function: `f(x)` in file `skills\advanced-evaluation\scripts\evaluation_example.py`
+- Python Function: `calc_total(items)` in file `skills\advanced-evaluation\scripts\evaluation_example.py`
+- JS Function: `initializeSeed()` in file `skills\algorithmic-art\templates\generator_template.js`
+- JS Function: `setup()` in file `skills\algorithmic-art\templates\generator_template.js`
+- JS Function: `draw()` in file `skills\algorithmic-art\templates\generator_template.js`
+- JS Function: `constructor()` in file `skills\algorithmic-art\templates\generator_template.js`
+- JS Function: `update()` in file `skills\algorithmic-art\templates\generator_template.js`
+- JS Function: `display()` in file `skills\algorithmic-art\templates\generator_template.js`
+- JS Function: `hexToRgb()` in file `skills\algorithmic-art\templates\generator_template.js`
+- JS Function: `colorFromPalette()` in file `skills\algorithmic-art\templates\generator_template.js`
+- JS Function: `mapRange()` in file `skills\algorithmic-art\templates\generator_template.js`
+- JS Function: `easeInOutCubic()` in file `skills\algorithmic-art\templates\generator_template.js`
+- JS Function: `wrapAround()` in file `skills\algorithmic-art\templates\generator_template.js`
+- JS Function: `updateParameter()` in file `skills\algorithmic-art\templates\generator_template.js`
+- JS Function: `regenerate()` in file `skills\algorithmic-art\templates\generator_template.js`
+- JS Function: `fadeBackground()` in file `skills\algorithmic-art\templates\generator_template.js`
+- JS Function: `getNoiseValue()` in file `skills\algorithmic-art\templates\generator_template.js`
+- JS Function: `vectorFromAngle()` in file `skills\algorithmic-art\templates\generator_template.js`
+- JS Function: `exportImage()` in file `skills\algorithmic-art\templates\generator_template.js`
+- JS Function: `function()` in file `skills\brainstorming\scripts\helper.js`
+- JS Function: `connect()` in file `skills\brainstorming\scripts\helper.js`
+- JS Function: `onopen()` in file `skills\brainstorming\scripts\helper.js`
+- JS Function: `onmessage()` in file `skills\brainstorming\scripts\helper.js`
+- JS Function: `if()` in file `skills\brainstorming\scripts\helper.js`
+- JS Function: `onclose()` in file `skills\brainstorming\scripts\helper.js`
+- JS Function: `sendEvent()` in file `skills\brainstorming\scripts\helper.js`
+- JS Function: `if()` in file `skills\brainstorming\scripts\helper.js`
+- JS Function: `if()` in file `skills\brainstorming\scripts\helper.js`
+- JS Function: `if()` in file `skills\brainstorming\scripts\helper.js`
+- JS Function: `function()` in file `skills\brainstorming\scripts\helper.js`
+- JS Function: `if()` in file `skills\brainstorming\scripts\helper.js`
+- JS Function: `if()` in file `skills\brainstorming\scripts\helper.js`
+- JS Function: `if()` in file `skills\brainstorming\scripts\index.js`
+- JS Function: `isFullDocument()` in file `skills\brainstorming\scripts\index.js`
+- JS Function: `wrapInFrame()` in file `skills\brainstorming\scripts\index.js`
+- JS Function: `getNewestScreen()` in file `skills\brainstorming\scripts\index.js`
+- JS Function: `if()` in file `skills\brainstorming\scripts\index.js`
+- JS Function: `if()` in file `skills\brainstorming\scripts\index.js`
+- JS Function: `if()` in file `skills\brainstorming\scripts\index.js`
+- JS Function: `if()` in file `skills\brainstorming\scripts\index.js`
+- JS Function: `if()` in file `skills\brainstorming\scripts\index.js`
+- JS Function: `if()` in file `skills\brainstorming\scripts\index.js`
+- JS Function: `if()` in file `skills\brainstorming\scripts\index.js`
+- JS Function: `computeAcceptKey()` in file `skills\brainstorming\scripts\server.cjs`
+- JS Function: `encodeFrame()` in file `skills\brainstorming\scripts\server.cjs`
+- JS Function: `if()` in file `skills\brainstorming\scripts\server.cjs`
+- JS Function: `if()` in file `skills\brainstorming\scripts\server.cjs`
+- JS Function: `decodeFrame()` in file `skills\brainstorming\scripts\server.cjs`
+- JS Function: `if()` in file `skills\brainstorming\scripts\server.cjs`
+- JS Function: `if()` in file `skills\brainstorming\scripts\server.cjs`
+- JS Function: `for()` in file `skills\brainstorming\scripts\server.cjs`
+- JS Function: `isFullDocument()` in file `skills\brainstorming\scripts\server.cjs`
+- JS Function: `wrapInFrame()` in file `skills\brainstorming\scripts\server.cjs`
+- JS Function: `getNewestScreen()` in file `skills\brainstorming\scripts\server.cjs`
+- JS Function: `handleRequest()` in file `skills\brainstorming\scripts\server.cjs`
+- JS Function: `if()` in file `skills\brainstorming\scripts\server.cjs`
+- JS Function: `if()` in file `skills\brainstorming\scripts\server.cjs`
+- JS Function: `if()` in file `skills\brainstorming\scripts\server.cjs`
+- JS Function: `if()` in file `skills\brainstorming\scripts\server.cjs`
+- JS Function: `handleUpgrade()` in file `skills\brainstorming\scripts\server.cjs`
+- JS Function: `if()` in file `skills\brainstorming\scripts\server.cjs`
+- JS Function: `while()` in file `skills\brainstorming\scripts\server.cjs`
+- JS Function: `catch()` in file `skills\brainstorming\scripts\server.cjs`
+- JS Function: `switch()` in file `skills\brainstorming\scripts\server.cjs`
+- JS Function: `handleMessage()` in file `skills\brainstorming\scripts\server.cjs`
+- JS Function: `catch()` in file `skills\brainstorming\scripts\server.cjs`
+- JS Function: `if()` in file `skills\brainstorming\scripts\server.cjs`
+- JS Function: `broadcast()` in file `skills\brainstorming\scripts\server.cjs`
+- JS Function: `for()` in file `skills\brainstorming\scripts\server.cjs`
+- JS Function: `write()` in file `skills\brainstorming\scripts\server.cjs`
+- JS Function: `touchActivity()` in file `skills\brainstorming\scripts\server.cjs`
+- JS Function: `startServer()` in file `skills\brainstorming\scripts\server.cjs`
+- JS Function: `if()` in file `skills\brainstorming\scripts\server.cjs`
+- JS Function: `shutdown()` in file `skills\brainstorming\scripts\server.cjs`
+- JS Function: `ownerAlive()` in file `skills\brainstorming\scripts\server.cjs`
+- JS Function: `kill()` in file `skills\brainstorming\scripts\server.cjs`
+- JS Function: `if()` in file `skills\brainstorming\scripts\server.cjs`
+- JS Function: `catch()` in file `skills\brainstorming\scripts\server.cjs`
+- JS Function: `if()` in file `skills\brainstorming\scripts\server.cjs`
+- JS Function: `if()` in file `skills\brainstorming\scripts\server.cjs`
+- JS Function: `computeAcceptKey()` in file `skills\brainstorming\scripts\server.js`
+- JS Function: `encodeFrame()` in file `skills\brainstorming\scripts\server.js`
+- JS Function: `if()` in file `skills\brainstorming\scripts\server.js`
+- JS Function: `if()` in file `skills\brainstorming\scripts\server.js`
+- JS Function: `decodeFrame()` in file `skills\brainstorming\scripts\server.js`
+- JS Function: `if()` in file `skills\brainstorming\scripts\server.js`
+- JS Function: `if()` in file `skills\brainstorming\scripts\server.js`
+- JS Function: `for()` in file `skills\brainstorming\scripts\server.js`
+- JS Function: `isFullDocument()` in file `skills\brainstorming\scripts\server.js`
+- JS Function: `wrapInFrame()` in file `skills\brainstorming\scripts\server.js`
+- JS Function: `getNewestScreen()` in file `skills\brainstorming\scripts\server.js`
+- JS Function: `handleRequest()` in file `skills\brainstorming\scripts\server.js`
+- JS Function: `if()` in file `skills\brainstorming\scripts\server.js`
+- JS Function: `if()` in file `skills\brainstorming\scripts\server.js`
+- JS Function: `if()` in file `skills\brainstorming\scripts\server.js`
+- JS Function: `if()` in file `skills\brainstorming\scripts\server.js`
+- JS Function: `handleUpgrade()` in file `skills\brainstorming\scripts\server.js`
+- JS Function: `if()` in file `skills\brainstorming\scripts\server.js`
+- JS Function: `while()` in file `skills\brainstorming\scripts\server.js`
+- JS Function: `catch()` in file `skills\brainstorming\scripts\server.js`
+- JS Function: `switch()` in file `skills\brainstorming\scripts\server.js`
+- JS Function: `handleMessage()` in file `skills\brainstorming\scripts\server.js`
+- JS Function: `catch()` in file `skills\brainstorming\scripts\server.js`
+- JS Function: `if()` in file `skills\brainstorming\scripts\server.js`
+- JS Function: `broadcast()` in file `skills\brainstorming\scripts\server.js`
+- JS Function: `for()` in file `skills\brainstorming\scripts\server.js`
+- JS Function: `write()` in file `skills\brainstorming\scripts\server.js`
+- JS Function: `touchActivity()` in file `skills\brainstorming\scripts\server.js`
+- JS Function: `startServer()` in file `skills\brainstorming\scripts\server.js`
+- JS Function: `if()` in file `skills\brainstorming\scripts\server.js`
+- JS Function: `shutdown()` in file `skills\brainstorming\scripts\server.js`
+- JS Function: `ownerAlive()` in file `skills\brainstorming\scripts\server.js`
+- JS Function: `kill()` in file `skills\brainstorming\scripts\server.js`
+- JS Function: `if()` in file `skills\brainstorming\scripts\server.js`
+- Python Function: `check(name, fn)` in file `skills\chdb-datastore\scripts\verify_install.py`
+- Python Function: `check_python_version()` in file `skills\chdb-datastore\scripts\verify_install.py`
+- Python Function: `check_chdb_import()` in file `skills\chdb-datastore\scripts\verify_install.py`
+- Python Function: `check_datastore_import_from_datastore()` in file `skills\chdb-datastore\scripts\verify_install.py`
+- Python Function: `check_datastore_import_from_chdb()` in file `skills\chdb-datastore\scripts\verify_install.py`
+- Python Function: `check_datastore_as_pd()` in file `skills\chdb-datastore\scripts\verify_install.py`
+- Python Function: `check_basic_operations()` in file `skills\chdb-datastore\scripts\verify_install.py`
+- Python Function: `check_sort()` in file `skills\chdb-datastore\scripts\verify_install.py`
+- Python Function: `check_groupby()` in file `skills\chdb-datastore\scripts\verify_install.py`
+- Python Function: `check(name, fn)` in file `skills\chdb-sql\scripts\verify_install.py`
+- Python Function: `check_python_version()` in file `skills\chdb-sql\scripts\verify_install.py`
+- Python Function: `check_chdb_import()` in file `skills\chdb-sql\scripts\verify_install.py`
+- Python Function: `check_basic_query()` in file `skills\chdb-sql\scripts\verify_install.py`
+- Python Function: `check_dataframe_output()` in file `skills\chdb-sql\scripts\verify_install.py`
+- Python Function: `check_session()` in file `skills\chdb-sql\scripts\verify_install.py`
+- Python Function: `check_parametrized()` in file `skills\chdb-sql\scripts\verify_install.py`
+- JS Function: `leb()` in file `skills\clickhouse-js-node-rowbinary\tests\wasm-int128.experiment.mjs`
+- JS Function: `str()` in file `skills\clickhouse-js-node-rowbinary\tests\wasm-int128.experiment.mjs`
+- JS Function: `section()` in file `skills\clickhouse-js-node-rowbinary\tests\wasm-int128.experiment.mjs`
+- JS Function: `ms()` in file `skills\clickhouse-js-node-rowbinary\tests\wasm-int128.experiment.mjs`
+- JS Function: `gbs()` in file `skills\clickhouse-js-node-rowbinary\tests\wasm-int128.experiment.mjs`
+- JS Function: `for()` in file `skills\clickhouse-js-node-rowbinary\tests\wasm-int128.experiment.mjs`
+- JS Function: `for()` in file `skills\clickhouse-js-node-rowbinary\tests\wasm-int128.experiment.mjs`
+- JS Function: `for()` in file `skills\clickhouse-js-node-rowbinary\tests\wasm-int128.experiment.mjs`
+- JS Function: `row()` in file `skills\clickhouse-js-node-rowbinary\tests\wasm-int128.experiment.mjs`
+- Python Function: `login(user, password)` in file `skills\context-fundamentals\scripts\context_manager.py`
+- JS Function: `setupNodeEvents()` in file `skills\cypress-skill\templates\cypress.config.js`
+- Python Function: `generate_scan(target_dir)` in file `skills\deep-code-scan\scripts\deep_scan.py`
+- Python Function: `main()` in file `skills\docx\ooxml\scripts\pack.py`
+- Python Function: `pack_document(input_dir, output_file, validate=False)` in file `skills\docx\ooxml\scripts\pack.py`
+- Python Function: `validate_document(doc_path)` in file `skills\docx\ooxml\scripts\pack.py`
+- Python Function: `condense_xml(xml_file)` in file `skills\docx\ooxml\scripts\pack.py`
+- Python Function: `main()` in file `skills\docx\ooxml\scripts\validate.py`
+- Python Function: `__init__(self, unpacked_dir, original_file, verbose=False)` in file `skills\docx\ooxml\scripts\validation\base.py`
+- Python Function: `validate(self)` in file `skills\docx\ooxml\scripts\validation\base.py`
+- Python Function: `validate_xml(self)` in file `skills\docx\ooxml\scripts\validation\base.py`
+- Python Function: `validate_namespaces(self)` in file `skills\docx\ooxml\scripts\validation\base.py`
+- Python Function: `validate_unique_ids(self)` in file `skills\docx\ooxml\scripts\validation\base.py`
+- Python Function: `validate_file_references(self)` in file `skills\docx\ooxml\scripts\validation\base.py`
+- Python Function: `validate_all_relationship_ids(self)` in file `skills\docx\ooxml\scripts\validation\base.py`
+- Python Function: `_get_expected_relationship_type(self, element_name)` in file `skills\docx\ooxml\scripts\validation\base.py`
+- Python Function: `validate_content_types(self)` in file `skills\docx\ooxml\scripts\validation\base.py`
+- Python Function: `validate_file_against_xsd(self, xml_file, verbose=False)` in file `skills\docx\ooxml\scripts\validation\base.py`
+- Python Function: `validate_against_xsd(self)` in file `skills\docx\ooxml\scripts\validation\base.py`
+- Python Function: `_get_schema_path(self, xml_file)` in file `skills\docx\ooxml\scripts\validation\base.py`
+- Python Function: `_clean_ignorable_namespaces(self, xml_doc)` in file `skills\docx\ooxml\scripts\validation\base.py`
+- Python Function: `_remove_ignorable_elements(self, root)` in file `skills\docx\ooxml\scripts\validation\base.py`
+- Python Function: `_preprocess_for_mc_ignorable(self, xml_doc)` in file `skills\docx\ooxml\scripts\validation\base.py`
+- Python Function: `_validate_single_file_xsd(self, xml_file, base_path)` in file `skills\docx\ooxml\scripts\validation\base.py`
+- Python Function: `_get_original_file_errors(self, xml_file)` in file `skills\docx\ooxml\scripts\validation\base.py`
+- Python Function: `_remove_template_tags_from_text_nodes(self, xml_doc)` in file `skills\docx\ooxml\scripts\validation\base.py`
+- Python Function: `process_text_content(text, content_type)` in file `skills\docx\ooxml\scripts\validation\base.py`
+- Python Function: `validate(self)` in file `skills\docx\ooxml\scripts\validation\docx.py`
+- Python Function: `validate_whitespace_preservation(self)` in file `skills\docx\ooxml\scripts\validation\docx.py`
+- Python Function: `validate_deletions(self)` in file `skills\docx\ooxml\scripts\validation\docx.py`
+- Python Function: `count_paragraphs_in_unpacked(self)` in file `skills\docx\ooxml\scripts\validation\docx.py`
+- Python Function: `count_paragraphs_in_original(self)` in file `skills\docx\ooxml\scripts\validation\docx.py`
+- Python Function: `validate_insertions(self)` in file `skills\docx\ooxml\scripts\validation\docx.py`
+- Python Function: `compare_paragraph_counts(self)` in file `skills\docx\ooxml\scripts\validation\docx.py`
+- Python Function: `validate(self)` in file `skills\docx\ooxml\scripts\validation\pptx.py`
+- Python Function: `validate_uuid_ids(self)` in file `skills\docx\ooxml\scripts\validation\pptx.py`
+- Python Function: `_looks_like_uuid(self, value)` in file `skills\docx\ooxml\scripts\validation\pptx.py`
+- Python Function: `validate_slide_layout_ids(self)` in file `skills\docx\ooxml\scripts\validation\pptx.py`
+- Python Function: `validate_no_duplicate_slide_layouts(self)` in file `skills\docx\ooxml\scripts\validation\pptx.py`
+- Python Function: `validate_notes_slide_references(self)` in file `skills\docx\ooxml\scripts\validation\pptx.py`
+- Python Function: `__init__(self, unpacked_dir, original_docx, verbose=False)` in file `skills\docx\ooxml\scripts\validation\redlining.py`
+- Python Function: `validate(self)` in file `skills\docx\ooxml\scripts\validation\redlining.py`
+- Python Function: `_generate_detailed_diff(self, original_text, modified_text)` in file `skills\docx\ooxml\scripts\validation\redlining.py`
+- Python Function: `_get_git_word_diff(self, original_text, modified_text)` in file `skills\docx\ooxml\scripts\validation\redlining.py`
+- Python Function: `_remove_claude_tracked_changes(self, root)` in file `skills\docx\ooxml\scripts\validation\redlining.py`
+- Python Function: `_extract_text_content(self, root)` in file `skills\docx\ooxml\scripts\validation\redlining.py`
+- Python Function: `_get_next_change_id(self)` in file `skills\docx\scripts\document.py`
+- Python Function: `_ensure_w16du_namespace(self)` in file `skills\docx\scripts\document.py`
+- Python Function: `_ensure_w16cex_namespace(self)` in file `skills\docx\scripts\document.py`
+- Python Function: `_ensure_w14_namespace(self)` in file `skills\docx\scripts\document.py`
+- Python Function: `_inject_attributes_to_nodes(self, nodes)` in file `skills\docx\scripts\document.py`
+- Python Function: `is_inside_deletion(elem)` in file `skills\docx\scripts\document.py`
+- Python Function: `add_rsid_to_p(elem)` in file `skills\docx\scripts\document.py`
+- Python Function: `add_rsid_to_r(elem)` in file `skills\docx\scripts\document.py`
+- Python Function: `add_tracked_change_attrs(elem)` in file `skills\docx\scripts\document.py`
+- Python Function: `add_comment_attrs(elem)` in file `skills\docx\scripts\document.py`
+- Python Function: `add_comment_extensible_date(elem)` in file `skills\docx\scripts\document.py`
+- Python Function: `add_xml_space_to_t(elem)` in file `skills\docx\scripts\document.py`
+- Python Function: `replace_node(self, elem, new_content)` in file `skills\docx\scripts\document.py`
+- Python Function: `insert_after(self, elem, xml_content)` in file `skills\docx\scripts\document.py`
+- Python Function: `insert_before(self, elem, xml_content)` in file `skills\docx\scripts\document.py`
+- Python Function: `append_to(self, elem, xml_content)` in file `skills\docx\scripts\document.py`
+- Python Function: `revert_insertion(self, elem)` in file `skills\docx\scripts\document.py`
+- Python Function: `revert_deletion(self, elem)` in file `skills\docx\scripts\document.py`
+- Python Function: `suggest_deletion(self, elem)` in file `skills\docx\scripts\document.py`
+- Python Function: `__del__(self)` in file `skills\docx\scripts\document.py`
+- Python Function: `_get_next_comment_id(self)` in file `skills\docx\scripts\document.py`
+- Python Function: `_load_existing_comments(self)` in file `skills\docx\scripts\document.py`
+- Python Function: `_setup_tracking(self, track_revisions=False)` in file `skills\docx\scripts\document.py`
+- Python Function: `_update_people_xml(self, path)` in file `skills\docx\scripts\document.py`
+- Python Function: `_add_content_type_for_people(self, path)` in file `skills\docx\scripts\document.py`
+- Python Function: `_add_relationship_for_people(self, path)` in file `skills\docx\scripts\document.py`
+- Python Function: `_update_settings(self, path, track_revisions=False)` in file `skills\docx\scripts\document.py`
+- Python Function: `_add_to_comments_extended_xml(self, para_id, parent_para_id)` in file `skills\docx\scripts\document.py`
+- Python Function: `_add_to_comments_ids_xml(self, para_id, durable_id)` in file `skills\docx\scripts\document.py`
+- Python Function: `_add_to_comments_extensible_xml(self, durable_id)` in file `skills\docx\scripts\document.py`
+- Python Function: `_comment_range_start_xml(self, comment_id)` in file `skills\docx\scripts\document.py`
+- Python Function: `_comment_range_end_xml(self, comment_id)` in file `skills\docx\scripts\document.py`
+- Python Function: `_comment_ref_run_xml(self, comment_id)` in file `skills\docx\scripts\document.py`
+- Python Function: `_has_relationship(self, editor, target)` in file `skills\docx\scripts\document.py`
+- Python Function: `_has_override(self, editor, part_name)` in file `skills\docx\scripts\document.py`
+- Python Function: `_has_author(self, editor, author)` in file `skills\docx\scripts\document.py`
+- Python Function: `_add_author_to_people(self, author)` in file `skills\docx\scripts\document.py`
+- Python Function: `_ensure_comment_relationships(self)` in file `skills\docx\scripts\document.py`
+- Python Function: `_ensure_comment_content_types(self)` in file `skills\docx\scripts\document.py`
+- Python Function: `__init__(self, xml_path)` in file `skills\docx\scripts\utilities.py`
+- Python Function: `_get_element_text(self, elem)` in file `skills\docx\scripts\utilities.py`
+- Python Function: `replace_node(self, elem, new_content)` in file `skills\docx\scripts\utilities.py`
+- Python Function: `insert_after(self, elem, xml_content)` in file `skills\docx\scripts\utilities.py`
+- Python Function: `insert_before(self, elem, xml_content)` in file `skills\docx\scripts\utilities.py`
+- Python Function: `append_to(self, elem, xml_content)` in file `skills\docx\scripts\utilities.py`
+- Python Function: `get_next_rid(self)` in file `skills\docx\scripts\utilities.py`
+- Python Function: `save(self)` in file `skills\docx\scripts\utilities.py`
+- Python Function: `_parse_fragment(self, xml_content)` in file `skills\docx\scripts\utilities.py`
+- Python Function: `_create_line_tracking_parser()` in file `skills\docx\scripts\utilities.py`
+- Python Function: `set_content_handler(dom_handler)` in file `skills\docx\scripts\utilities.py`
+- Python Function: `startElementNS(name, tagName, attrs)` in file `skills\docx\scripts\utilities.py`
+- Python Function: `main()` in file `skills\docx\scripts\office\validate.py`
+- Python Function: `traverse(node)` in file `skills\docx\scripts\office\helpers\merge_runs.py`
+- Python Function: `_get_child(parent, tag: str)` in file `skills\docx\scripts\office\helpers\merge_runs.py`
+- Python Function: `_remove_elements(root, tag: str)` in file `skills\docx\scripts\office\helpers\merge_runs.py`
+- Python Function: `_strip_run_rsid_attrs(root)` in file `skills\docx\scripts\office\helpers\merge_runs.py`
+- Python Function: `_first_child_run(container)` in file `skills\docx\scripts\office\helpers\merge_runs.py`
+- Python Function: `_next_element_sibling(node)` in file `skills\docx\scripts\office\helpers\merge_runs.py`
+- Python Function: `_next_sibling_run(node)` in file `skills\docx\scripts\office\helpers\merge_runs.py`
+- Python Function: `_merge_run_content(target, source)` in file `skills\docx\scripts\office\helpers\merge_runs.py`
+- Python Function: `_consolidate_text(run)` in file `skills\docx\scripts\office\helpers\merge_runs.py`
+- Python Function: `_merge_tracked_content(target, source)` in file `skills\docx\scripts\office\helpers\simplify_redlines.py`
+- Python Function: `traverse(node)` in file `skills\docx\scripts\office\helpers\simplify_redlines.py`
+- Python Function: `__init__(self, unpacked_dir, original_file=None, verbose=False)` in file `skills\docx\scripts\office\validators\base.py`
+- Python Function: `validate(self)` in file `skills\docx\scripts\office\validators\base.py`
+- Python Function: `validate_xml(self)` in file `skills\docx\scripts\office\validators\base.py`
+- Python Function: `validate_namespaces(self)` in file `skills\docx\scripts\office\validators\base.py`
+- Python Function: `validate_unique_ids(self)` in file `skills\docx\scripts\office\validators\base.py`
+- Python Function: `validate_file_references(self)` in file `skills\docx\scripts\office\validators\base.py`
+- Python Function: `validate_all_relationship_ids(self)` in file `skills\docx\scripts\office\validators\base.py`
+- Python Function: `_get_expected_relationship_type(self, element_name)` in file `skills\docx\scripts\office\validators\base.py`
+- Python Function: `validate_content_types(self)` in file `skills\docx\scripts\office\validators\base.py`
+- Python Function: `validate_file_against_xsd(self, xml_file, verbose=False)` in file `skills\docx\scripts\office\validators\base.py`
+- Python Function: `validate_against_xsd(self)` in file `skills\docx\scripts\office\validators\base.py`
+- Python Function: `_get_schema_path(self, xml_file)` in file `skills\docx\scripts\office\validators\base.py`
+- Python Function: `_clean_ignorable_namespaces(self, xml_doc)` in file `skills\docx\scripts\office\validators\base.py`
+- Python Function: `_remove_ignorable_elements(self, root)` in file `skills\docx\scripts\office\validators\base.py`
+- Python Function: `_preprocess_for_mc_ignorable(self, xml_doc)` in file `skills\docx\scripts\office\validators\base.py`
+- Python Function: `_validate_single_file_xsd(self, xml_file, base_path)` in file `skills\docx\scripts\office\validators\base.py`
+- Python Function: `_get_original_file_errors(self, xml_file)` in file `skills\docx\scripts\office\validators\base.py`
+- Python Function: `_remove_template_tags_from_text_nodes(self, xml_doc)` in file `skills\docx\scripts\office\validators\base.py`
+- Python Function: `process_text_content(text, content_type)` in file `skills\docx\scripts\office\validators\base.py`
+- Python Function: `validate(self)` in file `skills\docx\scripts\office\validators\docx.py`
+- Python Function: `validate_whitespace_preservation(self)` in file `skills\docx\scripts\office\validators\docx.py`
+- Python Function: `validate_deletions(self)` in file `skills\docx\scripts\office\validators\docx.py`
+- Python Function: `count_paragraphs_in_unpacked(self)` in file `skills\docx\scripts\office\validators\docx.py`
+- Python Function: `count_paragraphs_in_original(self)` in file `skills\docx\scripts\office\validators\docx.py`
+- Python Function: `validate_insertions(self)` in file `skills\docx\scripts\office\validators\docx.py`
+- Python Function: `compare_paragraph_counts(self)` in file `skills\docx\scripts\office\validators\docx.py`
+- Python Function: `validate_id_constraints(self)` in file `skills\docx\scripts\office\validators\docx.py`
+- Python Function: `validate_comment_markers(self)` in file `skills\docx\scripts\office\validators\docx.py`
+- Python Function: `validate(self)` in file `skills\docx\scripts\office\validators\pptx.py`
+- Python Function: `validate_uuid_ids(self)` in file `skills\docx\scripts\office\validators\pptx.py`
+- Python Function: `_looks_like_uuid(self, value)` in file `skills\docx\scripts\office\validators\pptx.py`
+- Python Function: `validate_slide_layout_ids(self)` in file `skills\docx\scripts\office\validators\pptx.py`
+- Python Function: `validate_no_duplicate_slide_layouts(self)` in file `skills\docx\scripts\office\validators\pptx.py`
+- Python Function: `validate_notes_slide_references(self)` in file `skills\docx\scripts\office\validators\pptx.py`
+- Python Function: `__init__(self, unpacked_dir, original_docx, verbose=False, author="Claude")` in file `skills\docx\scripts\office\validators\redlining.py`
+- Python Function: `validate(self)` in file `skills\docx\scripts\office\validators\redlining.py`
+- Python Function: `_generate_detailed_diff(self, original_text, modified_text)` in file `skills\docx\scripts\office\validators\redlining.py`
+- Python Function: `_get_git_word_diff(self, original_text, modified_text)` in file `skills\docx\scripts\office\validators\redlining.py`
+- Python Function: `_remove_author_tracked_changes(self, root)` in file `skills\docx\scripts\office\validators\redlining.py`
+- Python Function: `_extract_text_content(self, root)` in file `skills\docx\scripts\office\validators\redlining.py`
+- Python Function: `get_api_key(args)` in file `skills\gemini-omni-flash-api\scripts\upload_file.py`
+- Python Function: `detect_mime_type(file_path)` in file `skills\gemini-omni-flash-api\scripts\upload_file.py`
+- Python Function: `upload_file(file_path, display_name=None, api_key=None)` in file `skills\gemini-omni-flash-api\scripts\upload_file.py`
+- Python Function: `wait_for_active(file_name, api_key, poll_interval=3, max_attempts=30, backoff_factor=1.5, max_interval=30)` in file `skills\gemini-omni-flash-api\scripts\upload_file.py`
+- Python Function: `main()` in file `skills\gemini-omni-flash-api\scripts\upload_file.py`
+- Python Function: `get_api_key(args)` in file `skills\gemini-omni-flash-api\scripts\video\generate_video.py`
+- Python Function: `is_file_uri(uri)` in file `skills\gemini-omni-flash-api\scripts\video\generate_video.py`
+- Python Function: `normalize_file_uri(uri)` in file `skills\gemini-omni-flash-api\scripts\video\generate_video.py`
+- Python Function: `slugify(text)` in file `skills\gemini-omni-flash-api\scripts\video\generate_video.py`
+- Python Function: `parse_and_validate_duration(value)` in file `skills\gemini-omni-flash-api\scripts\video\generate_video.py`
+- Python Function: `argparse_duration_type(value)` in file `skills\gemini-omni-flash-api\scripts\video\generate_video.py`
+- Python Function: `resolve_or_upload_asset(asset_path, mime_type, api_key, strip_audio=False)` in file `skills\gemini-omni-flash-api\scripts\video\generate_video.py`
+- Python Function: `download_video_file(file_uri, output_path, api_key)` in file `skills\gemini-omni-flash-api\scripts\video\generate_video.py`
+- Python Function: `generate_video(prompt, api_key, model="gemini-omni-flash-preview", aspect_ratio="16:9", duration=None, image_path=None, video_path=None, output_path="output.mp4", strip_audio=False, previous_interaction_id=None)` in file `skills\gemini-omni-flash-api\scripts\video\generate_video.py`
+- Python Function: `run_job(job, api_key)` in file `skills\gemini-omni-flash-api\scripts\video\generate_video.py`
+- Python Function: `main()` in file `skills\gemini-omni-flash-api\scripts\video\generate_video.py`
+- Python Function: `format_size(size_bytes)` in file `skills\gemini-omni-flash-api\scripts\video\inspect_video.py`
+- Python Function: `parse_fps(fps_str)` in file `skills\gemini-omni-flash-api\scripts\video\inspect_video.py`
+- Python Function: `inspect_video(file_path, raw=False)` in file `skills\gemini-omni-flash-api\scripts\video\inspect_video.py`
+- Python Function: `print_terminal_report(info)` in file `skills\gemini-omni-flash-api\scripts\video\inspect_video.py`
+- Python Function: `main()` in file `skills\gemini-omni-flash-api\scripts\video\inspect_video.py`
+- Python Function: `parse_timecode(time_str, total_duration=None)` in file `skills\gemini-omni-flash-api\scripts\video\prep_video.py`
+- Python Function: `prep_video(input_path, output_path, start_time_str=None, duration=10, fps=None, resolution=None, strip_audio=False)` in file `skills\gemini-omni-flash-api\scripts\video\prep_video.py`
+- Python Function: `main()` in file `skills\gemini-omni-flash-api\scripts\video\prep_video.py`
+- JS Function: `readFlag()` in file `skills\hyperexecute-skill\scripts\build-command.js`
+- JS Function: `hasFlag()` in file `skills\hyperexecute-skill\scripts\build-command.js`
+- JS Function: `quote()` in file `skills\hyperexecute-skill\scripts\build-command.js`
+- JS Function: `if()` in file `skills\hyperexecute-skill\scripts\build-command.js`
+- JS Function: `if()` in file `skills\hyperexecute-skill\scripts\build-command.js`
+- JS Function: `if()` in file `skills\hyperexecute-skill\scripts\build-command.js`
+- JS Function: `readFlag()` in file `skills\hyperexecute-skill\scripts\doctor.js`
+- JS Function: `hasFlag()` in file `skills\hyperexecute-skill\scripts\doctor.js`
+- JS Function: `ok()` in file `skills\hyperexecute-skill\scripts\doctor.js`
+- JS Function: `warn()` in file `skills\hyperexecute-skill\scripts\doctor.js`
+- JS Function: `fail()` in file `skills\hyperexecute-skill\scripts\doctor.js`
+- JS Function: `if()` in file `skills\hyperexecute-skill\scripts\doctor.js`
+- JS Function: `if()` in file `skills\hyperexecute-skill\scripts\doctor.js`
+- JS Function: `if()` in file `skills\hyperexecute-skill\scripts\doctor.js`
+- JS Function: `walk()` in file `skills\hyperexecute-skill\scripts\summarize-artifacts.js`
+- JS Function: `for()` in file `skills\hyperexecute-skill\scripts\summarize-artifacts.js`
+- JS Function: `if()` in file `skills\hyperexecute-skill\scripts\summarize-artifacts.js`
+- JS Function: `if()` in file `skills\hyperexecute-skill\scripts\summarize-artifacts.js`
+- JS Function: `if()` in file `skills\hyperexecute-skill\scripts\summarize-artifacts.js`
+- JS Function: `for()` in file `skills\hyperexecute-skill\scripts\summarize-artifacts.js`
+- JS Function: `if()` in file `skills\hyperexecute-skill\scripts\summarize-artifacts.js`
+- JS Function: `fail()` in file `skills\hyperexecute-skill\scripts\validate-config.js`
+- JS Function: `warn()` in file `skills\hyperexecute-skill\scripts\validate-config.js`
+- JS Function: `hasKey()` in file `skills\hyperexecute-skill\scripts\validate-config.js`
+- JS Function: `keyValue()` in file `skills\hyperexecute-skill\scripts\validate-config.js`
+- JS Function: `if()` in file `skills\hyperexecute-skill\scripts\validate-config.js`
+- JS Function: `if()` in file `skills\hyperexecute-skill\scripts\validate-config.js`
+- JS Function: `if()` in file `skills\hyperexecute-skill\scripts\validate-config.js`
+- JS Function: `if()` in file `skills\hyperexecute-skill\scripts\validate-config.js`
+- JS Function: `if()` in file `skills\hyperexecute-skill\scripts\validate-config.js`
+- JS Function: `if()` in file `skills\hyperexecute-skill\scripts\validate-config.js`
+- JS Function: `if()` in file `skills\hyperexecute-skill\scripts\validate-config.js`
+- Python Function: `__init__(self)` in file `skills\mcp-builder\scripts\connections.py`
+- Python Function: `_create_context(self)` in file `skills\mcp-builder\scripts\connections.py`
+- Python Function: `__aenter__(self)` in file `skills\mcp-builder\scripts\connections.py`
+- Python Function: `__aexit__(self, exc_type, exc_val, exc_tb)` in file `skills\mcp-builder\scripts\connections.py`
+- Python Function: `__init__(self, command: str, args: list[str] = None, env: dict[str, str] = None)` in file `skills\mcp-builder\scripts\connections.py`
+- Python Function: `_create_context(self)` in file `skills\mcp-builder\scripts\connections.py`
+- Python Function: `__init__(self, url: str, headers: dict[str, str] = None)` in file `skills\mcp-builder\scripts\connections.py`
+- Python Function: `_create_context(self)` in file `skills\mcp-builder\scripts\connections.py`
+- Python Function: `__init__(self, url: str, headers: dict[str, str] = None)` in file `skills\mcp-builder\scripts\connections.py`
+- Python Function: `_create_context(self)` in file `skills\mcp-builder\scripts\connections.py`
+- Python Function: `main()` in file `skills\mcp-builder\scripts\evaluation.py`
+- Python Function: `main()` in file `skills\notebooklm\scripts\ask_question.py`
+- Python Function: `__init__(self)` in file `skills\notebooklm\scripts\auth_manager.py`
+- Python Function: `_save_browser_state(self, context: BrowserContext)` in file `skills\notebooklm\scripts\auth_manager.py`
+- Python Function: `_save_auth_info(self)` in file `skills\notebooklm\scripts\auth_manager.py`
+- Python Function: `main()` in file `skills\notebooklm\scripts\auth_manager.py`
+- Python Function: `__init__(self, session_id: str, context: BrowserContext, notebook_url: str)` in file `skills\notebooklm\scripts\browser_session.py`
+- Python Function: `_initialize(self)` in file `skills\notebooklm\scripts\browser_session.py`
+- Python Function: `_wait_for_ready(self)` in file `skills\notebooklm\scripts\browser_session.py`
+- Python Function: `reset(self)` in file `skills\notebooklm\scripts\browser_session.py`
+- Python Function: `close(self)` in file `skills\notebooklm\scripts\browser_session.py`
+- Python Function: `_inject_cookies(context: BrowserContext)` in file `skills\notebooklm\scripts\browser_utils.py`
+- Python Function: `random_delay(min_ms: int = 100, max_ms: int = 500)` in file `skills\notebooklm\scripts\browser_utils.py`
+- Python Function: `human_type(page: Page, selector: str, text: str, wpm_min: int = 320, wpm_max: int = 480)` in file `skills\notebooklm\scripts\browser_utils.py`
+- Python Function: `realistic_click(page: Page, selector: str)` in file `skills\notebooklm\scripts\browser_utils.py`
+- Python Function: `__init__(self)` in file `skills\notebooklm\scripts\cleanup_manager.py`
+- Python Function: `print_cleanup_preview(self, preserve_library: bool = False)` in file `skills\notebooklm\scripts\cleanup_manager.py`
+- Python Function: `main()` in file `skills\notebooklm\scripts\cleanup_manager.py`
+- Python Function: `__init__(self)` in file `skills\notebooklm\scripts\notebook_manager.py`
+- Python Function: `_load_library(self)` in file `skills\notebooklm\scripts\notebook_manager.py`
+- Python Function: `_save_library(self)` in file `skills\notebooklm\scripts\notebook_manager.py`
+- Python Function: `main()` in file `skills\notebooklm\scripts\notebook_manager.py`
+- Python Function: `get_venv_python()` in file `skills\notebooklm\scripts\run.py`
+- Python Function: `ensure_venv()` in file `skills\notebooklm\scripts\run.py`
+- Python Function: `main()` in file `skills\notebooklm\scripts\run.py`
+- Python Function: `__init__(self)` in file `skills\notebooklm\scripts\setup_environment.py`
+- Python Function: `main()` in file `skills\notebooklm\scripts\setup_environment.py`
+- Python Function: `ensure_venv_and_run()` in file `skills\notebooklm\scripts\__init__.py`
+- Python Function: `rects_intersect(r1, r2)` in file `skills\pdf\scripts\check_bounding_boxes.py`
+- Python Function: `create_json_stream(self, data)` in file `skills\pdf\scripts\check_bounding_boxes_test.py`
+- Python Function: `test_no_intersections(self)` in file `skills\pdf\scripts\check_bounding_boxes_test.py`
+- Python Function: `test_label_entry_intersection_same_field(self)` in file `skills\pdf\scripts\check_bounding_boxes_test.py`
+- Python Function: `test_intersection_between_different_fields(self)` in file `skills\pdf\scripts\check_bounding_boxes_test.py`
+- Python Function: `test_different_pages_no_intersection(self)` in file `skills\pdf\scripts\check_bounding_boxes_test.py`
+- Python Function: `test_entry_height_too_small(self)` in file `skills\pdf\scripts\check_bounding_boxes_test.py`
+- Python Function: `test_entry_height_adequate(self)` in file `skills\pdf\scripts\check_bounding_boxes_test.py`
+- Python Function: `test_default_font_size(self)` in file `skills\pdf\scripts\check_bounding_boxes_test.py`
+- Python Function: `test_no_entry_text(self)` in file `skills\pdf\scripts\check_bounding_boxes_test.py`
+- Python Function: `test_multiple_errors_limit(self)` in file `skills\pdf\scripts\check_bounding_boxes_test.py`
+- Python Function: `test_edge_touching_boxes(self)` in file `skills\pdf\scripts\check_bounding_boxes_test.py`
+- Python Function: `convert(pdf_path, output_dir, max_dim=1000)` in file `skills\pdf\scripts\convert_pdf_to_images.py`
+- Python Function: `create_validation_image(page_number, fields_json_path, input_path, output_path)` in file `skills\pdf\scripts\create_validation_image.py`
+- Python Function: `get_full_annotation_field_id(annotation)` in file `skills\pdf\scripts\extract_form_field_info.py`
+- Python Function: `make_field_dict(field, field_id)` in file `skills\pdf\scripts\extract_form_field_info.py`
+- Python Function: `get_field_info(reader: PdfReader)` in file `skills\pdf\scripts\extract_form_field_info.py`
+- Python Function: `sort_key(f)` in file `skills\pdf\scripts\extract_form_field_info.py`
+- Python Function: `write_field_info(pdf_path: str, json_output_path: str)` in file `skills\pdf\scripts\extract_form_field_info.py`
+- Python Function: `extract_form_structure(pdf_path)` in file `skills\pdf\scripts\extract_form_structure.py`
+- Python Function: `main()` in file `skills\pdf\scripts\extract_form_structure.py`
+- Python Function: `fill_pdf_fields(input_pdf_path: str, fields_json_path: str, output_pdf_path: str)` in file `skills\pdf\scripts\fill_fillable_fields.py`
+- Python Function: `validation_error_for_field_value(field_info, field_value)` in file `skills\pdf\scripts\fill_fillable_fields.py`
+- Python Function: `monkeypatch_pydpf_method()` in file `skills\pdf\scripts\fill_fillable_fields.py`
+- Python Function: `patched_get_inherited(self, key: str, default = None)` in file `skills\pdf\scripts\fill_fillable_fields.py`
+- Python Function: `transform_from_image_coords(bbox, image_width, image_height, pdf_width, pdf_height)` in file `skills\pdf\scripts\fill_pdf_form_with_annotations.py`
+- Python Function: `transform_from_pdf_coords(bbox, pdf_height)` in file `skills\pdf\scripts\fill_pdf_form_with_annotations.py`
+- Python Function: `fill_pdf_form(input_pdf_path, fields_json_path, output_pdf_path)` in file `skills\pdf\scripts\fill_pdf_form_with_annotations.py`
+- Python Function: `main()` in file `skills\planning-with-files\scripts\session-catchup.py`
+- Python Function: `main()` in file `skills\playwright-skill\scripts\validate-config.py`
+- Python Function: `main()` in file `skills\pptx\ooxml\scripts\pack.py`
+- Python Function: `pack_document(input_dir, output_file, validate=False)` in file `skills\pptx\ooxml\scripts\pack.py`
+- Python Function: `validate_document(doc_path)` in file `skills\pptx\ooxml\scripts\pack.py`
+- Python Function: `condense_xml(xml_file)` in file `skills\pptx\ooxml\scripts\pack.py`
+- Python Function: `main()` in file `skills\pptx\ooxml\scripts\validate.py`
+- Python Function: `__init__(self, unpacked_dir, original_file, verbose=False)` in file `skills\pptx\ooxml\scripts\validation\base.py`
+- Python Function: `validate(self)` in file `skills\pptx\ooxml\scripts\validation\base.py`
+- Python Function: `validate_xml(self)` in file `skills\pptx\ooxml\scripts\validation\base.py`
+- Python Function: `validate_namespaces(self)` in file `skills\pptx\ooxml\scripts\validation\base.py`
+- Python Function: `validate_unique_ids(self)` in file `skills\pptx\ooxml\scripts\validation\base.py`
+- Python Function: `validate_file_references(self)` in file `skills\pptx\ooxml\scripts\validation\base.py`
+- Python Function: `validate_all_relationship_ids(self)` in file `skills\pptx\ooxml\scripts\validation\base.py`
+- Python Function: `_get_expected_relationship_type(self, element_name)` in file `skills\pptx\ooxml\scripts\validation\base.py`
+- Python Function: `validate_content_types(self)` in file `skills\pptx\ooxml\scripts\validation\base.py`
+- Python Function: `validate_file_against_xsd(self, xml_file, verbose=False)` in file `skills\pptx\ooxml\scripts\validation\base.py`
+- Python Function: `validate_against_xsd(self)` in file `skills\pptx\ooxml\scripts\validation\base.py`
+- Python Function: `_get_schema_path(self, xml_file)` in file `skills\pptx\ooxml\scripts\validation\base.py`
+- Python Function: `_clean_ignorable_namespaces(self, xml_doc)` in file `skills\pptx\ooxml\scripts\validation\base.py`
+- Python Function: `_remove_ignorable_elements(self, root)` in file `skills\pptx\ooxml\scripts\validation\base.py`
+- Python Function: `_preprocess_for_mc_ignorable(self, xml_doc)` in file `skills\pptx\ooxml\scripts\validation\base.py`
+- Python Function: `_validate_single_file_xsd(self, xml_file, base_path)` in file `skills\pptx\ooxml\scripts\validation\base.py`
+- Python Function: `_get_original_file_errors(self, xml_file)` in file `skills\pptx\ooxml\scripts\validation\base.py`
+- Python Function: `_remove_template_tags_from_text_nodes(self, xml_doc)` in file `skills\pptx\ooxml\scripts\validation\base.py`
+- Python Function: `process_text_content(text, content_type)` in file `skills\pptx\ooxml\scripts\validation\base.py`
+- Python Function: `validate(self)` in file `skills\pptx\ooxml\scripts\validation\docx.py`
+- Python Function: `validate_whitespace_preservation(self)` in file `skills\pptx\ooxml\scripts\validation\docx.py`
+- Python Function: `validate_deletions(self)` in file `skills\pptx\ooxml\scripts\validation\docx.py`
+- Python Function: `count_paragraphs_in_unpacked(self)` in file `skills\pptx\ooxml\scripts\validation\docx.py`
+- Python Function: `count_paragraphs_in_original(self)` in file `skills\pptx\ooxml\scripts\validation\docx.py`
+- Python Function: `validate_insertions(self)` in file `skills\pptx\ooxml\scripts\validation\docx.py`
+- Python Function: `compare_paragraph_counts(self)` in file `skills\pptx\ooxml\scripts\validation\docx.py`
+- Python Function: `validate(self)` in file `skills\pptx\ooxml\scripts\validation\pptx.py`
+- Python Function: `validate_uuid_ids(self)` in file `skills\pptx\ooxml\scripts\validation\pptx.py`
+- Python Function: `_looks_like_uuid(self, value)` in file `skills\pptx\ooxml\scripts\validation\pptx.py`
+- Python Function: `validate_slide_layout_ids(self)` in file `skills\pptx\ooxml\scripts\validation\pptx.py`
+- Python Function: `validate_no_duplicate_slide_layouts(self)` in file `skills\pptx\ooxml\scripts\validation\pptx.py`
+- Python Function: `validate_notes_slide_references(self)` in file `skills\pptx\ooxml\scripts\validation\pptx.py`
+- Python Function: `__init__(self, unpacked_dir, original_docx, verbose=False)` in file `skills\pptx\ooxml\scripts\validation\redlining.py`
+- Python Function: `validate(self)` in file `skills\pptx\ooxml\scripts\validation\redlining.py`
+- Python Function: `_generate_detailed_diff(self, original_text, modified_text)` in file `skills\pptx\ooxml\scripts\validation\redlining.py`
+- Python Function: `_get_git_word_diff(self, original_text, modified_text)` in file `skills\pptx\ooxml\scripts\validation\redlining.py`
+- Python Function: `_remove_claude_tracked_changes(self, root)` in file `skills\pptx\ooxml\scripts\validation\redlining.py`
+- Python Function: `_extract_text_content(self, root)` in file `skills\pptx\ooxml\scripts\validation\redlining.py`
+- JS Function: `getBodyDimensions()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `if()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `validateDimensions()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `if()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `if()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `validateTextBoxPosition()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `for()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `if()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `if()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `getText()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `addBackground()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `if()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `if()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `addElements()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `for()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `if()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `if()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `if()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `if()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `if()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `if()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `if()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `if()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `extractSlideData()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `shouldSkipBold()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `pxToInch()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `pxToPoints()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `rgbToHex()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `extractAlpha()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `applyTextTransform()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `if()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `getRotation()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `if()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `if()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `if()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `const()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `if()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `if()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `getPositionAndSize()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `if()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `if()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `parseBoxShadow()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `if()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `if()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `if()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `parseInlineFormatting()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `if()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `if()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `if()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `if()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `if()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `if()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `textTransform()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `if()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `if()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `if()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `if()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `if()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `if()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `if()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `if()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `if()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `if()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `if()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `if()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `if()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `if()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `if()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `for()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `if()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `if()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `if()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `if()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `if()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `if()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `if()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `if()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `if()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `if()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `if()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `if()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `if()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `if()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `if()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `if()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `if()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `if()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `if()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `html2pptx()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `if()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `if()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `if()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `if()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `if()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `if()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `catch()` in file `skills\pptx\scripts\html2pptx.js`
+- JS Function: `if()` in file `skills\pptx\scripts\html2pptx.js`
+- Python Function: `main()` in file `skills\pptx\scripts\inventory.py`
+- Python Function: `__init__(self, paragraph: Any)` in file `skills\pptx\scripts\inventory.py`
+- Python Function: `main()` in file `skills\pptx\scripts\rearrange.py`
+- Python Function: `duplicate_slide(pres, index)` in file `skills\pptx\scripts\rearrange.py`
+- Python Function: `delete_slide(pres, index)` in file `skills\pptx\scripts\rearrange.py`
+- Python Function: `reorder_slides(pres, slide_index, target_index)` in file `skills\pptx\scripts\rearrange.py`
+- Python Function: `rearrange_presentation(template_path, output_path, slide_sequence)` in file `skills\pptx\scripts\rearrange.py`
+- Python Function: `clear_paragraph_bullets(paragraph)` in file `skills\pptx\scripts\replace.py`
+- Python Function: `apply_paragraph_properties(paragraph, para_data: Dict[str, Any])` in file `skills\pptx\scripts\replace.py`
+- Python Function: `apply_font_properties(run, para_data: Dict[str, Any])` in file `skills\pptx\scripts\replace.py`
+- Python Function: `check_duplicate_keys(pairs)` in file `skills\pptx\scripts\replace.py`
+- Python Function: `apply_replacements(pptx_file: str, json_file: str, output_file: str)` in file `skills\pptx\scripts\replace.py`
+- Python Function: `main()` in file `skills\pptx\scripts\replace.py`
+- Python Function: `main()` in file `skills\pptx\scripts\thumbnail.py`
+- Python Function: `main()` in file `skills\pptx\scripts\office\validate.py`
+- Python Function: `traverse(node)` in file `skills\pptx\scripts\office\helpers\merge_runs.py`
+- Python Function: `_get_child(parent, tag: str)` in file `skills\pptx\scripts\office\helpers\merge_runs.py`
+- Python Function: `_remove_elements(root, tag: str)` in file `skills\pptx\scripts\office\helpers\merge_runs.py`
+- Python Function: `_strip_run_rsid_attrs(root)` in file `skills\pptx\scripts\office\helpers\merge_runs.py`
+- Python Function: `_first_child_run(container)` in file `skills\pptx\scripts\office\helpers\merge_runs.py`
+- Python Function: `_next_element_sibling(node)` in file `skills\pptx\scripts\office\helpers\merge_runs.py`
+- Python Function: `_next_sibling_run(node)` in file `skills\pptx\scripts\office\helpers\merge_runs.py`
+- Python Function: `_merge_run_content(target, source)` in file `skills\pptx\scripts\office\helpers\merge_runs.py`
+- Python Function: `_consolidate_text(run)` in file `skills\pptx\scripts\office\helpers\merge_runs.py`
+- Python Function: `_merge_tracked_content(target, source)` in file `skills\pptx\scripts\office\helpers\simplify_redlines.py`
+- Python Function: `traverse(node)` in file `skills\pptx\scripts\office\helpers\simplify_redlines.py`
+- Python Function: `__init__(self, unpacked_dir, original_file=None, verbose=False)` in file `skills\pptx\scripts\office\validators\base.py`
+- Python Function: `validate(self)` in file `skills\pptx\scripts\office\validators\base.py`
+- Python Function: `validate_xml(self)` in file `skills\pptx\scripts\office\validators\base.py`
+- Python Function: `validate_namespaces(self)` in file `skills\pptx\scripts\office\validators\base.py`
+- Python Function: `validate_unique_ids(self)` in file `skills\pptx\scripts\office\validators\base.py`
+- Python Function: `validate_file_references(self)` in file `skills\pptx\scripts\office\validators\base.py`
+- Python Function: `validate_all_relationship_ids(self)` in file `skills\pptx\scripts\office\validators\base.py`
+- Python Function: `_get_expected_relationship_type(self, element_name)` in file `skills\pptx\scripts\office\validators\base.py`
+- Python Function: `validate_content_types(self)` in file `skills\pptx\scripts\office\validators\base.py`
+- Python Function: `validate_file_against_xsd(self, xml_file, verbose=False)` in file `skills\pptx\scripts\office\validators\base.py`
+- Python Function: `validate_against_xsd(self)` in file `skills\pptx\scripts\office\validators\base.py`
+- Python Function: `_get_schema_path(self, xml_file)` in file `skills\pptx\scripts\office\validators\base.py`
+- Python Function: `_clean_ignorable_namespaces(self, xml_doc)` in file `skills\pptx\scripts\office\validators\base.py`
+- Python Function: `_remove_ignorable_elements(self, root)` in file `skills\pptx\scripts\office\validators\base.py`
+- Python Function: `_preprocess_for_mc_ignorable(self, xml_doc)` in file `skills\pptx\scripts\office\validators\base.py`
+- Python Function: `_validate_single_file_xsd(self, xml_file, base_path)` in file `skills\pptx\scripts\office\validators\base.py`
+- Python Function: `_get_original_file_errors(self, xml_file)` in file `skills\pptx\scripts\office\validators\base.py`
+- Python Function: `_remove_template_tags_from_text_nodes(self, xml_doc)` in file `skills\pptx\scripts\office\validators\base.py`
+- Python Function: `process_text_content(text, content_type)` in file `skills\pptx\scripts\office\validators\base.py`
+- Python Function: `validate(self)` in file `skills\pptx\scripts\office\validators\docx.py`
+- Python Function: `validate_whitespace_preservation(self)` in file `skills\pptx\scripts\office\validators\docx.py`
+- Python Function: `validate_deletions(self)` in file `skills\pptx\scripts\office\validators\docx.py`
+- Python Function: `count_paragraphs_in_unpacked(self)` in file `skills\pptx\scripts\office\validators\docx.py`
+- Python Function: `count_paragraphs_in_original(self)` in file `skills\pptx\scripts\office\validators\docx.py`
+- Python Function: `validate_insertions(self)` in file `skills\pptx\scripts\office\validators\docx.py`
+- Python Function: `compare_paragraph_counts(self)` in file `skills\pptx\scripts\office\validators\docx.py`
+- Python Function: `validate_id_constraints(self)` in file `skills\pptx\scripts\office\validators\docx.py`
+- Python Function: `validate_comment_markers(self)` in file `skills\pptx\scripts\office\validators\docx.py`
+- Python Function: `validate(self)` in file `skills\pptx\scripts\office\validators\pptx.py`
+- Python Function: `validate_uuid_ids(self)` in file `skills\pptx\scripts\office\validators\pptx.py`
+- Python Function: `_looks_like_uuid(self, value)` in file `skills\pptx\scripts\office\validators\pptx.py`
+- Python Function: `validate_slide_layout_ids(self)` in file `skills\pptx\scripts\office\validators\pptx.py`
+- Python Function: `validate_no_duplicate_slide_layouts(self)` in file `skills\pptx\scripts\office\validators\pptx.py`
+- Python Function: `validate_notes_slide_references(self)` in file `skills\pptx\scripts\office\validators\pptx.py`
+- Python Function: `__init__(self, unpacked_dir, original_docx, verbose=False, author="Claude")` in file `skills\pptx\scripts\office\validators\redlining.py`
+- Python Function: `validate(self)` in file `skills\pptx\scripts\office\validators\redlining.py`
+- Python Function: `_generate_detailed_diff(self, original_text, modified_text)` in file `skills\pptx\scripts\office\validators\redlining.py`
+- Python Function: `_get_git_word_diff(self, original_text, modified_text)` in file `skills\pptx\scripts\office\validators\redlining.py`
+- Python Function: `_remove_author_tracked_changes(self, root)` in file `skills\pptx\scripts\office\validators\redlining.py`
+- Python Function: `_extract_text_content(self, root)` in file `skills\pptx\scripts\office\validators\redlining.py`
+- Python Function: `main()` in file `skills\skill-creator\scripts\aggregate_benchmark.py`
+- Python Function: `main()` in file `skills\skill-creator\scripts\generate_report.py`
+- Python Function: `main()` in file `skills\skill-creator\scripts\improve_description.py`
+- Python Function: `main()` in file `skills\skill-creator\scripts\init_skill.py`
+- Python Function: `title_case_skill_name(skill_name)` in file `skills\skill-creator\scripts\init_skill.py`
+- Python Function: `init_skill(skill_name, path)` in file `skills\skill-creator\scripts\init_skill.py`
+- Python Function: `main()` in file `skills\skill-creator\scripts\init_skill.py`
+- Python Function: `package_skill(skill_path, output_dir=None)` in file `skills\skill-creator\scripts\package_skill.py`
+- Python Function: `main()` in file `skills\skill-creator\scripts\package_skill.py`
+- Python Function: `validate_skill(skill_path)` in file `skills\skill-creator\scripts\quick_validate.py`
+- Python Function: `main()` in file `skills\skill-creator\scripts\run_eval.py`
+- Python Function: `print_eval_stats(label, results, elapsed)` in file `skills\skill-creator\scripts\run_loop.py`
+- Python Function: `main()` in file `skills\skill-creator\scripts\run_loop.py`
+- Python Function: `get_easing(name: str = "linear")` in file `skills\slack-gif-creator\core\easing.py`
+- Python Function: `__init__(self, width: int = 480, height: int = 480, fps: int = 15)` in file `skills\slack-gif-creator\core\gif_builder.py`
+- Python Function: `add_frame(self, frame: np.ndarray | Image.Image)` in file `skills\slack-gif-creator\core\gif_builder.py`
+- Python Function: `add_frames(self, frames: list[np.ndarray | Image.Image])` in file `skills\slack-gif-creator\core\gif_builder.py`
+- Python Function: `clear(self)` in file `skills\slack-gif-creator\core\gif_builder.py`
+- JS Function: `normalizeApiBase()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `output()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `error()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `readConfigFile()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `getApiKey()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `getDefaultSocialSetId()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `formatSocialSetsForDisplay()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `requireSocialSetId()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `resolveDraftTarget()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `requireApiKey()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `authenticationFailureDetails()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `errorIfAuthenticationFailure()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `extractGlobalArgs()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `for()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `extractApiErrorMessage()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `for()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `apiRequest()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `parseArgs()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `while()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `coerceFlagValueToString()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `pushStringFlag()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `getQuotePostUrlFromParsed()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `addQuotePostUrl()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `sanitizePostForPlatform()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `for()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `getXContentDisclosuresFromParsed()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `addXContentDisclosures()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `validateXOnlyPostOptions()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `hasParsedArg()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `parsePlatformList()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `hasXArticleDraftFlags()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `validateXArticlePlatformUsage()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `for()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `buildXArticlePlatformConfig()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `getPostTextFromParsed()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `parseCsvArg()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `getSocialSetIdFromParsed()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `getRequiredStringArgFromParsed()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `for()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `getOptionalStringArgFromParsed()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `for()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `resolveSocialSetIdFromParsed()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `resolveDraftTargetFromParsed()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `splitThreadText()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `getContentType()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `sleep()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `sanitizeFilename()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `cmdMeGet()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `cmdSocialSetsList()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `cmdSocialSetsGet()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `cmdLinkedInOrganizationsResolve()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `cmdAnalyticsPostsList()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `cmdAnalyticsFollowersGet()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `prompt()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `writeConfig()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `cmdSetup()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `catch()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `catch()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `cmdConfigShow()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `cmdConfigSetDefault()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `catch()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `cmdDraftsList()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `cmdDraftsGet()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `getFirstConnectedPlatform()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `for()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `getAllConnectedPlatforms()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `for()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `cmdDraftsCreate()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `for()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `cmdDraftsUpdate()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `for()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `for()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `cmdCreateDraftAlias()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `cmdUpdateDraftAlias()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `cmdDraftsDelete()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `cmdDraftsSchedule()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `cmdDraftsPublish()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `requireDraftIdPositional()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `requireThreadPositional()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `requireCommentPositional()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `cmdCommentsList()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `cmdCommentsCreate()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `cmdCommentsReply()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `cmdCommentsResolve()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `cmdCommentsUpdate()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `cmdCommentsDelete()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `cmdQueueGet()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `cmdQueueScheduleGet()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `cmdQueueSchedulePut()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `cmdTagsList()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `cmdTagsCreate()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `cmdMediaUpload()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `pollIntervalMs()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `while()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `cmdMediaStatus()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `showHelp()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `main()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `catch()` in file `skills\typefully\scripts\typefully.js`
+- JS Function: `if()` in file `skills\typefully\scripts\typefully.js`
+- Python Function: `__init__(self, k1=1.5, b=0.75)` in file `skills\ui-ux-pro-max\scripts\core.py`
+- Python Function: `tokenize(self, text)` in file `skills\ui-ux-pro-max\scripts\core.py`
+- Python Function: `fit(self, documents)` in file `skills\ui-ux-pro-max\scripts\core.py`
+- Python Function: `score(self, query)` in file `skills\ui-ux-pro-max\scripts\core.py`
+- Python Function: `_load_csv(filepath)` in file `skills\ui-ux-pro-max\scripts\core.py`
+- Python Function: `_search_csv(filepath, search_cols, output_cols, query, max_results)` in file `skills\ui-ux-pro-max\scripts\core.py`
+- Python Function: `detect_domain(query)` in file `skills\ui-ux-pro-max\scripts\core.py`
+- Python Function: `search(query, domain=None, max_results=MAX_RESULTS)` in file `skills\ui-ux-pro-max\scripts\core.py`
+- Python Function: `search_stack(query, stack, max_results=MAX_RESULTS)` in file `skills\ui-ux-pro-max\scripts\core.py`
+- Python Function: `format_output(result)` in file `skills\ui-ux-pro-max\scripts\search.py`
+- Python Function: `is_server_ready(port, timeout=30)` in file `skills\webapp-testing\scripts\with_server.py`
+- Python Function: `main()` in file `skills\webapp-testing\scripts\with_server.py`
+- JS Function: `extractDotBlocks()` in file `skills\writing-skills\render-graphs.js`
+- JS Function: `while()` in file `skills\writing-skills\render-graphs.js`
+- JS Function: `extractGraphBody()` in file `skills\writing-skills\render-graphs.js`
+- JS Function: `combineGraphs()` in file `skills\writing-skills\render-graphs.js`
+- JS Function: `renderToSvg()` in file `skills\writing-skills\render-graphs.js`
+- JS Function: `catch()` in file `skills\writing-skills\render-graphs.js`
+- JS Function: `main()` in file `skills\writing-skills\render-graphs.js`
+- JS Function: `if()` in file `skills\writing-skills\render-graphs.js`
+- JS Function: `if()` in file `skills\writing-skills\render-graphs.js`
+- JS Function: `if()` in file `skills\writing-skills\render-graphs.js`
+- JS Function: `if()` in file `skills\writing-skills\render-graphs.js`
+- JS Function: `if()` in file `skills\writing-skills\render-graphs.js`
+- JS Function: `if()` in file `skills\writing-skills\render-graphs.js`
+- JS Function: `for()` in file `skills\writing-skills\render-graphs.js`
+- JS Function: `if()` in file `skills\writing-skills\render-graphs.js`
+- Python Function: `setup_libreoffice_macro()` in file `skills\xlsx\recalc.py`
+- Python Function: `recalc(filename, timeout=30)` in file `skills\xlsx\recalc.py`
+- Python Function: `main()` in file `skills\xlsx\recalc.py`
+- Python Function: `has_gtimeout()` in file `skills\xlsx\scripts\recalc.py`
+- Python Function: `setup_libreoffice_macro()` in file `skills\xlsx\scripts\recalc.py`
+- Python Function: `recalc(filename, timeout=30)` in file `skills\xlsx\scripts\recalc.py`
+- Python Function: `main()` in file `skills\xlsx\scripts\recalc.py`
+- Python Function: `main()` in file `skills\xlsx\scripts\office\validate.py`
+- Python Function: `traverse(node)` in file `skills\xlsx\scripts\office\helpers\merge_runs.py`
+- Python Function: `_get_child(parent, tag: str)` in file `skills\xlsx\scripts\office\helpers\merge_runs.py`
+- Python Function: `_remove_elements(root, tag: str)` in file `skills\xlsx\scripts\office\helpers\merge_runs.py`
+- Python Function: `_strip_run_rsid_attrs(root)` in file `skills\xlsx\scripts\office\helpers\merge_runs.py`
+- Python Function: `_first_child_run(container)` in file `skills\xlsx\scripts\office\helpers\merge_runs.py`
+- Python Function: `_next_element_sibling(node)` in file `skills\xlsx\scripts\office\helpers\merge_runs.py`
+- Python Function: `_next_sibling_run(node)` in file `skills\xlsx\scripts\office\helpers\merge_runs.py`
+- Python Function: `_merge_run_content(target, source)` in file `skills\xlsx\scripts\office\helpers\merge_runs.py`
+- Python Function: `_consolidate_text(run)` in file `skills\xlsx\scripts\office\helpers\merge_runs.py`
+- Python Function: `_merge_tracked_content(target, source)` in file `skills\xlsx\scripts\office\helpers\simplify_redlines.py`
+- Python Function: `traverse(node)` in file `skills\xlsx\scripts\office\helpers\simplify_redlines.py`
+- Python Function: `__init__(self, unpacked_dir, original_file=None, verbose=False)` in file `skills\xlsx\scripts\office\validators\base.py`
+- Python Function: `validate(self)` in file `skills\xlsx\scripts\office\validators\base.py`
+- Python Function: `validate_xml(self)` in file `skills\xlsx\scripts\office\validators\base.py`
+- Python Function: `validate_namespaces(self)` in file `skills\xlsx\scripts\office\validators\base.py`
+- Python Function: `validate_unique_ids(self)` in file `skills\xlsx\scripts\office\validators\base.py`
+- Python Function: `validate_file_references(self)` in file `skills\xlsx\scripts\office\validators\base.py`
+- Python Function: `validate_all_relationship_ids(self)` in file `skills\xlsx\scripts\office\validators\base.py`
+- Python Function: `_get_expected_relationship_type(self, element_name)` in file `skills\xlsx\scripts\office\validators\base.py`
+- Python Function: `validate_content_types(self)` in file `skills\xlsx\scripts\office\validators\base.py`
+- Python Function: `validate_file_against_xsd(self, xml_file, verbose=False)` in file `skills\xlsx\scripts\office\validators\base.py`
+- Python Function: `validate_against_xsd(self)` in file `skills\xlsx\scripts\office\validators\base.py`
+- Python Function: `_get_schema_path(self, xml_file)` in file `skills\xlsx\scripts\office\validators\base.py`
+- Python Function: `_clean_ignorable_namespaces(self, xml_doc)` in file `skills\xlsx\scripts\office\validators\base.py`
+- Python Function: `_remove_ignorable_elements(self, root)` in file `skills\xlsx\scripts\office\validators\base.py`
+- Python Function: `_preprocess_for_mc_ignorable(self, xml_doc)` in file `skills\xlsx\scripts\office\validators\base.py`
+- Python Function: `_validate_single_file_xsd(self, xml_file, base_path)` in file `skills\xlsx\scripts\office\validators\base.py`
+- Python Function: `_get_original_file_errors(self, xml_file)` in file `skills\xlsx\scripts\office\validators\base.py`
+- Python Function: `_remove_template_tags_from_text_nodes(self, xml_doc)` in file `skills\xlsx\scripts\office\validators\base.py`
+- Python Function: `process_text_content(text, content_type)` in file `skills\xlsx\scripts\office\validators\base.py`
+- Python Function: `validate(self)` in file `skills\xlsx\scripts\office\validators\docx.py`
+- Python Function: `validate_whitespace_preservation(self)` in file `skills\xlsx\scripts\office\validators\docx.py`
+- Python Function: `validate_deletions(self)` in file `skills\xlsx\scripts\office\validators\docx.py`
+- Python Function: `count_paragraphs_in_unpacked(self)` in file `skills\xlsx\scripts\office\validators\docx.py`
+- Python Function: `count_paragraphs_in_original(self)` in file `skills\xlsx\scripts\office\validators\docx.py`
+- Python Function: `validate_insertions(self)` in file `skills\xlsx\scripts\office\validators\docx.py`
+- Python Function: `compare_paragraph_counts(self)` in file `skills\xlsx\scripts\office\validators\docx.py`
+- Python Function: `validate_id_constraints(self)` in file `skills\xlsx\scripts\office\validators\docx.py`
+- Python Function: `validate_comment_markers(self)` in file `skills\xlsx\scripts\office\validators\docx.py`
+- Python Function: `validate(self)` in file `skills\xlsx\scripts\office\validators\pptx.py`
+- Python Function: `validate_uuid_ids(self)` in file `skills\xlsx\scripts\office\validators\pptx.py`
+- Python Function: `_looks_like_uuid(self, value)` in file `skills\xlsx\scripts\office\validators\pptx.py`
+- Python Function: `validate_slide_layout_ids(self)` in file `skills\xlsx\scripts\office\validators\pptx.py`
+- Python Function: `validate_no_duplicate_slide_layouts(self)` in file `skills\xlsx\scripts\office\validators\pptx.py`
+- Python Function: `validate_notes_slide_references(self)` in file `skills\xlsx\scripts\office\validators\pptx.py`
+- Python Function: `__init__(self, unpacked_dir, original_docx, verbose=False, author="Claude")` in file `skills\xlsx\scripts\office\validators\redlining.py`
+- Python Function: `validate(self)` in file `skills\xlsx\scripts\office\validators\redlining.py`
+- Python Function: `_generate_detailed_diff(self, original_text, modified_text)` in file `skills\xlsx\scripts\office\validators\redlining.py`
+- Python Function: `_get_git_word_diff(self, original_text, modified_text)` in file `skills\xlsx\scripts\office\validators\redlining.py`
+- Python Function: `_remove_author_tracked_changes(self, root)` in file `skills\xlsx\scripts\office\validators\redlining.py`
+- Python Function: `_extract_text_content(self, root)` in file `skills\xlsx\scripts\office\validators\redlining.py`
+
+
+---
+# How It Works
+
+## Lifecycle Workflows
+1. **Bootstrap & Install:** `bin/install.js` runs to copy or symlink files to the corresponding user directories.
+2. **Auto Detection:** `--auto` mode scans configuration environments (`~/.gemini`, `~/.cursor`, etc.) to run silently.
+3. **Slash Commands:** The TOML configurations in `.gemini/commands/` register shortcuts in the AI CLI.
+4. **Skills Ingestion:** Ingestion scripts copy and parse repository guides, wrapping them into the `ani:` namespace.
+

@@ -1,0 +1,6 @@
+description = "Invoke the ani:cloudflare-skills-web-perf skill"
+
+prompt = """
+Invoke the ani:cloudflare-skills-web-perf skill.
+Load the prompt instructions from skills/cloudflare-skills-web-perf/SKILL.md and consult its guidelines to complete the task.
+"""

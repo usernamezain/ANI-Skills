@@ -1,0 +1,6 @@
+description = "Invoke the ani:cloudflare-skills-wrangler skill"
+
+prompt = """
+Invoke the ani:cloudflare-skills-wrangler skill.
+Load the prompt instructions from skills/cloudflare-skills-wrangler/SKILL.md and consult its guidelines to complete the task.
+"""

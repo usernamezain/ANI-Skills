@@ -540,6 +540,72 @@
     "description": "Use when a user wants to build an application with ClickHouse, set up a local ClickHouse development environment, install ClickHouse, create a local server, create tables, or start developing with ClickHouse. Covers the full flow from zero to a working local ClickHouse setup."
   },
   {
+    "id": "cloudflare-skills-agents-sdk",
+    "path": "skills/cloudflare-skills-agents-sdk",
+    "name": "ani:cloudflare-skills-agents-sdk",
+    "description": "Build AI agents on Cloudflare Workers using the Agents SDK. Load when creating stateful agents, durable workflows, real-time WebSocket apps, scheduled tasks, MCP servers, chat applications, voice agents, or browser automation. Covers Agent class, state management, callable RPC, Workflows, durable execution, queues, retries, observability, and React hooks. Biases towards retrieval from Cloudflare docs over pre-trained knowledge."
+  },
+  {
+    "id": "cloudflare-skills-cloudflare",
+    "path": "skills/cloudflare-skills-cloudflare",
+    "name": "ani:cloudflare-skills-cloudflare",
+    "description": "Comprehensive Cloudflare platform skill covering Workers, Pages, storage (KV, D1, R2), AI (Workers AI, Vectorize, Agents SDK), feature flags (Flagship), networking (Tunnel, Spectrum), security (WAF, DDoS), and infrastructure-as-code (Terraform, Pulumi). Use for any Cloudflare development task. Biases towards retrieval from Cloudflare docs over pre-trained knowledge."
+  },
+  {
+    "id": "cloudflare-skills-cloudflare-email-service",
+    "path": "skills/cloudflare-skills-cloudflare-email-service",
+    "name": "ani:cloudflare-skills-cloudflare-email-service",
+    "description": "Send and receive transactional emails with Cloudflare Email Service (Email Sending + Email Routing). Use when building email sending (Workers binding or REST API), email routing, Agents SDK email handling, or integrating email into any app — Workers, Node.js, Python, Go, etc. Also use for email deliverability, SPF/DKIM/DMARC, wrangler email setup, MCP email tools, or when a coding agent needs to send emails. Even for simple requests like \"add email to my Worker\" — this skill has critical config details."
+  },
+  {
+    "id": "cloudflare-skills-cloudflare-one",
+    "path": "skills/cloudflare-skills-cloudflare-one",
+    "name": "ani:cloudflare-skills-cloudflare-one",
+    "description": "Guides Cloudflare One Zero Trust and SASE work across Access, Gateway, WARP, Tunnel, Cloudflare WAN, DLP, CASB, device posture, and identity. Use when designing, configuring, troubleshooting, or reviewing Cloudflare One deployments. Retrieval-first: use current Cloudflare docs/API schemas instead of embedded product docs."
+  },
+  {
+    "id": "cloudflare-skills-cloudflare-one-migrations",
+    "path": "skills/cloudflare-skills-cloudflare-one-migrations",
+    "name": "ani:cloudflare-skills-cloudflare-one-migrations",
+    "description": "Plans migrations from Zscaler ZIA/ZPA, Palo Alto, legacy VPN, SWG, or SASE stacks to Cloudflare One. Use for migration assessments, policy mapping, rollout plans, and parity/gap analysis."
+  },
+  {
+    "id": "cloudflare-skills-durable-objects",
+    "path": "skills/cloudflare-skills-durable-objects",
+    "name": "ani:cloudflare-skills-durable-objects",
+    "description": "Create and review Cloudflare Durable Objects. Use when building stateful coordination (chat rooms, multiplayer games, booking systems), implementing RPC methods, SQLite storage, alarms, WebSockets, or reviewing DO code for best practices. Covers Workers integration, wrangler config, and testing with Vitest. Biases towards retrieval from Cloudflare docs over pre-trained knowledge."
+  },
+  {
+    "id": "cloudflare-skills-sandbox-sdk",
+    "path": "skills/cloudflare-skills-sandbox-sdk",
+    "name": "ani:cloudflare-skills-sandbox-sdk",
+    "description": "Build sandboxed applications for secure code execution. Load when building AI code execution, code interpreters, CI/CD systems, interactive dev environments, or executing untrusted code. Covers Sandbox SDK lifecycle, commands, files, code interpreter, and preview URLs. Biases towards retrieval from Cloudflare docs over pre-trained knowledge."
+  },
+  {
+    "id": "cloudflare-skills-turnstile-spin",
+    "path": "skills/cloudflare-skills-turnstile-spin",
+    "name": "ani:cloudflare-skills-turnstile-spin",
+    "description": "Set up Cloudflare Turnstile end-to-end in a project — scan the codebase, create the widget via the Cloudflare API, deploy the managed siteverify Worker, write the frontend snippets, validate, and persist the skill. Load this when a user asks to add Turnstile, set up CAPTCHA, protect a form from bots, or fix a Turnstile integration. Mirrors developers.cloudflare.com/turnstile/spin."
+  },
+  {
+    "id": "cloudflare-skills-web-perf",
+    "path": "skills/cloudflare-skills-web-perf",
+    "name": "ani:cloudflare-skills-web-perf",
+    "description": "Analyzes web performance using Chrome DevTools MCP. Measures Core Web Vitals (LCP, INP, CLS) and supplementary metrics (FCP, TBT, Speed Index), identifies render-blocking resources, network dependency chains, layout shifts, caching issues, and accessibility gaps. Use when asked to audit, profile, debug, or optimize page load performance, Lighthouse scores, or site speed. Biases towards retrieval from current documentation over pre-trained knowledge."
+  },
+  {
+    "id": "cloudflare-skills-workers-best-practices",
+    "path": "skills/cloudflare-skills-workers-best-practices",
+    "name": "ani:cloudflare-skills-workers-best-practices",
+    "description": "Reviews and authors Cloudflare Workers code against production best practices. Load when writing new Workers, reviewing Worker code, configuring wrangler.jsonc, or checking for common Workers anti-patterns (streaming, floating promises, global state, secrets, bindings, observability). Biases towards retrieval from Cloudflare docs over pre-trained knowledge."
+  },
+  {
+    "id": "cloudflare-skills-wrangler",
+    "path": "skills/cloudflare-skills-wrangler",
+    "name": "ani:cloudflare-skills-wrangler",
+    "description": "Cloudflare Workers CLI for deploying, developing, and managing Workers, KV, R2, D1, Vectorize, Hyperdrive, Workers AI, Containers, Queues, Workflows, Pipelines, and Secrets Store. Load before running wrangler commands to ensure correct syntax and best practices. Biases towards retrieval from Cloudflare docs over pre-trained knowledge."
+  },
+  {
     "id": "code-fixer",
     "path": "skills/code-fixer",
     "name": "code-fixer",
@@ -730,6 +796,12 @@
     "path": "skills/debugging-and-error-recovery",
     "name": "ani:debugging-and-error-recovery",
     "description": "Guides systematic root-cause debugging. Use when tests fail, builds break, behavior doesn't match expectations, or you encounter any unexpected error. Use when you need a systematic approach to finding and fixing the root cause rather than guessing."
+  },
+  {
+    "id": "deep-code-scan",
+    "path": "skills/deep-code-scan",
+    "name": "ani:deep-code-scan",
+    "description": "Deep static scan of codebase to generate .codebase documentation reports"
   },
   {
     "id": "defuddle",
@@ -1158,6 +1230,24 @@
     "description": "Structures git workflow practices. Use when making any code change. Use when committing, branching, resolving conflicts, or when you need to organize work across multiple parallel streams. Use when cutting a release, choosing a semantic version bump, tagging, or writing a changelog."
   },
   {
+    "id": "google-design-md",
+    "path": "skills/google-design-md",
+    "name": "ani:google-design-md",
+    "description": "Google Labs DESIGN.md format spec for visual identity contracts"
+  },
+  {
+    "id": "google-workspace-cli",
+    "path": "skills/google-workspace-cli",
+    "name": "ani:google-workspace-cli",
+    "description": "Google Workspace CLI (gws) schema rules and dry-run safety"
+  },
+  {
+    "id": "google-workspace-vhs",
+    "path": "skills/google-workspace-vhs",
+    "name": "ani:google-workspace-vhs",
+    "description": "Writing and editing VHS .tape scripts for terminal demo GIFs"
+  },
+  {
     "id": "graphify",
     "path": "skills/graphify",
     "name": "ani:graphify",
@@ -1486,6 +1576,96 @@
     "path": "skills/neon-postgres-egress-optimizer",
     "name": "ani:neon-postgres-egress-optimizer",
     "description": ">-"
+  },
+  {
+    "id": "netlify-skills-netlify-access-control",
+    "path": "skills/netlify-skills-netlify-access-control",
+    "name": "ani:netlify-skills-netlify-access-control",
+    "description": "Use when the task involves controlling who can reach a Netlify site, or telling Netlify Identity apart from Secure Access. Trigger whenever the user wants to lock a site or deploy to their company/team, restrict access to employees only, build an internal or employees-only app, set up password protection, SSO, or SAML, asks \"who can access my site\", or is confused about Netlify Identity vs Secure Access vs team login vs OAuth providers. Routes the request to the right layer — app-level Identity, site-visitor Password Protection, the Auth0 extension, or Team/Org SAML SSO — and explains the two-layer (perimeter + in-app identity) pattern and its double-login tradeoff. For building the app-level auth itself, use the netlify-identity skill."
+  },
+  {
+    "id": "netlify-skills-netlify-agent-runner",
+    "path": "skills/netlify-skills-netlify-agent-runner",
+    "name": "ani:netlify-skills-netlify-agent-runner",
+    "description": "Run AI agent tasks remotely on Netlify using Claude, Codex, or Gemini. Use when the user wants to run an AI agent on their site, get a second opinion from another model, or delegate development tasks to run remotely against their repo."
+  },
+  {
+    "id": "netlify-skills-netlify-ai-gateway",
+    "path": "skills/netlify-skills-netlify-ai-gateway",
+    "name": "ani:netlify-skills-netlify-ai-gateway",
+    "description": "Reference for Netlify AI Gateway — the managed proxy that routes calls to OpenAI, Anthropic, and Google Gemini SDKs without provider API keys. Use this skill any time the user wants to add AI on a Netlify site (chat, completion, reasoning, image generation, image-to-image edit/stylize), choose or change a model, wire up the OpenAI / Anthropic / @google/genai SDK, decide which provider to use for an image-gen feature (it's Gemini-only on the gateway), or debug \"model not found\" / \"API key missing\" against the gateway. Required reading before pinning a model — the gateway exposes a curated subset, not every provider model."
+  },
+  {
+    "id": "netlify-skills-netlify-blobs",
+    "path": "skills/netlify-skills-netlify-blobs",
+    "name": "ani:netlify-skills-netlify-blobs",
+    "description": "Guide for using Netlify Blobs for file and asset storage — images, documents, uploads, exports, cached binary artifacts. Covers getStore(), CRUD operations, metadata, listing, deploy-scoped vs site-scoped stores, and local development. Do NOT use Blobs as a dynamic data store — use Netlify Database for that."
+  },
+  {
+    "id": "netlify-skills-netlify-caching",
+    "path": "skills/netlify-skills-netlify-caching",
+    "name": "ani:netlify-skills-netlify-caching",
+    "description": "Guide for controlling caching on Netlify's CDN. Use when configuring cache headers, setting up stale-while-revalidate, implementing on-demand cache purge, or understanding Netlify's CDN caching behavior. Covers Cache-Control, Netlify-CDN-Cache-Control, cache tags, durable cache, and framework-specific caching patterns."
+  },
+  {
+    "id": "netlify-skills-netlify-config",
+    "path": "skills/netlify-skills-netlify-config",
+    "name": "ani:netlify-skills-netlify-config",
+    "description": "Reference for netlify.toml configuration and site environment variables. Use when configuring build settings, redirects, rewrites, headers, deploy contexts, or any site-level configuration — and when managing environment variables or secrets with the Netlify CLI, including scoping values to specific deploy contexts. Covers the complete netlify.toml syntax including redirects with splats/conditions, headers, deploy contexts, functions config, and edge functions config."
+  },
+  {
+    "id": "netlify-skills-netlify-database",
+    "path": "skills/netlify-skills-netlify-database",
+    "name": "ani:netlify-skills-netlify-database",
+    "description": "Guide for using Netlify Database — the GA managed Postgres product built into Netlify. Use when a project needs any kind of dynamic, structured, or relational data. Covers provisioning via @netlify/database, Drizzle ORM (@beta) setup, migrations, preview branching, and safe production data handling. Blobs is only for file/asset storage — any dynamic data belongs in the database."
+  },
+  {
+    "id": "netlify-skills-netlify-deploy",
+    "path": "skills/netlify-skills-netlify-deploy",
+    "name": "ani:netlify-skills-netlify-deploy",
+    "description": "Deploy, host, and publish web projects on Netlify with the Netlify CLI. Use when the user wants to deploy a site or repository to Netlify, link a local project to a Netlify site, ship a production or preview/draft deploy, set up Git-based continuous deployment, run a manual or local deploy, configure CI deploys, or troubleshoot a failed or misconfigured deploy."
+  },
+  {
+    "id": "netlify-skills-netlify-edge-functions",
+    "path": "skills/netlify-skills-netlify-edge-functions",
+    "name": "ani:netlify-skills-netlify-edge-functions",
+    "description": "Guide for writing Netlify Edge Functions. Use when building middleware, geolocation-based logic, request/response manipulation, authentication checks, A/B testing, or any low-latency edge compute. Covers Deno runtime, context.next() middleware pattern, geolocation, and when to choose edge vs serverless."
+  },
+  {
+    "id": "netlify-skills-netlify-forms",
+    "path": "skills/netlify-skills-netlify-forms",
+    "name": "ani:netlify-skills-netlify-forms",
+    "description": "Guide for using Netlify Forms for HTML form handling. Use when adding contact forms, feedback forms, file upload forms, or any form that should be collected by Netlify. Covers the data-netlify attribute, spam filtering, AJAX submissions, file uploads, notifications, and the submissions API."
+  },
+  {
+    "id": "netlify-skills-netlify-frameworks",
+    "path": "skills/netlify-skills-netlify-frameworks",
+    "name": "ani:netlify-skills-netlify-frameworks",
+    "description": "Guide for deploying web frameworks on Netlify. Use when setting up a framework project (Vite/React, Astro, TanStack Start, Next.js, Nuxt, SvelteKit, Remix) for Netlify deployment, configuring adapters or plugins, running a framework project locally with Netlify's platform features, or troubleshooting framework-specific Netlify integration. Covers what Netlify needs from each framework, how adapters handle server-side rendering, and the general local development options (`netlify dev` versus the Netlify Vite plugin family)."
+  },
+  {
+    "id": "netlify-skills-netlify-functions",
+    "path": "skills/netlify-skills-netlify-functions",
+    "name": "ani:netlify-skills-netlify-functions",
+    "description": "Guide for writing Netlify serverless functions. Use when creating API endpoints, background processing, scheduled tasks, or any server-side logic using Netlify Functions. Covers modern syntax (default export + Config), TypeScript, path routing, background functions, scheduled functions, streaming, and method routing."
+  },
+  {
+    "id": "netlify-skills-netlify-identity",
+    "path": "skills/netlify-skills-netlify-identity",
+    "name": "ani:netlify-skills-netlify-identity",
+    "description": "Use when the task involves authentication, user signups, logins, password recovery, OAuth providers, role-based access control, or protecting routes and functions. Always use `@netlify/identity` for new projects; `netlify-identity-widget` and `gotrue-js` still work but are no longer recommended."
+  },
+  {
+    "id": "netlify-skills-netlify-image-cdn",
+    "path": "skills/netlify-skills-netlify-image-cdn",
+    "name": "ani:netlify-skills-netlify-image-cdn",
+    "description": "Guide for using Netlify Image CDN for image optimization and transformation. Use when serving optimized images, creating responsive image markup, setting up user-uploaded image pipelines, or configuring image transformations. Covers the /.netlify/images endpoint, query parameters, remote image allowlisting, clean URL rewrites, and composing uploads with Functions + Blobs."
+  },
+  {
+    "id": "netlify-skills-netlify-mcp-servers",
+    "path": "skills/netlify-skills-netlify-mcp-servers",
+    "name": "ani:netlify-skills-netlify-mcp-servers",
+    "description": "Build, deploy, and secure Model Context Protocol (MCP) servers on Netlify. Use whenever the task involves creating an MCP server, exposing an app or API to AI agents as MCP tools, letting Claude / Cursor / Claude Code call a custom remote server, or adding MCP tools to an existing Netlify site. Covers the MCP SDK + Streamable HTTP transport on a Netlify Function, authentication (single shared secret vs per-user API keys with Netlify Identity), read/write safety, file uploads, and connecting clients. Use even when the user just says \"MCP\", \"tool server for an agent\", or \"let an AI use my API\"."
   },
   {
     "id": "new-milestone",
@@ -2580,6 +2760,12 @@
     "description": "Configure TOTP authenticator apps, send OTP codes via email/SMS, manage backup codes, handle trusted devices, and implement 2FA sign-in flows using Better Auth's twoFactor plugin. Use when users need MFA, multi-factor authentication, authenticator setup, or login security with Better Auth."
   },
   {
+    "id": "typefully",
+    "path": "skills/typefully",
+    "name": "ani:typefully",
+    "description": ">"
+  },
+  {
     "id": "ui-auditor",
     "path": "skills/ui-auditor",
     "name": "ui-auditor",
@@ -2674,6 +2860,126 @@
     "path": "skills/validate-phase",
     "name": "ani:validate-phase",
     "description": "Retroactively audit and fill Nyquist validation gaps for a completed phase"
+  },
+  {
+    "id": "venice-skills-venice-api-keys",
+    "path": "skills/venice-skills-venice-api-keys",
+    "name": "ani:venice-skills-venice-api-keys",
+    "description": "Manage Venice API keys. Covers GET/POST/PATCH/DELETE /api_keys, GET /api_keys/{id}, GET /api_keys/rate_limits, GET /api_keys/rate_limits/log, the two-step /api_keys/generate_web3_key wallet flow, INFERENCE vs ADMIN key types, and per-key consumption limits (USD / DIEM)."
+  },
+  {
+    "id": "venice-skills-venice-api-overview",
+    "path": "skills/venice-skills-venice-api-overview",
+    "name": "ani:venice-skills-venice-api-overview",
+    "description": "High-level map of the Venice.ai API - base URL, authentication modes, endpoint categories, response headers, pricing model, error shape, and versioning. Load this first when starting any Venice integration."
+  },
+  {
+    "id": "venice-skills-venice-audio-music",
+    "path": "skills/venice-skills-venice-audio-music",
+    "name": "ani:venice-skills-venice-audio-music",
+    "description": "Async music / audio-track generation via Venice. Covers the /audio/quote + /audio/queue + /audio/retrieve + /audio/complete lifecycle, lyrics vs instrumental, voice selection, duration, language, speed, model capability probing, and webhook-free polling."
+  },
+  {
+    "id": "venice-skills-venice-audio-speech",
+    "path": "skills/venice-skills-venice-audio-speech",
+    "name": "ani:venice-skills-venice-audio-speech",
+    "description": "Generate speech from text via POST /audio/speech. Covers TTS models (Kokoro, Qwen 3, xAI, Inworld, Chatterbox, Orpheus, ElevenLabs Turbo, MiniMax, Gemini Flash), voices per family, output formats (mp3/opus/aac/flac/wav/pcm), streaming, prompt/emotion styling, temperature/top_p, and language hints."
+  },
+  {
+    "id": "venice-skills-venice-audio-transcription",
+    "path": "skills/venice-skills-venice-audio-transcription",
+    "name": "ani:venice-skills-venice-audio-transcription",
+    "description": "Transcribe audio files to text via POST /audio/transcriptions. Covers supported models (Parakeet, Whisper, Wizper, Scribe, xAI STT), supported formats (wav/flac/m4a/aac/mp4/mp3/ogg/webm), response formats (json/text), timestamps, and language hints. OpenAI-compatible multipart."
+  },
+  {
+    "id": "venice-skills-venice-augment",
+    "path": "skills/venice-skills-venice-augment",
+    "name": "ani:venice-skills-venice-augment",
+    "description": "Venice augmentation endpoints for agent pipelines. Covers POST /augment/text-parser (extract text from PDF/DOCX/XLSX/plain text, multipart, up to 25MB, JSON or plain text response), POST /augment/scrape (fetch a URL and return markdown; blocks X/Reddit), and POST /augment/search (Brave ZDR or anonymized Google; structured title/url/content/date results, up to 20 per query). Privacy (zero data retention), rate limits, and error shapes."
+  },
+  {
+    "id": "venice-skills-venice-auth",
+    "path": "skills/venice-skills-venice-auth",
+    "name": "ani:venice-skills-venice-auth",
+    "description": "Authenticate to the Venice API with a Bearer API key or with an x402 / SIWE wallet. Covers header formats, the SIWE message fields, TTL and nonce rules, the venice-x402-client SDK, and how to choose between the two modes."
+  },
+  {
+    "id": "venice-skills-venice-billing",
+    "path": "skills/venice-skills-venice-billing",
+    "name": "ani:venice-skills-venice-billing",
+    "description": "Venice billing and usage analytics - GET /billing/balance, GET /billing/usage (paginated per-request ledger, JSON or CSV), and GET /billing/usage-analytics (aggregated by date/model/key). Covers the DIEM/USD/BUNDLED_CREDITS consumption priority and building dashboards. (Beta)"
+  },
+  {
+    "id": "venice-skills-venice-characters",
+    "path": "skills/venice-skills-venice-characters",
+    "name": "ani:venice-skills-venice-characters",
+    "description": "Discover and use Venice public characters (persona-driven system prompts with a bound model). Covers GET /characters (search/filter/sort), /characters/{slug}, /characters/{slug}/reviews, the Character schema, and how to apply a character via venice_parameters.character_slug in chat completions."
+  },
+  {
+    "id": "venice-skills-venice-chat",
+    "path": "skills/venice-skills-venice-chat",
+    "name": "ani:venice-skills-venice-chat",
+    "description": "Call POST /chat/completions on Venice. Covers the OpenAI-compatible request shape, Venice-only venice_parameters (web search, E2EE, characters, thinking control, X search), multimodal inputs (images/audio/video), tool calls, reasoning controls, streaming, prompt caching, structured output, and model feature suffixes."
+  },
+  {
+    "id": "venice-skills-venice-crypto-rpc",
+    "path": "skills/venice-skills-venice-crypto-rpc",
+    "name": "ani:venice-skills-venice-crypto-rpc",
+    "description": "Use Venice as a pay-per-call JSON-RPC proxy to 20+ EVM and Starknet networks. Covers GET /crypto/rpc/networks, POST /crypto/rpc/{network}, the 1×/2×/4× method-tier pricing model, per-minute + 24-hour credit rate limits, idempotency keys for safe retries, single vs batch requests, and the unsupported stateful/WebSocket methods (eth_subscribe, eth_newFilter, etc.)."
+  },
+  {
+    "id": "venice-skills-venice-embeddings",
+    "path": "skills/venice-skills-venice-embeddings",
+    "name": "ani:venice-skills-venice-embeddings",
+    "description": "Call POST /embeddings on Venice. Covers request shape (input, model, encoding_format, dimensions, user), OpenAI compatibility, response compression (gzip/br), and practical usage for retrieval, clustering, and RAG."
+  },
+  {
+    "id": "venice-skills-venice-errors",
+    "path": "skills/venice-skills-venice-errors",
+    "name": "ani:venice-skills-venice-errors",
+    "description": "Handle Venice API errors correctly. Covers the StandardError / DetailedError / ContentViolationError / X402InferencePaymentRequired body shapes, every meaningful status code (400, 401, 402, 403, 415, 422, 429, 500, 503, 504), the 402 PAYMENT-REQUIRED header used by x402 inference, 422 content-policy suggested_prompt retry pattern, 429 rate-limit headers, and an exponential-backoff retry strategy with idempotency."
+  },
+  {
+    "id": "venice-skills-venice-image-edit",
+    "path": "skills/venice-skills-venice-image-edit",
+    "name": "ani:venice-skills-venice-image-edit",
+    "description": "Transform existing images with Venice. Covers POST /image/edit (prompt-driven single-image edit), /image/multi-edit (compose 1-3 images), /image/upscale (2-4x upscale + enhance), and /image/background-remove. Accepts base64, file upload, or HTTPS URL."
+  },
+  {
+    "id": "venice-skills-venice-image-generate",
+    "path": "skills/venice-skills-venice-image-generate",
+    "name": "ani:venice-skills-venice-image-generate",
+    "description": "Generate images with Venice. Covers POST /image/generate (Venice-native), POST /images/generations (OpenAI-compatible), GET /image/styles (style presets), request fields (prompt, dimensions, cfg_scale, seed, variants, style_preset, aspect_ratio, resolution, safe_mode, watermark), and response formats."
+  },
+  {
+    "id": "venice-skills-venice-models",
+    "path": "skills/venice-skills-venice-models",
+    "name": "ani:venice-skills-venice-models",
+    "description": "Discover Venice models, their capabilities, constraints, and pricing. Covers GET /models (with ?type filter), /models/traits, /models/compatibility_mapping, the ModelResponse schema (capabilities, constraints, pricing per type), and how to use this to pick the right model programmatically."
+  },
+  {
+    "id": "venice-skills-venice-responses",
+    "path": "skills/venice-skills-venice-responses",
+    "name": "ani:venice-skills-venice-responses",
+    "description": "Use Venice's Alpha POST /responses endpoint - an OpenAI-compatible Responses API with typed output blocks (reasoning, message, function_call, web_search_call). Covers request shape, streaming, differences from /chat/completions, supported venice_parameters subset, and E2EE behavior."
+  },
+  {
+    "id": "venice-skills-venice-video",
+    "path": "skills/venice-skills-venice-video",
+    "name": "ani:venice-skills-venice-video",
+    "description": "Generate and transcribe videos via Venice. Covers the async /video/quote + /video/queue + /video/retrieve + /video/complete loop, text-to-video, image-to-video, video-to-video (upscale), audio input, reference images, scene and element support, plus /video/transcriptions for YouTube URLs."
+  },
+  {
+    "id": "venice-skills-venice-x402",
+    "path": "skills/venice-skills-venice-x402",
+    "name": "ani:venice-skills-venice-x402",
+    "description": "Manage Venice x402 wallet credits. Covers POST /x402/top-up (payment discovery + signed USDC settlement), GET /x402/balance/{walletAddress}, GET /x402/transactions/{walletAddress}, USDC on Base (chain 8453), minimum $5 top-up, transaction types TOP_UP/CHARGE/REFUND, and the x402 v2 PAYMENT-REQUIRED response shape returned by all inference endpoints."
+  },
+  {
+    "id": "vercel-next-skills",
+    "path": "skills/vercel-next-skills",
+    "name": "ani:vercel-next-skills",
+    "description": "Next.js agent development guidelines and best practices"
   },
   {
     "id": "verification-before-completion",
