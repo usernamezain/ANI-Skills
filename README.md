@@ -52,16 +52,16 @@ graph TD
     C -->|4| G[Local Workspace Copy]
     C -->|5| H[Rebuild Index]
     
-    subgraph Core Library
+    subgraph CoreLibrary ["Core Library"]
         I[skills/ 444 Skills] --> J[SKILL.md Instructions]
         I --> K[references/ Snippets & Templates]
         L[boss-prompts/ 22 Boss Prompts] --> M[Agent Orchestration Rules]
     end
     
-    D --> Core Library
-    E --> Core Library
-    F --> Core Library
-    G --> Core Library
+    D --> CoreLibrary
+    E --> CoreLibrary
+    F --> CoreLibrary
+    G --> CoreLibrary
 ```
 
 ---
