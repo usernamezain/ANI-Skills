@@ -1,0 +1,20 @@
+---
+name: skill:firecrawl-build-onboarding
+description: Get Firecrawl credentials and SDK setup into a project. Use when an application needs `FIRECRAWL_API_KEY`, when an agent should add Firecrawl to `.env`, when the user wants to authenticate Firecrawl for app code, or when choosing the first SDK and docs for a new Firecrawl integration. This skill includes its own browser auth flow, so it does not depend on the website onboarding skill.
+allowed-tools:
+  - Read
+  - Write
+  - Bash
+  - Glob
+  - Grep
+  - AskUserQuestion
+  - Agent
+---
+<objective>
+Trigger and execute the Antigravity skill: firecrawl-build-onboarding.
+Load the prompt instructions from skills/firecrawl-build-onboarding/SKILL.md and consult the copy-pasteable references or guidelines inside skills/firecrawl-build-onboarding/references/ to complete the task.
+</objective>
+
+<execution_context>
+@skills/firecrawl-build-onboarding/SKILL.md
+</execution_context>

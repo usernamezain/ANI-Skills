@@ -1,0 +1,6 @@
+description = "MUST USE when investigating performance issues on a ClickHouse-managed Postgres instance. Provides an evidence-based RCA workflow that scrapes the Prometheus endpoint for system signal, pulls per-digest evidence from the Slow Query Patterns API, and recommends (does not apply) a fix."
+
+prompt = """
+Invoke the skill:clickhouse-managed-postgres-rca skill.
+Load the prompt instructions from skills/clickhouse-managed-postgres-rca/SKILL.md and consult the copy-pasteable references or guidelines inside skills/clickhouse-managed-postgres-rca/references/ to complete the task.
+"""

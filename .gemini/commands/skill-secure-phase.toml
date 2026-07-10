@@ -1,0 +1,6 @@
+description = "Retroactively verify threat mitigations for a completed phase"
+
+prompt = """
+Invoke the skill:secure-phase skill.
+Load the prompt instructions from skills/secure-phase/SKILL.md and consult the copy-pasteable references or guidelines inside skills/secure-phase/references/ to complete the task.
+"""

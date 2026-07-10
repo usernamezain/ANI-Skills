@@ -1,0 +1,6 @@
+description = "Cross-AI plan convergence loop — replan with review feedback until no HIGH concerns remain."
+
+prompt = """
+Invoke the skill:plan-review-convergence skill.
+Load the prompt instructions from skills/plan-review-convergence/SKILL.md and consult the copy-pasteable references or guidelines inside skills/plan-review-convergence/references/ to complete the task.
+"""

@@ -1,0 +1,6 @@
+description = "An award-winning creative landing page featuring dynamic dual-layer rendering, high-accuracy client mouse flashlight masking tracking, custom mix-blend mode cursors, and grain overlay filters."
+
+prompt = """
+Invoke the skill:pro:complete-landing-pages:invisible-dimension skill.
+Load the prompt instructions from skills/pro/complete-landing-pages/invisible-dimension/SKILL.md and consult the copy-pasteable references or guidelines inside skills/pro/complete-landing-pages/invisible-dimension/references/ to complete the task.
+"""

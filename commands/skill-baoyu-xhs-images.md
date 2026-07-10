@@ -1,0 +1,20 @@
+---
+name: skill:baoyu-xhs-images
+description: [Deprecated: use baoyu-image-cards] Generates Xiaohongshu (Little Red Book) image card series with 12 visual styles, 8 layouts, and 3 color palettes. Breaks content into 1-10 cartoon-style image cards optimized for XHS engagement. Use when user mentions \"小红书图片\", \"XHS images\", \"RedNote infographics\", \"小红书种草\", \"小绿书\", \"微信图文\", \"微信贴图\", or wants social media infographic series for Chinese platforms.
+allowed-tools:
+  - Read
+  - Write
+  - Bash
+  - Glob
+  - Grep
+  - AskUserQuestion
+  - Agent
+---
+<objective>
+Trigger and execute the Antigravity skill: baoyu-xhs-images.
+Load the prompt instructions from skills/baoyu-xhs-images/SKILL.md and consult the copy-pasteable references or guidelines inside skills/baoyu-xhs-images/references/ to complete the task.
+</objective>
+
+<execution_context>
+@skills/baoyu-xhs-images/SKILL.md
+</execution_context>

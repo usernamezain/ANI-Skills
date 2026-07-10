@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Skill Reference: fullscreen-menu-overlay</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <style>
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background-color: #0b0b0b;
+      color: #f5f5f5;
+      overflow-x: hidden;
+    }
+    
+    /* Combined CSS from skill */
+    .fullscreen-nav {
+  position: fixed; inset: 0; z-index: 999;
+  visibility: hidden; pointer-events: none;
+  display: flex; flex-direction: column; justify-content: center; padding: 6vw;
+}
+.fullscreen-nav-bg { position: absolute; inset: 0; background: #0a0a0a; clip-path: circle(0% at 100% 0%); }
+.fullscreen-nav-links { list-style: none; }
+.fullscreen-nav-links li { overflow: hidden; }
+.fullscreen-nav-links a {
+  display: inline-block; font-size: clamp(2.5rem, 8vw, 6rem); font-weight: 700;
+  color: #fff; text-decoration: none; transform: translateY(110%);
+}
+  </style>
+</head>
+<body>
+
+  <!-- Combined HTML Structure -->
+  <button class="menu-trigger" aria-expanded="false" aria-controls="fullscreen-nav">Menu</button>
+
+<nav class="fullscreen-nav" id="fullscreen-nav" aria-hidden="true">
+  <div class="fullscreen-nav-bg"></div>
+  <ul class="fullscreen-nav-links">
+    <li><a href="#work">Work</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#studio">Studio</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+  <div class="fullscreen-nav-meta">
+    <p>hello@studio.com</p>
+    <p>Instagram · LinkedIn</p>
+  </div>
+</nav>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      // Register GSAP ScrollTrigger if present
+      if (typeof ScrollTrigger !== "undefined") {
+        gsap.registerPlugin(ScrollTrigger);
+      }
+
+      // Basic Lenis scroll integration if needed
+      if (typeof Lenis !== "undefined") {
+        const lenis = new Lenis({
+          duration: 1.1,
+          easing: t => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
+          smoothWheel: true
+        });
+        lenis.on("scroll", ScrollTrigger.update);
+        gsap.ticker.add((time) => { lenis.raf(time * 1000); });
+        gsap.ticker.lagSmoothing(0);
+      }
+
+      // Combined Animation Code
+      const trigger = document.querySelector(".menu-trigger");
+const nav = document.querySelector(".fullscreen-nav");
+const links = gsap.utils.toArray(".fullscreen-nav-links a");
+let isOpen = false;
+
+const tl = gsap.timeline({ paused: true })
+  .set(nav, { visibility: "visible", pointerEvents: "auto" })
+  .to(".fullscreen-nav-bg", { clipPath: "circle(150% at 100% 0%)", duration: 0.9, ease: "power4.inOut" })
+  .to(links, { yPercent: 0, duration: 0.8, stagger: 0.07, ease: "power4.out" }, "-=0.4")
+  .from(".fullscreen-nav-meta", { opacity: 0, y: 20, duration: 0.6 }, "-=0.3");
+
+trigger.addEventListener("click", () => {
+  isOpen = !isOpen;
+  trigger.setAttribute("aria-expanded", String(isOpen));
+  nav.setAttribute("aria-hidden", String(!isOpen));
+  if (isOpen) { tl.timeScale(1).play(); } else { tl.timeScale(1.4).reverse(); }
+  document.body.style.overflow = isOpen ? "hidden" : "";
+});
+
+// close on link click
+links.forEach(a => a.addEventListener("click", () => trigger.click()));
+// close on Escape
+document.addEventListener("keydown", e => { if (e.key === "Escape" && isOpen) trigger.click(); });
+
+links.forEach(a => {
+  a.addEventListener("mouseenter", () => gsap.to(a, { x: 20, duration: 0.4, ease: "power3.out" }));
+  a.addEventListener("mouseleave", () => gsap.to(a, { x: 0, duration: 0.4, ease: "power3.out" }));
+});
+    });
+  </script>
+</body>
+</html>

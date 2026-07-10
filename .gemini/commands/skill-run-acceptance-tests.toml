@@ -1,0 +1,6 @@
+description = "Guide for running acceptance tests for a Terraform provider. Use this when asked to run an acceptance test or to run a test with the prefix `TestAcc`."
+
+prompt = """
+Invoke the skill:run-acceptance-tests skill.
+Load the prompt instructions from skills/run-acceptance-tests/SKILL.md and consult the copy-pasteable references or guidelines inside skills/run-acceptance-tests/references/ to complete the task.
+"""

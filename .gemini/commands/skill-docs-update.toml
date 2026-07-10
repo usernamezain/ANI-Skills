@@ -1,0 +1,6 @@
+description = "Generate or update project documentation verified against the codebase"
+
+prompt = """
+Invoke the skill:docs-update skill.
+Load the prompt instructions from skills/docs-update/SKILL.md and consult the copy-pasteable references or guidelines inside skills/docs-update/references/ to complete the task.
+"""

@@ -1,0 +1,6 @@
+description = "Verifies plans will achieve phase goal before execution. Goal-backward analysis of plan quality. Spawned by /antigravity:plan-phase orchestrator."
+
+prompt = """
+Invoke the skill:plan-checker skill.
+Load the prompt instructions from skills/plan-checker/SKILL.md and consult the copy-pasteable references or guidelines inside skills/plan-checker/references/ to complete the task.
+"""

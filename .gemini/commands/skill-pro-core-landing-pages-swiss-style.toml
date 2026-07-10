@@ -1,0 +1,6 @@
+description = "Generate a premium Swiss design-inspired hero section featuring strict grid layouts, massive typography, smooth scrolling (Lenis), and interactive 3D WebGL images."
+
+prompt = """
+Invoke the skill:pro:swiss-style skill.
+Load the prompt instructions from skills/pro/core-landing-pages/swiss-style/SKILL.md and consult the copy-pasteable references or guidelines inside skills/pro/core-landing-pages/swiss-style/references/ to complete the task.
+"""

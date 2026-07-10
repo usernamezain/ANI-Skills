@@ -1,0 +1,6 @@
+description = "Bootstrap or merge a .planning/ setup from existing ADRs, PRDs, SPECs, and docs in a repo."
+
+prompt = """
+Invoke the skill:ingest-docs skill.
+Load the prompt instructions from skills/ingest-docs/SKILL.md and consult the copy-pasteable references or guidelines inside skills/ingest-docs/references/ to complete the task.
+"""

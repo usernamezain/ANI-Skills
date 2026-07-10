@@ -1,0 +1,6 @@
+description = ">"
+
+prompt = """
+Invoke the skill:junit-5-skill skill.
+Load the prompt instructions from skills/junit-5-skill/SKILL.md and consult the copy-pasteable references or guidelines inside skills/junit-5-skill/references/ to complete the task.
+"""

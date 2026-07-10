@@ -1,0 +1,6 @@
+description = "quality gates | code review debug audit security eval ui"
+
+prompt = """
+Invoke the skill:quality skill.
+Load the prompt instructions from skills/ns-review/SKILL.md and consult the copy-pasteable references or guidelines inside skills/ns-review/references/ to complete the task.
+"""

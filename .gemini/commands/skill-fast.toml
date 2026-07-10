@@ -1,0 +1,6 @@
+description = "Execute a trivial task inline — no subagents, no planning overhead"
+
+prompt = """
+Invoke the skill:fast skill.
+Load the prompt instructions from skills/fast/SKILL.md and consult the copy-pasteable references or guidelines inside skills/fast/references/ to complete the task.
+"""

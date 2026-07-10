@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Skill Reference: custom-cursor-effects</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+  <style>
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background-color: #0b0b0b;
+      color: #f5f5f5;
+      overflow-x: hidden;
+    }
+    
+    /* Combined CSS from skill */
+    .cursor {
+  position: fixed; top: 0; left: 0; width: 24px; height: 24px;
+  border-radius: 50%; background: #fff; mix-blend-mode: difference;
+  pointer-events: none; z-index: 9999; transform: translate(-50%, -50%);
+  will-change: transform;
+}
+  </style>
+</head>
+<body>
+
+  <!-- Combined HTML Structure -->
+  <div class="cursor"></div>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      // Register GSAP ScrollTrigger if present
+      if (typeof ScrollTrigger !== "undefined") {
+        gsap.registerPlugin(ScrollTrigger);
+      }
+
+      // Basic Lenis scroll integration if needed
+      if (typeof Lenis !== "undefined") {
+        const lenis = new Lenis({
+          duration: 1.1,
+          easing: t => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
+          smoothWheel: true
+        });
+        lenis.on("scroll", ScrollTrigger.update);
+        gsap.ticker.add((time) => { lenis.raf(time * 1000); });
+        gsap.ticker.lagSmoothing(0);
+      }
+
+      // Combined Animation Code
+      const isTouch = window.matchMedia("(pointer: coarse)").matches;
+if (isTouch) {
+  // skip all custom-cursor JS; let native touch behavior work
+}
+
+const cursor = document.querySelector(".cursor");
+const xTo = gsap.quickTo(cursor, "x", { duration: 0.4, ease: "power3" });
+const yTo = gsap.quickTo(cursor, "y", { duration: 0.4, ease: "power3" });
+window.addEventListener("mousemove", e => { xTo(e.clientX); yTo(e.clientY); });
+
+document.querySelectorAll(".magnetic").forEach(el => {
+  const strength = 0.4;
+  el.addEventListener("mousemove", e => {
+    const r = el.getBoundingClientRect();
+    const relX = e.clientX - r.left - r.width / 2;
+    const relY = e.clientY - r.top - r.height / 2;
+    gsap.to(el, { x: relX * strength, y: relY * strength, duration: 0.6, ease: "power3.out" });
+  });
+  el.addEventListener("mouseleave", () => {
+    gsap.to(el, { x: 0, y: 0, duration: 0.6, ease: "elastic.out(1, 0.3)" });
+  });
+});
+
+document.querySelectorAll("a, button, [data-cursor='link']").forEach(el => {
+  el.addEventListener("mouseenter", () => gsap.to(cursor, { scale: 3, duration: 0.3 }));
+  el.addEventListener("mouseleave", () => gsap.to(cursor, { scale: 1, duration: 0.3 }));
+});
+
+document.querySelectorAll(".tilt-card").forEach(card => {
+  card.addEventListener("mousemove", e => {
+    const r = card.getBoundingClientRect();
+    const px = (e.clientX - r.left) / r.width;
+    const py = (e.clientY - r.top) / r.height;
+    const rotateY = (px - 0.5) * 20;
+    const rotateX = (0.5 - py) * 20;
+    gsap.to(card, { rotateX, rotateY, transformPerspective: 600, duration: 0.4, ease: "power2.out" });
+  });
+  card.addEventListener("mouseleave", () => gsap.to(card, { rotateX: 0, rotateY: 0, duration: 0.6, ease: "power3.out" }));
+});
+
+const dots = document.querySelectorAll(".trail-dot"); // e.g. 8 divs, decreasing opacity
+let mouse = { x: 0, y: 0 };
+let positions = Array.from(dots, () => ({ x: 0, y: 0 }));
+window.addEventListener("mousemove", e => { mouse = { x: e.clientX, y: e.clientY }; });
+function render() {
+  positions[0].x += (mouse.x - positions[0].x) * 0.3;
+  positions[0].y += (mouse.y - positions[0].y) * 0.3;
+  for (let i = 1; i < positions.length; i++) {
+    positions[i].x += (positions[i - 1].x - positions[i].x) * 0.3;
+    positions[i].y += (positions[i - 1].y - positions[i].y) * 0.3;
+  }
+  dots.forEach((d, i) => { d.style.transform = `translate(${positions[i].x}px, ${positions[i].y}px)`; });
+  requestAnimationFrame(render);
+}
+render();
+
+const preview = document.querySelector(".hover-preview img");
+document.querySelectorAll("[data-preview-img]").forEach(item => {
+  item.addEventListener("mouseenter", () => {
+    preview.src = item.dataset.previewImg;
+    gsap.to(".hover-preview", { autoAlpha: 1, duration: 0.3 });
+  });
+  item.addEventListener("mousemove", e => {
+    gsap.to(".hover-preview", { x: e.clientX + 20, y: e.clientY + 20, duration: 0.5, ease: "power3.out" });
+  });
+  item.addEventListener("mouseleave", () => gsap.to(".hover-preview", { autoAlpha: 0, duration: 0.3 }));
+});
+    });
+  </script>
+</body>
+</html>

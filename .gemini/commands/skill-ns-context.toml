@@ -1,0 +1,6 @@
+description = "codebase intelligence | map graphify docs learnings"
+
+prompt = """
+Invoke the skill:context skill.
+Load the prompt instructions from skills/ns-context/SKILL.md and consult the copy-pasteable references or guidelines inside skills/ns-context/references/ to complete the task.
+"""

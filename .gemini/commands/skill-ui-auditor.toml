@@ -1,0 +1,6 @@
+description = "Retroactive 6-pillar visual audit of implemented frontend code. Produces scored UI-REVIEW.md. Spawned by /antigravity:ui-review orchestrator."
+
+prompt = """
+Invoke the skill:ui-auditor skill.
+Load the prompt instructions from skills/ui-auditor/SKILL.md and consult the copy-pasteable references or guidelines inside skills/ui-auditor/references/ to complete the task.
+"""

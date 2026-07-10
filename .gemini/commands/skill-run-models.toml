@@ -1,0 +1,6 @@
+description = "Run AI models on Replicate via predictions, webhooks, and streaming."
+
+prompt = """
+Invoke the skill:run-models skill.
+Load the prompt instructions from skills/run-models/SKILL.md and consult the copy-pasteable references or guidelines inside skills/run-models/references/ to complete the task.
+"""

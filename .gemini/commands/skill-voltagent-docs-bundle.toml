@@ -1,0 +1,6 @@
+description = "Look up VoltAgent documentation embedded in node_modules/@voltagent/core/docs for version-matched docs. Use for API signatures, guides, and examples."
+
+prompt = """
+Invoke the skill:voltagent-docs-bundle skill.
+Load the prompt instructions from skills/voltagent-docs-bundle/SKILL.md and consult the copy-pasteable references or guidelines inside skills/voltagent-docs-bundle/references/ to complete the task.
+"""

@@ -1,0 +1,6 @@
+description = "Generate a hand-drawn, organic navbar with SVG scribble path animations for the active state — built for indie makers, creative portfolios, and personality-driven brands."
+
+prompt = """
+Invoke the skill:pro:navigation:sketchy-nav skill.
+Load the prompt instructions from skills/pro/navigation-and-structures/navbar/sketchy-nav/SKILL.md and consult the copy-pasteable references or guidelines inside skills/pro/navigation-and-structures/navbar/sketchy-nav/references/ to complete the task.
+"""

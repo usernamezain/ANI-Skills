@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Skill Reference: scroll-comparison-table-section</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <style>
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background-color: #0b0b0b;
+      color: #f5f5f5;
+      overflow-x: hidden;
+    }
+    
+    /* Combined CSS from skill */
+    .compare-table { width: 100%; border-collapse: collapse; }
+.compare-head th { position: sticky; top: 0; background: #0a0a0a; padding: 16px; z-index: 2; }
+.compare-row td { padding: 16px; border-top: 1px solid rgba(255,255,255,0.1); }
+  </style>
+</head>
+<body>
+
+  <!-- Combined HTML Structure -->
+  <section class="compare">
+  <table class="compare-table">
+    <thead class="compare-head">
+      <tr><th>Feature</th><th>Starter</th><th>Pro</th><th>Team</th></tr>
+    </thead>
+    <tbody>
+      <tr class="compare-row reveal"><td>Projects</td><td>3</td><td>Unlimited</td><td>Unlimited</td></tr>
+      <tr class="compare-row reveal"><td>Team seats</td><td>1</td><td>5</td><td>Unlimited</td></tr>
+      <tr class="compare-row reveal"><td>Priority support</td><td>—</td><td>✓</td><td>✓</td></tr>
+      <tr class="compare-row reveal"><td>Custom domain</td><td>—</td><td>—</td><td>✓</td></tr>
+    </tbody>
+  </table>
+</section>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      // Register GSAP ScrollTrigger if present
+      if (typeof ScrollTrigger !== "undefined") {
+        gsap.registerPlugin(ScrollTrigger);
+      }
+
+      // Basic Lenis scroll integration if needed
+      if (typeof Lenis !== "undefined") {
+        const lenis = new Lenis({
+          duration: 1.1,
+          easing: t => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
+          smoothWheel: true
+        });
+        lenis.on("scroll", ScrollTrigger.update);
+        gsap.ticker.add((time) => { lenis.raf(time * 1000); });
+        gsap.ticker.lagSmoothing(0);
+      }
+
+      // Combined Animation Code
+      gsap.from(".compare-row", {
+  opacity: 0, x: -20, duration: 0.5, stagger: 0.08, ease: "power3.out",
+  scrollTrigger: { trigger: ".compare-table", start: "top 80%" }
+});
+
+gsap.to(".compare-table td:nth-child(3), .compare-table th:nth-child(3)", {
+  backgroundColor: "rgba(124,58,237,0.12)",
+  duration: 0.6,
+  scrollTrigger: { trigger: ".compare-table", start: "top 75%" }
+});
+    });
+  </script>
+</body>
+</html>

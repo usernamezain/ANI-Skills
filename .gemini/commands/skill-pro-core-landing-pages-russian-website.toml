@@ -1,0 +1,6 @@
+description = "Generate a premium high-contrast, cyberpunk-themed Russian Samurai promotional website with terminal boot preloader, diagonal sliced parallax image reveal scrolling, and interactive grid boards with red neon borders. Use this skill when the user asks for a Russian-themed design, cyber samurai layout, black-and-red high contrast cyberpunk pages, or terminal preloaded websites."
+
+prompt = """
+Invoke the skill:pro:russian-website skill.
+Load the prompt instructions from skills/pro/core-landing-pages/russian-website/SKILL.md and consult the copy-pasteable references or guidelines inside skills/pro/core-landing-pages/russian-website/references/ to complete the task.
+"""

@@ -1,0 +1,56 @@
+{
+  "name": "ani-skills",
+  "version": "1.0.2",
+  "description": "ani-skills is a professional AI Agent Skills library for Cursor, Claude Code, Windsurf, Trae, Cline, and Antigravity IDE, specializing in creative frontend GSAP/ScrollTrigger/Lenis animations, system planning, browser testing, and DSA workflows.",
+  "main": "skills_index.json",
+  "bin": {
+    "ani-skills": "./bin/install.js"
+  },
+  "scripts": {
+    "build:index": "python scripts/update_skills_index.py",
+    "lint:skills": "python scripts/verify_library.py"
+  },
+  "keywords": [
+    "skills",
+    "agent",
+    "antigravity",
+    "claude-code",
+    "workflows",
+    "gsap",
+    "scrolltrigger",
+    "lenis",
+    "cursor",
+    "cursorrules",
+    "clinerules",
+    "windsurfrules",
+    "traerules",
+    "geminirules",
+    "ai-agents",
+    "agent-skills",
+    "developer-prompts",
+    "automation",
+    "playwright",
+    "puppeteer"
+  ],
+  "author": "Zain Ali",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zain-ali/ani-skills.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zain-ali/ani-skills/issues"
+  },
+  "homepage": "https://github.com/zain-ali/ani-skills#readme",
+  "files": [
+    "skills",
+    "commands",
+    "boss-prompts",
+    "bin",
+    "docs",
+    "skills_index.json",
+    ".claude-plugin",
+    ".gemini",
+    "GEMINI.md"
+  ]
+}

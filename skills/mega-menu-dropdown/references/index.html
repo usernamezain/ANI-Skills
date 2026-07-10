@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Skill Reference: mega-menu-dropdown</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <style>
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background-color: #0b0b0b;
+      color: #f5f5f5;
+      overflow-x: hidden;
+    }
+    
+    /* Combined CSS from skill */
+    .mega-panel {
+  position: absolute; top: 100%; left: 0; right: 0; z-index: 90;
+  display: grid; grid-template-columns: 1fr 320px; gap: 40px;
+  background: #111; padding: 40px 6vw; border-top: 1px solid rgba(255,255,255,0.1);
+  opacity: 0; visibility: hidden; transform: translateY(-10px);
+}
+.mega-columns { display: flex; gap: 60px; }
+.mega-col a { display: block; padding: 8px 0; color: rgba(255,255,255,0.7); text-decoration: none; }
+.mega-preview img { width: 100%; border-radius: 8px; aspect-ratio: 4/3; object-fit: cover; }
+  </style>
+</head>
+<body>
+
+  <!-- Combined HTML Structure -->
+  <nav class="main-nav">
+  <ul class="nav-list">
+    <li class="nav-item has-mega" data-mega="work">
+      <button class="nav-item-trigger">Work <span class="chevron">⌄</span></button>
+    </li>
+    <li class="nav-item"><a href="#about">About</a></li>
+  </ul>
+
+  <div class="mega-panel" data-mega-panel="work">
+    <div class="mega-columns">
+      <div class="mega-col">
+        <h5>By Discipline</h5>
+        <a href="#" data-preview="preview-branding.jpg">Branding</a>
+        <a href="#" data-preview="preview-web.jpg">Web Design</a>
+        <a href="#" data-preview="preview-motion.jpg">Motion</a>
+      </div>
+      <div class="mega-col">
+        <h5>By Industry</h5>
+        <a href="#" data-preview="preview-tech.jpg">Technology</a>
+        <a href="#" data-preview="preview-retail.jpg">Retail</a>
+      </div>
+    </div>
+    <div class="mega-preview"><img src="preview-branding.jpg" alt=""></div>
+  </div>
+</nav>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      // Register GSAP ScrollTrigger if present
+      if (typeof ScrollTrigger !== "undefined") {
+        gsap.registerPlugin(ScrollTrigger);
+      }
+
+      // Basic Lenis scroll integration if needed
+      if (typeof Lenis !== "undefined") {
+        const lenis = new Lenis({
+          duration: 1.1,
+          easing: t => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
+          smoothWheel: true
+        });
+        lenis.on("scroll", ScrollTrigger.update);
+        gsap.ticker.add((time) => { lenis.raf(time * 1000); });
+        gsap.ticker.lagSmoothing(0);
+      }
+
+      // Combined Animation Code
+      let openTimeout, closeTimeout;
+document.querySelectorAll(".has-mega").forEach(item => {
+  const megaKey = item.dataset.mega;
+  const panel = document.querySelector(`[data-mega-panel="${megaKey}"]`);
+
+  item.addEventListener("mouseenter", () => {
+    clearTimeout(closeTimeout);
+    openTimeout = setTimeout(() => {
+      gsap.set(panel, { visibility: "visible" });
+      gsap.to(panel, { opacity: 1, y: 0, duration: 0.35, ease: "power3.out" });
+    }, 100); // small intent delay avoids the panel flashing open during fast cursor pass-through
+  });
+  item.addEventListener("mouseleave", () => {
+    clearTimeout(openTimeout);
+    closeTimeout = setTimeout(() => {
+      gsap.to(panel, { opacity: 0, y: -10, duration: 0.25, ease: "power2.in", onComplete: () => gsap.set(panel, { visibility: "hidden" }) });
+    }, 200); // delay lets the cursor travel from the trigger down into the panel itself without it closing
+  });
+  panel.addEventListener("mouseenter", () => clearTimeout(closeTimeout));
+  panel.addEventListener("mouseleave", () => {
+    closeTimeout = setTimeout(() => gsap.to(panel, { opacity: 0, y: -10, duration: 0.25, onComplete: () => gsap.set(panel, { visibility: "hidden" }) }), 200);
+  });
+});
+
+document.querySelectorAll(".mega-col a[data-preview]").forEach(link => {
+  link.addEventListener("mouseenter", () => {
+    const img = link.closest(".mega-panel").querySelector(".mega-preview img");
+    gsap.to(img, { opacity: 0, duration: 0.15, onComplete: () => {
+      img.src = link.dataset.preview;
+      gsap.to(img, { opacity: 1, duration: 0.25 });
+    }});
+  });
+});
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,6 @@
+description = "Generate a premium React GSAP image trail effect that follows the user's cursor. Use this whenever the user asks for a mouse trailing effect, cursor images, or interactive hero backgrounds."
+
+prompt = """
+Invoke the skill:pro:image-cursor-trail skill.
+Load the prompt instructions from skills/pro/ui-components/image-cursor-trail/SKILL.md and consult the copy-pasteable references or guidelines inside skills/pro/ui-components/image-cursor-trail/references/ to complete the task.
+"""

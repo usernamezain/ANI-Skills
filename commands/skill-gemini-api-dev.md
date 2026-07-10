@@ -1,0 +1,20 @@
+---
+name: skill:gemini-api-dev
+description: Use this skill when building applications with Gemini API hosted models, including Gemini and Gemma 4, working with multimodal content (text, images, audio, video), implementing function calling, using structured outputs, or needing current model specifications. Covers SDK usage (google-genai for Python, @google/genai for JavaScript/TypeScript, com.google.genai:google-genai for Java, google.golang.org/genai for Go), model selection, and API capabilities.
+allowed-tools:
+  - Read
+  - Write
+  - Bash
+  - Glob
+  - Grep
+  - AskUserQuestion
+  - Agent
+---
+<objective>
+Trigger and execute the Antigravity skill: gemini-api-dev.
+Load the prompt instructions from skills/gemini-api-dev/SKILL.md and consult the copy-pasteable references or guidelines inside skills/gemini-api-dev/references/ to complete the task.
+</objective>
+
+<execution_context>
+@skills/gemini-api-dev/SKILL.md
+</execution_context>

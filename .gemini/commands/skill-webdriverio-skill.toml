@@ -1,0 +1,6 @@
+description = ">"
+
+prompt = """
+Invoke the skill:webdriverio-skill skill.
+Load the prompt instructions from skills/webdriverio-skill/SKILL.md and consult the copy-pasteable references or guidelines inside skills/webdriverio-skill/references/ to complete the task.
+"""

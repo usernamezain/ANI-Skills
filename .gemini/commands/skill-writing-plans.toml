@@ -1,0 +1,6 @@
+description = "Use when you have a spec or requirements for a multi-step task, before touching code"
+
+prompt = """
+Invoke the skill:writing-plans skill.
+Load the prompt instructions from skills/writing-plans/SKILL.md and consult the copy-pasteable references or guidelines inside skills/writing-plans/references/ to complete the task.
+"""

@@ -1,0 +1,20 @@
+---
+name: skill:horizontal-scroll-gallery-section
+description: Build an image/project gallery section where vertical page scroll drives horizontal panel movement, with each panel slightly scaling/parallaxing as it passes center. Use whenever the user wants a "horizontal scroll gallery", "horizontal scrolling section", "sideways scroll", or "image showcase that scrolls sideways". Extends the horizontal-scroll pattern from gsap-scrolltrigger-effects with per-panel scale/parallax detail.
+allowed-tools:
+  - Read
+  - Write
+  - Bash
+  - Glob
+  - Grep
+  - AskUserQuestion
+  - Agent
+---
+<objective>
+Trigger and execute the Antigravity skill: horizontal-scroll-gallery-section.
+Load the prompt instructions from skills/horizontal-scroll-gallery-section/SKILL.md and consult the copy-pasteable references or guidelines inside skills/horizontal-scroll-gallery-section/references/ to complete the task.
+</objective>
+
+<execution_context>
+@skills/horizontal-scroll-gallery-section/SKILL.md
+</execution_context>

@@ -1,0 +1,6 @@
+description = "Review and promote backlog items to active milestone"
+
+prompt = """
+Invoke the skill:review-backlog skill.
+Load the prompt instructions from skills/review-backlog/SKILL.md and consult the copy-pasteable references or guidelines inside skills/review-backlog/references/ to complete the task.
+"""

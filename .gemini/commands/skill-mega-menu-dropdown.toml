@@ -1,0 +1,6 @@
+description = "Build a multi-column mega-menu dropdown that expands beneath a nav item on hover/click, with grouped link columns and an optional live image preview panel that swaps based on which link is hovered. Use whenever the user wants a \"mega menu\", \"dropdown with columns\", \"nav menu with preview images\", or a menu structure for a site with many sections/categories that a simple link list can't organize well."
+
+prompt = """
+Invoke the skill:mega-menu-dropdown skill.
+Load the prompt instructions from skills/mega-menu-dropdown/SKILL.md and consult the copy-pasteable references or guidelines inside skills/mega-menu-dropdown/references/ to complete the task.
+"""

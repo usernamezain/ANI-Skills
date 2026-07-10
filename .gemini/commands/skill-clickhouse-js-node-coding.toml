@@ -1,0 +1,6 @@
+description = ">"
+
+prompt = """
+Invoke the skill:clickhouse-js-node-coding skill.
+Load the prompt instructions from skills/clickhouse-js-node-coding/SKILL.md and consult the copy-pasteable references or guidelines inside skills/clickhouse-js-node-coding/references/ to complete the task.
+"""

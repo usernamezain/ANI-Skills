@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Skill Reference: tilt-3d-team-cards-section</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <style>
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background-color: #0b0b0b;
+      color: #f5f5f5;
+      overflow-x: hidden;
+    }
+    
+    /* Combined CSS from skill */
+    .team { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 24px; }
+.team-card { position: relative; overflow: hidden; border-radius: 16px; transform-style: preserve-3d; aspect-ratio: 3/4; }
+.team-photo img { width: 100%; height: 100%; object-fit: cover; transition: transform 0.5s ease; }
+.team-info { position: absolute; bottom: 0; left: 0; right: 0; padding: 20px; transform: translateY(60%); background: linear-gradient(to top, rgba(0,0,0,0.85), transparent); }
+.team-info p { opacity: 0; }
+  </style>
+</head>
+<body>
+
+  <!-- Combined HTML Structure -->
+  <section class="team">
+  <div class="team-card tilt-card reveal">
+    <div class="team-photo"><img src="person-1.jpg" alt="Alex Rivera"></div>
+    <div class="team-info">
+      <h4>Alex Rivera</h4>
+      <p>Creative Director</p>
+    </div>
+  </div>
+  <!-- repeat .team-card -->
+</section>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      // Register GSAP ScrollTrigger if present
+      if (typeof ScrollTrigger !== "undefined") {
+        gsap.registerPlugin(ScrollTrigger);
+      }
+
+      // Basic Lenis scroll integration if needed
+      if (typeof Lenis !== "undefined") {
+        const lenis = new Lenis({
+          duration: 1.1,
+          easing: t => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
+          smoothWheel: true
+        });
+        lenis.on("scroll", ScrollTrigger.update);
+        gsap.ticker.add((time) => { lenis.raf(time * 1000); });
+        gsap.ticker.lagSmoothing(0);
+      }
+
+      // Combined Animation Code
+      document.querySelectorAll(".team-card").forEach(card => {
+  const img = card.querySelector(".team-photo img");
+  const info = card.querySelector(".team-info");
+
+  card.addEventListener("mousemove", e => {
+    const r = card.getBoundingClientRect();
+    const px = (e.clientX - r.left) / r.width, py = (e.clientY - r.top) / r.height;
+    gsap.to(card, { rotateY: (px - 0.5) * 10, rotateX: (0.5 - py) * 10, transformPerspective: 800, duration: 0.4, ease: "power2.out" });
+  });
+  card.addEventListener("mouseenter", () => {
+    gsap.to(img, { scale: 1.08, duration: 0.6, ease: "power3.out" });
+    gsap.to(info, { y: "0%", duration: 0.4, ease: "power3.out" });
+    gsap.to(info.querySelector("p"), { opacity: 1, duration: 0.4, delay: 0.1 });
+  });
+  card.addEventListener("mouseleave", () => {
+    gsap.to(card, { rotateX: 0, rotateY: 0, duration: 0.6, ease: "power3.out" });
+    gsap.to(img, { scale: 1, duration: 0.6, ease: "power3.out" });
+    gsap.to(info, { y: "60%", duration: 0.4, ease: "power3.in" });
+    gsap.to(info.querySelector("p"), { opacity: 0, duration: 0.2 });
+  });
+});
+
+gsap.from(".team-card", {
+  y: 40, opacity: 0, duration: 0.8, stagger: 0.1, ease: "power3.out",
+  scrollTrigger: { trigger: ".team", start: "top 80%" }
+});
+    });
+  </script>
+</body>
+</html>

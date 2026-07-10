@@ -1,0 +1,6 @@
+description = "Executes antigravity plans with atomic commits, deviation handling, checkpoint protocols, and state management. Spawned by execute-phase orchestrator or execute-plan command."
+
+prompt = """
+Invoke the skill:executor skill.
+Load the prompt instructions from skills/executor/SKILL.md and consult the copy-pasteable references or guidelines inside skills/executor/references/ to complete the task.
+"""

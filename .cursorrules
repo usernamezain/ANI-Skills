@@ -1,0 +1,21 @@
+# Custom Agent Instructions: Antigravity Skills Library
+
+You are connected to the Antigravity Agent Skills Library containing 444 professional capabilities (visual scrollytelling, browser scraping/testing, planning workflows, and algorithmic DSA).
+
+## Skill Registry Path
+The skills registry is located in the local directory:
+./skills/
+
+## Execution Policy
+1. When asked to construct creative layouts (parallax, custom cursors, smooth scroll, 120fps cards), read the instructions in `skills/<name>/SKILL.md` and review its working code details in `skills/<name>/references/index.html`.
+2. When asked to perform web scraping, UI automation, or framework testing (Puppeteer, Playwright, Selenium, Cypress), consult `skills/<name>-skill/SKILL.md` and its test/scraping setup files.
+3. When asked to solve DSA problems, consult `skills/dsa-<name>/SKILL.md` for optimized algorithm complexity benchmarks and template structures in Python/JS.
+4. Coordinate multiple skills by consulting the master templates under `boss-prompts/`.
+
+## ANI Coding & Safety Standards (for ani-skills edits)
+Whenever modifying files inside the ANI orchestrator (under `ani-skills/` or `ani-core/`):
+1. **CommonJS only**: Use `require()`, never `import`.
+2. **No external dependencies in core**: Only Node.js built-ins.
+3. **Test framework**: Use `node:test` and `node:assert` ONLY.
+4. **File extensions**: Use `.cjs` for all test and lib files.
+5. **Safety**: Use `execFileSync` (array args) instead of `execSync`. Validate user paths using `validatePath()` from `ani-skills/bin/lib/security.cjs`.

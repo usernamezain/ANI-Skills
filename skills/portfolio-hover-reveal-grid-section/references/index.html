@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Skill Reference: portfolio-hover-reveal-grid-section</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <style>
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background-color: #0b0b0b;
+      color: #f5f5f5;
+      overflow-x: hidden;
+    }
+    
+    /* Combined CSS from skill */
+    .portfolio-grid { display: grid; grid-template-columns: 1fr; gap: 0; }
+.portfolio-item { display: flex; justify-content: space-between; padding: 28px 0; border-top: 1px solid rgba(255,255,255,0.15); text-decoration: none; color: inherit; }
+.hover-preview { position: fixed; top: 0; left: 0; width: 280px; height: 360px; pointer-events: none; opacity: 0; z-index: 50; overflow: hidden; border-radius: 8px; }
+.hover-preview img { width: 100%; height: 100%; object-fit: cover; }
+  </style>
+</head>
+<body>
+
+  <!-- Combined HTML Structure -->
+  <section class="portfolio-grid">
+  <a class="portfolio-item reveal" data-preview-img="preview-1.jpg" href="/work/1">
+    <span class="portfolio-title">Nord — Brand Identity</span>
+    <span class="portfolio-tag">Branding · 2025</span>
+  </a>
+  <!-- repeat .portfolio-item for each project -->
+  <div class="hover-preview"><img src="" alt=""></div>
+</section>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      // Register GSAP ScrollTrigger if present
+      if (typeof ScrollTrigger !== "undefined") {
+        gsap.registerPlugin(ScrollTrigger);
+      }
+
+      // Basic Lenis scroll integration if needed
+      if (typeof Lenis !== "undefined") {
+        const lenis = new Lenis({
+          duration: 1.1,
+          easing: t => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
+          smoothWheel: true
+        });
+        lenis.on("scroll", ScrollTrigger.update);
+        gsap.ticker.add((time) => { lenis.raf(time * 1000); });
+        gsap.ticker.lagSmoothing(0);
+      }
+
+      // Combined Animation Code
+      gsap.from(".portfolio-item", {
+  y: 40, opacity: 0, duration: 0.8, ease: "power3.out", stagger: 0.08,
+  scrollTrigger: { trigger: ".portfolio-grid", start: "top 80%" }
+});
+
+const preview = document.querySelector(".hover-preview img");
+document.querySelectorAll(".portfolio-item").forEach(item => {
+  item.addEventListener("mouseenter", () => {
+    preview.src = item.dataset.previewImg;
+    gsap.to(".hover-preview", { autoAlpha: 1, scale: 1, duration: 0.4, ease: "power3.out" });
+  });
+  item.addEventListener("mousemove", e => {
+    gsap.to(".hover-preview", { x: e.clientX + 24, y: e.clientY - 180, duration: 0.6, ease: "power3.out" });
+  });
+  item.addEventListener("mouseleave", () => gsap.to(".hover-preview", { autoAlpha: 0, scale: 0.9, duration: 0.3 }));
+});
+
+document.querySelectorAll(".portfolio-item").forEach(item => {
+  const title = item.querySelector(".portfolio-title");
+  item.addEventListener("mouseenter", () => gsap.to(title, { x: 16, duration: 0.4, ease: "power3.out" }));
+  item.addEventListener("mouseleave", () => gsap.to(title, { x: 0, duration: 0.4, ease: "power3.out" }));
+});
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,6 @@
+description = "Creates executable phase plans with task breakdown, dependency analysis, and goal-backward verification. Spawned by /antigravity:plan-phase orchestrator."
+
+prompt = """
+Invoke the skill:planner skill.
+Load the prompt instructions from skills/planner/SKILL.md and consult the copy-pasteable references or guidelines inside skills/planner/references/ to complete the task.
+"""

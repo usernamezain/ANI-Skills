@@ -1,0 +1,6 @@
+description = "Use this when scaffolding a new Terraform provider."
+
+prompt = """
+Invoke the skill:new-terraform-provider skill.
+Load the prompt instructions from skills/new-terraform-provider/SKILL.md and consult the copy-pasteable references or guidelines inside skills/new-terraform-provider/references/ to complete the task.
+"""

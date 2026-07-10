@@ -1,0 +1,6 @@
+description = "Build, query, and inspect the project knowledge graph in .planning/graphs/"
+
+prompt = """
+Invoke the skill:graphify skill.
+Load the prompt instructions from skills/graphify/SKILL.md and consult the copy-pasteable references or guidelines inside skills/graphify/references/ to complete the task.
+"""

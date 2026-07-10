@@ -1,0 +1,6 @@
+description = "Generate tests for a completed phase based on UAT criteria and implementation"
+
+prompt = """
+Invoke the skill:add-tests skill.
+Load the prompt instructions from skills/add-tests/SKILL.md and consult the copy-pasteable references or guidelines inside skills/add-tests/references/ to complete the task.
+"""

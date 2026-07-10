@@ -1,0 +1,6 @@
+description = "Use this skill to query your Google NotebookLM notebooks directly from Claude Code for source-grounded, citation-backed answers from Gemini. Browser automation, library management, persistent auth. Drastically reduced hallucinations through document-only responses."
+
+prompt = """
+Invoke the skill:notebooklm skill.
+Load the prompt instructions from skills/notebooklm/SKILL.md and consult the copy-pasteable references or guidelines inside skills/notebooklm/references/ to complete the task.
+"""

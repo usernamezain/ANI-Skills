@@ -1,0 +1,6 @@
+description = "Creates project roadmaps with phase breakdown, requirement mapping, success criteria derivation, and coverage validation. Spawned by /antigravity:new-project orchestrator."
+
+prompt = """
+Invoke the skill:roadmapper skill.
+Load the prompt instructions from skills/roadmapper/SKILL.md and consult the copy-pasteable references or guidelines inside skills/roadmapper/references/ to complete the task.
+"""

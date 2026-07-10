@@ -1,0 +1,6 @@
+description = "Writes and updates project documentation. Spawned with a doc_assignment block specifying doc type, mode (create/update/supplement), and project context."
+
+prompt = """
+Invoke the skill:doc-writer skill.
+Load the prompt instructions from skills/doc-writer/SKILL.md and consult the copy-pasteable references or guidelines inside skills/doc-writer/references/ to complete the task.
+"""

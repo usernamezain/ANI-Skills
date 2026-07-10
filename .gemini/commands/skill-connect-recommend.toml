@@ -1,0 +1,6 @@
+description = ">-"
+
+prompt = """
+Invoke the skill:connect-recommend skill.
+Load the prompt instructions from skills/connect-recommend/SKILL.md and consult the copy-pasteable references or guidelines inside skills/connect-recommend/references/ to complete the task.
+"""

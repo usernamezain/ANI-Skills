@@ -1,0 +1,21 @@
+{
+  "name": "antigravity-skills-library",
+  "displayName": "Antigravity Skills Library",
+  "version": "1.0.0",
+  "description": "Professional AI Agent Skills library for creative frontend animations, ANI planning, and task automation.",
+  "author": {
+    "name": "Antigravity Devs"
+  },
+  "homepage": "https://github.com/guanyang/antigravity-skills",
+  "repository": "https://github.com/guanyang/antigravity-skills",
+  "license": "MIT",
+  "keywords": [
+    "skills",
+    "agent",
+    "antigravity",
+    "claude-code",
+    "workflows"
+  ],
+  "skills": "./skills/",
+  "commands": "./commands/"
+}

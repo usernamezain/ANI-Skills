@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Skill Reference: stagger-reveal-blog-cards-section</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <style>
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background-color: #0b0b0b;
+      color: #f5f5f5;
+      overflow-x: hidden;
+    }
+    
+    /* Combined CSS from skill */
+    .blog-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 32px; }
+.blog-img { overflow: hidden; border-radius: 12px; aspect-ratio: 4/3; }
+.blog-img img { width: 100%; height: 100%; object-fit: cover; transition: transform 0.6s ease; }
+.blog-card:hover .blog-img img { transform: scale(1.08); }
+  </style>
+</head>
+<body>
+
+  <!-- Combined HTML Structure -->
+  <section class="blog">
+  <div class="blog-filters">
+    <button class="filter-tab active" data-cat="all">All</button>
+    <button class="filter-tab" data-cat="design">Design</button>
+    <button class="filter-tab" data-cat="engineering">Engineering</button>
+  </div>
+  <div class="blog-grid">
+    <article class="blog-card reveal" data-cat="design">
+      <div class="blog-img"><img src="post-1.jpg" alt=""></div>
+      <span class="blog-tag">Design</span>
+      <h3>Why most rebrands fail in the first year</h3>
+      <p class="blog-meta">6 min read</p>
+    </article>
+    <!-- repeat .blog-card -->
+  </div>
+</section>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      // Register GSAP ScrollTrigger if present
+      if (typeof ScrollTrigger !== "undefined") {
+        gsap.registerPlugin(ScrollTrigger);
+      }
+
+      // Basic Lenis scroll integration if needed
+      if (typeof Lenis !== "undefined") {
+        const lenis = new Lenis({
+          duration: 1.1,
+          easing: t => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
+          smoothWheel: true
+        });
+        lenis.on("scroll", ScrollTrigger.update);
+        gsap.ticker.add((time) => { lenis.raf(time * 1000); });
+        gsap.ticker.lagSmoothing(0);
+      }
+
+      // Combined Animation Code
+      gsap.from(".blog-card", {
+  y: 40, opacity: 0, duration: 0.7, stagger: 0.1, ease: "power3.out",
+  scrollTrigger: { trigger: ".blog-grid", start: "top 80%" }
+});
+
+document.querySelectorAll(".filter-tab").forEach(tab => {
+  tab.addEventListener("click", () => {
+    document.querySelectorAll(".filter-tab").forEach(t => t.classList.remove("active"));
+    tab.classList.add("active");
+    const cat = tab.dataset.cat;
+    const cards = gsap.utils.toArray(".blog-card");
+
+    // FLIP: record First position
+    const first = cards.map(c => c.getBoundingClientRect());
+
+    cards.forEach(c => { c.style.display = (cat === "all" || c.dataset.cat === cat) ? "" : "none"; });
+
+    // Last position, then invert + play
+    cards.forEach((c, i) => {
+      if (c.style.display === "none") return;
+      const last = c.getBoundingClientRect();
+      const deltaX = first[i].left - last.left;
+      const deltaY = first[i].top - last.top;
+      gsap.fromTo(c, { x: deltaX, y: deltaY }, { x: 0, y: 0, duration: 0.5, ease: "power3.out" });
+    });
+  });
+});
+    });
+  </script>
+</body>
+</html>

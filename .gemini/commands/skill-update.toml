@@ -1,0 +1,6 @@
+description = "Update antigravity to latest version with changelog display"
+
+prompt = """
+Invoke the skill:update skill.
+Load the prompt instructions from skills/update/SKILL.md and consult the copy-pasteable references or guidelines inside skills/update/references/ to complete the task.
+"""

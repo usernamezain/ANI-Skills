@@ -1,0 +1,6 @@
+description = "Create and edit Obsidian Flavored Markdown with wikilinks, embeds, callouts, properties, and other Obsidian-specific syntax. Use when working with .md files in Obsidian, or when the user mentions wikilinks, callouts, frontmatter, tags, embeds, or Obsidian notes."
+
+prompt = """
+Invoke the skill:obsidian-markdown skill.
+Load the prompt instructions from skills/obsidian-markdown/SKILL.md and consult the copy-pasteable references or guidelines inside skills/obsidian-markdown/references/ to complete the task.
+"""

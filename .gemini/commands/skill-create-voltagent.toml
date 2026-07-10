@@ -1,0 +1,6 @@
+description = "Skill for creating AI agent projects using the VoltAgent framework. Guide for CLI setup and manual bootstrapping."
+
+prompt = """
+Invoke the skill:create-voltagent skill.
+Load the prompt instructions from skills/create-voltagent/SKILL.md and consult the copy-pasteable references or guidelines inside skills/create-voltagent/references/ to complete the task.
+"""

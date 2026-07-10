@@ -1,0 +1,6 @@
+description = "Request cross-AI peer review of phase plans from external AI CLIs"
+
+prompt = """
+Invoke the skill:review skill.
+Load the prompt instructions from skills/review/SKILL.md and consult the copy-pasteable references or guidelines inside skills/review/references/ to complete the task.
+"""

@@ -1,0 +1,6 @@
+description = "Run all remaining phases autonomously — discuss→plan→execute per phase"
+
+prompt = """
+Invoke the skill:autonomous skill.
+Load the prompt instructions from skills/autonomous/SKILL.md and consult the copy-pasteable references or guidelines inside skills/autonomous/references/ to complete the task.
+"""

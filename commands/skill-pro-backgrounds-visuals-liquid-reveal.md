@@ -1,0 +1,20 @@
+---
+name: skill:pro:liquid-reveal
+description: Generate a highly interactive WebGL fluid simulation component for React. Use this whenever the user requests a liquid reveal, smoke simulation, interactive fluid background, or WebGL fluid canvas.
+allowed-tools:
+  - Read
+  - Write
+  - Bash
+  - Glob
+  - Grep
+  - AskUserQuestion
+  - Agent
+---
+<objective>
+Trigger and execute the Antigravity skill: pro:liquid-reveal.
+Load the prompt instructions from skills/pro/backgrounds-visuals/liquid-reveal/SKILL.md and consult the copy-pasteable references or guidelines inside skills/pro/backgrounds-visuals/liquid-reveal/references/ to complete the task.
+</objective>
+
+<execution_context>
+@skills/pro/backgrounds-visuals/liquid-reveal/SKILL.md
+</execution_context>

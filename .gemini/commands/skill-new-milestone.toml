@@ -1,0 +1,6 @@
+description = "Start a new milestone cycle — update PROJECT.md and route to requirements"
+
+prompt = """
+Invoke the skill:new-milestone skill.
+Load the prompt instructions from skills/new-milestone/SKILL.md and consult the copy-pasteable references or guidelines inside skills/new-milestone/references/ to complete the task.
+"""
