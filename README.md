@@ -4,6 +4,12 @@
 
 ---
 
+### Connect & Support
+* 🔗 **LinkedIn**: [Zain Ali Mughal](https://www.linkedin.com/in/zainali-mughal/)
+* 📢 **WhatsApp Channel** (✨ Join for more exclusive drops): 👉 [Join Here](https://whatsapp.com/channel/0029VbBUVv35fM5eAnXw3w2D)
+
+---
+
 ## Table of Contents
 
 1. [Overview & Architecture](#1-overview--architecture)
