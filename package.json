@@ -1,6 +1,6 @@
 {
   "name": "ani-skills",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "ani-skills is a professional AI Agent Skills library for Cursor, Claude Code, Windsurf, Trae, Cline, and Antigravity IDE, specializing in creative frontend GSAP/ScrollTrigger/Lenis animations, system planning, browser testing, and DSA workflows.",
   "main": "skills_index.json",
   "bin": {
@@ -8,7 +8,8 @@
   },
   "scripts": {
     "build:index": "python scripts/update_skills_index.py",
-    "lint:skills": "python scripts/verify_library.py"
+    "lint:skills": "python scripts/verify_library.py",
+    "postinstall": "node bin/install.js --auto"
   },
   "keywords": [
     "skills",

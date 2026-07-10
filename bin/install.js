@@ -28,6 +28,13 @@ A repository of 444 AI agent skills and prompts.
   `);
 }
 
+function shouldLink() {
+  const isGit = fs.existsSync(path.join(projectRoot, '.git'));
+  const isNodeModules = projectRoot.includes('node_modules');
+  const isNpx = projectRoot.includes('npm-cache') || projectRoot.includes('_npx');
+  return isGit && !isNodeModules && !isNpx;
+}
+
 function copyRecursiveSync(src, dest) {
   const exists = fs.existsSync(src);
   const stats = exists && fs.statSync(src);
@@ -38,41 +45,69 @@ function copyRecursiveSync(src, dest) {
       copyRecursiveSync(path.join(src, childItemName), path.join(dest, childItemName));
     });
   } else {
-    fs.copyFileSync(src, dest);
+    try {
+      if (fs.existsSync(dest)) {
+        fs.unlinkSync(dest);
+      }
+      fs.copyFileSync(src, dest);
+    } catch (e) {
+      try {
+        fs.chmodSync(dest, 0o666);
+        if (fs.existsSync(dest)) {
+          fs.unlinkSync(dest);
+        }
+        fs.copyFileSync(src, dest);
+      } catch (err) {
+        console.error(`[Warning] Failed to copy ${src} to ${dest}: ${err.message}`);
+      }
+    }
   }
 }
 
 function linkOrCopy(src, dest) {
-  if (fs.existsSync(dest)) {
-    // If it's a symlink or directory, remove it first
+  let pathExists = false;
+  let isSymlinkOrFile = false;
+  
+  try {
+    const stat = fs.lstatSync(dest);
+    pathExists = true;
+    isSymlinkOrFile = stat.isSymbolicLink() || stat.isFile();
+  } catch (e) {
+    // Path does not exist at all
+  }
+
+  if (pathExists) {
     try {
-      const stat = fs.lstatSync(dest);
-      if (stat.isSymbolicLink() || stat.isFile()) {
+      if (isSymlinkOrFile) {
         fs.unlinkSync(dest);
       } else {
         fs.rmSync(dest, { recursive: true, force: true });
       }
     } catch (e) {
-      console.log(`Note: overwriting existing target ${dest}`);
+      console.log(`Note: overwriting existing target ${dest} failed: ${e.message}`);
     }
   }
 
   // Create parent directories if they don't exist
   fs.mkdirSync(path.dirname(dest), { recursive: true });
 
-  try {
-    // Try junction link on Windows, symlink on other platforms
-    const type = process.platform === 'win32' ? 'junction' : 'dir';
-    fs.symlinkSync(src, dest, type);
-    console.log(`[Success] Symlinked ${src} -> ${dest}`);
-  } catch (e) {
-    console.log(`[Permission Warning] Symlinking failed (requires administrator on Windows). Falling back to direct copying...`);
+  if (shouldLink()) {
     try {
-      copyRecursiveSync(src, dest);
-      console.log(`[Success] Copied ${src} -> ${dest}`);
-    } catch (copyErr) {
-      console.error(`[Error] Copy failed: ${copyErr.message}`);
+      // Try junction link on Windows, symlink on other platforms
+      const type = process.platform === 'win32' ? 'junction' : 'dir';
+      fs.symlinkSync(src, dest, type);
+      console.log(`[Success] Symlinked ${src} -> ${dest}`);
+      return;
+    } catch (e) {
+      console.log(`[Permission Warning] Symlinking failed. Falling back to direct copying...`);
     }
+  }
+
+  try {
+    copyRecursiveSync(src, dest);
+    console.log(`[Success] Copied ${src} -> ${dest}`);
+  } catch (copyErr) {
+    console.error(`[Error] Copy failed: ${copyErr.message}`);
   }
 }
 
@@ -267,5 +302,109 @@ function mainMenu() {
   });
 }
 
+function runAutoInstall() {
+  console.log('Running Antigravity Skills Library Setup in Auto/Non-Interactive Mode...');
+  const homeDir = process.env.HOME || process.env.USERPROFILE || os.homedir();
+  
+  const targets = [
+    {
+      name: 'Antigravity IDE',
+      skillsDest: path.join(homeDir, '.gemini', 'config', 'skills'),
+      commandsDests: [path.join(homeDir, '.gemini', 'commands'), path.join(homeDir, '.gemini', 'config', 'commands')],
+      trigger: path.join(homeDir, '.gemini', 'config')
+    },
+    {
+      name: 'Antigravity 2.0',
+      skillsDest: path.join(homeDir, '.gemini', 'antigravity', 'skills'),
+      commandsDests: [path.join(homeDir, '.gemini', 'commands'), path.join(homeDir, '.gemini', 'antigravity', 'commands')],
+      trigger: path.join(homeDir, '.gemini', 'antigravity')
+    },
+    {
+      name: 'Claude Code CLI',
+      skillsDest: path.join(homeDir, '.claude', 'skills'),
+      commandsDests: null,
+      trigger: path.join(homeDir, '.claude')
+    },
+    {
+      name: 'Trae',
+      skillsDest: path.join(homeDir, '.trae', 'skills'),
+      commandsDests: null,
+      trigger: path.join(homeDir, '.trae')
+    },
+    {
+      name: 'Cursor',
+      skillsDest: path.join(homeDir, '.cursor', 'skills'),
+      commandsDests: null,
+      trigger: path.join(homeDir, '.cursor')
+    },
+    {
+      name: 'Kiro',
+      skillsDest: path.join(homeDir, '.kiro', 'skills'),
+      commandsDests: null,
+      trigger: path.join(homeDir, '.kiro')
+    },
+    {
+      name: 'Qoderworker',
+      skillsDest: path.join(homeDir, '.qoderwork', 'skills'),
+      commandsDests: null,
+      trigger: path.join(homeDir, '.qoderwork')
+    },
+    {
+      name: 'CodeBuddy',
+      skillsDest: path.join(homeDir, '.codebuddy', 'skills'),
+      commandsDests: null,
+      trigger: path.join(homeDir, '.codebuddy')
+    },
+    {
+      name: 'Cline',
+      skillsDest: path.join(homeDir, '.cline', 'skills'),
+      commandsDests: null,
+      trigger: path.join(homeDir, '.cline')
+    }
+  ];
+
+  let configuredAny = false;
+
+  targets.forEach(target => {
+    if (fs.existsSync(target.trigger)) {
+      console.log(`\nDetected environment: ${target.name}. Configuring targets...`);
+      try {
+        // Copy skills
+        linkOrCopy(skillsSrc, target.skillsDest);
+        
+        // Copy commands
+        if (target.commandsDests) {
+          const geminiConfSrc = path.join(projectRoot, '.gemini', 'commands');
+          const dests = Array.isArray(target.commandsDests) ? target.commandsDests : [target.commandsDests];
+          dests.forEach(dest => {
+            linkOrCopy(geminiConfSrc, dest);
+          });
+        }
+        console.log(`[Success] Configured ${target.name} skills and commands.`);
+        configuredAny = true;
+      } catch (err) {
+        console.error(`[Error] Failed configuring ${target.name}: ${err.message}`);
+      }
+    }
+  });
+
+  if (!configuredAny) {
+    console.log('\nNo standard AI environment directories detected (like .gemini, .cursor, .claude, etc.).');
+    console.log('Skipping auto configuration. To run interactively, run the script in a TTY terminal.');
+  } else {
+    console.log('\nAuto configuration completed successfully.');
+  }
+  
+  rl.close();
+  process.exit(0);
+}
+
 // Start execution
-mainMenu();
+const args = process.argv.slice(2);
+const isAuto = args.includes('--auto') || args.includes('--yes') || args.includes('-y') || !process.stdout.isTTY;
+
+if (isAuto) {
+  runAutoInstall();
+} else {
+  mainMenu();
+}
