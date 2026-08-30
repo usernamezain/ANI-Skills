@@ -1,6 +1,6 @@
 {
   "name": "ani-skills",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "ANI-Skills Ultra is a comprehensive AI Agent Skills library with 3,048+ skills across 29 semantic namespaces for Antigravity, Claude Code, Cursor, Windsurf, Copilot, Codex, Gemini CLI, and OpenCode, featuring an interactive GUI installer.",
   "main": "skills_index.json",
   "bin": {
