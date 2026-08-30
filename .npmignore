@@ -1,0 +1,102 @@
+# ==============================================================================
+# ANI-Skills Ultra — NPM Ignore Specification (.npmignore)
+# Ignores memory dumps, crash logs, scratch files, test artifacts, and caches
+# ==============================================================================
+
+# Memory & Crash Dumps
+*.dmp
+*.dump
+*.stackdump
+core
+core.*
+heapdump*
+*.core
+*.crash
+crash-*.json
+
+# Logs & Debug Output
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+logs/
+.system_generated/
+*.out
+*.err
+
+# Scratch, Temporary & Staging Directories
+scratch/
+tmp/
+temp/
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*~
+*.orig
+
+# Archives, Bundles & Tarballs
+*.tgz
+*.tar
+*.tar.gz
+*.zip
+*.rar
+*.7z
+*.gz
+
+# Python Bytecode & Environments
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+ENV/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Git Metadata & Repository Artifacts
+.git/
+.github/
+.gitignore
+.gitattributes
+.gitmodules
+.gitkeep
+
+# IDE, Editor & OS Dumps
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+[Dd]esktop.ini
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# CI/CD, Coverage & Test Artifacts
+coverage/
+.nyc_output/
+test-results/
+playwright-report/
+cypress/videos/
+cypress/screenshots/
+.turbo/
+.cache/
+
+# Internal Developer Scripts & Scratch Folders
+scripts/
