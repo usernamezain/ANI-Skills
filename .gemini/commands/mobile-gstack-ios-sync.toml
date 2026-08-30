@@ -1,0 +1,6 @@
+description = "Regenerate the iOS debug bridge against the latest upstream gstack templates. (gstack)"
+
+prompt = """
+Invoke the mobile:gstack-ios-sync skill.
+Load the prompt instructions from skills/gstack-ios-sync/SKILL.md and consult the copy-pasteable references or guidelines inside skills/gstack-ios-sync/references/ to complete the task.
+"""

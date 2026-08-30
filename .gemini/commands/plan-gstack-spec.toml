@@ -1,0 +1,6 @@
+description = "Turn vague intent into a precise, executable spec in five phases. (gstack)"
+
+prompt = """
+Invoke the plan:gstack-spec skill.
+Load the prompt instructions from skills/gstack-spec/SKILL.md and consult the copy-pasteable references or guidelines inside skills/gstack-spec/references/ to complete the task.
+"""

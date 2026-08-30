@@ -1,0 +1,6 @@
+description = "Turn an English description (or mermaid source) into a diagram triplet: the source, an editable .excalidraw file you can open on excalidraw.com, and rendered SVG + PNG. (gstack)"
+
+prompt = """
+Invoke the doc:gstack-diagram skill.
+Load the prompt instructions from skills/gstack-diagram/SKILL.md and consult the copy-pasteable references or guidelines inside skills/gstack-diagram/references/ to complete the task.
+"""

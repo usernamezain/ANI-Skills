@@ -1,0 +1,6 @@
+description = "Design shotgun: generate multiple AI design variants, open a comparison board, collect structured feedback, and iterate. (gstack)"
+
+prompt = """
+Invoke the ui:gstack-design-shotgun skill.
+Load the prompt instructions from skills/gstack-design-shotgun/SKILL.md and consult the copy-pasteable references or guidelines inside skills/gstack-design-shotgun/references/ to complete the task.
+"""

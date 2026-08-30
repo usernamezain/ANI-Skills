@@ -1,0 +1,6 @@
+description = "You are orchestrating the **Full 4-Way Executive Board Review**:"
+
+prompt = """
+Invoke the boss:gstack-autoplan boss prompt.
+Load the instructions from boss-prompts/gstack-autoplan.md to orchestrate a multi-skill workflow.
+"""

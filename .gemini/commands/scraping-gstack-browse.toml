@@ -1,0 +1,6 @@
+description = "Fast headless browser for QA testing and site dogfooding. (gstack)"
+
+prompt = """
+Invoke the scraping:gstack-browse skill.
+Load the prompt instructions from skills/gstack-browse/SKILL.md and consult the copy-pasteable references or guidelines inside skills/gstack-browse/references/ to complete the task.
+"""

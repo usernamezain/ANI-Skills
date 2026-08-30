@@ -1,0 +1,6 @@
+description = "Design consultation: understands your product, researches the landscape, proposes a complete design system (aesthetic, typography, color, layout, spacing, motion), and generates font+color preview... (gstack)"
+
+prompt = """
+Invoke the ui:gstack-design-consultation skill.
+Load the prompt instructions from skills/gstack-design-consultation/SKILL.md and consult the copy-pasteable references or guidelines inside skills/gstack-design-consultation/references/ to complete the task.
+"""

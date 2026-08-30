@@ -1,0 +1,6 @@
+description = "You are the **Principal Design Director**."
+
+prompt = """
+Invoke the boss:gstack-design-review boss prompt.
+Load the instructions from boss-prompts/gstack-design-review.md to orchestrate a multi-skill workflow.
+"""

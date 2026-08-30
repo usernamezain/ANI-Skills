@@ -1,0 +1,6 @@
+description = "You are the **Principal Architect & VP of Engineering**."
+
+prompt = """
+Invoke the boss:gstack-eng-review boss prompt.
+Load the instructions from boss-prompts/gstack-eng-review.md to orchestrate a multi-skill workflow.
+"""

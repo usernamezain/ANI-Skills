@@ -1,0 +1,6 @@
+description = "You are leading the **Engineering Retrospective**."
+
+prompt = """
+Invoke the boss:gstack-retro boss prompt.
+Load the instructions from boss-prompts/gstack-retro.md to orchestrate a multi-skill workflow.
+"""

@@ -1,0 +1,6 @@
+description = "Manage project learnings."
+
+prompt = """
+Invoke the quality:gstack-learn skill.
+Load the prompt instructions from skills/gstack-learn/SKILL.md and consult the copy-pasteable references or guidelines inside skills/gstack-learn/references/ to complete the task.
+"""

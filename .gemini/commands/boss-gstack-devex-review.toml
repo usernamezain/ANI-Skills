@@ -1,0 +1,6 @@
+description = "You are the **Lead DevEx Architect**."
+
+prompt = """
+Invoke the boss:gstack-devex-review boss prompt.
+Load the instructions from boss-prompts/gstack-devex-review.md to orchestrate a multi-skill workflow.
+"""

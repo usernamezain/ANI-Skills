@@ -1,0 +1,6 @@
+description = "Generate missing documentation from scratch for a feature, module, or entire project. (gstack)"
+
+prompt = """
+Invoke the doc:gstack-document-generate skill.
+Load the prompt instructions from skills/gstack-document-generate/SKILL.md and consult the copy-pasteable references or guidelines inside skills/gstack-document-generate/references/ to complete the task.
+"""

@@ -1,0 +1,6 @@
+description = "Launch GStack Browser — AI-controlled Chromium with the sidebar extension baked in."
+
+prompt = """
+Invoke the scraping:gstack-open-browser skill.
+Load the prompt instructions from skills/gstack-open-gstack-browser/SKILL.md and consult the copy-pasteable references or guidelines inside skills/gstack-open-gstack-browser/references/ to complete the task.
+"""

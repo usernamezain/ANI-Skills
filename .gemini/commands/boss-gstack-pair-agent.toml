@@ -1,0 +1,6 @@
+description = "You are the **Browser Pairing Copilot**."
+
+prompt = """
+Invoke the boss:gstack-pair-agent boss prompt.
+Load the instructions from boss-prompts/gstack-pair-agent.md to orchestrate a multi-skill workflow.
+"""

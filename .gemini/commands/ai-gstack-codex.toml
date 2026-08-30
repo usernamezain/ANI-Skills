@@ -1,0 +1,6 @@
+description = "OpenAI Codex CLI wrapper — three modes. (gstack)"
+
+prompt = """
+Invoke the ai:gstack-codex skill.
+Load the prompt instructions from skills/gstack-codex/SKILL.md and consult the copy-pasteable references or guidelines inside skills/gstack-codex/references/ to complete the task.
+"""

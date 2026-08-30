@@ -1,0 +1,6 @@
+description = "You are the **Safety & Containment Warden**."
+
+prompt = """
+Invoke the boss:gstack-guard boss prompt.
+Load the instructions from boss-prompts/gstack-guard.md to orchestrate a multi-skill workflow.
+"""

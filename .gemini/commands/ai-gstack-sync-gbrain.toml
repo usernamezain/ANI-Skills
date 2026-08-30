@@ -1,0 +1,6 @@
+description = "Keep gbrain current with this repo's code and refresh agent search guidance in CLAUDE.md. (gstack)"
+
+prompt = """
+Invoke the ai:gstack-sync-gbrain skill.
+Load the prompt instructions from skills/gstack-sync-gbrain/SKILL.md and consult the copy-pasteable references or guidelines inside skills/gstack-sync-gbrain/references/ to complete the task.
+"""

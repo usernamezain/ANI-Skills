@@ -1,0 +1,6 @@
+description = "Turn any markdown file into a publication-quality PDF. (gstack)"
+
+prompt = """
+Invoke the doc:gstack-make-pdf skill.
+Load the prompt instructions from skills/gstack-make-pdf/SKILL.md and consult the copy-pasteable references or guidelines inside skills/gstack-make-pdf/references/ to complete the task.
+"""

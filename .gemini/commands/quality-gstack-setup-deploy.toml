@@ -1,0 +1,6 @@
+description = "Configure deployment settings for /land-and-deploy."
+
+prompt = """
+Invoke the quality:gstack-setup-deploy skill.
+Load the prompt instructions from skills/gstack-setup-deploy/SKILL.md and consult the copy-pasteable references or guidelines inside skills/gstack-setup-deploy/references/ to complete the task.
+"""

@@ -1,0 +1,6 @@
+description = "Design finalization: generates production-quality Pretext-native HTML/CSS. (gstack)"
+
+prompt = """
+Invoke the ui:gstack-design-html skill.
+Load the prompt instructions from skills/gstack-design-html/SKILL.md and consult the copy-pasteable references or guidelines inside skills/gstack-design-html/references/ to complete the task.
+"""

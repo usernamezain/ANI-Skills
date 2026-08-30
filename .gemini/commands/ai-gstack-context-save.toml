@@ -1,0 +1,6 @@
+description = "Save working context. (gstack)"
+
+prompt = """
+Invoke the ai:gstack-context-save skill.
+Load the prompt instructions from skills/gstack-context-save/SKILL.md and consult the copy-pasteable references or guidelines inside skills/gstack-context-save/references/ to complete the task.
+"""

@@ -1,0 +1,6 @@
+description = "You are conducting an intense **Y Combinator Office Hours Session**."
+
+prompt = """
+Invoke the boss:gstack-office-hours boss prompt.
+Load the instructions from boss-prompts/gstack-office-hours.md to orchestrate a multi-skill workflow.
+"""

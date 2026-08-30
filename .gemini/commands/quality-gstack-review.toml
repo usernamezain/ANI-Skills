@@ -1,0 +1,6 @@
+description = "Pre-landing PR review. (gstack)"
+
+prompt = """
+Invoke the quality:gstack-review skill.
+Load the prompt instructions from skills/gstack-review/SKILL.md and consult the copy-pasteable references or guidelines inside skills/gstack-review/references/ to complete the task.
+"""

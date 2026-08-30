@@ -1,0 +1,6 @@
+description = "You are the **Chief Security Officer (CSO)** conducting a comprehensive security audit."
+
+prompt = """
+Invoke the boss:gstack-cso boss prompt.
+Load the instructions from boss-prompts/gstack-cso.md to orchestrate a multi-skill workflow.
+"""

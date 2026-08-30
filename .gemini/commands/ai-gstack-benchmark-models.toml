@@ -1,0 +1,6 @@
+description = "Cross-model benchmark for gstack skills. (gstack)"
+
+prompt = """
+Invoke the ai:gstack-benchmark-models skill.
+Load the prompt instructions from skills/gstack-benchmark-models/SKILL.md and consult the copy-pasteable references or guidelines inside skills/gstack-benchmark-models/references/ to complete the task.
+"""

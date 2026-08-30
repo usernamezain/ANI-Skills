@@ -1,0 +1,6 @@
+description = "Read-only queue dashboard for workspace-aware ship. (gstack)"
+
+prompt = """
+Invoke the quality:gstack-landing-report skill.
+Load the prompt instructions from skills/gstack-landing-report/SKILL.md and consult the copy-pasteable references or guidelines inside skills/gstack-landing-report/references/ to complete the task.
+"""

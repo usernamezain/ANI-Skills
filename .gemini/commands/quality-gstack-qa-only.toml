@@ -1,0 +1,6 @@
+description = "Report-only QA testing. (gstack)"
+
+prompt = """
+Invoke the quality:gstack-qa-only skill.
+Load the prompt instructions from skills/gstack-qa-only/SKILL.md and consult the copy-pasteable references or guidelines inside skills/gstack-qa-only/references/ to complete the task.
+"""

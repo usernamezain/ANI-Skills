@@ -1,0 +1,6 @@
+description = "Designer's eye QA: finds visual inconsistency, spacing issues, hierarchy problems, AI slop patterns, and slow interactions — then fixes them. (gstack)"
+
+prompt = """
+Invoke the ui:gstack-design-review skill.
+Load the prompt instructions from skills/gstack-design-review/SKILL.md and consult the copy-pasteable references or guidelines inside skills/gstack-design-review/references/ to complete the task.
+"""

@@ -1,0 +1,6 @@
+description = "You are the **Release Captain**."
+
+prompt = """
+Invoke the boss:gstack-ship boss prompt.
+Load the instructions from boss-prompts/gstack-ship.md to orchestrate a multi-skill workflow.
+"""

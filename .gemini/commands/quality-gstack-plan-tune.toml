@@ -1,0 +1,6 @@
+description = "Self-tuning question sensitivity + developer psychographic for gstack (v1: observational). (gstack)"
+
+prompt = """
+Invoke the quality:gstack-plan-tune skill.
+Load the prompt instructions from skills/gstack-plan-tune/SKILL.md and consult the copy-pasteable references or guidelines inside skills/gstack-plan-tune/references/ to complete the task.
+"""

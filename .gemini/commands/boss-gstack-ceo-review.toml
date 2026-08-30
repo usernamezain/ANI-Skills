@@ -1,0 +1,6 @@
+description = "You are acting as **Garry Tan (CEO / Founder Mode Reviewer)**."
+
+prompt = """
+Invoke the boss:gstack-ceo-review boss prompt.
+Load the instructions from boss-prompts/gstack-ceo-review.md to orchestrate a multi-skill workflow.
+"""

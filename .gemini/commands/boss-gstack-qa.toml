@@ -1,0 +1,6 @@
+description = "You are the **Senior QA Automation Lead**."
+
+prompt = """
+Invoke the boss:gstack-qa boss prompt.
+Load the instructions from boss-prompts/gstack-qa.md to orchestrate a multi-skill workflow.
+"""

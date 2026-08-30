@@ -1314,6 +1314,330 @@
     "description": "Official GSAP skill for gsap.utils — clamp, mapRange, normalize, interpolate, random, snap, toArray, wrap, pipe. Use when the user asks about gsap.utils, clamp, mapRange, random, snap, toArray, wrap, or helper utilities in GSAP."
   },
   {
+    "id": "gstack-autoplan",
+    "path": "skills/gstack-autoplan",
+    "name": "boss:gstack-autoplan",
+    "description": "Auto-review pipeline — reads the full CEO, design, eng, and DX review skills from disk and runs them sequentially with auto-decisions using 6 decision principles. (gstack)"
+  },
+  {
+    "id": "gstack-benchmark",
+    "path": "skills/gstack-benchmark",
+    "name": "ai:gstack-benchmark",
+    "description": "Performance regression detection using the browse daemon. (gstack)"
+  },
+  {
+    "id": "gstack-benchmark-models",
+    "path": "skills/gstack-benchmark-models",
+    "name": "ai:gstack-benchmark-models",
+    "description": "Cross-model benchmark for gstack skills. (gstack)"
+  },
+  {
+    "id": "gstack-browse",
+    "path": "skills/gstack-browse",
+    "name": "scraping:gstack-browse",
+    "description": "Fast headless browser for QA testing and site dogfooding. (gstack)"
+  },
+  {
+    "id": "gstack-canary",
+    "path": "skills/gstack-canary",
+    "name": "quality:gstack-canary",
+    "description": "Post-deploy canary monitoring. (gstack)"
+  },
+  {
+    "id": "gstack-careful",
+    "path": "skills/gstack-careful",
+    "name": "quality:gstack-careful",
+    "description": "Safety guardrails for destructive commands. (gstack)"
+  },
+  {
+    "id": "gstack-codex",
+    "path": "skills/gstack-codex",
+    "name": "ai:gstack-codex",
+    "description": "OpenAI Codex CLI wrapper — three modes. (gstack)"
+  },
+  {
+    "id": "gstack-context-restore",
+    "path": "skills/gstack-context-restore",
+    "name": "ai:gstack-context-restore",
+    "description": "Restore working context saved earlier by /context-save. (gstack)"
+  },
+  {
+    "id": "gstack-context-save",
+    "path": "skills/gstack-context-save",
+    "name": "ai:gstack-context-save",
+    "description": "Save working context. (gstack)"
+  },
+  {
+    "id": "gstack-cso",
+    "path": "skills/gstack-cso",
+    "name": "boss:gstack-cso",
+    "description": "Chief Security Officer mode. (gstack)"
+  },
+  {
+    "id": "gstack-design-consultation",
+    "path": "skills/gstack-design-consultation",
+    "name": "ui:gstack-design-consultation",
+    "description": "Design consultation: understands your product, researches the landscape, proposes a complete design system (aesthetic, typography, color, layout, spacing, motion), and generates font+color preview... (gstack)"
+  },
+  {
+    "id": "gstack-design-html",
+    "path": "skills/gstack-design-html",
+    "name": "ui:gstack-design-html",
+    "description": "Design finalization: generates production-quality Pretext-native HTML/CSS. (gstack)"
+  },
+  {
+    "id": "gstack-design-review",
+    "path": "skills/gstack-design-review",
+    "name": "ui:gstack-design-review",
+    "description": "Designer's eye QA: finds visual inconsistency, spacing issues, hierarchy problems, AI slop patterns, and slow interactions — then fixes them. (gstack)"
+  },
+  {
+    "id": "gstack-design-shotgun",
+    "path": "skills/gstack-design-shotgun",
+    "name": "ui:gstack-design-shotgun",
+    "description": "Design shotgun: generate multiple AI design variants, open a comparison board, collect structured feedback, and iterate. (gstack)"
+  },
+  {
+    "id": "gstack-devex-review",
+    "path": "skills/gstack-devex-review",
+    "name": "quality:gstack-devex-review",
+    "description": "Live developer experience audit. (gstack)"
+  },
+  {
+    "id": "gstack-diagram",
+    "path": "skills/gstack-diagram",
+    "name": "doc:gstack-diagram",
+    "description": "Turn an English description (or mermaid source) into a diagram triplet: the source, an editable .excalidraw file you can open on excalidraw.com, and rendered SVG + PNG. (gstack)"
+  },
+  {
+    "id": "gstack-document-generate",
+    "path": "skills/gstack-document-generate",
+    "name": "doc:gstack-document-generate",
+    "description": "Generate missing documentation from scratch for a feature, module, or entire project. (gstack)"
+  },
+  {
+    "id": "gstack-document-release",
+    "path": "skills/gstack-document-release",
+    "name": "doc:gstack-document-release",
+    "description": "Post-ship documentation update. (gstack)"
+  },
+  {
+    "id": "gstack-freeze",
+    "path": "skills/gstack-freeze",
+    "name": "quality:gstack-freeze",
+    "description": "Restrict file edits to a specific directory for the session. (gstack)"
+  },
+  {
+    "id": "gstack-guard",
+    "path": "skills/gstack-guard",
+    "name": "boss:gstack-guard",
+    "description": "Full safety mode: destructive command warnings + directory-scoped edits. (gstack)"
+  },
+  {
+    "id": "gstack-hackernews-frontpage",
+    "path": "skills/gstack-hackernews-frontpage",
+    "name": "scraping:gstack-hackernews",
+    "description": "Scrape the Hacker News front page (titles, points, comment counts)."
+  },
+  {
+    "id": "gstack-health",
+    "path": "skills/gstack-health",
+    "name": "quality:gstack-health",
+    "description": "Code quality dashboard. (gstack)"
+  },
+  {
+    "id": "gstack-investigate",
+    "path": "skills/gstack-investigate",
+    "name": "boss:gstack-investigate",
+    "description": "Systematic debugging with root cause investigation. (gstack)"
+  },
+  {
+    "id": "gstack-ios-clean",
+    "path": "skills/gstack-ios-clean",
+    "name": "mobile:gstack-ios-clean",
+    "description": "Remove the DebugBridge SPM package and all #if DEBUG wiring from an iOS app. (gstack)"
+  },
+  {
+    "id": "gstack-ios-design-review",
+    "path": "skills/gstack-ios-design-review",
+    "name": "mobile:gstack-ios-design-review",
+    "description": "Visual design audit for iOS apps on real hardware. (gstack)"
+  },
+  {
+    "id": "gstack-ios-fix",
+    "path": "skills/gstack-ios-fix",
+    "name": "mobile:gstack-ios-fix",
+    "description": "Autonomous iOS bug fixer. (gstack)"
+  },
+  {
+    "id": "gstack-ios-qa",
+    "path": "skills/gstack-ios-qa",
+    "name": "mobile:gstack-ios-qa",
+    "description": "Live-device iOS QA for SwiftUI apps. (gstack)"
+  },
+  {
+    "id": "gstack-ios-sync",
+    "path": "skills/gstack-ios-sync",
+    "name": "mobile:gstack-ios-sync",
+    "description": "Regenerate the iOS debug bridge against the latest upstream gstack templates. (gstack)"
+  },
+  {
+    "id": "gstack-land-and-deploy",
+    "path": "skills/gstack-land-and-deploy",
+    "name": "boss:gstack-land-and-deploy",
+    "description": "Land and deploy workflow. (gstack)"
+  },
+  {
+    "id": "gstack-landing-report",
+    "path": "skills/gstack-landing-report",
+    "name": "quality:gstack-landing-report",
+    "description": "Read-only queue dashboard for workspace-aware ship. (gstack)"
+  },
+  {
+    "id": "gstack-learn",
+    "path": "skills/gstack-learn",
+    "name": "quality:gstack-learn",
+    "description": "Manage project learnings."
+  },
+  {
+    "id": "gstack-make-pdf",
+    "path": "skills/gstack-make-pdf",
+    "name": "doc:gstack-make-pdf",
+    "description": "Turn any markdown file into a publication-quality PDF. (gstack)"
+  },
+  {
+    "id": "gstack-office-hours",
+    "path": "skills/gstack-office-hours",
+    "name": "boss:gstack-office-hours",
+    "description": "YC Office Hours — two modes. (gstack)"
+  },
+  {
+    "id": "gstack-open-gstack-browser",
+    "path": "skills/gstack-open-gstack-browser",
+    "name": "scraping:gstack-open-browser",
+    "description": "Launch GStack Browser — AI-controlled Chromium with the sidebar extension baked in."
+  },
+  {
+    "id": "gstack-pair-agent",
+    "path": "skills/gstack-pair-agent",
+    "name": "boss:gstack-pair-agent",
+    "description": "Pair a remote AI agent with your browser. (gstack)"
+  },
+  {
+    "id": "gstack-plan-ceo-review",
+    "path": "skills/gstack-plan-ceo-review",
+    "name": "boss:gstack-ceo-review",
+    "description": "CEO/founder-mode plan review. (gstack)"
+  },
+  {
+    "id": "gstack-plan-design-review",
+    "path": "skills/gstack-plan-design-review",
+    "name": "boss:gstack-design-review",
+    "description": "Designer's eye plan review — interactive, like CEO and Eng review. (gstack)"
+  },
+  {
+    "id": "gstack-plan-devex-review",
+    "path": "skills/gstack-plan-devex-review",
+    "name": "boss:gstack-devex-review",
+    "description": "Interactive developer experience plan review. (gstack)"
+  },
+  {
+    "id": "gstack-plan-eng-review",
+    "path": "skills/gstack-plan-eng-review",
+    "name": "boss:gstack-eng-review",
+    "description": "Eng manager-mode plan review. (gstack)"
+  },
+  {
+    "id": "gstack-plan-tune",
+    "path": "skills/gstack-plan-tune",
+    "name": "quality:gstack-plan-tune",
+    "description": "Self-tuning question sensitivity + developer psychographic for gstack (v1: observational). (gstack)"
+  },
+  {
+    "id": "gstack-qa",
+    "path": "skills/gstack-qa",
+    "name": "boss:gstack-qa",
+    "description": "Systematically QA test a web application and fix bugs found. (gstack)"
+  },
+  {
+    "id": "gstack-qa-only",
+    "path": "skills/gstack-qa-only",
+    "name": "quality:gstack-qa-only",
+    "description": "Report-only QA testing. (gstack)"
+  },
+  {
+    "id": "gstack-retro",
+    "path": "skills/gstack-retro",
+    "name": "boss:gstack-retro",
+    "description": "Weekly engineering retrospective. (gstack)"
+  },
+  {
+    "id": "gstack-review",
+    "path": "skills/gstack-review",
+    "name": "quality:gstack-review",
+    "description": "Pre-landing PR review. (gstack)"
+  },
+  {
+    "id": "gstack-scrape",
+    "path": "skills/gstack-scrape",
+    "name": "scraping:gstack-scrape",
+    "description": "Pull data from a web page. (gstack)"
+  },
+  {
+    "id": "gstack-setup-browser-cookies",
+    "path": "skills/gstack-setup-browser-cookies",
+    "name": "scraping:gstack-browser-cookies",
+    "description": "Import cookies from your real Chromium browser into the headless browse session. (gstack)"
+  },
+  {
+    "id": "gstack-setup-deploy",
+    "path": "skills/gstack-setup-deploy",
+    "name": "quality:gstack-setup-deploy",
+    "description": "Configure deployment settings for /land-and-deploy."
+  },
+  {
+    "id": "gstack-setup-gbrain",
+    "path": "skills/gstack-setup-gbrain",
+    "name": "ai:gstack-setup-gbrain",
+    "description": "Set up gbrain for this coding agent: install the CLI, initialize a local PGLite or Supabase brain, register MCP, capture per-remote trust policy. (gstack)"
+  },
+  {
+    "id": "gstack-ship",
+    "path": "skills/gstack-ship",
+    "name": "boss:gstack-ship",
+    "description": "Ship workflow: detect + merge base branch, run tests, review diff, bump VERSION, update CHANGELOG, commit, push, create PR. (gstack)"
+  },
+  {
+    "id": "gstack-skillify",
+    "path": "skills/gstack-skillify",
+    "name": "scraping:gstack-skillify",
+    "description": "Codify the most recent successful /scrape flow into a permanent browser-skill on disk. (gstack)"
+  },
+  {
+    "id": "gstack-spec",
+    "path": "skills/gstack-spec",
+    "name": "plan:gstack-spec",
+    "description": "Turn vague intent into a precise, executable spec in five phases. (gstack)"
+  },
+  {
+    "id": "gstack-sync-gbrain",
+    "path": "skills/gstack-sync-gbrain",
+    "name": "ai:gstack-sync-gbrain",
+    "description": "Keep gbrain current with this repo's code and refresh agent search guidance in CLAUDE.md. (gstack)"
+  },
+  {
+    "id": "gstack-unfreeze",
+    "path": "skills/gstack-unfreeze",
+    "name": "quality:gstack-unfreeze",
+    "description": "Clear the freeze boundary set by /freeze, allowing edits to all directories again. (gstack)"
+  },
+  {
+    "id": "gstack-upgrade",
+    "path": "skills/gstack-upgrade",
+    "name": "quality:gstack-upgrade",
+    "description": "Upgrade gstack to the latest version."
+  },
+  {
     "id": "health",
     "path": "skills/health",
     "name": "plan:health",

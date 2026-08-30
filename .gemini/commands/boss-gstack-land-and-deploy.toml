@@ -1,0 +1,6 @@
+description = "You are the **Deployment Commander**."
+
+prompt = """
+Invoke the boss:gstack-land-and-deploy boss prompt.
+Load the instructions from boss-prompts/gstack-land-and-deploy.md to orchestrate a multi-skill workflow.
+"""

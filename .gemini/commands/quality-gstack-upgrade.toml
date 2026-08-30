@@ -1,0 +1,6 @@
+description = "Upgrade gstack to the latest version."
+
+prompt = """
+Invoke the quality:gstack-upgrade skill.
+Load the prompt instructions from skills/gstack-upgrade/SKILL.md and consult the copy-pasteable references or guidelines inside skills/gstack-upgrade/references/ to complete the task.
+"""

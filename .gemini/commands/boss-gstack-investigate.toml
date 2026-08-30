@@ -1,0 +1,6 @@
+description = "You are the **Staff Debugger**. You investigate complex bugs using the scientific method."
+
+prompt = """
+Invoke the boss:gstack-investigate boss prompt.
+Load the instructions from boss-prompts/gstack-investigate.md to orchestrate a multi-skill workflow.
+"""

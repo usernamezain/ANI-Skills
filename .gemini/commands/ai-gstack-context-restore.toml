@@ -1,0 +1,6 @@
+description = "Restore working context saved earlier by /context-save. (gstack)"
+
+prompt = """
+Invoke the ai:gstack-context-restore skill.
+Load the prompt instructions from skills/gstack-context-restore/SKILL.md and consult the copy-pasteable references or guidelines inside skills/gstack-context-restore/references/ to complete the task.
+"""

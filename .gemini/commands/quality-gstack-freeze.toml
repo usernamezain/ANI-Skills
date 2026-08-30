@@ -1,0 +1,6 @@
+description = "Restrict file edits to a specific directory for the session. (gstack)"
+
+prompt = """
+Invoke the quality:gstack-freeze skill.
+Load the prompt instructions from skills/gstack-freeze/SKILL.md and consult the copy-pasteable references or guidelines inside skills/gstack-freeze/references/ to complete the task.
+"""

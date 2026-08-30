@@ -1,0 +1,6 @@
+description = "Import cookies from your real Chromium browser into the headless browse session. (gstack)"
+
+prompt = """
+Invoke the scraping:gstack-browser-cookies skill.
+Load the prompt instructions from skills/gstack-setup-browser-cookies/SKILL.md and consult the copy-pasteable references or guidelines inside skills/gstack-setup-browser-cookies/references/ to complete the task.
+"""

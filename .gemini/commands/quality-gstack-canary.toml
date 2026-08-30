@@ -1,0 +1,6 @@
+description = "Post-deploy canary monitoring. (gstack)"
+
+prompt = """
+Invoke the quality:gstack-canary skill.
+Load the prompt instructions from skills/gstack-canary/SKILL.md and consult the copy-pasteable references or guidelines inside skills/gstack-canary/references/ to complete the task.
+"""

@@ -1,0 +1,6 @@
+description = "Remove the DebugBridge SPM package and all #if DEBUG wiring from an iOS app. (gstack)"
+
+prompt = """
+Invoke the mobile:gstack-ios-clean skill.
+Load the prompt instructions from skills/gstack-ios-clean/SKILL.md and consult the copy-pasteable references or guidelines inside skills/gstack-ios-clean/references/ to complete the task.
+"""

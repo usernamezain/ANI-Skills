@@ -1,0 +1,6 @@
+description = "Live developer experience audit. (gstack)"
+
+prompt = """
+Invoke the quality:gstack-devex-review skill.
+Load the prompt instructions from skills/gstack-devex-review/SKILL.md and consult the copy-pasteable references or guidelines inside skills/gstack-devex-review/references/ to complete the task.
+"""

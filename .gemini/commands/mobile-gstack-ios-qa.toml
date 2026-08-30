@@ -1,0 +1,6 @@
+description = "Live-device iOS QA for SwiftUI apps. (gstack)"
+
+prompt = """
+Invoke the mobile:gstack-ios-qa skill.
+Load the prompt instructions from skills/gstack-ios-qa/SKILL.md and consult the copy-pasteable references or guidelines inside skills/gstack-ios-qa/references/ to complete the task.
+"""

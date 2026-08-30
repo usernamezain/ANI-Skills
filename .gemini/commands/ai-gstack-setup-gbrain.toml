@@ -1,0 +1,6 @@
+description = "Set up gbrain for this coding agent: install the CLI, initialize a local PGLite or Supabase brain, register MCP, capture per-remote trust policy. (gstack)"
+
+prompt = """
+Invoke the ai:gstack-setup-gbrain skill.
+Load the prompt instructions from skills/gstack-setup-gbrain/SKILL.md and consult the copy-pasteable references or guidelines inside skills/gstack-setup-gbrain/references/ to complete the task.
+"""

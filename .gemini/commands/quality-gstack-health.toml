@@ -1,0 +1,6 @@
+description = "Code quality dashboard. (gstack)"
+
+prompt = """
+Invoke the quality:gstack-health skill.
+Load the prompt instructions from skills/gstack-health/SKILL.md and consult the copy-pasteable references or guidelines inside skills/gstack-health/references/ to complete the task.
+"""

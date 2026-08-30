@@ -1,0 +1,6 @@
+description = "Visual design audit for iOS apps on real hardware. (gstack)"
+
+prompt = """
+Invoke the mobile:gstack-ios-design-review skill.
+Load the prompt instructions from skills/gstack-ios-design-review/SKILL.md and consult the copy-pasteable references or guidelines inside skills/gstack-ios-design-review/references/ to complete the task.
+"""

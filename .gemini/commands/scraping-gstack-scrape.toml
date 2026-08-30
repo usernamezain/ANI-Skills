@@ -1,0 +1,6 @@
+description = "Pull data from a web page. (gstack)"
+
+prompt = """
+Invoke the scraping:gstack-scrape skill.
+Load the prompt instructions from skills/gstack-scrape/SKILL.md and consult the copy-pasteable references or guidelines inside skills/gstack-scrape/references/ to complete the task.
+"""
