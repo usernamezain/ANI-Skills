@@ -1,0 +1,6 @@
+# plan:pol-probe-advisor
+
+Select the right Proof of Life (PoL) probe based on hypothesis, risk, and resources. Use this to match the validation method to the real learning goal, not tooling comfort.
+
+**Skill folder:** `skills/Product-Manager-Skills-pol-probe-advisor/`
+**Namespace:** `plan`

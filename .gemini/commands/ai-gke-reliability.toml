@@ -1,0 +1,6 @@
+description = ">-"
+
+prompt = """
+Invoke the ai:gke-reliability skill.
+Load the prompt instructions from skills/skills-gke-reliability/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-gke-reliability/references/ to complete the task.
+"""

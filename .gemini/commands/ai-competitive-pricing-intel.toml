@@ -1,0 +1,6 @@
+description = ">"
+
+prompt = """
+Invoke the ai:competitive-pricing-intel skill.
+Load the prompt instructions from skills/goose-skills-competitive-pricing-intel/SKILL.md and consult the copy-pasteable references or guidelines inside skills/goose-skills-competitive-pricing-intel/references/ to complete the task.
+"""

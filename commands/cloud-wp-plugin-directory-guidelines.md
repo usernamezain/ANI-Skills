@@ -1,0 +1,6 @@
+# cloud:wp-plugin-directory-guidelines
+
+Use when reviewing WordPress plugins for GPL compliance, checking license headers or compatibility, evaluating upsell/freemium/trialware patterns, validating plugin naming or trademark rules, checking plugin slugs, understanding why a plugin was rejected from WordPress.org, or answering any question about the 18 WordPress.org Plugin Directory guidelines — even if the user doesn't mention 'guidelines' explicitly.
+
+**Skill folder:** `skills/agent-skills-wp-plugin-directory-guidelines/`
+**Namespace:** `cloud`

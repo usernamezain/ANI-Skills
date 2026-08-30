@@ -1,0 +1,6 @@
+description = "Adds interactive widget previews to the project using the previews.dart system. Use when creating new UI components or updating existing screens to ensure consistent design and interactive testing."
+
+prompt = """
+Invoke the mobile:flutter-add-widget-preview skill.
+Load the prompt instructions from skills/skills-flutter-add-widget-preview/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-flutter-add-widget-preview/references/ to complete the task.
+"""

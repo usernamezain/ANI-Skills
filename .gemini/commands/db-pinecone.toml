@@ -1,0 +1,6 @@
+description = "Managed vector database for production AI applications. Fully managed, auto-scaling, with hybrid search (dense + sparse), metadata filtering, and namespaces. Low latency (<100ms p95). Use for production RAG, recommendation systems, or semantic search at scale. Best for serverless, managed infrastructure."
+
+prompt = """
+Invoke the db:pinecone skill.
+Load the prompt instructions from skills/AI-Research-SKILLs-pinecone/SKILL.md and consult the copy-pasteable references or guidelines inside skills/AI-Research-SKILLs-pinecone/references/ to complete the task.
+"""

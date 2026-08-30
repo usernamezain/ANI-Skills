@@ -1,0 +1,6 @@
+description = "Set up a new Google Tasks list with initial tasks."
+
+prompt = """
+Invoke the ai:recipe-create-task-list skill.
+Load the prompt instructions from skills/cli-recipe-create-task-list/SKILL.md and consult the copy-pasteable references or guidelines inside skills/cli-recipe-create-task-list/references/ to complete the task.
+"""

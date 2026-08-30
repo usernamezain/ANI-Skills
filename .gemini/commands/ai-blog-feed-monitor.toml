@@ -1,0 +1,6 @@
+description = ">"
+
+prompt = """
+Invoke the ai:blog-feed-monitor skill.
+Load the prompt instructions from skills/goose-skills-blog-feed-monitor/SKILL.md and consult the copy-pasteable references or guidelines inside skills/goose-skills-blog-feed-monitor/references/ to complete the task.
+"""

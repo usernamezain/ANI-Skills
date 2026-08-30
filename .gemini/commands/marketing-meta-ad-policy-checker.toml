@@ -1,0 +1,6 @@
+description = "Pre-flight policy check for Meta ads. Takes ad copy plus advertiser context, resolves and fetches the relevant Meta transparency-center policy pages at runtime, and returns a Pass / Fix Required / Block verdict with cited findings and rewrites."
+
+prompt = """
+Invoke the marketing:meta-ad-policy-checker skill.
+Load the prompt instructions from skills/goose-skills-meta-ad-policy-checker/SKILL.md and consult the copy-pasteable references or guidelines inside skills/goose-skills-meta-ad-policy-checker/references/ to complete the task.
+"""

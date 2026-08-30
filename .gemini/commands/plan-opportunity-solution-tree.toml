@@ -1,0 +1,6 @@
+description = "Build an Opportunity Solution Tree from outcomes to opportunities, solutions, and tests. Use when a stakeholder request needs problem framing before you decide what to build."
+
+prompt = """
+Invoke the plan:opportunity-solution-tree skill.
+Load the prompt instructions from skills/Product-Manager-Skills-opportunity-solution-tree/SKILL.md and consult the copy-pasteable references or guidelines inside skills/Product-Manager-Skills-opportunity-solution-tree/references/ to complete the task.
+"""

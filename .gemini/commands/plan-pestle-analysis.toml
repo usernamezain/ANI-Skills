@@ -1,0 +1,6 @@
+description = "Perform a PESTLE analysis covering Political, Economic, Social, Technological, Legal, and Environmental factors. Use when assessing the macro environment, doing strategic planning, or evaluating external factors affecting your business."
+
+prompt = """
+Invoke the plan:pestle-analysis skill.
+Load the prompt instructions from skills/pm-skills-pestle-analysis/SKILL.md and consult the copy-pasteable references or guidelines inside skills/pm-skills-pestle-analysis/references/ to complete the task.
+"""

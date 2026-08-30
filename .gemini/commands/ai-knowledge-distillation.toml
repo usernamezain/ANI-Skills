@@ -1,0 +1,6 @@
+description = "Compress large language models using knowledge distillation from teacher to student models. Use when deploying smaller models with retained performance, transferring GPT-4 capabilities to open-source models, or reducing inference costs. Covers temperature scaling, soft targets, reverse KLD, logit distillation, and MiniLLM training strategies."
+
+prompt = """
+Invoke the ai:knowledge-distillation skill.
+Load the prompt instructions from skills/AI-Research-SKILLs-knowledge-distillation/SKILL.md and consult the copy-pasteable references or guidelines inside skills/AI-Research-SKILLs-knowledge-distillation/references/ to complete the task.
+"""

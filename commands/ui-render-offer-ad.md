@@ -1,0 +1,6 @@
+# ui:render-offer-ad
+
+Render a punchy ~12s vertical (9:16) music-only direct-response OFFER ad as a 4-beat kinetic-typography film — HEADLINE slam → real PRODUCT drop → CLAIM/proof → CTA pill — from one config of copy slots, a real product photo, a brand palette, fonts, bpm, and beat split. DETERMINISTIC + FREE (a bundled Remotion project; springs + interpolate, no AI-gen for visuals). Backgrounds are engine gradient divs off the palette, props are inline SVG, the ONLY composited bitmap is the REAL product photo (objectFit:contain, never stretched), and ALL headline/claim/CTA/URL/wordmark text is typeset in the engine — never AI-rendered (the format's credibility guard). A driver binds the config to Remotion input props, renders the 9:16 master, and derives a 1:1 center-crop with ffmpeg. Two gating checks run before render (claim verbs must match the product's physical format; the claim beat needs an edge-entry mechanism prop). Use for the motion-graphics-offer-ad format.
+
+**Skill folder:** `skills/goose-skills-render-offer-ad/`
+**Namespace:** `ui`

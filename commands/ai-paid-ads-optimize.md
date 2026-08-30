@@ -1,0 +1,6 @@
+# ai:paid-ads-optimize
+
+Diagnose wasted paid-ad spend, pacing, and allocation, then propose safe evidence-backed optimizations. Use for waste, negatives, budgets, bid changes, poor CPA or ROAS, underpacing, overspend, or scaling decisions.
+
+**Skill folder:** `skills/notfair-plugin-paid-ads-optimize/`
+**Namespace:** `ai`

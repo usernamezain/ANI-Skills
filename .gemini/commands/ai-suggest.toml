@@ -1,0 +1,6 @@
+description = "USE FOR query autocomplete/suggestions. Fast (<100ms). Returns suggested queries as user types. Supports rich suggestions with entity info. Typo-resilient."
+
+prompt = """
+Invoke the ai:suggest skill.
+Load the prompt instructions from skills/brave-search-skills-suggest/SKILL.md and consult the copy-pasteable references or guidelines inside skills/brave-search-skills-suggest/references/ to complete the task.
+"""

@@ -1,0 +1,6 @@
+description = ">"
+
+prompt = """
+Invoke the ai:warp-eval skill.
+Load the prompt instructions from skills/skills-warp-eval/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-warp-eval/references/ to complete the task.
+"""

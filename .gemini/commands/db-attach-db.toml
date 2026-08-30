@@ -1,0 +1,6 @@
+description = ">"
+
+prompt = """
+Invoke the db:attach-db skill.
+Load the prompt instructions from skills/duckdb-skills-attach-db/SKILL.md and consult the copy-pasteable references or guidelines inside skills/duckdb-skills-attach-db/references/ to complete the task.
+"""

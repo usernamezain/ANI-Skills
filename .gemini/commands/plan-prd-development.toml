@@ -1,0 +1,6 @@
+description = "Build a structured PRD that connects problem, users, solution, and success criteria. Use when turning discovery notes into an engineering-ready document for a major initiative."
+
+prompt = """
+Invoke the plan:prd-development skill.
+Load the prompt instructions from skills/Product-Manager-Skills-prd-development/SKILL.md and consult the copy-pasteable references or guidelines inside skills/Product-Manager-Skills-prd-development/references/ to complete the task.
+"""

@@ -1,0 +1,6 @@
+description = "Enrich any entity — companies, domains, emails, or people — with verified data from multiple sources. Combines Apollo, Strale, LinkedIn, and Akta data to fill gaps in your CRM, lead databases, or research datasets with production-quality enrichment."
+
+prompt = """
+Invoke the marketing:data-enrichment skill.
+Load the prompt instructions from skills/sandbase-skills-data-enrichment/SKILL.md and consult the copy-pasteable references or guidelines inside skills/sandbase-skills-data-enrichment/references/ to complete the task.
+"""

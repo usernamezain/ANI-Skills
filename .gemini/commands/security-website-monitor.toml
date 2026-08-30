@@ -1,0 +1,6 @@
+description = "Monitor any website for content changes, availability, performance, and security status. Combines page scraping, screenshot comparison, SSL monitoring, and security header checks for comprehensive website health and change detection."
+
+prompt = """
+Invoke the security:website-monitor skill.
+Load the prompt instructions from skills/sandbase-skills-website-monitor/SKILL.md and consult the copy-pasteable references or guidelines inside skills/sandbase-skills-website-monitor/references/ to complete the task.
+"""

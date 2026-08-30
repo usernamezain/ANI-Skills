@@ -1,0 +1,6 @@
+description = ">"
+
+prompt = """
+Invoke the ai:doca-dpa-hl-tracer skill.
+Load the prompt instructions from skills/skills-doca-dpa-hl-tracer/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-doca-dpa-hl-tracer/references/ to complete the task.
+"""

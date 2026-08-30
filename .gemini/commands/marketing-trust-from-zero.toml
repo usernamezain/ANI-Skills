@@ -1,0 +1,6 @@
+description = "Use this when a stranger has no reason to believe you. Builds trust with structure instead of big claims."
+
+prompt = """
+Invoke the marketing:trust-from-zero skill.
+Load the prompt instructions from skills/dark-psychology-skills-trust-from-zero/SKILL.md and consult the copy-pasteable references or guidelines inside skills/dark-psychology-skills-trust-from-zero/references/ to complete the task.
+"""

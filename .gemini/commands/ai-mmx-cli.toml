@@ -1,0 +1,6 @@
+description = "Use mmx to generate text, images, video, and speech via the MiniMax AI platform. Use when the user wants to create media content, chat with MiniMax models, perform web search, or manage MiniMax API resources from the terminal."
+
+prompt = """
+Invoke the ai:mmx-cli skill.
+Load the prompt instructions from skills/cli-mmx-cli/SKILL.md and consult the copy-pasteable references or guidelines inside skills/cli-mmx-cli/references/ to complete the task.
+"""

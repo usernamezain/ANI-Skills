@@ -1,0 +1,6 @@
+description = ">-"
+
+prompt = """
+Invoke the ai:agent-platform-prompt-management skill.
+Load the prompt instructions from skills/skills-agent-platform-prompt-management/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-agent-platform-prompt-management/references/ to complete the task.
+"""

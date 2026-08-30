@@ -1,0 +1,6 @@
+description = "Provides instructions for integrating the Google Mobile Ads (GMA)"
+
+prompt = """
+Invoke the mobile:google-mobile-ads-get-started skill.
+Load the prompt instructions from skills/skills-google-mobile-ads-get-started/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-google-mobile-ads-get-started/references/ to complete the task.
+"""

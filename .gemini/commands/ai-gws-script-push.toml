@@ -1,0 +1,6 @@
+description = "Google Apps Script: Upload local files to an Apps Script project."
+
+prompt = """
+Invoke the ai:gws-script-push skill.
+Load the prompt instructions from skills/cli-gws-script-push/SKILL.md and consult the copy-pasteable references or guidelines inside skills/cli-gws-script-push/references/ to complete the task.
+"""

@@ -1,0 +1,6 @@
+description = "Techniques for reducing peak GPU memory in Megatron Bridge — expandable segments, PEFT + SP input re-gather, parallelism resizing, activation recompute, CPU offloading constraints, and common OOM fixes."
+
+prompt = """
+Invoke the ai:nemo-mbridge-perf-memory-tuning skill.
+Load the prompt instructions from skills/skills-nemo-mbridge-perf-memory-tuning/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-nemo-mbridge-perf-memory-tuning/references/ to complete the task.
+"""

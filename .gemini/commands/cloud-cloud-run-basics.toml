@@ -1,0 +1,6 @@
+description = ">-"
+
+prompt = """
+Invoke the cloud:cloud-run-basics skill.
+Load the prompt instructions from skills/skills-cloud-run-basics/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-cloud-run-basics/references/ to complete the task.
+"""

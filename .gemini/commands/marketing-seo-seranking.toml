@@ -1,0 +1,6 @@
+description = "SE Ranking AI visibility analyst (extension). Tracks AI Share-of-Voice across ChatGPT, Gemini, Perplexity, AI Overviews, and AI Mode in a single query."
+
+prompt = """
+Invoke the marketing:seo-seranking skill.
+Load the prompt instructions from skills/claude-seo-seo-seranking/SKILL.md and consult the copy-pasteable references or guidelines inside skills/claude-seo-seo-seranking/references/ to complete the task.
+"""

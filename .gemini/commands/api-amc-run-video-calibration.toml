@@ -1,0 +1,6 @@
+description = "Calibrate a new dataset from pre-recorded video files via the AutoMagicCalib REST API. Use when user has local MP4s and says 'calibrate my videos', 'run AMC on these videos', or similar. For RTSP/live streams, use amc-run-rtsp-calibration instead."
+
+prompt = """
+Invoke the api:amc-run-video-calibration skill.
+Load the prompt instructions from skills/skills-amc-run-video-calibration/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-amc-run-video-calibration/references/ to complete the task.
+"""

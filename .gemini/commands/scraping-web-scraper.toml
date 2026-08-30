@@ -1,0 +1,6 @@
+description = "Scrape web pages, crawl sites, extract structured data, and capture screenshots through SandBase. Use when asked to extract content from URLs, crawl websites, get structured data from pages, take screenshots, or convert web pages to markdown."
+
+prompt = """
+Invoke the scraping:web-scraper skill.
+Load the prompt instructions from skills/sandbase-skills-web-scraper/SKILL.md and consult the copy-pasteable references or guidelines inside skills/sandbase-skills-web-scraper/references/ to complete the task.
+"""

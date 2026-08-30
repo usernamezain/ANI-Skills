@@ -1,0 +1,6 @@
+description = "When the user wants to localize their App Store listing for international markets. Also use when the user mentions \"localization\", \"translate my app\", \"international markets\", \"expand to new countries\", \"localize metadata\", or \"which countries should I target\". For keyword research in specific markets, see keyword-research. For metadata writing, see metadata-optimization."
+
+prompt = """
+Invoke the marketing:localization skill.
+Load the prompt instructions from skills/aso-skills-localization/SKILL.md and consult the copy-pasteable references or guidelines inside skills/aso-skills-localization/references/ to complete the task.
+"""

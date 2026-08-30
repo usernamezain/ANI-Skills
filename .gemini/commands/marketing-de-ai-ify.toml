@@ -1,0 +1,6 @@
+description = "Remove AI-generated jargon and restore human voice to text. Built from analyzing 1,000+ AI vs human content pieces."
+
+prompt = """
+Invoke the marketing:de-ai-ify skill.
+Load the prompt instructions from skills/ai-marketing-claude-code-skills-de-ai-ify/SKILL.md and consult the copy-pasteable references or guidelines inside skills/ai-marketing-claude-code-skills-de-ai-ify/references/ to complete the task.
+"""

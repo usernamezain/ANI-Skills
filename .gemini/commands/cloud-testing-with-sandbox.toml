@@ -1,0 +1,6 @@
+description = ">-"
+
+prompt = """
+Invoke the cloud:testing-with-sandbox skill.
+Load the prompt instructions from skills/mailtrap-skills-testing-with-sandbox/SKILL.md and consult the copy-pasteable references or guidelines inside skills/mailtrap-skills-testing-with-sandbox/references/ to complete the task.
+"""

@@ -1,0 +1,6 @@
+description = ">"
+
+prompt = """
+Invoke the marketing:linkedin-commenter-extractor skill.
+Load the prompt instructions from skills/goose-skills-linkedin-commenter-extractor/SKILL.md and consult the copy-pasteable references or guidelines inside skills/goose-skills-linkedin-commenter-extractor/references/ to complete the task.
+"""

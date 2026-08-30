@@ -1,0 +1,6 @@
+description = "Use this skill when deploying standalone RT-VLM dense captioning or calling its REST API (uploads, captions, streams, chat-completions, Kafka). Not for VSS profile deploy or video-search ingestion."
+
+prompt = """
+Invoke the api:vss-deploy-dense-captioning skill.
+Load the prompt instructions from skills/skills-vss-deploy-dense-captioning/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-vss-deploy-dense-captioning/references/ to complete the task.
+"""

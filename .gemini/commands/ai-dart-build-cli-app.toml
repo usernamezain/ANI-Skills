@@ -1,0 +1,6 @@
+description = "Entrypoint structure, exit codes, cross-platform scripts. Use when building command line utilities, scripts, or applications."
+
+prompt = """
+Invoke the ai:dart-build-cli-app skill.
+Load the prompt instructions from skills/skills-dart-build-cli-app/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-dart-build-cli-app/references/ to complete the task.
+"""

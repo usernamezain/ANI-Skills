@@ -1,0 +1,6 @@
+description = "Google Calendar: Show upcoming events across all calendars."
+
+prompt = """
+Invoke the ai:gws-calendar-agenda skill.
+Load the prompt instructions from skills/cli-gws-calendar-agenda/SKILL.md and consult the copy-pasteable references or guidelines inside skills/cli-gws-calendar-agenda/references/ to complete the task.
+"""

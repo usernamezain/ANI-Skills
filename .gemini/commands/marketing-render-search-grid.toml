@@ -1,0 +1,6 @@
+description = "Render a 'search-grid' (Pinterest search-moodboard) video from a config — a real-DOM page with four continuous beats (masonry search grid + typing hook with counter-drift columns → 3 cards slide in from the right and stack → the top card box-grows to fullscreen then swipe-left ×2 through captioned feature shots → warm end card), frame-stepped via Chromium and encoded with FFmpeg — deterministic assembly, FREE (real brand photos + logo; the optional music bed comes from create-music-elevenlabs), so type/logo/photos stay pixel-crisp. Use for the search-grid format."
+
+prompt = """
+Invoke the marketing:render-search-grid skill.
+Load the prompt instructions from skills/goose-skills-render-search-grid/SKILL.md and consult the copy-pasteable references or guidelines inside skills/goose-skills-render-search-grid/references/ to complete the task.
+"""

@@ -1,0 +1,6 @@
+description = "Used for smoke or dataset finetuning of NV-Segment-CT VISTA3D on CT NIfTI labels. Not for clinical validation."
+
+prompt = """
+Invoke the ai:nv-segment-ct-finetune skill.
+Load the prompt instructions from skills/skills-nv-segment-ct-finetune/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-nv-segment-ct-finetune/references/ to complete the task.
+"""

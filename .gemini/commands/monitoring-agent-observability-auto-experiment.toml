@@ -1,0 +1,6 @@
+description = ">-"
+
+prompt = """
+Invoke the monitoring:agent-observability-auto-experiment skill.
+Load the prompt instructions from skills/agent-skills-agent-observability-auto-experiment/SKILL.md and consult the copy-pasteable references or guidelines inside skills/agent-skills-agent-observability-auto-experiment/references/ to complete the task.
+"""

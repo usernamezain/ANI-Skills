@@ -1,0 +1,6 @@
+description = "Use when building UIs leveraging the WordPress Design System (WPDS) and its components, tokens, patterns, etc."
+
+prompt = """
+Invoke the ui:wpds skill.
+Load the prompt instructions from skills/agent-skills-wpds/SKILL.md and consult the copy-pasteable references or guidelines inside skills/agent-skills-wpds/references/ to complete the task.
+"""

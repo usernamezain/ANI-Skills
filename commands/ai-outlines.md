@@ -1,0 +1,6 @@
+# ai:outlines
+
+Guarantee valid JSON/XML/code structure during generation, use Pydantic models for type-safe outputs, support local models (Transformers, vLLM), and maximize inference speed with Outlines - dottxt.ai's structured generation library
+
+**Skill folder:** `skills/AI-Research-SKILLs-outlines/`
+**Namespace:** `ai`

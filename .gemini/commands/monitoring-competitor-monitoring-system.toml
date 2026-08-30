@@ -1,0 +1,6 @@
+description = ">"
+
+prompt = """
+Invoke the monitoring:competitor-monitoring-system skill.
+Load the prompt instructions from skills/goose-skills-competitor-monitoring-system/SKILL.md and consult the copy-pasteable references or guidelines inside skills/goose-skills-competitor-monitoring-system/references/ to complete the task.
+"""

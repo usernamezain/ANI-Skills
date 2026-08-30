@@ -1,0 +1,6 @@
+description = "Meta's 86M prompt injection and jailbreak detector. Filters malicious prompts and third-party data for LLM apps. 99%+ TPR, <1% FPR. Fast (<2ms GPU). Multilingual (8 languages). Deploy with HuggingFace or batch processing for RAG security."
+
+prompt = """
+Invoke the security:prompt-guard skill.
+Load the prompt instructions from skills/AI-Research-SKILLs-prompt-guard/SKILL.md and consult the copy-pasteable references or guidelines inside skills/AI-Research-SKILLs-prompt-guard/references/ to complete the task.
+"""

@@ -1,0 +1,6 @@
+description = "When the user wants to create or optimize popups, modals, overlays, slide-ins, or banners for conversion purposes. Also use when the user mentions \"exit intent,\" \"popup conversions,\" \"modal optimization,\" \"lead capture popup,\" \"email popup,\" \"announcement banner,\" \"overlay,\" \"collect emails with a popup,\" \"exit popup,\" \"scroll trigger,\" \"sticky bar,\" or \"notification bar.\" Use this for any overlay or interrupt-style conversion element. For forms outside of popups, see cro. For general page conversion optimization, see cro."
+
+prompt = """
+Invoke the marketing:popups skill.
+Load the prompt instructions from skills/marketingskills-popups/SKILL.md and consult the copy-pasteable references or guidelines inside skills/marketingskills-popups/references/ to complete the task.
+"""

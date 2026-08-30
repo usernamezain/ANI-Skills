@@ -1,0 +1,6 @@
+description = "Adds post-processing effects to Three.js scenes using EffectComposer — bloom, SSAO, SMAA, depth of field, motion blur, and custom passes. Also covers pmndrs/postprocessing for React Three Fiber. Use when the user asks about post-processing, bloom, glow, SSAO, depth of field, vignette, chromatic aberration, or visual effects pipeline. Trigger keywords: post-processing, bloom, glow, EffectComposer, SSAO, depth of field, vignette, chromatic aberration, UnrealBloom."
+
+prompt = """
+Invoke the ui:threejs-postprocessing skill.
+Load the prompt instructions from skills/threejs-skills-threejs-postprocessing/SKILL.md and consult the copy-pasteable references or guidelines inside skills/threejs-skills-threejs-postprocessing/references/ to complete the task.
+"""

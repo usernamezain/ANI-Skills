@@ -1,0 +1,6 @@
+# ui:figma-create-new-file
+
+Create a new blank Figma file. Use when the user wants to create a new Figma design or FigJam file, or when you need a new file before calling use_figma. Handles plan resolution via whoami if needed. Usage — /figma-create-new-file [editorType] [fileName] (e.g. /figma-create-new-file figjam My Whiteboard)
+
+**Skill folder:** `skills/skills-figma-create-new-file/`
+**Namespace:** `ui`

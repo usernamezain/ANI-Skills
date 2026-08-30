@@ -1,0 +1,6 @@
+description = "Gmail: Watch for new emails and stream them as NDJSON."
+
+prompt = """
+Invoke the ai:gws-gmail-watch skill.
+Load the prompt instructions from skills/cli-gws-gmail-watch/SKILL.md and consult the copy-pasteable references or guidelines inside skills/cli-gws-gmail-watch/references/ to complete the task.
+"""

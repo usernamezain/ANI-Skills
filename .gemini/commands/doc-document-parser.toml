@@ -1,0 +1,6 @@
+description = "Parse and extract structured content from PDFs, Word documents, and other file formats. Converts documents into clean, machine-readable text for analysis, summarization, data extraction, and content processing workflows."
+
+prompt = """
+Invoke the doc:document-parser skill.
+Load the prompt instructions from skills/sandbase-skills-document-parser/SKILL.md and consult the copy-pasteable references or guidelines inside skills/sandbase-skills-document-parser/references/ to complete the task.
+"""

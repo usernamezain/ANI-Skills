@@ -1,0 +1,6 @@
+description = "Comprehensive guide for Firebase Crashlytics, including provisioning and SDK usage. Use this skill when the user needs help setting up Crashlytics, adding crash reporting, or using the Crashlytics SDK in their application."
+
+prompt = """
+Invoke the cloud:firebase-crashlytics skill.
+Load the prompt instructions from skills/agent-skills-firebase-crashlytics/SKILL.md and consult the copy-pasteable references or guidelines inside skills/agent-skills-firebase-crashlytics/references/ to complete the task.
+"""

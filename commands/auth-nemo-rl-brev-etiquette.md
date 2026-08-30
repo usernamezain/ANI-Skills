@@ -1,0 +1,6 @@
+# auth:nemo-rl-brev-etiquette
+
+Brev instance operating guidance for NeMo-RL agents working in /home/ubuntu/RL with limited workspace disk, a larger /ephemeral volume, and optional /home/ubuntu/RL/.env secrets. Use when running nemo-rl-auto-research campaigns, experiments, training jobs, model or dataset downloads, shared cache-heavy commands, log-producing runs, checkpoint generation, W&B or Hugging Face authenticated workflows, or any workflow that may create large files on Brev.
+
+**Skill folder:** `skills/skills-nemo-rl-brev-etiquette/`
+**Namespace:** `auth`

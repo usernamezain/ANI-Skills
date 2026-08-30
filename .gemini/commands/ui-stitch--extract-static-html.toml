@@ -1,0 +1,6 @@
+description = ">-"
+
+prompt = """
+Invoke the ui:stitch--extract-static-html skill.
+Load the prompt instructions from skills/stitch-skills-stitch--extract-static-html/SKILL.md and consult the copy-pasteable references or guidelines inside skills/stitch-skills-stitch--extract-static-html/references/ to complete the task.
+"""

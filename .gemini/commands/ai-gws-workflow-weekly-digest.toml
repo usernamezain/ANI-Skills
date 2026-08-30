@@ -1,0 +1,6 @@
+description = "Google Workflow: Weekly summary: this week's meetings + unread email count."
+
+prompt = """
+Invoke the ai:gws-workflow-weekly-digest skill.
+Load the prompt instructions from skills/cli-gws-workflow-weekly-digest/SKILL.md and consult the copy-pasteable references or guidelines inside skills/cli-gws-workflow-weekly-digest/references/ to complete the task.
+"""

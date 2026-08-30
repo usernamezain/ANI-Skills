@@ -1,0 +1,6 @@
+description = "Facilitate workshop sessions in a one-step, multi-turn flow. Use when an interactive skill needs consistent pacing, options, and progress tracking."
+
+prompt = """
+Invoke the auth:workshop-facilitation skill.
+Load the prompt instructions from skills/Product-Manager-Skills-workshop-facilitation/SKILL.md and consult the copy-pasteable references or guidelines inside skills/Product-Manager-Skills-workshop-facilitation/references/ to complete the task.
+"""

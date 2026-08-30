@@ -1,0 +1,6 @@
+description = "Expert guidance for fast fine-tuning with Unsloth - 2-5x faster training, 50-80% less memory, LoRA/QLoRA optimization"
+
+prompt = """
+Invoke the ai:unsloth skill.
+Load the prompt instructions from skills/AI-Research-SKILLs-unsloth/SKILL.md and consult the copy-pasteable references or guidelines inside skills/AI-Research-SKILLs-unsloth/references/ to complete the task.
+"""

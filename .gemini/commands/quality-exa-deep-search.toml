@@ -1,0 +1,6 @@
+description = "Search, extract, and compare high-quality public sources with Exa through SandBase. Use when asked for deep web research, source discovery, current evidence, topic investigation, company research, or citation-ready findings."
+
+prompt = """
+Invoke the quality:exa-deep-search skill.
+Load the prompt instructions from skills/sandbase-skills-exa-deep-search/SKILL.md and consult the copy-pasteable references or guidelines inside skills/sandbase-skills-exa-deep-search/references/ to complete the task.
+"""

@@ -1,0 +1,6 @@
+description = "Turn raw PM content into a compliant, publish-ready skill. Use when creating or updating a repo skill without breaking standards."
+
+prompt = """
+Invoke the auth:skill-authoring-workflow skill.
+Load the prompt instructions from skills/Product-Manager-Skills-skill-authoring-workflow/SKILL.md and consult the copy-pasteable references or guidelines inside skills/Product-Manager-Skills-skill-authoring-workflow/references/ to complete the task.
+"""

@@ -1,0 +1,6 @@
+description = "Move a Google Calendar event to a new time and automatically notify all attendees."
+
+prompt = """
+Invoke the ai:recipe-reschedule-meeting skill.
+Load the prompt instructions from skills/cli-recipe-reschedule-meeting/SKILL.md and consult the copy-pasteable references or guidelines inside skills/cli-recipe-reschedule-meeting/references/ to complete the task.
+"""

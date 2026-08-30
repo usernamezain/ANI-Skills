@@ -1,0 +1,6 @@
+description = "Full Sentry SDK setup for Elixir. Use when asked to \"add Sentry to Elixir\", \"install sentry for Elixir\", or configure error monitoring, tracing, logging, or crons for Elixir, Phoenix, or Plug applications. Supports Phoenix, Plug, LiveView, Oban, and Quantum."
+
+prompt = """
+Invoke the monitoring:sentry-elixir-sdk skill.
+Load the prompt instructions from skills/sentry-for-ai-sentry-elixir-sdk/SKILL.md and consult the copy-pasteable references or guidelines inside skills/sentry-for-ai-sentry-elixir-sdk/references/ to complete the task.
+"""

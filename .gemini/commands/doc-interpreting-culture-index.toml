@@ -1,0 +1,6 @@
+description = "Interprets Culture Index (CI) surveys, behavioral profiles, and personality assessment data. Supports individual profile interpretation, team composition analysis (gas/brake/glue), burnout detection, profile comparison, hiring profiles, manager coaching, interview transcript analysis for trait prediction, candidate debrief, onboarding planning, and conflict mediation. Accepts extracted JSON or PDF input via OpenCV extraction script."
+
+prompt = """
+Invoke the doc:interpreting-culture-index skill.
+Load the prompt instructions from skills/skills-interpreting-culture-index/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-interpreting-culture-index/references/ to complete the task.
+"""

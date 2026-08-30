@@ -1,0 +1,6 @@
+description = "Read an industry's structure through Porter's Five Forces with documented signals per rating, ending at the profit pool. Use when weighing market entry or when margins erode and nobody can say why."
+
+prompt = """
+Invoke the plan:porters-five-forces skill.
+Load the prompt instructions from skills/Product-Manager-Skills-porters-five-forces/SKILL.md and consult the copy-pasteable references or guidelines inside skills/Product-Manager-Skills-porters-five-forces/references/ to complete the task.
+"""

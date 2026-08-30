@@ -1,0 +1,6 @@
+description = "Audit a website's content, structure, SEO health, and technical setup through SandBase. Use when asked for website audit, content audit, SEO health check, site structure analysis, or technical assessment."
+
+prompt = """
+Invoke the marketing:site-audit skill.
+Load the prompt instructions from skills/sandbase-skills-site-audit/SKILL.md and consult the copy-pasteable references or guidelines inside skills/sandbase-skills-site-audit/references/ to complete the task.
+"""

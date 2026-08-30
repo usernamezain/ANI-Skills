@@ -1,0 +1,6 @@
+description = "Brainstorm product ideas for an existing product using multi-perspective ideation from PM, Designer, and Engineer viewpoints. Use when generating new feature ideas, brainstorming solutions for an identified opportunity, or ideating with a product trio."
+
+prompt = """
+Invoke the ui:brainstorm-ideas-existing skill.
+Load the prompt instructions from skills/pm-skills-brainstorm-ideas-existing/SKILL.md and consult the copy-pasteable references or guidelines inside skills/pm-skills-brainstorm-ideas-existing/references/ to complete the task.
+"""

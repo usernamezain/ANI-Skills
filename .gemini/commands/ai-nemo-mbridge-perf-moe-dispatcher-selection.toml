@@ -1,0 +1,6 @@
+description = "Choose the right MoE token dispatcher (`alltoall`, DeepEP, or HybridEP) for the hardware, EP degree, and optimization stage. Summarizes patterns from DSV3, Qwen3, Qwen3-Next, and VLM bring-up work."
+
+prompt = """
+Invoke the ai:nemo-mbridge-perf-moe-dispatcher-selection skill.
+Load the prompt instructions from skills/skills-nemo-mbridge-perf-moe-dispatcher-selection/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-nemo-mbridge-perf-moe-dispatcher-selection/references/ to complete the task.
+"""

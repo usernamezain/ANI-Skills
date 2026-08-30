@@ -1,0 +1,6 @@
+description = "Used for extracting selected metadata from one DICOM file and flagging standard-tag PHI presence. Not for anonymization or clinical use."
+
+prompt = """
+Invoke the ai:dicom-metadata-extract skill.
+Load the prompt instructions from skills/skills-dicom-metadata-extract/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-dicom-metadata-extract/references/ to complete the task.
+"""

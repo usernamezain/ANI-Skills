@@ -1,0 +1,6 @@
+description = ">-"
+
+prompt = """
+Invoke the cloud:cloud-logging-cross-project-configuration skill.
+Load the prompt instructions from skills/skills-cloud-logging-cross-project-configuration/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-cloud-logging-cross-project-configuration/references/ to complete the task.
+"""

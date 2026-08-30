@@ -1,0 +1,6 @@
+description = "Use as the top-level router for Omniverse Realtime Viewer USD app requests and focused viewer reference documents."
+
+prompt = """
+Invoke the ai:omniverse-realtime-viewer skill.
+Load the prompt instructions from skills/skills-omniverse-realtime-viewer/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-omniverse-realtime-viewer/references/ to complete the task.
+"""

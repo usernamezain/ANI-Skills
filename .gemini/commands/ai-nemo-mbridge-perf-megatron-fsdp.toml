@@ -1,0 +1,6 @@
+description = "Operational guide for enabling Megatron FSDP in Megatron-Bridge, including config knobs, code anchors, pitfalls, and verification."
+
+prompt = """
+Invoke the ai:nemo-mbridge-perf-megatron-fsdp skill.
+Load the prompt instructions from skills/skills-nemo-mbridge-perf-megatron-fsdp/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-nemo-mbridge-perf-megatron-fsdp/references/ to complete the task.
+"""

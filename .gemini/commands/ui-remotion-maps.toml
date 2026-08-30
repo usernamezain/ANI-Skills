@@ -1,0 +1,6 @@
+description = "Remotion Map animation knowledge"
+
+prompt = """
+Invoke the ui:remotion-maps skill.
+Load the prompt instructions from skills/skills-remotion-maps/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-remotion-maps/references/ to complete the task.
+"""

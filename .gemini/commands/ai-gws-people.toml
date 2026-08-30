@@ -1,0 +1,6 @@
+description = "Google People: Manage contacts and profiles."
+
+prompt = """
+Invoke the ai:gws-people skill.
+Load the prompt instructions from skills/cli-gws-people/SKILL.md and consult the copy-pasteable references or guidelines inside skills/cli-gws-people/references/ to complete the task.
+"""

@@ -1,0 +1,6 @@
+description = "Monitor brand mentions, sentiment, and reputation across Twitter, Reddit, news, and social platforms through SandBase. Use when asked for brand monitoring, reputation tracking, social listening, PR coverage analysis, or competitive brand intelligence."
+
+prompt = """
+Invoke the monitoring:brand-monitoring skill.
+Load the prompt instructions from skills/sandbase-skills-brand-monitoring/SKILL.md and consult the copy-pasteable references or guidelines inside skills/sandbase-skills-brand-monitoring/references/ to complete the task.
+"""

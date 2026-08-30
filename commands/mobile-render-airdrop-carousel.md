@@ -1,0 +1,6 @@
+# mobile:render-airdrop-carousel
+
+Assemble a viral iOS "AirDrop" notification-carousel video ad (≈6–8s, 9:16) from a brand line plus 6–16 real product photos — a native AirDrop share-sheet card ("Brand would like to share a ___ · Decline / Accept") springs up and its preview window CYCLES through the products, landing on a range/lineup payoff with an Accept tap; a chime + soft per-swap ticks track the swaps. DETERMINISTIC assembly — an HTML card (real DOM text) rendered to PNG via headless Chrome, chroma-keyed, its magenta window refilled per-product in PIL, then animated + audio-synthed with FFmpeg. FREE (no paid model calls); the recipe supplies the brand line, product images, and payoff and gates the only optional paid step (a hero shot when the brand has NO usable photo → create-image-fal). Use for the airdrop-notification-carousel format.
+
+**Skill folder:** `skills/goose-skills-render-airdrop-carousel/`
+**Namespace:** `mobile`

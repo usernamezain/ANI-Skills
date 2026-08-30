@@ -1,0 +1,6 @@
+description = "Sets up Three.js renderer, scene, WebGL context, animation loop, and resize handling. Use when the user asks to create a 3D scene, set up Three.js from scratch, initialize WebGL, create a render loop, or configure a renderer. Trigger keywords: three.js, threejs, WebGL, 3D scene, renderer, requestAnimationFrame."
+
+prompt = """
+Invoke the ui:threejs-core skill.
+Load the prompt instructions from skills/threejs-skills-threejs-core/SKILL.md and consult the copy-pasteable references or guidelines inside skills/threejs-skills-threejs-core/references/ to complete the task.
+"""

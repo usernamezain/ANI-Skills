@@ -1,0 +1,6 @@
+description = "Given the path to a finished content-goose ad-run folder, extract everything that defines that ad — recipe shot list, VO script, characters, voices, world, atom-skills, master mp4 — and emit a `source-sample.json` in the exact shape the `upload-ad-sample` skill writes to the Goose Ads library. Also links every character and voice to the central character library at `<repo-root>/assets/character-library/` (repo-root derived from the run-dir, not a hardcoded path), and if a character isn't in the library yet, adds it first then links. Use when the user wants to remix one of their existing ads — this skill produces the source JSON that the script-rewriting step and `remix-ad` consume."
+
+prompt = """
+Invoke the doc:extract-source-sample skill.
+Load the prompt instructions from skills/goose-skills-extract-source-sample/SKILL.md and consult the copy-pasteable references or guidelines inside skills/goose-skills-extract-source-sample/references/ to complete the task.
+"""

@@ -1,0 +1,6 @@
+description = "Detects timing side-channel vulnerabilities in cryptographic code. Use when implementing or reviewing crypto code, encountering division on secrets, secret-dependent branches, or constant-time programming questions in C, C++, Go, Rust, Swift, Java, Kotlin, C#, PHP, JavaScript, TypeScript, Python, or Ruby."
+
+prompt = """
+Invoke the security:constant-time-analysis skill.
+Load the prompt instructions from skills/skills-constant-time-analysis/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-constant-time-analysis/references/ to complete the task.
+"""

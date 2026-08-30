@@ -1,0 +1,6 @@
+# auth:webmcp-gen
+
+Create, compile, and validate site-specific WebMCP init scripts from a target URL and desired tool capability. Use when the user wants to author WebMCP tools for a website, produce a webmcp.init.js artifact, or test WebMCP registration and invocation through Stagehand.
+
+**Skill folder:** `skills/skills-webmcp-gen/`
+**Namespace:** `auth`

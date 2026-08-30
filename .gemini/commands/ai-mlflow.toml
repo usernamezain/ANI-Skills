@@ -1,0 +1,6 @@
+description = "Track ML experiments, manage model registry with versioning, deploy models to production, and reproduce experiments with MLflow - framework-agnostic ML lifecycle platform"
+
+prompt = """
+Invoke the ai:mlflow skill.
+Load the prompt instructions from skills/AI-Research-SKILLs-mlflow/SKILL.md and consult the copy-pasteable references or guidelines inside skills/AI-Research-SKILLs-mlflow/references/ to complete the task.
+"""

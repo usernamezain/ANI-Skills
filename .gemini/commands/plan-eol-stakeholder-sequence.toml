@@ -1,0 +1,6 @@
+description = "Plan who to talk to about a sunset, in what order, and what each conversation must cover. Use when an EOL decision is made and you want the landmines found before the announcement."
+
+prompt = """
+Invoke the plan:eol-stakeholder-sequence skill.
+Load the prompt instructions from skills/Product-Manager-Skills-eol-stakeholder-sequence/SKILL.md and consult the copy-pasteable references or guidelines inside skills/Product-Manager-Skills-eol-stakeholder-sequence/references/ to complete the task.
+"""

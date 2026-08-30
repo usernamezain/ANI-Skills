@@ -1,0 +1,6 @@
+description = "Use this skill to ask the VSS agent's video_understanding tool a fresh visual question about a recorded clip. Not for prior tool output, search hits, or metadata-answerable questions."
+
+prompt = """
+Invoke the ai:vss-ask-video skill.
+Load the prompt instructions from skills/skills-vss-ask-video/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-vss-ask-video/references/ to complete the task.
+"""

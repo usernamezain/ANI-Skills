@@ -1,0 +1,6 @@
+description = ">-"
+
+prompt = """
+Invoke the cloud:google-cloud-solution-n-tier-serverless-web-app skill.
+Load the prompt instructions from skills/skills-google-cloud-solution-n-tier-serverless-web-app/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-google-cloud-solution-n-tier-serverless-web-app/references/ to complete the task.
+"""

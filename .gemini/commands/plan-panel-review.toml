@@ -1,0 +1,6 @@
+description = "Reviews a code target by launching a panel of specialist auditor agents and merging their reports. Use when asked to run a panel review."
+
+prompt = """
+Invoke the plan:panel-review skill.
+Load the prompt instructions from skills/skills-panel-review/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-panel-review/references/ to complete the task.
+"""

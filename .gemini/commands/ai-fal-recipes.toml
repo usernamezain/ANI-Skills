@@ -1,0 +1,6 @@
+description = ">"
+
+prompt = """
+Invoke the ai:fal-recipes skill.
+Load the prompt instructions from skills/skills-fal-recipes/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-fal-recipes/references/ to complete the task.
+"""

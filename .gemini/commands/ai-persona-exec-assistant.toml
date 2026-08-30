@@ -1,0 +1,6 @@
+description = "Manage an executive's schedule, inbox, and communications."
+
+prompt = """
+Invoke the ai:persona-exec-assistant skill.
+Load the prompt instructions from skills/cli-persona-exec-assistant/SKILL.md and consult the copy-pasteable references or guidelines inside skills/cli-persona-exec-assistant/references/ to complete the task.
+"""

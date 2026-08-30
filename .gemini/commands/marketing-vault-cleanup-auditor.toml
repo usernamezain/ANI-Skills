@@ -1,0 +1,6 @@
+description = "Audit your Obsidian vault in Claude Code — finds stale drafts, empty folders, duplicate filenames, and incomplete files. Saves a dated report."
+
+prompt = """
+Invoke the marketing:vault-cleanup-auditor skill.
+Load the prompt instructions from skills/ai-marketing-claude-code-skills-vault-cleanup-auditor/SKILL.md and consult the copy-pasteable references or guidelines inside skills/ai-marketing-claude-code-skills-vault-cleanup-auditor/references/ to complete the task.
+"""

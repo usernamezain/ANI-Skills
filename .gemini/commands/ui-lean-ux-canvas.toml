@@ -1,0 +1,6 @@
+description = "Guide teams through Lean UX Canvas v2. Use when framing a business problem, surfacing assumptions, and defining what to learn next."
+
+prompt = """
+Invoke the ui:lean-ux-canvas skill.
+Load the prompt instructions from skills/Product-Manager-Skills-lean-ux-canvas/SKILL.md and consult the copy-pasteable references or guidelines inside skills/Product-Manager-Skills-lean-ux-canvas/references/ to complete the task.
+"""

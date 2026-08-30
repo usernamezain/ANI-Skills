@@ -1,0 +1,6 @@
+description = "Generate auditor-ready compliance evidence from Datadog Audit Trail for SOC 2 and PCI DSS. Maps framework controls to specific query patterns and produces formatted output."
+
+prompt = """
+Invoke the monitoring:dd-audit-compliance-report skill.
+Load the prompt instructions from skills/agent-skills-dd-audit-compliance-report/SKILL.md and consult the copy-pasteable references or guidelines inside skills/agent-skills-dd-audit-compliance-report/references/ to complete the task.
+"""

@@ -1,0 +1,6 @@
+description = "Use when a concrete ./holohub command fails, hangs, regresses, or returns wrong output and needs reproducible diagnosis and verification."
+
+prompt = """
+Invoke the ai:holohub-debug-build-run skill.
+Load the prompt instructions from skills/skills-holohub-debug-build-run/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-holohub-debug-build-run/references/ to complete the task.
+"""

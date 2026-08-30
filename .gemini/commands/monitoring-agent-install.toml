@@ -1,0 +1,6 @@
+description = "Install the Datadog Agent on Linux hosts via SSH with Single Step Instrumentation (SSI) enabled — SSI automatically instruments applications for APM without code changes. Only use if no agent is installed yet."
+
+prompt = """
+Invoke the monitoring:agent-install skill.
+Load the prompt instructions from skills/agent-skills-agent-install/SKILL.md and consult the copy-pasteable references or guidelines inside skills/agent-skills-agent-install/references/ to complete the task.
+"""

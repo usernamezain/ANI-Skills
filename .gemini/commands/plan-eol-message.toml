@@ -1,0 +1,6 @@
+description = "Write a right-sized EOL announcement — brief notice through full phased comms — with rationale, customer impact, and next steps. Use when retiring a product, feature, or plan."
+
+prompt = """
+Invoke the plan:eol-message skill.
+Load the prompt instructions from skills/Product-Manager-Skills-eol-message/SKILL.md and consult the copy-pasteable references or guidelines inside skills/Product-Manager-Skills-eol-message/references/ to complete the task.
+"""

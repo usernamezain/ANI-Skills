@@ -1,0 +1,6 @@
+description = "Integrates Three.js in React using React Three Fiber (R3F), @react-three/drei, and @react-three/postprocessing. Use when the user asks about Three.js in React, React Three Fiber, R3F, @react-three/drei, useFrame, useThree, Canvas setup, or 3D in React components. Trigger keywords: React Three Fiber, R3F, drei, useFrame, useThree, Canvas, 3D React, @react-three."
+
+prompt = """
+Invoke the ui:threejs-react skill.
+Load the prompt instructions from skills/threejs-skills-threejs-react/SKILL.md and consult the copy-pasteable references or guidelines inside skills/threejs-skills-threejs-react/references/ to complete the task.
+"""

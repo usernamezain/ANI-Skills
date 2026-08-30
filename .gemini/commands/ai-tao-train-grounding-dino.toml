@@ -1,0 +1,6 @@
+description = "Grounding DINO for open-set object detection. Combines DINO-style detection with a BERT text encoder for"
+
+prompt = """
+Invoke the ai:tao-train-grounding-dino skill.
+Load the prompt instructions from skills/skills-tao-train-grounding-dino/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-tao-train-grounding-dino/references/ to complete the task.
+"""

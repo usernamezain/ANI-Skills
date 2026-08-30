@@ -1,0 +1,6 @@
+# ai:render-food-product-sizzle
+
+Assemble a wordless macro-tabletop food-product sizzle ad from a config — normalize fps and SAR across ~4 photorealistic macro clips (hands tearing, flat lay, bite, box hero), concat them, apply a global anti-AI grain pass (eq plus hqdn3d plus noise), composite the audio (a non-diegetic acoustic music bed plus a couple of short diegetic SFX like a snap and a tear placed at measured cue points, loudnorm), composite a STATIC end card entirely in PIL (real logo PNG plus real product PNG plus a serif heritage headline plus a CTA — never AI-rendered text), and burn optional serif stat-callout pills at beats. This is the FREE deterministic assembly stage (normalized concat plus grain plus music and SFX mix plus PIL end card plus callouts); the macro keyframes, i2v clips, and music bed come from create-image-fal, create-video-fal, and create-music-elevenlabs. Use for the food-product-sizzle format.
+
+**Skill folder:** `skills/goose-skills-render-food-product-sizzle/`
+**Namespace:** `ai`

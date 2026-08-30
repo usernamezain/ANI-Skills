@@ -1,0 +1,6 @@
+description = "Use only to generate or update a governance skill card for a specified existing agent skill directory. Do not use for explaining, listing, comparing, or discussing skill capabilities."
+
+prompt = """
+Invoke the plan:skill-card-generator skill.
+Load the prompt instructions from skills/skills-skill-card-generator/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-skill-card-generator/references/ to complete the task.
+"""

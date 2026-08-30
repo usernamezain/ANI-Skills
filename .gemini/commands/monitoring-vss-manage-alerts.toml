@@ -1,0 +1,6 @@
+description = "Use for VSS alert workflows — real-time monitoring, Alert-Bridge subscriptions, Slack notifications, incident queries, camera onboarding. Not for non-alert analytics."
+
+prompt = """
+Invoke the monitoring:vss-manage-alerts skill.
+Load the prompt instructions from skills/skills-vss-manage-alerts/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-vss-manage-alerts/references/ to complete the task.
+"""

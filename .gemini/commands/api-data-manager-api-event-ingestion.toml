@@ -1,0 +1,6 @@
+description = ">-"
+
+prompt = """
+Invoke the api:data-manager-api-event-ingestion skill.
+Load the prompt instructions from skills/skills-data-manager-api-event-ingestion/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-data-manager-api-event-ingestion/references/ to complete the task.
+"""

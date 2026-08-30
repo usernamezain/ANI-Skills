@@ -1,0 +1,6 @@
+description = "Guide for writing effective code documentation, including docstrings, JSDoc, dartdoc, and implementation comments. Use this skill when writing new code, adding features, or improving existing documentation in Dart, Python, or TypeScript to ensure clarity and maintainability."
+
+prompt = """
+Invoke the doc:code-documentation skill.
+Load the prompt instructions from skills/skills-code-documentation/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-code-documentation/references/ to complete the task.
+"""

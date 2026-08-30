@@ -1,0 +1,6 @@
+# marketing:ab-test-store-listing
+
+When the user wants to A/B test App Store product page elements to improve conversion rate. Also use when the user mentions "A/B test", "product page optimization", "test my screenshots", "test my icon", "conversion rate optimization", "CPP", or "custom product pages". For screenshot design, see screenshot-optimization. For metadata optimization, see metadata-optimization.
+
+**Skill folder:** `skills/aso-skills-ab-test-store-listing/`
+**Namespace:** `marketing`

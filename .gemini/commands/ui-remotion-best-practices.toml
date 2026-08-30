@@ -1,0 +1,6 @@
+description = "Router for all Remotion skills"
+
+prompt = """
+Invoke the ui:remotion-best-practices skill.
+Load the prompt instructions from skills/skills-remotion-best-practices/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-remotion-best-practices/references/ to complete the task.
+"""

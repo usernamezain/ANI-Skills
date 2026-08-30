@@ -1,0 +1,6 @@
+description = "Find and prioritize ethical backlink and digital-PR opportunities using SandBase DataForSEO backlink data. Use when asked to analyze backlink profiles, find referring-domain gaps, compare link competitors, or prepare a link-outreach target list."
+
+prompt = """
+Invoke the marketing:backlink-gap-analysis skill.
+Load the prompt instructions from skills/sandbase-skills-backlink-gap-analysis/SKILL.md and consult the copy-pasteable references or guidelines inside skills/sandbase-skills-backlink-gap-analysis/references/ to complete the task.
+"""

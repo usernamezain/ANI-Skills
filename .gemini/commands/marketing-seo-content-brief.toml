@@ -1,0 +1,6 @@
+description = "Generate data-backed content briefs by analyzing Google SERP results, competitor content, keyword intent, and audience questions. Produces writer-ready briefs with target queries, required subtopics, recommended format, word count, and competitive differentiation angles."
+
+prompt = """
+Invoke the marketing:seo-content-brief skill.
+Load the prompt instructions from skills/sandbase-skills-seo-content-brief/SKILL.md and consult the copy-pasteable references or guidelines inside skills/sandbase-skills-seo-content-brief/references/ to complete the task.
+"""

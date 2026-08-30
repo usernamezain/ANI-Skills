@@ -1,0 +1,6 @@
+description = "NVPanoptix3D for panoptic 3D scene reconstruction from posed RGB images. Produces 3D panoptic segmentation"
+
+prompt = """
+Invoke the ai:tao-train-nvpanoptix3d skill.
+Load the prompt instructions from skills/skills-tao-train-nvpanoptix3d/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-tao-train-nvpanoptix3d/references/ to complete the task.
+"""

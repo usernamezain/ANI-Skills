@@ -1,0 +1,6 @@
+description = "Migrate supported instruction files, skills, agents, and MCP config into Codex project and global files."
+
+prompt = """
+Invoke the ai:migrate-to-codex skill.
+Load the prompt instructions from skills/skills-migrate-to-codex/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-migrate-to-codex/references/ to complete the task.
+"""

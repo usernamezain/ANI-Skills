@@ -1,0 +1,6 @@
+description = "Fine-tune LLMs using reinforcement learning with TRL - SFT for instruction tuning, DPO for preference alignment, PPO/GRPO for reward optimization, and reward model training. Use when need RLHF, align model with preferences, or train from human feedback. Works with HuggingFace Transformers."
+
+prompt = """
+Invoke the ai:fine-tuning-with-trl skill.
+Load the prompt instructions from skills/AI-Research-SKILLs-fine-tuning-with-trl/SKILL.md and consult the copy-pasteable references or guidelines inside skills/AI-Research-SKILLs-fine-tuning-with-trl/references/ to complete the task.
+"""

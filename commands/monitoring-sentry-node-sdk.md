@@ -1,0 +1,6 @@
+# monitoring:sentry-node-sdk
+
+Full Sentry SDK setup for Node.js, Bun, and Deno. Use when asked to "add Sentry to Node.js", "add Sentry to Bun", "add Sentry to Deno", "install @sentry/node", "@sentry/bun", or "@sentry/deno", or configure error monitoring, tracing, logging, profiling, metrics, crons, or AI monitoring for server-side JavaScript/TypeScript runtimes.
+
+**Skill folder:** `skills/sentry-for-ai-sentry-node-sdk/`
+**Namespace:** `monitoring`

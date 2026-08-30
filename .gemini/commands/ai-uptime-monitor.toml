@@ -1,0 +1,6 @@
+description = "Monitor website uptime - check availability, response times, and status"
+
+prompt = """
+Invoke the ai:uptime-monitor skill.
+Load the prompt instructions from skills/goose-skills-uptime-monitor/SKILL.md and consult the copy-pasteable references or guidelines inside skills/goose-skills-uptime-monitor/references/ to complete the task.
+"""

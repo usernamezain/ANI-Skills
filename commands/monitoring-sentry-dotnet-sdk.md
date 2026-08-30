@@ -1,0 +1,6 @@
+# monitoring:sentry-dotnet-sdk
+
+Full Sentry SDK setup for .NET. Use when asked to "add Sentry to .NET", "install Sentry for C#", or configure error monitoring, tracing, profiling, logging, or crons for ASP.NET Core, MAUI, WPF, WinForms, Blazor, Azure Functions, or any other .NET application.
+
+**Skill folder:** `skills/sentry-for-ai-sentry-dotnet-sdk/`
+**Namespace:** `monitoring`

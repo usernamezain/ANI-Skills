@@ -1,0 +1,6 @@
+description = "Watch a rendered video (whole file or specific ranges) at a chosen fidelity and emit a timestamp-keyed observation report. Observation only — no edits, no verdicts."
+
+prompt = """
+Invoke the plan:watch skill.
+Load the prompt instructions from skills/goose-skills-watch/SKILL.md and consult the copy-pasteable references or guidelines inside skills/goose-skills-watch/references/ to complete the task.
+"""

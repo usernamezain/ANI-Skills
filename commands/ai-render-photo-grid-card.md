@@ -1,0 +1,6 @@
+# ai:render-photo-grid-card
+
+Render a 'photo-grid promo card' video from a config — a real-DOM card with a FIXED header/footer and a CONTINUOUSLY SCROLLING 2-row grid of MIXED tiles (video clips, product/lifestyle stills, big-serif %-OFF, dark promo-code or CTA) + feature chips, frame-stepped via Playwright with real-time <video> playback and encoded with FFmpeg — deterministic assembly, FREE (the clips + music come from create-video-fal + create-music-elevenlabs), text stays pixel-crisp. Use for the photo-grid-promo-card format.
+
+**Skill folder:** `skills/goose-skills-render-photo-grid-card/`
+**Namespace:** `ai`

@@ -1,0 +1,6 @@
+description = "Coach the user through actually selling: finding the champion and the buyer, running the first sales conversations, demoing their use case, handling \\"let me think about it,\\" and closing the first paying customers yourself. Use when developers love it but nobody pays, you've never sold anything and freeze on the conversation, or deals keep stalling on \\"we'll think about it.\"
+
+prompt = """
+Invoke the marketing:founder-led-sales skill.
+Load the prompt instructions from skills/gtm-cofounder-founder-led-sales/SKILL.md and consult the copy-pasteable references or guidelines inside skills/gtm-cofounder-founder-led-sales/references/ to complete the task.
+"""

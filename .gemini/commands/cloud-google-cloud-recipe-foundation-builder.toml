@@ -1,0 +1,6 @@
+description = ">-"
+
+prompt = """
+Invoke the cloud:google-cloud-recipe-foundation-builder skill.
+Load the prompt instructions from skills/skills-google-cloud-recipe-foundation-builder/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-google-cloud-recipe-foundation-builder/references/ to complete the task.
+"""

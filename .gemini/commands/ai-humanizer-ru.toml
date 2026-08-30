@@ -1,0 +1,6 @@
+description = "Проверяет русскоязычный текст на следы машинной генерации (40 regex-маркеров, у 38 полная запись доказательств) и по явной просьбе пользователя переписывает его естественным языком. Демо: vladimir-human.github.io/humanizer-ru. Отвечает на просьбы вида «очеловечь», «убери гпт-шность», «звучит как нейросеть», «проверь на ИИ», «убери штампы», «убери канцелярит», «сделай живым». Detects AI-generated Russian text and humanizes it on request. Не предназначен для текста не на русском, исходного кода, юридических документов и художественной прозы."
+
+prompt = """
+Invoke the ai:humanizer-ru skill.
+Load the prompt instructions from skills/humanizer-ru/dsh/skills/humanizer-ru/SKILL.md and consult the copy-pasteable references or guidelines inside skills/humanizer-ru/dsh/skills/humanizer-ru/references/ to complete the task.
+"""

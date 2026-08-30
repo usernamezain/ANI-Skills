@@ -1,0 +1,6 @@
+description = ">-"
+
+prompt = """
+Invoke the ai:gke-compute-classes skill.
+Load the prompt instructions from skills/skills-gke-compute-classes/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-gke-compute-classes/references/ to complete the task.
+"""

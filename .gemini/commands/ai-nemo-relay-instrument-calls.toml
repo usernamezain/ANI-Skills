@@ -1,0 +1,6 @@
+description = "Use this skill when an application owns tool or LLM/provider call sites and needs to wrap them with NeMo Relay scopes and managed execution APIs for lifecycle events, middleware, or guardrails."
+
+prompt = """
+Invoke the ai:nemo-relay-instrument-calls skill.
+Load the prompt instructions from skills/skills-nemo-relay-instrument-calls/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-nemo-relay-instrument-calls/references/ to complete the task.
+"""

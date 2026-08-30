@@ -1,0 +1,6 @@
+description = "Manage customer support — track tickets, respond, escalate issues."
+
+prompt = """
+Invoke the ai:persona-customer-support skill.
+Load the prompt instructions from skills/cli-persona-customer-support/SKILL.md and consult the copy-pasteable references or guidelines inside skills/cli-persona-customer-support/references/ to complete the task.
+"""

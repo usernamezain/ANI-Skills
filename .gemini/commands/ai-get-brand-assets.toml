@@ -1,0 +1,6 @@
+description = "Get company logos, brand colors, fonts, and style guides"
+
+prompt = """
+Invoke the ai:get-brand-assets skill.
+Load the prompt instructions from skills/goose-skills-get-brand-assets/SKILL.md and consult the copy-pasteable references or guidelines inside skills/goose-skills-get-brand-assets/references/ to complete the task.
+"""

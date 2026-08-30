@@ -1,0 +1,6 @@
+description = "Comprehensive PM resume review and tailoring against 10 best practices including XYZ+S formula, keyword optimization, job-specific tailoring, and structure. Use when reviewing a PM resume, preparing for job applications, or improving resume impact."
+
+prompt = """
+Invoke the plan:review-resume skill.
+Load the prompt instructions from skills/pm-skills-review-resume/SKILL.md and consult the copy-pasteable references or guidelines inside skills/pm-skills-review-resume/references/ to complete the task.
+"""

@@ -1,0 +1,6 @@
+# mobile:flutter-add-widget-test
+
+Implement a component-level test using `WidgetTester` to verify UI rendering and user interactions (tapping, scrolling, entering text). Use when validating that a specific widget displays correct data and responds to events as expected.
+
+**Skill folder:** `skills/skills-flutter-add-widget-test/`
+**Namespace:** `mobile`

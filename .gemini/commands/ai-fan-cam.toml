@@ -1,0 +1,6 @@
+description = ">"
+
+prompt = """
+Invoke the ai:fan-cam skill.
+Load the prompt instructions from skills/skills-fan-cam/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-fan-cam/references/ to complete the task.
+"""

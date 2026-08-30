@@ -1,0 +1,6 @@
+# plan:user-story
+
+Create user stories with Mike Cohn format and Gherkin acceptance criteria. Use when turning user needs into development-ready work with clear outcomes and testable conditions.
+
+**Skill folder:** `skills/Product-Manager-Skills-user-story/`
+**Namespace:** `plan`

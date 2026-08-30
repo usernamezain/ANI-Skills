@@ -1,0 +1,6 @@
+description = "Calculate SaaS revenue, retention, and growth metrics. Use when diagnosing momentum, churn, expansion, or product-market-fit signals."
+
+prompt = """
+Invoke the marketing:saas-revenue-growth-metrics skill.
+Load the prompt instructions from skills/Product-Manager-Skills-saas-revenue-growth-metrics/SKILL.md and consult the copy-pasteable references or guidelines inside skills/Product-Manager-Skills-saas-revenue-growth-metrics/references/ to complete the task.
+"""

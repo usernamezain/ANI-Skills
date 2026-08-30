@@ -1,0 +1,6 @@
+# auth:search
+
+Use this skill when the user wants to search the web without a full browser session: find URLs, titles, and metadata for a query. Prefer it over a browser when you just need search results, not page content. Returns structured results with titles, URLs, authors, and dates.
+
+**Skill folder:** `skills/skills-search/`
+**Namespace:** `auth`

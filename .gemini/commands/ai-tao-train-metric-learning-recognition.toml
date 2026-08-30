@@ -1,0 +1,6 @@
+description = "Metric-learning recognition (ml-recog) for fine-grained visual recognition. Learns embeddings for"
+
+prompt = """
+Invoke the ai:tao-train-metric-learning-recognition skill.
+Load the prompt instructions from skills/skills-tao-train-metric-learning-recognition/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-tao-train-metric-learning-recognition/references/ to complete the task.
+"""

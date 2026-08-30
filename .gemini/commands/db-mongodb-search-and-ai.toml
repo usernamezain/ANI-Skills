@@ -1,0 +1,6 @@
+description = "|"
+
+prompt = """
+Invoke the db:mongodb-search-and-ai skill.
+Load the prompt instructions from skills/agent-skills-mongodb-search-and-ai/SKILL.md and consult the copy-pasteable references or guidelines inside skills/agent-skills-mongodb-search-and-ai/references/ to complete the task.
+"""

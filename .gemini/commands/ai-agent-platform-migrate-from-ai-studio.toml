@@ -1,0 +1,6 @@
+description = ">-"
+
+prompt = """
+Invoke the ai:agent-platform-migrate-from-ai-studio skill.
+Load the prompt instructions from skills/skills-agent-platform-migrate-from-ai-studio/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-agent-platform-migrate-from-ai-studio/references/ to complete the task.
+"""

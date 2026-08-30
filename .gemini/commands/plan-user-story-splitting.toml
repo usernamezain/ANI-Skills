@@ -1,0 +1,6 @@
+description = "Break a large story or epic into smaller deliverable stories using proven split patterns. Use when backlog items are too big for estimation, sequencing, or independent release."
+
+prompt = """
+Invoke the plan:user-story-splitting skill.
+Load the prompt instructions from skills/Product-Manager-Skills-user-story-splitting/SKILL.md and consult the copy-pasteable references or guidelines inside skills/Product-Manager-Skills-user-story-splitting/references/ to complete the task.
+"""

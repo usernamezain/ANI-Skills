@@ -1,0 +1,6 @@
+description = "Write a user-centered problem statement with who is blocked, what they are trying to do, why it matters, and how it feels. Use when framing discovery, prioritization, or a PRD."
+
+prompt = """
+Invoke the plan:problem-statement skill.
+Load the prompt instructions from skills/Product-Manager-Skills-problem-statement/SKILL.md and consult the copy-pasteable references or guidelines inside skills/Product-Manager-Skills-problem-statement/references/ to complete the task.
+"""

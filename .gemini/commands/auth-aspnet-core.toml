@@ -1,0 +1,6 @@
+description = "Build, review, refactor, or architect ASP.NET Core web applications using current official guidance for .NET web development. Use when working on Blazor Web Apps, Razor Pages, MVC, Minimal APIs, controller-based Web APIs, SignalR, gRPC, middleware, dependency injection, configuration, authentication, authorization, testing, performance, deployment, or ASP.NET Core upgrades."
+
+prompt = """
+Invoke the auth:aspnet-core skill.
+Load the prompt instructions from skills/skills-aspnet-core/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-aspnet-core/references/ to complete the task.
+"""

@@ -1,0 +1,6 @@
+description = "Daily meeting preparation system that checks your calendar each morning, deeply researches external attendees (LinkedIn, company info, GitHub, past notes), and sends you personalized briefs via email (1 per person). Use when you want automated preparation for upcoming meetings with context about each person you're meeting."
+
+prompt = """
+Invoke the marketing:meeting-brief skill.
+Load the prompt instructions from skills/goose-skills-meeting-brief/SKILL.md and consult the copy-pasteable references or guidelines inside skills/goose-skills-meeting-brief/references/ to complete the task.
+"""

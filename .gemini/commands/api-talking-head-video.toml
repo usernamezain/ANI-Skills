@@ -1,0 +1,6 @@
+description = "Creates talking head videos from any source material (docs, changelogs, blog posts, notes, transcripts). Produces multi-scene videos with avatar narration over screenshots/images using HeyGen v2 API. Supports Quick Shot and Full Producer modes."
+
+prompt = """
+Invoke the api:talking-head-video skill.
+Load the prompt instructions from skills/goose-skills-talking-head-video/SKILL.md and consult the copy-pasteable references or guidelines inside skills/goose-skills-talking-head-video/references/ to complete the task.
+"""

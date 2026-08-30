@@ -1,0 +1,6 @@
+# scraping:bx
+
+USE FOR web search, research, RAG, grounding, browse, find, lookups, fact-checking, documentation, agentic AI. All-in-one, optimized for AI agents. Pre-extracted, token-budgeted web content, deep research, news, images, videos, places, custom ranking
+
+**Skill folder:** `skills/brave-search-skills-bx/`
+**Namespace:** `scraping`

@@ -1,0 +1,6 @@
+# db:qdrant-version-upgrade
+
+Covers upgrading Qdrant server and SDKs without interrupting availability or losing data integrity. Use when someone asks 'how do I upgrade Qdrant', 'can I jump from 1.15 to 1.18', 'rolling upgrade without downtime', 'do I upgrade the client or the server first', 'which SDK version matches my server', 'what should I check before upgrading', or 'something changed after we upgraded'.
+
+**Skill folder:** `skills/skills-qdrant-version-upgrade/`
+**Namespace:** `db`

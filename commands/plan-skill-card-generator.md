@@ -1,0 +1,6 @@
+# plan:skill-card-generator
+
+Use only to generate or update a governance skill card for a specified existing agent skill directory. Do not use for explaining, listing, comparing, or discussing skill capabilities.
+
+**Skill folder:** `skills/skills-skill-card-generator/`
+**Namespace:** `plan`

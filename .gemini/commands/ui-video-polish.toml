@@ -1,0 +1,6 @@
+description = "Takes an existing screen recording or demo video and adds professional zoom/pan effects synchronized to the narration. Uses transcript-driven zoom targeting and Remotion for rendering. Optionally replaces audio with a soundtrack."
+
+prompt = """
+Invoke the ui:video-polish skill.
+Load the prompt instructions from skills/goose-skills-video-polish/SKILL.md and consult the copy-pasteable references or guidelines inside skills/goose-skills-video-polish/references/ to complete the task.
+"""

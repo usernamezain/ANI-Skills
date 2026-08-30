@@ -1,0 +1,6 @@
+description = "Use Hugging Face Hub via MCP server tools. Search models, datasets, Spaces, papers. Get repo details, fetch documentation, run compute jobs, and use Gradio Spaces as AI tools. Available when connected to the HF MCP server."
+
+prompt = """
+Invoke the ai:hf-mcp skill.
+Load the prompt instructions from skills/skills-hf-mcp/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-hf-mcp/references/ to complete the task.
+"""

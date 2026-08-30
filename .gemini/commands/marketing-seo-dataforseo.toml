@@ -1,0 +1,6 @@
+description = ">"
+
+prompt = """
+Invoke the marketing:seo-dataforseo skill.
+Load the prompt instructions from skills/claude-seo-seo-dataforseo/SKILL.md and consult the copy-pasteable references or guidelines inside skills/claude-seo-seo-dataforseo/references/ to complete the task.
+"""

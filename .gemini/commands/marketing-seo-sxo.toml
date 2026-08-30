@@ -1,0 +1,6 @@
+description = ">"
+
+prompt = """
+Invoke the marketing:seo-sxo skill.
+Load the prompt instructions from skills/claude-seo-seo-sxo/SKILL.md and consult the copy-pasteable references or guidelines inside skills/claude-seo-seo-sxo/references/ to complete the task.
+"""

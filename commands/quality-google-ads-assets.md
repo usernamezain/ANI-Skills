@@ -1,0 +1,6 @@
+# quality:google-ads-assets
+
+Plan, validate, and safely publish Google Ads assets, including sitelinks, callouts, structured snippets, image assets, and Performance Max asset briefs. Use when asked for Google Ads assets, ad extensions, sitelinks, callouts, snippets, image assets, Performance Max assets, PMax creative, or an asset audit.
+
+**Skill folder:** `skills/notfair-plugin-google-ads-assets/`
+**Namespace:** `quality`

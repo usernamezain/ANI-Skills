@@ -1,0 +1,6 @@
+description = "Fast structured generation and serving for LLMs with RadixAttention prefix caching. Use for JSON/regex outputs, constrained decoding, agentic workflows with tool calls, or when you need 5× faster inference than vLLM with prefix sharing. Powers 300,000+ GPUs at xAI, AMD, NVIDIA, and LinkedIn."
+
+prompt = """
+Invoke the marketing:sglang skill.
+Load the prompt instructions from skills/AI-Research-SKILLs-sglang/SKILL.md and consult the copy-pasteable references or guidelines inside skills/AI-Research-SKILLs-sglang/references/ to complete the task.
+"""

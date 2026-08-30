@@ -1,0 +1,6 @@
+description = "Use when building or debugging WordPress Interactivity API features (data-wp-* directives, @wordpress/interactivity store/state/actions, block viewScriptModule integration, wp_interactivity_*()) including performance, hydration, and directive behavior."
+
+prompt = """
+Invoke the cloud:wp-interactivity-api skill.
+Load the prompt instructions from skills/agent-skills-wp-interactivity-api/SKILL.md and consult the copy-pasteable references or guidelines inside skills/agent-skills-wp-interactivity-api/references/ to complete the task.
+"""

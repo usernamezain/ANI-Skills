@@ -1,0 +1,6 @@
+description = "Provider reference for collecting public profiles, posts, comments, transcripts, trends, and ad-library data from major social platforms through ScrapeCreators. Use as a dependency of research workflows, not as the final user-facing deliverable."
+
+prompt = """
+Invoke the scraping:scrapecreators-api skill.
+Load the prompt instructions from skills/goose-skills-scrapecreators-api/SKILL.md and consult the copy-pasteable references or guidelines inside skills/goose-skills-scrapecreators-api/references/ to complete the task.
+"""

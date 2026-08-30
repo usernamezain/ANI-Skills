@@ -1,0 +1,6 @@
+description = ">-"
+
+prompt = """
+Invoke the ui:stitch--manage-design-system skill.
+Load the prompt instructions from skills/stitch-skills-stitch--manage-design-system/SKILL.md and consult the copy-pasteable references or guidelines inside skills/stitch-skills-stitch--manage-design-system/references/ to complete the task.
+"""

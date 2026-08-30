@@ -1,0 +1,6 @@
+description = "Extract structured data from LLM responses with Pydantic validation, retry failed extractions automatically, parse complex JSON with type safety, and stream partial results with Instructor - battle-tested structured output library"
+
+prompt = """
+Invoke the ai:instructor skill.
+Load the prompt instructions from skills/AI-Research-SKILLs-instructor/SKILL.md and consult the copy-pasteable references or guidelines inside skills/AI-Research-SKILLs-instructor/references/ to complete the task.
+"""

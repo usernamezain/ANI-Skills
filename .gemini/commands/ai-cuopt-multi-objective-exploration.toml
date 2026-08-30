@@ -1,0 +1,6 @@
+description = "Trace, complete, and interpret the Pareto frontier across competing objectives using repeated single-objective cuOpt solves (weighted-sum and ε-constraint)."
+
+prompt = """
+Invoke the ai:cuopt-multi-objective-exploration skill.
+Load the prompt instructions from skills/skills-cuopt-multi-objective-exploration/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-cuopt-multi-objective-exploration/references/ to complete the task.
+"""

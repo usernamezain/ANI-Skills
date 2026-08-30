@@ -1,0 +1,6 @@
+description = "Logo.dev - search for company domains by brand name"
+
+prompt = """
+Invoke the ai:company-domain-lookup-logodev skill.
+Load the prompt instructions from skills/goose-skills-company-domain-lookup-logodev/SKILL.md and consult the copy-pasteable references or guidelines inside skills/goose-skills-company-domain-lookup-logodev/references/ to complete the task.
+"""

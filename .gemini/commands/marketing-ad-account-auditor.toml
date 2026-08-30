@@ -1,0 +1,6 @@
+description = "Use when auditing a paid ad account for incremental contribution, wasted spend, or measurement integrity before scaling; runs a typed 20-item ROAS profile with verified vetoes and a SHIP/FIX/BLOCK/UNDECIDED gate on own exported data. Not for campaign structure design — use campaign-architect; not for creative production — use ad-creative-builder. 付费广告账户审计/ROAS评分"
+
+prompt = """
+Invoke the marketing:ad-account-auditor skill.
+Load the prompt instructions from skills/aaron-marketing-skills-ad-account-auditor/SKILL.md and consult the copy-pasteable references or guidelines inside skills/aaron-marketing-skills-ad-account-auditor/references/ to complete the task.
+"""

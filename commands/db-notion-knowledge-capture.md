@@ -1,0 +1,6 @@
+# db:notion-knowledge-capture
+
+Transforms conversations and discussions into structured documentation pages in Notion. Captures insights, decisions, and knowledge from chat context, formats appropriately, and saves to wikis or databases with proper organization and linking for easy discovery.
+
+**Skill folder:** `skills/notion-cookbook-notion-knowledge-capture/`
+**Namespace:** `db`

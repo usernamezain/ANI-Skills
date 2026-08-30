@@ -1,0 +1,6 @@
+description = "Share a Google Drive folder and all its contents with a list of collaborators."
+
+prompt = """
+Invoke the ai:recipe-share-folder-with-team skill.
+Load the prompt instructions from skills/cli-recipe-share-folder-with-team/SKILL.md and consult the copy-pasteable references or guidelines inside skills/cli-recipe-share-folder-with-team/references/ to complete the task.
+"""

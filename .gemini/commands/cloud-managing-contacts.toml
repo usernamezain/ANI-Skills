@@ -1,0 +1,6 @@
+description = ">-"
+
+prompt = """
+Invoke the cloud:managing-contacts skill.
+Load the prompt instructions from skills/mailtrap-skills-managing-contacts/SKILL.md and consult the copy-pasteable references or guidelines inside skills/mailtrap-skills-managing-contacts/references/ to complete the task.
+"""

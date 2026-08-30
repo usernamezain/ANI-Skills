@@ -1,0 +1,6 @@
+description = "Evaluate SaaS unit economics and capital efficiency. Use when deciding whether the business can scale efficiently or needs correction."
+
+prompt = """
+Invoke the plan:saas-economics-efficiency-metrics skill.
+Load the prompt instructions from skills/Product-Manager-Skills-saas-economics-efficiency-metrics/SKILL.md and consult the copy-pasteable references or guidelines inside skills/Product-Manager-Skills-saas-economics-efficiency-metrics/references/ to complete the task.
+"""

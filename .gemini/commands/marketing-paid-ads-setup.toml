@@ -1,0 +1,6 @@
+description = "Connect NotFair paid-ad accounts and establish reusable campaign context. Use when setting up paid media in a new workspace, connecting Google, Meta, X, or LinkedIn Ads, refreshing brand context, or preparing an agent to work on ads safely."
+
+prompt = """
+Invoke the marketing:paid-ads-setup skill.
+Load the prompt instructions from skills/notfair-plugin-paid-ads-setup/SKILL.md and consult the copy-pasteable references or guidelines inside skills/notfair-plugin-paid-ads-setup/references/ to complete the task.
+"""

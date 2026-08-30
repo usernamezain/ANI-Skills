@@ -1,0 +1,6 @@
+description = ">-"
+
+prompt = """
+Invoke the ai:managed-airflow-dag-troubleshooting skill.
+Load the prompt instructions from skills/skills-managed-airflow-dag-troubleshooting/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-managed-airflow-dag-troubleshooting/references/ to complete the task.
+"""

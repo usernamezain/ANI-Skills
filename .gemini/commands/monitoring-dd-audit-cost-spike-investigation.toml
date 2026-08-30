@@ -1,0 +1,6 @@
+description = "Investigate a Datadog product usage or cost spike by correlating Usage Metering data (when/what spiked) with Audit Trail config changes (who changed what in the preceding window)."
+
+prompt = """
+Invoke the monitoring:dd-audit-cost-spike-investigation skill.
+Load the prompt instructions from skills/agent-skills-dd-audit-cost-spike-investigation/SKILL.md and consult the copy-pasteable references or guidelines inside skills/agent-skills-dd-audit-cost-spike-investigation/references/ to complete the task.
+"""

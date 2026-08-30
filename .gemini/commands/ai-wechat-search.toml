@@ -1,0 +1,6 @@
+description = "Search articles, videos, and content within the WeChat ecosystem. Covers cross-content-type search including Official Account articles, video channels, and mini-programs — the gateway to China's largest private-traffic platform."
+
+prompt = """
+Invoke the ai:wechat-search skill.
+Load the prompt instructions from skills/sandbase-skills-wechat-search/SKILL.md and consult the copy-pasteable references or guidelines inside skills/sandbase-skills-wechat-search/references/ to complete the task.
+"""

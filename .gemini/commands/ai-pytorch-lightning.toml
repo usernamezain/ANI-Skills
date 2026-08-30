@@ -1,0 +1,6 @@
+description = "High-level PyTorch framework with Trainer class, automatic distributed training (DDP/FSDP/DeepSpeed), callbacks system, and minimal boilerplate. Scales from laptop to supercomputer with same code. Use when you want clean training loops with built-in best practices."
+
+prompt = """
+Invoke the ai:pytorch-lightning skill.
+Load the prompt instructions from skills/AI-Research-SKILLs-pytorch-lightning/SKILL.md and consult the copy-pasteable references or guidelines inside skills/AI-Research-SKILLs-pytorch-lightning/references/ to complete the task.
+"""

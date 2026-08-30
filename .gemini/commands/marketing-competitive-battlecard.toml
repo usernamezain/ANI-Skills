@@ -1,0 +1,6 @@
+description = "Create sales-ready competitive battlecards comparing your product against a specific competitor — positioning, feature comparison, objection handling, and win/loss patterns. Use when preparing sales teams, creating competitive materials, or responding to 'why not competitor X?"
+
+prompt = """
+Invoke the marketing:competitive-battlecard skill.
+Load the prompt instructions from skills/pm-skills-competitive-battlecard/SKILL.md and consult the copy-pasteable references or guidelines inside skills/pm-skills-competitive-battlecard/references/ to complete the task.
+"""

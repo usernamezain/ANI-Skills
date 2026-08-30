@@ -1,0 +1,6 @@
+description = "Brainstorm feature ideas for a new product in initial discovery from PM, Designer, and Engineer perspectives. Use when starting product discovery for a new product, exploring features for a startup idea, or doing initial ideation."
+
+prompt = """
+Invoke the ui:brainstorm-ideas-new skill.
+Load the prompt instructions from skills/pm-skills-brainstorm-ideas-new/SKILL.md and consult the copy-pasteable references or guidelines inside skills/pm-skills-brainstorm-ideas-new/references/ to complete the task.
+"""

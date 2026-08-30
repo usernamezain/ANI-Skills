@@ -1,0 +1,6 @@
+# monitoring:mcore-run-on-slurm
+
+How to launch distributed Megatron-LM training jobs on a SLURM cluster. Covers a minimal sbatch skeleton, environment-variable setup for torch.distributed.run, CUDA_DEVICE_MAX_CONNECTIONS rules across hardware and parallelism modes, container conventions, monitoring, and per-rank failure diagnosis.
+
+**Skill folder:** `skills/skills-mcore-run-on-slurm/`
+**Namespace:** `monitoring`

@@ -1,0 +1,6 @@
+description = ">-"
+
+prompt = """
+Invoke the ai:detection-engineering-coverage-evaluation skill.
+Load the prompt instructions from skills/skills-detection-engineering-coverage-evaluation/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-detection-engineering-coverage-evaluation/references/ to complete the task.
+"""

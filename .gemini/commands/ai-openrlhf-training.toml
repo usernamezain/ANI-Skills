@@ -1,0 +1,6 @@
+description = "High-performance RLHF framework with Ray+vLLM acceleration. Use for PPO, GRPO, RLOO, DPO training of large models (7B-70B+). Built on Ray, vLLM, ZeRO-3. 2× faster than DeepSpeedChat with distributed architecture and GPU resource sharing."
+
+prompt = """
+Invoke the ai:openrlhf-training skill.
+Load the prompt instructions from skills/AI-Research-SKILLs-openrlhf-training/SKILL.md and consult the copy-pasteable references or guidelines inside skills/AI-Research-SKILLs-openrlhf-training/references/ to complete the task.
+"""

@@ -1,0 +1,6 @@
+description = "Navigation hub linking sub-skills for proactive Qdrant tuning: search speed, indexing performance, and memory usage optimization. Use when planning configuration or capacity changes to improve speed and efficiency. For diagnosing an active production slowdown or analyzing live metrics, use qdrant-monitoring instead."
+
+prompt = """
+Invoke the db:qdrant-performance-optimization skill.
+Load the prompt instructions from skills/skills-qdrant-performance-optimization/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-qdrant-performance-optimization/references/ to complete the task.
+"""

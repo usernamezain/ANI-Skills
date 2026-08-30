@@ -1,0 +1,6 @@
+description = "Design a new PM skill through guided conversation. Use when you have raw content or an idea and want to shape it into a compliant skill."
+
+prompt = """
+Invoke the ui:pm-skill-creator skill.
+Load the prompt instructions from skills/Product-Manager-Skills-pm-skill-creator/SKILL.md and consult the copy-pasteable references or guidelines inside skills/Product-Manager-Skills-pm-skill-creator/references/ to complete the task.
+"""

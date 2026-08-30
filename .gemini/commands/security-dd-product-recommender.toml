@@ -1,0 +1,6 @@
+description = "Recommends the right Datadog products for a codebase and/or a stated goal — grounded in a tech-stack→product map and a use-case→product map built from Datadog product capabilities and common technology patterns. Recommendation only; no setup instructions. Use when a user asks which Datadog products fit their app, what to monitor, or which products serve a goal like security, cost, or LLM observability."
+
+prompt = """
+Invoke the security:dd-product-recommender skill.
+Load the prompt instructions from skills/agent-skills-dd-product-recommender/SKILL.md and consult the copy-pasteable references or guidelines inside skills/agent-skills-dd-product-recommender/references/ to complete the task.
+"""

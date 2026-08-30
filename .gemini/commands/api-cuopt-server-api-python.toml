@@ -1,0 +1,6 @@
+description = "cuOpt REST server — start server, endpoints, Python/curl client examples. Use when the user is deploying or calling the REST API."
+
+prompt = """
+Invoke the api:cuopt-server-api-python skill.
+Load the prompt instructions from skills/skills-cuopt-server-api-python/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-cuopt-server-api-python/references/ to complete the task.
+"""

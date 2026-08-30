@@ -1,0 +1,6 @@
+description = ">"
+
+prompt = """
+Invoke the ai:vss-deploy-detection-tracking-3d skill.
+Load the prompt instructions from skills/skills-vss-deploy-detection-tracking-3d/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-vss-deploy-detection-tracking-3d/references/ to complete the task.
+"""

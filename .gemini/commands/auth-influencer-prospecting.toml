@@ -1,0 +1,6 @@
+description = "Find and evaluate creators, influencers, affiliates, and UGC partners using audience fit, content fit, authentic product adjacency, engagement quality, public contactability, commerce signals, and brand-safety evidence—not follower count alone."
+
+prompt = """
+Invoke the auth:influencer-prospecting skill.
+Load the prompt instructions from skills/goose-skills-influencer-prospecting/SKILL.md and consult the copy-pasteable references or guidelines inside skills/goose-skills-influencer-prospecting/references/ to complete the task.
+"""

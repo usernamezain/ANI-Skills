@@ -1,0 +1,6 @@
+description = ">"
+
+prompt = """
+Invoke the ai:video-interaction-mapper skill.
+Load the prompt instructions from skills/mcp-server-guide-video-interaction-mapper/SKILL.md and consult the copy-pasteable references or guidelines inside skills/mcp-server-guide-video-interaction-mapper/references/ to complete the task.
+"""

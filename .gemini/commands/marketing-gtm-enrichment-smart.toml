@@ -1,0 +1,6 @@
+description = "Multi-provider waterfall lead enrichment. Takes an email (+ optional name) and returns person + company data by cross-referencing cheap APIs first, using expensive AI agents only as fallback. Cost-efficient (~$0.04-$0.10/lead) with confidence scoring and full error visibility."
+
+prompt = """
+Invoke the marketing:gtm-enrichment-smart skill.
+Load the prompt instructions from skills/goose-skills-gtm-enrichment-smart/SKILL.md and consult the copy-pasteable references or guidelines inside skills/goose-skills-gtm-enrichment-smart/references/ to complete the task.
+"""

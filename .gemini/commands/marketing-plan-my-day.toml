@@ -1,0 +1,6 @@
+description = "Generate an energy-optimized, time-blocked daily plan based on circadian rhythm research and GTD principles"
+
+prompt = """
+Invoke the marketing:plan-my-day skill.
+Load the prompt instructions from skills/ai-marketing-claude-code-skills-plan-my-day/SKILL.md and consult the copy-pasteable references or guidelines inside skills/ai-marketing-claude-code-skills-plan-my-day/references/ to complete the task.
+"""

@@ -1,0 +1,6 @@
+description = "Produce a decision-ready brief of current brand, product, category, and competitor conversations across social platforms, including sentiment drivers, questions, risks, and growth opportunities."
+
+prompt = """
+Invoke the marketing:social-listening-brief skill.
+Load the prompt instructions from skills/goose-skills-social-listening-brief/SKILL.md and consult the copy-pasteable references or guidelines inside skills/goose-skills-social-listening-brief/references/ to complete the task.
+"""

@@ -1,0 +1,6 @@
+# ai:nemo-mbridge-perf-expert-parallel-overlap
+
+Validate and use MoE expert-parallel communication overlap in Megatron-Bridge, including overlap_moe_expert_parallel_comm, delay_wgrad_compute, and flex dispatcher backends such as DeepEP and HybridEP.
+
+**Skill folder:** `skills/skills-nemo-mbridge-perf-expert-parallel-overlap/`
+**Namespace:** `ai`

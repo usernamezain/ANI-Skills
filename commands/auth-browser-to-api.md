@@ -1,0 +1,6 @@
+# auth:browser-to-api
+
+Turn a website's observable HTTP traffic into a best-effort OpenAPI 3.1 spec by analyzing a `browser-trace` capture. Use when the user wants to discover/extract API endpoints from a browser session, build an OpenAPI doc from network traffic, or document a third-party site's XHR/fetch surface for client integration.
+
+**Skill folder:** `skills/skills-browser-to-api/`
+**Namespace:** `auth`

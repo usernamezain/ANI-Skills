@@ -1,0 +1,6 @@
+description = "CenterPose for keypoint / pose estimation. Detects object centers and regresses keypoint locations for 6-DoF"
+
+prompt = """
+Invoke the ai:tao-train-centerpose skill.
+Load the prompt instructions from skills/skills-tao-train-centerpose/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-tao-train-centerpose/references/ to complete the task.
+"""

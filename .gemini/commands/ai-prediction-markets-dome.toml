@@ -1,0 +1,6 @@
+description = "Prediction markets data - Polymarket, Kalshi markets, prices, positions, and trades"
+
+prompt = """
+Invoke the ai:prediction-markets-dome skill.
+Load the prompt instructions from skills/goose-skills-prediction-markets-dome/SKILL.md and consult the copy-pasteable references or guidelines inside skills/goose-skills-prediction-markets-dome/references/ to complete the task.
+"""

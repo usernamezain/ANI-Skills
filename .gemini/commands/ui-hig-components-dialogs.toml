@@ -1,0 +1,6 @@
+description = ">-"
+
+prompt = """
+Invoke the ui:hig-components-dialogs skill.
+Load the prompt instructions from skills/hig-doctor-hig-components-dialogs/SKILL.md and consult the copy-pasteable references or guidelines inside skills/hig-doctor-hig-components-dialogs/references/ to complete the task.
+"""

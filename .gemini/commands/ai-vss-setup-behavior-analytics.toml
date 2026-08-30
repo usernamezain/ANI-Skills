@@ -1,0 +1,6 @@
+description = "Use to deploy the vss-behavior-analytics service standalone (entrypoint, config-source, optional calibration). Not for the full warehouse deploy."
+
+prompt = """
+Invoke the ai:vss-setup-behavior-analytics skill.
+Load the prompt instructions from skills/skills-vss-setup-behavior-analytics/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-vss-setup-behavior-analytics/references/ to complete the task.
+"""

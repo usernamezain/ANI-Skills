@@ -1,0 +1,6 @@
+description = "Use when working with WP-CLI (wp) for WordPress operations: safe search-replace, db export/import, plugin/theme/user/content management, cron, cache flushing, multisite, and scripting/automation with wp-cli.yml."
+
+prompt = """
+Invoke the mobile:wp-wpcli-and-ops skill.
+Load the prompt instructions from skills/agent-skills-wp-wpcli-and-ops/SKILL.md and consult the copy-pasteable references or guidelines inside skills/agent-skills-wp-wpcli-and-ops/references/ to complete the task.
+"""

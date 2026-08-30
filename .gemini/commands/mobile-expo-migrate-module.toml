@@ -1,0 +1,6 @@
+description = "Framework (OSS). Migrate an existing Apple/Swift Expo native module from the Expo Modules API 1.0 definition DSL to the 2.0 macro API (sometimes called v2) while preserving its JavaScript and TypeScript contract. Use when converting or incrementally adopting @ExpoModule, @JS, @Event, @SharedObject, or @Record in an existing module. Do not use for creating a new module, general Expo SDK upgrades, or Android/Kotlin migrations."
+
+prompt = """
+Invoke the mobile:expo-migrate-module skill.
+Load the prompt instructions from skills/skills-expo-migrate-module/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-expo-migrate-module/references/ to complete the task.
+"""

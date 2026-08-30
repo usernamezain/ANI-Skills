@@ -1,0 +1,6 @@
+description = "Deformable DETR for 2D object detection. Uses deformable attention for efficient multi-scale feature processing,"
+
+prompt = """
+Invoke the ai:tao-train-deformable-detr skill.
+Load the prompt instructions from skills/skills-tao-train-deformable-detr/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-tao-train-deformable-detr/references/ to complete the task.
+"""

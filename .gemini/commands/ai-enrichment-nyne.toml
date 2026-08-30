@@ -1,0 +1,6 @@
+description = "Intelligence and enrichment - person and company data, social profiles, events, and funding"
+
+prompt = """
+Invoke the ai:enrichment-nyne skill.
+Load the prompt instructions from skills/goose-skills-enrichment-nyne/SKILL.md and consult the copy-pasteable references or guidelines inside skills/goose-skills-enrichment-nyne/references/ to complete the task.
+"""

@@ -1,0 +1,6 @@
+description = "Review Notion Worker Workflows for trigger typing and retry safety."
+
+prompt = """
+Invoke the doc:workflow-validate skill.
+Load the prompt instructions from skills/notion-cookbook-workflow-validate/SKILL.md and consult the copy-pasteable references or guidelines inside skills/notion-cookbook-workflow-validate/references/ to complete the task.
+"""

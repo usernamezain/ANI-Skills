@@ -1,0 +1,6 @@
+description = "Guides Qdrant scaling decisions. Use when someone asks 'how many nodes do I need', 'data doesn't fit on one node', 'need more throughput', 'cluster is slow', 'too many tenants', 'vertical or horizontal', 'how to shard', or 'need to add capacity'."
+
+prompt = """
+Invoke the db:qdrant-scaling skill.
+Load the prompt instructions from skills/skills-qdrant-scaling/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-qdrant-scaling/references/ to complete the task.
+"""

@@ -1,0 +1,6 @@
+description = "Generate SQL queries from natural language descriptions. Supports BigQuery, PostgreSQL, MySQL, and other dialects. Reads database schemas from uploaded diagrams or documentation. Use when writing SQL, building data reports, exploring databases, or translating business questions into queries."
+
+prompt = """
+Invoke the db:sql-queries skill.
+Load the prompt instructions from skills/pm-skills-sql-queries/SKILL.md and consult the copy-pasteable references or guidelines inside skills/pm-skills-sql-queries/references/ to complete the task.
+"""

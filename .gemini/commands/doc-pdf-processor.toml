@@ -1,0 +1,6 @@
+description = "Process PDFs - extract text, tables, and structured data from documents"
+
+prompt = """
+Invoke the doc:pdf-processor skill.
+Load the prompt instructions from skills/goose-skills-pdf-processor/SKILL.md and consult the copy-pasteable references or guidelines inside skills/goose-skills-pdf-processor/references/ to complete the task.
+"""

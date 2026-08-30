@@ -1,0 +1,6 @@
+description = ">-"
+
+prompt = """
+Invoke the ai:jetson-init-image skill.
+Load the prompt instructions from skills/skills-jetson-init-image/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-jetson-init-image/references/ to complete the task.
+"""

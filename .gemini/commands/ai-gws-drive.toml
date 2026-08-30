@@ -1,0 +1,6 @@
+description = "Google Drive: Manage files, folders, and shared drives."
+
+prompt = """
+Invoke the ai:gws-drive skill.
+Load the prompt instructions from skills/cli-gws-drive/SKILL.md and consult the copy-pasteable references or guidelines inside skills/cli-gws-drive/references/ to complete the task.
+"""

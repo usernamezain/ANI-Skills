@@ -1,0 +1,6 @@
+description = "Create a new agentic env by forking an existing env. Use for new env/task scaffolding, not scene edits or baking."
+
+prompt = """
+Invoke the ai:i4h-workflow-create skill.
+Load the prompt instructions from skills/skills-i4h-workflow-create/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-i4h-workflow-create/references/ to complete the task.
+"""

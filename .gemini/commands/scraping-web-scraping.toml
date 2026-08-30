@@ -1,0 +1,6 @@
+description = "Scrape websites, extract structured data, and automate browsers. Use when asked to scrape, extract, crawl, parse, or pull data from web pages or any URL."
+
+prompt = """
+Invoke the scraping:web-scraping skill.
+Load the prompt instructions from skills/goose-skills-web-scraping/SKILL.md and consult the copy-pasteable references or guidelines inside skills/goose-skills-web-scraping/references/ to complete the task.
+"""

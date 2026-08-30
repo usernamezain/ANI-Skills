@@ -1,0 +1,6 @@
+# monitoring:sentry-elixir-sdk
+
+Full Sentry SDK setup for Elixir. Use when asked to "add Sentry to Elixir", "install sentry for Elixir", or configure error monitoring, tracing, logging, or crons for Elixir, Phoenix, or Plug applications. Supports Phoenix, Plug, LiveView, Oban, and Quantum.
+
+**Skill folder:** `skills/sentry-for-ai-sentry-elixir-sdk/`
+**Namespace:** `monitoring`

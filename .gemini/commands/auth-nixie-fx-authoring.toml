@@ -1,0 +1,6 @@
+description = "Create, modify, validate, and export NixieFX particle-effect projects for the public editor and runtimes. Use when an agent needs to locate or initialize vfx-editor.prj, create an effect with the nixie-fx CLI, edit effect JSON, organize textures materials or meshes, diagnose validation and backend-support reports, export out/vfx, or prepare an effect for visual review in the NixieFX editor."
+
+prompt = """
+Invoke the auth:nixie-fx-authoring skill.
+Load the prompt instructions from skills/nixie-fx-nixie-fx-authoring/SKILL.md and consult the copy-pasteable references or guidelines inside skills/nixie-fx-nixie-fx-authoring/references/ to complete the task.
+"""

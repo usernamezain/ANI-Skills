@@ -1,0 +1,6 @@
+# db:llamaindex
+
+Data framework for building LLM applications with RAG. Specializes in document ingestion (300+ connectors), indexing, and querying. Features vector indices, query engines, agents, and multi-modal support. Use for document Q&A, chatbots, knowledge retrieval, or building RAG pipelines. Best for data-centric LLM applications.
+
+**Skill folder:** `skills/AI-Research-SKILLs-llamaindex/`
+**Namespace:** `db`

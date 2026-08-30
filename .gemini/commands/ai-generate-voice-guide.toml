@@ -1,0 +1,6 @@
+description = ">"
+
+prompt = """
+Invoke the ai:generate-voice-guide skill.
+Load the prompt instructions from skills/goose-skills-generate-voice-guide/SKILL.md and consult the copy-pasteable references or guidelines inside skills/goose-skills-generate-voice-guide/references/ to complete the task.
+"""

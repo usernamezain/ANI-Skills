@@ -1,0 +1,6 @@
+# marketing:story-mine
+
+Turn a real experience — a client win, failed launch, support ticket, founder moment — into 3-5 distinct content angles from a five-type taxonomy (lesson, contrarian take, framework, proof, relatable moment), each with format, pillar, and a draft opening in brand voice, plus an honest list of angles the story does not support. Triggers on \"/digital-marketing-pro:story-mine\", \"mine this story\", \"we just had a client win\", \"is there a post in this\", \"turn this experience into content\". Client stories anonymise by default (--client-safe); reads the brand profile for voice, pillars, and compliance; angles route to /digital-marketing-pro:content-engine for drafting and strong proof angles to /digital-marketing-pro:case-study-plan.
+
+**Skill folder:** `skills/digital-marketing-pro-story-mine/`
+**Namespace:** `marketing`

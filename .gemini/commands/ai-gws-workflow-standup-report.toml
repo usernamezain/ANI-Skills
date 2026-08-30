@@ -1,0 +1,6 @@
+description = "Google Workflow: Today's meetings + open tasks as a standup summary."
+
+prompt = """
+Invoke the ai:gws-workflow-standup-report skill.
+Load the prompt instructions from skills/cli-gws-workflow-standup-report/SKILL.md and consult the copy-pasteable references or guidelines inside skills/cli-gws-workflow-standup-report/references/ to complete the task.
+"""

@@ -1,0 +1,6 @@
+description = ">-"
+
+prompt = """
+Invoke the ai:bigquery-ai-ml skill.
+Load the prompt instructions from skills/skills-bigquery-ai-ml/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-bigquery-ai-ml/references/ to complete the task.
+"""

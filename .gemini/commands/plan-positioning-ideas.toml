@@ -1,0 +1,6 @@
+description = "Brainstorm product positioning ideas differentiated from competitors. Identifies top competitors and generates positioning statements with rationale. Use when developing product positioning, differentiating from competitors, or crafting brand positioning strategy."
+
+prompt = """
+Invoke the plan:positioning-ideas skill.
+Load the prompt instructions from skills/pm-skills-positioning-ideas/SKILL.md and consult the copy-pasteable references or guidelines inside skills/pm-skills-positioning-ideas/references/ to complete the task.
+"""

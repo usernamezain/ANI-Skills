@@ -1,0 +1,6 @@
+description = "Persistent browser and Electron interaction through `js_repl` for fast iterative UI debugging."
+
+prompt = """
+Invoke the scraping:playwright-interactive skill.
+Load the prompt instructions from skills/skills-playwright-interactive/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-playwright-interactive/references/ to complete the task.
+"""

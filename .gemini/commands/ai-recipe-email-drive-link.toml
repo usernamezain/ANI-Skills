@@ -1,0 +1,6 @@
+description = "Share a Google Drive file and email the link with a message to recipients."
+
+prompt = """
+Invoke the ai:recipe-email-drive-link skill.
+Load the prompt instructions from skills/cli-recipe-email-drive-link/SKILL.md and consult the copy-pasteable references or guidelines inside skills/cli-recipe-email-drive-link/references/ to complete the task.
+"""

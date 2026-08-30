@@ -1,0 +1,6 @@
+description = ">"
+
+prompt = """
+Invoke the ai:doca-structured-tools-contract skill.
+Load the prompt instructions from skills/skills-doca-structured-tools-contract/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-doca-structured-tools-contract/references/ to complete the task.
+"""

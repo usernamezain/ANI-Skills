@@ -1,0 +1,6 @@
+description = "List and download all files from a Google Drive folder."
+
+prompt = """
+Invoke the ai:recipe-bulk-download-folder skill.
+Load the prompt instructions from skills/cli-recipe-bulk-download-folder/SKILL.md and consult the copy-pasteable references or guidelines inside skills/cli-recipe-bulk-download-folder/references/ to complete the task.
+"""

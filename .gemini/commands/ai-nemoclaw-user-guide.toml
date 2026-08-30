@@ -1,0 +1,6 @@
+description = "Guides human users' AI agents to the NemoClaw docs MCP server and canonical Fern documentation in Markdown form. Use when users ask how to install, configure, operate, troubleshoot, secure, or learn NemoClaw with an AI coding assistant. Trigger keywords - nemoclaw docs, use nemoclaw with ai agent, nemoclaw mcp docs, nemoclaw install help, nemoclaw quickstart, nemoclaw markdown docs, llms.txt, agent skills."
+
+prompt = """
+Invoke the ai:nemoclaw-user-guide skill.
+Load the prompt instructions from skills/skills-nemoclaw-user-guide/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-nemoclaw-user-guide/references/ to complete the task.
+"""

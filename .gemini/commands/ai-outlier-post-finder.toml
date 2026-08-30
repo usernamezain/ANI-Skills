@@ -1,0 +1,6 @@
+description = "Find posts that materially outperform an account's normal baseline and explain the hook, topic, format, timing, and audience response patterns worth testing."
+
+prompt = """
+Invoke the ai:outlier-post-finder skill.
+Load the prompt instructions from skills/goose-skills-outlier-post-finder/SKILL.md and consult the copy-pasteable references or guidelines inside skills/goose-skills-outlier-post-finder/references/ to complete the task.
+"""

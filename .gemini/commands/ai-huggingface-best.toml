@@ -1,0 +1,6 @@
+description = ">-"
+
+prompt = """
+Invoke the ai:huggingface-best skill.
+Load the prompt instructions from skills/skills-huggingface-best/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-huggingface-best/references/ to complete the task.
+"""

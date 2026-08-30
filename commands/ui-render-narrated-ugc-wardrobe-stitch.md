@@ -1,0 +1,6 @@
+# ui:render-narrated-ugc-wardrobe-stitch
+
+Assemble a narrated-UGC "stitch reply" ad from a config — a single spoken VO carries a verbatim testimonial while ~30 per-cut i2v clips (one creator across ~5 wardrobes in ~3 worlds, plus product B-roll) are each trimmed to their EDL window built from the VO's Whisper word boundaries and hard-concatenated via filter_complex concat (never the demuxer, which drops audio on a duration mismatch), the VO mixed over an optional sidechain-ducked instrumental bed (−20dB, 20 to 1) so the VO stays on top, karaoke-pop captions burned on every word throughout (VEED Whisper preset, re-spelled against the locked script), a landing-page scroll rendered as FFmpeg zoompan over a Playwright PNG (not i2v), and closed on the brand's real end-card PNG — never AI-rendered text. This is the FREE deterministic assembly stage (trim-to-EDL + filter_complex concat + VO and music mix + karaoke captions + landing-page zoompan + end-card append); the VO, creator, start-frames, and clips come from create-vo-elevenlabs / create-image-gpt-image-fal / create-image-fal / create-video-fal. Use for the narrated-ugc-wardrobe-stitch format.
+
+**Skill folder:** `skills/goose-skills-render-narrated-ugc-wardrobe-stitch/`
+**Namespace:** `ui`

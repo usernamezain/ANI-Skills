@@ -1,0 +1,6 @@
+description = "Look up Twitter/X profiles - get bio, followers, tweets, and engagement"
+
+prompt = """
+Invoke the marketing:twitter-profile-lookup skill.
+Load the prompt instructions from skills/goose-skills-twitter-profile-lookup/SKILL.md and consult the copy-pasteable references or guidelines inside skills/goose-skills-twitter-profile-lookup/references/ to complete the task.
+"""

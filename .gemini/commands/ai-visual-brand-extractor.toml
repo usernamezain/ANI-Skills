@@ -1,0 +1,6 @@
+description = ">"
+
+prompt = """
+Invoke the ai:visual-brand-extractor skill.
+Load the prompt instructions from skills/goose-skills-visual-brand-extractor/SKILL.md and consult the copy-pasteable references or guidelines inside skills/goose-skills-visual-brand-extractor/references/ to complete the task.
+"""

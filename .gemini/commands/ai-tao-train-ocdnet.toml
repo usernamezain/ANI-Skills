@@ -1,0 +1,6 @@
+description = "OCDNet for scene text detection. Detects arbitrary-oriented text regions in natural images using a"
+
+prompt = """
+Invoke the ai:tao-train-ocdnet skill.
+Load the prompt instructions from skills/skills-tao-train-ocdnet/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-tao-train-ocdnet/references/ to complete the task.
+"""

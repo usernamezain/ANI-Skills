@@ -1,0 +1,6 @@
+description = "Test and document API endpoints - validate responses, check status, generate examples"
+
+prompt = """
+Invoke the api:api-tester skill.
+Load the prompt instructions from skills/goose-skills-api-tester/SKILL.md and consult the copy-pasteable references or guidelines inside skills/goose-skills-api-tester/references/ to complete the task.
+"""

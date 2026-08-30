@@ -1,0 +1,6 @@
+description = "Analyze A/B test results with statistical significance, sample size validation, confidence intervals, and ship/extend/stop recommendations. Use when evaluating experiment results, checking if a test reached significance, interpreting split test data, or deciding whether to ship a variant."
+
+prompt = """
+Invoke the plan:ab-test-analysis skill.
+Load the prompt instructions from skills/pm-skills-ab-test-analysis/SKILL.md and consult the copy-pasteable references or guidelines inside skills/pm-skills-ab-test-analysis/references/ to complete the task.
+"""

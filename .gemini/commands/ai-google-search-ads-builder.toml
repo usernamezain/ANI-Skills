@@ -1,0 +1,6 @@
+description = ">"
+
+prompt = """
+Invoke the ai:google-search-ads-builder skill.
+Load the prompt instructions from skills/goose-skills-google-search-ads-builder/SKILL.md and consult the copy-pasteable references or guidelines inside skills/goose-skills-google-search-ads-builder/references/ to complete the task.
+"""

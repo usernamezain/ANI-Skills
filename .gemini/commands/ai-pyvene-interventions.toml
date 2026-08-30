@@ -1,0 +1,6 @@
+description = "Provides guidance for performing causal interventions on PyTorch models using pyvene's declarative intervention framework. Use when conducting causal tracing, activation patching, interchange intervention training, or testing causal hypotheses about model behavior."
+
+prompt = """
+Invoke the ai:pyvene-interventions skill.
+Load the prompt instructions from skills/AI-Research-SKILLs-pyvene-interventions/SKILL.md and consult the copy-pasteable references or guidelines inside skills/AI-Research-SKILLs-pyvene-interventions/references/ to complete the task.
+"""

@@ -1,0 +1,6 @@
+description = "Brainstorm 5 unique, memorable product names with rationale aligned to brand values and target audience. Use when naming a new product, rebranding, or exploring product name ideas."
+
+prompt = """
+Invoke the plan:product-name skill.
+Load the prompt instructions from skills/pm-skills-product-name/SKILL.md and consult the copy-pasteable references or guidelines inside skills/pm-skills-product-name/references/ to complete the task.
+"""

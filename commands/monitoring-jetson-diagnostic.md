@@ -1,0 +1,6 @@
+# monitoring:jetson-diagnostic
+
+Read-only Jetson health snapshot for identity, memory, GPU, thermal, power, storage, services, and top processes.
+
+**Skill folder:** `skills/skills-jetson-diagnostic/`
+**Namespace:** `monitoring`

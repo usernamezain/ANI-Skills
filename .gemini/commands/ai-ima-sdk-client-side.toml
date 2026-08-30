@@ -1,0 +1,6 @@
+description = ">-"
+
+prompt = """
+Invoke the ai:ima-sdk-client-side skill.
+Load the prompt instructions from skills/skills-ima-sdk-client-side/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-ima-sdk-client-side/references/ to complete the task.
+"""

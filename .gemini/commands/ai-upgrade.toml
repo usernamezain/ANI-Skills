@@ -1,0 +1,6 @@
+description = ">"
+
+prompt = """
+Invoke the ai:upgrade skill.
+Load the prompt instructions from skills/notfair-plugin-upgrade/SKILL.md and consult the copy-pasteable references or guidelines inside skills/notfair-plugin-upgrade/references/ to complete the task.
+"""

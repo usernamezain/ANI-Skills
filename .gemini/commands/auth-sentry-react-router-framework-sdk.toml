@@ -1,0 +1,6 @@
+description = "Full Sentry SDK setup for React Router Framework mode. Use when asked to \"add Sentry to React Router Framework\", \"install @sentry/react-router\", or configure error monitoring, tracing, profiling, session replay, logs, or user feedback for a React Router v7 framework app."
+
+prompt = """
+Invoke the auth:sentry-react-router-framework-sdk skill.
+Load the prompt instructions from skills/sentry-for-ai-sentry-react-router-framework-sdk/SKILL.md and consult the copy-pasteable references or guidelines inside skills/sentry-for-ai-sentry-react-router-framework-sdk/references/ to complete the task.
+"""

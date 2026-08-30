@@ -1,6 +1,6 @@
-description = "Review source files changed during a phase for bugs, security issues, and code quality problems"
+description = "Performs a comprehensive, multi-step code review of pull requests or local code changes, using iterative refinement (generation, critique, synthesis) to ensure high-quality, actionable feedback. Use when you need to review code changes thoroughly."
 
 prompt = """
 Invoke the quality:code-review skill.
-Load the prompt instructions from skills/code-review/SKILL.md and consult the copy-pasteable references or guidelines inside skills/code-review/references/ to complete the task.
+Load the prompt instructions from skills/skills-code-review/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-code-review/references/ to complete the task.
 """

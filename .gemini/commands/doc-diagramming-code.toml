@@ -1,0 +1,6 @@
+description = ">"
+
+prompt = """
+Invoke the doc:diagramming-code skill.
+Load the prompt instructions from skills/skills-diagramming-code/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-diagramming-code/references/ to complete the task.
+"""

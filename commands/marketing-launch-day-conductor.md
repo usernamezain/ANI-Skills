@@ -1,0 +1,6 @@
+# marketing:launch-day-conductor
+
+Use when the user asks to "run my launch day", "build a launch day runbook / war room", or "decide CONTINUE or ROLLBACK after the push"; produces a pre-conditions gate check (launch-readiness-auditor SHIP verdict + the authoritative date in launch-registry — missing either stops the skill), a dated hour-blocked runbook with owners (morning irreversible pushes, daytime monitoring loop, evening consolidation), a forced observation-window verdict after every irreversible action against pre-declared kill criteria, a P0-P3 incident ladder with rollback playbooks, and T-0 status lines for the registry proposal protocol. Not for channel submission content and platform rules — use community-launch-runner; not for media replies — use press-media-relations. 发布日runbook/作战室/观察窗/回滚裁决/发布日指挥
+
+**Skill folder:** `skills/aaron-marketing-skills-launch-day-conductor/`
+**Namespace:** `marketing`

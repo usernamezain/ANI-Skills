@@ -1,0 +1,6 @@
+description = "Sets up and runs Atheris, the coverage-guided Python fuzzer built on libFuzzer. Covers TestOneInput harnesses, FuzzedDataProvider, instrumenting both pure Python and native C extensions, and running under AddressSanitizer. Use when fuzzing a Python package, hunting memory corruption in a Python C extension, or choosing between Atheris and Hypothesis for a Python target."
+
+prompt = """
+Invoke the ai:atheris skill.
+Load the prompt instructions from skills/skills-atheris/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-atheris/references/ to complete the task.
+"""

@@ -1,0 +1,6 @@
+description = "Guides Qdrant deployment selection. Use when someone asks 'how to deploy Qdrant', 'Docker vs Cloud', 'local mode', 'embedded Qdrant', 'Qdrant EDGE', 'which deployment option', 'self-hosted vs cloud', or 'need lowest latency deployment'. Also use when choosing between deployment types for a new project."
+
+prompt = """
+Invoke the db:qdrant-deployment-options skill.
+Load the prompt instructions from skills/skills-qdrant-deployment-options/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-qdrant-deployment-options/references/ to complete the task.
+"""

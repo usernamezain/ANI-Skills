@@ -1,0 +1,6 @@
+description = "Create LinkedIn carousel posts as high-quality PNG images. Design informational multi-slide posts like \"5 AI GTM workflows\" with consistent styling, then automatically screenshot each slide at LinkedIn's optimal 1080x1080px format."
+
+prompt = """
+Invoke the marketing:create-html-carousel skill.
+Load the prompt instructions from skills/goose-skills-create-html-carousel/SKILL.md and consult the copy-pasteable references or guidelines inside skills/goose-skills-create-html-carousel/references/ to complete the task.
+"""

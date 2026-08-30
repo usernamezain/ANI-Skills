@@ -1,0 +1,6 @@
+# ai:hsb-app
+
+Discover and run Holoscan Sensor Bridge example applications on a connected devkit. Filters available apps by the user's platform, HSB software version, board type, and sensors. Supports timed execution, failure analysis, code-edit suggestions, and iterative re-runs.
+
+**Skill folder:** `skills/skills-hsb-app/`
+**Namespace:** `ai`

@@ -1,0 +1,6 @@
+description = "When the user wants to plan, build, or optimize SMS or MMS marketing — including welcome flows, abandoned cart texts, post-purchase, win-back, promotional sends, or transactional/auth SMS. Also use when the user mentions \"SMS marketing,\" \"text message campaigns,\" \"SMS sequence,\" \"SMS automation,\" \"abandoned cart text,\" \"post-purchase SMS,\" \"Klaviyo SMS,\" \"Postscript,\" \"Attentive,\" \"Twilio,\" \"A2P 10DLC,\" \"TCPA,\" \"SMS compliance,\" \"short code,\" \"toll-free SMS,\" \"MMS campaign,\" \"should I do SMS,\" or \"SMS vs email.\" For email sequences, see emails. For SMS copy framing, see copywriting. For opt-in popups that capture phone numbers, see popups."
+
+prompt = """
+Invoke the marketing:sms skill.
+Load the prompt instructions from skills/marketingskills-sms/SKILL.md and consult the copy-pasteable references or guidelines inside skills/marketingskills-sms/references/ to complete the task.
+"""

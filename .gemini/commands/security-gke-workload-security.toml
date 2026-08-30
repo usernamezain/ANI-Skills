@@ -1,0 +1,6 @@
+description = ">-"
+
+prompt = """
+Invoke the security:gke-workload-security skill.
+Load the prompt instructions from skills/skills-gke-workload-security/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-gke-workload-security/references/ to complete the task.
+"""

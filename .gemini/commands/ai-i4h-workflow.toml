@@ -1,0 +1,6 @@
+description = "Overview of `workflows/agentic/` (IsaacLab-Arena + GR00T/openpi). Use when the user asks what i4h workflow is, what's supported, or where to start."
+
+prompt = """
+Invoke the ai:i4h-workflow skill.
+Load the prompt instructions from skills/skills-i4h-workflow/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-i4h-workflow/references/ to complete the task.
+"""

@@ -1,0 +1,6 @@
+description = "Apply timeless marketing and business principles to any problem. Use when someone needs strategic thinking, wants to evaluate a marketing decision, needs a framework for a tough choice, or mentions \"first principles,\" \"should I do X,\" \"what would work here,\" or wants to think through a marketing problem systematically."
+
+prompt = """
+Invoke the marketing:marketing-principles skill.
+Load the prompt instructions from skills/ai-marketing-claude-code-skills-marketing-principles/SKILL.md and consult the copy-pasteable references or guidelines inside skills/ai-marketing-claude-code-skills-marketing-principles/references/ to complete the task.
+"""

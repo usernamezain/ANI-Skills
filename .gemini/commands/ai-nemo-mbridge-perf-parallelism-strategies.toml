@@ -1,0 +1,6 @@
+description = "Operational guide for choosing and combining parallelism strategies in Megatron Bridge, including sizing rules, hardware topology mapping, and combined parallelism configuration."
+
+prompt = """
+Invoke the ai:nemo-mbridge-perf-parallelism-strategies skill.
+Load the prompt instructions from skills/skills-nemo-mbridge-perf-parallelism-strategies/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-nemo-mbridge-perf-parallelism-strategies/references/ to complete the task.
+"""

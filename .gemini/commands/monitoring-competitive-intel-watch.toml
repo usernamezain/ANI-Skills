@@ -1,0 +1,6 @@
+description = "Scheduled delta monitoring against a prior competitive snapshot. Use when tracking competitors on a cadence: material shifts only, cited evidence, battle-card update flags, runs unattended."
+
+prompt = """
+Invoke the monitoring:competitive-intel-watch skill.
+Load the prompt instructions from skills/Product-Manager-Skills-competitive-intel-watch/SKILL.md and consult the copy-pasteable references or guidelines inside skills/Product-Manager-Skills-competitive-intel-watch/references/ to complete the task.
+"""

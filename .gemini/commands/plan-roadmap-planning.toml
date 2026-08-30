@@ -1,0 +1,6 @@
+description = "Plan a strategic roadmap across prioritization, epic definition, stakeholder alignment, and sequencing. Use when turning strategy into a release plan that teams can execute."
+
+prompt = """
+Invoke the plan:roadmap-planning skill.
+Load the prompt instructions from skills/Product-Manager-Skills-roadmap-planning/SKILL.md and consult the copy-pasteable references or guidelines inside skills/Product-Manager-Skills-roadmap-planning/references/ to complete the task.
+"""

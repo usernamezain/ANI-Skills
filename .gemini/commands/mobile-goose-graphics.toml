@@ -1,0 +1,6 @@
+description = "Portable visual skill pack for the Agent Skills ecosystem (Claude Code, Claude Desktop, Claude Cowork, Claude Design, Goose, Cursor, Codex). Discovers community-published styles + formats via the gooseworks CLI, runs an extract-style workflow on reference images, and exports rendered PNGs via Playwright."
+
+prompt = """
+Invoke the mobile:goose-graphics skill.
+Load the prompt instructions from skills/goose-skills-goose-graphics/SKILL.md and consult the copy-pasteable references or guidelines inside skills/goose-skills-goose-graphics/references/ to complete the task.
+"""

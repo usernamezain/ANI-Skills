@@ -1,0 +1,6 @@
+# marketing:testimonial-collector
+
+Systematically gather, score, and format client testimonials. Use when someone needs social proof, wants to collect feedback, needs to turn happy clients into public advocates, or asks for help requesting or drafting a testimonial.
+
+**Skill folder:** `skills/ai-marketing-claude-code-skills-testimonial-collector/`
+**Namespace:** `marketing`

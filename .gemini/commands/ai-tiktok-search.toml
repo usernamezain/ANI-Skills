@@ -1,0 +1,6 @@
+description = "Search TikTok - find profiles, videos, hashtags, and trending content"
+
+prompt = """
+Invoke the ai:tiktok-search skill.
+Load the prompt instructions from skills/goose-skills-tiktok-search/SKILL.md and consult the copy-pasteable references or guidelines inside skills/goose-skills-tiktok-search/references/ to complete the task.
+"""

@@ -1,0 +1,6 @@
+description = "Fetch YouTube transcripts via APIFY API. Works from cloud IPs (Hetzner, AWS, etc.) by bypassing YouTube's bot detection. Free tier includes $5/month credits (~714 videos). No credit card required."
+
+prompt = """
+Invoke the cloud:youtube-apify-transcript skill.
+Load the prompt instructions from skills/goose-skills-youtube-apify-transcript/SKILL.md and consult the copy-pasteable references or guidelines inside skills/goose-skills-youtube-apify-transcript/references/ to complete the task.
+"""

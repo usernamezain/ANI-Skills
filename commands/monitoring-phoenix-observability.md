@@ -1,0 +1,6 @@
+# monitoring:phoenix-observability
+
+Open-source AI observability platform for LLM tracing, evaluation, and monitoring. Use when debugging LLM applications with detailed traces, running evaluations on datasets, or monitoring production AI systems with real-time insights.
+
+**Skill folder:** `skills/AI-Research-SKILLs-phoenix-observability/`
+**Namespace:** `monitoring`

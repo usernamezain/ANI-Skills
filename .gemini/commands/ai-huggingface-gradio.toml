@@ -1,0 +1,6 @@
+description = "Build Gradio web UIs and demos in Python. Use when creating or editing Gradio apps, components, event listeners, layouts, or chatbots."
+
+prompt = """
+Invoke the ai:huggingface-gradio skill.
+Load the prompt instructions from skills/skills-huggingface-gradio/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-huggingface-gradio/references/ to complete the task.
+"""

@@ -1,0 +1,6 @@
+description = "Provides guidance for enterprise-grade RL training using miles, a production-ready fork of slime. Use when training large MoE models with FP8/INT4, needing train-inference alignment, or requiring speculative RL for maximum throughput."
+
+prompt = """
+Invoke the ai:miles-rl-training skill.
+Load the prompt instructions from skills/AI-Research-SKILLs-miles-rl-training/SKILL.md and consult the copy-pasteable references or guidelines inside skills/AI-Research-SKILLs-miles-rl-training/references/ to complete the task.
+"""

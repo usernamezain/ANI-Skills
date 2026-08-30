@@ -1,0 +1,6 @@
+# ai:cuopt-developer
+
+Modify, build, test, debug, and contribute to NVIDIA cuOpt (C++/CUDA, Python, server, CI). Use for solver internals, PRs, DCO, and code conventions.
+
+**Skill folder:** `skills/skills-cuopt-developer/`
+**Namespace:** `ai`

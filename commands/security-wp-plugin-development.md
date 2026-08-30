@@ -1,0 +1,6 @@
+# security:wp-plugin-development
+
+Use when developing WordPress plugins: architecture and hooks, activation/deactivation/uninstall, admin UI and Settings API, data storage, cron/tasks, security (nonces/capabilities/sanitization/escaping), and release packaging.
+
+**Skill folder:** `skills/agent-skills-wp-plugin-development/`
+**Namespace:** `security`

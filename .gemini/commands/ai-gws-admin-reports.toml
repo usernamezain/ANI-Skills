@@ -1,0 +1,6 @@
+description = "Google Workspace Admin SDK: Audit logs and usage reports."
+
+prompt = """
+Invoke the ai:gws-admin-reports skill.
+Load the prompt instructions from skills/cli-gws-admin-reports/SKILL.md and consult the copy-pasteable references or guidelines inside skills/cli-gws-admin-reports/references/ to complete the task.
+"""

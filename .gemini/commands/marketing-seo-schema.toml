@@ -1,0 +1,6 @@
+description = ">"
+
+prompt = """
+Invoke the marketing:seo-schema skill.
+Load the prompt instructions from skills/claude-seo-seo-schema/SKILL.md and consult the copy-pasteable references or guidelines inside skills/claude-seo-seo-schema/references/ to complete the task.
+"""

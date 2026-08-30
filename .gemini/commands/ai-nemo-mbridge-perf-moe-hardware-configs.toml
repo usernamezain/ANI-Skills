@@ -1,0 +1,6 @@
+description = "Representative, point-in-time MoE training playbooks by hardware and model family. Use them as candidate seeds, then revalidate the exact runtime, semantics, topology, and steady-state throughput."
+
+prompt = """
+Invoke the ai:nemo-mbridge-perf-moe-hardware-configs skill.
+Load the prompt instructions from skills/skills-nemo-mbridge-perf-moe-hardware-configs/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-nemo-mbridge-perf-moe-hardware-configs/references/ to complete the task.
+"""

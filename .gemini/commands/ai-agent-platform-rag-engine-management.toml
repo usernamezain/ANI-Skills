@@ -1,0 +1,6 @@
+description = ">-"
+
+prompt = """
+Invoke the ai:agent-platform-rag-engine-management skill.
+Load the prompt instructions from skills/skills-agent-platform-rag-engine-management/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-agent-platform-rag-engine-management/references/ to complete the task.
+"""

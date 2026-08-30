@@ -1,0 +1,6 @@
+description = "Mine public reviews, app stores, and forums for unmet needs, competitor weaknesses, and switching triggers — with quoted evidence. Use when you want customer voice without waiting on interviews."
+
+prompt = """
+Invoke the plan:voice-of-customer-miner skill.
+Load the prompt instructions from skills/Product-Manager-Skills-voice-of-customer-miner/SKILL.md and consult the copy-pasteable references or guidelines inside skills/Product-Manager-Skills-voice-of-customer-miner/references/ to complete the task.
+"""

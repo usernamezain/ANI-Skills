@@ -1,0 +1,6 @@
+description = "Monitor management - list, search, file-based create, and alerting best practices."
+
+prompt = """
+Invoke the ai:dd-monitors skill.
+Load the prompt instructions from skills/agent-skills-dd-monitors/SKILL.md and consult the copy-pasteable references or guidelines inside skills/agent-skills-dd-monitors/references/ to complete the task.
+"""

@@ -1,0 +1,6 @@
+description = "Create product backlog items in Why-What-Acceptance format — independent, valuable, testable items with strategic context. Use when writing structured backlog items, breaking features into work items, or using the WWA format."
+
+prompt = """
+Invoke the doc:wwas skill.
+Load the prompt instructions from skills/pm-skills-wwas/SKILL.md and consult the copy-pasteable references or guidelines inside skills/pm-skills-wwas/references/ to complete the task.
+"""

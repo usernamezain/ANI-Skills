@@ -1,0 +1,6 @@
+description = ">-"
+
+prompt = """
+Invoke the db:google-cloud-solution-rag-enterprise-search-gke-sqldb skill.
+Load the prompt instructions from skills/skills-google-cloud-solution-rag-enterprise-search-gke-sqldb/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-google-cloud-solution-rag-enterprise-search-gke-sqldb/references/ to complete the task.
+"""

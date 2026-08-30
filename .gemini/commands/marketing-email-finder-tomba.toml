@@ -1,0 +1,6 @@
+description = "Email finder and verifier - find emails from domains, LinkedIn, or company search"
+
+prompt = """
+Invoke the marketing:email-finder-tomba skill.
+Load the prompt instructions from skills/goose-skills-email-finder-tomba/SKILL.md and consult the copy-pasteable references or guidelines inside skills/goose-skills-email-finder-tomba/references/ to complete the task.
+"""

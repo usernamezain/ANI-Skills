@@ -1,0 +1,6 @@
+# marketing:community-launch-runner
+
+Use when the user asks to "launch on Product Hunt / Hacker News", "prepare community or directory launch submissions", or "plan the launch submission waves"; produces per-platform submission packages — a Product Hunt tagline / gallery / first-comment skeleton, a factual Show HN title and text, per-subreddit posts with a self-promotion rules table, tiered directory waves, and a regional channel matrix including Chinese communities — plus a platform red-line check (never solicit votes or organize voting rings) and T-0 submission-status lines for the launch registry. Not for paid amplification — use content-amplifier; not for creator channels — use campaign-planner; not for launch telemetry readouts — use launch-monitor; not for ongoing community presence or pre-launch karma-building outside the launch window — use participation-warmup-planner. 社区发布/PH提交包/Show HN/目录波次/平台红线/中文渠道
+
+**Skill folder:** `skills/aaron-marketing-skills-community-launch-runner/`
+**Namespace:** `marketing`

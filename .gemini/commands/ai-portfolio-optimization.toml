@@ -1,0 +1,6 @@
+description = "Use when a user asks to build, optimize, backtest, rebalance, or analyze a stock portfolio with Mean-CVaR, Mean-Variance/SOCP variance caps, efficient frontiers, scenario generation, or NVIDIA cuOpt."
+
+prompt = """
+Invoke the ai:portfolio-optimization skill.
+Load the prompt instructions from skills/skills-portfolio-optimization/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-portfolio-optimization/references/ to complete the task.
+"""

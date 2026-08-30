@@ -1,0 +1,6 @@
+description = ">-"
+
+prompt = """
+Invoke the ai:sarif-parsing skill.
+Load the prompt instructions from skills/skills-sarif-parsing/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-sarif-parsing/references/ to complete the task.
+"""

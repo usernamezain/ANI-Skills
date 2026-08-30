@@ -1,0 +1,6 @@
+description = "Administer IT — monitor security and configure Workspace."
+
+prompt = """
+Invoke the security:persona-it-admin skill.
+Load the prompt instructions from skills/cli-persona-it-admin/SKILL.md and consult the copy-pasteable references or guidelines inside skills/cli-persona-it-admin/references/ to complete the task.
+"""

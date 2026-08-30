@@ -1,0 +1,6 @@
+description = "Long-context MoE training guidance for Megatron Bridge. Covers CP sizing, selective recompute, dispatcher choices, and practical patterns from DSV3, Qwen3, and Qwen3-Next long-context experiments."
+
+prompt = """
+Invoke the ai:nemo-mbridge-perf-moe-long-context skill.
+Load the prompt instructions from skills/skills-nemo-mbridge-perf-moe-long-context/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-nemo-mbridge-perf-moe-long-context/references/ to complete the task.
+"""

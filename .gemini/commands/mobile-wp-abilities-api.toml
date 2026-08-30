@@ -1,0 +1,6 @@
+description = "Use when working with the WordPress Abilities API (wp_register_ability, wp_register_ability_category, /wp-json/wp-abilities/v1/*, @wordpress/abilities) including defining abilities, categories, meta, REST exposure, and permissions checks for clients."
+
+prompt = """
+Invoke the mobile:wp-abilities-api skill.
+Load the prompt instructions from skills/agent-skills-wp-abilities-api/SKILL.md and consult the copy-pasteable references or guidelines inside skills/agent-skills-wp-abilities-api/references/ to complete the task.
+"""

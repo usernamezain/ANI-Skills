@@ -1,0 +1,6 @@
+# marketing:seo-bing
+
+Bing Webmaster Tools + IndexNow extension. Microsoft Copilot citations are fed by the Bing index; this skill makes Bing visibility, link data, and IndexNow URL submission first-class.
+
+**Skill folder:** `skills/claude-seo-seo-bing/`
+**Namespace:** `marketing`

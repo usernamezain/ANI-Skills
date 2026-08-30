@@ -1,0 +1,6 @@
+# monitoring:sentry-ruby-sdk
+
+Full Sentry SDK setup for Ruby. Use when asked to add Sentry to Ruby, install sentry-ruby, setup Sentry in Rails/Sinatra/Rack, or configure error monitoring, tracing, logging, metrics, profiling, or crons for Ruby applications. Also handles migration from AppSignal, Honeybadger, Bugsnag, Rollbar, or Airbrake. Supports Rails, Sinatra, Rack, Sidekiq, and Resque.
+
+**Skill folder:** `skills/sentry-for-ai-sentry-ruby-sdk/`
+**Namespace:** `monitoring`

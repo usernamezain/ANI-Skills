@@ -1,0 +1,6 @@
+description = "Design experiments to test assumptions for an existing product — prototypes, A/B tests, spikes, and other low-effort validation methods. Use when validating assumptions, testing feature ideas cheaply, or planning product experiments."
+
+prompt = """
+Invoke the ui:brainstorm-experiments-existing skill.
+Load the prompt instructions from skills/pm-skills-brainstorm-experiments-existing/SKILL.md and consult the copy-pasteable references or guidelines inside skills/pm-skills-brainstorm-experiments-existing/references/ to complete the task.
+"""

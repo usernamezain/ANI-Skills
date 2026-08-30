@@ -1,0 +1,6 @@
+description = "Map competitor positioning across 3-5 narrative dimensions to find crowded clusters and unclaimed gaps, then score each gap by customer desirability times brand credibility. Produces a landscape map, ranked gap analysis, a recommended positioning territory, and a 30/60/90-day messaging plan to claim it. Triggers on \\"/digital-marketing-pro:narrative-landscape\\", \\"map the competitive narrative landscape\\", \\"what positioning gaps can we own\\", \\"where do competitors cluster\\", \\"find us a differentiated position\\". Reads the brand profile for current positioning and voice; analysis and strategy only — no messaging is published. Pairs with /digital-marketing-pro:narrative-tracker for what AI engines say about the brand."
+
+prompt = """
+Invoke the marketing:narrative-landscape skill.
+Load the prompt instructions from skills/digital-marketing-pro-narrative-landscape/SKILL.md and consult the copy-pasteable references or guidelines inside skills/digital-marketing-pro-narrative-landscape/references/ to complete the task.
+"""

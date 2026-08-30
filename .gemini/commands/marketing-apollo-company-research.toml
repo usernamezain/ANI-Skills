@@ -1,0 +1,6 @@
+description = "Search companies, enrich profiles with firmographic data, find job postings, and track company news through Apollo. Covers company search, detailed enrichment (industry, size, funding, tech stack), hiring activity, and news monitoring for B2B sales intelligence."
+
+prompt = """
+Invoke the marketing:apollo-company-research skill.
+Load the prompt instructions from skills/sandbase-skills-apollo-company-research/SKILL.md and consult the copy-pasteable references or guidelines inside skills/sandbase-skills-apollo-company-research/references/ to complete the task.
+"""

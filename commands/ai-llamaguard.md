@@ -1,0 +1,6 @@
+# ai:llamaguard
+
+Meta's 7-8B specialized moderation model for LLM input/output filtering. 6 safety categories - violence/hate, sexual content, weapons, substances, self-harm, criminal planning. 94-95% accuracy. Deploy with vLLM, HuggingFace, Sagemaker. Integrates with NeMo Guardrails.
+
+**Skill folder:** `skills/AI-Research-SKILLs-llamaguard/`
+**Namespace:** `ai`

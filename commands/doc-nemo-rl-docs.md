@@ -1,0 +1,6 @@
+# doc:nemo-rl-docs
+
+Documentation conventions for NeMo-RL. Covers docs/index.md updates and docstring format. Do NOT use for: bug fixes, test fixes, dependency bumps, refactoring, CI/CD changes, performance tuning, or any task that does not involve writing or updating documentation.
+
+**Skill folder:** `skills/skills-nemo-rl-docs/`
+**Namespace:** `doc`

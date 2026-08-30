@@ -1,0 +1,6 @@
+description = "When the user wants to optimize their Google Play Store listing — title, short description, full description, keywords, ratings, or Play Store-specific features. Use when the user mentions \"Google Play\", \"Android\", \"Play Store\", \"Play Console\", \"short description\", \"full description indexed\", \"Google Play ASO\", or wants Google Play-specific keyword, creative, or ratings strategy. For iOS App Store optimization, see aso-audit and metadata-optimization."
+
+prompt = """
+Invoke the marketing:android-aso skill.
+Load the prompt instructions from skills/aso-skills-android-aso/SKILL.md and consult the copy-pasteable references or guidelines inside skills/aso-skills-android-aso/references/ to complete the task.
+"""

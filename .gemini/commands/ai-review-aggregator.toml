@@ -1,0 +1,6 @@
+description = "Aggregate and analyze product and business reviews from Google Maps, Amazon, Akta, and Xiaohongshu. Cross-platform review intelligence including rating patterns, common themes, competitive comparison, and customer satisfaction trends."
+
+prompt = """
+Invoke the ai:review-aggregator skill.
+Load the prompt instructions from skills/sandbase-skills-review-aggregator/SKILL.md and consult the copy-pasteable references or guidelines inside skills/sandbase-skills-review-aggregator/references/ to complete the task.
+"""

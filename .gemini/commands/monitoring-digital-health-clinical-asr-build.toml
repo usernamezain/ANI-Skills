@@ -1,0 +1,6 @@
+description = "Stage 2 of the Clinical ASR Flywheel. Use when curating clinical terms, tagging IPA, and synthesizing a NeMo manifest. NOT for scoring (use /digital-health-clinical-asr-eval)."
+
+prompt = """
+Invoke the monitoring:digital-health-clinical-asr-build skill.
+Load the prompt instructions from skills/skills-digital-health-clinical-asr-build/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-digital-health-clinical-asr-build/references/ to complete the task.
+"""

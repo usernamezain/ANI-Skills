@@ -1,0 +1,6 @@
+description = "Build authority by teaching the problem space, not announcing features. Use when the user finds \\"marketing\\" distasteful and does none, publishes only product updates, or wants a sustainable content and GitHub-README strategy that developers actually respect."
+
+prompt = """
+Invoke the marketing:founder-led-content skill.
+Load the prompt instructions from skills/gtm-cofounder-founder-led-content/SKILL.md and consult the copy-pasteable references or guidelines inside skills/gtm-cofounder-founder-led-content/references/ to complete the task.
+"""

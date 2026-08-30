@@ -1,0 +1,6 @@
+description = "Use when you need to define exactly who the buyer is, what they want, what they’ve tried, and what’s driving their decisions. Trigger on \"target audience\", \"ideal client\", \"who is this for\", \"avatar\", \"customer profile\"."
+
+prompt = """
+Invoke the marketing:avatar-extraction skill.
+Load the prompt instructions from skills/advertising-skills-avatar-extraction/SKILL.md and consult the copy-pasteable references or guidelines inside skills/advertising-skills-avatar-extraction/references/ to complete the task.
+"""

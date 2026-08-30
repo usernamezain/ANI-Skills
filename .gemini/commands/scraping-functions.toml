@@ -1,0 +1,6 @@
+description = "Deploy serverless browser automation as cloud functions using Browserbase. Use when the user wants to deploy browser automation to run on a schedule or cron, create a webhook endpoint for browser tasks, run automation in the cloud instead of locally, or asks about Browserbase Functions."
+
+prompt = """
+Invoke the scraping:functions skill.
+Load the prompt instructions from skills/skills-functions/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-functions/references/ to complete the task.
+"""

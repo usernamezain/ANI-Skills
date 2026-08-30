@@ -1,0 +1,6 @@
+description = "Perplexity AI search and chat completions with real-time web data"
+
+prompt = """
+Invoke the ai:web-search-perplexity skill.
+Load the prompt instructions from skills/goose-skills-web-search-perplexity/SKILL.md and consult the copy-pasteable references or guidelines inside skills/goose-skills-web-search-perplexity/references/ to complete the task.
+"""

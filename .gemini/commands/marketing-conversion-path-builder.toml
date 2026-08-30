@@ -1,0 +1,6 @@
+description = "Design the optimal funnel from click to conversion. Trigger on \"funnel\", \"conversion path\", \"booked calls\"."
+
+prompt = """
+Invoke the marketing:conversion-path-builder skill.
+Load the prompt instructions from skills/advertising-skills-conversion-path-builder/SKILL.md and consult the copy-pasteable references or guidelines inside skills/advertising-skills-conversion-path-builder/references/ to complete the task.
+"""

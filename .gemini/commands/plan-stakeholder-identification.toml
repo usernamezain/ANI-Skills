@@ -1,0 +1,6 @@
+description = "Map every stakeholder before engaging anyone. Use when launching an initiative, scoping discovery, or building an engagement plan from scratch."
+
+prompt = """
+Invoke the plan:stakeholder-identification skill.
+Load the prompt instructions from skills/Product-Manager-Skills-stakeholder-identification/SKILL.md and consult the copy-pasteable references or guidelines inside skills/Product-Manager-Skills-stakeholder-identification/references/ to complete the task.
+"""

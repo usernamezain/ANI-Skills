@@ -1,0 +1,6 @@
+description = "USE FOR web search, research, RAG, grounding, browse, find, lookups, fact-checking, documentation, agentic AI. All-in-one, optimized for AI agents. Pre-extracted, token-budgeted web content, deep research, news, images, videos, places, custom ranking"
+
+prompt = """
+Invoke the scraping:bx skill.
+Load the prompt instructions from skills/brave-search-skills-bx/SKILL.md and consult the copy-pasteable references or guidelines inside skills/brave-search-skills-bx/references/ to complete the task.
+"""

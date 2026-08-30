@@ -1,0 +1,6 @@
+description = "Define a Proof of Life probe to test a risky hypothesis cheaply. Use when you need harsh truth before building real product."
+
+prompt = """
+Invoke the plan:pol-probe skill.
+Load the prompt instructions from skills/Product-Manager-Skills-pol-probe/SKILL.md and consult the copy-pasteable references or guidelines inside skills/Product-Manager-Skills-pol-probe/references/ to complete the task.
+"""

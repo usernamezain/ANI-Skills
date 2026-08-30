@@ -1,0 +1,6 @@
+# marketing:message-house-builder
+
+Use when the user asks to "build a message house", "write a PR-FAQ for our launch", or "define the launch narrative and value pillars"; derives from the positioning canvas a message house — tagline, one-liner, three value pillars, per-persona proof points (each labeled Measured / User-provided / [needs source]) — plus a working-backwards PR-FAQ narrative spine (launch-day tense, empty-chair test, five external + five internal FAQs) and per-channel message angle packs (angles, not finished copy). Not for the positioning canvas itself — use positioning-mapper; not for finished blog posts or pages — use content-writer; not for ad or email units — use each discipline creative builder; not for claim adjudication — use offer-claims-registry. 消息屋/PR-FAQ/价值支柱/发布叙事
+
+**Skill folder:** `skills/aaron-marketing-skills-message-house-builder/`
+**Namespace:** `marketing`

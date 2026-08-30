@@ -1,0 +1,6 @@
+description = ">"
+
+prompt = """
+Invoke the ai:fal-prompting skill.
+Load the prompt instructions from skills/skills-fal-prompting/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-fal-prompting/references/ to complete the task.
+"""

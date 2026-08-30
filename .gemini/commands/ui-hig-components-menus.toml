@@ -1,0 +1,6 @@
+description = ">-"
+
+prompt = """
+Invoke the ui:hig-components-menus skill.
+Load the prompt instructions from skills/hig-doctor-hig-components-menus/SKILL.md and consult the copy-pasteable references or guidelines inside skills/hig-doctor-hig-components-menus/references/ to complete the task.
+"""

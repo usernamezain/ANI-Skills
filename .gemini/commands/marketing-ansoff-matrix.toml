@@ -1,0 +1,6 @@
+description = "Map evidence-backed growth options across the Ansoff Matrix with risk-rated sequencing. Use when the question is where the next tranche of growth comes from, and at what risk."
+
+prompt = """
+Invoke the marketing:ansoff-matrix skill.
+Load the prompt instructions from skills/Product-Manager-Skills-ansoff-matrix/SKILL.md and consult the copy-pasteable references or guidelines inside skills/Product-Manager-Skills-ansoff-matrix/references/ to complete the task.
+"""

@@ -1,0 +1,6 @@
+description = "Web scraping with structured data extraction - define your output schema"
+
+prompt = """
+Invoke the api:structured-scraping-riveter skill.
+Load the prompt instructions from skills/goose-skills-structured-scraping-riveter/SKILL.md and consult the copy-pasteable references or guidelines inside skills/goose-skills-structured-scraping-riveter/references/ to complete the task.
+"""

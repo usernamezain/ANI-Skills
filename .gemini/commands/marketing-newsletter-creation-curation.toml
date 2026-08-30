@@ -1,0 +1,6 @@
+description = "Industry-adaptive B2B newsletter creation with stage, role, and geography-aware workflows"
+
+prompt = """
+Invoke the marketing:newsletter-creation-curation skill.
+Load the prompt instructions from skills/ai-marketing-claude-code-skills-newsletter-creation-curation/SKILL.md and consult the copy-pasteable references or guidelines inside skills/ai-marketing-claude-code-skills-newsletter-creation-curation/references/ to complete the task.
+"""

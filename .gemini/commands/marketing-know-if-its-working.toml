@@ -1,0 +1,6 @@
+description = "Measure GTM with the metrics that matter (net developer retention, DREAM funnel) instead of vanity numbers. Use when the user has dashboards full of stars and pageviews but can't tell if go-to-market is working, or is optimizing acquisition over a leaky bucket."
+
+prompt = """
+Invoke the marketing:know-if-its-working skill.
+Load the prompt instructions from skills/gtm-cofounder-know-if-its-working/SKILL.md and consult the copy-pasteable references or guidelines inside skills/gtm-cofounder-know-if-its-working/references/ to complete the task.
+"""

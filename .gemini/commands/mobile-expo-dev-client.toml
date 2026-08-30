@@ -1,0 +1,6 @@
+description = "Framework (OSS). Build and distribute Expo development clients locally or via TestFlight for internal testing. For production TestFlight releases and store submission, use the eas-app-stores skill."
+
+prompt = """
+Invoke the mobile:expo-dev-client skill.
+Load the prompt instructions from skills/skills-expo-dev-client/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-expo-dev-client/references/ to complete the task.
+"""

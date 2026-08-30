@@ -1,0 +1,6 @@
+description = "Look up information about a person - work history, social profiles, contact info"
+
+prompt = """
+Invoke the ai:person-lookup skill.
+Load the prompt instructions from skills/goose-skills-person-lookup/SKILL.md and consult the copy-pasteable references or guidelines inside skills/goose-skills-person-lookup/references/ to complete the task.
+"""

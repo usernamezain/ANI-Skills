@@ -1,0 +1,6 @@
+description = "Create a Gmail filter to automatically label, star, or categorize incoming messages."
+
+prompt = """
+Invoke the ai:recipe-create-gmail-filter skill.
+Load the prompt instructions from skills/cli-recipe-create-gmail-filter/SKILL.md and consult the copy-pasteable references or guidelines inside skills/cli-recipe-create-gmail-filter/references/ to complete the task.
+"""

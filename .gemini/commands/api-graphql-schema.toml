@@ -1,0 +1,6 @@
+description = ">"
+
+prompt = """
+Invoke the api:graphql-schema skill.
+Load the prompt instructions from skills/skills-graphql-schema/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-graphql-schema/references/ to complete the task.
+"""

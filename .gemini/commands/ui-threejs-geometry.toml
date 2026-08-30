@@ -1,0 +1,6 @@
+description = "Creates and manipulates Three.js geometry — built-in primitives, BufferGeometry, custom geometry with attributes, normals, UVs, indexed and non-indexed meshes. Use when the user asks about geometry, shapes, BufferGeometry, custom vertices, normals, UVs, or mesh topology. Trigger keywords: geometry, BufferGeometry, vertices, normals, UVs, mesh topology, custom shape."
+
+prompt = """
+Invoke the ui:threejs-geometry skill.
+Load the prompt instructions from skills/threejs-skills-threejs-geometry/SKILL.md and consult the copy-pasteable references or guidelines inside skills/threejs-skills-threejs-geometry/references/ to complete the task.
+"""

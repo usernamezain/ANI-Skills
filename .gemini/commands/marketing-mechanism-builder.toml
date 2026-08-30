@@ -1,0 +1,6 @@
+description = "Use when you need to explain why your solution works and others failed. Trigger on \"unique mechanism\", \"why this works\", \"different angle\", \"positioning\"."
+
+prompt = """
+Invoke the marketing:mechanism-builder skill.
+Load the prompt instructions from skills/advertising-skills-mechanism-builder/SKILL.md and consult the copy-pasteable references or guidelines inside skills/advertising-skills-mechanism-builder/references/ to complete the task.
+"""

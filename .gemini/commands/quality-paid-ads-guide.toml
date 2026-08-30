@@ -1,0 +1,6 @@
+description = "Explain NotFair's paid-ads skills, installation, platform boundaries, account connections, and current product capabilities. Use for questions about how NotFair works, what it supports, how to install or connect it, plans or limits, or paid-media troubleshooting that is not an account-performance request."
+
+prompt = """
+Invoke the quality:paid-ads-guide skill.
+Load the prompt instructions from skills/notfair-plugin-paid-ads-guide/SKILL.md and consult the copy-pasteable references or guidelines inside skills/notfair-plugin-paid-ads-guide/references/ to complete the task.
+"""

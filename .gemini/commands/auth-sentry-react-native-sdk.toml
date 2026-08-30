@@ -1,0 +1,6 @@
+description = "Full Sentry SDK setup for React Native and Expo. Use when asked to \"add Sentry to React Native\", \"install @sentry/react-native\", \"setup Sentry in Expo\", or configure error monitoring, tracing, profiling, session replay, or logging for React Native applications. Supports Expo managed, Expo bare, and vanilla React Native."
+
+prompt = """
+Invoke the auth:sentry-react-native-sdk skill.
+Load the prompt instructions from skills/sentry-for-ai-sentry-react-native-sdk/SKILL.md and consult the copy-pasteable references or guidelines inside skills/sentry-for-ai-sentry-react-native-sdk/references/ to complete the task.
+"""

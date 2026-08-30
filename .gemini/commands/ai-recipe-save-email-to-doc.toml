@@ -1,0 +1,6 @@
+description = "Save a Gmail message body into a Google Doc for archival or reference."
+
+prompt = """
+Invoke the ai:recipe-save-email-to-doc skill.
+Load the prompt instructions from skills/cli-recipe-save-email-to-doc/SKILL.md and consult the copy-pasteable references or guidelines inside skills/cli-recipe-save-email-to-doc/references/ to complete the task.
+"""

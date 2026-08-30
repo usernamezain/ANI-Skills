@@ -1,0 +1,6 @@
+description = "Track flight status, delays, gate changes, and estimated arrival times for any commercial flight. Covers real-time flight tracking, schedule lookup, and delay monitoring for travel coordination and logistics planning."
+
+prompt = """
+Invoke the monitoring:flight-tracker skill.
+Load the prompt instructions from skills/sandbase-skills-flight-tracker/SKILL.md and consult the copy-pasteable references or guidelines inside skills/sandbase-skills-flight-tracker/references/ to complete the task.
+"""

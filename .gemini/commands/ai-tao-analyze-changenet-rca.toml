@@ -1,0 +1,6 @@
+description = "Performs deep Root Cause Analysis (RCA) on NVIDIA TAO Visual ChangeNet classification experiments with"
+
+prompt = """
+Invoke the ai:tao-analyze-changenet-rca skill.
+Load the prompt instructions from skills/skills-tao-analyze-changenet-rca/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-tao-analyze-changenet-rca/references/ to complete the task.
+"""

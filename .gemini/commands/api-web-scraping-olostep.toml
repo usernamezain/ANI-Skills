@@ -1,0 +1,6 @@
+description = "Web scraping, crawling, and AI-powered answer extraction at scale"
+
+prompt = """
+Invoke the api:web-scraping-olostep skill.
+Load the prompt instructions from skills/goose-skills-web-scraping-olostep/SKILL.md and consult the copy-pasteable references or guidelines inside skills/goose-skills-web-scraping-olostep/references/ to complete the task.
+"""

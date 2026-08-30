@@ -1,0 +1,6 @@
+description = "Runs an autonomous review-and-fix improvement loop over a Claude Code skill until a review comes back clean, with a cross-round findings ledger, escalation when fixes stop converging, and a mechanical scope guard. Reviews are performed by the plugin-dev skill-reviewer agent. Use to fix skill quality issues, iteratively refine a skill, or resume a loop after an escalation ('fix my skill', 'improve this skill until it passes review', 'skill improvement loop'). NOT for a one-time review — use the plugin-dev skill-reviewer agent directly."
+
+prompt = """
+Invoke the quality:skill-improver skill.
+Load the prompt instructions from skills/skills-skill-improver/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-skill-improver/references/ to complete the task.
+"""

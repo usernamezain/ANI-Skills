@@ -1,0 +1,6 @@
+description = ">-"
+
+prompt = """
+Invoke the ai:gke-ai-troubleshooting-handle-disruption-gpu-tpu skill.
+Load the prompt instructions from skills/skills-gke-ai-troubleshooting-handle-disruption-gpu-tpu/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-gke-ai-troubleshooting-handle-disruption-gpu-tpu/references/ to complete the task.
+"""

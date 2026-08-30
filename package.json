@@ -1,14 +1,14 @@
 {
   "name": "ani-skills",
-  "version": "1.0.4",
-  "description": "ani-skills is a professional AI Agent Skills library for Cursor, Claude Code, Windsurf, Trae, Cline, and Antigravity IDE, specializing in creative frontend GSAP/ScrollTrigger/Lenis animations, system planning, browser testing, and DSA workflows.",
+  "version": "2.0.0",
+  "description": "ANI-Skills Ultra is a comprehensive AI Agent Skills library with 3,028 skills across 29 semantic namespaces for Antigravity, Claude Code, Cursor, Windsurf, Copilot, Codex, Gemini CLI, and OpenCode, featuring an interactive GUI installer.",
   "main": "skills_index.json",
   "bin": {
     "ani-skills": "./bin/install.js"
   },
   "scripts": {
     "build:index": "python scripts/update_skills_index.py",
-    "lint:skills": "python scripts/verify_library.py",
+    "lint:skills": "python scripts/verify_stats.py",
     "postinstall": "node bin/install.js --auto"
   },
   "keywords": [
@@ -19,19 +19,19 @@
     "workflows",
     "gsap",
     "scrolltrigger",
-    "lenis",
+    "marketing",
+    "seo",
+    "security",
     "cursor",
     "cursorrules",
-    "clinerules",
     "windsurfrules",
-    "traerules",
-    "geminirules",
     "ai-agents",
     "agent-skills",
     "developer-prompts",
     "automation",
-    "playwright",
-    "puppeteer"
+    "threejs",
+    "webgpu",
+    "duckdb"
   ],
   "author": "Zain Ali",
   "license": "MIT",
@@ -50,6 +50,7 @@
     "bin",
     "docs",
     "skills_index.json",
+    "skill-word.md",
     ".claude-plugin",
     ".gemini",
     "GEMINI.md"

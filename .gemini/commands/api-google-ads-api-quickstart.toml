@@ -1,0 +1,6 @@
+description = "|"
+
+prompt = """
+Invoke the api:google-ads-api-quickstart skill.
+Load the prompt instructions from skills/skills-google-ads-api-quickstart/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-google-ads-api-quickstart/references/ to complete the task.
+"""

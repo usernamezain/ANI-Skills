@@ -1,0 +1,6 @@
+description = "Append a deal status update to a Google Sheets sales tracking spreadsheet."
+
+prompt = """
+Invoke the marketing:recipe-log-deal-update skill.
+Load the prompt instructions from skills/cli-recipe-log-deal-update/SKILL.md and consult the copy-pasteable references or guidelines inside skills/cli-recipe-log-deal-update/references/ to complete the task.
+"""

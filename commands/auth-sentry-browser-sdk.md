@@ -1,0 +1,6 @@
+# auth:sentry-browser-sdk
+
+Full Sentry SDK setup for browser JavaScript. Use when asked to "add Sentry to a website", "install @sentry/browser", or configure error monitoring, tracing, session replay, or logging for vanilla JavaScript, jQuery, static sites, or WordPress.
+
+**Skill folder:** `skills/sentry-for-ai-sentry-browser-sdk/`
+**Namespace:** `auth`

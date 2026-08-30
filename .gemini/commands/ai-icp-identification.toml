@@ -1,0 +1,6 @@
+description = ">"
+
+prompt = """
+Invoke the ai:icp-identification skill.
+Load the prompt instructions from skills/goose-skills-icp-identification/SKILL.md and consult the copy-pasteable references or guidelines inside skills/goose-skills-icp-identification/references/ to complete the task.
+"""

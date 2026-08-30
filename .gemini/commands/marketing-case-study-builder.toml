@@ -1,0 +1,6 @@
+description = "Turn client wins into formatted case studies for proposals, social proof, and sales conversations. Use when someone needs to document results, build credibility, or create reusable proof assets."
+
+prompt = """
+Invoke the marketing:case-study-builder skill.
+Load the prompt instructions from skills/ai-marketing-claude-code-skills-case-study-builder/SKILL.md and consult the copy-pasteable references or guidelines inside skills/ai-marketing-claude-code-skills-case-study-builder/references/ to complete the task.
+"""

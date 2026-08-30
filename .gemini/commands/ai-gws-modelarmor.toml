@@ -1,0 +1,6 @@
+description = "Google Model Armor: Filter user-generated content for safety."
+
+prompt = """
+Invoke the ai:gws-modelarmor skill.
+Load the prompt instructions from skills/cli-gws-modelarmor/SKILL.md and consult the copy-pasteable references or guidelines inside skills/cli-gws-modelarmor/references/ to complete the task.
+"""

@@ -1,0 +1,6 @@
+description = "Read data from a Google Sheet and create a formatted Google Docs report."
+
+prompt = """
+Invoke the ai:recipe-generate-report-from-sheet skill.
+Load the prompt instructions from skills/cli-recipe-generate-report-from-sheet/SKILL.md and consult the copy-pasteable references or guidelines inside skills/cli-recipe-generate-report-from-sheet/references/ to complete the task.
+"""

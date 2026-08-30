@@ -1,0 +1,6 @@
+description = "Discover and evaluate KOLs (Key Opinion Leaders) and creators across TikTok, Instagram, YouTube, and Xiaohongshu through SandBase. Use when asked for influencer research, creator outreach lists, KOL evaluation, or partnership prospecting."
+
+prompt = """
+Invoke the plan:kol-discovery skill.
+Load the prompt instructions from skills/sandbase-skills-kol-discovery/SKILL.md and consult the copy-pasteable references or guidelines inside skills/sandbase-skills-kol-discovery/references/ to complete the task.
+"""

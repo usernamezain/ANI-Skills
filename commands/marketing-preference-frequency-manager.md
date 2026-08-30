@@ -1,0 +1,6 @@
+# marketing:preference-frequency-manager
+
+Use when the user asks to "build a preference center", "set up a frequency opt-down ladder", "give people a step-down instead of unsubscribe", or "design a topic/cadence preference page"; produces a preference-center field spec, a frequency/topic opt-down ladder (down-tier paths that substitute for a hard unsubscribe), a preference-to-suppression mapping, and a SEND N-dimension sub-item note on preference-center / frequency options offered. Not for the lifecycle flow map or cadence governance — use email-sequence-designer; not for the consent/suppression record itself — use consent-registry; not for computing EQS or ruling the N1 unsubscribe veto — use email-quality-auditor. 邮件偏好中心/降频阶梯设计/退订替代降档
+
+**Skill folder:** `skills/aaron-marketing-skills-preference-frequency-manager/`
+**Namespace:** `marketing`

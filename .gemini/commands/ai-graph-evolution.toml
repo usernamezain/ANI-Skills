@@ -1,0 +1,6 @@
+description = ">"
+
+prompt = """
+Invoke the ai:graph-evolution skill.
+Load the prompt instructions from skills/skills-graph-evolution/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-graph-evolution/references/ to complete the task.
+"""

@@ -1,0 +1,6 @@
+description = "Simplest distributed training API. 4 lines to add distributed support to any PyTorch script. Unified API for DeepSpeed/FSDP/Megatron/DDP. Automatic device placement, mixed precision (FP16/BF16/FP8). Interactive config, single launch command. HuggingFace ecosystem standard."
+
+prompt = """
+Invoke the ai:huggingface-accelerate skill.
+Load the prompt instructions from skills/AI-Research-SKILLs-huggingface-accelerate/SKILL.md and consult the copy-pasteable references or guidelines inside skills/AI-Research-SKILLs-huggingface-accelerate/references/ to complete the task.
+"""

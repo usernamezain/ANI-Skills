@@ -1,0 +1,6 @@
+description = "Google Sheets: Read and write spreadsheets."
+
+prompt = """
+Invoke the ai:gws-sheets skill.
+Load the prompt instructions from skills/cli-gws-sheets/SKILL.md and consult the copy-pasteable references or guidelines inside skills/cli-gws-sheets/references/ to complete the task.
+"""

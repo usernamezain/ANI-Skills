@@ -1,0 +1,6 @@
+description = "Google Sheets: Append a row to a spreadsheet."
+
+prompt = """
+Invoke the ai:gws-sheets-append skill.
+Load the prompt instructions from skills/cli-gws-sheets-append/SKILL.md and consult the copy-pasteable references or guidelines inside skills/cli-gws-sheets-append/references/ to complete the task.
+"""

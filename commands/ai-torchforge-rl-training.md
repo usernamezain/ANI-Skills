@@ -1,0 +1,6 @@
+# ai:torchforge-rl-training
+
+Provides guidance for PyTorch-native agentic RL using torchforge, Meta's library separating infra from algorithms. Use when you want clean RL abstractions, easy algorithm experimentation, or scalable training with Monarch and TorchTitan.
+
+**Skill folder:** `skills/AI-Research-SKILLs-torchforge-rl-training/`
+**Namespace:** `ai`

@@ -1,0 +1,6 @@
+description = "Evaluate pricing changes using ARPU, conversion, churn risk, NRR, and payback. Use when deciding whether a pricing move should ship."
+
+prompt = """
+Invoke the plan:finance-based-pricing-advisor skill.
+Load the prompt instructions from skills/Product-Manager-Skills-finance-based-pricing-advisor/SKILL.md and consult the copy-pasteable references or guidelines inside skills/Product-Manager-Skills-finance-based-pricing-advisor/references/ to complete the task.
+"""

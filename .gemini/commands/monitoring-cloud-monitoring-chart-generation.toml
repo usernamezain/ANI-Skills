@@ -1,0 +1,6 @@
+description = ">-"
+
+prompt = """
+Invoke the monitoring:cloud-monitoring-chart-generation skill.
+Load the prompt instructions from skills/skills-cloud-monitoring-chart-generation/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-cloud-monitoring-chart-generation/references/ to complete the task.
+"""

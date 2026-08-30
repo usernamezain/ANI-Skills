@@ -1,0 +1,6 @@
+description = "Research potential leads with verified contact information, professional backgrounds, company context, and social presence. Combines LinkedIn profiling, email verification, company enrichment, and social signals for sales-ready prospect intelligence."
+
+prompt = """
+Invoke the marketing:lead-research skill.
+Load the prompt instructions from skills/sandbase-skills-lead-research/SKILL.md and consult the copy-pasteable references or guidelines inside skills/sandbase-skills-lead-research/references/ to complete the task.
+"""

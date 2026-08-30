@@ -1,0 +1,6 @@
+description = "Analyze website SEO - keywords, content, competitors, and improvement opportunities"
+
+prompt = """
+Invoke the marketing:seo-analyzer skill.
+Load the prompt instructions from skills/goose-skills-seo-analyzer/SKILL.md and consult the copy-pasteable references or guidelines inside skills/goose-skills-seo-analyzer/references/ to complete the task.
+"""

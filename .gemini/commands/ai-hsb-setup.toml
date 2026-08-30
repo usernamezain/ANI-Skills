@@ -1,0 +1,6 @@
+description = "Clone the latest NVIDIA Holoscan Sensor Bridge repo, ask which supported devkit is being used, configure the host per platform, build the correct demo container, run it, and verify HSB connectivity by pinging 192.168.0.2. Use for Holoscan Sensor Bridge setup, build, container launch, and first-connectivity bring-up."
+
+prompt = """
+Invoke the ai:hsb-setup skill.
+Load the prompt instructions from skills/skills-hsb-setup/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-hsb-setup/references/ to complete the task.
+"""

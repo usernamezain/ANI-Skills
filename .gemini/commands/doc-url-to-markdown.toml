@@ -1,0 +1,6 @@
+description = "Convert any public web page into clean, structured Markdown. Preserves headings, links, images, code blocks, and tables while removing ads, navigation, and clutter. Perfect for content archival, knowledge base building, and research note-taking."
+
+prompt = """
+Invoke the doc:url-to-markdown skill.
+Load the prompt instructions from skills/sandbase-skills-url-to-markdown/SKILL.md and consult the copy-pasteable references or guidelines inside skills/sandbase-skills-url-to-markdown/references/ to complete the task.
+"""

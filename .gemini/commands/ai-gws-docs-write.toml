@@ -1,0 +1,6 @@
+description = "Google Docs: Append text to a document."
+
+prompt = """
+Invoke the ai:gws-docs-write skill.
+Load the prompt instructions from skills/cli-gws-docs-write/SKILL.md and consult the copy-pasteable references or guidelines inside skills/cli-gws-docs-write/references/ to complete the task.
+"""

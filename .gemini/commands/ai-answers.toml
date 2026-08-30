@@ -1,0 +1,6 @@
+description = "USE FOR AI-grounded answers via OpenAI-compatible /chat/completions. Two modes: single-search (fast) or deep research (enable_research=true, thorough multi-search). Streaming/blocking. Citations."
+
+prompt = """
+Invoke the ai:answers skill.
+Load the prompt instructions from skills/brave-search-skills-answers/SKILL.md and consult the copy-pasteable references or guidelines inside skills/brave-search-skills-answers/references/ to complete the task.
+"""

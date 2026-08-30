@@ -1,0 +1,6 @@
+description = "Build targeted outreach lists with verified contact information, professional context, and conversation starters. Combines Apollo company data, LinkedIn profiling, and email verification to produce ready-to-send outreach campaigns for sales, PR, and partnership teams."
+
+prompt = """
+Invoke the marketing:outreach-builder skill.
+Load the prompt instructions from skills/sandbase-skills-outreach-builder/SKILL.md and consult the copy-pasteable references or guidelines inside skills/sandbase-skills-outreach-builder/references/ to complete the task.
+"""

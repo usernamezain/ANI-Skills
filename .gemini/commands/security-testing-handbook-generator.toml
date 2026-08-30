@@ -1,0 +1,6 @@
+description = "Generates Claude Code skills from the Trail of Bits Testing Handbook (appsec.guide), analyzing handbook pages and emitting SKILL.md files with the structure each skill type requires. Use when creating or refreshing a skill from handbook content, or when the user names the testing handbook or appsec.guide. Not for answering security testing questions — the generated skills cover those."
+
+prompt = """
+Invoke the security:testing-handbook-generator skill.
+Load the prompt instructions from skills/skills-testing-handbook-generator/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-testing-handbook-generator/references/ to complete the task.
+"""

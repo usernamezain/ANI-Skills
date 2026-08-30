@@ -1,0 +1,6 @@
+description = "Review who attended a Google Meet conference and for how long."
+
+prompt = """
+Invoke the ai:recipe-review-meet-participants skill.
+Load the prompt instructions from skills/cli-recipe-review-meet-participants/SKILL.md and consult the copy-pasteable references or guidelines inside skills/cli-recipe-review-meet-participants/references/ to complete the task.
+"""

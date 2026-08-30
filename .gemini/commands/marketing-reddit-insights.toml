@@ -1,0 +1,6 @@
+description = "|"
+
+prompt = """
+Invoke the marketing:reddit-insights skill.
+Load the prompt instructions from skills/ai-marketing-claude-code-skills-reddit-insights/SKILL.md and consult the copy-pasteable references or guidelines inside skills/ai-marketing-claude-code-skills-reddit-insights/references/ to complete the task.
+"""

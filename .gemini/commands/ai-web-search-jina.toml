@@ -1,0 +1,6 @@
+description = "Jina Search - fast web search returning SERP results"
+
+prompt = """
+Invoke the ai:web-search-jina skill.
+Load the prompt instructions from skills/goose-skills-web-search-jina/SKILL.md and consult the copy-pasteable references or guidelines inside skills/goose-skills-web-search-jina/references/ to complete the task.
+"""

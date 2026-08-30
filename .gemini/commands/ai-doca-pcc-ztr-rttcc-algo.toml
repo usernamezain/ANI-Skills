@@ -1,0 +1,6 @@
+description = ">"
+
+prompt = """
+Invoke the ai:doca-pcc-ztr-rttcc-algo skill.
+Load the prompt instructions from skills/skills-doca-pcc-ztr-rttcc-algo/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-doca-pcc-ztr-rttcc-algo/references/ to complete the task.
+"""

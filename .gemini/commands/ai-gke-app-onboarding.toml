@@ -1,0 +1,6 @@
+description = ">-"
+
+prompt = """
+Invoke the ai:gke-app-onboarding skill.
+Load the prompt instructions from skills/skills-gke-app-onboarding/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-gke-app-onboarding/references/ to complete the task.
+"""

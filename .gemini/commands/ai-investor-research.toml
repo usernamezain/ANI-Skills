@@ -1,0 +1,6 @@
+description = "Research VCs, angels, and investors - portfolio, thesis, contact info"
+
+prompt = """
+Invoke the ai:investor-research skill.
+Load the prompt instructions from skills/goose-skills-investor-research/SKILL.md and consult the copy-pasteable references or guidelines inside skills/goose-skills-investor-research/references/ to complete the task.
+"""

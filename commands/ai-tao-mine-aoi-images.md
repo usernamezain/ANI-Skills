@@ -1,0 +1,6 @@
+# ai:tao-mine-aoi-images
+
+Runs the DEFT embed-then-mine workflow for VCN AOI iterations — embeds the gap-analysis target parquet, embeds a source pool, and mines nearest-neighbour source images for downstream augmentation. Use as the immediate next step after `tao-route-visual-changenet-samples` when expanding a real-image augmentation queue from the mining subset.
+
+**Skill folder:** `skills/skills-tao-mine-aoi-images/`
+**Namespace:** `ai`

@@ -1,0 +1,6 @@
+# auth:sentry-flutter-sdk
+
+Full Sentry SDK setup for Flutter and Dart. Use when asked to "add Sentry to Flutter", "install sentry_flutter", "setup Sentry in Dart", or configure error monitoring, tracing, profiling, session replay, or logging for Flutter applications. Supports Android, iOS, macOS, Linux, Windows, and Web.
+
+**Skill folder:** `skills/sentry-for-ai-sentry-flutter-sdk/`
+**Namespace:** `auth`

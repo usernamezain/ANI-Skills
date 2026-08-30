@@ -1,0 +1,6 @@
+description = "USE FOR image search. Returns images with title, source URL, thumbnail. Supports SafeSearch filter. Up to 200 results."
+
+prompt = """
+Invoke the ai:images-search skill.
+Load the prompt instructions from skills/brave-search-skills-images-search/SKILL.md and consult the copy-pasteable references or guidelines inside skills/brave-search-skills-images-search/references/ to complete the task.
+"""

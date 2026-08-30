@@ -1,0 +1,6 @@
+description = ">-"
+
+prompt = """
+Invoke the ai:datalineage-summary skill.
+Load the prompt instructions from skills/skills-datalineage-summary/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-datalineage-summary/references/ to complete the task.
+"""

@@ -1,0 +1,6 @@
+description = "Install and verify cuPyNumeric for Python — requirements, commands, verification. Source builds are out of scope."
+
+prompt = """
+Invoke the ai:cupynumeric-install skill.
+Load the prompt instructions from skills/skills-cupynumeric-install/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-cupynumeric-install/references/ to complete the task.
+"""

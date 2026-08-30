@@ -1,0 +1,6 @@
+description = "Framework (OSS). Integrate Expo and React Native into an existing native iOS or Android app. Use when the user mentions brownfield, embedding React Native in a native app, AAR/XCFramework, or adding Expo to an existing Kotlin/Swift project. Covers both the isolated approach and the integrated approach."
+
+prompt = """
+Invoke the mobile:expo-brownfield skill.
+Load the prompt instructions from skills/skills-expo-brownfield/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-expo-brownfield/references/ to complete the task.
+"""

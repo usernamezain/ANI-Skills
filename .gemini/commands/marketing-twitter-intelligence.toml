@@ -1,0 +1,6 @@
+description = "Search tweets, analyze trends, monitor users, and gather social intelligence from Twitter/X through SandBase. Use when asked for Twitter research, social listening, trend analysis, influencer monitoring, sentiment tracking, or competitor social intelligence."
+
+prompt = """
+Invoke the marketing:twitter-intelligence skill.
+Load the prompt instructions from skills/sandbase-skills-twitter-intelligence/SKILL.md and consult the copy-pasteable references or guidelines inside skills/sandbase-skills-twitter-intelligence/references/ to complete the task.
+"""

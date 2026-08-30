@@ -1,0 +1,6 @@
+description = "Use to select, configure, deploy, verify, debug, or tear down a VSS profile (base, search, lvs, warehouse, edge). Not for standalone microservices — use the vss-deploy-* skill."
+
+prompt = """
+Invoke the ai:vss-deploy-profile skill.
+Load the prompt instructions from skills/skills-vss-deploy-profile/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-vss-deploy-profile/references/ to complete the task.
+"""

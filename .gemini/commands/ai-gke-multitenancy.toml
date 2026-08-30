@@ -1,0 +1,6 @@
+description = ">-"
+
+prompt = """
+Invoke the ai:gke-multitenancy skill.
+Load the prompt instructions from skills/skills-gke-multitenancy/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-gke-multitenancy/references/ to complete the task.
+"""

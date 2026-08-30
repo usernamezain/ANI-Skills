@@ -1,0 +1,6 @@
+description = "Evaluate Expo skills in this repo end-to-end - trigger accuracy, generated code quality, and runtime screenshots on iOS simulator and Android emulator via Expo Go (web optional). Use when the user wants to eval an Expo skill, test that a skill produces working code, benchmark a skill with device screenshots, or verify a skill's output renders correctly."
+
+prompt = """
+Invoke the mobile:expo-skill-eval skill.
+Load the prompt instructions from skills/skills-expo-skill-eval/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-expo-skill-eval/references/ to complete the task.
+"""

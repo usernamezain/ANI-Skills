@@ -1,0 +1,6 @@
+# marketing:rag-blueprint
+
+NVIDIA RAG Blueprint — deploy, configure, troubleshoot, and manage. Handles any RAG action: deploy, install, start, enable, disable, toggle, change, configure, troubleshoot, debug, fix, shutdown, stop, or tear down any RAG feature or service (Agentic RAG, VLM, guardrails, query rewriting, models, search, ingestion, observability, summarization, reasoning, and more).
+
+**Skill folder:** `skills/skills-rag-blueprint/`
+**Namespace:** `marketing`

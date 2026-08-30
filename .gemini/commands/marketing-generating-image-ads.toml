@@ -1,0 +1,6 @@
+description = "|"
+
+prompt = """
+Invoke the marketing:generating-image-ads skill.
+Load the prompt instructions from skills/superCMO-skills-generating-image-ads/SKILL.md and consult the copy-pasteable references or guidelines inside skills/superCMO-skills-generating-image-ads/references/ to complete the task.
+"""

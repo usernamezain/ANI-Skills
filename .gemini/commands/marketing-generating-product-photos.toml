@@ -1,0 +1,6 @@
+description = "|"
+
+prompt = """
+Invoke the marketing:generating-product-photos skill.
+Load the prompt instructions from skills/superCMO-skills-generating-product-photos/SKILL.md and consult the copy-pasteable references or guidelines inside skills/superCMO-skills-generating-product-photos/references/ to complete the task.
+"""

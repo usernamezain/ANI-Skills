@@ -1,0 +1,6 @@
+description = "Applies cognitive science frameworks for creative thinking to CS and AI research ideation. Use when seeking genuinely novel research directions by leveraging combinatorial creativity, analogical reasoning, constraint manipulation, and other empirically grounded creative strategies."
+
+prompt = """
+Invoke the marketing:creative-thinking-for-research skill.
+Load the prompt instructions from skills/AI-Research-SKILLs-creative-thinking-for-research/SKILL.md and consult the copy-pasteable references or guidelines inside skills/AI-Research-SKILLs-creative-thinking-for-research/references/ to complete the task.
+"""

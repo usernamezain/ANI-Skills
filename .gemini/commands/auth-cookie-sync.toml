@@ -1,0 +1,6 @@
+description = "Sync cookies from local Chrome to a Browserbase persistent context so the browse CLI can access authenticated sites. Use when the user wants to browse as themselves, sync cookies, or log into sites via Browserbase."
+
+prompt = """
+Invoke the auth:cookie-sync skill.
+Load the prompt instructions from skills/skills-cookie-sync/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-cookie-sync/references/ to complete the task.
+"""

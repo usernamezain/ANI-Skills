@@ -1,0 +1,6 @@
+description = "Extract false-positive and false-negative gaps from VLM binary-classification-question (BCQ, yes/no) predictions."
+
+prompt = """
+Invoke the ai:tao-analyze-gaps-vlm-bcq skill.
+Load the prompt instructions from skills/skills-tao-analyze-gaps-vlm-bcq/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-tao-analyze-gaps-vlm-bcq/references/ to complete the task.
+"""

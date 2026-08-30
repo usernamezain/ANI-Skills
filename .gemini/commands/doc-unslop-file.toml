@@ -1,0 +1,6 @@
+description = ">"
+
+prompt = """
+Invoke the doc:unslop-file skill.
+Load the prompt instructions from skills/unslop-unslop-file/SKILL.md and consult the copy-pasteable references or guidelines inside skills/unslop-unslop-file/references/ to complete the task.
+"""

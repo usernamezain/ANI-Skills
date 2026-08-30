@@ -1,0 +1,6 @@
+description = "When the user wants to improve their app's onboarding experience, increase activation rate, reduce Day 1 drop-off, or optimize the first-run flow. Use when the user mentions \"onboarding\", \"first-run\", \"activation\", \"tutorial\", \"day 1 retention\", \"new user flow\", \"permission prompts\", \"sign-up conversion\", \"onboarding funnel\", or \"users dropping off early\". For overall retention strategy, see retention-optimization. For paywall placement, see monetization-strategy."
+
+prompt = """
+Invoke the marketing:onboarding-optimization skill.
+Load the prompt instructions from skills/aso-skills-onboarding-optimization/SKILL.md and consult the copy-pasteable references or guidelines inside skills/aso-skills-onboarding-optimization/references/ to complete the task.
+"""

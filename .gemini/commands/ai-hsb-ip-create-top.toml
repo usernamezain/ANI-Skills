@@ -1,0 +1,6 @@
+description = "Create or explain fixed-format HSB FPGA_top.sv wrappers from validated HOLOLINK_def.svh files. Do not use for def generation or validation."
+
+prompt = """
+Invoke the ai:hsb-ip-create-top skill.
+Load the prompt instructions from skills/skills-hsb-ip-create-top/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-hsb-ip-create-top/references/ to complete the task.
+"""

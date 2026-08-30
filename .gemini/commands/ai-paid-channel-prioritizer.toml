@@ -1,0 +1,6 @@
+description = ">"
+
+prompt = """
+Invoke the ai:paid-channel-prioritizer skill.
+Load the prompt instructions from skills/goose-skills-paid-channel-prioritizer/SKILL.md and consult the copy-pasteable references or guidelines inside skills/goose-skills-paid-channel-prioritizer/references/ to complete the task.
+"""

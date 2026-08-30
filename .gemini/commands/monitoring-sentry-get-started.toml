@@ -1,0 +1,6 @@
+description = "Guided entry point for using Sentry through your agent. Orients you to your current setup and, for a new project, sets up Sentry end to end with sane defaults — provision a project, install the SDK (errors, tracing, and whatever it enables by default), and confirm real telemetry reaches Sentry. Routes other intents (adding more signals, fixing issues) to the right skill."
+
+prompt = """
+Invoke the monitoring:sentry-get-started skill.
+Load the prompt instructions from skills/sentry-for-ai-sentry-get-started/SKILL.md and consult the copy-pasteable references or guidelines inside skills/sentry-for-ai-sentry-get-started/references/ to complete the task.
+"""

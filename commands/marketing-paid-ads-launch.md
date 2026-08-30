@@ -1,0 +1,6 @@
+# marketing:paid-ads-launch
+
+Plan and prepare a new paid-media campaign or cross-channel test before it can spend. Use when asked to create, launch, start, set up, or allocate budget to an advertising campaign on any supported platform.
+
+**Skill folder:** `skills/notfair-plugin-paid-ads-launch/`
+**Namespace:** `marketing`

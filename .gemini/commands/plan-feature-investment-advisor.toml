@@ -1,0 +1,6 @@
+description = "Evaluate feature investments using revenue impact, cost structure, ROI, and strategy. Use when deciding whether a feature deserves investment."
+
+prompt = """
+Invoke the plan:feature-investment-advisor skill.
+Load the prompt instructions from skills/Product-Manager-Skills-feature-investment-advisor/SKILL.md and consult the copy-pasteable references or guidelines inside skills/Product-Manager-Skills-feature-investment-advisor/references/ to complete the task.
+"""

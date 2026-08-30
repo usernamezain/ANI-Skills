@@ -1,0 +1,6 @@
+description = "Performs gap analysis on NVIDIA TAO VCN Classify (Visual Component Net) experiments by invoking the data-services container (`tao_toolkit.data_services` from `versions.yaml`) directly via `docker run … gap_analysis vcn_aoi …` — picks the optimal decision threshold, ranks per-sample weakness, and emits a top-K weakest parquet expanded per-lighting for downstream augmentation. Use when analyzing VCN classification failures, picking SDA augmentation targets, or auditing PASS/NO_PASS boundary cases."
+
+prompt = """
+Invoke the ai:tao-analyze-gaps-visual-changenet skill.
+Load the prompt instructions from skills/skills-tao-analyze-gaps-visual-changenet/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-tao-analyze-gaps-visual-changenet/references/ to complete the task.
+"""

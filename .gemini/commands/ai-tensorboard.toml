@@ -1,0 +1,6 @@
+description = "Visualize training metrics, debug models with histograms, compare experiments, visualize model graphs, and profile performance with TensorBoard - Google's ML visualization toolkit"
+
+prompt = """
+Invoke the ai:tensorboard skill.
+Load the prompt instructions from skills/AI-Research-SKILLs-tensorboard/SKILL.md and consult the copy-pasteable references or guidelines inside skills/AI-Research-SKILLs-tensorboard/references/ to complete the task.
+"""

@@ -1,0 +1,6 @@
+description = "Scans Android APKs for Firebase security misconfigurations including open databases, storage buckets, authentication issues, and exposed cloud functions. Use when analyzing APK files for Firebase vulnerabilities, performing mobile app security audits, or testing Firebase endpoint security. For authorized security research only."
+
+prompt = """
+Invoke the security:firebase-apk-scanner skill.
+Load the prompt instructions from skills/skills-firebase-apk-scanner/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-firebase-apk-scanner/references/ to complete the task.
+"""

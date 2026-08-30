@@ -1,0 +1,6 @@
+description = ">"
+
+prompt = """
+Invoke the db:s3-explore skill.
+Load the prompt instructions from skills/duckdb-skills-s3-explore/SKILL.md and consult the copy-pasteable references or guidelines inside skills/duckdb-skills-s3-explore/references/ to complete the task.
+"""

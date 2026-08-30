@@ -1,0 +1,6 @@
+description = "Apply Gmail labels to matching messages and archive them to keep your inbox clean."
+
+prompt = """
+Invoke the ai:recipe-label-and-archive-emails skill.
+Load the prompt instructions from skills/cli-recipe-label-and-archive-emails/SKILL.md and consult the copy-pasteable references or guidelines inside skills/cli-recipe-label-and-archive-emails/references/ to complete the task.
+"""

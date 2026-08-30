@@ -1,0 +1,6 @@
+description = "Run a product sunset end to end — decide, align, plan, prepare, announce, close. Use when you need the whole EOL process, not just one artifact."
+
+prompt = """
+Invoke the plan:eol-process skill.
+Load the prompt instructions from skills/Product-Manager-Skills-eol-process/SKILL.md and consult the copy-pasteable references or guidelines inside skills/Product-Manager-Skills-eol-process/references/ to complete the task.
+"""

@@ -1,0 +1,6 @@
+description = "Research any topic in exhaustive depth by combining web search, academic papers, social discussions, and community conversations. Produces comprehensive briefings with evidence from every available source type, confidence scoring, and identified knowledge gaps."
+
+prompt = """
+Invoke the ai:topic-deep-dive skill.
+Load the prompt instructions from skills/sandbase-skills-topic-deep-dive/SKILL.md and consult the copy-pasteable references or guidelines inside skills/sandbase-skills-topic-deep-dive/references/ to complete the task.
+"""

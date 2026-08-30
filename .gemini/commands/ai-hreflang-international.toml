@@ -1,0 +1,6 @@
+description = ">"
+
+prompt = """
+Invoke the ai:hreflang-international skill.
+Load the prompt instructions from skills/notfair-plugin-hreflang-international/SKILL.md and consult the copy-pasteable references or guidelines inside skills/notfair-plugin-hreflang-international/references/ to complete the task.
+"""

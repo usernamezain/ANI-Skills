@@ -1,0 +1,6 @@
+description = "Manage issues, projects & team workflows in Linear. Use when the user wants to read, create or updates tickets in Linear."
+
+prompt = """
+Invoke the ai:linear skill.
+Load the prompt instructions from skills/skills-linear/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-linear/references/ to complete the task.
+"""

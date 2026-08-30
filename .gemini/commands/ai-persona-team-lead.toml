@@ -1,0 +1,6 @@
+description = "Lead a team — run standups, coordinate tasks, and communicate."
+
+prompt = """
+Invoke the ai:persona-team-lead skill.
+Load the prompt instructions from skills/cli-persona-team-lead/SKILL.md and consult the copy-pasteable references or guidelines inside skills/cli-persona-team-lead/references/ to complete the task.
+"""

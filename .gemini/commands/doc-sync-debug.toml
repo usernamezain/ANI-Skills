@@ -1,0 +1,6 @@
+description = "Diagnose a failing or misbehaving sync — fetch run logs, identify errors, cross-reference with code, and suggest fixes"
+
+prompt = """
+Invoke the doc:sync-debug skill.
+Load the prompt instructions from skills/notion-cookbook-sync-debug/SKILL.md and consult the copy-pasteable references or guidelines inside skills/notion-cookbook-sync-debug/references/ to complete the task.
+"""

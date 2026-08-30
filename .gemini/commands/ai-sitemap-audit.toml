@@ -1,0 +1,6 @@
+description = ">"
+
+prompt = """
+Invoke the ai:sitemap-audit skill.
+Load the prompt instructions from skills/notfair-plugin-sitemap-audit/SKILL.md and consult the copy-pasteable references or guidelines inside skills/notfair-plugin-sitemap-audit/references/ to complete the task.
+"""

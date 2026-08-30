@@ -1,0 +1,6 @@
+description = ">"
+
+prompt = """
+Invoke the marketing:programmatic-seo-spy skill.
+Load the prompt instructions from skills/goose-skills-programmatic-seo-spy/SKILL.md and consult the copy-pasteable references or guidelines inside skills/goose-skills-programmatic-seo-spy/references/ to complete the task.
+"""

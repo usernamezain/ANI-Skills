@@ -1,0 +1,6 @@
+description = "Framework (OSS). Build beautiful, native-feeling Expo screens. Covers Apple HIG styling, semantic colors, native controls, SF Symbols, media, animations, visual effects, gradients, storage, and responsive layout. For routing and navigation, use the expo-router skill."
+
+prompt = """
+Invoke the mobile:expo-native-ui skill.
+Load the prompt instructions from skills/skills-expo-native-ui/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-expo-native-ui/references/ to complete the task.
+"""

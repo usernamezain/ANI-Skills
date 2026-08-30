@@ -1,0 +1,6 @@
+description = ">"
+
+prompt = """
+Invoke the db:parameter-optimization skill.
+Load the prompt instructions from skills/materials-simulation-skills-parameter-optimization/SKILL.md and consult the copy-pasteable references or guidelines inside skills/materials-simulation-skills-parameter-optimization/references/ to complete the task.
+"""

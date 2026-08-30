@@ -1,0 +1,6 @@
+description = "Diagnose SaaS business health across growth, retention, efficiency, and capital. Use when preparing a business review or prioritizing urgent fixes."
+
+prompt = """
+Invoke the marketing:business-health-diagnostic skill.
+Load the prompt instructions from skills/Product-Manager-Skills-business-health-diagnostic/SKILL.md and consult the copy-pasteable references or guidelines inside skills/Product-Manager-Skills-business-health-diagnostic/references/ to complete the task.
+"""

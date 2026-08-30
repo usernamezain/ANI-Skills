@@ -1,0 +1,6 @@
+description = "Provides guidance for PyTorch-native agentic RL using torchforge, Meta's library separating infra from algorithms. Use when you want clean RL abstractions, easy algorithm experimentation, or scalable training with Monarch and TorchTitan."
+
+prompt = """
+Invoke the ai:torchforge-rl-training skill.
+Load the prompt instructions from skills/AI-Research-SKILLs-torchforge-rl-training/SKILL.md and consult the copy-pasteable references or guidelines inside skills/AI-Research-SKILLs-torchforge-rl-training/references/ to complete the task.
+"""

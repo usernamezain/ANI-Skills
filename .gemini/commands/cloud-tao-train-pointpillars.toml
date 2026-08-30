@@ -1,0 +1,6 @@
+description = "PointPillars for 3D object detection from LiDAR point clouds. Encodes point clouds into a pseudo-image via a"
+
+prompt = """
+Invoke the cloud:tao-train-pointpillars skill.
+Load the prompt instructions from skills/skills-tao-train-pointpillars/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-tao-train-pointpillars/references/ to complete the task.
+"""

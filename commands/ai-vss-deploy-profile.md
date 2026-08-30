@@ -1,0 +1,6 @@
+# ai:vss-deploy-profile
+
+Use to select, configure, deploy, verify, debug, or tear down a VSS profile (base, search, lvs, warehouse, edge). Not for standalone microservices — use the vss-deploy-* skill.
+
+**Skill folder:** `skills/skills-vss-deploy-profile/`
+**Namespace:** `ai`

@@ -1,0 +1,6 @@
+description = ">"
+
+prompt = """
+Invoke the doc:unslop-commit skill.
+Load the prompt instructions from skills/unslop-unslop-commit/SKILL.md and consult the copy-pasteable references or guidelines inside skills/unslop-unslop-commit/references/ to complete the task.
+"""

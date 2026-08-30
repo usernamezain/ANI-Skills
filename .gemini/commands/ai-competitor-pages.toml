@@ -1,0 +1,6 @@
+description = ">"
+
+prompt = """
+Invoke the ai:competitor-pages skill.
+Load the prompt instructions from skills/notfair-plugin-competitor-pages/SKILL.md and consult the copy-pasteable references or guidelines inside skills/notfair-plugin-competitor-pages/references/ to complete the task.
+"""

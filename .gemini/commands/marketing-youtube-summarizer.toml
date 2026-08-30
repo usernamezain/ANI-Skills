@@ -1,0 +1,6 @@
+description = "Automatically fetch YouTube video transcripts, generate structured summaries, and send full transcripts to messaging platforms. Detects YouTube URLs and provides metadata, key insights, and downloadable transcripts."
+
+prompt = """
+Invoke the marketing:youtube-summarizer skill.
+Load the prompt instructions from skills/ai-marketing-claude-code-skills-youtube-summarizer/SKILL.md and consult the copy-pasteable references or guidelines inside skills/ai-marketing-claude-code-skills-youtube-summarizer/references/ to complete the task.
+"""

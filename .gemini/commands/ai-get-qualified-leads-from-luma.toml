@@ -1,0 +1,6 @@
+description = ">"
+
+prompt = """
+Invoke the ai:get-qualified-leads-from-luma skill.
+Load the prompt instructions from skills/goose-skills-get-qualified-leads-from-luma/SKILL.md and consult the copy-pasteable references or guidelines inside skills/goose-skills-get-qualified-leads-from-luma/references/ to complete the task.
+"""

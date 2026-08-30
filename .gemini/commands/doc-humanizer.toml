@@ -1,0 +1,6 @@
+description = "|"
+
+prompt = """
+Invoke the doc:humanizer skill.
+Load the prompt instructions from skills/humanizer/SKILL.md and consult the copy-pasteable references or guidelines inside skills/humanizer/references/ to complete the task.
+"""

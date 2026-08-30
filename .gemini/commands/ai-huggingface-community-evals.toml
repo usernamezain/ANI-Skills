@@ -1,0 +1,6 @@
+description = "Run evaluations for Hugging Face Hub models using inspect-ai and lighteval on local hardware. Use for backend selection, local GPU evals, and choosing between vLLM / Transformers / accelerate. Not for HF Jobs orchestration, model-card PRs, .eval_results publication, or community-evals automation."
+
+prompt = """
+Invoke the ai:huggingface-community-evals skill.
+Load the prompt instructions from skills/skills-huggingface-community-evals/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-huggingface-community-evals/references/ to complete the task.
+"""

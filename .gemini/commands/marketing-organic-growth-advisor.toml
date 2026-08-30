@@ -1,0 +1,6 @@
+description = "Identify which organic growth path to pursue — new segments, geographies, channels, or products. Use when diagnosing where a growth constraint lives and which McKinsey growth level to act on next."
+
+prompt = """
+Invoke the marketing:organic-growth-advisor skill.
+Load the prompt instructions from skills/Product-Manager-Skills-organic-growth-advisor/SKILL.md and consult the copy-pasteable references or guidelines inside skills/Product-Manager-Skills-organic-growth-advisor/references/ to complete the task.
+"""

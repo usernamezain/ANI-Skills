@@ -1,0 +1,6 @@
+description = "Use for non-failing HoloHub app work with ./holohub: scaffold, build, run, test, visual evidence, lint, and flow benchmarking."
+
+prompt = """
+Invoke the ai:holohub-app-lifecycle skill.
+Load the prompt instructions from skills/skills-holohub-app-lifecycle/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-holohub-app-lifecycle/references/ to complete the task.
+"""

@@ -1,0 +1,6 @@
+description = "Log management - search, archives, metrics, and cost control."
+
+prompt = """
+Invoke the ai:dd-logs skill.
+Load the prompt instructions from skills/agent-skills-dd-logs/SKILL.md and consult the copy-pasteable references or guidelines inside skills/agent-skills-dd-logs/references/ to complete the task.
+"""

@@ -1,0 +1,6 @@
+description = "Contains well-defined rules for creating natural, accurate, and readable writing. Use whenever authoring longer text, like analysis documents, PR or CL descriptions, or documentation."
+
+prompt = """
+Invoke the auth:natural-writing skill.
+Load the prompt instructions from skills/skills-natural-writing/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-natural-writing/references/ to complete the task.
+"""

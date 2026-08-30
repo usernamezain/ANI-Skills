@@ -1,0 +1,6 @@
+description = "Search for jobs matching your skills, experience, and preferences"
+
+prompt = """
+Invoke the ai:job-search skill.
+Load the prompt instructions from skills/goose-skills-job-search/SKILL.md and consult the copy-pasteable references or guidelines inside skills/goose-skills-job-search/references/ to complete the task.
+"""

@@ -1,0 +1,6 @@
+description = "Google Workflow: Convert a Gmail message into a Google Tasks entry."
+
+prompt = """
+Invoke the ai:gws-workflow-email-to-task skill.
+Load the prompt instructions from skills/cli-gws-workflow-email-to-task/SKILL.md and consult the copy-pasteable references or guidelines inside skills/cli-gws-workflow-email-to-task/references/ to complete the task.
+"""

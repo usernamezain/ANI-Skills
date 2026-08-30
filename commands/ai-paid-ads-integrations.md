@@ -1,0 +1,6 @@
+# ai:paid-ads-integrations
+
+Discover, connect, and verify NotFair paid-ad integrations and their actual capabilities. Use when asked to connect an ad account, configure an ads MCP, check available tools, troubleshoot access, or determine whether NotFair can read or change a platform.
+
+**Skill folder:** `skills/notfair-plugin-paid-ads-integrations/`
+**Namespace:** `ai`

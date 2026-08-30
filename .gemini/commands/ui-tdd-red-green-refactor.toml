@@ -1,0 +1,6 @@
+description = ">"
+
+prompt = """
+Invoke the ui:tdd-red-green-refactor skill.
+Load the prompt instructions from skills/design.md-tdd-red-green-refactor/SKILL.md and consult the copy-pasteable references or guidelines inside skills/design.md-tdd-red-green-refactor/references/ to complete the task.
+"""

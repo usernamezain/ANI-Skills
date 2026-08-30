@@ -1,0 +1,6 @@
+# quality:paid-ads-guide
+
+Explain NotFair's paid-ads skills, installation, platform boundaries, account connections, and current product capabilities. Use for questions about how NotFair works, what it supports, how to install or connect it, plans or limits, or paid-media troubleshooting that is not an account-performance request.
+
+**Skill folder:** `skills/notfair-plugin-paid-ads-guide/`
+**Namespace:** `quality`

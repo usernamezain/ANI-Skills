@@ -1,0 +1,6 @@
+description = "Track thought leaders and industry voices across LinkedIn, Twitter, and YouTube. Monitor publishing cadence, content themes, engagement patterns, and audience growth for competitive positioning and relationship-building intelligence."
+
+prompt = """
+Invoke the marketing:thought-leadership-monitor skill.
+Load the prompt instructions from skills/sandbase-skills-thought-leadership-monitor/SKILL.md and consult the copy-pasteable references or guidelines inside skills/sandbase-skills-thought-leadership-monitor/references/ to complete the task.
+"""

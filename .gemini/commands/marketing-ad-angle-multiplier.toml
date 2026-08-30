@@ -1,0 +1,6 @@
+description = "Expand a core idea into multiple distinct ad angles. Trigger on \"more ads\", \"creative testing\", \"scale campaigns\"."
+
+prompt = """
+Invoke the marketing:ad-angle-multiplier skill.
+Load the prompt instructions from skills/advertising-skills-ad-angle-multiplier/SKILL.md and consult the copy-pasteable references or guidelines inside skills/advertising-skills-ad-angle-multiplier/references/ to complete the task.
+"""

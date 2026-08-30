@@ -1,0 +1,6 @@
+description = "Prepare for sales conversations with comprehensive account intelligence — company news, hiring signals, product launches, social activity, and decision-maker profiles. Combines firmographic data, news monitoring, and social signals for sales-ready briefings."
+
+prompt = """
+Invoke the marketing:sales-intelligence skill.
+Load the prompt instructions from skills/sandbase-skills-sales-intelligence/SKILL.md and consult the copy-pasteable references or guidelines inside skills/sandbase-skills-sales-intelligence/references/ to complete the task.
+"""

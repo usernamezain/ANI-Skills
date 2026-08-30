@@ -1,0 +1,6 @@
+description = "Research emerging academic trends by combining scholarly databases, web sources, and news to identify rising research areas, breakthrough papers, and shifting scientific consensus. Ideal for R&D teams tracking frontier science."
+
+prompt = """
+Invoke the db:academic-trend-research skill.
+Load the prompt instructions from skills/sandbase-skills-academic-trend-research/SKILL.md and consult the copy-pasteable references or guidelines inside skills/sandbase-skills-academic-trend-research/references/ to complete the task.
+"""

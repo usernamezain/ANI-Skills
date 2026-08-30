@@ -1,0 +1,6 @@
+description = "Guarantee valid JSON/XML/code structure during generation, use Pydantic models for type-safe outputs, support local models (Transformers, vLLM), and maximize inference speed with Outlines - dottxt.ai's structured generation library"
+
+prompt = """
+Invoke the ai:outlines skill.
+Load the prompt instructions from skills/AI-Research-SKILLs-outlines/SKILL.md and consult the copy-pasteable references or guidelines inside skills/AI-Research-SKILLs-outlines/references/ to complete the task.
+"""

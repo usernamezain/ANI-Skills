@@ -1,0 +1,6 @@
+description = ">-"
+
+prompt = """
+Invoke the ai:gke-inference skill.
+Load the prompt instructions from skills/skills-gke-inference/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-gke-inference/references/ to complete the task.
+"""

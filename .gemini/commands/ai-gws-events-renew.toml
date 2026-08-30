@@ -1,0 +1,6 @@
+description = "Google Workspace Events: Renew/reactivate Workspace Events subscriptions."
+
+prompt = """
+Invoke the ai:gws-events-renew skill.
+Load the prompt instructions from skills/cli-gws-events-renew/SKILL.md and consult the copy-pasteable references or guidelines inside skills/cli-gws-events-renew/references/ to complete the task.
+"""

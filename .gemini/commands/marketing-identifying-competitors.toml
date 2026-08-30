@@ -1,0 +1,6 @@
+description = "Finds out who a brand competes with. Reads what the brand sells from its site, searches the web for the alternatives buyers compare it against, and proposes a shortlist with competitor names and websites. Use when the user asks who their competitors are, or to find or refresh their competitor list, or when another skill needs competitors named first."
+
+prompt = """
+Invoke the marketing:identifying-competitors skill.
+Load the prompt instructions from skills/superCMO-skills-identifying-competitors/SKILL.md and consult the copy-pasteable references or guidelines inside skills/superCMO-skills-identifying-competitors/references/ to complete the task.
+"""

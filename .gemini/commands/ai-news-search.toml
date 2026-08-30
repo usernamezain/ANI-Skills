@@ -1,0 +1,6 @@
+description = "USE FOR news search. Returns news articles with title, URL, description, age, thumbnail, profile. Supports freshness and date range filtering, SafeSearch filter and Goggles for custom ranking."
+
+prompt = """
+Invoke the ai:news-search skill.
+Load the prompt instructions from skills/brave-search-skills-news-search/SKILL.md and consult the copy-pasteable references or guidelines inside skills/brave-search-skills-news-search/references/ to complete the task.
+"""

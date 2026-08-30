@@ -1,0 +1,6 @@
+description = ">-"
+
+prompt = """
+Invoke the ai:gke-ai-troubleshooting-jobset-interruption skill.
+Load the prompt instructions from skills/skills-gke-ai-troubleshooting-jobset-interruption/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-gke-ai-troubleshooting-jobset-interruption/references/ to complete the task.
+"""

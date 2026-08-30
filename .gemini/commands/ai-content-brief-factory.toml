@@ -1,0 +1,6 @@
+description = ">"
+
+prompt = """
+Invoke the ai:content-brief-factory skill.
+Load the prompt instructions from skills/goose-skills-content-brief-factory/SKILL.md and consult the copy-pasteable references or guidelines inside skills/goose-skills-content-brief-factory/references/ to complete the task.
+"""

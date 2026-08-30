@@ -1,0 +1,6 @@
+description = ">"
+
+prompt = """
+Invoke the ai:tao-run-inference-service skill.
+Load the prompt instructions from skills/skills-tao-run-inference-service/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-tao-run-inference-service/references/ to complete the task.
+"""

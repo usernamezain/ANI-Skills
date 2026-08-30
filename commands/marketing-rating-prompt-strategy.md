@@ -1,0 +1,6 @@
+# marketing:rating-prompt-strategy
+
+When the user wants to improve their app's star rating, increase ratings volume, optimize when and how they prompt users for a review, or recover from a bad rating period. Use when the user mentions "app rating", "star rating", "review prompt", "SKStoreReviewRequest", "In-App Review API", "ask for review", "low rating", "rating drop", "get more reviews", or "recover from 1-star". For responding to reviews, see review-management. For overall ASO health, see aso-audit.
+
+**Skill folder:** `skills/aso-skills-rating-prompt-strategy/`
+**Namespace:** `marketing`

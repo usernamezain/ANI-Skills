@@ -1,0 +1,6 @@
+description = "Read and write Google Docs."
+
+prompt = """
+Invoke the ai:gws-docs skill.
+Load the prompt instructions from skills/cli-gws-docs/SKILL.md and consult the copy-pasteable references or guidelines inside skills/cli-gws-docs/references/ to complete the task.
+"""

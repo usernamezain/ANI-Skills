@@ -1,0 +1,6 @@
+description = ">"
+
+prompt = """
+Invoke the scraping:conference-speaker-scraper skill.
+Load the prompt instructions from skills/goose-skills-conference-speaker-scraper/SKILL.md and consult the copy-pasteable references or guidelines inside skills/goose-skills-conference-speaker-scraper/references/ to complete the task.
+"""

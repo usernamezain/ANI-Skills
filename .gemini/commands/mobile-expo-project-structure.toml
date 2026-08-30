@@ -1,0 +1,6 @@
+description = "Framework (OSS). Folder structure for a new Expo app. Use when scaffolding or laying out a new Expo project with Expo Router, or deciding where a file should live in one. For new projects only — never restructure an existing app to match."
+
+prompt = """
+Invoke the mobile:expo-project-structure skill.
+Load the prompt instructions from skills/skills-expo-project-structure/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-expo-project-structure/references/ to complete the task.
+"""

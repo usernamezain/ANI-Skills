@@ -1,0 +1,6 @@
+description = "Diagnose context stuffing vs. context engineering. Use when an AI workflow feels bloated, brittle, or hard to steer reliably."
+
+prompt = """
+Invoke the plan:context-engineering-advisor skill.
+Load the prompt instructions from skills/Product-Manager-Skills-context-engineering-advisor/SKILL.md and consult the copy-pasteable references or guidelines inside skills/Product-Manager-Skills-context-engineering-advisor/references/ to complete the task.
+"""

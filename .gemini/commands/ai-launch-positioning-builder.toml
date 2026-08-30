@@ -1,0 +1,6 @@
+description = ">"
+
+prompt = """
+Invoke the ai:launch-positioning-builder skill.
+Load the prompt instructions from skills/goose-skills-launch-positioning-builder/SKILL.md and consult the copy-pasteable references or guidelines inside skills/goose-skills-launch-positioning-builder/references/ to complete the task.
+"""

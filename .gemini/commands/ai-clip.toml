@@ -1,0 +1,6 @@
+description = "OpenAI's model connecting vision and language. Enables zero-shot image classification, image-text matching, and cross-modal retrieval. Trained on 400M image-text pairs. Use for image search, content moderation, or vision-language tasks without fine-tuning. Best for general-purpose image understanding."
+
+prompt = """
+Invoke the ai:clip skill.
+Load the prompt instructions from skills/AI-Research-SKILLs-clip/SKILL.md and consult the copy-pasteable references or guidelines inside skills/AI-Research-SKILLs-clip/references/ to complete the task.
+"""

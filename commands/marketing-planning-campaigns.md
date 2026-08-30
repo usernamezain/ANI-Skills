@@ -1,0 +1,6 @@
+# marketing:planning-campaigns
+
+Decides what to make next — turns the brand, the product, your own running ads and competitor research into the concepts worth testing next. Each concept is a full description of one ad, the buyer it targets, the bet it tests and the evidence it rests on — complete enough for a producer to build from directly. Nothing is generated before the plan is approved — it asks which concepts to build, and only then hands each approved concept to the skill that builds it. Use when the user asks what to make, what to test next, what hooks or angles to try, for campaign concepts, or a creative plan — or wants the whole campaign run end to end, from research to finished ads. Not for a single ad with no plan behind it — that goes straight to the producer skill.
+
+**Skill folder:** `skills/superCMO-skills-planning-campaigns/`
+**Namespace:** `marketing`

@@ -1,0 +1,6 @@
+description = "Guides C++ code toward modern idioms (C++20/23/26). Use when writing new C++ code, modernizing legacy patterns, or working on security-critical C++. Replaces raw pointers with smart pointers, SFINAE with concepts, printf with std::print, error codes with std::expected."
+
+prompt = """
+Invoke the security:modern-cpp skill.
+Load the prompt instructions from skills/skills-modern-cpp/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-modern-cpp/references/ to complete the task.
+"""

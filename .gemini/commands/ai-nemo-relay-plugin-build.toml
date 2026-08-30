@@ -1,0 +1,6 @@
+description = "Use this skill when building or packaging reusable NeMo Relay runtime behavior as an embedded configuration component or a manifest-backed `rust_dynamic` native or `worker` gRPC plugin, with deterministic validation and rollback-safe registration."
+
+prompt = """
+Invoke the ai:nemo-relay-plugin-build skill.
+Load the prompt instructions from skills/skills-nemo-relay-plugin-build/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-nemo-relay-plugin-build/references/ to complete the task.
+"""

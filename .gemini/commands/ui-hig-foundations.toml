@@ -1,0 +1,6 @@
+description = ">-"
+
+prompt = """
+Invoke the ui:hig-foundations skill.
+Load the prompt instructions from skills/hig-doctor-hig-foundations/SKILL.md and consult the copy-pasteable references or guidelines inside skills/hig-doctor-hig-foundations/references/ to complete the task.
+"""

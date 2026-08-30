@@ -1,0 +1,6 @@
+description = "Guides Qdrant multi-tenant scaling. Use when someone asks 'how to scale tenants', 'one collection per tenant?', 'tenant isolation', 'dedicated shards', or reports tenant performance issues. Also use when multi-tenant workloads outgrow shared infrastructure."
+
+prompt = """
+Invoke the db:qdrant-tenant-scaling skill.
+Load the prompt instructions from skills/skills-qdrant-tenant-scaling/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-qdrant-tenant-scaling/references/ to complete the task.
+"""

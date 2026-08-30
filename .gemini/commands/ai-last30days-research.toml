@@ -1,0 +1,6 @@
+description = "Research any topic across the last 30 days using Reddit, Twitter, YouTube, Hacker News, web search, and news sources through SandBase. Use when asked for recent trends, launch reactions, competitor activity, person/company profiles, or current event analysis."
+
+prompt = """
+Invoke the ai:last30days-research skill.
+Load the prompt instructions from skills/sandbase-skills-last30days-research/SKILL.md and consult the copy-pasteable references or guidelines inside skills/sandbase-skills-last30days-research/references/ to complete the task.
+"""

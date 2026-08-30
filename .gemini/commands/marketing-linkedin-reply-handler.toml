@@ -1,0 +1,6 @@
+description = "Draft a reply to a specific existing LinkedIn comment from its URL. Use when the user wants to reply to a comment on any post, or follow up after an author replied to them. Parses the commentUrn, resolves the correct parentComment target (LinkedIn flattens threads to 2 levels), and posts via Publora on approval. Not for top-level comments (use linkedin-comment-drafter)."
+
+prompt = """
+Invoke the marketing:linkedin-reply-handler skill.
+Load the prompt instructions from skills/linkedin-skills-linkedin-reply-handler/SKILL.md and consult the copy-pasteable references or guidelines inside skills/linkedin-skills-linkedin-reply-handler/references/ to complete the task.
+"""

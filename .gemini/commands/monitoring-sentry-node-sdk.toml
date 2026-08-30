@@ -1,0 +1,6 @@
+description = "Full Sentry SDK setup for Node.js, Bun, and Deno. Use when asked to \"add Sentry to Node.js\", \"add Sentry to Bun\", \"add Sentry to Deno\", \"install @sentry/node\", \"@sentry/bun\", or \"@sentry/deno\", or configure error monitoring, tracing, logging, profiling, metrics, crons, or AI monitoring for server-side JavaScript/TypeScript runtimes."
+
+prompt = """
+Invoke the monitoring:sentry-node-sdk skill.
+Load the prompt instructions from skills/sentry-for-ai-sentry-node-sdk/SKILL.md and consult the copy-pasteable references or guidelines inside skills/sentry-for-ai-sentry-node-sdk/references/ to complete the task.
+"""

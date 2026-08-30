@@ -1,0 +1,6 @@
+description = "Optimize Core Web Vitals (LCP, INP, CLS) for better page experience using field and lab evidence. Use when asked to \"improve Core Web Vitals\", \"fix LCP\", \"reduce CLS\", \"optimize INP\", \"page experience optimization\", or \"fix layout shifts\"."
+
+prompt = """
+Invoke the quality:core-web-vitals skill.
+Load the prompt instructions from skills/web-quality-skills-core-web-vitals/SKILL.md and consult the copy-pasteable references or guidelines inside skills/web-quality-skills-core-web-vitals/references/ to complete the task.
+"""

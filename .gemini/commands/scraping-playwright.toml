@@ -1,0 +1,6 @@
+description = "Use when the task requires automating a real browser from the terminal (navigation, form filling, snapshots, screenshots, data extraction, UI-flow debugging) via `playwright-cli` or the bundled wrapper script."
+
+prompt = """
+Invoke the scraping:playwright skill.
+Load the prompt instructions from skills/skills-playwright/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-playwright/references/ to complete the task.
+"""

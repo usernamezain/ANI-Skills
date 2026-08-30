@@ -1,0 +1,6 @@
+description = "Sets up WebXR in Three.js — VRButton, ARButton, XRSession, controllers, hand tracking, hit testing, and immersive experiences. Use when the user asks about VR, AR, WebXR, immersive experiences, XR controllers, hand tracking, or augmented reality. Trigger keywords: WebXR, VR, AR, VRButton, ARButton, XRSession, controller, hand tracking, immersive, augmented reality, virtual reality."
+
+prompt = """
+Invoke the auth:threejs-xr skill.
+Load the prompt instructions from skills/threejs-skills-threejs-xr/SKILL.md and consult the copy-pasteable references or guidelines inside skills/threejs-skills-threejs-xr/references/ to complete the task.
+"""

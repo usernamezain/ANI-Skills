@@ -1,0 +1,6 @@
+description = "Build a phase-gated EOL checklist sized to the sunset, with a named owner on every item. Use when the decision to retire is made and you need the operational plan."
+
+prompt = """
+Invoke the plan:eol-checklist skill.
+Load the prompt instructions from skills/Product-Manager-Skills-eol-checklist/SKILL.md and consult the copy-pasteable references or guidelines inside skills/Product-Manager-Skills-eol-checklist/references/ to complete the task.
+"""

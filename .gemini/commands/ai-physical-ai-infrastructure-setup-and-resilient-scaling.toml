@@ -1,0 +1,6 @@
+description = ">-"
+
+prompt = """
+Invoke the ai:physical-ai-infrastructure-setup-and-resilient-scaling skill.
+Load the prompt instructions from skills/skills-physical-ai-infrastructure-setup-and-resilient-scaling/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-physical-ai-infrastructure-setup-and-resilient-scaling/references/ to complete the task.
+"""

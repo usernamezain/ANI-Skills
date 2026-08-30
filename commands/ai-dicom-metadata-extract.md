@@ -1,0 +1,6 @@
+# ai:dicom-metadata-extract
+
+Used for extracting selected metadata from one DICOM file and flagging standard-tag PHI presence. Not for anonymization or clinical use.
+
+**Skill folder:** `skills/skills-dicom-metadata-extract/`
+**Namespace:** `ai`

@@ -1,0 +1,85 @@
+---
+name: cloud:firebase-app-hosting-basics
+description: >-
+  Deploys and manages full-stack web applications (Next.js, Angular) with Server-Side Rendering (SSR) using Firebase App Hosting. Use when deploying Next.js/Angular apps, configuring apphosting.yaml or firebase.json apphosting blocks, managing secrets, setting up GitHub CI/CD, or configuring Blaze billing requirements. Don't use for classic static web hosting, Auth, Firestore, Crashlytics, or Xcode.
+metadata:
+  category: Serverless
+---
+
+# App Hosting Basics
+
+## Description
+
+This skill enables the agent to deploy and manage modern, full-stack web
+applications (Next.js, Angular, etc.) using Firebase App Hosting.
+
+**Important**: In order to use App Hosting, your Firebase project must be on the
+Blaze pricing plan. Direct the user to
+https://console.firebase.google.com/project/_/overview?purchaseBillingPlan=metered
+to upgrade their plan.
+
+## Hosting vs App Hosting
+
+**Choose Firebase Hosting if:**
+
+- You are deploying a static site (HTML/CSS/JS).
+- You are deploying a simple SPA (React, Vue, etc. without SSR).
+- You want full control over the build and deploy process via CLI.
+
+**Choose Firebase App Hosting if:**
+
+- You are using a supported full-stack framework like Next.js or Angular.
+- You need Server-Side Rendering (SSR) or ISR.
+- You want an automated "git push to deploy" workflow with zero configuration.
+
+## Deploying to App Hosting
+
+### Deploy from Source
+
+This is the recommended flow for most users.
+
+1. Configure `firebase.json` with an `apphosting` block.
+   
+   ```json
+   {
+     "apphosting": {
+       "backendId": "my-app-id",
+       "rootDir": "/",
+       "ignore": [
+         "node_modules",
+         ".git",
+         "firebase-debug.log",
+         "firebase-debug.*.log",
+         "functions"
+       ]
+     }
+   }
+   ```
+1. Create or edit `apphosting.yaml`- see
+   [Configuration](references/configuration.md) for more information on how to
+   do so.
+1. If the app needs safe access to sensitive keys, use
+   `npx -y firebase-tools@latest apphosting:secrets` commands to set and grant
+   access to secrets.
+1. Run `npx -y firebase-tools@latest deploy` when you are ready to deploy.
+
+### Automated deployment via GitHub (CI/CD)
+
+Alternatively, set up a backend connected to a GitHub repository for automated
+deployments "git push" deployments. This is only recommended for more advanced
+users, and is not required to use App Hosting. See
+[CLI Commands](references/cli_commands.md) for more information on how to set
+this up using CLI commands.
+
+## Emulation
+
+See [Emulation](references/emulation.md) for more information on how to test
+your app locally using the Firebase Local Emulator Suite.
+
+
+## When to Use
+- Use this skill when the task involves `firebase-app-hosting-basics` workflows, tooling, or domain requirements from `firebase/agent-skills`.
+- Trigger on user keywords: `firebase-app-hosting-basics`, `agent-skills`, `cloud`.
+
+## What to Use
+- Read the instructions below, implement pattern-verified code, and consult the `references/` folder if available.

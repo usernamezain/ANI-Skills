@@ -1,0 +1,6 @@
+description = "Multi-page Lighthouse audit via the MIT-licensed Unlighthouse CLI. Free-tier alternative to running PageSpeed against every URL on a site, no API quota burn, runs locally."
+
+prompt = """
+Invoke the marketing:seo-unlighthouse skill.
+Load the prompt instructions from skills/claude-seo-seo-unlighthouse/SKILL.md and consult the copy-pasteable references or guidelines inside skills/claude-seo-seo-unlighthouse/references/ to complete the task.
+"""

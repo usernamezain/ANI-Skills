@@ -1,0 +1,6 @@
+description = "Uncover customer jobs, pains, and gains in a structured JTBD format. Use when clarifying unmet needs, repositioning a product, or improving discovery and messaging."
+
+prompt = """
+Invoke the plan:jobs-to-be-done skill.
+Load the prompt instructions from skills/Product-Manager-Skills-jobs-to-be-done/SKILL.md and consult the copy-pasteable references or guidelines inside skills/Product-Manager-Skills-jobs-to-be-done/references/ to complete the task.
+"""

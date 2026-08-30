@@ -1,0 +1,6 @@
+description = "Read event data from a Google Sheets spreadsheet and create Google Calendar entries for each row."
+
+prompt = """
+Invoke the ai:recipe-create-events-from-sheet skill.
+Load the prompt instructions from skills/cli-recipe-create-events-from-sheet/SKILL.md and consult the copy-pasteable references or guidelines inside skills/cli-recipe-create-events-from-sheet/references/ to complete the task.
+"""

@@ -1,0 +1,6 @@
+description = "Overview of `workflows/catheter_navigation/` (fluorosim DRR, XPBD physics, vasculature digital twin). Use when the user asks what the catheter navigation workflow is, what's supported, or where to start."
+
+prompt = """
+Invoke the ai:i4h-catheter-navigation skill.
+Load the prompt instructions from skills/skills-i4h-catheter-navigation/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-i4h-catheter-navigation/references/ to complete the task.
+"""

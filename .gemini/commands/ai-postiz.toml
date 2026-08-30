@@ -1,0 +1,6 @@
+description = "Execute the ai:postiz skill."
+
+prompt = """
+Invoke the ai:postiz skill.
+Load the prompt instructions from skills/postiz-agent-postiz/skills/postiz/SKILL.md and consult the copy-pasteable references or guidelines inside skills/postiz-agent-postiz/skills/postiz/references/ to complete the task.
+"""

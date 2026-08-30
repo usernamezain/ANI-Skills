@@ -1,0 +1,6 @@
+description = "Get prediction market odds and prices from Polymarket and Kalshi"
+
+prompt = """
+Invoke the ai:prediction-market-odds skill.
+Load the prompt instructions from skills/goose-skills-prediction-market-odds/SKILL.md and consult the copy-pasteable references or guidelines inside skills/goose-skills-prediction-market-odds/references/ to complete the task.
+"""

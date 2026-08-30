@@ -1,0 +1,6 @@
+description = ">"
+
+prompt = """
+Invoke the scraping:upgrade-browser-sdk-v5 skill.
+Load the prompt instructions from skills/agent-skills-upgrade-browser-sdk-v5/SKILL.md and consult the copy-pasteable references or guidelines inside skills/agent-skills-upgrade-browser-sdk-v5/references/ to complete the task.
+"""

@@ -1,0 +1,6 @@
+description = "Map a market's segments, players, substitutes, and whitespace with cited evidence. Use when entering or re-evaluating a market before sizing, positioning, or picking competitors to study."
+
+prompt = """
+Invoke the plan:market-landscape-scan skill.
+Load the prompt instructions from skills/Product-Manager-Skills-market-landscape-scan/SKILL.md and consult the copy-pasteable references or guidelines inside skills/Product-Manager-Skills-market-landscape-scan/references/ to complete the task.
+"""

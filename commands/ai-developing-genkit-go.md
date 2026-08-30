@@ -1,0 +1,6 @@
+# ai:developing-genkit-go
+
+Develop AI-powered applications using Genkit in Go. Use when the user asks to build AI features, agents, flows, or tools in Go using Genkit, or when working with Genkit Go code involving generation, prompts, streaming, tool calling, or model providers.
+
+**Skill folder:** `skills/skills-developing-genkit-go/`
+**Namespace:** `ai`

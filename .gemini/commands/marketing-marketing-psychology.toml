@@ -1,0 +1,6 @@
+description = "When the user wants to apply psychological principles, mental models, or behavioral science to marketing. Also use when the user mentions 'psychology,' 'mental models,' 'cognitive bias,' 'persuasion,' 'behavioral science,' 'why people buy,' 'decision-making,' 'consumer behavior,' 'anchoring,' 'social proof,' 'scarcity,' 'loss aversion,' 'framing,' or 'nudge.' Use this whenever someone wants to understand or leverage how people think and make decisions in a marketing context. For applying psychology to specific pages, see cro; for pricing tactics, see pricing; for copy framing, see copywriting."
+
+prompt = """
+Invoke the marketing:marketing-psychology skill.
+Load the prompt instructions from skills/marketingskills-marketing-psychology/SKILL.md and consult the copy-pasteable references or guidelines inside skills/marketingskills-marketing-psychology/references/ to complete the task.
+"""

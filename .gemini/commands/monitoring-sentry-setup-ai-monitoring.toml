@@ -1,0 +1,6 @@
+description = "Setup Sentry AI Agent Monitoring in any project. Use when asked to monitor LLM calls, track AI agents, track conversations, or instrument OpenAI/Anthropic/Vercel AI/LangChain/Google GenAI/Pydantic AI/Laravel AI. Detects installed AI SDKs and configures appropriate integrations."
+
+prompt = """
+Invoke the monitoring:sentry-setup-ai-monitoring skill.
+Load the prompt instructions from skills/sentry-for-ai-sentry-setup-ai-monitoring/SKILL.md and consult the copy-pasteable references or guidelines inside skills/sentry-for-ai-sentry-setup-ai-monitoring/references/ to complete the task.
+"""

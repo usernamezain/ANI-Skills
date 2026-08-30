@@ -1,0 +1,6 @@
+# marketing:email-render-builder
+
+Use when the user asks to "build the email HTML", "make this email responsive", "fix dark-mode rendering", or "QA the email across clients"; produces the coded HTML build — a responsive table layout, dark-mode + accessibility pass, a client-render matrix, image-block fallbacks, and a plain-text parity check. Not for writing the copy — use email-creative-builder; not for scoring the email or computing EQS — use email-quality-auditor. 邮件HTML/响应式邮件/暗色模式渲染
+
+**Skill folder:** `skills/aaron-marketing-skills-email-render-builder/`
+**Namespace:** `marketing`

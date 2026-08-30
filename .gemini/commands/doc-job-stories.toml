@@ -1,0 +1,6 @@
+description = "Create job stories using the 'When [situation], I want to [motivation], so I can [outcome]' format with detailed acceptance criteria. Use when writing job stories, creating JTBD-style backlog items, or expressing user situations and motivations."
+
+prompt = """
+Invoke the doc:job-stories skill.
+Load the prompt instructions from skills/pm-skills-job-stories/SKILL.md and consult the copy-pasteable references or guidelines inside skills/pm-skills-job-stories/references/ to complete the task.
+"""

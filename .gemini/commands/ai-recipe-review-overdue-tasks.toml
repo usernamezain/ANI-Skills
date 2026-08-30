@@ -1,0 +1,6 @@
+description = "Find Google Tasks that are past due and need attention."
+
+prompt = """
+Invoke the ai:recipe-review-overdue-tasks skill.
+Load the prompt instructions from skills/cli-recipe-review-overdue-tasks/SKILL.md and consult the copy-pasteable references or guidelines inside skills/cli-recipe-review-overdue-tasks/references/ to complete the task.
+"""

@@ -1,0 +1,6 @@
+description = "Modify, build, test, debug, and contribute to NVIDIA cuOpt (C++/CUDA, Python, server, CI). Use for solver internals, PRs, DCO, and code conventions."
+
+prompt = """
+Invoke the ai:cuopt-developer skill.
+Load the prompt instructions from skills/skills-cuopt-developer/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-cuopt-developer/references/ to complete the task.
+"""

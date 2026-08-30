@@ -1,0 +1,6 @@
+description = ">"
+
+prompt = """
+Invoke the ai:feature-launch-playbook skill.
+Load the prompt instructions from skills/goose-skills-feature-launch-playbook/SKILL.md and consult the copy-pasteable references or guidelines inside skills/goose-skills-feature-launch-playbook/references/ to complete the task.
+"""

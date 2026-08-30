@@ -1,0 +1,6 @@
+description = "Web research API with OpenAI-compatible chat completions and async tasks"
+
+prompt = """
+Invoke the ai:web-research-parallel skill.
+Load the prompt instructions from skills/goose-skills-web-research-parallel/SKILL.md and consult the copy-pasteable references or guidelines inside skills/goose-skills-web-research-parallel/references/ to complete the task.
+"""

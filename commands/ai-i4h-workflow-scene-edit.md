@@ -1,0 +1,6 @@
+# ai:i4h-workflow-scene-edit
+
+Edit an env's scene in place — objects, cameras, task, success bounds, randomization. Use when asked to edit a scene or launch/run/open an env in edit mode (`--bridge`), incl. a just-created env.
+
+**Skill folder:** `skills/skills-i4h-workflow-scene-edit/`
+**Namespace:** `ai`

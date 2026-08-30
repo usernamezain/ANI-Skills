@@ -1,0 +1,6 @@
+description = ">-"
+
+prompt = """
+Invoke the cloud:converting-email-templates skill.
+Load the prompt instructions from skills/mailtrap-skills-converting-email-templates/SKILL.md and consult the copy-pasteable references or guidelines inside skills/mailtrap-skills-converting-email-templates/references/ to complete the task.
+"""

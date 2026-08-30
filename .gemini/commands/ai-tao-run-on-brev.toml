@@ -1,0 +1,6 @@
+description = "Brev managed GPU instances with Docker support. Use when running TAO training, evaluation, or inference on"
+
+prompt = """
+Invoke the ai:tao-run-on-brev skill.
+Load the prompt instructions from skills/skills-tao-run-on-brev/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-tao-run-on-brev/references/ to complete the task.
+"""

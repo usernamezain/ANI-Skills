@@ -1,0 +1,6 @@
+description = "Prioritize a backlog of feature ideas based on impact, effort, risk, and strategic alignment with top 5 recommendations. Use when prioritizing a feature backlog, making scope decisions, or ranking product ideas."
+
+prompt = """
+Invoke the plan:prioritize-features skill.
+Load the prompt instructions from skills/pm-skills-prioritize-features/SKILL.md and consult the copy-pasteable references or guidelines inside skills/pm-skills-prioritize-features/references/ to complete the task.
+"""

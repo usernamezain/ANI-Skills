@@ -1,0 +1,6 @@
+description = "Plan engagement for a specific stakeholder. Use when preparing an outreach, navigating resistance, or aligning a critical relationship before a key milestone."
+
+prompt = """
+Invoke the plan:stakeholder-engagement-advisor skill.
+Load the prompt instructions from skills/Product-Manager-Skills-stakeholder-engagement-advisor/SKILL.md and consult the copy-pasteable references or guidelines inside skills/Product-Manager-Skills-stakeholder-engagement-advisor/references/ to complete the task.
+"""

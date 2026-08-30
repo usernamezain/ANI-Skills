@@ -1,0 +1,6 @@
+description = "Teaches agents to iteratively build websites using Stitch with an autonomous baton-passing loop pattern"
+
+prompt = """
+Invoke the ui:stitch-loop skill.
+Load the prompt instructions from skills/stitch-skills-stitch-loop/SKILL.md and consult the copy-pasteable references or guidelines inside skills/stitch-skills-stitch-loop/references/ to complete the task.
+"""

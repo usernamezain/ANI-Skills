@@ -1,0 +1,6 @@
+description = "Use for reusable Holoscan Module work with ./holohub: scaffold, tests, editable install, DEB/WHEEL packaging, and clean-consumer proof."
+
+prompt = """
+Invoke the ai:holohub-module-lifecycle skill.
+Load the prompt instructions from skills/skills-holohub-module-lifecycle/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-holohub-module-lifecycle/references/ to complete the task.
+"""

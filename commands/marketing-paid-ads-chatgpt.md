@@ -1,0 +1,6 @@
+# marketing:paid-ads-chatgpt
+
+Plan and review ChatGPT Ads experiments without assuming ad inventory, account access, or platform capabilities. Use for ChatGPT advertising, OpenAI ads, conversational ad concepts, ChatGPT campaign plans, or performance reviews from a verified export.
+
+**Skill folder:** `skills/notfair-plugin-paid-ads-chatgpt/`
+**Namespace:** `marketing`

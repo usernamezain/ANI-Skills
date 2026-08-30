@@ -1,0 +1,6 @@
+# ai:vss-generate-video-calibration
+
+Use to run AutoMagicCalib on local MP4s, RTSP, or the bundled sample dataset, and to deploy vss-auto-calibration when needed. Do not use for non-AMC calibration or runtime analytics.
+
+**Skill folder:** `skills/skills-vss-generate-video-calibration/`
+**Namespace:** `ai`

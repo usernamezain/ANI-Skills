@@ -1,0 +1,6 @@
+description = "Guide for setting up and using Firebase Authentication. Use this skill when the user's app requires user sign-in, user management, or secure data access using auth rules."
+
+prompt = """
+Invoke the auth:firebase-auth-basics skill.
+Load the prompt instructions from skills/agent-skills-firebase-auth-basics/SKILL.md and consult the copy-pasteable references or guidelines inside skills/agent-skills-firebase-auth-basics/references/ to complete the task.
+"""

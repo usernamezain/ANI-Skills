@@ -1,0 +1,6 @@
+# mobile:sentry-fix-stack-traces
+
+Make Sentry stack traces readable — upload source maps for JavaScript/TypeScript, or debug files for native and mobile (dSYM, ProGuard/R8, NDK symbols, Dart obfuscation maps, .NET PDBs). Use when frames in Sentry show minified names, bundled paths, hex addresses, "unknown", or method names with no file/line, instead of your original source.
+
+**Skill folder:** `skills/sentry-for-ai-sentry-fix-stack-traces/`
+**Namespace:** `mobile`

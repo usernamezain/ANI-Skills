@@ -1,0 +1,6 @@
+description = "Run a positioning workshop that surfaces target customer, unmet need, category, benefits, and differentiation. Use when your product messaging feels fuzzy, generic, or misaligned."
+
+prompt = """
+Invoke the plan:positioning-workshop skill.
+Load the prompt instructions from skills/Product-Manager-Skills-positioning-workshop/SKILL.md and consult the copy-pasteable references or guidelines inside skills/Product-Manager-Skills-positioning-workshop/references/ to complete the task.
+"""

@@ -1,0 +1,6 @@
+# ai:nemo-relay-install
+
+Use this skill when choosing or running NeMo Relay installation for the CLI, Python, Node.js, Rust, OpenClaw, Hermes, or maintained framework integrations before runtime configuration or quick-start setup.
+
+**Skill folder:** `skills/skills-nemo-relay-install/`
+**Namespace:** `ai`

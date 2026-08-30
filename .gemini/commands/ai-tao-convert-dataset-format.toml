@@ -1,0 +1,6 @@
+description = "Run `tao-daft convert` to convert NVIDIA TAO DAFT datasets between supported formats. Do not use for non-DAFT data."
+
+prompt = """
+Invoke the ai:tao-convert-dataset-format skill.
+Load the prompt instructions from skills/skills-tao-convert-dataset-format/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-tao-convert-dataset-format/references/ to complete the task.
+"""

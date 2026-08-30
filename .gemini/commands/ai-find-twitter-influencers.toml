@@ -1,0 +1,6 @@
+description = "Find Twitter/X influencers to promote a product or brand. Use when asked to find influencers, discover Twitter accounts for partnerships, identify creators in a niche, or build an influencer outreach list."
+
+prompt = """
+Invoke the ai:find-twitter-influencers skill.
+Load the prompt instructions from skills/goose-skills-find-twitter-influencers/SKILL.md and consult the copy-pasteable references or guidelines inside skills/goose-skills-find-twitter-influencers/references/ to complete the task.
+"""

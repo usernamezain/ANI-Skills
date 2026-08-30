@@ -1,0 +1,6 @@
+description = ">"
+
+prompt = """
+Invoke the ai:doca-sha skill.
+Load the prompt instructions from skills/skills-doca-sha/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-doca-sha/references/ to complete the task.
+"""

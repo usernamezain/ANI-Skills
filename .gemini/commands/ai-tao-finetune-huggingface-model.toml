@@ -1,0 +1,6 @@
+description = ">"
+
+prompt = """
+Invoke the ai:tao-finetune-huggingface-model skill.
+Load the prompt instructions from skills/skills-tao-finetune-huggingface-model/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-tao-finetune-huggingface-model/references/ to complete the task.
+"""

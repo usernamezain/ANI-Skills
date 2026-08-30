@@ -1,0 +1,6 @@
+description = ">"
+
+prompt = """
+Invoke the ai:dart-use-primary-constructors skill.
+Load the prompt instructions from skills/skills-dart-use-primary-constructors/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-dart-use-primary-constructors/references/ to complete the task.
+"""

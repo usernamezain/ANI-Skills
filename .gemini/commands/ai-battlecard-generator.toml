@@ -1,0 +1,6 @@
+description = ">"
+
+prompt = """
+Invoke the ai:battlecard-generator skill.
+Load the prompt instructions from skills/goose-skills-battlecard-generator/SKILL.md and consult the copy-pasteable references or guidelines inside skills/goose-skills-battlecard-generator/references/ to complete the task.
+"""

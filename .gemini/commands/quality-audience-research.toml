@@ -1,0 +1,6 @@
+description = "Evaluate whether a creator, influencer, or brand account reaches the right audience using public profile, aggregate demographic, geography, language, content, comment, and commerce signals. Use for creator comparisons, sponsorship fit, market fit, and audience-quality research."
+
+prompt = """
+Invoke the quality:audience-research skill.
+Load the prompt instructions from skills/goose-skills-audience-research/SKILL.md and consult the copy-pasteable references or guidelines inside skills/goose-skills-audience-research/references/ to complete the task.
+"""

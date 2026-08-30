@@ -1,0 +1,6 @@
+description = ">"
+
+prompt = """
+Invoke the ai:newsletter-signal-scanner skill.
+Load the prompt instructions from skills/goose-skills-newsletter-signal-scanner/SKILL.md and consult the copy-pasteable references or guidelines inside skills/goose-skills-newsletter-signal-scanner/references/ to complete the task.
+"""

@@ -1,0 +1,6 @@
+description = "Copy a Google Docs template, fill in content, and share with collaborators."
+
+prompt = """
+Invoke the ai:recipe-create-doc-from-template skill.
+Load the prompt instructions from skills/cli-recipe-create-doc-from-template/SKILL.md and consult the copy-pasteable references or guidelines inside skills/cli-recipe-create-doc-from-template/references/ to complete the task.
+"""

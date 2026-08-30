@@ -1,0 +1,6 @@
+description = "Run CPU-only fluorosim smoke tests (imports, preprocessing, CLI parsers). Use when asked to smoke-test catheter navigation in CI or without a GPU."
+
+prompt = """
+Invoke the ai:i4h-catheter-navigation-smoke skill.
+Load the prompt instructions from skills/skills-i4h-catheter-navigation-smoke/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-i4h-catheter-navigation-smoke/references/ to complete the task.
+"""

@@ -1,0 +1,6 @@
+description = "Optimize web performance for faster loading and better user experience. Use when asked to \"speed up my site\", \"optimize performance\", \"reduce load time\", \"fix slow loading\", \"improve page speed\", or \"performance audit\"."
+
+prompt = """
+Invoke the quality:performance skill.
+Load the prompt instructions from skills/web-quality-skills-performance/SKILL.md and consult the copy-pasteable references or guidelines inside skills/web-quality-skills-performance/references/ to complete the task.
+"""

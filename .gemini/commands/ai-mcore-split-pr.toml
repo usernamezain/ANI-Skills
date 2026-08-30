@@ -1,0 +1,6 @@
+description = "Split a PR into multiple PRs to reduce the number of required CODEOWNERS reviewer groups."
+
+prompt = """
+Invoke the ai:mcore-split-pr skill.
+Load the prompt instructions from skills/skills-mcore-split-pr/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-mcore-split-pr/references/ to complete the task.
+"""

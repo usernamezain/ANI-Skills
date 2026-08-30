@@ -1,0 +1,6 @@
+description = "Duplicate a Google Sheets template tab for a new month of tracking."
+
+prompt = """
+Invoke the ai:recipe-copy-sheet-for-new-month skill.
+Load the prompt instructions from skills/cli-recipe-copy-sheet-for-new-month/SKILL.md and consult the copy-pasteable references or guidelines inside skills/cli-recipe-copy-sheet-for-new-month/references/ to complete the task.
+"""

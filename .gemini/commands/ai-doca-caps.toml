@@ -1,0 +1,6 @@
+description = ">"
+
+prompt = """
+Invoke the ai:doca-caps skill.
+Load the prompt instructions from skills/skills-doca-caps/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-doca-caps/references/ to complete the task.
+"""

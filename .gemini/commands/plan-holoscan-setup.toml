@@ -1,0 +1,6 @@
+description = "Guides Holoscan SDK installation: inspects the host, assesses platform compatibility, recommends an install method, and delegates to the matching install skill."
+
+prompt = """
+Invoke the plan:holoscan-setup skill.
+Load the prompt instructions from skills/skills-holoscan-setup/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-holoscan-setup/references/ to complete the task.
+"""

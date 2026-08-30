@@ -1,0 +1,6 @@
+description = ">"
+
+prompt = """
+Invoke the monitoring:agent-observability-session-classify skill.
+Load the prompt instructions from skills/agent-skills/agent-observability/agent-observability-session-classify/SKILL.md and consult the copy-pasteable references or guidelines inside skills/agent-skills/agent-observability/agent-observability-session-classify/references/ to complete the task.
+"""

@@ -1,0 +1,6 @@
+description = "The protocol behind every investigation skill. Use when AI research must proceed without you: search-plan gate, Fact/Inference/Assumption labels, confidence stacking, diffable outputs."
+
+prompt = """
+Invoke the plan:autonomous-investigation skill.
+Load the prompt instructions from skills/Product-Manager-Skills-autonomous-investigation/SKILL.md and consult the copy-pasteable references or guidelines inside skills/Product-Manager-Skills-autonomous-investigation/references/ to complete the task.
+"""

@@ -1,0 +1,6 @@
+description = "NVIDIA's runtime safety framework for LLM applications. Features jailbreak detection, input/output validation, fact-checking, hallucination detection, PII filtering, toxicity detection. Uses Colang 2.0 DSL for programmable rails. Production-ready, runs on T4 GPU."
+
+prompt = """
+Invoke the ai:nemo-guardrails skill.
+Load the prompt instructions from skills/AI-Research-SKILLs-nemo-guardrails/SKILL.md and consult the copy-pasteable references or guidelines inside skills/AI-Research-SKILLs-nemo-guardrails/references/ to complete the task.
+"""

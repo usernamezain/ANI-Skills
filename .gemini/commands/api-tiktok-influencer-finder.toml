@@ -1,0 +1,6 @@
+description = "Find TikTok influencers using Apify's Influencer Discovery Agent. Use when the user wants to discover TikTok creators or influencers in any niche."
+
+prompt = """
+Invoke the api:tiktok-influencer-finder skill.
+Load the prompt instructions from skills/goose-skills-tiktok-influencer-finder/SKILL.md and consult the copy-pasteable references or guidelines inside skills/goose-skills-tiktok-influencer-finder/references/ to complete the task.
+"""

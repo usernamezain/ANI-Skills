@@ -1,0 +1,6 @@
+description = ">"
+
+prompt = """
+Invoke the ai:expansion-signal-spotter skill.
+Load the prompt instructions from skills/goose-skills-expansion-signal-spotter/SKILL.md and consult the copy-pasteable references or guidelines inside skills/goose-skills-expansion-signal-spotter/references/ to complete the task.
+"""

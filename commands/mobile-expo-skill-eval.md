@@ -1,0 +1,6 @@
+# mobile:expo-skill-eval
+
+Evaluate Expo skills in this repo end-to-end - trigger accuracy, generated code quality, and runtime screenshots on iOS simulator and Android emulator via Expo Go (web optional). Use when the user wants to eval an Expo skill, test that a skill produces working code, benchmark a skill with device screenshots, or verify a skill's output renders correctly.
+
+**Skill folder:** `skills/skills-expo-skill-eval/`
+**Namespace:** `mobile`

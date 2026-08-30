@@ -1,0 +1,6 @@
+description = "Diagnose failed or unhealthy Dynamo deployments. Use when pods, model-cache jobs, PVCs, workers, frontend/router health, endpoints, or benchmark jobs fail; use recipe-runner/router-starter before this for normal bring-up."
+
+prompt = """
+Invoke the monitoring:dynamo-troubleshoot skill.
+Load the prompt instructions from skills/skills-dynamo-troubleshoot/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-dynamo-troubleshoot/references/ to complete the task.
+"""

@@ -1,0 +1,6 @@
+# ai:training-llms-megatron
+
+Trains large language models (2B-462B parameters) using NVIDIA Megatron-Core with advanced parallelism strategies. Use when training models >1B parameters, need maximum GPU efficiency (47% MFU on H100), or require tensor/pipeline/sequence/context/expert parallelism. Production-ready framework used for Nemotron, LLaMA, DeepSeek.
+
+**Skill folder:** `skills/AI-Research-SKILLs-training-llms-megatron/`
+**Namespace:** `ai`

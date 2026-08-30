@@ -1,0 +1,6 @@
+description = "Audit Trail investigations - who changed what, key compromise, cost spike root cause, compliance evidence (SOC 2/PCI), and AI activity auditing."
+
+prompt = """
+Invoke the ai:dd-audit skill.
+Load the prompt instructions from skills/agent-skills-dd-audit/SKILL.md and consult the copy-pasteable references or guidelines inside skills/agent-skills-dd-audit/references/ to complete the task.
+"""

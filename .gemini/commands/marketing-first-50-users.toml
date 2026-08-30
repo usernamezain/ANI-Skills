@@ -1,0 +1,6 @@
+description = "Get the first 50 real users through channels the user's ICP already uses. Use when the product shipped and nobody came, the user is \\"posting more\\" with no result, or is reaching for paid ads before product-market fit."
+
+prompt = """
+Invoke the marketing:first-50-users skill.
+Load the prompt instructions from skills/gtm-cofounder-first-50-users/SKILL.md and consult the copy-pasteable references or guidelines inside skills/gtm-cofounder-first-50-users/references/ to complete the task.
+"""

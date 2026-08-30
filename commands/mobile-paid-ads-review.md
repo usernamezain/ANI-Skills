@@ -1,0 +1,6 @@
+# mobile:paid-ads-review
+
+Produce a read-only, evidence-based paid-media performance review across connected platforms or supplied exports. Use for weekly or monthly reports, scorecards, performance, CPA, ROAS, CTR, spend trends, pacing, or conversion-tracking health.
+
+**Skill folder:** `skills/notfair-plugin-paid-ads-review/`
+**Namespace:** `mobile`

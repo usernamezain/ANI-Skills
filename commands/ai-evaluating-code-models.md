@@ -1,0 +1,6 @@
+# ai:evaluating-code-models
+
+Evaluates code generation models across HumanEval, MBPP, MultiPL-E, and 15+ benchmarks with pass@k metrics. Use when benchmarking code models, comparing coding abilities, testing multi-language support, or measuring code generation quality. Industry standard from BigCode Project used by HuggingFace leaderboards.
+
+**Skill folder:** `skills/AI-Research-SKILLs-evaluating-code-models/`
+**Namespace:** `ai`

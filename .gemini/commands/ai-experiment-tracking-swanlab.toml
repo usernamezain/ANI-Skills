@@ -1,0 +1,6 @@
+description = "Provides guidance for experiment tracking with SwanLab. Use when you need open-source run tracking, local or self-hosted dashboards, and lightweight media logging for ML workflows."
+
+prompt = """
+Invoke the ai:experiment-tracking-swanlab skill.
+Load the prompt instructions from skills/AI-Research-SKILLs-experiment-tracking-swanlab/SKILL.md and consult the copy-pasteable references or guidelines inside skills/AI-Research-SKILLs-experiment-tracking-swanlab/references/ to complete the task.
+"""

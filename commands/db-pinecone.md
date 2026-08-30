@@ -1,0 +1,6 @@
+# db:pinecone
+
+Managed vector database for production AI applications. Fully managed, auto-scaling, with hybrid search (dense + sparse), metadata filtering, and namespaces. Low latency (<100ms p95). Use for production RAG, recommendation systems, or semantic search at scale. Best for serverless, managed infrastructure.
+
+**Skill folder:** `skills/AI-Research-SKILLs-pinecone/`
+**Namespace:** `db`

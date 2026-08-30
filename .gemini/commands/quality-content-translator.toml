@@ -1,0 +1,6 @@
+description = "Translate text content between languages with high quality and natural phrasing. Covers document translation, content localization, and multi-language research support for teams working across language barriers."
+
+prompt = """
+Invoke the quality:content-translator skill.
+Load the prompt instructions from skills/sandbase-skills-content-translator/SKILL.md and consult the copy-pasteable references or guidelines inside skills/sandbase-skills-content-translator/references/ to complete the task.
+"""

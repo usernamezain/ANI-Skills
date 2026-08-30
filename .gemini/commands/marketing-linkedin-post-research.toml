@@ -1,0 +1,6 @@
+description = ">"
+
+prompt = """
+Invoke the marketing:linkedin-post-research skill.
+Load the prompt instructions from skills/goose-skills-linkedin-post-research/SKILL.md and consult the copy-pasteable references or guidelines inside skills/goose-skills-linkedin-post-research/references/ to complete the task.
+"""

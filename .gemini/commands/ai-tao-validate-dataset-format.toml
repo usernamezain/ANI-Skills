@@ -1,0 +1,6 @@
+description = "Run `tao-daft validate` to check NVIDIA TAO DAFT datasets for structure, schema, and cross-reference errors. Do"
+
+prompt = """
+Invoke the ai:tao-validate-dataset-format skill.
+Load the prompt instructions from skills/skills-tao-validate-dataset-format/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-tao-validate-dataset-format/references/ to complete the task.
+"""

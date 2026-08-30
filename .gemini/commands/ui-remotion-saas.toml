@@ -1,0 +1,6 @@
+description = "Build an app with Remotion"
+
+prompt = """
+Invoke the ui:remotion-saas skill.
+Load the prompt instructions from skills/skills-remotion-saas/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-remotion-saas/references/ to complete the task.
+"""

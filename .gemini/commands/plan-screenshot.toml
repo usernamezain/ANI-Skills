@@ -1,0 +1,6 @@
+description = "Use when the user explicitly asks for a desktop or system screenshot (full screen, specific app or window, or a pixel region), or when tool-specific capture capabilities are unavailable and an OS-level capture is needed."
+
+prompt = """
+Invoke the plan:screenshot skill.
+Load the prompt instructions from skills/skills-screenshot/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-screenshot/references/ to complete the task.
+"""

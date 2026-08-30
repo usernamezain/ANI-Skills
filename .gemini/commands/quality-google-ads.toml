@@ -1,0 +1,6 @@
+description = "Manage Google Ads — performance, keywords, bids, budgets, negatives, campaigns, ads, search terms, QS, location targeting, bulk operations, experiments, asset management, portfolio bidding, offline conversions. Use for any mention of Google Ads, CPA, ROAS, ad spend, or campaign settings."
+
+prompt = """
+Invoke the quality:google-ads skill.
+Load the prompt instructions from skills/notfair-plugin-google-ads/SKILL.md and consult the copy-pasteable references or guidelines inside skills/notfair-plugin-google-ads/references/ to complete the task.
+"""

@@ -1,0 +1,6 @@
+description = "Validate and use packed sequences and long-context training in Megatron-Bridge, including offline LLM packing, collate-time VLM packing, Energon online packing, and CP constraints."
+
+prompt = """
+Invoke the ai:nemo-mbridge-perf-sequence-packing skill.
+Load the prompt instructions from skills/skills-nemo-mbridge-perf-sequence-packing/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-nemo-mbridge-perf-sequence-packing/references/ to complete the task.
+"""

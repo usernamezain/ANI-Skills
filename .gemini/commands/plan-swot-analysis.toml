@@ -1,0 +1,6 @@
+description = "Build an evidence-cited SWOT of one company — yours or a competitor's — from public sources, ending with the S-O/W-T crossings. Use for strategy reviews, board prep, or competitor depth."
+
+prompt = """
+Invoke the plan:swot-analysis skill.
+Load the prompt instructions from skills/Product-Manager-Skills-swot-analysis/SKILL.md and consult the copy-pasteable references or guidelines inside skills/Product-Manager-Skills-swot-analysis/references/ to complete the task.
+"""

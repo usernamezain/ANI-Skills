@@ -1,0 +1,6 @@
+description = "Build a positioning and narrative where the developer is the hero and a real trend is the villain. Use when the messaging describes the product instead of the problem, sounds like every competitor, or has no urgency because nothing is at stake."
+
+prompt = """
+Invoke the marketing:positioning-and-story skill.
+Load the prompt instructions from skills/gtm-cofounder-positioning-and-story/SKILL.md and consult the copy-pasteable references or guidelines inside skills/gtm-cofounder-positioning-and-story/references/ to complete the task.
+"""

@@ -1,0 +1,6 @@
+description = ">-"
+
+prompt = """
+Invoke the ui:stitch--react-components skill.
+Load the prompt instructions from skills/stitch-skills-stitch--react-components/SKILL.md and consult the copy-pasteable references or guidelines inside skills/stitch-skills-stitch--react-components/references/ to complete the task.
+"""

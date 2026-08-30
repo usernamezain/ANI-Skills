@@ -1,0 +1,6 @@
+description = ">-"
+
+prompt = """
+Invoke the ai:nemo-mbridge-perf-activation-recompute skill.
+Load the prompt instructions from skills/skills-nemo-mbridge-perf-activation-recompute/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-nemo-mbridge-perf-activation-recompute/references/ to complete the task.
+"""

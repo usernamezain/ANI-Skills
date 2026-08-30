@@ -1,0 +1,6 @@
+# marketing:paid-ads-setup
+
+Connect NotFair paid-ad accounts and establish reusable campaign context. Use when setting up paid media in a new workspace, connecting Google, Meta, X, or LinkedIn Ads, refreshing brand context, or preparing an agent to work on ads safely.
+
+**Skill folder:** `skills/notfair-plugin-paid-ads-setup/`
+**Namespace:** `marketing`

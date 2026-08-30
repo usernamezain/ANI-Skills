@@ -1,0 +1,6 @@
+description = "OpenAI's general-purpose speech recognition model. Supports 99 languages, transcription, translation to English, and language identification. Six model sizes from tiny (39M params) to large (1550M params). Use for speech-to-text, podcast transcription, or multilingual audio processing. Best for robust, multilingual ASR."
+
+prompt = """
+Invoke the ai:whisper skill.
+Load the prompt instructions from skills/AI-Research-SKILLs-whisper/SKILL.md and consult the copy-pasteable references or guidelines inside skills/AI-Research-SKILLs-whisper/references/ to complete the task.
+"""

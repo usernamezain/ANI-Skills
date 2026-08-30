@@ -1,0 +1,6 @@
+description = "Manage Google Apps Script projects."
+
+prompt = """
+Invoke the ai:gws-script skill.
+Load the prompt instructions from skills/cli-gws-script/SKILL.md and consult the copy-pasteable references or guidelines inside skills/cli-gws-script/references/ to complete the task.
+"""

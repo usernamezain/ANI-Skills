@@ -1,0 +1,6 @@
+description = "Extract leads from conferences, meetups, hackathons, and podcasts by analyzing speaker lists, sponsor lists, hackathon entries, and podcast guests. Discovers events via Sessionize, Confs.tech, Meetup, Luma, ListenNotes, and Devpost. Looks back 90 days and forward 180 days."
+
+prompt = """
+Invoke the auth:event-signals skill.
+Load the prompt instructions from skills/goose-skills-event-signals/SKILL.md and consult the copy-pasteable references or guidelines inside skills/goose-skills-event-signals/references/ to complete the task.
+"""

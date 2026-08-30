@@ -1,0 +1,6 @@
+description = "Safely modifies Xcode projects (.pbxproj) to add Swift Packages and link files. Use this skill whenever an iOS project needs dependencies installed (e.g. Firebase, Alamofire)."
+
+prompt = """
+Invoke the mobile:xcode-project-setup skill.
+Load the prompt instructions from skills/agent-skills-xcode-project-setup/SKILL.md and consult the copy-pasteable references or guidelines inside skills/agent-skills-xcode-project-setup/references/ to complete the task.
+"""

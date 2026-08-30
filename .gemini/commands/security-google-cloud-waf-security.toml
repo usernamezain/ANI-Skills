@@ -1,0 +1,6 @@
+description = ">-"
+
+prompt = """
+Invoke the security:google-cloud-waf-security skill.
+Load the prompt instructions from skills/skills-google-cloud-waf-security/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-google-cloud-waf-security/references/ to complete the task.
+"""

@@ -1,0 +1,6 @@
+description = "Used for generating synthetic body MRI volumes with NV-Generate-CTMR rflow-mr. Not for paired masks or production training data."
+
+prompt = """
+Invoke the ai:nv-generate-mr skill.
+Load the prompt instructions from skills/skills-nv-generate-mr/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-nv-generate-mr/references/ to complete the task.
+"""

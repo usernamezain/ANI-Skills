@@ -1,0 +1,6 @@
+description = ">-"
+
+prompt = """
+Invoke the ai:datalineage-bigquery-asset-impact-analysis skill.
+Load the prompt instructions from skills/skills-datalineage-bigquery-asset-impact-analysis/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-datalineage-bigquery-asset-impact-analysis/references/ to complete the task.
+"""

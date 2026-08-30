@@ -1,0 +1,6 @@
+description = ">"
+
+prompt = """
+Invoke the ai:doca-dpdk-bridge skill.
+Load the prompt instructions from skills/skills-doca-dpdk-bridge/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-doca-dpdk-bridge/references/ to complete the task.
+"""

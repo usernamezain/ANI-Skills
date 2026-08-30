@@ -1,0 +1,6 @@
+description = ">"
+
+prompt = """
+Invoke the ai:tao-run-deft-aoi skill.
+Load the prompt instructions from skills/skills-tao-run-deft-aoi/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-tao-run-deft-aoi/references/ to complete the task.
+"""

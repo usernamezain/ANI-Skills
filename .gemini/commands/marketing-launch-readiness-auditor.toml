@@ -1,0 +1,6 @@
+description = "Use when the user asks to \"audit our launch plan\", \"are we ready to launch\", or evaluate launch execution/outcomes; runs one typed RAMP preflight, execution, or outcome profile without mixing time horizons. Not for recording launch state — use launch-registry; not for running launch day — use launch-day-conductor. 发布就绪审计/RAMP分阶段评估/发布前放行"
+
+prompt = """
+Invoke the marketing:launch-readiness-auditor skill.
+Load the prompt instructions from skills/aaron-marketing-skills-launch-readiness-auditor/SKILL.md and consult the copy-pasteable references or guidelines inside skills/aaron-marketing-skills-launch-readiness-auditor/references/ to complete the task.
+"""

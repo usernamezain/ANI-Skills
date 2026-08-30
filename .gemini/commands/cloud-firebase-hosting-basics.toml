@@ -1,0 +1,6 @@
+description = ">-"
+
+prompt = """
+Invoke the cloud:firebase-hosting-basics skill.
+Load the prompt instructions from skills/agent-skills-firebase-hosting-basics/SKILL.md and consult the copy-pasteable references or guidelines inside skills/agent-skills-firebase-hosting-basics/references/ to complete the task.
+"""

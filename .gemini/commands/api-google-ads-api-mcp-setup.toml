@@ -1,0 +1,6 @@
+description = "Guides developers through downloading, configuring, and installing the official open-source Google Ads MCP Server. Use this skill when a user wants to connect their AI assistant (such as Gemini, Claude Code, or Cursor) to their Google Ads account to query campaigns or retrieve reporting metrics using natural language."
+
+prompt = """
+Invoke the api:google-ads-api-mcp-setup skill.
+Load the prompt instructions from skills/skills-google-ads-api-mcp-setup/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-google-ads-api-mcp-setup/references/ to complete the task.
+"""

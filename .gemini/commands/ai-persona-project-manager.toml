@@ -1,0 +1,6 @@
+description = "Coordinate projects — track tasks, schedule meetings, and share docs."
+
+prompt = """
+Invoke the ai:persona-project-manager skill.
+Load the prompt instructions from skills/cli-persona-project-manager/SKILL.md and consult the copy-pasteable references or guidelines inside skills/cli-persona-project-manager/references/ to complete the task.
+"""

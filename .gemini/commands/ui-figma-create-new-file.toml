@@ -1,0 +1,6 @@
+description = "Create a new blank Figma file. Use when the user wants to create a new Figma design or FigJam file, or when you need a new file before calling use_figma. Handles plan resolution via whoami if needed. Usage — /figma-create-new-file [editorType] [fileName] (e.g. /figma-create-new-file figjam My Whiteboard)"
+
+prompt = """
+Invoke the ui:figma-create-new-file skill.
+Load the prompt instructions from skills/skills-figma-create-new-file/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-figma-create-new-file/references/ to complete the task.
+"""

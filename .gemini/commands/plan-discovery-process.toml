@@ -1,0 +1,6 @@
+description = "Run a full discovery cycle from problem hypothesis to validated solution. Use when a team needs a structured path through framing, interviews, synthesis, and experiments."
+
+prompt = """
+Invoke the plan:discovery-process skill.
+Load the prompt instructions from skills/Product-Manager-Skills-discovery-process/SKILL.md and consult the copy-pasteable references or guidelines inside skills/Product-Manager-Skills-discovery-process/references/ to complete the task.
+"""

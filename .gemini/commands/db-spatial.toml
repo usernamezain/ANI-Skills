@@ -1,0 +1,6 @@
+description = ">"
+
+prompt = """
+Invoke the db:spatial skill.
+Load the prompt instructions from skills/duckdb-skills-spatial/SKILL.md and consult the copy-pasteable references or guidelines inside skills/duckdb-skills-spatial/references/ to complete the task.
+"""

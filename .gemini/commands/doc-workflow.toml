@@ -1,0 +1,6 @@
+description = "Scaffold a Notion Worker Workflow with typed triggers and replay-safe durable steps."
+
+prompt = """
+Invoke the doc:workflow skill.
+Load the prompt instructions from skills/notion-cookbook-workflow/SKILL.md and consult the copy-pasteable references or guidelines inside skills/notion-cookbook-workflow/references/ to complete the task.
+"""

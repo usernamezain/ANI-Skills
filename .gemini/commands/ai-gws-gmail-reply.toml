@@ -1,0 +1,6 @@
+description = "Gmail: Reply to a message (handles threading automatically)."
+
+prompt = """
+Invoke the ai:gws-gmail-reply skill.
+Load the prompt instructions from skills/cli-gws-gmail-reply/SKILL.md and consult the copy-pasteable references or guidelines inside skills/cli-gws-gmail-reply/references/ to complete the task.
+"""

@@ -1,0 +1,6 @@
+# ai:deepstream-generate-pipeline
+
+Build DeepStream GStreamer pipelines interactively. Use when the user asks about pipelines for video/image inference, detection, tracking, or streaming — including natural phrases like 'pipeline to infer on image', 'run inference on video', 'detect objects in stream', 'save inference output', 'deepstream pipeline', 'gst-launch pipeline', 'process video with detection', 'build a pipeline', or any request involving GStreamer/DeepStream elements (nvinfer, nvstreammux, nvtracker, etc.).
+
+**Skill folder:** `skills/skills-deepstream-generate-pipeline/`
+**Namespace:** `ai`

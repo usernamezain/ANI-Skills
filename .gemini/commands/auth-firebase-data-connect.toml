@@ -1,0 +1,6 @@
+description = "Builds and deploys Firebase SQL Connect (aka Firebase Data Connect) backends with PostgreSQL securely. Use when designing schemas with tables and relations, writing authorized queries and mutations, configuring real-time data updates, or generating type-safe SDKs. Use when you need a relational database with Firebase, or when the user mentions SQL Connect or Data Connect."
+
+prompt = """
+Invoke the auth:firebase-data-connect skill.
+Load the prompt instructions from skills/agent-skills-firebase-data-connect/SKILL.md and consult the copy-pasteable references or guidelines inside skills/agent-skills-firebase-data-connect/references/ to complete the task.
+"""

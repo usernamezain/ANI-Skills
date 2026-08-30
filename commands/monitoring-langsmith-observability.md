@@ -1,0 +1,6 @@
+# monitoring:langsmith-observability
+
+LLM observability platform for tracing, evaluation, and monitoring. Use when debugging LLM applications, evaluating model outputs against datasets, monitoring production systems, or building systematic testing pipelines for AI applications.
+
+**Skill folder:** `skills/AI-Research-SKILLs-langsmith-observability/`
+**Namespace:** `monitoring`

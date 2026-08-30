@@ -1,0 +1,6 @@
+description = "Map any industry's competitive landscape using company databases, academic research, news coverage, LinkedIn activity, and job market signals. Produces industry overviews with key players, market segments, growth indicators, and emerging disruptors."
+
+prompt = """
+Invoke the marketing:industry-landscape skill.
+Load the prompt instructions from skills/sandbase-skills-industry-landscape/SKILL.md and consult the copy-pasteable references or guidelines inside skills/sandbase-skills-industry-landscape/references/ to complete the task.
+"""

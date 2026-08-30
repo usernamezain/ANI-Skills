@@ -1,0 +1,6 @@
+description = ">-"
+
+prompt = """
+Invoke the marketing:tao-generate-video-reasoning-annotations skill.
+Load the prompt instructions from skills/skills-tao-generate-video-reasoning-annotations/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-tao-generate-video-reasoning-annotations/references/ to complete the task.
+"""

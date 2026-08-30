@@ -1,0 +1,6 @@
+description = "MAL (Mask Auto-Label) for weakly-supervised segmentation. Produces segmentation masks from minimal annotations"
+
+prompt = """
+Invoke the ai:tao-train-mask-auto-label skill.
+Load the prompt instructions from skills/skills-tao-train-mask-auto-label/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-tao-train-mask-auto-label/references/ to complete the task.
+"""

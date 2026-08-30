@@ -1,0 +1,6 @@
+description = "Implement a component-level test using `WidgetTester` to verify UI rendering and user interactions (tapping, scrolling, entering text). Use when validating that a specific widget displays correct data and responds to events as expected."
+
+prompt = """
+Invoke the mobile:flutter-add-widget-test skill.
+Load the prompt instructions from skills/skills-flutter-add-widget-test/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-flutter-add-widget-test/references/ to complete the task.
+"""

@@ -1,0 +1,6 @@
+# marketing:goal-filter
+
+Lock ONE primary marketing goal per brand, then judge any idea, draft, campaign, or plan against it — ON GOAL, PARTIAL, or OFF — always returning the fix or a sharper version that pulls harder toward the metric, and naming drift patterns across the verdict history. Triggers on \"/digital-marketing-pro:goal-filter\", \"is this on goal\", \"lock the goal for this quarter\", \"does this serve the objective\", \"keep me focused\", \"what's our priority\". Stores the lock in the brand workspace (goal-lock.json) so every session reads the same goal; inside a 12-Part engagement it offers to lock Part 1's primary objective rather than inventing a parallel one.
+
+**Skill folder:** `skills/digital-marketing-pro-goal-filter/`
+**Namespace:** `marketing`

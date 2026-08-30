@@ -1,0 +1,6 @@
+description = "stitch video segments with ffmpeg concat, xfade, overlay, audio mux, and export settings."
+
+prompt = """
+Invoke the mobile:stitch-videos-ffmpeg skill.
+Load the prompt instructions from skills/goose-skills-stitch-videos-ffmpeg/SKILL.md and consult the copy-pasteable references or guidelines inside skills/goose-skills-stitch-videos-ffmpeg/references/ to complete the task.
+"""

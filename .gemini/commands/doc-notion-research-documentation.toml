@@ -1,0 +1,6 @@
+description = "Research across Notion and synthesize into structured documentation; use when gathering info from multiple Notion sources to produce briefs, comparisons, or reports with citations."
+
+prompt = """
+Invoke the doc:notion-research-documentation skill.
+Load the prompt instructions from skills/skills-notion-research-documentation/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-notion-research-documentation/references/ to complete the task.
+"""

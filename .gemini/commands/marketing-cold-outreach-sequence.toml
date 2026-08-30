@@ -1,0 +1,6 @@
+description = "Build personalized cold outreach sequences for LinkedIn and email. Use when someone needs to reach prospects, warm up cold leads, or build a systematic outreach engine. Covers research, connection requests, follow-ups, and conversion."
+
+prompt = """
+Invoke the marketing:cold-outreach-sequence skill.
+Load the prompt instructions from skills/ai-marketing-claude-code-skills-cold-outreach-sequence/SKILL.md and consult the copy-pasteable references or guidelines inside skills/ai-marketing-claude-code-skills-cold-outreach-sequence/references/ to complete the task.
+"""

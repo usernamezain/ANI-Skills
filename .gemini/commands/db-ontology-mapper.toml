@@ -1,0 +1,6 @@
+description = ">"
+
+prompt = """
+Invoke the db:ontology-mapper skill.
+Load the prompt instructions from skills/materials-simulation-skills-ontology-mapper/SKILL.md and consult the copy-pasteable references or guidelines inside skills/materials-simulation-skills-ontology-mapper/references/ to complete the task.
+"""

@@ -1,0 +1,6 @@
+description = "Gmail: Show unread inbox summary (sender, subject, date)."
+
+prompt = """
+Invoke the ai:gws-gmail-triage skill.
+Load the prompt instructions from skills/cli-gws-gmail-triage/SKILL.md and consult the copy-pasteable references or guidelines inside skills/cli-gws-gmail-triage/references/ to complete the task.
+"""

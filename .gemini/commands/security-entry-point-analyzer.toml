@@ -1,0 +1,6 @@
+description = "Analyzes smart contract codebases to identify state-changing entry points for security auditing. Detects externally callable functions that modify state, categorizes them by access level (public, admin, role-restricted, contract-only), and generates structured audit reports. Excludes view/pure/read-only functions. Use when auditing smart contracts (Solidity, Vyper, Solana/Rust, Move, TON, CosmWasm) or when asked to find entry points, audit flows, external functions, access control patterns, or privileged operations."
+
+prompt = """
+Invoke the security:entry-point-analyzer skill.
+Load the prompt instructions from skills/skills-entry-point-analyzer/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-entry-point-analyzer/references/ to complete the task.
+"""

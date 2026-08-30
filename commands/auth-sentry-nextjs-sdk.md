@@ -1,0 +1,6 @@
+# auth:sentry-nextjs-sdk
+
+Full Sentry SDK setup for Next.js. Use when asked to "add Sentry to Next.js", "install @sentry/nextjs", or configure error monitoring, tracing, session replay, logging, profiling, AI monitoring, or crons for Next.js applications. Supports Next.js 13+ with App Router and Pages Router.
+
+**Skill folder:** `skills/sentry-for-ai-sentry-nextjs-sdk/`
+**Namespace:** `auth`

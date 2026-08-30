@@ -1,0 +1,6 @@
+description = "Build email campaigns - find emails, verify them, and prepare outreach"
+
+prompt = """
+Invoke the ai:email-campaign skill.
+Load the prompt instructions from skills/goose-skills-email-campaign/SKILL.md and consult the copy-pasteable references or guidelines inside skills/goose-skills-email-campaign/references/ to complete the task.
+"""

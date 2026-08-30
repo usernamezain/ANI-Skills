@@ -1,0 +1,6 @@
+description = ">-"
+
+prompt = """
+Invoke the cloud:setting-up-sending-domain skill.
+Load the prompt instructions from skills/mailtrap-skills-setting-up-sending-domain/SKILL.md and consult the copy-pasteable references or guidelines inside skills/mailtrap-skills-setting-up-sending-domain/references/ to complete the task.
+"""

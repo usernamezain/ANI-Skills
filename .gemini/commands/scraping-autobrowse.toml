@@ -1,0 +1,6 @@
+description = "Self-improving browser automation via the auto-research loop. Iteratively runs a browsing task, reads the trace, and improves the navigation skill (strategy.md) until it reliably passes. Supports parallel runs across multiple tasks using sub-agents. Use when you want to build or improve browser automation skills for specific website tasks."
+
+prompt = """
+Invoke the scraping:autobrowse skill.
+Load the prompt instructions from skills/skills-autobrowse/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-autobrowse/references/ to complete the task.
+"""

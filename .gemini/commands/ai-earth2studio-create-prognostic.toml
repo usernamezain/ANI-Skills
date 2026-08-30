@@ -1,0 +1,6 @@
+description = ">"
+
+prompt = """
+Invoke the ai:earth2studio-create-prognostic skill.
+Load the prompt instructions from skills/skills-earth2studio-create-prognostic/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-earth2studio-create-prognostic/references/ to complete the task.
+"""

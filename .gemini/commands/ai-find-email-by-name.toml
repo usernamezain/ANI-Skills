@@ -1,0 +1,6 @@
+description = "Find someone's email address given their name and company"
+
+prompt = """
+Invoke the ai:find-email-by-name skill.
+Load the prompt instructions from skills/goose-skills-find-email-by-name/SKILL.md and consult the copy-pasteable references or guidelines inside skills/goose-skills-find-email-by-name/references/ to complete the task.
+"""

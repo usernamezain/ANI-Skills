@@ -1,0 +1,6 @@
+description = "Use this when price comes up. Set the first number. Hold it. Move in structure, never in discounts."
+
+prompt = """
+Invoke the ai:price-anchor skill.
+Load the prompt instructions from skills/dark-psychology-skills-price-anchor/SKILL.md and consult the copy-pasteable references or guidelines inside skills/dark-psychology-skills-price-anchor/references/ to complete the task.
+"""

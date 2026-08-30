@@ -1,0 +1,6 @@
+description = "Google Model Armor: Sanitize a user prompt through a Model Armor template."
+
+prompt = """
+Invoke the ai:gws-modelarmor-sanitize-prompt skill.
+Load the prompt instructions from skills/cli-gws-modelarmor-sanitize-prompt/SKILL.md and consult the copy-pasteable references or guidelines inside skills/cli-gws-modelarmor-sanitize-prompt/references/ to complete the task.
+"""

@@ -1,0 +1,6 @@
+description = "Redis Cluster and replication guidance covering hash tags for multi-key operations, avoiding CROSSSLOT errors, and reading from replicas to scale read-heavy workloads. Use when designing keys for a sharded Redis Cluster, debugging CROSSSLOT errors on MGET / SDIFF / pipelines, configuring a multi-key transaction in a cluster, or routing reads to replicas for caches, analytics, or dashboards."
+
+prompt = """
+Invoke the ui:redis-clustering skill.
+Load the prompt instructions from skills/agent-skills-redis-clustering/SKILL.md and consult the copy-pasteable references or guidelines inside skills/agent-skills-redis-clustering/references/ to complete the task.
+"""

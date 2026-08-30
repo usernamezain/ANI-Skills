@@ -1,0 +1,6 @@
+description = ">"
+
+prompt = """
+Invoke the db:numerical-integration skill.
+Load the prompt instructions from skills/materials-simulation-skills-numerical-integration/SKILL.md and consult the copy-pasteable references or guidelines inside skills/materials-simulation-skills-numerical-integration/references/ to complete the task.
+"""

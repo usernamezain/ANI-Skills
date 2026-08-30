@@ -1,0 +1,6 @@
+description = "Compatibility alias for the original ScrapeCreators social scraping skill. Use scrapecreators-api for current endpoint guidance and the task-specific Brand Growth research skills for finished analysis."
+
+prompt = """
+Invoke the marketing:social-media-scraping-scrapecreators skill.
+Load the prompt instructions from skills/goose-skills-social-media-scraping-scrapecreators/SKILL.md and consult the copy-pasteable references or guidelines inside skills/goose-skills-social-media-scraping-scrapecreators/references/ to complete the task.
+"""

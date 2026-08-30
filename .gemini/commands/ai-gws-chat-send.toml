@@ -1,0 +1,6 @@
+description = "Google Chat: Send a message to a space."
+
+prompt = """
+Invoke the ai:gws-chat-send skill.
+Load the prompt instructions from skills/cli-gws-chat-send/SKILL.md and consult the copy-pasteable references or guidelines inside skills/cli-gws-chat-send/references/ to complete the task.
+"""

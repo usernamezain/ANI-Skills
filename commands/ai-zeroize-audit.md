@@ -1,0 +1,6 @@
+# ai:zeroize-audit
+
+Detects missing zeroization of sensitive data in source code and identifies zeroization removed by compiler optimizations, with assembly-level analysis, and control-flow verification. Use for auditing C/C++/Rust code handling secrets, keys, passwords, or other sensitive data.
+
+**Skill folder:** `skills/skills-zeroize-audit/`
+**Namespace:** `ai`

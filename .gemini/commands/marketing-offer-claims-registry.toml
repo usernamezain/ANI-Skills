@@ -1,0 +1,6 @@
+description = "Use when the user asks to \"register this claim\", \"log our current offers\", or \"where is the proof for this figure\"; curates claim wording, evidence, disclosures, terms, review dates, and live offers through the append-only claims event stream. Not for scoring claim vetoes — use the relevant auditor; not for writing ad copy — use ad-creative-builder. 广告声明台账/优惠信息登记/证据溯源"
+
+prompt = """
+Invoke the marketing:offer-claims-registry skill.
+Load the prompt instructions from skills/aaron-marketing-skills-offer-claims-registry/SKILL.md and consult the copy-pasteable references or guidelines inside skills/aaron-marketing-skills-offer-claims-registry/references/ to complete the task.
+"""

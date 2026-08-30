@@ -1,0 +1,6 @@
+description = ">"
+
+prompt = """
+Invoke the ai:content-asset-creator skill.
+Load the prompt instructions from skills/goose-skills-content-asset-creator/SKILL.md and consult the copy-pasteable references or guidelines inside skills/goose-skills-content-asset-creator/references/ to complete the task.
+"""

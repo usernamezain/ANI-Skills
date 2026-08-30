@@ -1,0 +1,6 @@
+description = ">-"
+
+prompt = """
+Invoke the ai:jetson-generate-kb skill.
+Load the prompt instructions from skills/skills-jetson-generate-kb/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-jetson-generate-kb/references/ to complete the task.
+"""

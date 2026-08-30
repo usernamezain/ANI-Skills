@@ -1,0 +1,6 @@
+description = "Evaluates code generation models across HumanEval, MBPP, MultiPL-E, and 15+ benchmarks with pass@k metrics. Use when benchmarking code models, comparing coding abilities, testing multi-language support, or measuring code generation quality. Industry standard from BigCode Project used by HuggingFace leaderboards."
+
+prompt = """
+Invoke the ai:evaluating-code-models skill.
+Load the prompt instructions from skills/AI-Research-SKILLs-evaluating-code-models/SKILL.md and consult the copy-pasteable references or guidelines inside skills/AI-Research-SKILLs-evaluating-code-models/references/ to complete the task.
+"""

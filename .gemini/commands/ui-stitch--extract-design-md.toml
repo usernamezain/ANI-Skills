@@ -1,0 +1,6 @@
+description = ">-"
+
+prompt = """
+Invoke the ui:stitch--extract-design-md skill.
+Load the prompt instructions from skills/stitch-skills-stitch--extract-design-md/SKILL.md and consult the copy-pasteable references or guidelines inside skills/stitch-skills-stitch--extract-design-md/references/ to complete the task.
+"""

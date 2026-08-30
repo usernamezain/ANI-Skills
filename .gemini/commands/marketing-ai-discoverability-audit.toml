@@ -1,0 +1,6 @@
+description = "Audit how a brand appears in AI-powered search (ChatGPT, Perplexity, Claude, Gemini). Use when user mentions \"AI search,\" \"how do I show up in ChatGPT,\" \"AI discoverability,\" \"AEO,\" \"LLM visibility,\" or wants to understand their brand's AI presence."
+
+prompt = """
+Invoke the marketing:ai-discoverability-audit skill.
+Load the prompt instructions from skills/ai-marketing-claude-code-skills-ai-discoverability-audit/SKILL.md and consult the copy-pasteable references or guidelines inside skills/ai-marketing-claude-code-skills-ai-discoverability-audit/references/ to complete the task.
+"""

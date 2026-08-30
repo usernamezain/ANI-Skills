@@ -1,0 +1,6 @@
+description = "|-"
+
+prompt = """
+Invoke the ai:dart-migrate-to-checks-package skill.
+Load the prompt instructions from skills/skills-dart-migrate-to-checks-package/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-dart-migrate-to-checks-package/references/ to complete the task.
+"""

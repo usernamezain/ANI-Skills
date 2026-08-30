@@ -1,0 +1,6 @@
+description = ">"
+
+prompt = """
+Invoke the ai:tech-stack-teardown skill.
+Load the prompt instructions from skills/goose-skills-tech-stack-teardown/SKILL.md and consult the copy-pasteable references or guidelines inside skills/goose-skills-tech-stack-teardown/references/ to complete the task.
+"""

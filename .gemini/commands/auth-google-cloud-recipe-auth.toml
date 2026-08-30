@@ -1,0 +1,6 @@
+description = "Provides expert guidance on authenticating and authorizing to Google Cloud services and APIs, covering human users, service identities, Application Default Credentials (ADC), and best practices for secure access."
+
+prompt = """
+Invoke the auth:google-cloud-recipe-auth skill.
+Load the prompt instructions from skills/skills-google-cloud-recipe-auth/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-google-cloud-recipe-auth/references/ to complete the task.
+"""

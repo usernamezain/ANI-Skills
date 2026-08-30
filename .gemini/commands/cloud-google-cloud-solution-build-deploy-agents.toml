@@ -1,0 +1,6 @@
+description = ">-"
+
+prompt = """
+Invoke the cloud:google-cloud-solution-build-deploy-agents skill.
+Load the prompt instructions from skills/skills-google-cloud-solution-build-deploy-agents/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-google-cloud-solution-build-deploy-agents/references/ to complete the task.
+"""

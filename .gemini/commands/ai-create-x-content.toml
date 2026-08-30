@@ -1,0 +1,6 @@
+description = ">"
+
+prompt = """
+Invoke the ai:create-x-content skill.
+Load the prompt instructions from skills/goose-skills-create-x-content/SKILL.md and consult the copy-pasteable references or guidelines inside skills/goose-skills-create-x-content/references/ to complete the task.
+"""

@@ -1,0 +1,6 @@
+description = "Framework (OSS). Expo's official example projects - the expo/examples repo of ~70 `with-*` integrations (Stripe, Clerk, Supabase, OpenAI, maps, Reanimated, SQLite, Skia, NativeWind, and more). Use when integrating a third-party library or service into an existing Expo app and you want the canonical, version-matched pattern to adapt, or when scaffolding a new project from one with `npx create-expo --example`."
+
+prompt = """
+Invoke the mobile:expo-examples skill.
+Load the prompt instructions from skills/skills-expo-examples/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-expo-examples/references/ to complete the task.
+"""

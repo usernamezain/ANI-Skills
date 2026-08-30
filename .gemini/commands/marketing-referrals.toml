@@ -1,0 +1,6 @@
+description = "When the user wants to create, optimize, or analyze a referral program, affiliate program, or word-of-mouth strategy. Also use when the user mentions 'referral,' 'affiliate,' 'ambassador,' 'word of mouth,' 'viral loop,' 'refer a friend,' 'partner program,' 'referral incentive,' 'how to get referrals,' 'customers referring customers,' or 'affiliate payout.' Use this whenever someone wants existing users or partners to bring in new customers. For launch-specific virality, see launch."
+
+prompt = """
+Invoke the marketing:referrals skill.
+Load the prompt instructions from skills/marketingskills-referrals/SKILL.md and consult the copy-pasteable references or guidelines inside skills/marketingskills-referrals/references/ to complete the task.
+"""

@@ -1,0 +1,6 @@
+# ai:gguf-quantization
+
+GGUF format and llama.cpp quantization for efficient CPU/GPU inference. Use when deploying models on consumer hardware, Apple Silicon, or when needing flexible quantization from 2-8 bit without GPU requirements.
+
+**Skill folder:** `skills/AI-Research-SKILLs-gguf-quantization/`
+**Namespace:** `ai`

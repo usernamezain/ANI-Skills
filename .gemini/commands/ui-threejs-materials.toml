@@ -1,0 +1,6 @@
+description = "Configures Three.js materials — MeshStandardMaterial, MeshPhysicalMaterial, PBR pipeline, texture maps (color, normal, roughness, metalness, AO, emissive, environment). Use when the user asks about materials, textures, PBR, shading, opacity, transparency, or material properties. Trigger keywords: material, texture, PBR, roughness, metalness, normal map, emissive, transparent, MeshStandardMaterial."
+
+prompt = """
+Invoke the ui:threejs-materials skill.
+Load the prompt instructions from skills/threejs-skills-threejs-materials/SKILL.md and consult the copy-pasteable references or guidelines inside skills/threejs-skills-threejs-materials/references/ to complete the task.
+"""

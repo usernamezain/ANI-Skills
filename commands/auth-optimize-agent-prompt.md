@@ -1,0 +1,6 @@
+# auth:optimize-agent-prompt
+
+Builds and improves Browserbase Agent API demos through an Autobrowse-style outer loop: run a fixed task, collect Agent messages and session logs, score the result, revise one system-prompt heuristic, and confirm convergence. Use when creating a Browserbase Agents demo or POC, optimizing an Agent system prompt, diagnosing flaky Agent runs, or applying auto-research/autobrowse to the Browserbase Agents API.
+
+**Skill folder:** `skills/skills-optimize-agent-prompt/`
+**Namespace:** `auth`

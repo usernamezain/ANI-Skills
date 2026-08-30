@@ -1,0 +1,6 @@
+# plan:eol-checklist
+
+Build a phase-gated EOL checklist sized to the sunset, with a named owner on every item. Use when the decision to retire is made and you need the operational plan.
+
+**Skill folder:** `skills/Product-Manager-Skills-eol-checklist/`
+**Namespace:** `plan`

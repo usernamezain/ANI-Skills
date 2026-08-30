@@ -1,0 +1,6 @@
+description = "Use a VLM to verify whether each episode satisfies the env's task description. Use when the user asks to annotate, label episodes, filter demos, or gate finetuning on a success classifier."
+
+prompt = """
+Invoke the ai:i4h-workflow-dataset-annotate skill.
+Load the prompt instructions from skills/skills-i4h-workflow-dataset-annotate/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-i4h-workflow-dataset-annotate/references/ to complete the task.
+"""

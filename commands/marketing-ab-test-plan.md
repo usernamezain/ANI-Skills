@@ -1,0 +1,6 @@
+# marketing:ab-test-plan
+
+Design a statistically rigorous A/B or multivariate test plan — If/Then/Because hypothesis, control and variant specs, required sample size per variant (absolute vs relative MDE via sample-size-calculator.py), test duration, guardrail metrics, stopping rules, and go/no-go decision criteria. Triggers on \"/digital-marketing-pro:ab-test-plan\", \"set up an A/B test\", \"how long should my test run\", \"calculate sample size for an experiment\", \"is this test result significant\". Reads the brand profile and past campaign-tracker results to avoid re-testing validated hypotheses; finished tests are evaluated with significance-tester.py by the cro-specialist agent.
+
+**Skill folder:** `skills/digital-marketing-pro-ab-test-plan/`
+**Namespace:** `marketing`

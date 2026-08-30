@@ -1,0 +1,6 @@
+description = "Render a single DRR fluoroscopy frame from a CT cache or synthetic phantom. Use when asked to render DRR, generate a fluoro image, or smoke-test the Slang renderer."
+
+prompt = """
+Invoke the ai:i4h-catheter-navigation-render-drr skill.
+Load the prompt instructions from skills/skills-i4h-catheter-navigation-render-drr/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-i4h-catheter-navigation-render-drr/references/ to complete the task.
+"""

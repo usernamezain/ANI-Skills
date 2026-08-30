@@ -1,0 +1,6 @@
+description = "Search Amazon products - find items, compare prices, read reviews"
+
+prompt = """
+Invoke the ai:amazon-search skill.
+Load the prompt instructions from skills/goose-skills-amazon-search/SKILL.md and consult the copy-pasteable references or guidelines inside skills/goose-skills-amazon-search/references/ to complete the task.
+"""

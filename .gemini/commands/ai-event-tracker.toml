@@ -1,0 +1,6 @@
+description = "Track real-time events, announcements, and breaking developments across Twitter, Reddit, news outlets, and web search. Monitors event progression, public reaction, key moments, and aftermath coverage for crisis response and opportunity detection."
+
+prompt = """
+Invoke the ai:event-tracker skill.
+Load the prompt instructions from skills/sandbase-skills-event-tracker/SKILL.md and consult the copy-pasteable references or guidelines inside skills/sandbase-skills-event-tracker/references/ to complete the task.
+"""

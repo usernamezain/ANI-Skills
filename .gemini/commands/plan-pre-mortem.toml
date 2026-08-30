@@ -1,0 +1,6 @@
+description = "Run a pre-mortem risk analysis on a PRD or launch plan. Categorizes risks as Tigers (real problems), Paper Tigers (overblown concerns), and Elephants (unspoken worries), then classifies as launch-blocking, fast-follow, or track. Use when preparing for launch, stress-testing a product plan, or identifying what could go wrong."
+
+prompt = """
+Invoke the plan:pre-mortem skill.
+Load the prompt instructions from skills/pm-skills-pre-mortem/SKILL.md and consult the copy-pasteable references or guidelines inside skills/pm-skills-pre-mortem/references/ to complete the task.
+"""

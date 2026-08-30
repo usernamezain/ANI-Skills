@@ -1,0 +1,6 @@
+description = "Convert between currencies with real-time exchange rates. Supports 150+ currencies including crypto, with historical rate lookup. Useful for international pricing, financial reporting, and cross-border commerce research."
+
+prompt = """
+Invoke the ai:currency-converter skill.
+Load the prompt instructions from skills/sandbase-skills-currency-converter/SKILL.md and consult the copy-pasteable references or guidelines inside skills/sandbase-skills-currency-converter/references/ to complete the task.
+"""

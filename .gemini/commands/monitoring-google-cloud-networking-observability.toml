@@ -1,0 +1,6 @@
+description = ">-"
+
+prompt = """
+Invoke the monitoring:google-cloud-networking-observability skill.
+Load the prompt instructions from skills/skills-google-cloud-networking-observability/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-google-cloud-networking-observability/references/ to complete the task.
+"""

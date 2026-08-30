@@ -1,0 +1,6 @@
+description = ">"
+
+prompt = """
+Invoke the marketing:seo-technical skill.
+Load the prompt instructions from skills/claude-seo-seo-technical/SKILL.md and consult the copy-pasteable references or guidelines inside skills/claude-seo-seo-technical/references/ to complete the task.
+"""

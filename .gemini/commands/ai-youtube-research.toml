@@ -1,0 +1,6 @@
+description = "Search videos, analyze channels, extract captions, read comments, and discover trends on YouTube through SandBase. Use when asked for YouTube research, video discovery, channel analysis, content strategy research, comment sentiment, or video transcript extraction."
+
+prompt = """
+Invoke the ai:youtube-research skill.
+Load the prompt instructions from skills/sandbase-skills-youtube-research/SKILL.md and consult the copy-pasteable references or guidelines inside skills/sandbase-skills-youtube-research/references/ to complete the task.
+"""

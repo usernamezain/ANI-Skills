@@ -1,0 +1,6 @@
+description = ">"
+
+prompt = """
+Invoke the marketing:seo-content skill.
+Load the prompt instructions from skills/claude-seo-seo-content/SKILL.md and consult the copy-pasteable references or guidelines inside skills/claude-seo-seo-content/references/ to complete the task.
+"""

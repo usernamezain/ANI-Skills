@@ -1,0 +1,6 @@
+description = "Research competitor advertising strategies through Facebook Ad Library, Google SERP ads, and social media sponsored content. Covers creative analysis, messaging patterns, targeting signals, and campaign frequency for competitive marketing intelligence."
+
+prompt = """
+Invoke the marketing:competitor-ad-research skill.
+Load the prompt instructions from skills/sandbase-skills-competitor-ad-research/SKILL.md and consult the copy-pasteable references or guidelines inside skills/sandbase-skills-competitor-ad-research/references/ to complete the task.
+"""

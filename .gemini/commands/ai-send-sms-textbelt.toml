@@ -1,0 +1,6 @@
+description = "Send SMS text messages to phone numbers. Use when the user asks to send a text, send an SMS, text someone, message a phone number, or send a notification via text message."
+
+prompt = """
+Invoke the ai:send-sms-textbelt skill.
+Load the prompt instructions from skills/goose-skills-send-sms-textbelt/SKILL.md and consult the copy-pasteable references or guidelines inside skills/goose-skills-send-sms-textbelt/references/ to complete the task.
+"""

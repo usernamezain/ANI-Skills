@@ -1,0 +1,6 @@
+description = "Comprehensive guide for developing WebGPU-enabled Three.js applications using TSL (Three.js Shading Language). Covers WebGPU renderer setup, TSL syntax and node materials, compute shaders, post-processing effects, and WGSL integration. Use this skill when working with Three.js WebGPU, TSL shaders, node materials, or GPU compute in Three.js."
+
+prompt = """
+Invoke the ui:webgpu-threejs-tsl skill.
+Load the prompt instructions from skills/webgpu-claude-skill-webgpu-threejs-tsl/SKILL.md and consult the copy-pasteable references or guidelines inside skills/webgpu-claude-skill-webgpu-threejs-tsl/references/ to complete the task.
+"""

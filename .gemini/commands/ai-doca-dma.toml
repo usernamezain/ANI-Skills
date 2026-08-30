@@ -1,0 +1,6 @@
+description = ">"
+
+prompt = """
+Invoke the ai:doca-dma skill.
+Load the prompt instructions from skills/skills-doca-dma/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-doca-dma/references/ to complete the task.
+"""

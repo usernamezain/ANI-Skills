@@ -1,0 +1,6 @@
+description = ">"
+
+prompt = """
+Invoke the ai:pain-language-engagers skill.
+Load the prompt instructions from skills/goose-skills-pain-language-engagers/SKILL.md and consult the copy-pasteable references or guidelines inside skills/goose-skills-pain-language-engagers/references/ to complete the task.
+"""

@@ -1,0 +1,6 @@
+description = ">"
+
+prompt = """
+Invoke the marketing:unslop-reasoning skill.
+Load the prompt instructions from skills/unslop-unslop-reasoning/SKILL.md and consult the copy-pasteable references or guidelines inside skills/unslop-unslop-reasoning/references/ to complete the task.
+"""

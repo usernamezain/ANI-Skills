@@ -1,0 +1,6 @@
+description = "Use this skill when migrating applications, examples, integrations, documentation, manifests, or repository code from NeMo Flow to NeMo Relay across Python, Rust, Node.js, Go, C FFI, CLI, configuration, and observability surfaces."
+
+prompt = """
+Invoke the monitoring:nemo-relay-migrate-from-flow skill.
+Load the prompt instructions from skills/skills-nemo-relay-migrate-from-flow/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-nemo-relay-migrate-from-flow/references/ to complete the task.
+"""

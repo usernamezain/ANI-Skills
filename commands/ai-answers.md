@@ -1,0 +1,6 @@
+# ai:answers
+
+USE FOR AI-grounded answers via OpenAI-compatible /chat/completions. Two modes: single-search (fast) or deep research (enable_research=true, thorough multi-search). Streaming/blocking. Citations.
+
+**Skill folder:** `skills/brave-search-skills-answers/`
+**Namespace:** `ai`

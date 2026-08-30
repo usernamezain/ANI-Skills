@@ -1,0 +1,6 @@
+description = "Diagnoses and fixes slow Qdrant indexing and data ingestion. Use when someone reports 'uploads are slow', 'indexing takes forever', 'optimizer is stuck', 'HNSW build time too long', or 'data uploaded but search is bad'. Also use when optimizer status shows errors, segments won't merge, or indexing threshold questions arise."
+
+prompt = """
+Invoke the db:qdrant-indexing-performance-optimization skill.
+Load the prompt instructions from skills/skills-qdrant-indexing-performance-optimization/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-qdrant-indexing-performance-optimization/references/ to complete the task.
+"""

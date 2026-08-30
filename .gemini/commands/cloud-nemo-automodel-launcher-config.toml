@@ -1,0 +1,6 @@
+description = "Configure NeMo AutoModel job launches for interactive runs, Slurm clusters, and SkyPilot cloud execution."
+
+prompt = """
+Invoke the cloud:nemo-automodel-launcher-config skill.
+Load the prompt instructions from skills/skills-nemo-automodel-launcher-config/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-nemo-automodel-launcher-config/references/ to complete the task.
+"""

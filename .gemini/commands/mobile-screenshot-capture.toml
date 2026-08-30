@@ -1,0 +1,6 @@
+description = "Capture high-quality screenshots of any public URL at custom resolutions. Supports desktop and mobile viewports, full-page captures, and specific element targeting. Ideal for visual monitoring, design research, and content archival."
+
+prompt = """
+Invoke the mobile:screenshot-capture skill.
+Load the prompt instructions from skills/sandbase-skills-screenshot-capture/SKILL.md and consult the copy-pasteable references or guidelines inside skills/sandbase-skills-screenshot-capture/references/ to complete the task.
+"""

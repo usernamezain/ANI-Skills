@@ -1,0 +1,6 @@
+description = ">"
+
+prompt = """
+Invoke the db:simulation-failure-triage skill.
+Load the prompt instructions from skills/materials-simulation-skills-simulation-failure-triage/SKILL.md and consult the copy-pasteable references or guidelines inside skills/materials-simulation-skills-simulation-failure-triage/references/ to complete the task.
+"""

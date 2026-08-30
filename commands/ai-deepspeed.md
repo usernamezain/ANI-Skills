@@ -1,0 +1,6 @@
+# ai:deepspeed
+
+Expert guidance for distributed training with DeepSpeed - ZeRO optimization stages, pipeline parallelism, FP16/BF16/FP8, 1-bit Adam, sparse attention
+
+**Skill folder:** `skills/AI-Research-SKILLs-deepspeed/`
+**Namespace:** `ai`

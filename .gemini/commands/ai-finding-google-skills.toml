@@ -1,0 +1,6 @@
+description = ">-"
+
+prompt = """
+Invoke the ai:finding-google-skills skill.
+Load the prompt instructions from skills/skills-finding-google-skills/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-finding-google-skills/references/ to complete the task.
+"""

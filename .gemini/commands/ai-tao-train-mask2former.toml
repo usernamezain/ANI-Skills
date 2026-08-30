@@ -1,0 +1,6 @@
+description = "Mask2Former for universal image segmentation (panoptic, instance, and semantic). Transformer-based with"
+
+prompt = """
+Invoke the ai:tao-train-mask2former skill.
+Load the prompt instructions from skills/skills-tao-train-mask2former/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-tao-train-mask2former/references/ to complete the task.
+"""

@@ -1,0 +1,6 @@
+description = "Transforms conversations and discussions into structured documentation pages in Notion. Captures insights, decisions, and knowledge from chat context, formats appropriately, and saves to wikis or databases with proper organization and linking for easy discovery."
+
+prompt = """
+Invoke the db:notion-knowledge-capture skill.
+Load the prompt instructions from skills/notion-cookbook-notion-knowledge-capture/SKILL.md and consult the copy-pasteable references or guidelines inside skills/notion-cookbook-notion-knowledge-capture/references/ to complete the task.
+"""

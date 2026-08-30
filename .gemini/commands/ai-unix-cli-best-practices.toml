@@ -1,0 +1,6 @@
+description = "Safe, portable, and efficient command-line patterns for macOS/BSD Unix tools (grep, find, sed, awk, xargs, mdfind, pbcopy, open) and modern alternatives (ripgrep, fd). Covers common shell scripting and one-liner use cases including fast searching, text processing, codebase navigation, and parallel execution."
+
+prompt = """
+Invoke the ai:unix-cli-best-practices skill.
+Load the prompt instructions from skills/skills-unix-cli-best-practices/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-unix-cli-best-practices/references/ to complete the task.
+"""

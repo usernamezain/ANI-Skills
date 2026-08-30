@@ -1,0 +1,6 @@
+description = "Segment users from feedback data based on behavior, JTBD, and needs. Identifies at least 3 distinct user segments. Use when segmenting a user base, analyzing diverse user feedback, or building a segmentation model."
+
+prompt = """
+Invoke the plan:user-segmentation skill.
+Load the prompt instructions from skills/pm-skills-user-segmentation/SKILL.md and consult the copy-pasteable references or guidelines inside skills/pm-skills-user-segmentation/references/ to complete the task.
+"""

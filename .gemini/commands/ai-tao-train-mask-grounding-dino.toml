@@ -1,0 +1,6 @@
+description = "Mask Grounding DINO for grounded instance segmentation. Extends Grounding DINO with a mask-prediction head for"
+
+prompt = """
+Invoke the ai:tao-train-mask-grounding-dino skill.
+Load the prompt instructions from skills/skills-tao-train-mask-grounding-dino/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-tao-train-mask-grounding-dino/references/ to complete the task.
+"""

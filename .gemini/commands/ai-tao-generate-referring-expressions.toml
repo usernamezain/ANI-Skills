@@ -1,0 +1,6 @@
+description = "Four-step image referring-expression pipeline: turns images plus KITTI bounding-box labels into region"
+
+prompt = """
+Invoke the ai:tao-generate-referring-expressions skill.
+Load the prompt instructions from skills/skills-tao-generate-referring-expressions/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-tao-generate-referring-expressions/references/ to complete the task.
+"""

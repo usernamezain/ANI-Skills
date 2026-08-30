@@ -1,0 +1,6 @@
+description = ">-"
+
+prompt = """
+Invoke the ui:stitch--code-to-design skill.
+Load the prompt instructions from skills/stitch-skills-stitch--code-to-design/SKILL.md and consult the copy-pasteable references or guidelines inside skills/stitch-skills-stitch--code-to-design/references/ to complete the task.
+"""

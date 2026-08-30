@@ -1,0 +1,6 @@
+description = ">-"
+
+prompt = """
+Invoke the ai:jetson-video-capability skill.
+Load the prompt instructions from skills/skills-jetson-video-capability/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-jetson-video-capability/references/ to complete the task.
+"""

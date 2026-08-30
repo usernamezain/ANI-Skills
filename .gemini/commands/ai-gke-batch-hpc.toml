@@ -1,0 +1,6 @@
+description = ">-"
+
+prompt = """
+Invoke the ai:gke-batch-hpc skill.
+Load the prompt instructions from skills/skills-gke-batch-hpc/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-gke-batch-hpc/references/ to complete the task.
+"""

@@ -1,0 +1,6 @@
+description = "Create FigJam/Miro-style workflow diagrams as high-quality PNG images from plain-text workflow descriptions. Renders beautiful HTML diagrams with connected nodes, arrows, and labels, then screenshots them for sharing."
+
+prompt = """
+Invoke the doc:create-workflow-diagram skill.
+Load the prompt instructions from skills/goose-skills-create-workflow-diagram/SKILL.md and consult the copy-pasteable references or guidelines inside skills/goose-skills-create-workflow-diagram/references/ to complete the task.
+"""

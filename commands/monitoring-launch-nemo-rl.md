@@ -1,0 +1,6 @@
+# monitoring:launch-nemo-rl
+
+Playbook for launching, monitoring, stopping, and debugging NeMo-RL recipes on a Kubernetes cluster via the nrl-k8s CLI. Covers ephemeral vs long-lived RayCluster modes, iterating on runs, and debugging hung or failed training jobs.
+
+**Skill folder:** `skills/skills-launch-nemo-rl/`
+**Namespace:** `monitoring`

@@ -1,0 +1,6 @@
+description = "Read data from two tabs in a Google Sheet to compare and identify differences."
+
+prompt = """
+Invoke the ai:recipe-compare-sheet-tabs skill.
+Load the prompt instructions from skills/cli-recipe-compare-sheet-tabs/SKILL.md and consult the copy-pasteable references or guidelines inside skills/cli-recipe-compare-sheet-tabs/references/ to complete the task.
+"""

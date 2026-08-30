@@ -1,0 +1,6 @@
+description = ">-"
+
+prompt = """
+Invoke the ai:physical-ai-defect-image-generation skill.
+Load the prompt instructions from skills/skills-physical-ai-defect-image-generation/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-physical-ai-defect-image-generation/references/ to complete the task.
+"""

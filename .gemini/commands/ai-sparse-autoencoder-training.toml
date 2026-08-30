@@ -1,0 +1,6 @@
+description = "Provides guidance for training and analyzing Sparse Autoencoders (SAEs) using SAELens to decompose neural network activations into interpretable features. Use when discovering interpretable features, analyzing superposition, or studying monosemantic representations in language models."
+
+prompt = """
+Invoke the ai:sparse-autoencoder-training skill.
+Load the prompt instructions from skills/AI-Research-SKILLs-sparse-autoencoder-training/SKILL.md and consult the copy-pasteable references or guidelines inside skills/AI-Research-SKILLs-sparse-autoencoder-training/references/ to complete the task.
+"""

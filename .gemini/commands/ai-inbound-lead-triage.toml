@@ -1,0 +1,6 @@
+description = ">"
+
+prompt = """
+Invoke the ai:inbound-lead-triage skill.
+Load the prompt instructions from skills/goose-skills-inbound-lead-triage/SKILL.md and consult the copy-pasteable references or guidelines inside skills/goose-skills-inbound-lead-triage/references/ to complete the task.
+"""

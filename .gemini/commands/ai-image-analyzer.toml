@@ -1,0 +1,6 @@
+description = "Analyze images with AI - extract text, describe content, detect objects"
+
+prompt = """
+Invoke the ai:image-analyzer skill.
+Load the prompt instructions from skills/goose-skills-image-analyzer/SKILL.md and consult the copy-pasteable references or guidelines inside skills/goose-skills-image-analyzer/references/ to complete the task.
+"""

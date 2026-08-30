@@ -1,0 +1,6 @@
+description = ">"
+
+prompt = """
+Invoke the marketing:company-current-gtm-analysis skill.
+Load the prompt instructions from skills/goose-skills-company-current-gtm-analysis/SKILL.md and consult the copy-pasteable references or guidelines inside skills/goose-skills-company-current-gtm-analysis/references/ to complete the task.
+"""

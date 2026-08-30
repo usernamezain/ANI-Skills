@@ -1,0 +1,6 @@
+description = "Skill from postiz-agent"
+
+prompt = """
+Invoke the marketing:postiz skill.
+Load the prompt instructions from skills/postiz-agent-postiz/SKILL.md and consult the copy-pasteable references or guidelines inside skills/postiz-agent-postiz/references/ to complete the task.
+"""

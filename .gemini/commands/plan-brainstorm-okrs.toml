@@ -1,0 +1,6 @@
+description = "Brainstorm team-level OKRs aligned with company objectives — qualitative objectives with measurable key results. Use when setting quarterly OKRs, aligning team goals with company strategy, drafting objectives, or learning how to write effective OKRs."
+
+prompt = """
+Invoke the plan:brainstorm-okrs skill.
+Load the prompt instructions from skills/pm-skills-brainstorm-okrs/SKILL.md and consult the copy-pasteable references or guidelines inside skills/pm-skills-brainstorm-okrs/references/ to complete the task.
+"""

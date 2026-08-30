@@ -1,0 +1,6 @@
+description = "Runs LLM inference on CPU, Apple Silicon, and consumer GPUs without NVIDIA hardware. Use for edge deployment, M1/M2/M3 Macs, AMD/Intel GPUs, or when CUDA is unavailable. Supports GGUF quantization (1.5-8 bit) for reduced memory and 4-10× speedup vs PyTorch on CPU."
+
+prompt = """
+Invoke the ai:llama-cpp skill.
+Load the prompt instructions from skills/AI-Research-SKILLs-llama-cpp/SKILL.md and consult the copy-pasteable references or guidelines inside skills/AI-Research-SKILLs-llama-cpp/references/ to complete the task.
+"""

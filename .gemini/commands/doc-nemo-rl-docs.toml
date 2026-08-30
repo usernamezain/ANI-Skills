@@ -1,0 +1,6 @@
+description = "Documentation conventions for NeMo-RL. Covers docs/index.md updates and docstring format. Do NOT use for: bug fixes, test fixes, dependency bumps, refactoring, CI/CD changes, performance tuning, or any task that does not involve writing or updating documentation."
+
+prompt = """
+Invoke the doc:nemo-rl-docs skill.
+Load the prompt instructions from skills/skills-nemo-rl-docs/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-nemo-rl-docs/references/ to complete the task.
+"""

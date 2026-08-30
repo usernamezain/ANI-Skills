@@ -1,0 +1,6 @@
+description = "Create and manage APM service remapping rules — rewrite service names at ingestion time to collapse noisy inferred entities, clean up auto-generated names, handle org renames, or normalize naming conventions. Use for any request involving service renaming, service mapping, inferred service cleanup, peer.service normalization, or collapsing fragmented service names."
+
+prompt = """
+Invoke the ai:service-remapping skill.
+Load the prompt instructions from skills/agent-skills-service-remapping/SKILL.md and consult the copy-pasteable references or guidelines inside skills/agent-skills-service-remapping/references/ to complete the task.
+"""

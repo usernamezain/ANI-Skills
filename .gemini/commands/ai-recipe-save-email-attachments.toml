@@ -1,0 +1,6 @@
+description = "Find Gmail messages with attachments and save them to a Google Drive folder."
+
+prompt = """
+Invoke the ai:recipe-save-email-attachments skill.
+Load the prompt instructions from skills/cli-recipe-save-email-attachments/SKILL.md and consult the copy-pasteable references or guidelines inside skills/cli-recipe-save-email-attachments/references/ to complete the task.
+"""

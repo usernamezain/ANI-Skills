@@ -1,0 +1,6 @@
+description = "Render pixel-accurate iMessage screenshot mockups (DM or group) from a thread JSON. Supports minimal, with-keyboard, and full iPhone 15 Pro frame variants. Outputs HTML + PNG."
+
+prompt = """
+Invoke the ai:create-imessage-mockup skill.
+Load the prompt instructions from skills/goose-skills-create-imessage-mockup/SKILL.md and consult the copy-pasteable references or guidelines inside skills/goose-skills-create-imessage-mockup/references/ to complete the task.
+"""

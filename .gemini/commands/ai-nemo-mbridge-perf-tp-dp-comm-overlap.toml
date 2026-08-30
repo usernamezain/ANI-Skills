@@ -1,0 +1,6 @@
+description = "Operational guide for enabling TP, DP, and PP communication overlap in Megatron-Bridge, including config knobs, code anchors, pitfalls, and verification."
+
+prompt = """
+Invoke the ai:nemo-mbridge-perf-tp-dp-comm-overlap skill.
+Load the prompt instructions from skills/skills-nemo-mbridge-perf-tp-dp-comm-overlap/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-nemo-mbridge-perf-tp-dp-comm-overlap/references/ to complete the task.
+"""

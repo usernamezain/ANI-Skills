@@ -1,0 +1,6 @@
+description = "Bing Webmaster Tools + IndexNow extension. Microsoft Copilot citations are fed by the Bing index; this skill makes Bing visibility, link data, and IndexNow URL submission first-class."
+
+prompt = """
+Invoke the marketing:seo-bing skill.
+Load the prompt instructions from skills/claude-seo-seo-bing/SKILL.md and consult the copy-pasteable references or guidelines inside skills/claude-seo-seo-bing/references/ to complete the task.
+"""

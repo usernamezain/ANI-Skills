@@ -1,0 +1,6 @@
+description = "Diagnoses and fixes slow Qdrant search. Use when someone reports 'search is slow', 'high latency', 'queries take too long', 'low QPS', 'throughput too low', 'filtered search is slow', or 'search was fast but now it's slow'. Also use when search performance degrades after config changes or data growth."
+
+prompt = """
+Invoke the marketing:qdrant-search-speed-optimization skill.
+Load the prompt instructions from skills/skills-qdrant-search-speed-optimization/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-qdrant-search-speed-optimization/references/ to complete the task.
+"""

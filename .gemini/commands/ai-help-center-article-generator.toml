@@ -1,0 +1,6 @@
+description = ">"
+
+prompt = """
+Invoke the ai:help-center-article-generator skill.
+Load the prompt instructions from skills/goose-skills-help-center-article-generator/SKILL.md and consult the copy-pasteable references or guidelines inside skills/goose-skills-help-center-article-generator/references/ to complete the task.
+"""

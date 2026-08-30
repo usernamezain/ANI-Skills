@@ -1,0 +1,6 @@
+description = ">"
+
+prompt = """
+Invoke the ai:churn-risk-detector skill.
+Load the prompt instructions from skills/goose-skills-churn-risk-detector/SKILL.md and consult the copy-pasteable references or guidelines inside skills/goose-skills-churn-risk-detector/references/ to complete the task.
+"""

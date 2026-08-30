@@ -1,0 +1,6 @@
+description = "Identify the technology stack powering any website — frameworks, CMS, analytics, hosting, CDN, payment processors, and marketing tools. Useful for competitive intelligence, sales prospecting, and technology landscape research."
+
+prompt = """
+Invoke the marketing:tech-stack-detector skill.
+Load the prompt instructions from skills/sandbase-skills-tech-stack-detector/SKILL.md and consult the copy-pasteable references or guidelines inside skills/sandbase-skills-tech-stack-detector/references/ to complete the task.
+"""

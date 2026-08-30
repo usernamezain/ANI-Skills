@@ -1,0 +1,6 @@
+description = ">"
+
+prompt = """
+Invoke the ai:doca-compress skill.
+Load the prompt instructions from skills/skills-doca-compress/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-doca-compress/references/ to complete the task.
+"""

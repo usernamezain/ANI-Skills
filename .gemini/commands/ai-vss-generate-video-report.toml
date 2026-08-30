@@ -1,0 +1,6 @@
+description = "Use this skill when producing a VSS analysis report — Mode A per-clip VLM, Mode B incident-range via video-analytics. Not for standalone video summarization, real-time alerts or ad-hoc Q&A."
+
+prompt = """
+Invoke the ai:vss-generate-video-report skill.
+Load the prompt instructions from skills/skills-vss-generate-video-report/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-vss-generate-video-report/references/ to complete the task.
+"""

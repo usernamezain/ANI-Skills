@@ -1,0 +1,6 @@
+description = "Use to call the VIOS REST API (sensor list, timelines, clip extraction, snapshots, add/delete sensors and streams). Not for VLM inference or search."
+
+prompt = """
+Invoke the mobile:vss-manage-video-io-storage skill.
+Load the prompt instructions from skills/skills-vss-manage-video-io-storage/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-vss-manage-video-io-storage/references/ to complete the task.
+"""

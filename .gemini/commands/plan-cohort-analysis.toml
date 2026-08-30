@@ -1,0 +1,6 @@
+description = "Perform cohort analysis on user engagement data — retention curves, feature adoption trends, and segment-level insights. Use when analyzing user retention by cohort, studying feature adoption over time, investigating churn patterns, or identifying engagement trends."
+
+prompt = """
+Invoke the plan:cohort-analysis skill.
+Load the prompt instructions from skills/pm-skills-cohort-analysis/SKILL.md and consult the copy-pasteable references or guidelines inside skills/pm-skills-cohort-analysis/references/ to complete the task.
+"""

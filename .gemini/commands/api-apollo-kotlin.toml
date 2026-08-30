@@ -1,0 +1,6 @@
+description = ">"
+
+prompt = """
+Invoke the api:apollo-kotlin skill.
+Load the prompt instructions from skills/skills-apollo-kotlin/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-apollo-kotlin/references/ to complete the task.
+"""

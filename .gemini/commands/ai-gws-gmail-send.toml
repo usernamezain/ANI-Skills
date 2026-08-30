@@ -1,0 +1,6 @@
+description = "Gmail: Send an email."
+
+prompt = """
+Invoke the ai:gws-gmail-send skill.
+Load the prompt instructions from skills/cli-gws-gmail-send/SKILL.md and consult the copy-pasteable references or guidelines inside skills/cli-gws-gmail-send/references/ to complete the task.
+"""

@@ -1,0 +1,6 @@
+description = "Generate user-facing release notes from tickets, PRDs, or changelogs. Creates clear, engaging summaries organized by category (new features, improvements, fixes). Use when writing release notes, creating changelogs, announcing product updates, or summarizing what shipped."
+
+prompt = """
+Invoke the doc:release-notes skill.
+Load the prompt instructions from skills/pm-skills-release-notes/SKILL.md and consult the copy-pasteable references or guidelines inside skills/pm-skills-release-notes/references/ to complete the task.
+"""

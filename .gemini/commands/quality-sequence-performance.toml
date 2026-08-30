@@ -1,0 +1,6 @@
+description = ">"
+
+prompt = """
+Invoke the quality:sequence-performance skill.
+Load the prompt instructions from skills/goose-skills-sequence-performance/SKILL.md and consult the copy-pasteable references or guidelines inside skills/goose-skills-sequence-performance/references/ to complete the task.
+"""

@@ -1,0 +1,6 @@
+description = ">"
+
+prompt = """
+Invoke the mobile:apollo-ios skill.
+Load the prompt instructions from skills/skills-apollo-ios/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-apollo-ios/references/ to complete the task.
+"""

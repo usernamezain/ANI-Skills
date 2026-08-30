@@ -1,0 +1,6 @@
+description = "Add `flutter_localizations` and `intl` dependencies, enable \"generate true\" in `pubspec.yaml`, and create an `l10n.yaml` configuration file. Use when initializing localization support for a new Flutter project."
+
+prompt = """
+Invoke the mobile:flutter-setup-localization skill.
+Load the prompt instructions from skills/skills-flutter-setup-localization/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-flutter-setup-localization/references/ to complete the task.
+"""

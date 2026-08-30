@@ -1,0 +1,6 @@
+description = "Plan and apply safe Jetson headless-mode changes to reclaim GUI and daemon memory."
+
+prompt = """
+Invoke the ai:jetson-headless-mode skill.
+Load the prompt instructions from skills/skills-jetson-headless-mode/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-jetson-headless-mode/references/ to complete the task.
+"""

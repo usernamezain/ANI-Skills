@@ -1,0 +1,6 @@
+description = "Subscribe to change notifications on a Google Drive file or folder."
+
+prompt = """
+Invoke the ai:recipe-watch-drive-changes skill.
+Load the prompt instructions from skills/cli-recipe-watch-drive-changes/SKILL.md and consult the copy-pasteable references or guidelines inside skills/cli-recipe-watch-drive-changes/references/ to complete the task.
+"""

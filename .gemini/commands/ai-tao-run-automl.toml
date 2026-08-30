@@ -1,0 +1,6 @@
+description = "Run container-backed AutoML / hyperparameter optimization (HPO) for NVIDIA TAO networks using AutoMLRunner. Handles algorithm"
+
+prompt = """
+Invoke the ai:tao-run-automl skill.
+Load the prompt instructions from skills/skills-tao-run-automl/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-tao-run-automl/references/ to complete the task.
+"""

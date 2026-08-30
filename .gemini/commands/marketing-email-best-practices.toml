@@ -1,0 +1,6 @@
+description = "Use when building email features, emails going to spam, high bounce rates, setting up SPF/DKIM/DMARC authentication, implementing email capture, ensuring compliance (CAN-SPAM, GDPR, CASL), handling webhooks, retry logic, making emails accessible (alt text, headings, contrast, screen readers), or deciding transactional vs marketing."
+
+prompt = """
+Invoke the marketing:email-best-practices skill.
+Load the prompt instructions from skills/resend-skills-email-best-practices/SKILL.md and consult the copy-pasteable references or guidelines inside skills/resend-skills-email-best-practices/references/ to complete the task.
+"""

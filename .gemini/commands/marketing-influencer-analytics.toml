@@ -1,0 +1,6 @@
+description = "Analyze influencer performance metrics across TikTok, Instagram, YouTube, Bilibili, and Kuaishou. Compare engagement rates, audience growth, content consistency, and cross-platform presence for data-driven partnership decisions."
+
+prompt = """
+Invoke the marketing:influencer-analytics skill.
+Load the prompt instructions from skills/sandbase-skills-influencer-analytics/SKILL.md and consult the copy-pasteable references or guidelines inside skills/sandbase-skills-influencer-analytics/references/ to complete the task.
+"""

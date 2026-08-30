@@ -1,0 +1,6 @@
+description = ">-"
+
+prompt = """
+Invoke the monitoring:gke-observability skill.
+Load the prompt instructions from skills/skills-gke-observability/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-gke-observability/references/ to complete the task.
+"""

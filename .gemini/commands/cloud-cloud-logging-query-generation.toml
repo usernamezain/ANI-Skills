@@ -1,0 +1,6 @@
+description = ">-"
+
+prompt = """
+Invoke the cloud:cloud-logging-query-generation skill.
+Load the prompt instructions from skills/skills-cloud-logging-query-generation/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-cloud-logging-query-generation/references/ to complete the task.
+"""

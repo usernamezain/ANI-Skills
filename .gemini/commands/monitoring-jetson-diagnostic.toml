@@ -1,0 +1,6 @@
+description = "Read-only Jetson health snapshot for identity, memory, GPU, thermal, power, storage, services, and top processes."
+
+prompt = """
+Invoke the monitoring:jetson-diagnostic skill.
+Load the prompt instructions from skills/skills-jetson-diagnostic/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-jetson-diagnostic/references/ to complete the task.
+"""

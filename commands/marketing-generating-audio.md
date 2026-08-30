@@ -1,0 +1,6 @@
+# marketing:generating-audio
+
+ALWAYS read this skill before generating spoken audio or calling audio_generate — a voiceover, narration, an ad read, a character line, or any script read aloud. Turns a script into speech — picks the model and voice, prepares the text for reading, and splits a long script into clips. Use whenever the user asks for text-to-speech, a voiceover, narration, or to have something read or spoken aloud.
+
+**Skill folder:** `skills/superCMO-skills-generating-audio/`
+**Namespace:** `marketing`

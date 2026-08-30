@@ -1,0 +1,6 @@
+description = "Provides guidance for interpreting and manipulating neural network internals using nnsight with optional NDIF remote execution. Use when needing to run interpretability experiments on massive models (70B+) without local GPU resources, or when working with any PyTorch architecture."
+
+prompt = """
+Invoke the ai:nnsight-remote-interpretability skill.
+Load the prompt instructions from skills/AI-Research-SKILLs-nnsight-remote-interpretability/SKILL.md and consult the copy-pasteable references or guidelines inside skills/AI-Research-SKILLs-nnsight-remote-interpretability/references/ to complete the task.
+"""

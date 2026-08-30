@@ -1,0 +1,6 @@
+description = "OpenClaw guide for Twitter search, follower exports, monitoring, media, and approved X automation through Xquik. Not affiliated with X Corp."
+
+prompt = """
+Invoke the marketing:tweetclaw skill.
+Load the prompt instructions from skills/tweetclaw/SKILL.md and consult the copy-pasteable references or guidelines inside skills/tweetclaw/references/ to complete the task.
+"""

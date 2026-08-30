@@ -1,0 +1,6 @@
+description = ">"
+
+prompt = """
+Invoke the ai:customer-win-back-sequencer skill.
+Load the prompt instructions from skills/goose-skills-customer-win-back-sequencer/SKILL.md and consult the copy-pasteable references or guidelines inside skills/goose-skills-customer-win-back-sequencer/references/ to complete the task.
+"""

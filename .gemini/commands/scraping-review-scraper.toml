@@ -1,0 +1,6 @@
+description = ">"
+
+prompt = """
+Invoke the scraping:review-scraper skill.
+Load the prompt instructions from skills/goose-skills-review-scraper/SKILL.md and consult the copy-pasteable references or guidelines inside skills/goose-skills-review-scraper/references/ to complete the task.
+"""

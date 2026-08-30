@@ -1,0 +1,6 @@
+description = "Manage Google Meet conferences."
+
+prompt = """
+Invoke the ai:gws-meet skill.
+Load the prompt instructions from skills/cli-gws-meet/SKILL.md and consult the copy-pasteable references or guidelines inside skills/cli-gws-meet/references/ to complete the task.
+"""

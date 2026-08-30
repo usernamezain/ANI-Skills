@@ -1,0 +1,6 @@
+description = "Measure Jetson DRAM/NvMap usage and verify before/after memory reclamation with live audit data."
+
+prompt = """
+Invoke the ai:jetson-memory-audit skill.
+Load the prompt instructions from skills/skills-jetson-memory-audit/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-jetson-memory-audit/references/ to complete the task.
+"""

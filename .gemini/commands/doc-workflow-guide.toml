@@ -1,0 +1,6 @@
+description = "Reference for typed triggers, durable steps, replay-safe data flow, and idempotent Workflow effects."
+
+prompt = """
+Invoke the doc:workflow-guide skill.
+Load the prompt instructions from skills/notion-cookbook-workflow-guide/SKILL.md and consult the copy-pasteable references or guidelines inside skills/notion-cookbook-workflow-guide/references/ to complete the task.
+"""

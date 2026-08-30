@@ -1,0 +1,6 @@
+description = "Research companies, professionals, job markets, and industry content on LinkedIn through SandBase. Use when asked for LinkedIn research, company analysis, professional profiling, job market research, or B2B competitive intelligence."
+
+prompt = """
+Invoke the marketing:linkedin-research skill.
+Load the prompt instructions from skills/sandbase-skills-linkedin-research/SKILL.md and consult the copy-pasteable references or guidelines inside skills/sandbase-skills-linkedin-research/references/ to complete the task.
+"""

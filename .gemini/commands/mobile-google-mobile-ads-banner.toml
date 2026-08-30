@@ -1,0 +1,6 @@
+description = ">-"
+
+prompt = """
+Invoke the mobile:google-mobile-ads-banner skill.
+Load the prompt instructions from skills/skills-google-mobile-ads-banner/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-google-mobile-ads-banner/references/ to complete the task.
+"""

@@ -1,0 +1,6 @@
+description = "Full Sentry SDK setup for TanStack Start React. Use when asked to \"add Sentry to TanStack Start\", \"install @sentry/tanstackstart-react\", or configure error monitoring, tracing, session replay, logs, or user feedback in a TanStack Start React app."
+
+prompt = """
+Invoke the auth:sentry-tanstack-start-sdk skill.
+Load the prompt instructions from skills/sentry-for-ai-sentry-tanstack-start-sdk/SKILL.md and consult the copy-pasteable references or guidelines inside skills/sentry-for-ai-sentry-tanstack-start-sdk/references/ to complete the task.
+"""

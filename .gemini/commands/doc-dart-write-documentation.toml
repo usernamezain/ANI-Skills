@@ -1,0 +1,6 @@
+description = "Rules and formatting guidelines for writing Dart /// API documentation and doc comments. Use when documenting Dart code, writing doc comments for any Dart declaration (libraries, classes, methods, variables, etc.), or when instructed to follow the Effective Dart documentation guidelines."
+
+prompt = """
+Invoke the doc:dart-write-documentation skill.
+Load the prompt instructions from skills/skills-dart-write-documentation/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-dart-write-documentation/references/ to complete the task.
+"""

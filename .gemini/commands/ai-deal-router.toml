@@ -1,0 +1,6 @@
+description = "Use this as the always-on brain. Read the last message, find the first match, act. Ten seconds."
+
+prompt = """
+Invoke the ai:deal-router skill.
+Load the prompt instructions from skills/dark-psychology-skills-deal-router/SKILL.md and consult the copy-pasteable references or guidelines inside skills/dark-psychology-skills-deal-router/references/ to complete the task.
+"""

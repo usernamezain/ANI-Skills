@@ -1,0 +1,6 @@
+description = "Remote SLURM GPU cluster execution over SSH with sbatch/srun, Pyxis/Enroot containers, and Lustre-backed"
+
+prompt = """
+Invoke the ai:tao-run-on-slurm skill.
+Load the prompt instructions from skills/skills-tao-run-on-slurm/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-tao-run-on-slurm/references/ to complete the task.
+"""

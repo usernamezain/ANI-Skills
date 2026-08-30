@@ -1,0 +1,6 @@
+description = "Upgrade the Sentry JavaScript SDK across major versions. Use when asked to upgrade Sentry, migrate to a newer version, fix deprecated Sentry APIs, or resolve breaking changes after a Sentry version bump."
+
+prompt = """
+Invoke the monitoring:sentry-sdk-upgrade skill.
+Load the prompt instructions from skills/sentry-for-ai-sentry-sdk-upgrade/SKILL.md and consult the copy-pasteable references or guidelines inside skills/sentry-for-ai-sentry-sdk-upgrade/references/ to complete the task.
+"""

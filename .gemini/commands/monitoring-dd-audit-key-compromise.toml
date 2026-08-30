@@ -1,0 +1,6 @@
+description = "Investigate a potentially compromised Datadog API key — timeline of actions, geo/IP breakdown, endpoints called, anomaly flags, and remediation steps."
+
+prompt = """
+Invoke the monitoring:dd-audit-key-compromise skill.
+Load the prompt instructions from skills/agent-skills-dd-audit-key-compromise/SKILL.md and consult the copy-pasteable references or guidelines inside skills/agent-skills-dd-audit-key-compromise/references/ to complete the task.
+"""

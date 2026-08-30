@@ -1,0 +1,6 @@
+description = ">-"
+
+prompt = """
+Invoke the ui:stitch--upload-to-stitch skill.
+Load the prompt instructions from skills/stitch-skills-stitch--upload-to-stitch/SKILL.md and consult the copy-pasteable references or guidelines inside skills/stitch-skills-stitch--upload-to-stitch/references/ to complete the task.
+"""

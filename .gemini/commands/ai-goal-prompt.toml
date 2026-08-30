@@ -1,0 +1,6 @@
+description = "Drafts copy-paste-ready /goal commands for goal mode in Claude Code and Codex. Use when the user asks to create, write, rewrite, improve, compress, clean up, or prepare a goal prompt, goal condition, /goal command, goal-mode objective, or copy-ready long-running task objective."
+
+prompt = """
+Invoke the ai:goal-prompt skill.
+Load the prompt instructions from skills/skills-goal-prompt/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-goal-prompt/references/ to complete the task.
+"""

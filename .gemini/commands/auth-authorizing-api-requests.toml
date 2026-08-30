@@ -1,0 +1,6 @@
+description = ">-"
+
+prompt = """
+Invoke the auth:authorizing-api-requests skill.
+Load the prompt instructions from skills/mailtrap-skills-authorizing-api-requests/SKILL.md and consult the copy-pasteable references or guidelines inside skills/mailtrap-skills-authorizing-api-requests/references/ to complete the task.
+"""

@@ -1,0 +1,6 @@
+description = "Validate and use MoE expert-parallel communication overlap in Megatron-Bridge, including overlap_moe_expert_parallel_comm, delay_wgrad_compute, and flex dispatcher backends such as DeepEP and HybridEP."
+
+prompt = """
+Invoke the ai:nemo-mbridge-perf-expert-parallel-overlap skill.
+Load the prompt instructions from skills/skills-nemo-mbridge-perf-expert-parallel-overlap/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-nemo-mbridge-perf-expert-parallel-overlap/references/ to complete the task.
+"""

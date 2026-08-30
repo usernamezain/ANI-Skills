@@ -1,0 +1,6 @@
+description = "Extract leads from competitor product activity — Product Hunt commenters/upvoters, HN posts about competitors, case studies, testimonials, tech press, and switching signals. Detects people actively switching from competitors as highest-priority leads."
+
+prompt = """
+Invoke the ai:competitor-signals skill.
+Load the prompt instructions from skills/goose-skills-competitor-signals/SKILL.md and consult the copy-pasteable references or guidelines inside skills/goose-skills-competitor-signals/references/ to complete the task.
+"""

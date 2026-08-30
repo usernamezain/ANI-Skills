@@ -1,0 +1,6 @@
+description = ">"
+
+prompt = """
+Invoke the db:read-memories skill.
+Load the prompt instructions from skills/duckdb-skills-read-memories/SKILL.md and consult the copy-pasteable references or guidelines inside skills/duckdb-skills-read-memories/references/ to complete the task.
+"""

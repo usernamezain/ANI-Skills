@@ -1,0 +1,6 @@
+# ai:jetson-customize-usb
+
+Enable/disable Jetson USB2/USB3 SS ports via kernel-DT overlay. Do NOT use for UPHY lane allocation or ODMDATA edits.
+
+**Skill folder:** `skills/skills-jetson-customize-usb/`
+**Namespace:** `ai`

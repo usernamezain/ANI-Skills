@@ -1,0 +1,6 @@
+description = "Diagnose and fix Claude in Chrome MCP extension connectivity issues. Use when mcp__claude-in-chrome__* tools fail, return \"Browser extension is not connected\", or behave erratically."
+
+prompt = """
+Invoke the scraping:chrome-mcp-troubleshooting skill.
+Load the prompt instructions from skills/skills-chrome-mcp-troubleshooting/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-chrome-mcp-troubleshooting/references/ to complete the task.
+"""

@@ -1,0 +1,6 @@
+description = "Analyze and prioritize a list of feature requests by theme, strategic alignment, impact, effort, and risk. Use when reviewing customer feature requests, triaging a backlog, or making prioritization decisions."
+
+prompt = """
+Invoke the plan:analyze-feature-requests skill.
+Load the prompt instructions from skills/pm-skills-analyze-feature-requests/SKILL.md and consult the copy-pasteable references or guidelines inside skills/pm-skills-analyze-feature-requests/references/ to complete the task.
+"""

@@ -1,0 +1,6 @@
+description = "Enable a Gmail out-of-office auto-reply with a custom message and date range."
+
+prompt = """
+Invoke the ai:recipe-create-vacation-responder skill.
+Load the prompt instructions from skills/cli-recipe-create-vacation-responder/SKILL.md and consult the copy-pasteable references or guidelines inside skills/cli-recipe-create-vacation-responder/references/ to complete the task.
+"""

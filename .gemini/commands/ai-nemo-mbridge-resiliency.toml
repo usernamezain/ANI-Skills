@@ -1,0 +1,6 @@
+description = "Resiliency features in Megatron Bridge including fault tolerance, straggler detection, in-process restart, preemption, and re-run state machine."
+
+prompt = """
+Invoke the ai:nemo-mbridge-resiliency skill.
+Load the prompt instructions from skills/skills-nemo-mbridge-resiliency/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-nemo-mbridge-resiliency/references/ to complete the task.
+"""

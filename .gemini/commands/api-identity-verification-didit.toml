@@ -1,0 +1,6 @@
+description = "Identity verification via phone/email OTP and AML screening using Didit API"
+
+prompt = """
+Invoke the api:identity-verification-didit skill.
+Load the prompt instructions from skills/goose-skills-identity-verification-didit/SKILL.md and consult the copy-pasteable references or guidelines inside skills/goose-skills-identity-verification-didit/references/ to complete the task.
+"""

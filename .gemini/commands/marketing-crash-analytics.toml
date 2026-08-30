@@ -1,0 +1,6 @@
+description = "When the user wants to monitor, triage, or reduce their app's crash rate — including setting up Crashlytics, prioritizing which crashes to fix first, interpreting crash data, and understanding how crashes affect App Store ranking. Use when the user mentions \"crash\", \"crashlytics\", \"crash rate\", \"ANR\", \"app not responding\", \"crash-free sessions\", \"crash-free users\", \"symbolication\", \"stability\", \"firebase crashes\", \"app crashing\", or \"crash report\". For overall analytics setup, see app-analytics."
+
+prompt = """
+Invoke the marketing:crash-analytics skill.
+Load the prompt instructions from skills/aso-skills-crash-analytics/SKILL.md and consult the copy-pasteable references or guidelines inside skills/aso-skills-crash-analytics/references/ to complete the task.
+"""

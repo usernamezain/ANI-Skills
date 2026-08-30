@@ -1,0 +1,6 @@
+description = ">"
+
+prompt = """
+Invoke the ai:doca-flow-dpa-provider skill.
+Load the prompt instructions from skills/skills-doca-flow-dpa-provider/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-doca-flow-dpa-provider/references/ to complete the task.
+"""

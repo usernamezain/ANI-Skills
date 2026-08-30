@@ -1,0 +1,6 @@
+description = ">-"
+
+prompt = """
+Invoke the auth:managed-airflow-dag-authoring skill.
+Load the prompt instructions from skills/skills-managed-airflow-dag-authoring/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-managed-airflow-dag-authoring/references/ to complete the task.
+"""

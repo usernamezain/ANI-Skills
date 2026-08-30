@@ -1,0 +1,6 @@
+description = "Skill for converting an installed Firebase Extension (or extension source) into a standalone Cloud Functions for Firebase codebase or publishable npm package, including V1 to V2 trigger upgrades, lifecycle hooks, and declarative security"
+
+prompt = """
+Invoke the security:extension-to-functions-codebase skill.
+Load the prompt instructions from skills/agent-skills-extension-to-functions-codebase/SKILL.md and consult the copy-pasteable references or guidelines inside skills/agent-skills-extension-to-functions-codebase/references/ to complete the task.
+"""

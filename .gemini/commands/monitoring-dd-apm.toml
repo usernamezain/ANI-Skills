@@ -1,0 +1,6 @@
+description = "APM - install, onboard, instrument, enable, set up, configure, traces, services, dependencies, performance analysis. Use for any request involving Datadog APM setup, instrumentation (SSI, ddtrace, agent install), or analysis."
+
+prompt = """
+Invoke the monitoring:dd-apm skill.
+Load the prompt instructions from skills/agent-skills-dd-apm/SKILL.md and consult the copy-pasteable references or guidelines inside skills/agent-skills-dd-apm/references/ to complete the task.
+"""

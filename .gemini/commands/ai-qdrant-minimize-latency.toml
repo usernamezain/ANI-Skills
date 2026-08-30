@@ -1,0 +1,6 @@
+description = "Guides Qdrant query latency optimization. Use when someone asks 'search is slow', 'how to reduce latency', 'p99 is too high', 'tail latency', 'single query too slow', 'how to make search faster', or 'latency spikes'."
+
+prompt = """
+Invoke the ai:qdrant-minimize-latency skill.
+Load the prompt instructions from skills/skills-qdrant-scaling/minimize-latency/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-qdrant-scaling/minimize-latency/references/ to complete the task.
+"""

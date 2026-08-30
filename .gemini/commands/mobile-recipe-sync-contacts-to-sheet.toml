@@ -1,0 +1,6 @@
+description = "Export Google Contacts directory to a Google Sheets spreadsheet."
+
+prompt = """
+Invoke the mobile:recipe-sync-contacts-to-sheet skill.
+Load the prompt instructions from skills/cli-recipe-sync-contacts-to-sheet/SKILL.md and consult the copy-pasteable references or guidelines inside skills/cli-recipe-sync-contacts-to-sheet/references/ to complete the task.
+"""

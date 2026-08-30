@@ -1,0 +1,6 @@
+description = "Guides Qdrant monitoring setup including Prometheus scraping, health probes, Hybrid Cloud metrics, alerting, and log centralization. Use when someone asks 'how to set up monitoring', 'Prometheus config', 'Grafana dashboard', 'health check endpoints', 'how to scrape Hybrid Cloud', 'what alerts to set', 'how to centralize logs', or 'audit logging'."
+
+prompt = """
+Invoke the ai:qdrant-monitoring-setup skill.
+Load the prompt instructions from skills/skills-qdrant-monitoring/setup/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-qdrant-monitoring/setup/references/ to complete the task.
+"""

@@ -1,0 +1,6 @@
+description = "Generate platform-specific social post variants (Twitter/X, LinkedIn, Reddit) from one source input. Works with or without Node.js script. Includes platform reasoning, quality review, and guardrails against cross-posting spam."
+
+prompt = """
+Invoke the marketing:social-card-gen skill.
+Load the prompt instructions from skills/ai-marketing-claude-code-skills-social-card-gen/SKILL.md and consult the copy-pasteable references or guidelines inside skills/ai-marketing-claude-code-skills-social-card-gen/references/ to complete the task.
+"""

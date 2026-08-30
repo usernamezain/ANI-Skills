@@ -1,0 +1,6 @@
+description = "Identify emerging trends early by monitoring signals across Twitter trending, TikTok viral content, YouTube rising videos, Google News velocity, and Reddit community buzz. Combines platform-specific trend indicators into a unified trend confidence score."
+
+prompt = """
+Invoke the monitoring:trend-spotter skill.
+Load the prompt instructions from skills/sandbase-skills-trend-spotter/SKILL.md and consult the copy-pasteable references or guidelines inside skills/sandbase-skills-trend-spotter/references/ to complete the task.
+"""

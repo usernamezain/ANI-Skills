@@ -1,0 +1,6 @@
+# api:cuopt-numerical-optimization-api
+
+LP, MILP, and QP (beta) with cuOpt — Python, C, and CLI. Use when the user is solving LP, MILP, or QP with any cuOpt interface.
+
+**Skill folder:** `skills/skills-cuopt-numerical-optimization-api/`
+**Namespace:** `api`

@@ -1,0 +1,6 @@
+description = ">"
+
+prompt = """
+Invoke the security:k9-ownership-byod-setup skill.
+Load the prompt instructions from skills/agent-skills/dd-security/csm/ownership-agent/SKILL.md and consult the copy-pasteable references or guidelines inside skills/agent-skills/dd-security/csm/ownership-agent/references/ to complete the task.
+"""

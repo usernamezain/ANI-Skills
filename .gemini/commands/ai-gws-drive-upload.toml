@@ -1,0 +1,6 @@
+description = "Google Drive: Upload a file with automatic metadata."
+
+prompt = """
+Invoke the ai:gws-drive-upload skill.
+Load the prompt instructions from skills/cli-gws-drive-upload/SKILL.md and consult the copy-pasteable references or guidelines inside skills/cli-gws-drive-upload/references/ to complete the task.
+"""

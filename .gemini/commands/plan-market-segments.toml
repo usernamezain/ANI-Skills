@@ -1,0 +1,6 @@
+description = "Identify 3-5 potential customer segments with demographics, JTBD, and product fit analysis. Use when exploring market segments, identifying target audiences, evaluating new markets, or learning how to segment a market."
+
+prompt = """
+Invoke the plan:market-segments skill.
+Load the prompt instructions from skills/pm-skills-market-segments/SKILL.md and consult the copy-pasteable references or guidelines inside skills/pm-skills-market-segments/references/ to complete the task.
+"""

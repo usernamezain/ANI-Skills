@@ -1,0 +1,6 @@
+description = "Search the web, platforms, and datasets. Use when asked to search, find, look up, research, or discover information from the web, YouTube, Amazon, eBay, news, academic sources, or any online platform."
+
+prompt = """
+Invoke the ai:web-search skill.
+Load the prompt instructions from skills/goose-skills-web-search/SKILL.md and consult the copy-pasteable references or guidelines inside skills/goose-skills-web-search/references/ to complete the task.
+"""

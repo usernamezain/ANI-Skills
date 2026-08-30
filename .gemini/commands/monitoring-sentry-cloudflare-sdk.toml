@@ -1,0 +1,6 @@
+description = "Full Sentry SDK setup for Cloudflare Workers and Pages. Use when asked to \"add Sentry to Cloudflare Workers\", \"install @sentry/cloudflare\", or configure error monitoring, tracing, logging, crons, or AI monitoring for Cloudflare Workers, Pages, Durable Objects, Queues, Workflows, or Hono on Cloudflare."
+
+prompt = """
+Invoke the monitoring:sentry-cloudflare-sdk skill.
+Load the prompt instructions from skills/sentry-for-ai-sentry-cloudflare-sdk/SKILL.md and consult the copy-pasteable references or guidelines inside skills/sentry-for-ai-sentry-cloudflare-sdk/references/ to complete the task.
+"""

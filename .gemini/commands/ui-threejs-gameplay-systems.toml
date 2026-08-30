@@ -1,0 +1,6 @@
+description = "Build and iterate playable Three.js game systems. Combines starter scaffold creation, architecture, game design, level design, gameplay implementation, combat/encounter design, and game-feel tuning (hitstop, screenshake, easing, impact feedback). Use for first playable slices, new Vite/TypeScript/Three.js game setup, design briefs, core loops, level/arena/track/wave/hole/puzzle design, game loops, entity systems, input, collision/physics, scoring, objectives, audio hooks, camera, controls, difficulty, feedback, juice, and maintainable structure."
+
+prompt = """
+Invoke the ui:threejs-gameplay-systems skill.
+Load the prompt instructions from skills/threejs-game-skills-threejs-gameplay-systems/SKILL.md and consult the copy-pasteable references or guidelines inside skills/threejs-game-skills-threejs-gameplay-systems/references/ to complete the task.
+"""

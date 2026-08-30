@@ -1,0 +1,6 @@
+description = "A scoring scale for evaluating how well a CLI is designed for AI agents, based on the \"Rewrite Your CLI for AI Agents\" principles."
+
+prompt = """
+Invoke the ui:agent-dx-cli-scale skill.
+Load the prompt instructions from skills/design.md-agent-dx-cli-scale/SKILL.md and consult the copy-pasteable references or guidelines inside skills/design.md-agent-dx-cli-scale/references/ to complete the task.
+"""

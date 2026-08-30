@@ -1,0 +1,6 @@
+description = ">"
+
+prompt = """
+Invoke the ai:doca-pcc skill.
+Load the prompt instructions from skills/skills-doca-pcc/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-doca-pcc/references/ to complete the task.
+"""

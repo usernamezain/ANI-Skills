@@ -1,0 +1,6 @@
+description = "Diagnose why campaigns are underperforming. Trigger on \"low performance\", \"high CPL\", \"bad ads\"."
+
+prompt = """
+Invoke the marketing:performance-diagnosis skill.
+Load the prompt instructions from skills/advertising-skills-performance-diagnosis/SKILL.md and consult the copy-pasteable references or guidelines inside skills/advertising-skills-performance-diagnosis/references/ to complete the task.
+"""

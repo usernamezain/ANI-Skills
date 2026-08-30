@@ -1,0 +1,6 @@
+description = "Plan and manage events — scheduling, invitations, and logistics."
+
+prompt = """
+Invoke the ai:persona-event-coordinator skill.
+Load the prompt instructions from skills/cli-persona-event-coordinator/SKILL.md and consult the copy-pasteable references or guidelines inside skills/cli-persona-event-coordinator/references/ to complete the task.
+"""

@@ -1,0 +1,6 @@
+description = "Draft a detailed Non-Disclosure Agreement between two parties covering information types, jurisdiction, and clauses needing legal review. Use when creating confidentiality agreements or preparing an NDA for a partnership."
+
+prompt = """
+Invoke the plan:draft-nda skill.
+Load the prompt instructions from skills/pm-skills-draft-nda/SKILL.md and consult the copy-pasteable references or guidelines inside skills/pm-skills-draft-nda/references/ to complete the task.
+"""

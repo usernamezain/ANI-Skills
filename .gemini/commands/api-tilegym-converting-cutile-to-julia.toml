@@ -1,0 +1,6 @@
+description = "Converts cuTile Python GPU kernels (@ct.kernel) to cuTile.jl Julia equivalents. Handles kernel syntax translation, 0-indexed to 1-indexed conversion, broadcasting differences, memory layout (row-major to column-major), type system mapping, and launch API differences. Use when converting, porting, or translating cuTile Python kernels to Julia cuTile.jl, or debugging/optimizing existing Julia cuTile translations."
+
+prompt = """
+Invoke the api:tilegym-converting-cutile-to-julia skill.
+Load the prompt instructions from skills/skills-tilegym-converting-cutile-to-julia/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-tilegym-converting-cutile-to-julia/references/ to complete the task.
+"""

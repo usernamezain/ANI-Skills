@@ -1,0 +1,6 @@
+description = "Diagnose wasted paid-ad spend, pacing, and allocation, then propose safe evidence-backed optimizations. Use for waste, negatives, budgets, bid changes, poor CPA or ROAS, underpacing, overspend, or scaling decisions."
+
+prompt = """
+Invoke the ai:paid-ads-optimize skill.
+Load the prompt instructions from skills/notfair-plugin-paid-ads-optimize/SKILL.md and consult the copy-pasteable references or guidelines inside skills/notfair-plugin-paid-ads-optimize/references/ to complete the task.
+"""

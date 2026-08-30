@@ -1,0 +1,6 @@
+description = "Book restaurant reservations via browser automation. Use when asked to make dinner reservations, book a table, or find availability at restaurants. Supports OpenTable, Resy, and direct restaurant booking sites."
+
+prompt = """
+Invoke the scraping:restaurant-booking skill.
+Load the prompt instructions from skills/goose-skills-restaurant-booking/SKILL.md and consult the copy-pasteable references or guidelines inside skills/goose-skills-restaurant-booking/references/ to complete the task.
+"""

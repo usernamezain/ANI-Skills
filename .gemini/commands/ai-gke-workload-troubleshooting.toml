@@ -1,0 +1,6 @@
+description = ">-"
+
+prompt = """
+Invoke the ai:gke-workload-troubleshooting skill.
+Load the prompt instructions from skills/skills-gke-workload-troubleshooting/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-gke-workload-troubleshooting/references/ to complete the task.
+"""

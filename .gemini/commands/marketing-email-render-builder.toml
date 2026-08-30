@@ -1,0 +1,6 @@
+description = "Use when the user asks to \"build the email HTML\", \"make this email responsive\", \"fix dark-mode rendering\", or \"QA the email across clients\"; produces the coded HTML build — a responsive table layout, dark-mode + accessibility pass, a client-render matrix, image-block fallbacks, and a plain-text parity check. Not for writing the copy — use email-creative-builder; not for scoring the email or computing EQS — use email-quality-auditor. 邮件HTML/响应式邮件/暗色模式渲染"
+
+prompt = """
+Invoke the marketing:email-render-builder skill.
+Load the prompt instructions from skills/aaron-marketing-skills-email-render-builder/SKILL.md and consult the copy-pasteable references or guidelines inside skills/aaron-marketing-skills-email-render-builder/references/ to complete the task.
+"""

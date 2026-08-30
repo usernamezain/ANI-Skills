@@ -1,0 +1,6 @@
+description = ">"
+
+prompt = """
+Invoke the ai:doca-telemetry-utils skill.
+Load the prompt instructions from skills/skills-doca-telemetry-utils/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-doca-telemetry-utils/references/ to complete the task.
+"""

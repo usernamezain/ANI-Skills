@@ -1,0 +1,6 @@
+description = "Framework (OSS). Use when implementing or debugging ANY network request, API call, or data fetching. Covers fetch API, React Query, SWR, error handling, caching, offline support, and Expo Router data loaders (`useLoaderData`)."
+
+prompt = """
+Invoke the mobile:expo-data-fetching skill.
+Load the prompt instructions from skills/skills-expo-data-fetching/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-expo-data-fetching/references/ to complete the task.
+"""

@@ -1,0 +1,6 @@
+description = ">"
+
+prompt = """
+Invoke the ai:fal-models-catalog skill.
+Load the prompt instructions from skills/skills-fal-models-catalog/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-fal-models-catalog/references/ to complete the task.
+"""

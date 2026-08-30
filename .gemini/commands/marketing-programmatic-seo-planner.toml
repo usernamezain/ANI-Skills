@@ -1,0 +1,6 @@
+description = ">"
+
+prompt = """
+Invoke the marketing:programmatic-seo-planner skill.
+Load the prompt instructions from skills/goose-skills-programmatic-seo-planner/SKILL.md and consult the copy-pasteable references or guidelines inside skills/goose-skills-programmatic-seo-planner/references/ to complete the task.
+"""

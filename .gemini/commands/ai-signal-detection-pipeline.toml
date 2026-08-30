@@ -1,0 +1,6 @@
+description = "Detect buying signals from multiple sources, qualify leads, and generate outreach context"
+
+prompt = """
+Invoke the ai:signal-detection-pipeline skill.
+Load the prompt instructions from skills/goose-skills-signal-detection-pipeline/SKILL.md and consult the copy-pasteable references or guidelines inside skills/goose-skills-signal-detection-pipeline/references/ to complete the task.
+"""

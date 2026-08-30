@@ -1,0 +1,6 @@
+description = "Deploy applications to Render by analyzing codebases, generating render.yaml Blueprints, and providing Dashboard deeplinks. Use when the user wants to deploy, host, publish, or set up their application on Render's cloud platform."
+
+prompt = """
+Invoke the cloud:render-deploy skill.
+Load the prompt instructions from skills/skills-render-deploy/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-render-deploy/references/ to complete the task.
+"""

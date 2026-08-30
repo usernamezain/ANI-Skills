@@ -1,0 +1,6 @@
+description = "Plan a sprint with capacity estimation, story selection, dependency mapping, and risk identification. Use when preparing for sprint planning, estimating team capacity, selecting stories, or balancing sprint scope against velocity."
+
+prompt = """
+Invoke the plan:sprint-plan skill.
+Load the prompt instructions from skills/pm-skills-sprint-plan/SKILL.md and consult the copy-pasteable references or guidelines inside skills/pm-skills-sprint-plan/references/ to complete the task.
+"""

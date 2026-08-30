@@ -1,0 +1,6 @@
+description = "Use when the user asks to inspect Sentry issues or events, summarize recent production errors, or pull basic Sentry health data via the Sentry CLI; perform read-only queries using the `sentry` command."
+
+prompt = """
+Invoke the monitoring:sentry skill.
+Load the prompt instructions from skills/skills-sentry/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-sentry/references/ to complete the task.
+"""

@@ -1,0 +1,6 @@
+description = "Use switch expressions and pattern matching where appropriate"
+
+prompt = """
+Invoke the ai:dart-use-pattern-matching skill.
+Load the prompt instructions from skills/skills-dart-use-pattern-matching/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-dart-use-pattern-matching/references/ to complete the task.
+"""

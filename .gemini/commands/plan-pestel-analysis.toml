@@ -1,0 +1,6 @@
+description = "Analyze political, economic, social, technological, environmental, and legal forces. Use when external market shifts could materially affect a product, roadmap, or strategy."
+
+prompt = """
+Invoke the plan:pestel-analysis skill.
+Load the prompt instructions from skills/Product-Manager-Skills-pestel-analysis/SKILL.md and consult the copy-pasteable references or guidelines inside skills/Product-Manager-Skills-pestel-analysis/references/ to complete the task.
+"""

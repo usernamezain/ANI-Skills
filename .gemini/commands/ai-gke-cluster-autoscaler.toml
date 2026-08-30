@@ -1,0 +1,6 @@
+description = ">-"
+
+prompt = """
+Invoke the ai:gke-cluster-autoscaler skill.
+Load the prompt instructions from skills/skills-gke-cluster-autoscaler/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-gke-cluster-autoscaler/references/ to complete the task.
+"""

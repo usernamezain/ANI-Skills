@@ -1,0 +1,6 @@
+description = "|"
+
+prompt = """
+Invoke the plan:event-prospecting skill.
+Load the prompt instructions from skills/skills-event-prospecting/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-event-prospecting/references/ to complete the task.
+"""

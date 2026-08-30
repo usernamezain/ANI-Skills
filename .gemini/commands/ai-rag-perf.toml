@@ -1,0 +1,6 @@
+description = ">-"
+
+prompt = """
+Invoke the ai:rag-perf skill.
+Load the prompt instructions from skills/skills-rag-perf/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-rag-perf/references/ to complete the task.
+"""

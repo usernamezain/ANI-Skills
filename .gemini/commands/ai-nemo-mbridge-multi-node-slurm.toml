@@ -1,0 +1,6 @@
+description = "Convert single-node scripts to multi-node Slurm sbatch jobs and debug common multi-node failures. Covers srun-native vs uv run torch.distributed approaches, container setup, NCCL timeouts, OOM sizing for MoE models, and interactive allocation."
+
+prompt = """
+Invoke the ai:nemo-mbridge-multi-node-slurm skill.
+Load the prompt instructions from skills/skills-nemo-mbridge-multi-node-slurm/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-nemo-mbridge-multi-node-slurm/references/ to complete the task.
+"""

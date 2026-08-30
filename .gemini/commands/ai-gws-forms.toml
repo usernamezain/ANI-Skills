@@ -1,0 +1,6 @@
+description = "Read and write Google Forms."
+
+prompt = """
+Invoke the ai:gws-forms skill.
+Load the prompt instructions from skills/cli-gws-forms/SKILL.md and consult the copy-pasteable references or guidelines inside skills/cli-gws-forms/references/ to complete the task.
+"""

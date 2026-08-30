@@ -1,0 +1,6 @@
+description = "Build a prospect list of companies with decision makers, verified contact info, and hiring/intent signals. Use when asked to find leads by industry, build an account list with specific titles, prospect companies that are actively hiring, or create a targeted outreach list filtered by company size, location, and hiring activity."
+
+prompt = """
+Invoke the plan:targeted-prospecting skill.
+Load the prompt instructions from skills/goose-skills-targeted-prospecting/SKILL.md and consult the copy-pasteable references or guidelines inside skills/goose-skills-targeted-prospecting/references/ to complete the task.
+"""

@@ -1,0 +1,6 @@
+description = "Decode an incoming message into a structured breakdown separating the literal ask from the job-to-be-done. Use when a loaded Slack ping, email, mandate, or escalation needs a reply."
+
+prompt = """
+Invoke the plan:incoming-request-advisor skill.
+Load the prompt instructions from skills/Product-Manager-Skills-incoming-request-advisor/SKILL.md and consult the copy-pasteable references or guidelines inside skills/Product-Manager-Skills-incoming-request-advisor/references/ to complete the task.
+"""

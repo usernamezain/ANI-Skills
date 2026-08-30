@@ -1,0 +1,6 @@
+description = "RT-DETR (Real-Time DEtection TRansformer) for 2D object detection. Designed for real-time inference with"
+
+prompt = """
+Invoke the ui:tao-train-rtdetr skill.
+Load the prompt instructions from skills/skills-tao-train-rtdetr/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-tao-train-rtdetr/references/ to complete the task.
+"""

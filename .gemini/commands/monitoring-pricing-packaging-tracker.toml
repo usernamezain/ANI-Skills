@@ -1,0 +1,6 @@
+description = "Track competitor pricing and packaging as a diffable time series. Use when monitoring tiers, gates, limits, and price moves on a monthly or quarterly cadence."
+
+prompt = """
+Invoke the monitoring:pricing-packaging-tracker skill.
+Load the prompt instructions from skills/Product-Manager-Skills-pricing-packaging-tracker/SKILL.md and consult the copy-pasteable references or guidelines inside skills/Product-Manager-Skills-pricing-packaging-tracker/references/ to complete the task.
+"""

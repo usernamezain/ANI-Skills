@@ -1,0 +1,6 @@
+description = "Full Sentry Snapshots setup for Apple/Cocoa projects. Use when asked to \"setup SnapshotPreviews\", \"setup Apple snapshot testing\", \"upload Apple snapshots to Sentry\", \"setup Apple snapshot GitHub Actions\", or \"setup Apple selective snapshot testing\"."
+
+prompt = """
+Invoke the monitoring:sentry-snapshots-cocoa skill.
+Load the prompt instructions from skills/sentry-for-ai-sentry-snapshots-cocoa/SKILL.md and consult the copy-pasteable references or guidelines inside skills/sentry-for-ai-sentry-snapshots-cocoa/references/ to complete the task.
+"""

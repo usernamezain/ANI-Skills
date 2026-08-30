@@ -1,0 +1,6 @@
+description = "EAS service (paid). Check the health of published EAS Update: crash rates, install/launch counts, unique users, payload size, and the split between embedded and OTA users per channel. Use when the user asks how an update is performing, whether a rollout is healthy, how many users are on the embedded build vs OTA, or wants to gate CI on update health."
+
+prompt = """
+Invoke the monitoring:eas-update-insights skill.
+Load the prompt instructions from skills/skills-eas-update-insights/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-eas-update-insights/references/ to complete the task.
+"""

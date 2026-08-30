@@ -1,0 +1,6 @@
+description = "Analyze sentiment in any text — reviews, social posts, feedback, or articles. Returns sentiment polarity (positive, negative, neutral), confidence score, and key phrases driving the sentiment. Useful for brand monitoring, customer feedback analysis, and content evaluation."
+
+prompt = """
+Invoke the monitoring:sentiment-analyzer skill.
+Load the prompt instructions from skills/sandbase-skills-sentiment-analyzer/SKILL.md and consult the copy-pasteable references or guidelines inside skills/sandbase-skills-sentiment-analyzer/references/ to complete the task.
+"""

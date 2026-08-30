@@ -1,0 +1,6 @@
+description = "Configure `MaterialApp.router` using a package like `go_router` for advanced URL-based navigation. Use when developing web applications or mobile apps that require specific deep linking and browser history support."
+
+prompt = """
+Invoke the mobile:flutter-setup-declarative-routing skill.
+Load the prompt instructions from skills/skills-flutter-setup-declarative-routing/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-flutter-setup-declarative-routing/references/ to complete the task.
+"""

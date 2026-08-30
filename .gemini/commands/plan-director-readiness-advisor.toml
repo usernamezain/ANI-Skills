@@ -1,0 +1,6 @@
+description = "Guide the PM-to-Director transition across preparing, interviewing, landing, and recalibrating. Use when leadership scope is changing and you need practical coaching."
+
+prompt = """
+Invoke the plan:director-readiness-advisor skill.
+Load the prompt instructions from skills/Product-Manager-Skills-director-readiness-advisor/SKILL.md and consult the copy-pasteable references or guidelines inside skills/Product-Manager-Skills-director-readiness-advisor/references/ to complete the task.
+"""

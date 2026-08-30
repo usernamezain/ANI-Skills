@@ -1,0 +1,6 @@
+description = "Discover and run Holoscan Sensor Bridge example applications on a connected devkit. Filters available apps by the user's platform, HSB software version, board type, and sensors. Supports timed execution, failure analysis, code-edit suggestions, and iterative re-runs."
+
+prompt = """
+Invoke the ai:hsb-app skill.
+Load the prompt instructions from skills/skills-hsb-app/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-hsb-app/references/ to complete the task.
+"""

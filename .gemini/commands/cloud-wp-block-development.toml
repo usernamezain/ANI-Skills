@@ -1,0 +1,6 @@
+description = "Use when developing WordPress (Gutenberg) blocks: block.json metadata, register_block_type(_from_metadata), attributes/serialization, supports, dynamic rendering (render.php/render_callback), deprecations/migrations, viewScript vs viewScriptModule, and @wordpress/scripts/@wordpress/create-block build and test workflows."
+
+prompt = """
+Invoke the cloud:wp-block-development skill.
+Load the prompt instructions from skills/agent-skills-wp-block-development/SKILL.md and consult the copy-pasteable references or guidelines inside skills/agent-skills-wp-block-development/references/ to complete the task.
+"""

@@ -1,0 +1,6 @@
+description = ">"
+
+prompt = """
+Invoke the ai:buyer-persona-generator skill.
+Load the prompt instructions from skills/goose-skills-buyer-persona-generator/SKILL.md and consult the copy-pasteable references or guidelines inside skills/goose-skills-buyer-persona-generator/references/ to complete the task.
+"""

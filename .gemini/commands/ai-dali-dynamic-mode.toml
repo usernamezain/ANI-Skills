@@ -1,0 +1,6 @@
+description = "DALI imperative dynamic mode (`nvidia.dali.experimental.dynamic`, ndd): use when working on ndd code or migrating pipelines; skip pipeline-only tasks."
+
+prompt = """
+Invoke the ai:dali-dynamic-mode skill.
+Load the prompt instructions from skills/skills-dali-dynamic-mode/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-dali-dynamic-mode/references/ to complete the task.
+"""

@@ -1,0 +1,6 @@
+description = ">-"
+
+prompt = """
+Invoke the ai:agent-platform-deploy skill.
+Load the prompt instructions from skills/skills-agent-platform-deploy/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-agent-platform-deploy/references/ to complete the task.
+"""

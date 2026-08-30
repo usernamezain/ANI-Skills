@@ -1,0 +1,6 @@
+description = "Run a user story mapping workshop with adaptive questions and a structured map output. Use when you need backbone activities, tasks, and release slices for a workflow."
+
+prompt = """
+Invoke the plan:user-story-mapping-workshop skill.
+Load the prompt instructions from skills/Product-Manager-Skills-user-story-mapping-workshop/SKILL.md and consult the copy-pasteable references or guidelines inside skills/Product-Manager-Skills-user-story-mapping-workshop/references/ to complete the task.
+"""

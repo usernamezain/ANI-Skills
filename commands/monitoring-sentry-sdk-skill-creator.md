@@ -1,0 +1,6 @@
+# monitoring:sentry-sdk-skill-creator
+
+Create a complete Sentry SDK skill bundle for any platform. Use when asked to "create an SDK skill", "add a new platform skill", "write a Sentry skill for X", or build a new sentry-<platform>-sdk skill bundle with wizard flow and feature reference files.
+
+**Skill folder:** `skills/sentry-for-ai-sentry-sdk-skill-creator/`
+**Namespace:** `monitoring`

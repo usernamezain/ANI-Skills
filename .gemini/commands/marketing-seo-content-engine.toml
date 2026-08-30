@@ -1,0 +1,6 @@
+description = ">"
+
+prompt = """
+Invoke the marketing:seo-content-engine skill.
+Load the prompt instructions from skills/goose-skills-seo-content-engine/SKILL.md and consult the copy-pasteable references or guidelines inside skills/goose-skills-seo-content-engine/references/ to complete the task.
+"""

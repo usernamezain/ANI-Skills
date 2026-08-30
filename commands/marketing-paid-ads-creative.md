@@ -1,0 +1,6 @@
+# marketing:paid-ads-creative
+
+Create grounded paid-media creative concepts, copy angles, refresh hypotheses, and measurable test briefs across advertising platforms. Use for ad copy, creative briefs, UGC concepts, headlines, creative fatigue, asset ideas, or a creative refresh.
+
+**Skill folder:** `skills/notfair-plugin-paid-ads-creative/`
+**Namespace:** `marketing`

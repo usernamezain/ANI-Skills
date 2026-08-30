@@ -1,0 +1,6 @@
+description = "Structure a spoken PM product-sense answer with assumptions, segmentation, pain-point prioritization, and MVP tradeoffs. Use when practicing design, improve, or build-next interview questions."
+
+prompt = """
+Invoke the ui:product-sense-interview-answer skill.
+Load the prompt instructions from skills/Product-Manager-Skills-product-sense-interview-answer/SKILL.md and consult the copy-pasteable references or guidelines inside skills/Product-Manager-Skills-product-sense-interview-answer/references/ to complete the task.
+"""

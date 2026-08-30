@@ -1,0 +1,6 @@
+description = "Generates code and provides documentation for the Genkit Dart SDK. Use when the user asks to build AI agents in Dart, use Genkit flows, or integrate LLMs into Dart/Flutter applications."
+
+prompt = """
+Invoke the mobile:developing-genkit-dart skill.
+Load the prompt instructions from skills/skills-developing-genkit-dart/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-developing-genkit-dart/references/ to complete the task.
+"""

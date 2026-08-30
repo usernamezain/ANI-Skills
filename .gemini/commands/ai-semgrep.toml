@@ -1,0 +1,6 @@
+description = ">-"
+
+prompt = """
+Invoke the ai:semgrep skill.
+Load the prompt instructions from skills/skills-semgrep/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-semgrep/references/ to complete the task.
+"""

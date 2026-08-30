@@ -1,0 +1,6 @@
+description = ">-"
+
+prompt = """
+Invoke the ai:developer-device-platform-basics skill.
+Load the prompt instructions from skills/skills-developer-device-platform-basics/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-developer-device-platform-basics/references/ to complete the task.
+"""

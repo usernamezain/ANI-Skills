@@ -1,0 +1,6 @@
+# marketing:last30days
+
+Research any topic across Reddit, X, and web from the last 30 days. Get current trends, real community sentiment, and actionable insights in 7 minutes vs 2 hours manual research.
+
+**Skill folder:** `skills/ai-marketing-claude-code-skills-last30days/`
+**Namespace:** `marketing`

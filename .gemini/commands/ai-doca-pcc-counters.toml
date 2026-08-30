@@ -1,0 +1,6 @@
+description = ">"
+
+prompt = """
+Invoke the ai:doca-pcc-counters skill.
+Load the prompt instructions from skills/skills-doca-pcc-counters/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-doca-pcc-counters/references/ to complete the task.
+"""

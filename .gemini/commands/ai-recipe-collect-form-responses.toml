@@ -1,0 +1,6 @@
+description = "Retrieve and review responses from a Google Form."
+
+prompt = """
+Invoke the ai:recipe-collect-form-responses skill.
+Load the prompt instructions from skills/cli-recipe-collect-form-responses/SKILL.md and consult the copy-pasteable references or guidelines inside skills/cli-recipe-collect-form-responses/references/ to complete the task.
+"""

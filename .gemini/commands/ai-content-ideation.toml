@@ -1,0 +1,6 @@
+description = "Generate content ideas backed by real audience demand data from Reddit questions, YouTube search gaps, Twitter discussions, and web search trends. Identifies proven topics, underserved questions, and content formats that outperform in your niche."
+
+prompt = """
+Invoke the ai:content-ideation skill.
+Load the prompt instructions from skills/sandbase-skills-content-ideation/SKILL.md and consult the copy-pasteable references or guidelines inside skills/sandbase-skills-content-ideation/references/ to complete the task.
+"""

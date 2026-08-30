@@ -1,0 +1,6 @@
+# marketing:app-clips
+
+When the user wants to implement, optimize, or use App Clips for app discovery and conversion. Use when the user mentions "App Clip", "app clip code", "mini app", "instant app", "App Clip card", "App Clip link", "no download required", "instant experience", or wants to understand how App Clips appear in App Store search. For general App Store discoverability, see aso-audit. For marketing campaigns, see ua-campaign.
+
+**Skill folder:** `skills/aso-skills-app-clips/`
+**Namespace:** `marketing`

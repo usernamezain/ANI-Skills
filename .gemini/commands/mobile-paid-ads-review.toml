@@ -1,0 +1,6 @@
+description = "Produce a read-only, evidence-based paid-media performance review across connected platforms or supplied exports. Use for weekly or monthly reports, scorecards, performance, CPA, ROAS, CTR, spend trends, pacing, or conversion-tracking health."
+
+prompt = """
+Invoke the mobile:paid-ads-review skill.
+Load the prompt instructions from skills/notfair-plugin-paid-ads-review/SKILL.md and consult the copy-pasteable references or guidelines inside skills/notfair-plugin-paid-ads-review/references/ to complete the task.
+"""

@@ -1,0 +1,6 @@
+description = "Search videos, analyze channel profiles, track live streams, and research content engagement on WeChat Channels (Video Accounts). Covers video search, channel profiling, live stream monitoring, comment analysis, and content collections."
+
+prompt = """
+Invoke the monitoring:wechat-channels-research skill.
+Load the prompt instructions from skills/sandbase-skills-wechat-channels-research/SKILL.md and consult the copy-pasteable references or guidelines inside skills/sandbase-skills-wechat-channels-research/references/ to complete the task.
+"""

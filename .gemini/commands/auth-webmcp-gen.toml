@@ -1,0 +1,6 @@
+description = "Create, compile, and validate site-specific WebMCP init scripts from a target URL and desired tool capability. Use when the user wants to author WebMCP tools for a website, produce a webmcp.init.js artifact, or test WebMCP registration and invocation through Stagehand."
+
+prompt = """
+Invoke the auth:webmcp-gen skill.
+Load the prompt instructions from skills/skills-webmcp-gen/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-webmcp-gen/references/ to complete the task.
+"""

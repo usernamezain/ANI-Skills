@@ -1,0 +1,6 @@
+description = "Help address review/issue comments on the open GitHub PR for the current branch using gh CLI; verify gh auth first and prompt the user to authenticate if not logged in."
+
+prompt = """
+Invoke the auth:gh-address-comments skill.
+Load the prompt instructions from skills/skills-gh-address-comments/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-gh-address-comments/references/ to complete the task.
+"""

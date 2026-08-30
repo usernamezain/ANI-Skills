@@ -1,0 +1,6 @@
+description = "Extract every verifiable claim in marketing copy — statistics, rankings, awards, citations, performance and time-bound assertions — and check each against a user-supplied evidence JSON, classifying it verified, partially verified, unverified, or contradicted, with corrected-text and hedged-language suggestions. Without an evidence file it runs extraction-only and generates a template to fill in. Triggers on \\"/digital-marketing-pro:verify-claims\\", \\"fact-check this case study\\", \\"can we back up these numbers\\", \\"is this statistic real\\", \\"check our award claims before the press release\\". Runs claim-verifier.py and applies brand compliance rules for regulated industries; the claim-integrity deep-dive alongside /digital-marketing-pro:eval-content."
+
+prompt = """
+Invoke the marketing:verify-claims skill.
+Load the prompt instructions from skills/digital-marketing-pro-verify-claims/SKILL.md and consult the copy-pasteable references or guidelines inside skills/digital-marketing-pro-verify-claims/references/ to complete the task.
+"""

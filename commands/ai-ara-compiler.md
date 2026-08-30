@@ -1,0 +1,6 @@
+# ai:ara-compiler
+
+Compiles any research input — PDF papers, GitHub repositories, experiment logs, code directories, or raw notes — into a complete Agent-Native Research Artifact (ARA) with cognitive layer (claims, concepts, heuristics), physical layer (configs, code stubs), exploration graph, and grounded evidence. Use when ingesting a paper or codebase into a structured, machine-executable knowledge package, building an ARA from scratch, or converting research outputs into a falsifiable, agent-traversable form.
+
+**Skill folder:** `skills/AI-Research-SKILLs-ara-compiler/`
+**Namespace:** `ai`

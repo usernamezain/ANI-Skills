@@ -1,0 +1,6 @@
+description = ">"
+
+prompt = """
+Invoke the ai:company-contact-finder skill.
+Load the prompt instructions from skills/goose-skills-company-contact-finder/SKILL.md and consult the copy-pasteable references or guidelines inside skills/goose-skills-company-contact-finder/references/ to complete the task.
+"""

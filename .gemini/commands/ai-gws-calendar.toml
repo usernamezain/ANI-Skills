@@ -1,0 +1,6 @@
+description = "Google Calendar: Manage calendars and events."
+
+prompt = """
+Invoke the ai:gws-calendar skill.
+Load the prompt instructions from skills/cli-gws-calendar/SKILL.md and consult the copy-pasteable references or guidelines inside skills/cli-gws-calendar/references/ to complete the task.
+"""

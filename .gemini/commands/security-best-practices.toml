@@ -1,0 +1,6 @@
+description = "Apply modern web development best practices for security, compatibility, and code quality. Use when asked to \"apply best practices\", \"security audit\", \"modernize code\", \"code quality review\", or \"check for vulnerabilities\"."
+
+prompt = """
+Invoke the security:best-practices skill.
+Load the prompt instructions from skills/web-quality-skills-best-practices/SKILL.md and consult the copy-pasteable references or guidelines inside skills/web-quality-skills-best-practices/references/ to complete the task.
+"""

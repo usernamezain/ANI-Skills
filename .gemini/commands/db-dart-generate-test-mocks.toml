@@ -1,0 +1,6 @@
+description = "Define and generate mock objects for external dependencies using `package:mockito` and `build_runner`. Use when unit testing classes that depend on complex external services like APIs or databases."
+
+prompt = """
+Invoke the db:dart-generate-test-mocks skill.
+Load the prompt instructions from skills/skills-dart-generate-test-mocks/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-dart-generate-test-mocks/references/ to complete the task.
+"""

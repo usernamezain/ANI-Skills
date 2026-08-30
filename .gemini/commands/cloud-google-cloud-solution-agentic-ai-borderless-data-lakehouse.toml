@@ -1,0 +1,6 @@
+description = ">-"
+
+prompt = """
+Invoke the cloud:google-cloud-solution-agentic-ai-borderless-data-lakehouse skill.
+Load the prompt instructions from skills/skills-google-cloud-solution-agentic-ai-borderless-data-lakehouse/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-google-cloud-solution-agentic-ai-borderless-data-lakehouse/references/ to complete the task.
+"""

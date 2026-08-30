@@ -1,0 +1,6 @@
+# ai:fine-tuning-serving-openpi
+
+Fine-tune and serve Physical Intelligence OpenPI models (pi0, pi0-fast, pi0.5) using JAX or PyTorch backends for robot policy inference across ALOHA, DROID, and LIBERO environments. Use when adapting pi0 models to custom datasets, converting JAX checkpoints to PyTorch, running policy inference servers, or debugging norm stats and GPU memory issues.
+
+**Skill folder:** `skills/AI-Research-SKILLs-fine-tuning-serving-openpi/`
+**Namespace:** `ai`

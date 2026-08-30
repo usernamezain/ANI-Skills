@@ -1,0 +1,6 @@
+description = ">"
+
+prompt = """
+Invoke the ai:news-signal-outreach skill.
+Load the prompt instructions from skills/goose-skills-news-signal-outreach/SKILL.md and consult the copy-pasteable references or guidelines inside skills/goose-skills-news-signal-outreach/references/ to complete the task.
+"""

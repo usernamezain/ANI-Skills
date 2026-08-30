@@ -1,0 +1,6 @@
+description = "Stage 4 of the Clinical ASR Flywheel. Use when priority KER is above 0.3 to run stock NeMo SFT on Parakeet TDT v2 and offline cycle N+1 re-eval. NOT for generic word boosting (use /finetune-asr)."
+
+prompt = """
+Invoke the monitoring:digital-health-clinical-asr-finetune skill.
+Load the prompt instructions from skills/skills-digital-health-clinical-asr-finetune/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-digital-health-clinical-asr-finetune/references/ to complete the task.
+"""

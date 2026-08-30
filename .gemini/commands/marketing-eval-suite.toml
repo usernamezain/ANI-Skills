@@ -1,0 +1,6 @@
+description = "Batch-evaluate a whole set of content pieces — files, a directory, or pasted blocks — in one run, producing a ranked portfolio quality report: grade distribution, per-dimension averages, systemic issues, a prioritized revision list, and auto-rejects below threshold. Triggers on \\"/digital-marketing-pro:eval-suite\\", \\"score our whole content library\\", \\"quality-check all campaign assets before launch\\", \\"evaluate these 5 drafts together\\", \\"which deliverables are weakest\\". Runs eval-runner.py per item, logs every score to the quality tracker for trend analysis, and reads the brand profile and guidelines for scoring context."
+
+prompt = """
+Invoke the marketing:eval-suite skill.
+Load the prompt instructions from skills/digital-marketing-pro-eval-suite/SKILL.md and consult the copy-pasteable references or guidelines inside skills/digital-marketing-pro-eval-suite/references/ to complete the task.
+"""

@@ -1,0 +1,6 @@
+description = ">"
+
+prompt = """
+Invoke the ai:site-content-catalog skill.
+Load the prompt instructions from skills/goose-skills-site-content-catalog/SKILL.md and consult the copy-pasteable references or guidelines inside skills/goose-skills-site-content-catalog/references/ to complete the task.
+"""

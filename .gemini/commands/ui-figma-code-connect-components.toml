@@ -1,0 +1,6 @@
+description = "Connects Figma design components to code components using Code Connect mapping tools. Use when user says \"code connect\", \"connect this component to code\", \"map this component\", \"link component to code\", \"create code connect mapping\", or wants to establish mappings between Figma designs and code implementations. For canvas writes via `use_figma`, use `figma-use`."
+
+prompt = """
+Invoke the ui:figma-code-connect-components skill.
+Load the prompt instructions from skills/skills-figma-code-connect-components/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-figma-code-connect-components/references/ to complete the task.
+"""

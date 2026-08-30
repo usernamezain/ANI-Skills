@@ -1,0 +1,6 @@
+description = "When the user wants to create, plan, or optimize App Store In-App Events — the event cards that appear on the Today tab, search results, and your product page. Use when the user mentions \"in-app event\", \"App Store event\", \"event card\", \"Today tab\", \"live event\", \"challenge\", \"game event\", \"seasonal event card\", or wants visibility beyond organic search. For general ASO, see aso-audit. For seasonal keyword strategy, see seasonal-aso."
+
+prompt = """
+Invoke the marketing:in-app-events skill.
+Load the prompt instructions from skills/aso-skills-in-app-events/SKILL.md and consult the copy-pasteable references or guidelines inside skills/aso-skills-in-app-events/references/ to complete the task.
+"""

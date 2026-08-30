@@ -1,0 +1,6 @@
+# ai:jetson-print-device-info
+
+Use when you need to print Jetson device info (module model, L4T version, kernel, OS version, current power mode) from a running Jetson target. This is an example skill.
+
+**Skill folder:** `skills/skills-jetson-print-device-info/`
+**Namespace:** `ai`

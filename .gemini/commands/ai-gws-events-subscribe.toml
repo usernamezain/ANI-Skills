@@ -1,0 +1,6 @@
+description = "Google Workspace Events: Subscribe to Workspace events and stream them as NDJSON."
+
+prompt = """
+Invoke the ai:gws-events-subscribe skill.
+Load the prompt instructions from skills/cli-gws-events-subscribe/SKILL.md and consult the copy-pasteable references or guidelines inside skills/cli-gws-events-subscribe/references/ to complete the task.
+"""

@@ -1,0 +1,6 @@
+# quality:tilegym-cutile-python
+
+Expert cuTile programming assistant. Write high-performance GPU kernels using cuTile's tile-based programming model with proper validation and optimization. Supports deep agent orchestration for complex multi-kernel tasks.
+
+**Skill folder:** `skills/skills-tilegym-cutile-python/`
+**Namespace:** `quality`

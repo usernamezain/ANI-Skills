@@ -1,0 +1,6 @@
+description = "Create a Google Docs post-mortem, schedule a Google Calendar review, and notify via Chat."
+
+prompt = """
+Invoke the ai:recipe-post-mortem-setup skill.
+Load the prompt instructions from skills/cli-recipe-post-mortem-setup/SKILL.md and consult the copy-pasteable references or guidelines inside skills/cli-recipe-post-mortem-setup/references/ to complete the task.
+"""

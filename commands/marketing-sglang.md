@@ -1,0 +1,6 @@
+# marketing:sglang
+
+Fast structured generation and serving for LLMs with RadixAttention prefix caching. Use for JSON/regex outputs, constrained decoding, agentic workflows with tool calls, or when you need 5× faster inference than vLLM with prefix sharing. Powers 300,000+ GPUs at xAI, AMD, NVIDIA, and LinkedIn.
+
+**Skill folder:** `skills/AI-Research-SKILLs-sglang/`
+**Namespace:** `marketing`

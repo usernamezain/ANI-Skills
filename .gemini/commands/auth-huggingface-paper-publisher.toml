@@ -1,0 +1,6 @@
+description = "Publish and manage research papers on Hugging Face Hub. Supports creating paper pages, linking papers to models/datasets, claiming authorship, and generating professional markdown-based research articles."
+
+prompt = """
+Invoke the auth:huggingface-paper-publisher skill.
+Load the prompt instructions from skills/skills-huggingface-paper-publisher/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-huggingface-paper-publisher/references/ to complete the task.
+"""

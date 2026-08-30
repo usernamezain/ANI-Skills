@@ -1,0 +1,6 @@
+description = "Stage 1 of Clinical ASR Flywheel. Use when bootstrapping a cycle: NVCF+MW disclosure, NVIDIA_API_KEY check, deps install, TTS+ASR smoke test."
+
+prompt = """
+Invoke the monitoring:digital-health-clinical-asr-setup skill.
+Load the prompt instructions from skills/skills-digital-health-clinical-asr-setup/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-digital-health-clinical-asr-setup/references/ to complete the task.
+"""

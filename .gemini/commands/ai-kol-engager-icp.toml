@@ -1,0 +1,6 @@
+description = ">"
+
+prompt = """
+Invoke the ai:kol-engager-icp skill.
+Load the prompt instructions from skills/goose-skills-kol-engager-icp/SKILL.md and consult the copy-pasteable references or guidelines inside skills/goose-skills-kol-engager-icp/references/ to complete the task.
+"""

@@ -1,0 +1,6 @@
+description = "Plan a VP or CPO 30-60-90 day diagnostic onboarding path. Use when entering a new executive product role and avoiding premature change."
+
+prompt = """
+Invoke the plan:executive-onboarding-playbook skill.
+Load the prompt instructions from skills/Product-Manager-Skills-executive-onboarding-playbook/SKILL.md and consult the copy-pasteable references or guidelines inside skills/Product-Manager-Skills-executive-onboarding-playbook/references/ to complete the task.
+"""

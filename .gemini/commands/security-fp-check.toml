@@ -1,0 +1,6 @@
+description = "Systematically verifies suspected security bugs to eliminate false positives, producing a TRUE POSITIVE or FALSE POSITIVE verdict with documented evidence for each. Use when asked whether a specific finding is real, exploitable, or a false positive, or to verify or validate a suspected vulnerability — not for hunting or discovering new bugs."
+
+prompt = """
+Invoke the security:fp-check skill.
+Load the prompt instructions from skills/skills-fp-check/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-fp-check/references/ to complete the task.
+"""

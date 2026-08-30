@@ -1,0 +1,6 @@
+description = "Gmail: Reply-all to a message (handles threading automatically)."
+
+prompt = """
+Invoke the ai:gws-gmail-reply-all skill.
+Load the prompt instructions from skills/cli-gws-gmail-reply-all/SKILL.md and consult the copy-pasteable references or guidelines inside skills/cli-gws-gmail-reply-all/references/ to complete the task.
+"""

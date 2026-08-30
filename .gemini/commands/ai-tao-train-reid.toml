@@ -1,0 +1,6 @@
+description = "Person re-identification (ReID). Learns discriminative embeddings to match the same person across different"
+
+prompt = """
+Invoke the ai:tao-train-reid skill.
+Load the prompt instructions from skills/skills-tao-train-reid/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-tao-train-reid/references/ to complete the task.
+"""

@@ -1,0 +1,6 @@
+description = "Research any domain with WHOIS data, DNS records, SSL certificate details, domain age, reputation scoring, and security header analysis. Covers ownership research, infrastructure mapping, security assessment, and competitive domain analysis."
+
+prompt = """
+Invoke the security:domain-intelligence skill.
+Load the prompt instructions from skills/sandbase-skills-domain-intelligence/SKILL.md and consult the copy-pasteable references or guidelines inside skills/sandbase-skills-domain-intelligence/references/ to complete the task.
+"""

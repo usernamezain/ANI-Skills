@@ -1,0 +1,6 @@
+description = ">"
+
+prompt = """
+Invoke the ai:kol-content-monitor skill.
+Load the prompt instructions from skills/goose-skills-kol-content-monitor/SKILL.md and consult the copy-pasteable references or guidelines inside skills/goose-skills-kol-content-monitor/references/ to complete the task.
+"""

@@ -1,0 +1,6 @@
+description = ">"
+
+prompt = """
+Invoke the ai:brand-voice-extractor skill.
+Load the prompt instructions from skills/goose-skills-brand-voice-extractor/SKILL.md and consult the copy-pasteable references or guidelines inside skills/goose-skills-brand-voice-extractor/references/ to complete the task.
+"""

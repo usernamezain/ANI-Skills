@@ -1,0 +1,6 @@
+description = "Runs the DEFT embed-then-mine workflow for VCN AOI iterations — embeds the gap-analysis target parquet, embeds a source pool, and mines nearest-neighbour source images for downstream augmentation. Use as the immediate next step after `tao-route-visual-changenet-samples` when expanding a real-image augmentation queue from the mining subset."
+
+prompt = """
+Invoke the ai:tao-mine-aoi-images skill.
+Load the prompt instructions from skills/skills-tao-mine-aoi-images/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-tao-mine-aoi-images/references/ to complete the task.
+"""

@@ -1,0 +1,6 @@
+description = ">"
+
+prompt = """
+Invoke the ai:pipeline-review skill.
+Load the prompt instructions from skills/goose-skills-pipeline-review/SKILL.md and consult the copy-pasteable references or guidelines inside skills/goose-skills-pipeline-review/references/ to complete the task.
+"""

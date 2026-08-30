@@ -1,0 +1,6 @@
+description = "Verify and release Three.js browser games. Combines playtest QA, automated bot playtests, mobile/responsive checks, production builds, preview verification, static-hosting base paths, debug gating, bundle review, screenshots, visual test harness decisions, packaged canvas-pixel inspection with measured metrics, console checks, and release risk reports."
+
+prompt = """
+Invoke the mobile:threejs-qa-release skill.
+Load the prompt instructions from skills/threejs-game-skills-threejs-qa-release/SKILL.md and consult the copy-pasteable references or guidelines inside skills/threejs-game-skills-threejs-qa-release/references/ to complete the task.
+"""

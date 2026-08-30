@@ -1,0 +1,6 @@
+description = ">"
+
+prompt = """
+Invoke the ai:doca-common skill.
+Load the prompt instructions from skills/skills-doca-common/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-doca-common/references/ to complete the task.
+"""

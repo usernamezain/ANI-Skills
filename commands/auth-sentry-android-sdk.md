@@ -1,0 +1,6 @@
+# auth:sentry-android-sdk
+
+Full Sentry SDK setup for Android. Use when asked to "add Sentry to Android", "install sentry-android", "setup Sentry in Android", or configure error monitoring, tracing, profiling, session replay, or logging for Android applications. Supports Kotlin and Java codebases.
+
+**Skill folder:** `skills/sentry-for-ai-sentry-android-sdk/`
+**Namespace:** `auth`

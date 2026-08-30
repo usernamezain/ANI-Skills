@@ -1,0 +1,6 @@
+description = "Start or patch Dynamo router modes and run router endpoint smoke checks. Use for round-robin, KV-aware, least-loaded, or device-aware routing setup; use recipe-runner for recipe deployment and troubleshoot for failure diagnosis."
+
+prompt = """
+Invoke the ai:dynamo-router-starter skill.
+Load the prompt instructions from skills/skills-dynamo-router-starter/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-dynamo-router-starter/references/ to complete the task.
+"""

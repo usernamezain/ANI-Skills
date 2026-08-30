@@ -1,0 +1,6 @@
+description = "Serverless GPU cloud platform for running ML workloads. Use when you need on-demand GPU access without infrastructure management, deploying ML models as APIs, or running batch jobs with automatic scaling."
+
+prompt = """
+Invoke the ai:modal-serverless-gpu skill.
+Load the prompt instructions from skills/AI-Research-SKILLs-modal-serverless-gpu/SKILL.md and consult the copy-pasteable references or guidelines inside skills/AI-Research-SKILLs-modal-serverless-gpu/references/ to complete the task.
+"""

@@ -1,0 +1,6 @@
+description = "Use this to spot manipulation aimed at you. And to keep your own moves on the honest side."
+
+prompt = """
+Invoke the ai:dark-tactics-defense skill.
+Load the prompt instructions from skills/dark-psychology-skills-dark-tactics-defense/SKILL.md and consult the copy-pasteable references or guidelines inside skills/dark-psychology-skills-dark-tactics-defense/references/ to complete the task.
+"""

@@ -1,0 +1,6 @@
+description = "Build Holoscan SDK from source via the in-tree ./run script. Use only when published packages don't meet the user's needs."
+
+prompt = """
+Invoke the ai:holoscan-install-source skill.
+Load the prompt instructions from skills/skills-holoscan-install-source/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-holoscan-install-source/references/ to complete the task.
+"""

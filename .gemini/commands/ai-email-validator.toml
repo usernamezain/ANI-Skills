@@ -1,0 +1,6 @@
+description = "Validate email addresses for deliverability, check reputation scores, verify MX records, and assess email-sending safety. Covers deliverability checks, reputation scoring, bounce risk assessment, and bulk validation for outreach campaign preparation."
+
+prompt = """
+Invoke the ai:email-validator skill.
+Load the prompt instructions from skills/sandbase-skills-email-validator/SKILL.md and consult the copy-pasteable references or guidelines inside skills/sandbase-skills-email-validator/references/ to complete the task.
+"""

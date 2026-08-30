@@ -1,0 +1,6 @@
+description = ">-"
+
+prompt = """
+Invoke the db:cloud-sql-basics skill.
+Load the prompt instructions from skills/skills-cloud-sql-basics/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-cloud-sql-basics/references/ to complete the task.
+"""

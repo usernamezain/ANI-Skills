@@ -1,0 +1,6 @@
+description = "Brand intelligence - logos, colors, fonts, styleguides, and company data from any domain"
+
+prompt = """
+Invoke the ai:brand-intel-branddev skill.
+Load the prompt instructions from skills/goose-skills-brand-intel-branddev/SKILL.md and consult the copy-pasteable references or guidelines inside skills/goose-skills-brand-intel-branddev/references/ to complete the task.
+"""

@@ -1,0 +1,6 @@
+description = "Google Workflow: Announce a Drive file in a Chat space."
+
+prompt = """
+Invoke the ai:gws-workflow-file-announce skill.
+Load the prompt instructions from skills/cli-gws-workflow-file-announce/SKILL.md and consult the copy-pasteable references or guidelines inside skills/cli-gws-workflow-file-announce/references/ to complete the task.
+"""

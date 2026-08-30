@@ -1,0 +1,6 @@
+description = "Load when investigating a specific flaky test. Gets history, failure pattern, and category, then recommends fix, quarantine, or escalate."
+
+prompt = """
+Invoke the plan:triage-flaky-test skill.
+Load the prompt instructions from skills/agent-skills-triage-flaky-test/SKILL.md and consult the copy-pasteable references or guidelines inside skills/agent-skills-triage-flaky-test/references/ to complete the task.
+"""

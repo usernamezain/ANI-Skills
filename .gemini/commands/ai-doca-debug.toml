@@ -1,0 +1,6 @@
+description = ">"
+
+prompt = """
+Invoke the ai:doca-debug skill.
+Load the prompt instructions from skills/skills-doca-debug/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-doca-debug/references/ to complete the task.
+"""

@@ -1,0 +1,6 @@
+# quality:tilegym-improve-cutile-kernel-perf
+
+Iteratively optimize cuTile kernel performance through systematic profiling, bottleneck analysis, IR comparison, and targeted tuning. Covers tile sizes, occupancy, autotune configs, TMA, latency hints, persistent scheduling, num_ctas, flush_to_zero, and IR-level debugging. Use when asked to "optimize cutile kernel", "improve kernel perf", "tune cutile performance", "make kernel faster", or iteratively benchmark and refine a cuTile GPU kernel in the TileGym project.
+
+**Skill folder:** `skills/skills-tilegym-improve-cutile-kernel-perf/`
+**Namespace:** `quality`

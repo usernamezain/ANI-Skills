@@ -1,0 +1,6 @@
+description = "Research any topic across Reddit, X, and web from the last 30 days. Get current trends, real community sentiment, and actionable insights in 7 minutes vs 2 hours manual research."
+
+prompt = """
+Invoke the marketing:last30days skill.
+Load the prompt instructions from skills/ai-marketing-claude-code-skills-last30days/SKILL.md and consult the copy-pasteable references or guidelines inside skills/ai-marketing-claude-code-skills-last30days/references/ to complete the task.
+"""

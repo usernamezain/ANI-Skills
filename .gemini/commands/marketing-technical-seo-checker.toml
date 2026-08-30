@@ -1,0 +1,6 @@
+description = "Use when the user asks to \"check technical SEO\"; audits crawlability, indexing, Core Web Vitals, robots.txt, sitemaps, canonicals, redirects, and migrations. Not for on-page tags or content — use on-page-seo-checker. 技术SEO/网站速度"
+
+prompt = """
+Invoke the marketing:technical-seo-checker skill.
+Load the prompt instructions from skills/aaron-marketing-skills-technical-seo-checker/SKILL.md and consult the copy-pasteable references or guidelines inside skills/aaron-marketing-skills-technical-seo-checker/references/ to complete the task.
+"""

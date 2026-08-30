@@ -1,0 +1,6 @@
+description = "Diagnose where a product sits in its lifecycle and which play fits — extend, replace, or retire. Use when a product is fading and you need the call, not just the worry."
+
+prompt = """
+Invoke the plan:lifecycle-play-advisor skill.
+Load the prompt instructions from skills/Product-Manager-Skills-lifecycle-play-advisor/SKILL.md and consult the copy-pasteable references or guidelines inside skills/Product-Manager-Skills-lifecycle-play-advisor/references/ to complete the task.
+"""

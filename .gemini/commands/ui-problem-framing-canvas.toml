@@ -1,0 +1,6 @@
+description = "Guide teams through MITRE's Problem Framing Canvas. Use when you need a clearer problem statement before jumping to solutions."
+
+prompt = """
+Invoke the ui:problem-framing-canvas skill.
+Load the prompt instructions from skills/Product-Manager-Skills-problem-framing-canvas/SKILL.md and consult the copy-pasteable references or guidelines inside skills/Product-Manager-Skills-problem-framing-canvas/references/ to complete the task.
+"""

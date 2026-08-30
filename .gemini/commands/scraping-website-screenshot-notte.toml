@@ -1,0 +1,6 @@
+description = "Take screenshots of any website using Notte browser automation. Use when asked to screenshot, capture, or snap a webpage."
+
+prompt = """
+Invoke the scraping:website-screenshot-notte skill.
+Load the prompt instructions from skills/goose-skills-website-screenshot-notte/SKILL.md and consult the copy-pasteable references or guidelines inside skills/goose-skills-website-screenshot-notte/references/ to complete the task.
+"""

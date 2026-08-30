@@ -1,0 +1,6 @@
+description = ">-"
+
+prompt = """
+Invoke the ai:gke-backup-dr skill.
+Load the prompt instructions from skills/skills-gke-backup-dr/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-gke-backup-dr/references/ to complete the task.
+"""

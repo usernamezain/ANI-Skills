@@ -1,0 +1,6 @@
+description = ">-"
+
+prompt = """
+Invoke the cloud:cloud-logging-configuration-basics skill.
+Load the prompt instructions from skills/skills-cloud-logging-configuration-basics/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-cloud-logging-configuration-basics/references/ to complete the task.
+"""

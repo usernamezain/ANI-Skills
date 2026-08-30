@@ -1,0 +1,6 @@
+description = "Create refined user personas from research data — 3 personas with JTBD, pains, gains, and unexpected insights. Use when building personas from survey data, creating user profiles from research, or segmenting users for product decisions."
+
+prompt = """
+Invoke the plan:user-personas skill.
+Load the prompt instructions from skills/pm-skills-user-personas/SKILL.md and consult the copy-pasteable references or guidelines inside skills/pm-skills-user-personas/references/ to complete the task.
+"""

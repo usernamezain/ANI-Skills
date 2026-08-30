@@ -1,0 +1,6 @@
+description = "Evaluates LLMs across 100+ benchmarks from 18+ harnesses (MMLU, HumanEval, GSM8K, safety, VLM) with multi-backend execution. Use when needing scalable evaluation on local Docker, Slurm HPC, or cloud platforms. NVIDIA's enterprise-grade platform with container-first architecture for reproducible benchmarking."
+
+prompt = """
+Invoke the ai:nemo-evaluator-sdk skill.
+Load the prompt instructions from skills/AI-Research-SKILLs-nemo-evaluator-sdk/SKILL.md and consult the copy-pasteable references or guidelines inside skills/AI-Research-SKILLs-nemo-evaluator-sdk/references/ to complete the task.
+"""

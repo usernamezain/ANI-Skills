@@ -1,0 +1,6 @@
+description = ">-"
+
+prompt = """
+Invoke the cloud:using-email-templates skill.
+Load the prompt instructions from skills/mailtrap-skills-using-email-templates/SKILL.md and consult the copy-pasteable references or guidelines inside skills/mailtrap-skills-using-email-templates/references/ to complete the task.
+"""

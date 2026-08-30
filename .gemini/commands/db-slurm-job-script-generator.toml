@@ -1,0 +1,6 @@
+description = ">"
+
+prompt = """
+Invoke the db:slurm-job-script-generator skill.
+Load the prompt instructions from skills/materials-simulation-skills-slurm-job-script-generator/SKILL.md and consult the copy-pasteable references or guidelines inside skills/materials-simulation-skills-slurm-job-script-generator/references/ to complete the task.
+"""

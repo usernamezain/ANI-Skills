@@ -1,0 +1,6 @@
+description = "Install cuOpt for Python, C, or server via pip, conda, or Docker; verify the install. For building cuOpt from source, see cuopt-developer."
+
+prompt = """
+Invoke the ai:cuopt-install skill.
+Load the prompt instructions from skills/skills-cuopt-install/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-cuopt-install/references/ to complete the task.
+"""

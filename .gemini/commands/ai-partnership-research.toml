@@ -1,0 +1,6 @@
+description = "Research potential partners by analyzing company profiles, product fit, market positioning, team background, and mutual connections. Combines firmographic data, content analysis, and social signals for partnership qualification and relationship mapping."
+
+prompt = """
+Invoke the ai:partnership-research skill.
+Load the prompt instructions from skills/sandbase-skills-partnership-research/SKILL.md and consult the copy-pasteable references or guidelines inside skills/sandbase-skills-partnership-research/references/ to complete the task.
+"""

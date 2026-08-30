@@ -1,0 +1,6 @@
+description = "People, company, investor, and job search with LinkedIn data enrichment"
+
+prompt = """
+Invoke the marketing:people-company-search-fiber skill.
+Load the prompt instructions from skills/goose-skills-people-company-search-fiber/SKILL.md and consult the copy-pasteable references or guidelines inside skills/goose-skills-people-company-search-fiber/references/ to complete the task.
+"""

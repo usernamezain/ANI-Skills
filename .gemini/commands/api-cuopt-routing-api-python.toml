@@ -1,0 +1,6 @@
+description = "Vehicle routing (VRP, TSP, PDP) with cuOpt — Python API only. Use when the user is building or solving routing in Python."
+
+prompt = """
+Invoke the api:cuopt-routing-api-python skill.
+Load the prompt instructions from skills/skills-cuopt-routing-api-python/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-cuopt-routing-api-python/references/ to complete the task.
+"""

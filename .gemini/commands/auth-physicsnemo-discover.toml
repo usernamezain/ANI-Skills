@@ -1,0 +1,6 @@
+description = "Official NVIDIA-authored guidance for navigating PhysicsNeMo — pick the model, datapipe, or example for a SciML/AI4Science task (surrogates, forecasting, downscaling, physics-informed, inverse, generative). Points at existing files via live repo search; never writes code. Do NOT use for installation or environment setup, training-loop or other code authoring/scaffolding, contributor/CI/packaging questions, repo-specific questions in physicsnemo-sym/-cfd/-curator, or general (non-physics) ML/PyTorch."
+
+prompt = """
+Invoke the auth:physicsnemo-discover skill.
+Load the prompt instructions from skills/skills-physicsnemo-discover/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-physicsnemo-discover/references/ to complete the task.
+"""

@@ -1,0 +1,6 @@
+description = ">"
+
+prompt = """
+Invoke the ai:upgrade-browser-sdk-v6 skill.
+Load the prompt instructions from skills/agent-skills-dd-browser-sdk/upgrade-v6/SKILL.md and consult the copy-pasteable references or guidelines inside skills/agent-skills-dd-browser-sdk/upgrade-v6/references/ to complete the task.
+"""

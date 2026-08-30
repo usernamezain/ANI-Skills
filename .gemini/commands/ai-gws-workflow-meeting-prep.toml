@@ -1,0 +1,6 @@
+description = "Google Workflow: Prepare for your next meeting: agenda, attendees, and linked docs."
+
+prompt = """
+Invoke the ai:gws-workflow-meeting-prep skill.
+Load the prompt instructions from skills/cli-gws-workflow-meeting-prep/SKILL.md and consult the copy-pasteable references or guidelines inside skills/cli-gws-workflow-meeting-prep/references/ to complete the task.
+"""

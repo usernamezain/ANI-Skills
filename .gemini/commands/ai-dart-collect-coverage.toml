@@ -1,0 +1,6 @@
+description = "Collect coverage using the coverage packge and create an LCOV report"
+
+prompt = """
+Invoke the ai:dart-collect-coverage skill.
+Load the prompt instructions from skills/skills-dart-collect-coverage/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-dart-collect-coverage/references/ to complete the task.
+"""

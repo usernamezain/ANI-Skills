@@ -1,0 +1,6 @@
+description = "Optical Inspection for defect detection using Siamese networks. Compares image pairs to detect manufacturing"
+
+prompt = """
+Invoke the plan:tao-train-optical-inspection skill.
+Load the prompt instructions from skills/skills-tao-train-optical-inspection/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-tao-train-optical-inspection/references/ to complete the task.
+"""

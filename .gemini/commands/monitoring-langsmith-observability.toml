@@ -1,0 +1,6 @@
+description = "LLM observability platform for tracing, evaluation, and monitoring. Use when debugging LLM applications, evaluating model outputs against datasets, monitoring production systems, or building systematic testing pipelines for AI applications."
+
+prompt = """
+Invoke the monitoring:langsmith-observability skill.
+Load the prompt instructions from skills/AI-Research-SKILLs-langsmith-observability/SKILL.md and consult the copy-pasteable references or guidelines inside skills/AI-Research-SKILLs-langsmith-observability/references/ to complete the task.
+"""

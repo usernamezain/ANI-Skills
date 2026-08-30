@@ -1,0 +1,6 @@
+description = "Transcribing, displaying and animating captions"
+
+prompt = """
+Invoke the ui:remotion-captions skill.
+Load the prompt instructions from skills/skills-remotion-captions/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-remotion-captions/references/ to complete the task.
+"""

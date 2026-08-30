@@ -1,0 +1,6 @@
+description = "Analyze Google search results, SERP features, and organic rankings through SandBase DataForSEO. Use when asked for SERP analysis, Google ranking research, search feature identification, or organic visibility assessment."
+
+prompt = """
+Invoke the marketing:serp-analysis skill.
+Load the prompt instructions from skills/sandbase-skills-serp-analysis/SKILL.md and consult the copy-pasteable references or guidelines inside skills/sandbase-skills-serp-analysis/references/ to complete the task.
+"""

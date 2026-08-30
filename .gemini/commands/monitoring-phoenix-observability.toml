@@ -1,0 +1,6 @@
+description = "Open-source AI observability platform for LLM tracing, evaluation, and monitoring. Use when debugging LLM applications with detailed traces, running evaluations on datasets, or monitoring production AI systems with real-time insights."
+
+prompt = """
+Invoke the monitoring:phoenix-observability skill.
+Load the prompt instructions from skills/AI-Research-SKILLs-phoenix-observability/SKILL.md and consult the copy-pasteable references or guidelines inside skills/AI-Research-SKILLs-phoenix-observability/references/ to complete the task.
+"""

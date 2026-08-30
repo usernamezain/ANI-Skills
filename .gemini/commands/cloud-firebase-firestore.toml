@@ -1,0 +1,6 @@
+description = ">-"
+
+prompt = """
+Invoke the cloud:firebase-firestore skill.
+Load the prompt instructions from skills/agent-skills-firebase-firestore/SKILL.md and consult the copy-pasteable references or guidelines inside skills/agent-skills-firebase-firestore/references/ to complete the task.
+"""

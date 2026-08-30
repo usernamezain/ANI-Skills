@@ -1,0 +1,6 @@
+description = "Autonomous AI agent platform for building and deploying continuous agents. Use when creating visual workflow agents, deploying persistent autonomous agents, or building complex multi-step AI automation systems."
+
+prompt = """
+Invoke the ai:autogpt-agents skill.
+Load the prompt instructions from skills/AI-Research-SKILLs-autogpt-agents/SKILL.md and consult the copy-pasteable references or guidelines inside skills/AI-Research-SKILLs-autogpt-agents/references/ to complete the task.
+"""

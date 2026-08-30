@@ -1,0 +1,6 @@
+description = "CUDA-Q onboarding guide for installation, test programs, GPU simulation, QPU hardware, and quantum applications."
+
+prompt = """
+Invoke the ai:cudaq-guide skill.
+Load the prompt instructions from skills/skills-cudaq-guide/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-cudaq-guide/references/ to complete the task.
+"""

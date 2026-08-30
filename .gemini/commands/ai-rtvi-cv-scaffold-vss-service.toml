@@ -1,0 +1,6 @@
+description = ">"
+
+prompt = """
+Invoke the ai:rtvi-cv-scaffold-vss-service skill.
+Load the prompt instructions from skills/skills-rtvi-cv-scaffold-vss-service/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-rtvi-cv-scaffold-vss-service/references/ to complete the task.
+"""

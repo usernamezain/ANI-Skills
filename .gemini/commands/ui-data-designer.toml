@@ -1,0 +1,6 @@
+description = "Use when the user wants to create a dataset, generate synthetic data, or build a data generation pipeline."
+
+prompt = """
+Invoke the ui:data-designer skill.
+Load the prompt instructions from skills/skills-data-designer/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-data-designer/references/ to complete the task.
+"""

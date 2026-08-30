@@ -1,0 +1,6 @@
+description = "BEVFusion for multi-sensor 3D object detection. Fuses LiDAR point clouds and camera images in bird's-eye-view"
+
+prompt = """
+Invoke the cloud:tao-train-bevfusion skill.
+Load the prompt instructions from skills/skills-tao-train-bevfusion/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-tao-train-bevfusion/references/ to complete the task.
+"""

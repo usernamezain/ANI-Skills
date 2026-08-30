@@ -1,0 +1,6 @@
+description = "Identify large Google Drive files consuming storage quota."
+
+prompt = """
+Invoke the ai:recipe-find-large-files skill.
+Load the prompt instructions from skills/cli-recipe-find-large-files/SKILL.md and consult the copy-pasteable references or guidelines inside skills/cli-recipe-find-large-files/references/ to complete the task.
+"""

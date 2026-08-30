@@ -1,0 +1,6 @@
+description = "Routes NVIDIA Nemotron Speech (Riva) NIM tasks — deploys, runs, and tests ASR, TTS, and NMT NIMs on build.nvidia.com or self-hosted."
+
+prompt = """
+Invoke the ai:nemotron-speech skill.
+Load the prompt instructions from skills/skills-nemotron-speech/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-nemotron-speech/references/ to complete the task.
+"""

@@ -1,0 +1,6 @@
+description = "Framework (OSS). Set up Tailwind CSS v4 in Expo with react-native-css and NativeWind v5 for universal styling"
+
+prompt = """
+Invoke the mobile:expo-tailwind-setup skill.
+Load the prompt instructions from skills/skills-expo-tailwind-setup/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-expo-tailwind-setup/references/ to complete the task.
+"""

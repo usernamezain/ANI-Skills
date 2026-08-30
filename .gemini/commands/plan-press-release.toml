@@ -1,0 +1,6 @@
+description = "Write an Amazon-style press release that defines customer value before building. Use when aligning stakeholders on a new product, feature, or strategic bet."
+
+prompt = """
+Invoke the plan:press-release skill.
+Load the prompt instructions from skills/Product-Manager-Skills-press-release/SKILL.md and consult the copy-pasteable references or guidelines inside skills/Product-Manager-Skills-press-release/references/ to complete the task.
+"""

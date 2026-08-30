@@ -1,0 +1,6 @@
+description = "Enable/disable Jetson USB2/USB3 SS ports via kernel-DT overlay. Do NOT use for UPHY lane allocation or ODMDATA edits."
+
+prompt = """
+Invoke the ai:jetson-customize-usb skill.
+Load the prompt instructions from skills/skills-jetson-customize-usb/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-jetson-customize-usb/references/ to complete the task.
+"""

@@ -1,0 +1,6 @@
+description = ">"
+
+prompt = """
+Invoke the ai:voice-of-customer-synthesizer skill.
+Load the prompt instructions from skills/goose-skills-voice-of-customer-synthesizer/SKILL.md and consult the copy-pasteable references or guidelines inside skills/goose-skills-voice-of-customer-synthesizer/references/ to complete the task.
+"""

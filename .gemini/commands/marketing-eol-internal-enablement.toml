@@ -1,0 +1,6 @@
+description = "Build the support FAQ, sales talking points, and objection handling teams need before an EOL announcement. Use when customer-facing teams must be ready before customers hear."
+
+prompt = """
+Invoke the marketing:eol-internal-enablement skill.
+Load the prompt instructions from skills/Product-Manager-Skills-eol-internal-enablement/SKILL.md and consult the copy-pasteable references or guidelines inside skills/Product-Manager-Skills-eol-internal-enablement/references/ to complete the task.
+"""

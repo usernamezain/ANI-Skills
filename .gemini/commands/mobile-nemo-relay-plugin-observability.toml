@@ -1,0 +1,6 @@
+description = "Use this skill when choosing or configuring NeMo Relay 0.6 or 0.7 observability through the built-in plugin, subscribers, or exporters, including raw ATOF events, ATIF trajectories, OpenTelemetry, OpenInference, or custom event handling."
+
+prompt = """
+Invoke the mobile:nemo-relay-plugin-observability skill.
+Load the prompt instructions from skills/skills-nemo-relay-plugin-observability/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-nemo-relay-plugin-observability/references/ to complete the task.
+"""

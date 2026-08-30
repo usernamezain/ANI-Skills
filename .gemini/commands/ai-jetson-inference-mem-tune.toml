@@ -1,0 +1,6 @@
+description = "Pick the serving stack and per-runtime memory flags (vLLM, SGLang, llama.cpp, TensorRT Edge-LLM) for an LLM/VLM workload on any NVIDIA Jetson."
+
+prompt = """
+Invoke the ai:jetson-inference-mem-tune skill.
+Load the prompt instructions from skills/skills-jetson-inference-mem-tune/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-jetson-inference-mem-tune/references/ to complete the task.
+"""

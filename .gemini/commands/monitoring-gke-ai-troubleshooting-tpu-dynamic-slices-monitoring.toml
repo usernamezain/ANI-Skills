@@ -1,0 +1,6 @@
+description = ">-"
+
+prompt = """
+Invoke the monitoring:gke-ai-troubleshooting-tpu-dynamic-slices-monitoring skill.
+Load the prompt instructions from skills/skills-gke-ai-troubleshooting-tpu-dynamic-slices-monitoring/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-gke-ai-troubleshooting-tpu-dynamic-slices-monitoring/references/ to complete the task.
+"""

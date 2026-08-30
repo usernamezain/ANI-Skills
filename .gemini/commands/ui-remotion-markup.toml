@@ -1,0 +1,6 @@
+description = "Content, animation and effects best practices"
+
+prompt = """
+Invoke the ui:remotion-markup skill.
+Load the prompt instructions from skills/skills-remotion-markup/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-remotion-markup/references/ to complete the task.
+"""

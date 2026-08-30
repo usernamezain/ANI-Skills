@@ -1,0 +1,6 @@
+description = "Generate, validate, compare, or explain HSB HOLOLINK_def.svh macros. Do not use for FPGA_top.sv wrappers or packetizer-only derivation. Generation runs bundled Python scripts locally through shell commands and writes validated .svh output files after user-confirmed paths."
+
+prompt = """
+Invoke the ai:hsb-ip-def skill.
+Load the prompt instructions from skills/skills-hsb-ip-def/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-hsb-ip-def/references/ to complete the task.
+"""

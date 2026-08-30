@@ -1,0 +1,6 @@
+description = ">-"
+
+prompt = """
+Invoke the cloud:google-cloud-solution-agentic-ai-bidirectional-streaming skill.
+Load the prompt instructions from skills/skills-google-cloud-solution-agentic-ai-bidirectional-streaming/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-google-cloud-solution-agentic-ai-bidirectional-streaming/references/ to complete the task.
+"""

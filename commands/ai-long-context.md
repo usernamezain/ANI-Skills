@@ -1,0 +1,6 @@
+# ai:long-context
+
+Extend context windows of transformer models using RoPE, YaRN, ALiBi, and position interpolation techniques. Use when processing long documents (32k-128k+ tokens), extending pre-trained models beyond original context limits, or implementing efficient positional encodings. Covers rotary embeddings, attention biases, interpolation methods, and extrapolation strategies for LLMs.
+
+**Skill folder:** `skills/AI-Research-SKILLs-long-context/`
+**Namespace:** `ai`

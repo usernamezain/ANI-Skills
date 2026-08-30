@@ -1,0 +1,6 @@
+description = "Design a detailed value proposition using a 6-part JTBD template — Who, Why, What before, How, What after, Alternatives. Use when creating a value proposition, analyzing customer value delivery, or articulating why customers should choose your product."
+
+prompt = """
+Invoke the ui:value-proposition skill.
+Load the prompt instructions from skills/pm-skills-value-proposition/SKILL.md and consult the copy-pasteable references or guidelines inside skills/pm-skills-value-proposition/references/ to complete the task.
+"""

@@ -1,0 +1,6 @@
+description = "Build a LinkedIn content system for thought leadership. Use when someone needs to establish authority, attract inbound leads, or build a consistent content presence. Covers positioning, content pillars, formats, and posting rhythm."
+
+prompt = """
+Invoke the marketing:linkedin-authority-builder skill.
+Load the prompt instructions from skills/ai-marketing-claude-code-skills-linkedin-authority-builder/SKILL.md and consult the copy-pasteable references or guidelines inside skills/ai-marketing-claude-code-skills-linkedin-authority-builder/references/ to complete the task.
+"""

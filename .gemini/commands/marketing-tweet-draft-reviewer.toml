@@ -1,0 +1,6 @@
+description = "Review tweet drafts in Claude Code against 8 voice rules. Scores 1-10, breaks down every rule, and rewrites anything that scores below 7."
+
+prompt = """
+Invoke the marketing:tweet-draft-reviewer skill.
+Load the prompt instructions from skills/ai-marketing-claude-code-skills-tweet-draft-reviewer/SKILL.md and consult the copy-pasteable references or guidelines inside skills/ai-marketing-claude-code-skills-tweet-draft-reviewer/references/ to complete the task.
+"""

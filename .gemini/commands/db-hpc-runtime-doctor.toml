@@ -1,0 +1,6 @@
+description = ">"
+
+prompt = """
+Invoke the db:hpc-runtime-doctor skill.
+Load the prompt instructions from skills/materials-simulation-skills-hpc-runtime-doctor/SKILL.md and consult the copy-pasteable references or guidelines inside skills/materials-simulation-skills-hpc-runtime-doctor/references/ to complete the task.
+"""

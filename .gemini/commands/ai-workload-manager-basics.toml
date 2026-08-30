@@ -1,0 +1,6 @@
+description = ">-"
+
+prompt = """
+Invoke the ai:workload-manager-basics skill.
+Load the prompt instructions from skills/skills-workload-manager-basics/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-workload-manager-basics/references/ to complete the task.
+"""

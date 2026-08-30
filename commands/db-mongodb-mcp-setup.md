@@ -1,0 +1,6 @@
+# db:mongodb-mcp-setup
+
+Guide users through configuring key MongoDB MCP server options. Use this skill when a user has the MongoDB MCP server installed but hasn't configured the required environment variables, or when they ask about connecting to MongoDB/Atlas and don't have the credentials set up.
+
+**Skill folder:** `skills/agent-skills-mongodb-mcp-setup/`
+**Namespace:** `db`

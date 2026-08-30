@@ -1,0 +1,6 @@
+# cloud:wp-interactivity-api
+
+Use when building or debugging WordPress Interactivity API features (data-wp-* directives, @wordpress/interactivity store/state/actions, block viewScriptModule integration, wp_interactivity_*()) including performance, hydration, and directive behavior.
+
+**Skill folder:** `skills/agent-skills-wp-interactivity-api/`
+**Namespace:** `cloud`

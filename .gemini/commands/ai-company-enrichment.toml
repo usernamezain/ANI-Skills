@@ -1,0 +1,6 @@
+description = "Enrich any company with comprehensive firmographic data including industry, size, revenue, funding, tech stack, beneficial ownership, and regulatory status. Combines multiple data sources for complete B2B company intelligence and due diligence."
+
+prompt = """
+Invoke the ai:company-enrichment skill.
+Load the prompt instructions from skills/sandbase-skills-company-enrichment/SKILL.md and consult the copy-pasteable references or guidelines inside skills/sandbase-skills-company-enrichment/references/ to complete the task.
+"""

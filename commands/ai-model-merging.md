@@ -1,0 +1,6 @@
+# ai:model-merging
+
+Merge multiple fine-tuned models using mergekit to combine capabilities without retraining. Use when creating specialized models by blending domain-specific expertise (math + coding + chat), improving performance beyond single models, or experimenting rapidly with model variants. Covers SLERP, TIES-Merging, DARE, Task Arithmetic, linear merging, and production deployment strategies.
+
+**Skill folder:** `skills/AI-Research-SKILLs-model-merging/`
+**Namespace:** `ai`

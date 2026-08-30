@@ -1,0 +1,6 @@
+description = ">"
+
+prompt = """
+Invoke the api:apollo-server skill.
+Load the prompt instructions from skills/skills-apollo-server/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-apollo-server/references/ to complete the task.
+"""

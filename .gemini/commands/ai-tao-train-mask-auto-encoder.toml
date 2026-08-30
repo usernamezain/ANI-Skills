@@ -1,0 +1,6 @@
+description = "Masked Auto-Encoder (MAE) for self-supervised pretraining and fine-tuning. Masks random patches and reconstructs"
+
+prompt = """
+Invoke the ai:tao-train-mask-auto-encoder skill.
+Load the prompt instructions from skills/skills-tao-train-mask-auto-encoder/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-tao-train-mask-auto-encoder/references/ to complete the task.
+"""

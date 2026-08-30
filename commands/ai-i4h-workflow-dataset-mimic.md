@@ -1,0 +1,6 @@
+# ai:i4h-workflow-dataset-mimic
+
+Expand an HDF5 recording by cloning trajectories with action/state noise. Use when asked to mimic, expand, or augment a dataset; not for recording new demos (use [[i4h-workflow-dataset-teleop]]).
+
+**Skill folder:** `skills/skills-i4h-workflow-dataset-mimic/`
+**Namespace:** `ai`

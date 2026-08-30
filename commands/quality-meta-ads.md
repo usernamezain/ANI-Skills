@@ -1,0 +1,6 @@
+# quality:meta-ads
+
+Manage Meta Ads (Facebook + Instagram) — performance, ROAS, CPM, frequency, audience overlap, learning phase, creative fatigue, budgets, ad sets, campaigns, ads. Use for any mention of Meta Ads, Facebook Ads, Instagram Ads, ROAS, CPM, ad spend, or campaign settings on Meta.
+
+**Skill folder:** `skills/notfair-plugin-meta-ads/`
+**Namespace:** `quality`

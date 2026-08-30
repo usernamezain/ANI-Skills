@@ -1,0 +1,6 @@
+description = "Evaluate YC batch companies for investment — scrapes the YC directory, researches each company and its founders (work history, LinkedIn, website), assesses founder-company fit, and exports to Google Sheets with priority rankings. Use when asked to evaluate YC companies, research a YC batch, screen startups, or do due diligence on YC companies."
+
+prompt = """
+Invoke the marketing:yc-batch-evaluator skill.
+Load the prompt instructions from skills/goose-skills-yc-batch-evaluator/SKILL.md and consult the copy-pasteable references or guidelines inside skills/goose-skills-yc-batch-evaluator/references/ to complete the task.
+"""

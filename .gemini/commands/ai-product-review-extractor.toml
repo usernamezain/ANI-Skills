@@ -1,0 +1,6 @@
+description = "Extract and analyze product reviews from e-commerce and review sites. Aggregates ratings, identifies common themes in positive and negative feedback, and surfaces actionable product insights from customer voices across platforms."
+
+prompt = """
+Invoke the ai:product-review-extractor skill.
+Load the prompt instructions from skills/sandbase-skills-product-review-extractor/SKILL.md and consult the copy-pasteable references or guidelines inside skills/sandbase-skills-product-review-extractor/references/ to complete the task.
+"""

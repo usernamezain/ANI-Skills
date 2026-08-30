@@ -1,0 +1,6 @@
+description = "Configures Python projects with modern tooling (uv, ruff, ty). Use when creating projects, writing standalone scripts, or migrating from pip/Poetry/mypy/black."
+
+prompt = """
+Invoke the doc:modern-python skill.
+Load the prompt instructions from skills/skills-modern-python/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-modern-python/references/ to complete the task.
+"""

@@ -1,0 +1,6 @@
+description = ">-"
+
+prompt = """
+Invoke the ai:retrieving-developer-knowledge skill.
+Load the prompt instructions from skills/skills-retrieving-developer-knowledge/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-retrieving-developer-knowledge/references/ to complete the task.
+"""

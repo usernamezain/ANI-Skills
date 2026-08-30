@@ -1,0 +1,6 @@
+description = "Analyze user feedback data to identify segments with sentiment scores, JTBD, and product satisfaction insights. Use when analyzing user feedback at scale, running sentiment analysis on reviews or surveys, or identifying satisfaction patterns."
+
+prompt = """
+Invoke the plan:sentiment-analysis skill.
+Load the prompt instructions from skills/pm-skills-sentiment-analysis/SKILL.md and consult the copy-pasteable references or guidelines inside skills/pm-skills-sentiment-analysis/references/ to complete the task.
+"""

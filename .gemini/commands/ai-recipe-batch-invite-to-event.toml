@@ -1,0 +1,6 @@
+description = "Add a list of attendees to an existing Google Calendar event and send notifications."
+
+prompt = """
+Invoke the ai:recipe-batch-invite-to-event skill.
+Load the prompt instructions from skills/cli-recipe-batch-invite-to-event/SKILL.md and consult the copy-pasteable references or guidelines inside skills/cli-recipe-batch-invite-to-event/references/ to complete the task.
+"""

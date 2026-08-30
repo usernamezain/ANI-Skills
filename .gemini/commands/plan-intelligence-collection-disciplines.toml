@@ -1,0 +1,6 @@
+description = "Run competitive research like an intelligence agency: eight collection disciplines (OSINT to MASINT), signal-to-inference chains, and fusion. Use when one-source research isn't enough."
+
+prompt = """
+Invoke the plan:intelligence-collection-disciplines skill.
+Load the prompt instructions from skills/Product-Manager-Skills-intelligence-collection-disciplines/SKILL.md and consult the copy-pasteable references or guidelines inside skills/Product-Manager-Skills-intelligence-collection-disciplines/references/ to complete the task.
+"""

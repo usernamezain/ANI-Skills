@@ -1,0 +1,6 @@
+description = "AI video conversations - create real-time video calls with AI personas"
+
+prompt = """
+Invoke the ai:ai-video-calls-tavus skill.
+Load the prompt instructions from skills/goose-skills-ai-video-calls-tavus/SKILL.md and consult the copy-pasteable references or guidelines inside skills/goose-skills-ai-video-calls-tavus/references/ to complete the task.
+"""

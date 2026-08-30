@@ -1,0 +1,6 @@
+description = "Gmail: Read a message and extract its body or headers."
+
+prompt = """
+Invoke the ai:gws-gmail-read skill.
+Load the prompt instructions from skills/cli-gws-gmail-read/SKILL.md and consult the copy-pasteable references or guidelines inside skills/cli-gws-gmail-read/references/ to complete the task.
+"""

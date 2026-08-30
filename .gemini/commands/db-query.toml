@@ -1,0 +1,6 @@
+description = ">"
+
+prompt = """
+Invoke the db:query skill.
+Load the prompt instructions from skills/duckdb-skills-query/SKILL.md and consult the copy-pasteable references or guidelines inside skills/duckdb-skills-query/references/ to complete the task.
+"""

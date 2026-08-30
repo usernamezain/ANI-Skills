@@ -1,0 +1,6 @@
+description = ">"
+
+prompt = """
+Invoke the ai:doca-collectx-deployment skill.
+Load the prompt instructions from skills/skills-doca-collectx-deployment/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-doca-collectx-deployment/references/ to complete the task.
+"""

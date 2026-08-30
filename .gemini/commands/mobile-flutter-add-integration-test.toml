@@ -1,0 +1,6 @@
+description = "Configures Flutter Driver for app interaction and converts MCP actions into permanent integration tests. Use when adding integration testing to a project, exploring UI components via MCP, or automating user flows with the integration_test package."
+
+prompt = """
+Invoke the mobile:flutter-add-integration-test skill.
+Load the prompt instructions from skills/skills-flutter-add-integration-test/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-flutter-add-integration-test/references/ to complete the task.
+"""

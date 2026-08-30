@@ -1,0 +1,6 @@
+description = "Research and draft a competitive battle card from public evidence — every claim labeled and sourced. Use when a rep needs a field-action card, not a research report."
+
+prompt = """
+Invoke the plan:battle-card-builder skill.
+Load the prompt instructions from skills/Product-Manager-Skills-battle-card-builder/SKILL.md and consult the copy-pasteable references or guidelines inside skills/Product-Manager-Skills-battle-card-builder/references/ to complete the task.
+"""

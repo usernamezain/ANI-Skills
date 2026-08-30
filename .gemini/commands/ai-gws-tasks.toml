@@ -1,0 +1,6 @@
+description = "Google Tasks: Manage task lists and tasks."
+
+prompt = """
+Invoke the ai:gws-tasks skill.
+Load the prompt instructions from skills/cli-gws-tasks/SKILL.md and consult the copy-pasteable references or guidelines inside skills/cli-gws-tasks/references/ to complete the task.
+"""

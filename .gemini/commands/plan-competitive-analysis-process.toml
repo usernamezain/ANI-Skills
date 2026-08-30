@@ -1,0 +1,6 @@
+description = "Orchestrate a complete competitive analysis across six steps, from landscape to strategic direction. Use when you need the full picture, not a single scan or card."
+
+prompt = """
+Invoke the plan:competitive-analysis-process skill.
+Load the prompt instructions from skills/Product-Manager-Skills-competitive-analysis-process/SKILL.md and consult the copy-pasteable references or guidelines inside skills/Product-Manager-Skills-competitive-analysis-process/references/ to complete the task.
+"""

@@ -1,0 +1,6 @@
+description = "Browser automation - control browser sessions, scrape pages, and run AI agents"
+
+prompt = """
+Invoke the auth:browser-automation-notte skill.
+Load the prompt instructions from skills/goose-skills-browser-automation-notte/SKILL.md and consult the copy-pasteable references or guidelines inside skills/goose-skills-browser-automation-notte/references/ to complete the task.
+"""

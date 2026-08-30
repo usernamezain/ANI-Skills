@@ -1,0 +1,6 @@
+description = "Routes the weakest VCN samples (output of `tao-analyze-gaps-visual-changenet`) into per-augmentation-module"
+
+prompt = """
+Invoke the ai:tao-route-visual-changenet-samples skill.
+Load the prompt instructions from skills/skills-tao-route-visual-changenet-samples/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-tao-route-visual-changenet-samples/references/ to complete the task.
+"""

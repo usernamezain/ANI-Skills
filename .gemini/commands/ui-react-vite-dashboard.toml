@@ -1,0 +1,6 @@
+description = "Convert Stitch designs into production React + Vite dashboards with TanStack Query, accessible tokens from DESIGN.md, and Web3-ready patterns (ethers/viem)."
+
+prompt = """
+Invoke the ui:react-vite-dashboard skill.
+Load the prompt instructions from skills/stitch-skills-react-vite-dashboard/SKILL.md and consult the copy-pasteable references or guidelines inside skills/stitch-skills-react-vite-dashboard/references/ to complete the task.
+"""

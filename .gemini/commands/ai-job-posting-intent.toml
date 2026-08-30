@@ -1,0 +1,6 @@
+description = ">"
+
+prompt = """
+Invoke the ai:job-posting-intent skill.
+Load the prompt instructions from skills/goose-skills-job-posting-intent/SKILL.md and consult the copy-pasteable references or guidelines inside skills/goose-skills-job-posting-intent/references/ to complete the task.
+"""

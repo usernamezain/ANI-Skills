@@ -1,0 +1,6 @@
+description = ">-"
+
+prompt = """
+Invoke the ui:hig-patterns skill.
+Load the prompt instructions from skills/hig-doctor-hig-patterns/SKILL.md and consult the copy-pasteable references or guidelines inside skills/hig-doctor-hig-patterns/references/ to complete the task.
+"""

@@ -1,0 +1,6 @@
+# marketing:channel-registry
+
+Use when the user asks to register/query a social channel, record channel state, cadence, governance, voice adaptation, UGC permission, or advocacy facts; curates them through the append-only channels event stream and derived views. Not for ECHO scoring — use social-quality-auditor; not for channel selection — use channel-portfolio-planner. 渠道台账/账号档案/UGC授权记录
+
+**Skill folder:** `skills/aaron-marketing-skills-channel-registry/`
+**Namespace:** `marketing`

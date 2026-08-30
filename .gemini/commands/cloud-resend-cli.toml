@@ -1,0 +1,6 @@
+description = ">"
+
+prompt = """
+Invoke the cloud:resend-cli skill.
+Load the prompt instructions from skills/resend-skills-resend-cli/SKILL.md and consult the copy-pasteable references or guidelines inside skills/resend-skills-resend-cli/references/ to complete the task.
+"""

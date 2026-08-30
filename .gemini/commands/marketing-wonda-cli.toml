@@ -1,0 +1,6 @@
+description = "Using the Wonda CLI to generate images, videos, music, and audio from the terminal — plus LinkedIn, Reddit, and X/Twitter research and automation"
+
+prompt = """
+Invoke the marketing:wonda-cli skill.
+Load the prompt instructions from skills/wonda-wonda-cli/SKILL.md and consult the copy-pasteable references or guidelines inside skills/wonda-wonda-cli/references/ to complete the task.
+"""

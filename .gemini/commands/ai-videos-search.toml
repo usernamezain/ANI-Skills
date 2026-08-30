@@ -1,0 +1,6 @@
+description = "USE FOR video search. Returns videos with title, URL, thumbnail, duration, view count, creator. Supports freshness filters, SafeSearch, pagination."
+
+prompt = """
+Invoke the ai:videos-search skill.
+Load the prompt instructions from skills/brave-search-skills-videos-search/SKILL.md and consult the copy-pasteable references or guidelines inside skills/brave-search-skills-videos-search/references/ to complete the task.
+"""

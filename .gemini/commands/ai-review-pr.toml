@@ -1,0 +1,6 @@
+description = "Reviews the current branch's changes against its base branch as a pull request: correctness of new and modified code, test coverage for it, and documentation accuracy. Use when asked to review a branch, a diff, or a pull request."
+
+prompt = """
+Invoke the ai:review-pr skill.
+Load the prompt instructions from skills/skills-review-pr/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-review-pr/references/ to complete the task.
+"""

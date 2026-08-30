@@ -1,0 +1,6 @@
+description = "Use this to match your tone to the buyer type. Six types. Same deal, different music."
+
+prompt = """
+Invoke the ai:client-archetypes skill.
+Load the prompt instructions from skills/dark-psychology-skills-client-archetypes/SKILL.md and consult the copy-pasteable references or guidelines inside skills/dark-psychology-skills-client-archetypes/references/ to complete the task.
+"""

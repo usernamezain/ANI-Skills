@@ -1,0 +1,6 @@
+# scraping:safe-browser
+
+Build local constrained-browser agents with a safe_browser tool that owns CDP, enforces a domain allowlist with Fetch interception, and lets a runtime Claude Agent SDK agent complete browsing tasks without raw browser, shell, or CDP access. Use when the user wants an agent to browse or scrape while staying on approved domains, demo blocked off-domain navigation, or generate a safe browser client.
+
+**Skill folder:** `skills/skills-safe-browser/`
+**Namespace:** `scraping`

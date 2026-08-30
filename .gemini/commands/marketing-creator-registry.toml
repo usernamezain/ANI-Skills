@@ -1,0 +1,6 @@
+description = "Use when the user asks \"what did we pay this creator last time\" or to \"update the creator roster\"; curates creator identity, rate, rights, exclusivity, compliance-event, and performance facts through the append-only creators event stream. Not for scoring fit — use fit-scorer; not for reviewing content — use creator-content-auditor. 创作者档案/达人名册"
+
+prompt = """
+Invoke the marketing:creator-registry skill.
+Load the prompt instructions from skills/aaron-marketing-skills-creator-registry/SKILL.md and consult the copy-pasteable references or guidelines inside skills/aaron-marketing-skills-creator-registry/references/ to complete the task.
+"""

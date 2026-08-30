@@ -1,0 +1,6 @@
+description = ">"
+
+prompt = """
+Invoke the ai:commercial skill.
+Load the prompt instructions from skills/skills-commercial/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-commercial/references/ to complete the task.
+"""

@@ -1,0 +1,6 @@
+# monitoring:sentry-fix-issues
+
+Find and fix issues from Sentry using MCP. Use when asked to fix Sentry errors, debug production issues, investigate exceptions, or resolve bugs reported in Sentry. Methodically analyzes stack traces, breadcrumbs, traces, and context to identify root causes.
+
+**Skill folder:** `skills/sentry-for-ai-sentry-fix-issues/`
+**Namespace:** `monitoring`

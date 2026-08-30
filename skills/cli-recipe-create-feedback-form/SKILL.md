@@ -1,0 +1,36 @@
+---
+name: ai:recipe-create-feedback-form
+description: "Create a Google Form for feedback and share it via Gmail."
+metadata:
+  version: 0.22.5
+  openclaw:
+    category: "recipe"
+    domain: "productivity"
+    requires:
+      bins:
+        - gws
+      skills:
+        - gws-forms
+        - gws-gmail
+---
+
+# Create and Share a Google Form
+
+> **PREREQUISITE:** Load the following skills to execute this recipe: `gws-forms`, `gws-gmail`
+
+Create a Google Form for feedback and share it via Gmail.
+
+## Steps
+
+1. Create form: `gws forms forms create --json '{"info": {"title": "Event Feedback", "documentTitle": "Event Feedback Form"}}'`
+2. Get the form URL from the response (responderUri field)
+3. Email the form: `gws gmail +send --to attendees@company.com --subject 'Please share your feedback' --body 'Fill out the form: FORM_URL'`
+
+
+
+## When to Use
+- Use this skill when the task involves `recipe-create-feedback-form` workflows, tooling, or domain requirements from `googleworkspace/cli`.
+- Trigger on user keywords: `recipe-create-feedback-form`, `cli`, `ai`.
+
+## What to Use
+- Read the instructions below, implement pattern-verified code, and consult the `references/` folder if available.

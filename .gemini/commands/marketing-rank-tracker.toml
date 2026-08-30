@@ -1,0 +1,6 @@
+description = "Use when the user asks to \"track rankings\" or \"查排名\"; measures keyword and SERP-position deltas over time from provided exports or connected tools, including AI-response checks. Not for multi-metric stakeholder reports or setting alerts — use performance-monitor (report or alert mode). 排名追踪/SERP监控"
+
+prompt = """
+Invoke the marketing:rank-tracker skill.
+Load the prompt instructions from skills/aaron-marketing-skills-rank-tracker/SKILL.md and consult the copy-pasteable references or guidelines inside skills/aaron-marketing-skills-rank-tracker/references/ to complete the task.
+"""

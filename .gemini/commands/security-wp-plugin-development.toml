@@ -1,0 +1,6 @@
+description = "Use when developing WordPress plugins: architecture and hooks, activation/deactivation/uninstall, admin UI and Settings API, data storage, cron/tasks, security (nonces/capabilities/sanitization/escaping), and release packaging."
+
+prompt = """
+Invoke the security:wp-plugin-development skill.
+Load the prompt instructions from skills/agent-skills-wp-plugin-development/SKILL.md and consult the copy-pasteable references or guidelines inside skills/agent-skills-wp-plugin-development/references/ to complete the task.
+"""

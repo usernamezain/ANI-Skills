@@ -1,0 +1,6 @@
+description = "Scaffold a new sync capability with guided setup — asks about data source, mode, pagination, and cursor design, then generates working code"
+
+prompt = """
+Invoke the ui:sync skill.
+Load the prompt instructions from skills/notion-cookbook-sync/SKILL.md and consult the copy-pasteable references or guidelines inside skills/notion-cookbook-sync/references/ to complete the task.
+"""

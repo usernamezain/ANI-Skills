@@ -1,0 +1,6 @@
+description = "Use to lock/cap Jetson CPU/GPU/EMC clocks, toggle EMC/CPU DVFS, or change cpufreq governors by editing BPMP DTB and nvpower.sh pre-flash. Do NOT use for live tuning or nvpmodel edits."
+
+prompt = """
+Invoke the ai:jetson-customize-clocks skill.
+Load the prompt instructions from skills/skills-jetson-customize-clocks/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-jetson-customize-clocks/references/ to complete the task.
+"""

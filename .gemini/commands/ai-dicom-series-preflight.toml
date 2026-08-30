@@ -1,0 +1,6 @@
+description = "Used for header-only preflight of one DICOM series folder before conversion or inference. Not for de-identification or clinical clearance."
+
+prompt = """
+Invoke the ai:dicom-series-preflight skill.
+Load the prompt instructions from skills/skills-dicom-series-preflight/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-dicom-series-preflight/references/ to complete the task.
+"""

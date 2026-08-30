@@ -1,0 +1,6 @@
+description = "Stage 3 of Clinical ASR Flywheel. Score a NeMo manifest, produce the five-section KER leaderboard (by-ipa_source diagnostic). Not for ASR auth (/riva-asr)."
+
+prompt = """
+Invoke the auth:digital-health-clinical-asr-eval skill.
+Load the prompt instructions from skills/skills-digital-health-clinical-asr-eval/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-digital-health-clinical-asr-eval/references/ to complete the task.
+"""

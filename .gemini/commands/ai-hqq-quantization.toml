@@ -1,0 +1,6 @@
+description = "Half-Quadratic Quantization for LLMs without calibration data. Use when quantizing models to 4/3/2-bit precision without needing calibration datasets, for fast quantization workflows, or when deploying with vLLM or HuggingFace Transformers."
+
+prompt = """
+Invoke the ai:hqq-quantization skill.
+Load the prompt instructions from skills/AI-Research-SKILLs-hqq-quantization/SKILL.md and consult the copy-pasteable references or guidelines inside skills/AI-Research-SKILLs-hqq-quantization/references/ to complete the task.
+"""

@@ -1,0 +1,6 @@
+# plan:eol-stakeholder-sequence
+
+Plan who to talk to about a sunset, in what order, and what each conversation must cover. Use when an EOL decision is made and you want the landmines found before the announcement.
+
+**Skill folder:** `skills/Product-Manager-Skills-eol-stakeholder-sequence/`
+**Namespace:** `plan`

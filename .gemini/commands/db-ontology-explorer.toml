@@ -1,0 +1,6 @@
+description = ">"
+
+prompt = """
+Invoke the db:ontology-explorer skill.
+Load the prompt instructions from skills/materials-simulation-skills-ontology-explorer/SKILL.md and consult the copy-pasteable references or guidelines inside skills/materials-simulation-skills-ontology-explorer/references/ to complete the task.
+"""

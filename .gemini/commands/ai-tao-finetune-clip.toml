@@ -1,0 +1,6 @@
+description = "CLIP vision-language model for image-text retrieval, zero-shot classification, embedding extraction, ONNX"
+
+prompt = """
+Invoke the ai:tao-finetune-clip skill.
+Load the prompt instructions from skills/skills-tao-finetune-clip/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-tao-finetune-clip/references/ to complete the task.
+"""

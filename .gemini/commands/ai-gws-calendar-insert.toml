@@ -1,0 +1,6 @@
+description = "Google Calendar: Create a new event."
+
+prompt = """
+Invoke the ai:gws-calendar-insert skill.
+Load the prompt instructions from skills/cli-gws-calendar-insert/SKILL.md and consult the copy-pasteable references or guidelines inside skills/cli-gws-calendar-insert/references/ to complete the task.
+"""

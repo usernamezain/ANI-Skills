@@ -1,0 +1,6 @@
+# ui:typed-service-contracts
+
+Architecture standard for building robust, type-safe TypeScript services using the "Spec and Handler" pattern. Use when building CLIs, libraries, or complex business logic.
+
+**Skill folder:** `skills/design.md-typed-service-contracts/`
+**Namespace:** `ui`

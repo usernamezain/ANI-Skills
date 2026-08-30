@@ -1,0 +1,6 @@
+description = "Prepare meeting materials with Notion context and Codex research; use when gathering context, drafting agendas/pre-reads, and tailoring materials to attendees."
+
+prompt = """
+Invoke the doc:notion-meeting-intelligence skill.
+Load the prompt instructions from skills/skills-notion-meeting-intelligence/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-notion-meeting-intelligence/references/ to complete the task.
+"""

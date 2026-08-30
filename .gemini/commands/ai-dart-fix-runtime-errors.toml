@@ -1,0 +1,6 @@
+description = "Uses get_runtime_errors and lsp to fetch an active stack trace, locate the failing line, apply a fix, and verify resolution via hot_reload."
+
+prompt = """
+Invoke the ai:dart-fix-runtime-errors skill.
+Load the prompt instructions from skills/skills-dart-fix-runtime-errors/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-dart-fix-runtime-errors/references/ to complete the task.
+"""

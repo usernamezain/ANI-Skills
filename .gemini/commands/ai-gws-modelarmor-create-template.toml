@@ -1,0 +1,6 @@
+description = "Google Model Armor: Create a new Model Armor template."
+
+prompt = """
+Invoke the ai:gws-modelarmor-create-template skill.
+Load the prompt instructions from skills/cli-gws-modelarmor-create-template/SKILL.md and consult the copy-pasteable references or guidelines inside skills/cli-gws-modelarmor-create-template/references/ to complete the task.
+"""

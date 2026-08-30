@@ -1,0 +1,6 @@
+description = ">-"
+
+prompt = """
+Invoke the cloud:google-cloud-slo-alert-configuration skill.
+Load the prompt instructions from skills/skills-google-cloud-slo-alert-configuration/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-google-cloud-slo-alert-configuration/references/ to complete the task.
+"""

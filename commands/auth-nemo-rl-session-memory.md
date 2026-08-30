@@ -1,0 +1,6 @@
+# auth:nemo-rl-session-memory
+
+Manage durable working-session memory for coding agents. Use when a user asks to preserve or recover agent context across disconnects, VS Code restarts, long-running work, handoffs, or any session where important state should be written periodically under the repo's session directory. Do NOT use for: simple questions, short tasks, one-off commands, linting, or code review.
+
+**Skill folder:** `skills/skills-nemo-rl-session-memory/`
+**Namespace:** `auth`

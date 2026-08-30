@@ -1,0 +1,6 @@
+description = "Research npm packages — download stats, dependencies, maintainers, version history, and security advisories. Useful for technology due diligence, dependency auditing, and evaluating package reliability before adoption."
+
+prompt = """
+Invoke the security:npm-package-research skill.
+Load the prompt instructions from skills/sandbase-skills-npm-package-research/SKILL.md and consult the copy-pasteable references or guidelines inside skills/sandbase-skills-npm-package-research/references/ to complete the task.
+"""

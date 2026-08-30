@@ -1,0 +1,6 @@
+description = "State-of-the-art text-to-image generation with Stable Diffusion models via HuggingFace Diffusers. Use when generating images from text prompts, performing image-to-image translation, inpainting, or building custom diffusion pipelines."
+
+prompt = """
+Invoke the ai:stable-diffusion-image-generation skill.
+Load the prompt instructions from skills/AI-Research-SKILLs-stable-diffusion-image-generation/SKILL.md and consult the copy-pasteable references or guidelines inside skills/AI-Research-SKILLs-stable-diffusion-image-generation/references/ to complete the task.
+"""

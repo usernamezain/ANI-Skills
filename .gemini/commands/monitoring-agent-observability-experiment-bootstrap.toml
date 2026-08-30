@@ -1,0 +1,6 @@
+description = "Bootstrap a reproducible LLM Observability experiment through the Python ddtrace SDK or the Node dd-trace SDK. Use for experiment, dataset, evaluator, benchmark, regression, or LLM-as-a-judge scaffolding. The legacy Python invocation remains supported."
+
+prompt = """
+Invoke the monitoring:agent-observability-experiment-bootstrap skill.
+Load the prompt instructions from skills/agent-skills-agent-observability-experiment-bootstrap/SKILL.md and consult the copy-pasteable references or guidelines inside skills/agent-skills-agent-observability-experiment-bootstrap/references/ to complete the task.
+"""

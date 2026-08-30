@@ -1,0 +1,6 @@
+description = "Evidence-gated workflow for MoE performance optimization in Megatron Bridge. Covers measurement contracts, the Three Walls framework, parallel folding, profiling, matched A/B tuning, and final validation."
+
+prompt = """
+Invoke the quality:nemo-mbridge-perf-moe-optimization-workflow skill.
+Load the prompt instructions from skills/skills-nemo-mbridge-perf-moe-optimization-workflow/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-nemo-mbridge-perf-moe-optimization-workflow/references/ to complete the task.
+"""

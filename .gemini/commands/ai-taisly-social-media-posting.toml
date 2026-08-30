@@ -1,0 +1,6 @@
+description = "Free AI-first short-form video publishing to TikTok, Instagram Reels, YouTube Shorts, X, and Facebook from AI agents through Taisly."
+
+prompt = """
+Invoke the ai:taisly-social-media-posting skill.
+Load the prompt instructions from skills/agent-taisly-social-media-posting/SKILL.md and consult the copy-pasteable references or guidelines inside skills/agent-taisly-social-media-posting/references/ to complete the task.
+"""

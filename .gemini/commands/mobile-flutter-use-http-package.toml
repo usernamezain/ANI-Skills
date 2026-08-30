@@ -1,0 +1,6 @@
+description = "Use the `http` package to execute GET, POST, PUT, or DELETE requests. Use when you need to fetch from or send data to a REST API."
+
+prompt = """
+Invoke the mobile:flutter-use-http-package skill.
+Load the prompt instructions from skills/skills-flutter-use-http-package/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-flutter-use-http-package/references/ to complete the task.
+"""

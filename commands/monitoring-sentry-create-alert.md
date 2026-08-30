@@ -1,0 +1,6 @@
+# monitoring:sentry-create-alert
+
+Create Sentry alerts using the workflow engine API. Use when asked to create alerts, set up notifications, configure issue priority alerts, or build workflow automations. Supports email, Slack, PagerDuty, Discord, and other notification actions.
+
+**Skill folder:** `skills/sentry-for-ai-sentry-create-alert/`
+**Namespace:** `monitoring`

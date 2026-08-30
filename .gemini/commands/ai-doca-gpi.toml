@@ -1,0 +1,6 @@
+description = ">"
+
+prompt = """
+Invoke the ai:doca-gpi skill.
+Load the prompt instructions from skills/skills-doca-gpi/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-doca-gpi/references/ to complete the task.
+"""

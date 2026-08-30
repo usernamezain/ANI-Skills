@@ -1,0 +1,6 @@
+description = "Use this to close hesitant buyers. Move the risk from them to you. The strongest close in low-trust markets."
+
+prompt = """
+Invoke the ai:risk-reversal skill.
+Load the prompt instructions from skills/dark-psychology-skills-risk-reversal/SKILL.md and consult the copy-pasteable references or guidelines inside skills/dark-psychology-skills-risk-reversal/references/ to complete the task.
+"""

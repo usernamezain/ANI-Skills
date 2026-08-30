@@ -1,0 +1,6 @@
+description = "Expert cuTile programming assistant. Write high-performance GPU kernels using cuTile's tile-based programming model with proper validation and optimization. Supports deep agent orchestration for complex multi-kernel tasks."
+
+prompt = """
+Invoke the quality:tilegym-cutile-python skill.
+Load the prompt instructions from skills/skills-tilegym-cutile-python/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-tilegym-cutile-python/references/ to complete the task.
+"""

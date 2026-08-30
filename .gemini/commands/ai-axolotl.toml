@@ -1,0 +1,6 @@
+description = "Expert guidance for fine-tuning LLMs with Axolotl - YAML configs, 100+ models, LoRA/QLoRA, DPO/KTO/ORPO/GRPO, multimodal support"
+
+prompt = """
+Invoke the ai:axolotl skill.
+Load the prompt instructions from skills/AI-Research-SKILLs-axolotl/SKILL.md and consult the copy-pasteable references or guidelines inside skills/AI-Research-SKILLs-axolotl/references/ to complete the task.
+"""

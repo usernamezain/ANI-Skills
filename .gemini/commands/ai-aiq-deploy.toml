@@ -1,0 +1,6 @@
+description = "|"
+
+prompt = """
+Invoke the ai:aiq-deploy skill.
+Load the prompt instructions from skills/skills-aiq-deploy/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-aiq-deploy/references/ to complete the task.
+"""

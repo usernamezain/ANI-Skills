@@ -1,0 +1,6 @@
+description = ">-"
+
+prompt = """
+Invoke the ai:google-agents-cli-onboarding skill.
+Load the prompt instructions from skills/skills-google-agents-cli-onboarding/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-google-agents-cli-onboarding/references/ to complete the task.
+"""

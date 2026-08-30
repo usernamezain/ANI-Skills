@@ -1,0 +1,6 @@
+description = "Stand up vLLM or SGLang serving on Jetson, using upstream vLLM on Thor and Orin JetPack 7.2+, and NVIDIA-AI-IOT vLLM on older Orin."
+
+prompt = """
+Invoke the ai:jetson-llm-serve skill.
+Load the prompt instructions from skills/skills-jetson-llm-serve/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-jetson-llm-serve/references/ to complete the task.
+"""

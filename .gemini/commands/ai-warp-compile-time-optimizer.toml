@@ -1,0 +1,6 @@
+description = ">-"
+
+prompt = """
+Invoke the ai:warp-compile-time-optimizer skill.
+Load the prompt instructions from skills/skills-warp-compile-time-optimizer/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-warp-compile-time-optimizer/references/ to complete the task.
+"""

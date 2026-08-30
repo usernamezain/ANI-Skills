@@ -1,0 +1,6 @@
+description = "Framework (OSS). Add an iOS App Clip target to an Expo app. Use when the user mentions App Clip, AASA, apple-app-site-association, appclips, smart app banner, or wants to ship a lightweight iOS Clip invoked from a URL alongside their parent app."
+
+prompt = """
+Invoke the mobile:expo-app-clip skill.
+Load the prompt instructions from skills/skills-expo-app-clip/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-expo-app-clip/references/ to complete the task.
+"""

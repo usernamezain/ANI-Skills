@@ -1,0 +1,6 @@
+description = "Choose a prioritization framework based on stage, team context, and stakeholder needs. Use when deciding between RICE, ICE, value/effort, or another scoring approach."
+
+prompt = """
+Invoke the plan:prioritization-advisor skill.
+Load the prompt instructions from skills/Product-Manager-Skills-prioritization-advisor/SKILL.md and consult the copy-pasteable references or guidelines inside skills/Product-Manager-Skills-prioritization-advisor/references/ to complete the task.
+"""

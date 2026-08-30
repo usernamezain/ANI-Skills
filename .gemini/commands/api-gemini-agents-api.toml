@@ -1,0 +1,6 @@
+description = "Manages custom Agent resources on Gemini Enterprise Agent Platform. Use when the user wants to programmatically create, configure, list, update, or delete stateful, server-managed Agent resources (including mounting files, skills, and tools) before executing conversations."
+
+prompt = """
+Invoke the api:gemini-agents-api skill.
+Load the prompt instructions from skills/skills-gemini-agents-api/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-gemini-agents-api/references/ to complete the task.
+"""

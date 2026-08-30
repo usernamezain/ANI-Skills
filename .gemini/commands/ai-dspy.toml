@@ -1,0 +1,6 @@
+description = "Build complex AI systems with declarative programming, optimize prompts automatically, create modular RAG systems and agents with DSPy - Stanford NLP's framework for systematic LM programming"
+
+prompt = """
+Invoke the ai:dspy skill.
+Load the prompt instructions from skills/AI-Research-SKILLs-dspy/SKILL.md and consult the copy-pasteable references or guidelines inside skills/AI-Research-SKILLs-dspy/references/ to complete the task.
+"""

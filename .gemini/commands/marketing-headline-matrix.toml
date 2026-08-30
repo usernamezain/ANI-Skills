@@ -1,0 +1,6 @@
+description = "Generate high-performing headline variations across different angles. Trigger on \"headlines\", \"hooks\", \"ad copy\", \"email subject lines\"."
+
+prompt = """
+Invoke the marketing:headline-matrix skill.
+Load the prompt instructions from skills/advertising-skills-headline-matrix/SKILL.md and consult the copy-pasteable references or guidelines inside skills/advertising-skills-headline-matrix/references/ to complete the task.
+"""

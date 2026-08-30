@@ -1,0 +1,6 @@
+description = "Research podcasts, episodes, and audio content by searching YouTube (where most podcasts crosspost), web sources, and transcript databases. Discover relevant shows, track guest appearances, and analyze topic coverage in the podcast ecosystem."
+
+prompt = """
+Invoke the db:podcast-research skill.
+Load the prompt instructions from skills/sandbase-skills-podcast-research/SKILL.md and consult the copy-pasteable references or guidelines inside skills/sandbase-skills-podcast-research/references/ to complete the task.
+"""

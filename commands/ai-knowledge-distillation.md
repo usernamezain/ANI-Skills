@@ -1,0 +1,6 @@
+# ai:knowledge-distillation
+
+Compress large language models using knowledge distillation from teacher to student models. Use when deploying smaller models with retained performance, transferring GPT-4 capabilities to open-source models, or reducing inference costs. Covers temperature scaling, soft targets, reverse KLD, logit distillation, and MiniLLM training strategies.
+
+**Skill folder:** `skills/AI-Research-SKILLs-knowledge-distillation/`
+**Namespace:** `ai`

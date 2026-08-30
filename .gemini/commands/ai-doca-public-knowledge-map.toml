@@ -1,0 +1,6 @@
+description = ">"
+
+prompt = """
+Invoke the ai:doca-public-knowledge-map skill.
+Load the prompt instructions from skills/skills-doca-public-knowledge-map/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-doca-public-knowledge-map/references/ to complete the task.
+"""

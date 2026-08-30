@@ -1,0 +1,6 @@
+description = "Builds personalized demo assets for top prospects using the founder's product API/MCP/SDK. Researches prospect, proposes demo concepts, builds working prototype, tests it, and generates comparison report with live demo link."
+
+prompt = """
+Invoke the plan:demo-builder skill.
+Load the prompt instructions from skills/goose-skills-demo-builder/SKILL.md and consult the copy-pasteable references or guidelines inside skills/goose-skills-demo-builder/references/ to complete the task.
+"""

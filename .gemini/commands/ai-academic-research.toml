@@ -1,0 +1,6 @@
+description = "Search academic papers, scholarly articles, and research publications through SandBase. Use when asked for literature review, academic citations, scholarly research, paper discovery, or scientific evidence gathering."
+
+prompt = """
+Invoke the ai:academic-research skill.
+Load the prompt instructions from skills/sandbase-skills-academic-research/SKILL.md and consult the copy-pasteable references or guidelines inside skills/sandbase-skills-academic-research/references/ to complete the task.
+"""

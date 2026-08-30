@@ -1,0 +1,6 @@
+description = "Extract full transcripts and captions from YouTube videos for content analysis, summarization, note-taking, and repurposing. Supports multiple languages and auto-generated captions. Ideal for research, content creation, and accessibility workflows."
+
+prompt = """
+Invoke the ai:youtube-transcript skill.
+Load the prompt instructions from skills/sandbase-skills-youtube-transcript/SKILL.md and consult the copy-pasteable references or guidelines inside skills/sandbase-skills-youtube-transcript/references/ to complete the task.
+"""

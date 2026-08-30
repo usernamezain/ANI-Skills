@@ -1,0 +1,6 @@
+description = "Google Sheets: Read values from a spreadsheet."
+
+prompt = """
+Invoke the ai:gws-sheets-read skill.
+Load the prompt instructions from skills/cli-gws-sheets-read/SKILL.md and consult the copy-pasteable references or guidelines inside skills/cli-gws-sheets-read/references/ to complete the task.
+"""

@@ -1,0 +1,6 @@
+description = ">-"
+
+prompt = """
+Invoke the ai:cupynumeric-hdf5 skill.
+Load the prompt instructions from skills/skills-cupynumeric-hdf5/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-cupynumeric-hdf5/references/ to complete the task.
+"""

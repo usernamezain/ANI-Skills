@@ -1,0 +1,6 @@
+description = "Research online communities across Reddit, Telegram, and social platforms. Analyzes community size, engagement patterns, discussion themes, moderation culture, and member demographics for community strategy, partnership, and go-to-market planning."
+
+prompt = """
+Invoke the ai:community-research skill.
+Load the prompt instructions from skills/sandbase-skills-community-research/SKILL.md and consult the copy-pasteable references or guidelines inside skills/sandbase-skills-community-research/references/ to complete the task.
+"""

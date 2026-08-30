@@ -1,0 +1,6 @@
+description = ">-"
+
+prompt = """
+Invoke the ui:application-design-center-design-deploy skill.
+Load the prompt instructions from skills/skills-application-design-center-design-deploy/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-application-design-center-design-deploy/references/ to complete the task.
+"""

@@ -1,0 +1,80 @@
+# ANI-Skills Ultra — Master Repository Ingestion Registry (`skill-word.md`)
+
+This file tracks all upstream repositories ingested into the **ANI-Skills Ultra Package**.
+Each repository is cloned, analyzed, its skills extracted into appropriate semantic namespaces with full instructions and "when to use / what to use" guidance, and references preserved.
+
+## Repository Ingestion Checklist
+
+- [x] [browserbase/skills](https://github.com/browserbase/skills) — **Ingested (17 skills)**
+- [x] [auth0/agent-skills](https://github.com/auth0/agent-skills) — **Ingested (1 skills)**
+- [x] [remotion-dev/skills](https://github.com/remotion-dev/skills) — **Ingested (12 skills)**
+- [x] [google-labs-code/stitch-skills](https://github.com/google-labs-code/stitch-skills) — **Ingested (16 skills)**
+- [x] [google-labs-code/design.md](https://github.com/google-labs-code/design.md) — **Ingested (4 skills)**
+- [x] [googleworkspace/cli](https://github.com/googleworkspace/cli) — **Ingested (95 skills)**
+- [x] [expo/skills](https://github.com/expo/skills) — **Ingested (26 skills)**
+- [x] [huggingface/skills](https://github.com/huggingface/skills) — **Ingested (26 skills)**
+- [x] [trailofbits/skills](https://github.com/trailofbits/skills) — **Ingested (83 skills)**
+- [x] [getsentry/sentry-for-ai](https://github.com/getsentry/sentry-for-ai) — **Ingested (34 skills)**
+- [x] [microsoft/skills](https://github.com/microsoft/skills) — **Ingested (1 skills)**
+- [x] [fal-ai-community/skills](https://github.com/fal-ai-community/skills) — **Ingested (17 skills)**
+- [x] [WordPress/agent-skills](https://github.com/WordPress/agent-skills) — **Ingested (18 skills)**
+- [x] [openai/skills](https://github.com/openai/skills) — **Ingested (44 skills)**
+- [x] [figma/mcp-server-guide](https://github.com/figma/mcp-server-guide) — **Ingested (14 skills)**
+- [x] [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) — **Ingested (50 skills)**
+- [x] [realkimbarrett/advertising-skills](https://github.com/realkimbarrett/advertising-skills) — **Ingested (12 skills)**
+- [x] [apollographql/skills](https://github.com/apollographql/skills) — **Ingested (14 skills)**
+- [x] [brave/brave-search-skills](https://github.com/brave/brave-search-skills) — **Ingested (13 skills)**
+- [x] [coderabbitai/skills](https://github.com/coderabbitai/skills) — **Ingested (2 skills)**
+- [x] [flutter/skills](https://github.com/flutter/skills) — **Ingested (29 skills)**
+- [x] [datadog-labs/agent-skills](https://github.com/datadog-labs/agent-skills) — **Ingested (46 skills)**
+- [x] [firebase/agent-skills](https://github.com/firebase/agent-skills) — **Ingested (12 skills)**
+- [x] [deanpeters/Product-Manager-Skills](https://github.com/deanpeters/Product-Manager-Skills) — **Ingested (77 skills)**
+- [x] [phuryn/pm-skills](https://github.com/phuryn/pm-skills) — **Ingested (68 skills)**
+- [x] [MiniMax-AI/cli](https://github.com/MiniMax-AI/cli) — **Ingested (2 skills)**
+- [x] [duckdb/duckdb-skills](https://github.com/duckdb/duckdb-skills) — **Ingested (9 skills)**
+- [x] [makenotion/notion-cookbook](https://github.com/makenotion/notion-cookbook) — **Ingested (193 skills)**
+- [x] [resend/resend-skills](https://github.com/resend/resend-skills) — **Ingested (5 skills)**
+- [x] [addyosmani/web-quality-skills](https://github.com/addyosmani/web-quality-skills) — **Ingested (6 skills)**
+- [x] [mongodb/agent-skills](https://github.com/mongodb/agent-skills) — **Ingested (34 skills)**
+- [x] [redis/agent-skills](https://github.com/redis/agent-skills) — **Ingested (16 skills)**
+- [x] [NVIDIA/skills](https://github.com/NVIDIA/skills) — **Ingested (344 skills)**
+- [x] [google/skills](https://github.com/google/skills) — **Ingested (132 skills)**
+- [x] [qdrant/skills](https://github.com/qdrant/skills) — **Ingested (31 skills)**
+- [x] [BrianRWagner/ai-marketing-claude-code-skills](https://github.com/BrianRWagner/ai-marketing-claude-code-skills) — **Ingested (23 skills)**
+- [x] [AgriciDaniel/claude-seo](https://github.com/AgriciDaniel/claude-seo) — **Ingested (33 skills)**
+- [x] [wshuyi/x-article-publisher-skill](https://github.com/wshuyi/x-article-publisher-skill) — **Ingested (1 skills)**
+- [x] [CosmoBlk/email-marketing-bible](https://github.com/CosmoBlk/email-marketing-bible) — **Ingested (1 skills)**
+- [x] [smixs/creative-director-skill](https://github.com/smixs/creative-director-skill) — **Ingested (1 skills)**
+- [x] [Xquik-dev/x-twitter-scraper](https://github.com/Xquik-dev/x-twitter-scraper) — **Ingested (3 skills)**
+- [x] [Xquik-dev/tweetclaw](https://github.com/Xquik-dev/tweetclaw) — **Ingested (1 skills)**
+- [x] [SHADOWPR0/beautiful_prose](https://github.com/SHADOWPR0/beautiful_prose) — **Ingested (1 skills)**
+- [x] [blader/humanizer](https://github.com/blader/humanizer) — **Ingested (1 skills)**
+- [x] [MohamedAbdallah-14/unslop](https://github.com/MohamedAbdallah-14/unslop) — **Ingested (15 skills)**
+- [x] [Eronred/aso-skills](https://github.com/Eronred/aso-skills) — **Ingested (40 skills)**
+- [x] [degausai/wonda](https://github.com/degausai/wonda) — **Ingested (1 skills)**
+- [x] [gitroomhq/postiz-agent](https://github.com/gitroomhq/postiz-agent) — **Ingested (2 skills)**
+- [x] [taisly/agent](https://github.com/taisly/agent) — **Ingested (1 skills)**
+- [x] [indranilbanerjee/digital-marketing-pro](https://github.com/indranilbanerjee/digital-marketing-pro) — **Ingested (163 skills)**
+- [x] [infrasity-labs/dev-gtm-claude-skills](https://github.com/infrasity-labs/dev-gtm-claude-skills) — **Unavailable / Private repo (0 skills)**
+- [x] [nowork-studio/notfair-plugin](https://github.com/nowork-studio/notfair-plugin) — **Ingested (90 skills)**
+- [x] [aaron-he-zhu/aaron-marketing-skills](https://github.com/aaron-he-zhu/aaron-marketing-skills) — **Ingested (120 skills)**
+- [x] [gooseworks-ai/goose-skills](https://github.com/gooseworks-ai/goose-skills) — **Ingested (277 skills)**
+- [x] [sergebulaev/linkedin-skills](https://github.com/sergebulaev/linkedin-skills) — **Ingested (24 skills)**
+- [x] [Vladimir-Human/humanizer-ru](https://github.com/Vladimir-Human/humanizer-ru) — **Ingested (2 skills)**
+- [x] [Bomx/distribb-skill](https://github.com/Bomx/distribb-skill) — **Ingested (2 skills)**
+- [x] [Citlyze/citlyze-skills](https://github.com/citlyze/citlyze-skills) — **Ingested (5 skills)**
+- [x] [AIDevGTM/gtm-cofounder](https://github.com/AIDevGTM/gtm-cofounder) — **Ingested (19 skills)**
+- [x] [mailtrap/mailtrap-skills](https://github.com/mailtrap/mailtrap-skills) — **Ingested (7 skills)**
+- [x] [YannisKiefer/dark-psychology-skills](https://github.com/YannisKiefer/dark-psychology-skills) — **Ingested (13 skills)**
+- [x] [SupercmoHQ/superCMO-skills](https://github.com/SupercmoHQ/superCMO-skills) — **Ingested (23 skills)**
+- [x] [sandbaseai/sandbase-skills](https://github.com/sandbaseai/sandbase-skills) — **Ingested (89 skills)**
+- [x] [raintree-technology/hig-doctor](https://github.com/raintree-technology/hig-doctor) — **Ingested (14 skills)**
+- [x] [Orchestra-Research/AI-Research-SKILLs](https://github.com/Orchestra-Research/AI-Research-SKILLs) — **Ingested (98 skills)**
+- [x] [BehiSecc/VibeSec-Skill](https://github.com/BehiSecc/VibeSec-Skill) — **Ingested (1 skills)**
+- [x] [HeshamFS/materials-simulation-skills](https://github.com/HeshamFS/materials-simulation-skills) — **Ingested (24 skills)**
+- [x] [czlonkowski/n8n-skills](https://github.com/czlonkowski/n8n-skills) — **Ingested (15 skills)**
+- [x] [alton47/threejs-skills](https://github.com/alton47/threejs-skills) — **Ingested (14 skills)**
+- [x] [AftabIbrahimKazi/ai-dev-kit](https://github.com/AftabIbrahimKazi/ai-dev-kit) — **Ingested (1 skills)**
+- [x] [azakhary/nixie-fx](https://github.com/azakhary/nixie-fx) — **Ingested (2 skills)**
+- [x] [majidmanzarpour/threejs-game-skills](https://github.com/majidmanzarpour/threejs-game-skills) — **Ingested (9 skills)**
+- [x] [dgreenheck/webgpu-claude-skill](https://github.com/dgreenheck/webgpu-claude-skill) — **Ingested (1 skills)**

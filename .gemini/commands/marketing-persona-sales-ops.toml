@@ -1,0 +1,6 @@
+description = "Manage sales workflows — track deals, schedule calls, client comms."
+
+prompt = """
+Invoke the marketing:persona-sales-ops skill.
+Load the prompt instructions from skills/cli-persona-sales-ops/SKILL.md and consult the copy-pasteable references or guidelines inside skills/cli-persona-sales-ops/references/ to complete the task.
+"""

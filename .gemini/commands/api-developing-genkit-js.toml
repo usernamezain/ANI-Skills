@@ -1,0 +1,6 @@
+description = "Develop AI-powered applications using Genkit in Node.js/TypeScript. Use when the user asks about Genkit, AI agents, flows, or tools in JavaScript/TypeScript, or when encountering Genkit errors, validation issues, type errors, or API problems."
+
+prompt = """
+Invoke the api:developing-genkit-js skill.
+Load the prompt instructions from skills/skills-developing-genkit-js/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-developing-genkit-js/references/ to complete the task.
+"""

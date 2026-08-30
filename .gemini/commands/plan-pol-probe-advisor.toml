@@ -1,0 +1,6 @@
+description = "Select the right Proof of Life (PoL) probe based on hypothesis, risk, and resources. Use this to match the validation method to the real learning goal, not tooling comfort."
+
+prompt = """
+Invoke the plan:pol-probe-advisor skill.
+Load the prompt instructions from skills/Product-Manager-Skills-pol-probe-advisor/SKILL.md and consult the copy-pasteable references or guidelines inside skills/Product-Manager-Skills-pol-probe-advisor/references/ to complete the task.
+"""

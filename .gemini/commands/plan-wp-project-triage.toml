@@ -1,0 +1,6 @@
+description = "Use when you need a deterministic inspection of a WordPress repository (plugin/theme/block theme/WP core/Gutenberg/full site) including tooling/tests/version hints, and a structured JSON report to guide workflows and guardrails."
+
+prompt = """
+Invoke the plan:wp-project-triage skill.
+Load the prompt instructions from skills/agent-skills-wp-project-triage/SKILL.md and consult the copy-pasteable references or guidelines inside skills/agent-skills-wp-project-triage/references/ to complete the task.
+"""

@@ -1,0 +1,6 @@
+description = "Transform an output-focused roadmap into an outcome-focused one that communicates strategic intent. Rewrites initiatives as outcome statements reflecting user and business impacts. Use when shifting to outcome roadmaps, making a roadmap more strategic, or rewriting feature lists as outcomes."
+
+prompt = """
+Invoke the doc:outcome-roadmap skill.
+Load the prompt instructions from skills/pm-skills-outcome-roadmap/SKILL.md and consult the copy-pasteable references or guidelines inside skills/pm-skills-outcome-roadmap/references/ to complete the task.
+"""

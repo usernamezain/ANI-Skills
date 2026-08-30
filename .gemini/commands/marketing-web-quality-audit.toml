@@ -1,0 +1,6 @@
+description = "Run an evidence-led web quality audit covering performance, accessibility, SEO, best practices, and agentic browsing. Use when asked to \"audit my site\", \"review web quality\", \"run lighthouse audit\", \"check page quality\", or \"optimize my website\"."
+
+prompt = """
+Invoke the marketing:web-quality-audit skill.
+Load the prompt instructions from skills/web-quality-skills-web-quality-audit/SKILL.md and consult the copy-pasteable references or guidelines inside skills/web-quality-skills-web-quality-audit/references/ to complete the task.
+"""

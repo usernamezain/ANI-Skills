@@ -1,0 +1,6 @@
+description = "Rapidly assess crisis situations by monitoring Twitter, Reddit, news, and Chinese social platforms simultaneously. Detects escalation velocity, identifies key narratives, tracks official responses, and measures public sentiment shifts during critical events."
+
+prompt = """
+Invoke the monitoring:crisis-monitor skill.
+Load the prompt instructions from skills/sandbase-skills-crisis-monitor/SKILL.md and consult the copy-pasteable references or guidelines inside skills/sandbase-skills-crisis-monitor/references/ to complete the task.
+"""

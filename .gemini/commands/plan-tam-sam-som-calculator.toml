@@ -1,0 +1,6 @@
+description = "Calculate TAM, SAM, and SOM with explicit assumptions, methods, and caveats. Use when sizing a market for a product idea, business case, or executive review."
+
+prompt = """
+Invoke the plan:tam-sam-som-calculator skill.
+Load the prompt instructions from skills/Product-Manager-Skills-tam-sam-som-calculator/SKILL.md and consult the copy-pasteable references or guidelines inside skills/Product-Manager-Skills-tam-sam-som-calculator/references/ to complete the task.
+"""

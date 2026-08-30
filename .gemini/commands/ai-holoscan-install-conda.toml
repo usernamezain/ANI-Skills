@@ -1,0 +1,6 @@
+description = "Install Holoscan SDK v4.3+ via Conda in a CUDA 13 environment. Use for Conda installs; redirect CUDA 12 hosts to container/wheel."
+
+prompt = """
+Invoke the ai:holoscan-install-conda skill.
+Load the prompt instructions from skills/skills-holoscan-install-conda/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-holoscan-install-conda/references/ to complete the task.
+"""

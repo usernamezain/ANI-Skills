@@ -1,0 +1,6 @@
+description = ">"
+
+prompt = """
+Invoke the db:convert-file skill.
+Load the prompt instructions from skills/duckdb-skills-convert-file/SKILL.md and consult the copy-pasteable references or guidelines inside skills/duckdb-skills-convert-file/references/ to complete the task.
+"""

@@ -1,0 +1,6 @@
+description = ">"
+
+prompt = """
+Invoke the marketing:ecommerce-seo skill.
+Load the prompt instructions from skills/notfair-plugin-ecommerce-seo/SKILL.md and consult the copy-pasteable references or guidelines inside skills/notfair-plugin-ecommerce-seo/references/ to complete the task.
+"""

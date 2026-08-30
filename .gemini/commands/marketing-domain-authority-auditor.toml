@@ -1,0 +1,6 @@
+description = "Use when auditing domain authority, trust, or citation credibility; runs a peer-relative 40-item CITE profile with evidence coverage and verified manipulation/penalty veto checks. Not for page-level content quality — use content-quality-auditor; not for backlink profiling alone — use offsite-signal-analyzer. 域名权威/网站可信度"
+
+prompt = """
+Invoke the marketing:domain-authority-auditor skill.
+Load the prompt instructions from skills/aaron-marketing-skills-domain-authority-auditor/SKILL.md and consult the copy-pasteable references or guidelines inside skills/aaron-marketing-skills-domain-authority-auditor/references/ to complete the task.
+"""

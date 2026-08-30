@@ -1,0 +1,6 @@
+description = ">"
+
+prompt = """
+Invoke the ai:schema-markup-generator skill.
+Load the prompt instructions from skills/notfair-plugin-schema-markup-generator/SKILL.md and consult the copy-pasteable references or guidelines inside skills/notfair-plugin-schema-markup-generator/references/ to complete the task.
+"""

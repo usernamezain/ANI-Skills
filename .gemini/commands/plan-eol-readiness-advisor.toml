@@ -1,0 +1,6 @@
+description = "Run a go/no-go assessment for retiring a product or feature, then right-size the effort. Use when someone says \\"we should probably kill this\\" and nobody has made the call."
+
+prompt = """
+Invoke the plan:eol-readiness-advisor skill.
+Load the prompt instructions from skills/Product-Manager-Skills-eol-readiness-advisor/SKILL.md and consult the copy-pasteable references or guidelines inside skills/Product-Manager-Skills-eol-readiness-advisor/references/ to complete the task.
+"""

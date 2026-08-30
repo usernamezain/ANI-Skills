@@ -1,0 +1,6 @@
+description = "Generates BYO custom safety policies for NVIDIA Nemotron content-safety guardrails — Nemotron-Content-Safety-Reasoning-4B (text) and multimodal Nemotron-3-Content-Safety. Produces a Markdown policy, JSON taxonomy, and drop-in inference prompts. Maps rough words or an existing policy to V2 categories, adding custom categories or topic-following rules."
+
+prompt = """
+Invoke the marketing:nemotron-policy-generator skill.
+Load the prompt instructions from skills/skills-nemotron-policy-generator/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-nemotron-policy-generator/references/ to complete the task.
+"""

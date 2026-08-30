@@ -1,0 +1,6 @@
+description = "Stereo depth estimation using FoundationStereo. Predicts disparity maps from stereo image pairs for 3D"
+
+prompt = """
+Invoke the ai:tao-train-foundation-stereo skill.
+Load the prompt instructions from skills/skills-tao-train-foundation-stereo/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-tao-train-foundation-stereo/references/ to complete the task.
+"""

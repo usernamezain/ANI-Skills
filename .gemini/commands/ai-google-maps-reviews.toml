@@ -1,0 +1,6 @@
+description = "Analyze customer reviews for local businesses on Google Maps. Covers review extraction, sentiment patterns, rating distribution, common complaints, and competitor review comparison for local business intelligence and reputation management."
+
+prompt = """
+Invoke the ai:google-maps-reviews skill.
+Load the prompt instructions from skills/sandbase-skills-google-maps-reviews/SKILL.md and consult the copy-pasteable references or guidelines inside skills/sandbase-skills-google-maps-reviews/references/ to complete the task.
+"""

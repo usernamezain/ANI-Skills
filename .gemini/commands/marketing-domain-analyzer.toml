@@ -1,0 +1,6 @@
+description = "Comprehensive domain analysis combining WHOIS ownership, DNS infrastructure, SSL security, SEO performance, tech stack, site structure, and backlink profile. One-stop domain intelligence for acquisition research, security assessment, and competitive analysis."
+
+prompt = """
+Invoke the marketing:domain-analyzer skill.
+Load the prompt instructions from skills/sandbase-skills-domain-analyzer/SKILL.md and consult the copy-pasteable references or guidelines inside skills/sandbase-skills-domain-analyzer/references/ to complete the task.
+"""

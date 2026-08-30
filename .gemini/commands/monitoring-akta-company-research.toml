@@ -1,0 +1,6 @@
+description = "Research companies with employee reviews, product reviews, industry classification, and competitive landscape through Akta. Covers company enrichment, employee satisfaction signals, product feedback, industry mapping, and news monitoring."
+
+prompt = """
+Invoke the monitoring:akta-company-research skill.
+Load the prompt instructions from skills/sandbase-skills-akta-company-research/SKILL.md and consult the copy-pasteable references or guidelines inside skills/sandbase-skills-akta-company-research/references/ to complete the task.
+"""

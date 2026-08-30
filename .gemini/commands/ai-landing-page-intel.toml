@@ -1,0 +1,6 @@
+description = ">"
+
+prompt = """
+Invoke the ai:landing-page-intel skill.
+Load the prompt instructions from skills/goose-skills-landing-page-intel/SKILL.md and consult the copy-pasteable references or guidelines inside skills/goose-skills-landing-page-intel/references/ to complete the task.
+"""

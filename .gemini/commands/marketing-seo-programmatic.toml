@@ -1,0 +1,6 @@
+description = ">"
+
+prompt = """
+Invoke the marketing:seo-programmatic skill.
+Load the prompt instructions from skills/claude-seo-seo-programmatic/SKILL.md and consult the copy-pasteable references or guidelines inside skills/claude-seo-seo-programmatic/references/ to complete the task.
+"""

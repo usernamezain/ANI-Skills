@@ -1,0 +1,6 @@
+description = "Frame an epic as a testable hypothesis with target user, expected outcome, and validation method. Use when defining a major initiative before roadmap, discovery, or delivery planning."
+
+prompt = """
+Invoke the plan:epic-hypothesis skill.
+Load the prompt instructions from skills/Product-Manager-Skills-epic-hypothesis/SKILL.md and consult the copy-pasteable references or guidelines inside skills/Product-Manager-Skills-epic-hypothesis/references/ to complete the task.
+"""

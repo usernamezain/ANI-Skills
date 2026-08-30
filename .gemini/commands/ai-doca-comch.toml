@@ -1,0 +1,6 @@
+description = ">"
+
+prompt = """
+Invoke the ai:doca-comch skill.
+Load the prompt instructions from skills/skills-doca-comch/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-doca-comch/references/ to complete the task.
+"""

@@ -1,0 +1,6 @@
+description = "Practical guidance for training MoE VLMs in Megatron Bridge. Compares FSDP and 3D-parallel approaches, using rounded lessons from Qwen3-VL, Qwen3-Next, and other multimodal experiments."
+
+prompt = """
+Invoke the ai:nemo-mbridge-perf-moe-vlm-training skill.
+Load the prompt instructions from skills/skills-nemo-mbridge-perf-moe-vlm-training/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-nemo-mbridge-perf-moe-vlm-training/references/ to complete the task.
+"""

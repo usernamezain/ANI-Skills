@@ -1,0 +1,6 @@
+description = "Launch the interactive Slang fluoroscopy viewport with XPBD catheter physics. Use when asked to open the viewport, teleop a catheter, or demo fluoro navigation."
+
+prompt = """
+Invoke the ai:i4h-catheter-navigation-viewport skill.
+Load the prompt instructions from skills/skills-i4h-catheter-navigation-viewport/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-i4h-catheter-navigation-viewport/references/ to complete the task.
+"""

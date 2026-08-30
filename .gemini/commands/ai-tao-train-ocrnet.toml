@@ -1,0 +1,6 @@
+description = "OCRNet for scene text recognition. Recognizes text content from cropped text-region images and supports CTC"
+
+prompt = """
+Invoke the ai:tao-train-ocrnet skill.
+Load the prompt instructions from skills/skills-tao-train-ocrnet/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-tao-train-ocrnet/references/ to complete the task.
+"""

@@ -1,0 +1,6 @@
+description = ">-"
+
+prompt = """
+Invoke the ai:tao-finetune-cosmos-embed skill.
+Load the prompt instructions from skills/skills-tao-finetune-cosmos-embed/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-tao-finetune-cosmos-embed/references/ to complete the task.
+"""

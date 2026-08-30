@@ -1,0 +1,6 @@
+# marketing:narrative-registry
+
+Use when the user asks to record/query the brand narrative canon, tagline, message hierarchy, voice/naming rules, or a canon re-version; curates complete versioned canon events through the append-only narrative stream and derived views. Not for TALE scoring — use narrative-quality-auditor; not for authoring the system — use message-system-architect. 品牌叙事台账/canon 记录/语气与命名规范
+
+**Skill folder:** `skills/aaron-marketing-skills-narrative-registry/`
+**Namespace:** `marketing`

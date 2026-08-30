@@ -1,0 +1,6 @@
+description = "Comprehensive guide to building Notion worker custom blocks - use when the user wants to build interactive UI connected to Notion data."
+
+prompt = """
+Invoke the doc:custom-blocks skill.
+Load the prompt instructions from skills/notion-cookbook-custom-blocks/SKILL.md and consult the copy-pasteable references or guidelines inside skills/notion-cookbook-custom-blocks/references/ to complete the task.
+"""

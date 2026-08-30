@@ -1,0 +1,6 @@
+description = ">-"
+
+prompt = """
+Invoke the ai:review-skill skill.
+Load the prompt instructions from skills/agent-skills-review-skill/SKILL.md and consult the copy-pasteable references or guidelines inside skills/agent-skills-review-skill/references/ to complete the task.
+"""

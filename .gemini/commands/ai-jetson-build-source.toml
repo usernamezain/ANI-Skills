@@ -1,0 +1,6 @@
+description = ">-"
+
+prompt = """
+Invoke the ai:jetson-build-source skill.
+Load the prompt instructions from skills/skills-jetson-build-source/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-jetson-build-source/references/ to complete the task.
+"""

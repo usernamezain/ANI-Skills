@@ -1,0 +1,6 @@
+description = "Verify phone numbers using SMS one-time codes via the Didit API. Use when you need to confirm a user owns a phone number, implement SMS-based 2FA, or validate phone during signup/onboarding flows."
+
+prompt = """
+Invoke the api:phone-verification skill.
+Load the prompt instructions from skills/goose-skills-phone-verification/SKILL.md and consult the copy-pasteable references or guidelines inside skills/goose-skills-phone-verification/references/ to complete the task.
+"""

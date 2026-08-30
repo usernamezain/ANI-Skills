@@ -1,0 +1,6 @@
+description = "Analyze content performance across YouTube, TikTok, Instagram, and Twitter to identify what works. Compares engagement rates, format effectiveness, posting cadence impact, and audience response patterns across platforms for content strategy optimization."
+
+prompt = """
+Invoke the quality:content-performance skill.
+Load the prompt instructions from skills/sandbase-skills-content-performance/SKILL.md and consult the copy-pasteable references or guidelines inside skills/sandbase-skills-content-performance/references/ to complete the task.
+"""

@@ -1,0 +1,6 @@
+description = ">"
+
+prompt = """
+Invoke the marketing:email-marketing-bible skill.
+Load the prompt instructions from skills/email-marketing-bible/SKILL.md and consult the copy-pasteable references or guidelines inside skills/email-marketing-bible/references/ to complete the task.
+"""

@@ -1,0 +1,6 @@
+description = "Analyze and design pricing strategies including pricing models, competitive pricing analysis, willingness-to-pay estimation, and price elasticity. Use when setting prices, evaluating pricing models, preparing for a pricing change, or comparing freemium vs paid approaches."
+
+prompt = """
+Invoke the ui:pricing-strategy skill.
+Load the prompt instructions from skills/pm-skills-pricing-strategy/SKILL.md and consult the copy-pasteable references or guidelines inside skills/pm-skills-pricing-strategy/references/ to complete the task.
+"""

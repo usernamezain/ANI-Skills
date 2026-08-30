@@ -1,0 +1,6 @@
+description = ">"
+
+prompt = """
+Invoke the api:apollo-router skill.
+Load the prompt instructions from skills/skills-apollo-router/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-apollo-router/references/ to complete the task.
+"""

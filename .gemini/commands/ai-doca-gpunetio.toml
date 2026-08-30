@@ -1,0 +1,6 @@
+description = ">"
+
+prompt = """
+Invoke the ai:doca-gpunetio skill.
+Load the prompt instructions from skills/skills-doca-gpunetio/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-doca-gpunetio/references/ to complete the task.
+"""

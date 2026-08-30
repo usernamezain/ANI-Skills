@@ -1,0 +1,6 @@
+description = "Generate a Lean Canvas with problem, solution, metrics, cost structure, UVP, unfair advantage, channels, segments, and revenue. Use when exploring a lean startup canvas, testing a business hypothesis, or modeling a new venture."
+
+prompt = """
+Invoke the ui:lean-canvas skill.
+Load the prompt instructions from skills/pm-skills-lean-canvas/SKILL.md and consult the copy-pasteable references or guidelines inside skills/pm-skills-lean-canvas/references/ to complete the task.
+"""

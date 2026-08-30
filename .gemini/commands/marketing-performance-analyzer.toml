@@ -1,0 +1,6 @@
+description = "Use when the user asks to \"analyze influencer campaign performance\", \"compare influencers\", or \"find what content worked\"; produces metric scorecards vs target and benchmark, platform/influencer/content rankings, engagement-quality and sentiment reads, conversion-attribution breakdowns, and ranked learnings. Not for dollar-level return math — use roi-calculator. 达人营销效果分析/投放复盘"
+
+prompt = """
+Invoke the marketing:performance-analyzer skill.
+Load the prompt instructions from skills/aaron-marketing-skills-performance-analyzer/SKILL.md and consult the copy-pasteable references or guidelines inside skills/aaron-marketing-skills-performance-analyzer/references/ to complete the task.
+"""

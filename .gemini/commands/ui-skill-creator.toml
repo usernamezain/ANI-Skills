@@ -1,0 +1,6 @@
+description = "Create, structure, and package agent skills. Use when designing new skills, updating existing skills, or helping users build skills with scripts, references, and assets. Triggers on requests to create skills, write SKILL.md files, or structure skill directories."
+
+prompt = """
+Invoke the ui:skill-creator skill.
+Load the prompt instructions from skills/goose-skills-skill-creator/SKILL.md and consult the copy-pasteable references or guidelines inside skills/goose-skills-skill-creator/references/ to complete the task.
+"""

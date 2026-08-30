@@ -1,0 +1,6 @@
+description = ">-"
+
+prompt = """
+Invoke the mobile:stitch--react-native skill.
+Load the prompt instructions from skills/stitch-skills-stitch--react-native/SKILL.md and consult the copy-pasteable references or guidelines inside skills/stitch-skills-stitch--react-native/references/ to complete the task.
+"""

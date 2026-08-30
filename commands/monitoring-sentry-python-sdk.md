@@ -1,0 +1,6 @@
+# monitoring:sentry-python-sdk
+
+Full Sentry SDK setup for Python. Use when asked to "add Sentry to Python", "install sentry-sdk", "setup Sentry in Python", or configure error monitoring, tracing, profiling, logging, metrics, crons, or AI monitoring for Python applications. Supports Django, Flask, FastAPI, Celery, Starlette, AIOHTTP, Tornado, and more.
+
+**Skill folder:** `skills/sentry-for-ai-sentry-python-sdk/`
+**Namespace:** `monitoring`

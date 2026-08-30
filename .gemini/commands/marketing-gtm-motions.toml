@@ -1,0 +1,6 @@
+description = "Identify the best GTM motions and tools across 7 motion types: Inbound, Outbound, Paid Digital, Community, Partners, ABM, and PLG. Use when selecting marketing channels, choosing between inbound and outbound strategy, or planning cross-channel campaigns."
+
+prompt = """
+Invoke the marketing:gtm-motions skill.
+Load the prompt instructions from skills/pm-skills-gtm-motions/SKILL.md and consult the copy-pasteable references or guidelines inside skills/pm-skills-gtm-motions/references/ to complete the task.
+"""

@@ -1,0 +1,6 @@
+description = "Break down epics into user stories with Humanizing Work split patterns. Use when a backlog item is too large to estimate, sequence, or deliver safely."
+
+prompt = """
+Invoke the plan:epic-breakdown-advisor skill.
+Load the prompt instructions from skills/Product-Manager-Skills-epic-breakdown-advisor/SKILL.md and consult the copy-pasteable references or guidelines inside skills/Product-Manager-Skills-epic-breakdown-advisor/references/ to complete the task.
+"""

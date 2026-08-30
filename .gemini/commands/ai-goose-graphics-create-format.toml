@@ -1,0 +1,6 @@
+description = ">"
+
+prompt = """
+Invoke the ai:goose-graphics-create-format skill.
+Load the prompt instructions from skills/goose-skills-goose-graphics-create-format/SKILL.md and consult the copy-pasteable references or guidelines inside skills/goose-skills-goose-graphics-create-format/references/ to complete the task.
+"""

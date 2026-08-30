@@ -1,0 +1,6 @@
+description = "Analyze a creator, influencer, founder, competitor, or brand social account to explain its positioning, content pillars, winning posts, hooks, formats, series, calls to action, and audience response. Use when the user wants to understand why an account works and what patterns to test without copying it."
+
+prompt = """
+Invoke the ai:creator-profile-teardown skill.
+Load the prompt instructions from skills/goose-skills-creator-profile-teardown/SKILL.md and consult the copy-pasteable references or guidelines inside skills/goose-skills-creator-profile-teardown/references/ to complete the task.
+"""

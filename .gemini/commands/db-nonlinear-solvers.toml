@@ -1,0 +1,6 @@
+description = ">"
+
+prompt = """
+Invoke the db:nonlinear-solvers skill.
+Load the prompt instructions from skills/materials-simulation-skills-nonlinear-solvers/SKILL.md and consult the copy-pasteable references or guidelines inside skills/materials-simulation-skills-nonlinear-solvers/references/ to complete the task.
+"""

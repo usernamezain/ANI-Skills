@@ -1,0 +1,6 @@
+description = "Subscribe to Google Workspace events."
+
+prompt = """
+Invoke the ai:gws-events skill.
+Load the prompt instructions from skills/cli-gws-events/SKILL.md and consult the copy-pasteable references or guidelines inside skills/cli-gws-events/references/ to complete the task.
+"""

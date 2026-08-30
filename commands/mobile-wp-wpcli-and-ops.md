@@ -1,0 +1,6 @@
+# mobile:wp-wpcli-and-ops
+
+Use when working with WP-CLI (wp) for WordPress operations: safe search-replace, db export/import, plugin/theme/user/content management, cron, cache flushing, multisite, and scripting/automation with wp-cli.yml.
+
+**Skill folder:** `skills/agent-skills-wp-wpcli-and-ops/`
+**Namespace:** `mobile`

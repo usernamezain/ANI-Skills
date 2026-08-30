@@ -1,0 +1,6 @@
+description = "Create a Google Drive folder structure and move files into the right locations."
+
+prompt = """
+Invoke the ai:recipe-organize-drive-folder skill.
+Load the prompt instructions from skills/cli-recipe-organize-drive-folder/SKILL.md and consult the copy-pasteable references or guidelines inside skills/cli-recipe-organize-drive-folder/references/ to complete the task.
+"""

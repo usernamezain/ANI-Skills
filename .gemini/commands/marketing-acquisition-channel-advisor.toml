@@ -1,0 +1,6 @@
+description = "Evaluate acquisition channels using unit economics, customer quality, and scalability. Use when deciding whether to scale, test, or kill a growth channel."
+
+prompt = """
+Invoke the marketing:acquisition-channel-advisor skill.
+Load the prompt instructions from skills/Product-Manager-Skills-acquisition-channel-advisor/SKILL.md and consult the copy-pasteable references or guidelines inside skills/Product-Manager-Skills-acquisition-channel-advisor/references/ to complete the task.
+"""

@@ -1,0 +1,6 @@
+description = "Author and execute multi-step media pipelines on fal.ai. Two modes: (A) declarative workflow JSON files for the fal.ai workflow runtime (\"create workflow\", \"chain models\", \"image to video pipeline\"); (B) imperative genmedia CLI orchestration when scripting locally (\"design pipeline\", \"fan-out generation\", \"frame bridging\", \"narrated video\", \"dataset generation\")."
+
+prompt = """
+Invoke the auth:fal-workflow skill.
+Load the prompt instructions from skills/skills-fal-workflow/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-fal-workflow/references/ to complete the task.
+"""

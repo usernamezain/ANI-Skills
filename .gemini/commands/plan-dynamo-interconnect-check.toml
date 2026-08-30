@@ -1,0 +1,6 @@
+description = "Validate that a Dynamo deployment's NIXL/UCX/NCCL interconnect is ready for disaggregated serving over RDMA/NVLink. Use after recipe-runner brings a deployment up (especially disagg/multi-node) to confirm the KV transport is correct; use troubleshoot for diagnosing already-failed pods."
+
+prompt = """
+Invoke the plan:dynamo-interconnect-check skill.
+Load the prompt instructions from skills/skills-dynamo-interconnect-check/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-dynamo-interconnect-check/references/ to complete the task.
+"""

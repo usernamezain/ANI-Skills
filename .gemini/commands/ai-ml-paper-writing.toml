@@ -1,0 +1,6 @@
+description = "Write publication-ready ML/AI papers for NeurIPS, ICML, ICLR, ACL, AAAI, COLM. Use when drafting papers from research repos, structuring arguments, verifying citations, or preparing camera-ready submissions. For systems venues (OSDI, NSDI, ASPLOS, SOSP), use systems-paper-writing instead."
+
+prompt = """
+Invoke the ai:ml-paper-writing skill.
+Load the prompt instructions from skills/AI-Research-SKILLs-ml-paper-writing/SKILL.md and consult the copy-pasteable references or guidelines inside skills/AI-Research-SKILLs-ml-paper-writing/references/ to complete the task.
+"""

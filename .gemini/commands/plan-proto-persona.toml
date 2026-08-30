@@ -1,0 +1,6 @@
+description = "Create a proto-persona from current research, market signals, and team knowledge. Use when you need a working customer profile before deeper validation."
+
+prompt = """
+Invoke the plan:proto-persona skill.
+Load the prompt instructions from skills/Product-Manager-Skills-proto-persona/SKILL.md and consult the copy-pasteable references or guidelines inside skills/Product-Manager-Skills-proto-persona/references/ to complete the task.
+"""

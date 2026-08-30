@@ -1,0 +1,6 @@
+description = "Google Classroom: Manage classes, rosters, and coursework."
+
+prompt = """
+Invoke the ai:gws-classroom skill.
+Load the prompt instructions from skills/cli-gws-classroom/SKILL.md and consult the copy-pasteable references or guidelines inside skills/cli-gws-classroom/references/ to complete the task.
+"""

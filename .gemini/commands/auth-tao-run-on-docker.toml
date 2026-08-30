@@ -1,0 +1,6 @@
+description = "Docker conventions for running NVIDIA GPU container workloads — NGC authentication, --gpus flag, mount patterns,"
+
+prompt = """
+Invoke the auth:tao-run-on-docker skill.
+Load the prompt instructions from skills/skills-tao-run-on-docker/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-tao-run-on-docker/references/ to complete the task.
+"""

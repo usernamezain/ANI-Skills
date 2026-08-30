@@ -1,0 +1,6 @@
+description = "Research startups and emerging companies with funding data, team composition, product positioning, market traction, and news coverage. Combines Apollo firmographics, LinkedIn team data, and web intelligence for comprehensive startup due diligence."
+
+prompt = """
+Invoke the marketing:startup-research skill.
+Load the prompt instructions from skills/sandbase-skills-startup-research/SKILL.md and consult the copy-pasteable references or guidelines inside skills/sandbase-skills-startup-research/references/ to complete the task.
+"""

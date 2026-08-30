@@ -1,0 +1,6 @@
+description = "Build a patient vasculature digital twin from CT (preprocess + segment). Use when asked to preprocess CT, segment vessels, extract centerline, or prepare ct_cache for viewport/DRR."
+
+prompt = """
+Invoke the ai:i4h-catheter-navigation-digital-twin skill.
+Load the prompt instructions from skills/skills-i4h-catheter-navigation-digital-twin/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-i4h-catheter-navigation-digital-twin/references/ to complete the task.
+"""

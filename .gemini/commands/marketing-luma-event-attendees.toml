@@ -1,0 +1,6 @@
+description = "Find speakers, hosts, and guest profiles at conferences and events on Luma. Two modes - free direct scrape for hosts, or Apify-powered search for full guest profiles with LinkedIn/Twitter/bio."
+
+prompt = """
+Invoke the marketing:luma-event-attendees skill.
+Load the prompt instructions from skills/goose-skills-luma-event-attendees/SKILL.md and consult the copy-pasteable references or guidelines inside skills/goose-skills-luma-event-attendees/references/ to complete the task.
+"""

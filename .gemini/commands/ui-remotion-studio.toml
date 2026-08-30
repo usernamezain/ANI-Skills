@@ -1,0 +1,6 @@
+description = "Preview a Remotion video"
+
+prompt = """
+Invoke the ui:remotion-studio skill.
+Load the prompt instructions from skills/skills-remotion-studio/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-remotion-studio/references/ to complete the task.
+"""

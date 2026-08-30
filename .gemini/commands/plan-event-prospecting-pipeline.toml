@@ -1,0 +1,6 @@
+description = "Find attendees at conferences/events, research their companies, qualify against ICP, and launch outreach"
+
+prompt = """
+Invoke the plan:event-prospecting-pipeline skill.
+Load the prompt instructions from skills/goose-skills-event-prospecting-pipeline/SKILL.md and consult the copy-pasteable references or guidelines inside skills/goose-skills-event-prospecting-pipeline/references/ to complete the task.
+"""

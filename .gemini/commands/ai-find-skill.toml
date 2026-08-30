@@ -1,0 +1,6 @@
+description = "Find and install skills from the Orthogonal skill library. Use when you need capabilities you don't have, want to discover available skills, or need to add new tools to your agent."
+
+prompt = """
+Invoke the ai:find-skill skill.
+Load the prompt instructions from skills/goose-skills-find-skill/SKILL.md and consult the copy-pasteable references or guidelines inside skills/goose-skills-find-skill/references/ to complete the task.
+"""

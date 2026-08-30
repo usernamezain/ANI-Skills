@@ -1,0 +1,6 @@
+description = "Fine-tunes and evaluates OpenVLA-OFT and OpenVLA-OFT+ policies for robot action generation with continuous action heads, LoRA adaptation, and FiLM conditioning on LIBERO simulation and ALOHA real-world setups. Use when reproducing OpenVLA-OFT paper results, training custom VLA action heads (L1 or diffusion), deploying server-client inference for ALOHA, or debugging normalization, LoRA merge, and cross-GPU issues."
+
+prompt = """
+Invoke the ai:fine-tuning-openvla-oft skill.
+Load the prompt instructions from skills/AI-Research-SKILLs-fine-tuning-openvla-oft/SKILL.md and consult the copy-pasteable references or guidelines inside skills/AI-Research-SKILLs-fine-tuning-openvla-oft/references/ to complete the task.
+"""

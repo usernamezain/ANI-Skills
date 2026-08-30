@@ -1,6 +1,6 @@
-description = "Best practices for Remotion - Video creation in React"
+description = "Generate walkthrough videos from Stitch projects using Remotion with smooth transitions, zooming, and text overlays"
 
 prompt = """
 Invoke the ui:remotion skill.
-Load the prompt instructions from skills/remotion/SKILL.md and consult the copy-pasteable references or guidelines inside skills/remotion/references/ to complete the task.
+Load the prompt instructions from skills/stitch-skills-remotion/SKILL.md and consult the copy-pasteable references or guidelines inside skills/stitch-skills-remotion/references/ to complete the task.
 """

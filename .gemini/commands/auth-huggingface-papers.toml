@@ -1,0 +1,6 @@
+description = "Look up and read Hugging Face paper pages in markdown, and use the papers API for structured metadata such as authors, linked models/datasets/spaces, Github repo and project page. Use when the user shares a Hugging Face paper page URL, an arXiv URL or ID, or asks to summarize, explain, or analyze an AI research paper."
+
+prompt = """
+Invoke the auth:huggingface-papers skill.
+Load the prompt instructions from skills/skills-huggingface-papers/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-huggingface-papers/references/ to complete the task.
+"""

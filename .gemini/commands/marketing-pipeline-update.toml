@@ -1,0 +1,6 @@
+description = "Update CRM deals — move stages, change values and close dates, attach notes and activities, create follow-up tasks — with validation against pipeline rules, a before-and-after comparison, and calculated velocity, forecast, and pipeline-health impact. Writes to Salesforce, HubSpot, Zoho, or Pipedrive via the connected CRM MCP only after a mandatory execution gate: an Execution Summary preview plus explicit typed approval, logged through approval-manager.py. Triggers on \\"/digital-marketing-pro:pipeline-update\\", \\"move this deal to negotiation\\", \\"update the deal value\\", \\"mark this deal closed-won\\", \\"which deals are stalled\\". Reads the brand profile; pairs with /digital-marketing-pro:lead-import for creating deals and /digital-marketing-pro:executive-dashboard for bulk reporting."
+
+prompt = """
+Invoke the marketing:pipeline-update skill.
+Load the prompt instructions from skills/digital-marketing-pro-pipeline-update/SKILL.md and consult the copy-pasteable references or guidelines inside skills/digital-marketing-pro-pipeline-update/references/ to complete the task.
+"""

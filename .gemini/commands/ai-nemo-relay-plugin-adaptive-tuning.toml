@@ -1,0 +1,6 @@
+description = "Use this skill when baseline NeMo Relay instrumentation exists and the user wants to configure or evaluate adaptive plugin behavior, including telemetry, state, adaptive_hints, tool_parallelism, ACG, hint consumption, or measured rollout."
+
+prompt = """
+Invoke the ai:nemo-relay-plugin-adaptive-tuning skill.
+Load the prompt instructions from skills/skills-nemo-relay-plugin-adaptive-tuning/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-nemo-relay-plugin-adaptive-tuning/references/ to complete the task.
+"""

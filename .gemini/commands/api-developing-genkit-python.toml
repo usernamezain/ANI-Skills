@@ -1,0 +1,6 @@
+description = "Develop AI-powered applications using Genkit in Python. Use when the user asks about Genkit, AI agents, flows, or tools in Python, or when encountering Genkit errors, import issues, or API problems."
+
+prompt = """
+Invoke the api:developing-genkit-python skill.
+Load the prompt instructions from skills/skills-developing-genkit-python/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-developing-genkit-python/references/ to complete the task.
+"""

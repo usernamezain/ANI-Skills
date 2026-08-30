@@ -1,0 +1,6 @@
+description = "Comprehensive guide for writing systems papers targeting OSDI, SOSP, ASPLOS, NSDI, and EuroSys. Provides paragraph-level structural blueprints, writing patterns, venue-specific checklists, reviewer guidelines, LaTeX templates, and conference deadlines. Use this skill for all systems conference paper writing."
+
+prompt = """
+Invoke the ai:systems-paper-writing skill.
+Load the prompt instructions from skills/AI-Research-SKILLs-systems-paper-writing/SKILL.md and consult the copy-pasteable references or guidelines inside skills/AI-Research-SKILLs-systems-paper-writing/references/ to complete the task.
+"""

@@ -1,0 +1,6 @@
+description = "Organize research — manage references, notes, and collaboration."
+
+prompt = """
+Invoke the ai:persona-researcher skill.
+Load the prompt instructions from skills/cli-persona-researcher/SKILL.md and consult the copy-pasteable references or guidelines inside skills/cli-persona-researcher/references/ to complete the task.
+"""

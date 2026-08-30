@@ -1,0 +1,6 @@
+description = "Hyperlocal weather data - precipitation, temperature, wind, soil moisture and more"
+
+prompt = """
+Invoke the ai:hyperlocal-weather-precip skill.
+Load the prompt instructions from skills/goose-skills-hyperlocal-weather-precip/SKILL.md and consult the copy-pasteable references or guidelines inside skills/goose-skills-hyperlocal-weather-precip/references/ to complete the task.
+"""

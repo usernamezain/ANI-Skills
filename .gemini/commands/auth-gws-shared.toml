@@ -1,0 +1,6 @@
+description = "gws CLI: Shared patterns for authentication, global flags, and output formatting."
+
+prompt = """
+Invoke the auth:gws-shared skill.
+Load the prompt instructions from skills/cli-gws-shared/SKILL.md and consult the copy-pasteable references or guidelines inside skills/cli-gws-shared/references/ to complete the task.
+"""

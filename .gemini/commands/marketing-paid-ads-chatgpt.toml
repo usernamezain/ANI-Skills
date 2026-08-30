@@ -1,0 +1,6 @@
+description = "Plan and review ChatGPT Ads experiments without assuming ad inventory, account access, or platform capabilities. Use for ChatGPT advertising, OpenAI ads, conversational ad concepts, ChatGPT campaign plans, or performance reviews from a verified export."
+
+prompt = """
+Invoke the marketing:paid-ads-chatgpt skill.
+Load the prompt instructions from skills/notfair-plugin-paid-ads-chatgpt/SKILL.md and consult the copy-pasteable references or guidelines inside skills/notfair-plugin-paid-ads-chatgpt/references/ to complete the task.
+"""

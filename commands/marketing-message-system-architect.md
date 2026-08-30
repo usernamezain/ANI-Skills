@@ -1,0 +1,6 @@
+# marketing:message-system-architect
+
+Use when the user asks to "author our durable brand message hierarchy", "build the brand message house that seeds the canon", or "define the main narrative, three pillars, and tagline for the whole brand"; produces the DURABLE brand message system — main narrative, three value pillars, per-persona proof points (each labeled Measured / User-provided / ''[needs source]''), and the tagline/one-liner — that seeds the narrative-registry canon and from which every per-launch house derives. Not for a single launch''s message house or PR-FAQ — use message-house-builder; not for claim adjudication — use offer-claims-registry; not for the change-narrative arc itself — use strategic-narrative-designer. 品牌消息屋/主叙事/三支柱/标语/持久叙事 canon
+
+**Skill folder:** `skills/aaron-marketing-skills-message-system-architect/`
+**Namespace:** `marketing`

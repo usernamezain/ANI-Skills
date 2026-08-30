@@ -1,0 +1,6 @@
+description = "Playbook for launching, monitoring, stopping, and debugging NeMo-RL recipes on a Kubernetes cluster via the nrl-k8s CLI. Covers ephemeral vs long-lived RayCluster modes, iterating on runs, and debugging hung or failed training jobs."
+
+prompt = """
+Invoke the monitoring:launch-nemo-rl skill.
+Load the prompt instructions from skills/skills-launch-nemo-rl/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-launch-nemo-rl/references/ to complete the task.
+"""

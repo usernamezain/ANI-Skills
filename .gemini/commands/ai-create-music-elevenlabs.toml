@@ -1,0 +1,6 @@
+description = "Generate an instrumental music bed via ElevenLabs Music, ROUTED THROUGH THE elevenlabs-proxy so it bills the Ads agent. Trims any sparse intro, loudnorm, fades the tail. Prompt + length from the template recipe. Use for the music layer of any video-ad format."
+
+prompt = """
+Invoke the ai:create-music-elevenlabs skill.
+Load the prompt instructions from skills/goose-skills-create-music-elevenlabs/SKILL.md and consult the copy-pasteable references or guidelines inside skills/goose-skills-create-music-elevenlabs/references/ to complete the task.
+"""

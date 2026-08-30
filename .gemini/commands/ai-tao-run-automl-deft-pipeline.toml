@@ -1,0 +1,6 @@
+description = ">"
+
+prompt = """
+Invoke the ai:tao-run-automl-deft-pipeline skill.
+Load the prompt instructions from skills/skills-tao-run-automl-deft-pipeline/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-tao-run-automl-deft-pipeline/references/ to complete the task.
+"""

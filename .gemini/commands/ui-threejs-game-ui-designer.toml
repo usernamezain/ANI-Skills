@@ -1,0 +1,6 @@
+description = "Design premium Three.js game UI. Use for HUDs, menus, overlays, pause/win/lose screens, settings, icon controls, touch UI, typography, responsive layout, safe areas, text fit, and UI/world cohesion."
+
+prompt = """
+Invoke the ui:threejs-game-ui-designer skill.
+Load the prompt instructions from skills/threejs-game-skills-threejs-game-ui-designer/SKILL.md and consult the copy-pasteable references or guidelines inside skills/threejs-game-skills-threejs-game-ui-designer/references/ to complete the task.
+"""

@@ -1,0 +1,6 @@
+description = ">"
+
+prompt = """
+Invoke the ai:broken-link-checker skill.
+Load the prompt instructions from skills/notfair-plugin-broken-link-checker/SKILL.md and consult the copy-pasteable references or guidelines inside skills/notfair-plugin-broken-link-checker/references/ to complete the task.
+"""

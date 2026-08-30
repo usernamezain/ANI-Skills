@@ -1,0 +1,6 @@
+description = "When the user wants to reduce churn, improve user engagement, or increase lifetime value. Also use when the user mentions \"retention\", \"churn\", \"users leaving\", \"engagement\", \"DAU/MAU\", \"user activation\", or \"why are users uninstalling\". For onboarding-specific issues, see app-launch. For monetization, see monetization-strategy."
+
+prompt = """
+Invoke the marketing:retention-optimization skill.
+Load the prompt instructions from skills/aso-skills-retention-optimization/SKILL.md and consult the copy-pasteable references or guidelines inside skills/aso-skills-retention-optimization/references/ to complete the task.
+"""

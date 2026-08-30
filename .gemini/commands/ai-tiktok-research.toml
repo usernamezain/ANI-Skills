@@ -1,0 +1,6 @@
+description = "Search videos, analyze creators, track hashtags, and discover trends on TikTok through SandBase. Use when asked for TikTok research, content discovery, creator analysis, hashtag trends, viral content patterns, or short-form video strategy."
+
+prompt = """
+Invoke the ai:tiktok-research skill.
+Load the prompt instructions from skills/sandbase-skills-tiktok-research/SKILL.md and consult the copy-pasteable references or guidelines inside skills/sandbase-skills-tiktok-research/references/ to complete the task.
+"""

@@ -1,0 +1,6 @@
+description = "Audit a WordPress plugin's REST surface and produce a standardized audit document proposing Abilities API registrations. Produces a markdown doc with a YAML schema and prose sections that humans and agents can both consume when planning a registration rollout. Works on any WP plugin."
+
+prompt = """
+Invoke the doc:wp-abilities-audit skill.
+Load the prompt instructions from skills/agent-skills-wp-abilities-audit/SKILL.md and consult the copy-pasteable references or guidelines inside skills/agent-skills-wp-abilities-audit/references/ to complete the task.
+"""

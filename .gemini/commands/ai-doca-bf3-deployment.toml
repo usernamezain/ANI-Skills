@@ -1,0 +1,6 @@
+description = ">"
+
+prompt = """
+Invoke the ai:doca-bf3-deployment skill.
+Load the prompt instructions from skills/skills-doca-bf3-deployment/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-doca-bf3-deployment/references/ to complete the task.
+"""

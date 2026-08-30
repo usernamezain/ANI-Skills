@@ -1,0 +1,6 @@
+description = "Research a company or brand from its website and produce a reusable Brand Core covering products, audience, competitors, positioning, offers, messaging evidence, voice, and visual identity. Use before growth, ad, content, creator, or product work when reliable brand context is missing."
+
+prompt = """
+Invoke the marketing:brand-research skill.
+Load the prompt instructions from skills/goose-skills-brand-research/SKILL.md and consult the copy-pasteable references or guidelines inside skills/goose-skills-brand-research/references/ to complete the task.
+"""

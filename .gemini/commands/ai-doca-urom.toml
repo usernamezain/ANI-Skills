@@ -1,0 +1,6 @@
+description = ">"
+
+prompt = """
+Invoke the ai:doca-urom skill.
+Load the prompt instructions from skills/skills-doca-urom/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-doca-urom/references/ to complete the task.
+"""

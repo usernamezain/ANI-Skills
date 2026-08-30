@@ -1,0 +1,6 @@
+description = "Execute QA test plans on Holoscan Sensor Bridge hardware. Reads a user-provided test document, filters tests by the user's setup, determines which tests can run automatically, executes them with pass/fail evaluation, and produces a structured test results report."
+
+prompt = """
+Invoke the ai:hsb-test skill.
+Load the prompt instructions from skills/skills-hsb-test/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-hsb-test/references/ to complete the task.
+"""

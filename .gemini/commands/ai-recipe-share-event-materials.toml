@@ -1,0 +1,6 @@
+description = "Share Google Drive files with all attendees of a Google Calendar event."
+
+prompt = """
+Invoke the ai:recipe-share-event-materials skill.
+Load the prompt instructions from skills/cli-recipe-share-event-materials/SKILL.md and consult the copy-pasteable references or guidelines inside skills/cli-recipe-share-event-materials/references/ to complete the task.
+"""

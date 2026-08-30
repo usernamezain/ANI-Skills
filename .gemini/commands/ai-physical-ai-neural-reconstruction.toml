@@ -1,0 +1,6 @@
+description = "Router for NVIDIA NuRec/NRE: USDZ rendering, NCore conversion, 3DGS, gRPC sensor sim, PhysicalAI HF datasets. Do NOT use for SimReady or infra setup."
+
+prompt = """
+Invoke the ai:physical-ai-neural-reconstruction skill.
+Load the prompt instructions from skills/skills-physical-ai-neural-reconstruction/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-physical-ai-neural-reconstruction/references/ to complete the task.
+"""

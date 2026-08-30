@@ -1,0 +1,6 @@
+description = ">-"
+
+prompt = """
+Invoke the cloud:google-cloud-storage-basics skill.
+Load the prompt instructions from skills/skills-google-cloud-storage-basics/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-google-cloud-storage-basics/references/ to complete the task.
+"""

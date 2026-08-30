@@ -1,0 +1,6 @@
+description = "Diagnoses which capabilities are ready or blocked, sets up the keys, then sets up the brand from its website. Use when the user asks to \"set me up,\" \"setup,\" \"help me get set up,\" \"get started,\" \"help me get started,\" \"get me started,\" \"what can you do,\" or to configure or finish setting up SuperCMO, or on a no_provider_configured error."
+
+prompt = """
+Invoke the marketing:supercmo-setup skill.
+Load the prompt instructions from skills/superCMO-skills-supercmo-setup/SKILL.md and consult the copy-pasteable references or guidelines inside skills/superCMO-skills-supercmo-setup/references/ to complete the task.
+"""

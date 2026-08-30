@@ -1,0 +1,6 @@
+description = "Select, validate, patch, and deploy existing NVIDIA Dynamo Kubernetes recipes. Use for model/backend/GPU/deployment-mode recipe bring-up; use router-starter for router-only mode work and troubleshoot for broken deployments."
+
+prompt = """
+Invoke the ai:dynamo-recipe-runner skill.
+Load the prompt instructions from skills/skills-dynamo-recipe-runner/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-dynamo-recipe-runner/references/ to complete the task.
+"""

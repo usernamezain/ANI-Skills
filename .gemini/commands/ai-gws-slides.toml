@@ -1,0 +1,6 @@
+description = "Google Slides: Read and write presentations."
+
+prompt = """
+Invoke the ai:gws-slides skill.
+Load the prompt instructions from skills/cli-gws-slides/SKILL.md and consult the copy-pasteable references or guidelines inside skills/cli-gws-slides/references/ to complete the task.
+"""

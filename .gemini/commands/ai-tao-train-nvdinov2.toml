@@ -1,0 +1,6 @@
+description = "NVDINOv2 for self-supervised visual representation learning. Trains vision transformers via self-distillation"
+
+prompt = """
+Invoke the ai:tao-train-nvdinov2 skill.
+Load the prompt instructions from skills/skills-tao-train-nvdinov2/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-tao-train-nvdinov2/references/ to complete the task.
+"""

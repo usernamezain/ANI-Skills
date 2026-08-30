@@ -1,0 +1,6 @@
+description = ">"
+
+prompt = """
+Invoke the marketing:linkedin-message-writer skill.
+Load the prompt instructions from skills/goose-skills-linkedin-message-writer/SKILL.md and consult the copy-pasteable references or guidelines inside skills/goose-skills-linkedin-message-writer/references/ to complete the task.
+"""

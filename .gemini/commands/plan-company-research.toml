@@ -1,0 +1,6 @@
+description = "Create a company research brief with executive quotes, product strategy, and org context. Use when preparing for interviews, competitive analysis, partnerships, or market-entry work."
+
+prompt = """
+Invoke the plan:company-research skill.
+Load the prompt instructions from skills/Product-Manager-Skills-company-research/SKILL.md and consult the copy-pasteable references or guidelines inside skills/Product-Manager-Skills-company-research/references/ to complete the task.
+"""

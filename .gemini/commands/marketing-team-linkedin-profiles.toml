@@ -1,0 +1,6 @@
+description = "Find LinkedIn profiles of a specific team or department at a company. Use when asked to get LinkedIn profiles, find team members, or look up people in a particular team/department/group at a company."
+
+prompt = """
+Invoke the marketing:team-linkedin-profiles skill.
+Load the prompt instructions from skills/goose-skills-team-linkedin-profiles/SKILL.md and consult the copy-pasteable references or guidelines inside skills/goose-skills-team-linkedin-profiles/references/ to complete the task.
+"""

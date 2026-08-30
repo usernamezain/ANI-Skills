@@ -1,0 +1,6 @@
+description = "Configure Unified Service Tags and verify Single Step Instrumentation (SSI) injection on Linux hosts — SSI automatically instruments applications for APM without code changes. Only use if the Datadog Agent is already installed."
+
+prompt = """
+Invoke the monitoring:enable-ssi skill.
+Load the prompt instructions from skills/agent-skills-enable-ssi/SKILL.md and consult the copy-pasteable references or guidelines inside skills/agent-skills-enable-ssi/references/ to complete the task.
+"""

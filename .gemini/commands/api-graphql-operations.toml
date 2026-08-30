@@ -1,0 +1,6 @@
+description = ">"
+
+prompt = """
+Invoke the api:graphql-operations skill.
+Load the prompt instructions from skills/skills-graphql-operations/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-graphql-operations/references/ to complete the task.
+"""

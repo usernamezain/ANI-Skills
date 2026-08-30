@@ -1,0 +1,6 @@
+description = "When the user wants to design or optimize their app's monetization — pricing, paywalls, subscriptions, or in-app purchases. Also use when the user mentions \"pricing\", \"paywall\", \"subscription\", \"IAP\", \"how to monetize\", \"revenue optimization\", \"free trial\", or \"conversion to paid\". For retention impact, see retention-optimization. For competitive pricing, see competitor-analysis."
+
+prompt = """
+Invoke the marketing:monetization-strategy skill.
+Load the prompt instructions from skills/aso-skills-monetization-strategy/SKILL.md and consult the copy-pasteable references or guidelines inside skills/aso-skills-monetization-strategy/references/ to complete the task.
+"""

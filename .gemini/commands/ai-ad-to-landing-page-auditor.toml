@@ -1,0 +1,6 @@
+description = ">"
+
+prompt = """
+Invoke the ai:ad-to-landing-page-auditor skill.
+Load the prompt instructions from skills/goose-skills-ad-to-landing-page-auditor/SKILL.md and consult the copy-pasteable references or guidelines inside skills/goose-skills-ad-to-landing-page-auditor/references/ to complete the task.
+"""

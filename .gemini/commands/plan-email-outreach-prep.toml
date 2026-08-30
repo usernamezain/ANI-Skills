@@ -1,0 +1,6 @@
+description = "Prepare personalized email outreach by researching prospects, verifying email addresses, building company context, and generating relevant talking points. End-to-end outreach preparation from prospect identification to send-ready intelligence."
+
+prompt = """
+Invoke the plan:email-outreach-prep skill.
+Load the prompt instructions from skills/sandbase-skills-email-outreach-prep/SKILL.md and consult the copy-pasteable references or guidelines inside skills/sandbase-skills-email-outreach-prep/references/ to complete the task.
+"""

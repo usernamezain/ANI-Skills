@@ -1,0 +1,6 @@
+description = "Systematically gather, score, and format client testimonials. Use when someone needs social proof, wants to collect feedback, needs to turn happy clients into public advocates, or asks for help requesting or drafting a testimonial."
+
+prompt = """
+Invoke the marketing:testimonial-collector skill.
+Load the prompt instructions from skills/ai-marketing-claude-code-skills-testimonial-collector/SKILL.md and consult the copy-pasteable references or guidelines inside skills/ai-marketing-claude-code-skills-testimonial-collector/references/ to complete the task.
+"""

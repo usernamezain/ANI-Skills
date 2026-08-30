@@ -1,0 +1,6 @@
+description = "Discover evidence-backed customer language, pain points, objections, and buying triggers from relevant Reddit communities. Use when asked for Reddit research, voice-of-customer analysis, audience pain points, product feedback, or community-led content opportunities."
+
+prompt = """
+Invoke the ai:reddit-customer-insights skill.
+Load the prompt instructions from skills/sandbase-skills-reddit-customer-insights/SKILL.md and consult the copy-pasteable references or guidelines inside skills/sandbase-skills-reddit-customer-insights/references/ to complete the task.
+"""

@@ -1,0 +1,6 @@
+description = ">-"
+
+prompt = """
+Invoke the ai:ima-dai-sdk skill.
+Load the prompt instructions from skills/skills-ima-dai-sdk/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-ima-dai-sdk/references/ to complete the task.
+"""

@@ -1,0 +1,6 @@
+description = "Use this skill when adding NeMo Relay typed wrappers, domain types, or provider codecs while preserving JSON middleware semantics and caller-visible behavior."
+
+prompt = """
+Invoke the ai:nemo-relay-instrument-typed-wrappers skill.
+Load the prompt instructions from skills/skills-nemo-relay-instrument-typed-wrappers/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-nemo-relay-instrument-typed-wrappers/references/ to complete the task.
+"""

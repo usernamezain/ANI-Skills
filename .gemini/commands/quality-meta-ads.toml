@@ -1,0 +1,6 @@
+description = "Manage Meta Ads (Facebook + Instagram) — performance, ROAS, CPM, frequency, audience overlap, learning phase, creative fatigue, budgets, ad sets, campaigns, ads. Use for any mention of Meta Ads, Facebook Ads, Instagram Ads, ROAS, CPM, ad spend, or campaign settings on Meta."
+
+prompt = """
+Invoke the quality:meta-ads skill.
+Load the prompt instructions from skills/notfair-plugin-meta-ads/SKILL.md and consult the copy-pasteable references or guidelines inside skills/notfair-plugin-meta-ads/references/ to complete the task.
+"""

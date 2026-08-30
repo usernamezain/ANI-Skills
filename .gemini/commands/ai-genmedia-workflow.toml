@@ -1,0 +1,6 @@
+description = ">"
+
+prompt = """
+Invoke the ai:genmedia-workflow skill.
+Load the prompt instructions from skills/skills-genmedia-workflow/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-genmedia-workflow/references/ to complete the task.
+"""

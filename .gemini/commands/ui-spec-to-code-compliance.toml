@@ -1,0 +1,6 @@
+description = "Check code against the documentation that specifies it - which requirements hold, which the code contradicts, which are absent, and what the code does that no document mentions. Use when comparing an implementation against a whitepaper, protocol spec, or design document."
+
+prompt = """
+Invoke the ui:spec-to-code-compliance skill.
+Load the prompt instructions from skills/skills-spec-to-code-compliance/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-spec-to-code-compliance/references/ to complete the task.
+"""

@@ -1,0 +1,6 @@
+description = ">"
+
+prompt = """
+Invoke the ai:doca-comm-channel-admin skill.
+Load the prompt instructions from skills/skills-doca-comm-channel-admin/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-doca-comm-channel-admin/references/ to complete the task.
+"""

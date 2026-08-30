@@ -1,0 +1,6 @@
+description = "Analyze hiring patterns, job market demand, salary signals, and talent competition across LinkedIn and Apollo. Covers job posting analysis, company hiring velocity, role requirement trends, and competitive talent landscape mapping."
+
+prompt = """
+Invoke the marketing:hiring-intelligence skill.
+Load the prompt instructions from skills/sandbase-skills-hiring-intelligence/SKILL.md and consult the copy-pasteable references or guidelines inside skills/sandbase-skills-hiring-intelligence/references/ to complete the task.
+"""

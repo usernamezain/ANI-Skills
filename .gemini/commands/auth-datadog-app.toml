@@ -1,0 +1,6 @@
+description = "Guides developers building Datadog Apps with TypeScript, React, the @datadog/apps scaffolder, and @datadog/vite-plugin. Use when a user wants to scaffold, run, debug, upgrade, build, upload, publish, upload without publishing (draft upload), add an upload-no-publish script, set up CI/CD, use OAuth or API/application key auth, trigger/poll Workflow Automation, choose DDSQL or Action Catalog for backend data access, or query app datastores with DDSQL, including backend function troubleshooting."
+
+prompt = """
+Invoke the auth:datadog-app skill.
+Load the prompt instructions from skills/agent-skills-datadog-app/SKILL.md and consult the copy-pasteable references or guidelines inside skills/agent-skills-datadog-app/references/ to complete the task.
+"""

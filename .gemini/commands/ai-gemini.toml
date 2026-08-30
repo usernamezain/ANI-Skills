@@ -1,0 +1,6 @@
+description = ">"
+
+prompt = """
+Invoke the ai:gemini skill.
+Load the prompt instructions from skills/notfair-plugin-gemini/SKILL.md and consult the copy-pasteable references or guidelines inside skills/notfair-plugin-gemini/references/ to complete the task.
+"""

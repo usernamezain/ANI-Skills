@@ -1,0 +1,6 @@
+description = "Evaluates NVIDIA Cosmos Policy on LIBERO and RoboCasa simulation environments. Use when setting up cosmos-policy for robot manipulation evaluation, running headless GPU evaluations with EGL rendering, or profiling inference latency on cluster or local GPU machines."
+
+prompt = """
+Invoke the ai:evaluating-cosmos-policy skill.
+Load the prompt instructions from skills/AI-Research-SKILLs-evaluating-cosmos-policy/SKILL.md and consult the copy-pasteable references or guidelines inside skills/AI-Research-SKILLs-evaluating-cosmos-policy/references/ to complete the task.
+"""

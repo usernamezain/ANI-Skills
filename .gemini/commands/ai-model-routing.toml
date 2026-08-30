@@ -1,0 +1,6 @@
+description = ">"
+
+prompt = """
+Invoke the ai:model-routing skill.
+Load the prompt instructions from skills/skills-model-routing/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-model-routing/references/ to complete the task.
+"""

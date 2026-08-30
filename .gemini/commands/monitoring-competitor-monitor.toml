@@ -1,0 +1,6 @@
+description = "Monitor competitor websites, content changes, social activity, and market positioning through SandBase. Use when asked for competitive intelligence, competitor tracking, market positioning research, or competitive content monitoring."
+
+prompt = """
+Invoke the monitoring:competitor-monitor skill.
+Load the prompt instructions from skills/sandbase-skills-competitor-monitor/SKILL.md and consult the copy-pasteable references or guidelines inside skills/sandbase-skills-competitor-monitor/references/ to complete the task.
+"""

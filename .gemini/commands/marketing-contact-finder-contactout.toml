@@ -1,0 +1,6 @@
+description = "Find emails, phone numbers, and enrich profiles using ContactOut. LinkedIn enrichment, people search, company enrichment, and batch operations."
+
+prompt = """
+Invoke the marketing:contact-finder-contactout skill.
+Load the prompt instructions from skills/goose-skills-contact-finder-contactout/SKILL.md and consult the copy-pasteable references or guidelines inside skills/goose-skills-contact-finder-contactout/references/ to complete the task.
+"""

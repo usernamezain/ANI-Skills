@@ -1,0 +1,6 @@
+description = ">"
+
+prompt = """
+Invoke the ai:doca-hardware-safety skill.
+Load the prompt instructions from skills/skills-doca-hardware-safety/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-doca-hardware-safety/references/ to complete the task.
+"""

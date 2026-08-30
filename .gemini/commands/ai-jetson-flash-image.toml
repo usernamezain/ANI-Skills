@@ -1,0 +1,6 @@
+description = "Use to flash a promoted BSP image to a Jetson DUT in RCM mode via flash.sh or l4t_initrd_flash.sh. Do NOT use for BSP customization, image promotion, or carrier derivation."
+
+prompt = """
+Invoke the ai:jetson-flash-image skill.
+Load the prompt instructions from skills/skills-jetson-flash-image/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-jetson-flash-image/references/ to complete the task.
+"""

@@ -1,0 +1,6 @@
+description = ">"
+
+prompt = """
+Invoke the marketing:seo-traffic-analyzer skill.
+Load the prompt instructions from skills/goose-skills-seo-traffic-analyzer/SKILL.md and consult the copy-pasteable references or guidelines inside skills/goose-skills-seo-traffic-analyzer/references/ to complete the task.
+"""

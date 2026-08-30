@@ -1,0 +1,6 @@
+description = "AI image generation for SEO assets: OG/social preview images, blog hero images, schema images, product photography, infographics. Powered by Gemini via nanobanana-mcp. Requires banana extension installed. Use when user says \\"generate image\\", \\"OG image\\", \\"social preview\\", \\"hero image\\", \\"blog image\\", \\"product photo\\", \\"infographic\\", \\"seo image\\", \\"create visual\\", \\"image-gen\\", \\"favicon\\", \\"schema image\\", \\"pinterest pin\\", \\"generate visual\\", \\"banner\\", or \\"thumbnail\\"."
+
+prompt = """
+Invoke the marketing:seo-image-gen skill.
+Load the prompt instructions from skills/claude-seo-seo-image-gen/SKILL.md and consult the copy-pasteable references or guidelines inside skills/claude-seo-seo-image-gen/references/ to complete the task.
+"""

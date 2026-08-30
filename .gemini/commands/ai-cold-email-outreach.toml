@@ -1,0 +1,6 @@
+description = ">"
+
+prompt = """
+Invoke the ai:cold-email-outreach skill.
+Load the prompt instructions from skills/goose-skills-cold-email-outreach/SKILL.md and consult the copy-pasteable references or guidelines inside skills/goose-skills-cold-email-outreach/references/ to complete the task.
+"""

@@ -1,0 +1,6 @@
+description = ">"
+
+prompt = """
+Invoke the ai:doca-gpunetio-ib-write-lat skill.
+Load the prompt instructions from skills/skills-doca-gpunetio-ib-write-lat/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-doca-gpunetio-ib-write-lat/references/ to complete the task.
+"""

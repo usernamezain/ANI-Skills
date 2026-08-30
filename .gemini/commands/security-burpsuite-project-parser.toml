@@ -1,0 +1,6 @@
+description = "Searches and explores Burp Suite project files (.burp) from the command line. Use when searching response headers or bodies with regex patterns, extracting security audit findings, dumping proxy history or site map data, or analyzing HTTP traffic captured in a Burp project."
+
+prompt = """
+Invoke the security:burpsuite-project-parser skill.
+Load the prompt instructions from skills/skills-burpsuite-project-parser/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-burpsuite-project-parser/references/ to complete the task.
+"""

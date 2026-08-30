@@ -1,0 +1,6 @@
+description = "Generate value proposition statements for marketing, sales, and onboarding from existing value propositions. Use when writing marketing copy, creating sales messaging, or crafting onboarding messages."
+
+prompt = """
+Invoke the marketing:value-prop-statements skill.
+Load the prompt instructions from skills/pm-skills-value-prop-statements/SKILL.md and consult the copy-pasteable references or guidelines inside skills/pm-skills-value-prop-statements/references/ to complete the task.
+"""

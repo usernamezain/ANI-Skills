@@ -1,0 +1,6 @@
+description = "Use this to read true intent in chat. Who is real, who is shopping, who runs a trick on you."
+
+prompt = """
+Invoke the ai:reading-people skill.
+Load the prompt instructions from skills/dark-psychology-skills-reading-people/SKILL.md and consult the copy-pasteable references or guidelines inside skills/dark-psychology-skills-reading-people/references/ to complete the task.
+"""

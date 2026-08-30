@@ -1,0 +1,6 @@
+description = "Create user stories following the 3 C's (Card, Conversation, Confirmation) and INVEST criteria with descriptions, design links, and acceptance criteria. Use when writing user stories, breaking down features into backlog items, or defining acceptance criteria."
+
+prompt = """
+Invoke the ui:user-stories skill.
+Load the prompt instructions from skills/pm-skills-user-stories/SKILL.md and consult the copy-pasteable references or guidelines inside skills/pm-skills-user-stories/references/ to complete the task.
+"""

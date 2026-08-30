@@ -1,0 +1,6 @@
+description = "Expert guidance for GRPO/RL fine-tuning with TRL for reasoning and task-specific model training"
+
+prompt = """
+Invoke the marketing:grpo-rl-training skill.
+Load the prompt instructions from skills/AI-Research-SKILLs-grpo-rl-training/SKILL.md and consult the copy-pasteable references or guidelines inside skills/AI-Research-SKILLs-grpo-rl-training/references/ to complete the task.
+"""

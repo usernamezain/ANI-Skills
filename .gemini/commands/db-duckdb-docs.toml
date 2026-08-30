@@ -1,0 +1,6 @@
+description = ">"
+
+prompt = """
+Invoke the db:duckdb-docs skill.
+Load the prompt instructions from skills/duckdb-skills-duckdb-docs/SKILL.md and consult the copy-pasteable references or guidelines inside skills/duckdb-skills-duckdb-docs/references/ to complete the task.
+"""

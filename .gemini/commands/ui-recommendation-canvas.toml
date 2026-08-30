@@ -1,0 +1,6 @@
+description = "Evaluate an AI product idea across outcomes, hypotheses, risks, and positioning. Use when deciding whether an AI solution deserves investment or recommendation."
+
+prompt = """
+Invoke the ui:recommendation-canvas skill.
+Load the prompt instructions from skills/Product-Manager-Skills-recommendation-canvas/SKILL.md and consult the copy-pasteable references or guidelines inside skills/Product-Manager-Skills-recommendation-canvas/references/ to complete the task.
+"""

@@ -1,0 +1,6 @@
+description = "Audit any web page for Answer Engine Optimization (AEO) readiness - can AI crawlers reach it, and can AI engines extract answers from it. Use when asked \"is this page AEO ready\", \"audit this page for AI search\", \"why don't AI engines cite my page\", or \"check AI crawler access\". Works standalone; no account needed."
+
+prompt = """
+Invoke the marketing:aeo-page-audit skill.
+Load the prompt instructions from skills/citlyze-skills-aeo-page-audit/SKILL.md and consult the copy-pasteable references or guidelines inside skills/citlyze-skills-aeo-page-audit/references/ to complete the task.
+"""

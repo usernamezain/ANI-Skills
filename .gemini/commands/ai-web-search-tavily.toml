@@ -1,0 +1,6 @@
+description = "AI-powered web search, crawling, extraction, and deep research"
+
+prompt = """
+Invoke the ai:web-search-tavily skill.
+Load the prompt instructions from skills/goose-skills-web-search-tavily/SKILL.md and consult the copy-pasteable references or guidelines inside skills/goose-skills-web-search-tavily/references/ to complete the task.
+"""

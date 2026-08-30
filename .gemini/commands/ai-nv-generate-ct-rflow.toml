@@ -1,0 +1,6 @@
+description = "Used for generating synthetic CT volumes and masks with NV-Generate-CTMR rflow-ct. Not for production training data without review."
+
+prompt = """
+Invoke the ai:nv-generate-ct-rflow skill.
+Load the prompt instructions from skills/skills-nv-generate-ct-rflow/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-nv-generate-ct-rflow/references/ to complete the task.
+"""

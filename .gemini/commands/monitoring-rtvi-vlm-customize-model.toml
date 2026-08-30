@@ -1,0 +1,6 @@
+description = "How to swap the VLM in the VSS Alerts Blueprint — covers RTVI-VLM microservice deployment methods, all three VLM consumers (rtvi-vlm, vlm-as-verifier, vss-agent), and health checks."
+
+prompt = """
+Invoke the monitoring:rtvi-vlm-customize-model skill.
+Load the prompt instructions from skills/skills-rtvi-vlm-customize-model/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-rtvi-vlm-customize-model/references/ to complete the task.
+"""

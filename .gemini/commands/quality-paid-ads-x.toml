@@ -1,0 +1,6 @@
+description = "Audit, diagnose, and safely operate connected X Ads (Twitter Ads) accounts through the NotFair MCP. Use for X Ads performance, campaign or line-item analysis, spend, conversions, targeting, promoted posts, audiences, budgets, bids, creative, campaign setup, or approved X Ads changes."
+
+prompt = """
+Invoke the quality:paid-ads-x skill.
+Load the prompt instructions from skills/notfair-plugin-paid-ads-x/SKILL.md and consult the copy-pasteable references or guidelines inside skills/notfair-plugin-paid-ads-x/references/ to complete the task.
+"""

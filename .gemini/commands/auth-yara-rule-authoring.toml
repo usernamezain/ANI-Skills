@@ -1,0 +1,6 @@
+description = ">"
+
+prompt = """
+Invoke the auth:yara-rule-authoring skill.
+Load the prompt instructions from skills/skills-yara-rule-authoring/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-yara-rule-authoring/references/ to complete the task.
+"""

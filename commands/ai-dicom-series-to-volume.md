@@ -1,0 +1,6 @@
+# ai:dicom-series-to-volume
+
+Used for converting one CT DICOM series folder to a HU NIfTI volume with affine evidence. Not for multi-frame DICOM or clinical use.
+
+**Skill folder:** `skills/skills-dicom-series-to-volume/`
+**Namespace:** `ai`

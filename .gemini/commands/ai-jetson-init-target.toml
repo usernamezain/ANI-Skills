@@ -1,0 +1,6 @@
+description = ">-"
+
+prompt = """
+Invoke the ai:jetson-init-target skill.
+Load the prompt instructions from skills/skills-jetson-init-target/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-jetson-init-target/references/ to complete the task.
+"""

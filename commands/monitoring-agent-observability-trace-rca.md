@@ -1,0 +1,6 @@
+# monitoring:agent-observability-trace-rca
+
+Root cause analysis on production LLM traces. Diagnoses why an LLM application is failing — works from eval judge verdicts, runtime errors, or structural anomalies depending on what signals are present. Walks the span tree from symptom to root cause. Use when user says "what's wrong with my app", "why is my eval failing", "analyze errors", "root cause analysis", "diagnose failures", or wants to understand production failure patterns.
+
+**Skill folder:** `skills/agent-skills-agent-observability-trace-rca/`
+**Namespace:** `monitoring`

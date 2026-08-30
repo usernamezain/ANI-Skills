@@ -1,0 +1,6 @@
+description = "Use this before you send anything important, and after every rejection."
+
+prompt = """
+Invoke the ai:operator-mindset skill.
+Load the prompt instructions from skills/dark-psychology-skills-operator-mindset/SKILL.md and consult the copy-pasteable references or guidelines inside skills/dark-psychology-skills-operator-mindset/references/ to complete the task.
+"""

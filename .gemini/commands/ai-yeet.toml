@@ -1,0 +1,6 @@
+description = "Use only when the user explicitly asks to stage, commit, push, and open a GitHub pull request in one flow using the GitHub CLI (`gh`)."
+
+prompt = """
+Invoke the ai:yeet skill.
+Load the prompt instructions from skills/skills-yeet/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-yeet/references/ to complete the task.
+"""

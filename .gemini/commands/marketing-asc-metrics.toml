@@ -1,0 +1,6 @@
+description = "When the user wants to analyze their own app's actual performance data from App Store Connect — real downloads, revenue, IAP, subscriptions, trials, or country breakdowns synced via Appeeky Connect. Use when the user asks about \"my downloads\", \"my revenue\", \"how is my app performing\", \"ASC data\", \"sales and trends\", \"my subscription numbers\", \"App Store Connect metrics\", or wants to compare periods or top markets. For third-party app estimates, see app-analytics. For subscription analytics depth, see monetization-strategy."
+
+prompt = """
+Invoke the marketing:asc-metrics skill.
+Load the prompt instructions from skills/aso-skills-asc-metrics/SKILL.md and consult the copy-pasteable references or guidelines inside skills/aso-skills-asc-metrics/references/ to complete the task.
+"""

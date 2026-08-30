@@ -1,0 +1,6 @@
+description = "Aggregate news from Google News, Tavily, and Exa to get comprehensive coverage of any topic. Cross-references multiple news sources, identifies publication velocity, detects emerging stories, and provides citation-ready news intelligence."
+
+prompt = """
+Invoke the ai:news-aggregator skill.
+Load the prompt instructions from skills/sandbase-skills-news-aggregator/SKILL.md and consult the copy-pasteable references or guidelines inside skills/sandbase-skills-news-aggregator/references/ to complete the task.
+"""

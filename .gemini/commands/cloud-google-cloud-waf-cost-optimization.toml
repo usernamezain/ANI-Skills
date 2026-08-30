@@ -1,0 +1,6 @@
+description = "Generates cost optimization guidance for Google Cloud workloads based on the Google Cloud Well-Architected Framework (WAF). Use this skill to evaluate a workload, identify cost requirements and constraints, and provide actionable recommendations for build, deploy, and manage the workload cost-efficiently in Google Cloud."
+
+prompt = """
+Invoke the cloud:google-cloud-waf-cost-optimization skill.
+Load the prompt instructions from skills/skills-google-cloud-waf-cost-optimization/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-google-cloud-waf-cost-optimization/references/ to complete the task.
+"""

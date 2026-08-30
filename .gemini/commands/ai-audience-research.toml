@@ -1,0 +1,6 @@
+description = "Research target audiences across Reddit, Twitter, Instagram, and Xiaohongshu to understand demographics, interests, pain points, language patterns, and content preferences. Produces audience personas backed by real community data."
+
+prompt = """
+Invoke the ai:audience-research skill.
+Load the prompt instructions from skills/sandbase-skills-audience-research/SKILL.md and consult the copy-pasteable references or guidelines inside skills/sandbase-skills-audience-research/references/ to complete the task.
+"""

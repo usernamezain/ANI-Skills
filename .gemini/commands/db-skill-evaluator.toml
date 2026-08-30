@@ -1,0 +1,6 @@
+description = ">"
+
+prompt = """
+Invoke the db:skill-evaluator skill.
+Load the prompt instructions from skills/materials-simulation-skills-skill-evaluator/SKILL.md and consult the copy-pasteable references or guidelines inside skills/materials-simulation-skills-skill-evaluator/references/ to complete the task.
+"""

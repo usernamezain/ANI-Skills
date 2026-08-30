@@ -1,0 +1,6 @@
+description = "Run a customer journey mapping workshop with adaptive questions and outputs. Use when you need to map stages, actions, emotions, pain points, and opportunities for a persona and scenario."
+
+prompt = """
+Invoke the plan:customer-journey-mapping-workshop skill.
+Load the prompt instructions from skills/Product-Manager-Skills-customer-journey-mapping-workshop/SKILL.md and consult the copy-pasteable references or guidelines inside skills/Product-Manager-Skills-customer-journey-mapping-workshop/references/ to complete the task.
+"""

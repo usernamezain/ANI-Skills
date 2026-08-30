@@ -1,0 +1,6 @@
+description = "Interacting with Mediabunny"
+
+prompt = """
+Invoke the ui:remotion-multimedia skill.
+Load the prompt instructions from skills/skills-remotion-multimedia/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-remotion-multimedia/references/ to complete the task.
+"""

@@ -1,0 +1,6 @@
+description = "Extract and document someone's authentic writing voice from samples. Use when someone needs a \"voice guide,\" wants to capture their writing DNA, or needs to train AI to write in their style. Also useful for ghostwriting, brand voice documentation, or onboarding writers."
+
+prompt = """
+Invoke the marketing:voice-extractor skill.
+Load the prompt instructions from skills/ai-marketing-claude-code-skills-voice-extractor/SKILL.md and consult the copy-pasteable references or guidelines inside skills/ai-marketing-claude-code-skills-voice-extractor/references/ to complete the task.
+"""

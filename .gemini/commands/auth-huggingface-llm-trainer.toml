@@ -1,0 +1,6 @@
+description = "Train or fine-tune language and vision models using TRL (Transformer Reinforcement Learning) or Unsloth with Hugging Face Jobs infrastructure. Covers SFT, DPO, GRPO and reward modeling training methods, plus GGUF conversion for local deployment. Includes guidance on the TRL Jobs package, UV scripts with PEP 723 format, dataset preparation and validation, hardware selection, cost estimation, Trackio monitoring, Hub authentication, model selection/leaderboards and model persistence. Use for tasks involving cloud GPU training, GGUF conversion, or when users mention training on Hugging Face Jobs without local GPU setup."
+
+prompt = """
+Invoke the auth:huggingface-llm-trainer skill.
+Load the prompt instructions from skills/skills-huggingface-llm-trainer/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-huggingface-llm-trainer/references/ to complete the task.
+"""

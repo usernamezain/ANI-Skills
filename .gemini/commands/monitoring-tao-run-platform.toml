@@ -1,0 +1,6 @@
+description = "TAO Execution SDK for submitting and monitoring GPU training jobs on supported platforms (Brev, SLURM,"
+
+prompt = """
+Invoke the monitoring:tao-run-platform skill.
+Load the prompt instructions from skills/skills-tao-run-platform/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-tao-run-platform/references/ to complete the task.
+"""

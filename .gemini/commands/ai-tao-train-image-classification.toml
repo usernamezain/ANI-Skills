@@ -1,0 +1,6 @@
+description = "PyTorch-based TAO image classification. Supports a wide range of backbones (FAN, EfficientNet, ResNet, etc.)"
+
+prompt = """
+Invoke the ai:tao-train-image-classification skill.
+Load the prompt instructions from skills/skills-tao-train-image-classification/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-tao-train-image-classification/references/ to complete the task.
+"""

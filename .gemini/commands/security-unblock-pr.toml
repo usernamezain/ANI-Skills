@@ -1,0 +1,6 @@
+description = "Load when investigating a failing PR CI pipeline or checking PR health. Attributes each CI failure as flaky, infra, or regression, proposes a targeted action, and reports code coverage and quality/security status."
+
+prompt = """
+Invoke the security:unblock-pr skill.
+Load the prompt instructions from skills/agent-skills-unblock-pr/SKILL.md and consult the copy-pasteable references or guidelines inside skills/agent-skills-unblock-pr/references/ to complete the task.
+"""

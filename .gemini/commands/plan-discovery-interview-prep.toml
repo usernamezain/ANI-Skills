@@ -1,0 +1,6 @@
+description = "Plan customer discovery interviews with the right goal, segment, constraints, and method. Use when preparing interviews for problem validation, churn research, or new product ideas."
+
+prompt = """
+Invoke the plan:discovery-interview-prep skill.
+Load the prompt instructions from skills/Product-Manager-Skills-discovery-interview-prep/SKILL.md and consult the copy-pasteable references or guidelines inside skills/Product-Manager-Skills-discovery-interview-prep/references/ to complete the task.
+"""

@@ -1,0 +1,6 @@
+description = "Look up SaaS finance metrics, formulas, and benchmarks fast. Use when you need a quick metric definition, formula, or benchmark during analysis."
+
+prompt = """
+Invoke the plan:finance-metrics-quickref skill.
+Load the prompt instructions from skills/Product-Manager-Skills-finance-metrics-quickref/SKILL.md and consult the copy-pasteable references or guidelines inside skills/Product-Manager-Skills-finance-metrics-quickref/references/ to complete the task.
+"""

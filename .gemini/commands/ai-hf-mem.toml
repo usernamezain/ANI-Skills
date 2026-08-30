@@ -1,0 +1,6 @@
+description = "Hugging Face CLI to estimate the required memory to load Safetensors or GGUF model weights for inference from the Hugging Face Hub"
+
+prompt = """
+Invoke the ai:hf-mem skill.
+Load the prompt instructions from skills/skills-hf-mem/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-hf-mem/references/ to complete the task.
+"""

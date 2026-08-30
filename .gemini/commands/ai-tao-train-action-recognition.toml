@@ -1,0 +1,6 @@
+description = "Action recognition from video sequences. Supports RGB, optical flow, and joint (multi-stream) input types for"
+
+prompt = """
+Invoke the ai:tao-train-action-recognition skill.
+Load the prompt instructions from skills/skills-tao-train-action-recognition/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-tao-train-action-recognition/references/ to complete the task.
+"""

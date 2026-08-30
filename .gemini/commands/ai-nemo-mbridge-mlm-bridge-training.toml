@@ -1,0 +1,6 @@
+description = "Run Megatron-LM (MLM) and Megatron Bridge training with mock or real data. Covers correlation testing, available recipes, and multi-GPU examples."
+
+prompt = """
+Invoke the ai:nemo-mbridge-mlm-bridge-training skill.
+Load the prompt instructions from skills/skills-nemo-mbridge-mlm-bridge-training/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-nemo-mbridge-mlm-bridge-training/references/ to complete the task.
+"""

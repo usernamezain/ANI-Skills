@@ -1,0 +1,6 @@
+description = "Web search and content fetching - search the web or extract content from URLs"
+
+prompt = """
+Invoke the ai:web-search-linkup skill.
+Load the prompt instructions from skills/goose-skills-web-search-linkup/SKILL.md and consult the copy-pasteable references or guidelines inside skills/goose-skills-web-search-linkup/references/ to complete the task.
+"""

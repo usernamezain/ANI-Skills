@@ -1,0 +1,6 @@
+description = "Fast, high-quality web search with intelligent ranking and instant answers"
+
+prompt = """
+Invoke the quality:web-search-andi skill.
+Load the prompt instructions from skills/goose-skills-web-search-andi/SKILL.md and consult the copy-pasteable references or guidelines inside skills/goose-skills-web-search-andi/references/ to complete the task.
+"""

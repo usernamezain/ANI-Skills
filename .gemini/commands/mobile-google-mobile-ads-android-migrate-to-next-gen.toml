@@ -1,0 +1,6 @@
+description = "Migrates Android applications from the old, legacy Google Mobile"
+
+prompt = """
+Invoke the mobile:google-mobile-ads-android-migrate-to-next-gen skill.
+Load the prompt instructions from skills/skills-google-mobile-ads-android-migrate-to-next-gen/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-google-mobile-ads-android-migrate-to-next-gen/references/ to complete the task.
+"""

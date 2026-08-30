@@ -1,0 +1,6 @@
+description = "Create a Google Shared Drive and add members with appropriate roles."
+
+prompt = """
+Invoke the ai:recipe-create-shared-drive skill.
+Load the prompt instructions from skills/cli-recipe-create-shared-drive/SKILL.md and consult the copy-pasteable references or guidelines inside skills/cli-recipe-create-shared-drive/references/ to complete the task.
+"""

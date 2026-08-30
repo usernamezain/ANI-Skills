@@ -1,0 +1,6 @@
+description = "Quarterly re-scan of a prior PESTEL analysis. Use when checking which macro factors moved, which assumptions broke, and what's new — turning PESTEL from a workshop artifact into a radar."
+
+prompt = """
+Invoke the plan:pestel-delta-monitor skill.
+Load the prompt instructions from skills/Product-Manager-Skills-pestel-delta-monitor/SKILL.md and consult the copy-pasteable references or guidelines inside skills/Product-Manager-Skills-pestel-delta-monitor/references/ to complete the task.
+"""

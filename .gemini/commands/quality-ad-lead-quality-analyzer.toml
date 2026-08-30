@@ -1,0 +1,6 @@
+description = "For paid lead-gen and participant-recruitment ads, replaces vanity CPA with true CAC per qualified lead by joining ad-platform data with downstream funnel events, surfaces tracking gaps, and classifies every creative into Scale / Keep / Investigate / Cut."
+
+prompt = """
+Invoke the quality:ad-lead-quality-analyzer skill.
+Load the prompt instructions from skills/goose-skills-ad-lead-quality-analyzer/SKILL.md and consult the copy-pasteable references or guidelines inside skills/goose-skills-ad-lead-quality-analyzer/references/ to complete the task.
+"""

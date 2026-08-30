@@ -1,0 +1,6 @@
+# ai:jupyter-notebook
+
+Use when the user asks to create, scaffold, or edit Jupyter notebooks (`.ipynb`) for experiments, explorations, or tutorials; prefer the bundled templates and run the helper script `new_notebook.py` to generate a clean starting notebook.
+
+**Skill folder:** `skills/skills-jupyter-notebook/`
+**Namespace:** `ai`

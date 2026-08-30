@@ -1,0 +1,6 @@
+description = "Coordinate all skills to build a complete advertising campaign. Trigger on \"build a campaign\", \"full funnel\", \"ads + funnel\"."
+
+prompt = """
+Invoke the marketing:full-funnel-campaign-orchestrator skill.
+Load the prompt instructions from skills/advertising-skills-full-funnel-campaign-orchestrator/SKILL.md and consult the copy-pasteable references or guidelines inside skills/advertising-skills-full-funnel-campaign-orchestrator/references/ to complete the task.
+"""

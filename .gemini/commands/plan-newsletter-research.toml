@@ -1,0 +1,6 @@
+description = "Research industry newsletters, email publications, and WeChat articles to discover content leaders, track topics, and identify distribution opportunities. Covers newsletter discovery, content analysis, audience research, and partnership prospecting."
+
+prompt = """
+Invoke the plan:newsletter-research skill.
+Load the prompt instructions from skills/sandbase-skills-newsletter-research/SKILL.md and consult the copy-pasteable references or guidelines inside skills/sandbase-skills-newsletter-research/references/ to complete the task.
+"""

@@ -1,0 +1,6 @@
+description = ">"
+
+prompt = """
+Invoke the ai:rust-best-practices skill.
+Load the prompt instructions from skills/skills-rust-best-practices/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-rust-best-practices/references/ to complete the task.
+"""

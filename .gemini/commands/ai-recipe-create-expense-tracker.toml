@@ -1,0 +1,6 @@
+description = "Set up a Google Sheets spreadsheet for tracking expenses with headers and initial entries."
+
+prompt = """
+Invoke the ai:recipe-create-expense-tracker skill.
+Load the prompt instructions from skills/cli-recipe-create-expense-tracker/SKILL.md and consult the copy-pasteable references or guidelines inside skills/cli-recipe-create-expense-tracker/references/ to complete the task.
+"""

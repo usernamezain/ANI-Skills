@@ -1,0 +1,6 @@
+description = "Structure Remotion markup for interactivity"
+
+prompt = """
+Invoke the ui:remotion-interactivity skill.
+Load the prompt instructions from skills/skills-remotion-interactivity/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-remotion-interactivity/references/ to complete the task.
+"""

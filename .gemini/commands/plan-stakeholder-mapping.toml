@@ -1,0 +1,6 @@
+description = "Prioritize stakeholders using two complementary grids. Use when setting engagement strategy and surfacing whose voice needs elevating after stakeholder identification."
+
+prompt = """
+Invoke the plan:stakeholder-mapping skill.
+Load the prompt instructions from skills/Product-Manager-Skills-stakeholder-mapping/SKILL.md and consult the copy-pasteable references or guidelines inside skills/Product-Manager-Skills-stakeholder-mapping/references/ to complete the task.
+"""

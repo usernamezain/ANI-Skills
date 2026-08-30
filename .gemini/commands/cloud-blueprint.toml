@@ -1,0 +1,6 @@
+description = "Use when the deliverable is WordPress Playground Blueprint JSON or a Blueprint bundle, including creating, editing, reviewing, validating schema keys, choosing steps/resources, and debugging Blueprint files. For only running or sharing a Playground environment, use wp-playground."
+
+prompt = """
+Invoke the cloud:blueprint skill.
+Load the prompt instructions from skills/agent-skills-blueprint/SKILL.md and consult the copy-pasteable references or guidelines inside skills/agent-skills-blueprint/references/ to complete the task.
+"""

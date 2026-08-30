@@ -1,0 +1,6 @@
+description = "Summarize a meeting transcript into structured notes with date, participants, topic, key decisions, summary points, and action items. Use when processing meeting recordings, creating meeting notes, writing meeting minutes, or recapping discussions."
+
+prompt = """
+Invoke the doc:summarize-meeting skill.
+Load the prompt instructions from skills/pm-skills-summarize-meeting/SKILL.md and consult the copy-pasteable references or guidelines inside skills/pm-skills-summarize-meeting/references/ to complete the task.
+"""

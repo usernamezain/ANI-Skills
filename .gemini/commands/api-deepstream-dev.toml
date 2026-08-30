@@ -1,0 +1,6 @@
+description = "NVIDIA DeepStream SDK development with Python pyservicemaker API. Use when building video analytics pipelines, GStreamer-based video processing, TensorRT inference integration, object detection/tracking, or Kafka/message broker integration."
+
+prompt = """
+Invoke the api:deepstream-dev skill.
+Load the prompt instructions from skills/skills-deepstream-dev/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-deepstream-dev/references/ to complete the task.
+"""

@@ -1,0 +1,6 @@
+description = "Autonomous goal execution — give a goal, get a plan, confirm, execute, report. You steer, Claude drives."
+
+prompt = """
+Invoke the marketing:go-mode skill.
+Load the prompt instructions from skills/ai-marketing-claude-code-skills-go-mode/SKILL.md and consult the copy-pasteable references or guidelines inside skills/ai-marketing-claude-code-skills-go-mode/references/ to complete the task.
+"""

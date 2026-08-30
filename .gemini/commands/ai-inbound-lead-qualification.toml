@@ -1,0 +1,6 @@
+description = ">"
+
+prompt = """
+Invoke the ai:inbound-lead-qualification skill.
+Load the prompt instructions from skills/goose-skills-inbound-lead-qualification/SKILL.md and consult the copy-pasteable references or guidelines inside skills/goose-skills-inbound-lead-qualification/references/ to complete the task.
+"""

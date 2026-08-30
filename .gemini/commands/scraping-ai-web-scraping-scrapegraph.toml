@@ -1,0 +1,6 @@
+description = "AI-powered web scraping - extract data using natural language prompts"
+
+prompt = """
+Invoke the scraping:ai-web-scraping-scrapegraph skill.
+Load the prompt instructions from skills/goose-skills-ai-web-scraping-scrapegraph/SKILL.md and consult the copy-pasteable references or guidelines inside skills/goose-skills-ai-web-scraping-scrapegraph/references/ to complete the task.
+"""

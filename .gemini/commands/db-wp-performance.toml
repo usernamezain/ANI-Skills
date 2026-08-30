@@ -1,0 +1,6 @@
+description = "Use when investigating or improving WordPress performance (backend-only agent): profiling and measurement (WP-CLI profile/doctor, Server-Timing, Query Monitor via REST headers), database/query optimization, autoloaded options, object caching, cron, HTTP API calls, and safe verification."
+
+prompt = """
+Invoke the db:wp-performance skill.
+Load the prompt instructions from skills/agent-skills-wp-performance/SKILL.md and consult the copy-pasteable references or guidelines inside skills/agent-skills-wp-performance/references/ to complete the task.
+"""

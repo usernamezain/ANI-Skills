@@ -1,0 +1,6 @@
+description = "Upgrade Remotion, and related packages"
+
+prompt = """
+Invoke the ui:remotion-upgrade skill.
+Load the prompt instructions from skills/skills-remotion-upgrade/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-remotion-upgrade/references/ to complete the task.
+"""

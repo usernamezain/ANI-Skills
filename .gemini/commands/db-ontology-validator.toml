@@ -1,0 +1,6 @@
+description = ">"
+
+prompt = """
+Invoke the db:ontology-validator skill.
+Load the prompt instructions from skills/materials-simulation-skills-ontology-validator/SKILL.md and consult the copy-pasteable references or guidelines inside skills/materials-simulation-skills-ontology-validator/references/ to complete the task.
+"""

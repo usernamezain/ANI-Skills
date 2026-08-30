@@ -1,0 +1,6 @@
+description = "Send a team announcement via both Gmail and a Google Chat space."
+
+prompt = """
+Invoke the ai:recipe-send-team-announcement skill.
+Load the prompt instructions from skills/cli-recipe-send-team-announcement/SKILL.md and consult the copy-pasteable references or guidelines inside skills/cli-recipe-send-team-announcement/references/ to complete the task.
+"""

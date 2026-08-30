@@ -1,0 +1,6 @@
+description = "Deploy web projects to Netlify using the Netlify CLI (`npx netlify`). Use when the user asks to deploy, host, publish, or link a site/repo on Netlify, including preview and production deploys."
+
+prompt = """
+Invoke the ai:netlify-deploy skill.
+Load the prompt instructions from skills/skills-netlify-deploy/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-netlify-deploy/references/ to complete the task.
+"""

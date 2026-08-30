@@ -1,0 +1,6 @@
+description = "Plan a developer launch (Show HN, Reddit, Product Hunt) that earns goodwill instead of a flaming. Use when the user is sitting on a launch out of fear, wants to \\"go viral,\\" or is about to post a press-release-style announcement to a developer community."
+
+prompt = """
+Invoke the marketing:launch-it skill.
+Load the prompt instructions from skills/gtm-cofounder-launch-it/SKILL.md and consult the copy-pasteable references or guidelines inside skills/gtm-cofounder-launch-it/references/ to complete the task.
+"""

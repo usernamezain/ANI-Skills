@@ -1,0 +1,6 @@
+description = "Discover rising category conversations, formats, sounds, questions, and creator patterns across social platforms, then separate durable demand signals from short-lived noise."
+
+prompt = """
+Invoke the ai:trend-discovery skill.
+Load the prompt instructions from skills/goose-skills-trend-discovery/SKILL.md and consult the copy-pasteable references or guidelines inside skills/goose-skills-trend-discovery/references/ to complete the task.
+"""

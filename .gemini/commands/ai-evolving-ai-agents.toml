@@ -1,0 +1,6 @@
+description = "Provides guidance for automatically evolving and optimizing AI agents across any domain using LLM-driven evolution algorithms. Use when building self-improving agents, optimizing agent prompts and skills against benchmarks, or implementing automated agent evaluation loops."
+
+prompt = """
+Invoke the ai:evolving-ai-agents skill.
+Load the prompt instructions from skills/AI-Research-SKILLs-evolving-ai-agents/SKILL.md and consult the copy-pasteable references or guidelines inside skills/AI-Research-SKILLs-evolving-ai-agents/references/ to complete the task.
+"""

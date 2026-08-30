@@ -1,0 +1,6 @@
+# monitoring:sentry-cloudflare-sdk
+
+Full Sentry SDK setup for Cloudflare Workers and Pages. Use when asked to "add Sentry to Cloudflare Workers", "install @sentry/cloudflare", or configure error monitoring, tracing, logging, crons, or AI monitoring for Cloudflare Workers, Pages, Durable Objects, Queues, Workflows, or Hono on Cloudflare.
+
+**Skill folder:** `skills/sentry-for-ai-sentry-cloudflare-sdk/`
+**Namespace:** `monitoring`

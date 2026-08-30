@@ -1,0 +1,6 @@
+description = "Linting and formatting for Megatron-LM. Covers running autoformat.sh, tools (ruff, black, isort, pylint, mypy), and code style rules."
+
+prompt = """
+Invoke the ai:mcore-linting-and-formatting skill.
+Load the prompt instructions from skills/skills-mcore-linting-and-formatting/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-mcore-linting-and-formatting/references/ to complete the task.
+"""

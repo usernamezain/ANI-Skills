@@ -1,0 +1,6 @@
+# marketing:exec-summary
+
+Generate a C-suite-ready executive summary of marketing performance — ROI, CAC, LTV, top-3 wins and risks, strategic recommendations, and budget utilization — for a single brand or the whole portfolio, adapted to CEO, CMO, CFO, or board audiences. Triggers on \"/digital-marketing-pro:exec-summary\", \"prepare the board report\", \"summarize this quarter for the CEO\", \"portfolio ROI summary\", \"what do I tell leadership\". Computes KPIs via the CLV, ROI, forecaster, and budget-optimizer scripts, pulls data from connected analytics and CRM MCPs, reads the brand profile, and pairs with /digital-marketing-pro:competitor-analysis for competitive context.
+
+**Skill folder:** `skills/digital-marketing-pro-exec-summary/`
+**Namespace:** `marketing`

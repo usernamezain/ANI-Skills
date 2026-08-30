@@ -1,0 +1,6 @@
+description = "Get current weather and forecasts using free APIs (no API key required). Use when asked about weather, temperature, forecasts, or climate conditions for any location."
+
+prompt = """
+Invoke the api:weather skill.
+Load the prompt instructions from skills/goose-skills-weather/SKILL.md and consult the copy-pasteable references or guidelines inside skills/goose-skills-weather/references/ to complete the task.
+"""

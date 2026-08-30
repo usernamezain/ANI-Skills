@@ -1,0 +1,6 @@
+# marketing:metadata-optimization
+
+When the user wants to optimize App Store metadata — title, subtitle, keyword field, or description. Also use when the user mentions "optimize my title", "ASO metadata", "keyword field", "character limits", "app description", or "write my subtitle". For keyword discovery, see keyword-research. For full ASO audits, see aso-audit.
+
+**Skill folder:** `skills/aso-skills-metadata-optimization/`
+**Namespace:** `marketing`

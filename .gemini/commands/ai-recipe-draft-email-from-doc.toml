@@ -1,0 +1,6 @@
+description = "Read content from a Google Doc and use it as the body of a Gmail message."
+
+prompt = """
+Invoke the ai:recipe-draft-email-from-doc skill.
+Load the prompt instructions from skills/cli-recipe-draft-email-from-doc/SKILL.md and consult the copy-pasteable references or guidelines inside skills/cli-recipe-draft-email-from-doc/references/ to complete the task.
+"""

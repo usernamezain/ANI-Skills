@@ -1,0 +1,6 @@
+description = "Configure Jetson UPHY lane allocation (uphy0/uphy1-config) on Orin/Thor custom carriers. Do NOT use for pinmux or PCIe-only edits."
+
+prompt = """
+Invoke the ai:jetson-customize-uphy skill.
+Load the prompt instructions from skills/skills-jetson-customize-uphy/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-jetson-customize-uphy/references/ to complete the task.
+"""

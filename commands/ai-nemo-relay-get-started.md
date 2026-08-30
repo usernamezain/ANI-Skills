@@ -1,0 +1,6 @@
+# ai:nemo-relay-get-started
+
+Use this skill when first-time NeMo Relay users want to try Relay, choose the least-complex supported quick start, or verify initial value through the CLI, a maintained integration, or direct Python, Node.js, or Rust instrumentation before production setup.
+
+**Skill folder:** `skills/skills-nemo-relay-get-started/`
+**Namespace:** `ai`

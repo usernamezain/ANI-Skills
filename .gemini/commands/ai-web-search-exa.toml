@@ -1,0 +1,6 @@
+description = "Neural web search - find similar content, extract pages, and run deep research"
+
+prompt = """
+Invoke the ai:web-search-exa skill.
+Load the prompt instructions from skills/goose-skills-web-search-exa/SKILL.md and consult the copy-pasteable references or guidelines inside skills/goose-skills-web-search-exa/references/ to complete the task.
+"""

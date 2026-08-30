@@ -1,0 +1,6 @@
+# ui:threejs-game-director
+
+Primary entrypoint for complete Three.js browser game creation and premium iteration. Use by default for build-a-game, upgrade, polish, premium, AAA, high-fidelity, showcase, from-scratch, endless runner, arcade, action, or release-ready requests. Orchestrates sibling skills for gameplay, AAA graphics, UI, debug/profile, and QA/release, plus 3D/image/audio generators for characters, vehicles, weapons, buildings, props, skies, textures, logos, icons, GUI art, and SFX/voice. Keeps skill-loading, reference, asset-sourcing, and phase ledgers so users never choose skills manually.
+
+**Skill folder:** `skills/threejs-game-skills-threejs-game-director/`
+**Namespace:** `ui`

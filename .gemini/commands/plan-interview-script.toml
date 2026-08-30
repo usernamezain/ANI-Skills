@@ -1,0 +1,6 @@
+description = "Create a structured customer interview script with JTBD probing questions, warm-up, core exploration, and wrap-up sections. Follows The Mom Test principles — no leading questions, no pitching, focus on past behavior. Use when preparing for user interviews, creating interview guides, or planning discovery research."
+
+prompt = """
+Invoke the plan:interview-script skill.
+Load the prompt instructions from skills/pm-skills-interview-script/SKILL.md and consult the copy-pasteable references or guidelines inside skills/pm-skills-interview-script/references/ to complete the task.
+"""

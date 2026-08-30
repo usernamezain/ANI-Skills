@@ -1,0 +1,6 @@
+description = ">"
+
+prompt = """
+Invoke the db:differentiation-schemes skill.
+Load the prompt instructions from skills/materials-simulation-skills-differentiation-schemes/SKILL.md and consult the copy-pasteable references or guidelines inside skills/materials-simulation-skills-differentiation-schemes/references/ to complete the task.
+"""

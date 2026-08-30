@@ -1,0 +1,6 @@
+# doc:wp-abilities-audit
+
+Audit a WordPress plugin's REST surface and produce a standardized audit document proposing Abilities API registrations. Produces a markdown doc with a YAML schema and prose sections that humans and agents can both consume when planning a registration rollout. Works on any WP plugin.
+
+**Skill folder:** `skills/agent-skills-wp-abilities-audit/`
+**Namespace:** `doc`

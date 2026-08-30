@@ -1,0 +1,6 @@
+description = "Verify host/GPU requirements and PYTHONPATH for the catheter navigation workflow. Use when asked to set up, install, or bootstrap catheter_navigation, or when hitting import/GPU/slangpy errors."
+
+prompt = """
+Invoke the ai:i4h-catheter-navigation-setup skill.
+Load the prompt instructions from skills/skills-i4h-catheter-navigation-setup/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-i4h-catheter-navigation-setup/references/ to complete the task.
+"""

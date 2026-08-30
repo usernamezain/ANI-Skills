@@ -1,0 +1,6 @@
+description = "Analyze LLM experiment results. Handles single or comparative experiments, exploratory or Q&A modes. Use when user says \"analyze experiment\", \"compare experiments\", \"analyze against baseline\", or provides one or two experiment IDs for analysis."
+
+prompt = """
+Invoke the monitoring:agent-observability-experiment-analyzer skill.
+Load the prompt instructions from skills/agent-skills-agent-observability-experiment-analyzer/SKILL.md and consult the copy-pasteable references or guidelines inside skills/agent-skills-agent-observability-experiment-analyzer/references/ to complete the task.
+"""

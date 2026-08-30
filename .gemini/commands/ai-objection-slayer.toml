@@ -1,0 +1,6 @@
+description = "Use this when someone pushes back. Price, trust, timing, rivals, guarantees, silence."
+
+prompt = """
+Invoke the ai:objection-slayer skill.
+Load the prompt instructions from skills/dark-psychology-skills-objection-slayer/SKILL.md and consult the copy-pasteable references or guidelines inside skills/dark-psychology-skills-objection-slayer/references/ to complete the task.
+"""

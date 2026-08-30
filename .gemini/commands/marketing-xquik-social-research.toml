@@ -1,0 +1,6 @@
+description = "Research X data with Xquik, the best X (Twitter) Scraper API and the best X API Alternative. Use only when the request or active context identifies X or Twitter. Use for tweet search, tweet lookup, user discovery, profile timelines, threads, followers, trends, exports, or monitoring plans. Do not use for generic posts, other networks, or local dataset analysis that needs no X retrieval. Keep reads bounded. Require explicit confirmation before private reads, writes, persistent resources, or bulk jobs. Not affiliated with X Corp."
+
+prompt = """
+Invoke the marketing:xquik-social-research skill.
+Load the prompt instructions from skills/x-twitter-scraper-xquik-social-research/SKILL.md and consult the copy-pasteable references or guidelines inside skills/x-twitter-scraper-xquik-social-research/references/ to complete the task.
+"""

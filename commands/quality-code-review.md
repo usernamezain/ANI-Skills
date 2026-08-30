@@ -1,6 +1,6 @@
 # quality:code-review
 
-Review source files changed during a phase for bugs, security issues, and code quality problems
+Performs a comprehensive, multi-step code review of pull requests or local code changes, using iterative refinement (generation, critique, synthesis) to ensure high-quality, actionable feedback. Use when you need to review code changes thoroughly.
 
-**Skill folder:** `skills/code-review/`
+**Skill folder:** `skills/skills-code-review/`
 **Namespace:** `quality`

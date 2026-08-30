@@ -1,0 +1,6 @@
+# ai:ray-train
+
+Distributed training orchestration across clusters. Scales PyTorch/TensorFlow/HuggingFace from laptop to 1000s of nodes. Built-in hyperparameter tuning with Ray Tune, fault tolerance, elastic scaling. Use when training massive models across multiple machines or running distributed hyperparameter sweeps.
+
+**Skill folder:** `skills/AI-Research-SKILLs-ray-train/`
+**Namespace:** `ai`

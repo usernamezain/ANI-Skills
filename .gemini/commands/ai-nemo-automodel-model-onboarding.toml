@@ -1,0 +1,6 @@
+description = "Guide for onboarding new model architectures into NeMo AutoModel, including architecture discovery, implementation patterns, registration, and validation."
+
+prompt = """
+Invoke the ai:nemo-automodel-model-onboarding skill.
+Load the prompt instructions from skills/skills-nemo-automodel-model-onboarding/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-nemo-automodel-model-onboarding/references/ to complete the task.
+"""

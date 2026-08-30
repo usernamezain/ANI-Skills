@@ -1,0 +1,6 @@
+description = "Multi-agent orchestration framework for autonomous AI collaboration. Use when building teams of specialized agents working together on complex tasks, when you need role-based agent collaboration with memory, or for production workflows requiring sequential/hierarchical execution. Built without LangChain dependencies for lean, fast execution."
+
+prompt = """
+Invoke the ai:crewai-multi-agent skill.
+Load the prompt instructions from skills/AI-Research-SKILLs-crewai-multi-agent/SKILL.md and consult the copy-pasteable references or guidelines inside skills/AI-Research-SKILLs-crewai-multi-agent/references/ to complete the task.
+"""

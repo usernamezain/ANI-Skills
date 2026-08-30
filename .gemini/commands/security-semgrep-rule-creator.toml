@@ -1,0 +1,6 @@
+description = "Creates custom Semgrep rules for detecting security vulnerabilities, bug patterns, and code patterns. Use when writing Semgrep rules or building custom static analysis detections."
+
+prompt = """
+Invoke the security:semgrep-rule-creator skill.
+Load the prompt instructions from skills/skills-semgrep-rule-creator/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-semgrep-rule-creator/references/ to complete the task.
+"""

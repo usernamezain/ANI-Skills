@@ -1,0 +1,6 @@
+description = "Real-time stereo depth estimation using FastFoundationStereo (FFS), the distilled bp2 commercial variant of"
+
+prompt = """
+Invoke the ai:tao-train-fast-foundation-stereo skill.
+Load the prompt instructions from skills/skills-tao-train-fast-foundation-stereo/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-tao-train-fast-foundation-stereo/references/ to complete the task.
+"""

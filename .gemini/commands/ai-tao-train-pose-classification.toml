@@ -1,0 +1,6 @@
+description = "Pose classification using ST-GCN (Spatial Temporal Graph Convolutional Network). Classifies skeleton sequences"
+
+prompt = """
+Invoke the ai:tao-train-pose-classification skill.
+Load the prompt instructions from skills/skills-tao-train-pose-classification/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-tao-train-pose-classification/references/ to complete the task.
+"""

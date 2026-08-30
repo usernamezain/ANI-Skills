@@ -1,0 +1,6 @@
+# plan:pestel-delta-monitor
+
+Quarterly re-scan of a prior PESTEL analysis. Use when checking which macro factors moved, which assumptions broke, and what's new — turning PESTEL from a workshop artifact into a radar.
+
+**Skill folder:** `skills/Product-Manager-Skills-pestel-delta-monitor/`
+**Namespace:** `plan`

@@ -1,0 +1,6 @@
+description = ">"
+
+prompt = """
+Invoke the marketing:seo-hreflang skill.
+Load the prompt instructions from skills/claude-seo-seo-hreflang/SKILL.md and consult the copy-pasteable references or guidelines inside skills/claude-seo-seo-hreflang/references/ to complete the task.
+"""

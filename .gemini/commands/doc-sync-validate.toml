@@ -1,0 +1,6 @@
+description = "Review a sync capability for common bugs — cursor advancement, pagination termination, state persistence, bi-modal correctness, consistency buffers, and deletion handling"
+
+prompt = """
+Invoke the doc:sync-validate skill.
+Load the prompt instructions from skills/notion-cookbook-sync-validate/SKILL.md and consult the copy-pasteable references or guidelines inside skills/notion-cookbook-sync-validate/references/ to complete the task.
+"""

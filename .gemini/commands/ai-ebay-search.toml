@@ -1,0 +1,6 @@
+description = "Search eBay listings - find items, auctions, deals, and compare prices"
+
+prompt = """
+Invoke the ai:ebay-search skill.
+Load the prompt instructions from skills/goose-skills-ebay-search/SKILL.md and consult the copy-pasteable references or guidelines inside skills/goose-skills-ebay-search/references/ to complete the task.
+"""

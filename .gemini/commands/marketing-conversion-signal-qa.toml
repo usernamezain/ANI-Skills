@@ -1,0 +1,6 @@
+description = "Use when the user asks to \"QA my conversion tracking before launch\", \"check my UTMs / pixel / event firing\", \"set up a tracking pre-flight\", or \"set the dedup rule so Meta and Google stop double-counting\"; builds and fixes the measurement plumbing — conversion-event firing, UTM hygiene, cross-platform dedup rules, attribution-window alignment, and offline/iOS-ATT modeled-gap flags — as a pre-flight checklist plus a UTM/event-spec builder. Not for scoring R1/R2 — that is a scored veto in ad-account-auditor; not for account structure — use campaign-architect. 付费广告转化追踪QA/UTM规范/跨平台去重"
+
+prompt = """
+Invoke the marketing:conversion-signal-qa skill.
+Load the prompt instructions from skills/aaron-marketing-skills-conversion-signal-qa/SKILL.md and consult the copy-pasteable references or guidelines inside skills/aaron-marketing-skills-conversion-signal-qa/references/ to complete the task.
+"""

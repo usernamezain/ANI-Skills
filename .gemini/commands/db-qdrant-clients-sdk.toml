@@ -1,0 +1,6 @@
+description = "Qdrant provides client SDKs for various programming languages, allowing easy integration with Qdrant deployments."
+
+prompt = """
+Invoke the db:qdrant-clients-sdk skill.
+Load the prompt instructions from skills/skills-qdrant-clients-sdk/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-qdrant-clients-sdk/references/ to complete the task.
+"""

@@ -1,0 +1,6 @@
+description = "Test system for Megatron-LM. Covers test layout, recipe YAML structure, adding and running unit and functional tests, golden values, marker filters, and CI parity."
+
+prompt = """
+Invoke the ai:mcore-testing skill.
+Load the prompt instructions from skills/skills-mcore-testing/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-mcore-testing/references/ to complete the task.
+"""

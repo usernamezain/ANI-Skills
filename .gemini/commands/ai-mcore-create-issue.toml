@@ -1,0 +1,6 @@
+description = "Investigate a failing GitHub Actions run or job and create a GitHub issue for the failure."
+
+prompt = """
+Invoke the ai:mcore-create-issue skill.
+Load the prompt instructions from skills/skills-mcore-create-issue/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-mcore-create-issue/references/ to complete the task.
+"""

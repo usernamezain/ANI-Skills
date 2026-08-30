@@ -1,0 +1,6 @@
+description = "MoE expert-parallel communication overlap in Megatron Bridge. Covers dispatch/combine overlap, flex dispatcher backends, and expert wgrad scheduling."
+
+prompt = """
+Invoke the ai:nemo-mbridge-perf-moe-comm-overlap skill.
+Load the prompt instructions from skills/skills-nemo-mbridge-perf-moe-comm-overlap/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-nemo-mbridge-perf-moe-comm-overlap/references/ to complete the task.
+"""

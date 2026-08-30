@@ -1,0 +1,6 @@
+description = "Analyze competitors with strengths, weaknesses, and differentiation opportunities. Identifies direct competitors and maps the competitive landscape. Use when doing competitive research, preparing a competitive brief, or finding differentiation opportunities."
+
+prompt = """
+Invoke the plan:competitor-analysis skill.
+Load the prompt instructions from skills/pm-skills-competitor-analysis/SKILL.md and consult the copy-pasteable references or guidelines inside skills/pm-skills-competitor-analysis/references/ to complete the task.
+"""

@@ -1,0 +1,6 @@
+description = "Diagnose Meta Ads campaign performance and account gaps using Meta's actual system mechanics — including customer-journey coverage, Breakdown Effect, Learning Phase, Auction Overlap, Pacing, and Creative Fatigue. Use for performance diagnosis, account audits, full-funnel or TOF/MOF/BOF gap analysis, deciding what to test or create next, and producing novice-friendly recommendations without forcing every campaign or ad into a funnel stage."
+
+prompt = """
+Invoke the quality:meta-ads-analyzer skill.
+Load the prompt instructions from skills/goose-skills-meta-ads-analyzer/SKILL.md and consult the copy-pasteable references or guidelines inside skills/goose-skills-meta-ads-analyzer/references/ to complete the task.
+"""

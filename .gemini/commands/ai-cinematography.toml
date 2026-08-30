@@ -1,0 +1,6 @@
+description = ">"
+
+prompt = """
+Invoke the ai:cinematography skill.
+Load the prompt instructions from skills/skills-cinematography/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-cinematography/references/ to complete the task.
+"""

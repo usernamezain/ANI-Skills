@@ -1,0 +1,6 @@
+description = "Search discussions, track communities, analyze posts, and discover trends on Reddit through SandBase. Use when asked for Reddit research, community analysis, trending topics, discussion monitoring, content discovery, or audience insight beyond customer-focused research."
+
+prompt = """
+Invoke the monitoring:reddit-research skill.
+Load the prompt instructions from skills/sandbase-skills-reddit-research/SKILL.md and consult the copy-pasteable references or guidelines inside skills/sandbase-skills-reddit-research/references/ to complete the task.
+"""

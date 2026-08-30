@@ -1,0 +1,6 @@
+description = ">-"
+
+prompt = """
+Invoke the cloud:google-cloud-waf-performance-optimization skill.
+Load the prompt instructions from skills/skills-google-cloud-waf-performance-optimization/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-google-cloud-waf-performance-optimization/references/ to complete the task.
+"""

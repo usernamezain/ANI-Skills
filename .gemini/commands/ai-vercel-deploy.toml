@@ -1,0 +1,6 @@
+description = "Deploy applications and websites to Vercel. Use when the user requests deployment actions like \"deploy my app\", \"deploy and give me the link\", \"push this live\", or \"create a preview deployment\"."
+
+prompt = """
+Invoke the ai:vercel-deploy skill.
+Load the prompt instructions from skills/skills-vercel-deploy/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-vercel-deploy/references/ to complete the task.
+"""

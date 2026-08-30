@@ -1,0 +1,6 @@
+description = "Share a Google Docs document with edit access and email collaborators the link."
+
+prompt = """
+Invoke the ai:recipe-share-doc-and-notify skill.
+Load the prompt instructions from skills/cli-recipe-share-doc-and-notify/SKILL.md and consult the copy-pasteable references or guidelines inside skills/cli-recipe-share-doc-and-notify/references/ to complete the task.
+"""

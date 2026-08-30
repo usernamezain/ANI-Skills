@@ -1,0 +1,6 @@
+description = "Use when the user asks to \"optimize my Shopping feed\", \"fix product disapprovals\", \"improve product titles/attributes\", or \"build feed-driven PMax asset groups\"; audits and rewrites the Shopping/Performance Max product feed — title/description patterns, required and recommended attributes, GTIN/availability/price hygiene, disapproval triage, and feed-driven asset-group / listing-group structure — informing the ROAS O (Offer) dimension. Not for text ad copy — use ad-creative-builder; not for scoring the account or the RQS — use ad-account-auditor. 商品Feed优化/购物广告Feed/商品标题优化/商品禁投修复"
+
+prompt = """
+Invoke the marketing:product-feed-optimizer skill.
+Load the prompt instructions from skills/aaron-marketing-skills-product-feed-optimizer/SKILL.md and consult the copy-pasteable references or guidelines inside skills/aaron-marketing-skills-product-feed-optimizer/references/ to complete the task.
+"""

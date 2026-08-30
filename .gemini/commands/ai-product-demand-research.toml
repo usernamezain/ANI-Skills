@@ -1,0 +1,6 @@
+description = "Test product-demand hypotheses using public customer language, search and social signals, competitor offers, reviews, comments, creator content, and social-commerce evidence before committing to a product, launch, offer, or campaign."
+
+prompt = """
+Invoke the ai:product-demand-research skill.
+Load the prompt instructions from skills/goose-skills-product-demand-research/SKILL.md and consult the copy-pasteable references or guidelines inside skills/goose-skills-product-demand-research/references/ to complete the task.
+"""

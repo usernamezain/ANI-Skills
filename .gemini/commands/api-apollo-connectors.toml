@@ -1,0 +1,6 @@
+description = ">"
+
+prompt = """
+Invoke the api:apollo-connectors skill.
+Load the prompt instructions from skills/skills-apollo-connectors/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-apollo-connectors/references/ to complete the task.
+"""

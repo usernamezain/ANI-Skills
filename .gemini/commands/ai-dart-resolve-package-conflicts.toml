@@ -1,0 +1,6 @@
+description = "Workflow for fixing package version conflicts. Use this when `pub get` fails due to incompatible package versions."
+
+prompt = """
+Invoke the ai:dart-resolve-package-conflicts skill.
+Load the prompt instructions from skills/skills-dart-resolve-package-conflicts/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-dart-resolve-package-conflicts/references/ to complete the task.
+"""

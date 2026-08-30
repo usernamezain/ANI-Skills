@@ -1,0 +1,6 @@
+description = "Generate a clean morning brief in Claude Code — pulls today's priorities, unposted content, and weather from your vault."
+
+prompt = """
+Invoke the marketing:daily-briefing-builder skill.
+Load the prompt instructions from skills/ai-marketing-claude-code-skills-daily-briefing-builder/SKILL.md and consult the copy-pasteable references or guidelines inside skills/ai-marketing-claude-code-skills-daily-briefing-builder/references/ to complete the task.
+"""

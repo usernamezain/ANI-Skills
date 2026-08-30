@@ -1,0 +1,6 @@
+description = ">"
+
+prompt = """
+Invoke the marketing:seo-page skill.
+Load the prompt instructions from skills/notfair-plugin-seo-page/SKILL.md and consult the copy-pasteable references or guidelines inside skills/notfair-plugin-seo-page/references/ to complete the task.
+"""

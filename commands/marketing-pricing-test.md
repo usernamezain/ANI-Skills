@@ -1,0 +1,6 @@
+# marketing:pricing-test
+
+Estimate willingness-to-pay by testing 3-8 candidate price points against synthetic audience panels grounded in CRM purchase data (audience-simulator.py), Van Westendorp / Gabor-Granger style. Produces per-segment sensitivity curves, an optimal price, the acceptable price range, revenue- vs volume-maximizing prices, competitive positioning, and tiering recommendations — always with explicit confidence limits. Triggers on \"/digital-marketing-pro:pricing-test\", \"what should we charge for this\", \"test these price points\", \"is our pricing too high\", \"should we introduce pricing tiers\". Reads the brand profile for positioning and market context; results are directional simulations that require real-world validation, not live market tests.
+
+**Skill folder:** `skills/digital-marketing-pro-pricing-test/`
+**Namespace:** `marketing`

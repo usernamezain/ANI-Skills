@@ -1,0 +1,6 @@
+description = ">-"
+
+prompt = """
+Invoke the ai:bigtable-basics skill.
+Load the prompt instructions from skills/skills-bigtable-basics/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-bigtable-basics/references/ to complete the task.
+"""

@@ -1,0 +1,6 @@
+description = "Assess whether your product work is AI-first or AI-shaped. Use when evaluating AI maturity and choosing the next team capability to build."
+
+prompt = """
+Invoke the plan:ai-shaped-readiness-advisor skill.
+Load the prompt instructions from skills/Product-Manager-Skills-ai-shaped-readiness-advisor/SKILL.md and consult the copy-pasteable references or guidelines inside skills/Product-Manager-Skills-ai-shaped-readiness-advisor/references/ to complete the task.
+"""

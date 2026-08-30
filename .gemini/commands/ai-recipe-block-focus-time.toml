@@ -1,0 +1,6 @@
+description = "Create recurring focus time blocks on Google Calendar to protect deep work hours."
+
+prompt = """
+Invoke the ai:recipe-block-focus-time skill.
+Load the prompt instructions from skills/cli-recipe-block-focus-time/SKILL.md and consult the copy-pasteable references or guidelines inside skills/cli-recipe-block-focus-time/references/ to complete the task.
+"""

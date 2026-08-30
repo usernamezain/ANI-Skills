@@ -1,0 +1,6 @@
+description = "Use to deploy the vss-video-analytics-api REST service standalone (config-source, data-log bind, Elasticsearch, optional Kafka). Not for full warehouse deploy."
+
+prompt = """
+Invoke the api:vss-setup-video-analytics-api skill.
+Load the prompt instructions from skills/skills-vss-setup-video-analytics-api/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-vss-setup-video-analytics-api/references/ to complete the task.
+"""

@@ -1,0 +1,6 @@
+description = "Guide the transition to VP or CPO across preparing, interviewing, landing, and recalibrating. Use when executive product scope is changing fast."
+
+prompt = """
+Invoke the plan:vp-cpo-readiness-advisor skill.
+Load the prompt instructions from skills/Product-Manager-Skills-vp-cpo-readiness-advisor/SKILL.md and consult the copy-pasteable references or guidelines inside skills/Product-Manager-Skills-vp-cpo-readiness-advisor/references/ to complete the task.
+"""

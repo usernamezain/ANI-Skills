@@ -1,0 +1,6 @@
+description = "Research any topic across China's major social platforms — Weibo, Douyin, Xiaohongshu, Bilibili, and Zhihu — simultaneously. Aggregates discussion volume, sentiment, key opinion leaders, and platform-specific trends for comprehensive China market intelligence."
+
+prompt = """
+Invoke the plan:china-social-research skill.
+Load the prompt instructions from skills/sandbase-skills-china-social-research/SKILL.md and consult the copy-pasteable references or guidelines inside skills/sandbase-skills-china-social-research/references/ to complete the task.
+"""

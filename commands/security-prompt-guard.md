@@ -1,0 +1,6 @@
+# security:prompt-guard
+
+Meta's 86M prompt injection and jailbreak detector. Filters malicious prompts and third-party data for LLM apps. 99%+ TPR, <1% FPR. Fast (<2ms GPU). Multilingual (8 languages). Deploy with HuggingFace or batch processing for RAG security.
+
+**Skill folder:** `skills/AI-Research-SKILLs-prompt-guard/`
+**Namespace:** `security`

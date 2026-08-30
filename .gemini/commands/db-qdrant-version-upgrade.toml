@@ -1,0 +1,6 @@
+description = "Covers upgrading Qdrant server and SDKs without interrupting availability or losing data integrity. Use when someone asks 'how do I upgrade Qdrant', 'can I jump from 1.15 to 1.18', 'rolling upgrade without downtime', 'do I upgrade the client or the server first', 'which SDK version matches my server', 'what should I check before upgrading', or 'something changed after we upgraded'."
+
+prompt = """
+Invoke the db:qdrant-version-upgrade skill.
+Load the prompt instructions from skills/skills-qdrant-version-upgrade/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-qdrant-version-upgrade/references/ to complete the task.
+"""

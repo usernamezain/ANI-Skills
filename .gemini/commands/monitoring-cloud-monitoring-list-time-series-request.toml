@@ -1,0 +1,6 @@
+description = ">-"
+
+prompt = """
+Invoke the monitoring:cloud-monitoring-list-time-series-request skill.
+Load the prompt instructions from skills/skills-cloud-monitoring-list-time-series-request/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-cloud-monitoring-list-time-series-request/references/ to complete the task.
+"""

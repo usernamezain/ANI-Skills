@@ -1,0 +1,6 @@
+description = "Remove vague, corporate, or AI-sounding language and replace it with clear, specific, human wording. Trigger on \"improve copy\", \"sounds generic\", \"too fluffy\"."
+
+prompt = """
+Invoke the marketing:generic-language-killer skill.
+Load the prompt instructions from skills/advertising-skills-generic-language-killer/SKILL.md and consult the copy-pasteable references or guidelines inside skills/advertising-skills-generic-language-killer/references/ to complete the task.
+"""

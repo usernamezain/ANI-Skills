@@ -1,0 +1,6 @@
+description = ">"
+
+prompt = """
+Invoke the ai:champion-tracker skill.
+Load the prompt instructions from skills/goose-skills-champion-tracker/SKILL.md and consult the copy-pasteable references or guidelines inside skills/goose-skills-champion-tracker/references/ to complete the task.
+"""

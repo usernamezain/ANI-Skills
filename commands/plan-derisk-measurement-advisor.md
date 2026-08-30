@@ -1,0 +1,6 @@
+# plan:derisk-measurement-advisor
+
+Identify what to measure, test, or track to de-risk a product or AI idea. Use when stress-testing an idea across internal (DUFV) and external (PESTEL) dimensions.
+
+**Skill folder:** `skills/Product-Manager-Skills-derisk-measurement-advisor/`
+**Namespace:** `plan`

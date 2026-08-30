@@ -1,0 +1,6 @@
+description = "Gmail: Send, read, and manage email."
+
+prompt = """
+Invoke the ai:gws-gmail skill.
+Load the prompt instructions from skills/cli-gws-gmail/SKILL.md and consult the copy-pasteable references or guidelines inside skills/cli-gws-gmail/references/ to complete the task.
+"""

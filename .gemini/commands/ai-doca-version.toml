@@ -1,0 +1,6 @@
+description = ">"
+
+prompt = """
+Invoke the ai:doca-version skill.
+Load the prompt instructions from skills/skills-doca-version/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-doca-version/references/ to complete the task.
+"""

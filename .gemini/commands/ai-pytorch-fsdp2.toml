@@ -1,0 +1,6 @@
+description = "Adds PyTorch FSDP2 (fully_shard) to training scripts with correct init, sharding, mixed precision/offload config, and distributed checkpointing. Use when models exceed single-GPU memory or when you need DTensor-based sharding with DeviceMesh."
+
+prompt = """
+Invoke the ai:pytorch-fsdp2 skill.
+Load the prompt instructions from skills/AI-Research-SKILLs-pytorch-fsdp2/SKILL.md and consult the copy-pasteable references or guidelines inside skills/AI-Research-SKILLs-pytorch-fsdp2/references/ to complete the task.
+"""

@@ -1,0 +1,6 @@
+description = ">-"
+
+prompt = """
+Invoke the ai:warp-debug-gradients skill.
+Load the prompt instructions from skills/skills-warp-debug-gradients/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-warp-debug-gradients/references/ to complete the task.
+"""

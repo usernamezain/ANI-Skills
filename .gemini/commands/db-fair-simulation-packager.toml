@@ -1,0 +1,6 @@
+description = ">"
+
+prompt = """
+Invoke the db:fair-simulation-packager skill.
+Load the prompt instructions from skills/materials-simulation-skills-fair-simulation-packager/SKILL.md and consult the copy-pasteable references or guidelines inside skills/materials-simulation-skills-fair-simulation-packager/references/ to complete the task.
+"""

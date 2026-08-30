@@ -1,0 +1,6 @@
+# marketing:press-and-pr
+
+When the user wants to get press coverage, media mentions, or editorial features for their app — including writing press releases, pitching journalists, getting on "best apps" lists, or building an app press kit. Use when the user mentions "press", "PR", "media coverage", "TechCrunch", "journalist", "press release", "app press kit", "get featured in media", "editorial coverage", "review from a blogger", or "app launch announcement". For Apple editorial featuring, see app-store-featured. For launch strategy, see app-launch.
+
+**Skill folder:** `skills/aso-skills-press-and-pr/`
+**Namespace:** `marketing`

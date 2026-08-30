@@ -1,0 +1,6 @@
+description = "Use when planning, debugging, tuning, evaluating, exporting, or deploying public Nemotron `embed`/`rerank` retrieval recipes."
+
+prompt = """
+Invoke the mobile:nemotron-retrieval-recipes skill.
+Load the prompt instructions from skills/skills-nemotron-retrieval-recipes/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-nemotron-retrieval-recipes/references/ to complete the task.
+"""

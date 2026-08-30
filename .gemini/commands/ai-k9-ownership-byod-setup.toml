@@ -1,0 +1,6 @@
+description = ">"
+
+prompt = """
+Invoke the ai:k9-ownership-byod-setup skill.
+Load the prompt instructions from skills/agent-skills-k9-ownership-byod-setup/SKILL.md and consult the copy-pasteable references or guidelines inside skills/agent-skills-k9-ownership-byod-setup/references/ to complete the task.
+"""

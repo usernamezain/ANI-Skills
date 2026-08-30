@@ -1,0 +1,6 @@
+description = ">"
+
+prompt = """
+Invoke the ai:content-planner skill.
+Load the prompt instructions from skills/notfair-plugin-content-planner/SKILL.md and consult the copy-pasteable references or guidelines inside skills/notfair-plugin-content-planner/references/ to complete the task.
+"""

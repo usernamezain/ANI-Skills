@@ -1,0 +1,6 @@
+description = "Generate content ideas rooted in positioning. Use when someone needs \"content ideas,\" \"what should I post,\" \"blog topics,\" \"LinkedIn ideas,\" or is stuck on what to create."
+
+prompt = """
+Invoke the marketing:content-idea-generator skill.
+Load the prompt instructions from skills/ai-marketing-claude-code-skills-content-idea-generator/SKILL.md and consult the copy-pasteable references or guidelines inside skills/ai-marketing-claude-code-skills-content-idea-generator/references/ to complete the task.
+"""

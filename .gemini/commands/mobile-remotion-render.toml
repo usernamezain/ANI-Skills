@@ -1,0 +1,6 @@
+description = "Export a Remotion video"
+
+prompt = """
+Invoke the mobile:remotion-render skill.
+Load the prompt instructions from skills/skills-remotion-render/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-remotion-render/references/ to complete the task.
+"""

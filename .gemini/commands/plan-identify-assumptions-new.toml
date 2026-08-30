@@ -1,0 +1,6 @@
+description = "Identify risky assumptions for a new product idea across 8 risk categories including Go-to-Market, Strategy, and Team. Use when evaluating startup risks, assessing a new product concept, or mapping assumptions for a new venture."
+
+prompt = """
+Invoke the plan:identify-assumptions-new skill.
+Load the prompt instructions from skills/pm-skills-identify-assumptions-new/SKILL.md and consult the copy-pasteable references or guidelines inside skills/pm-skills-identify-assumptions-new/references/ to complete the task.
+"""

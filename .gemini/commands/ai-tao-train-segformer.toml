@@ -1,0 +1,6 @@
+description = "SegFormer for semantic segmentation. Lightweight transformer-based architecture with hierarchical feature"
+
+prompt = """
+Invoke the ai:tao-train-segformer skill.
+Load the prompt instructions from skills/skills-tao-train-segformer/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-tao-train-segformer/references/ to complete the task.
+"""

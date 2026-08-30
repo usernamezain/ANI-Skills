@@ -1,0 +1,6 @@
+# ai:nemo-rl-auto-research
+
+Autonomous NeMo-RL research agent workflow for directed hypothesis testing and open-ended discovery. Guides agents through the full experiment lifecycle: understanding recipes and environments, wiring RL or NeMo-gym runs, launching reproducible baselines and iterations, analyzing results, preserving human oversight, and using git plus TSV logs as the research ledger. Do NOT use for: bug fixes, code review, documentation, refactoring, dependency updates, or single-file changes.
+
+**Skill folder:** `skills/skills-nemo-rl-auto-research/`
+**Namespace:** `ai`

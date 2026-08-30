@@ -1,0 +1,6 @@
+description = "Diagnose and fix Single Step Instrumentation (SSI) issues on Linux hosts — SSI automatically instruments applications for APM without code changes. Only use if the agent and SSI are configured but traces are missing or instrumentation is not working."
+
+prompt = """
+Invoke the ai:troubleshoot-ssi skill.
+Load the prompt instructions from skills/agent-skills-troubleshoot-ssi/SKILL.md and consult the copy-pasteable references or guidelines inside skills/agent-skills-troubleshoot-ssi/references/ to complete the task.
+"""

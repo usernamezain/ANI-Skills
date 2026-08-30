@@ -1,0 +1,6 @@
+description = "Understand the PM-to-Director transition through altitude and horizon thinking. Use when diagnosing scope, time-horizon, or leadership-level gaps."
+
+prompt = """
+Invoke the plan:altitude-horizon-framework skill.
+Load the prompt instructions from skills/Product-Manager-Skills-altitude-horizon-framework/SKILL.md and consult the copy-pasteable references or guidelines inside skills/Product-Manager-Skills-altitude-horizon-framework/references/ to complete the task.
+"""

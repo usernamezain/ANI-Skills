@@ -1,0 +1,6 @@
+description = "Use to run AutoMagicCalib on local MP4s, RTSP, or the bundled sample dataset, and to deploy vss-auto-calibration when needed. Do not use for non-AMC calibration or runtime analytics."
+
+prompt = """
+Invoke the ai:vss-generate-video-calibration skill.
+Load the prompt instructions from skills/skills-vss-generate-video-calibration/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-vss-generate-video-calibration/references/ to complete the task.
+"""

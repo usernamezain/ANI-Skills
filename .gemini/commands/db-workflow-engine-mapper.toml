@@ -1,0 +1,6 @@
+description = ">"
+
+prompt = """
+Invoke the db:workflow-engine-mapper skill.
+Load the prompt instructions from skills/materials-simulation-skills-workflow-engine-mapper/SKILL.md and consult the copy-pasteable references or guidelines inside skills/materials-simulation-skills-workflow-engine-mapper/references/ to complete the task.
+"""

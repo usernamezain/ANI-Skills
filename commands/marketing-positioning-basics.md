@@ -1,0 +1,6 @@
+# marketing:positioning-basics
+
+Help founders and marketers nail their positioning. Use when someone mentions "positioning," "value proposition," "who is this for," "how do I describe my product," "messaging," "ICP," "ideal customer," or is struggling to articulate what makes their product different.
+
+**Skill folder:** `skills/ai-marketing-claude-code-skills-positioning-basics/`
+**Namespace:** `marketing`

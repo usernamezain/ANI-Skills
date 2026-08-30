@@ -1,0 +1,6 @@
+description = "Run an end-to-end product strategy session across positioning, discovery, and roadmap planning. Use when a team needs validated direction before committing to execution."
+
+prompt = """
+Invoke the auth:product-strategy-session skill.
+Load the prompt instructions from skills/Product-Manager-Skills-product-strategy-session/SKILL.md and consult the copy-pasteable references or guidelines inside skills/Product-Manager-Skills-product-strategy-session/references/ to complete the task.
+"""

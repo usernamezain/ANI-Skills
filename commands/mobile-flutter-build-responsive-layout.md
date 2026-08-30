@@ -1,0 +1,6 @@
+# mobile:flutter-build-responsive-layout
+
+Use `LayoutBuilder`, `MediaQuery`, or `Expanded/Flexible` to create a layout that adapts to different screen sizes. Use when you need the UI to look good on both mobile and tablet/desktop form factors.
+
+**Skill folder:** `skills/skills-flutter-build-responsive-layout/`
+**Namespace:** `mobile`

@@ -1,0 +1,6 @@
+description = "Capture conversations and decisions into structured Notion pages; use when turning chats/notes into wiki entries, how-tos, decisions, or FAQs with proper linking."
+
+prompt = """
+Invoke the doc:notion-knowledge-capture skill.
+Load the prompt instructions from skills/skills-notion-knowledge-capture/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-notion-knowledge-capture/references/ to complete the task.
+"""

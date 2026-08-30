@@ -1,0 +1,6 @@
+description = "Research competitors - products, pricing, team, funding, and strategy"
+
+prompt = """
+Invoke the ai:competitor-research skill.
+Load the prompt instructions from skills/goose-skills-competitor-research/SKILL.md and consult the copy-pasteable references or guidelines inside skills/goose-skills-competitor-research/references/ to complete the task.
+"""

@@ -1,0 +1,6 @@
+description = ">"
+
+prompt = """
+Invoke the ai:earth2studio-data-fetch skill.
+Load the prompt instructions from skills/skills-earth2studio-data-fetch/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-earth2studio-data-fetch/references/ to complete the task.
+"""

@@ -1,0 +1,6 @@
+description = "Handle HR workflows — onboarding, announcements, and employee comms."
+
+prompt = """
+Invoke the ai:persona-hr-coordinator skill.
+Load the prompt instructions from skills/cli-persona-hr-coordinator/SKILL.md and consult the copy-pasteable references or guidelines inside skills/cli-persona-hr-coordinator/references/ to complete the task.
+"""

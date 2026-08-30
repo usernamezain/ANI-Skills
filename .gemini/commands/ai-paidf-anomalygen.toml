@@ -1,0 +1,6 @@
+description = ">-"
+
+prompt = """
+Invoke the ai:paidf-anomalygen skill.
+Load the prompt instructions from skills/skills-paidf-anomalygen/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-paidf-anomalygen/references/ to complete the task.
+"""

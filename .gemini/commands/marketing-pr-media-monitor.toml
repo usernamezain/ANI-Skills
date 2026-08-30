@@ -1,0 +1,6 @@
+description = "Track media coverage, press mentions, journalist activity, and industry narrative across news outlets, Twitter, and LinkedIn. Ideal for PR teams monitoring earned media, tracking campaign impact, and identifying journalist relationships."
+
+prompt = """
+Invoke the marketing:pr-media-monitor skill.
+Load the prompt instructions from skills/sandbase-skills-pr-media-monitor/SKILL.md and consult the copy-pasteable references or guidelines inside skills/sandbase-skills-pr-media-monitor/references/ to complete the task.
+"""

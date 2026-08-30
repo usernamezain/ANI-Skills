@@ -1,0 +1,6 @@
+description = "Use this skill when concurrent requests, async tasks, threads, workers, goroutines, or agents need independent NeMo Relay scope stacks and correct ancestry propagation."
+
+prompt = """
+Invoke the ai:nemo-relay-instrument-context-isolation skill.
+Load the prompt instructions from skills/skills-nemo-relay-instrument-context-isolation/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-nemo-relay-instrument-context-isolation/references/ to complete the task.
+"""

@@ -1,0 +1,6 @@
+description = "Create a Google Meet meeting space and share the join link."
+
+prompt = """
+Invoke the ai:recipe-create-meet-space skill.
+Load the prompt instructions from skills/cli-recipe-create-meet-space/SKILL.md and consult the copy-pasteable references or guidelines inside skills/cli-recipe-create-meet-space/references/ to complete the task.
+"""

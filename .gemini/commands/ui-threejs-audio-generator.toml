@@ -1,0 +1,6 @@
+description = "Generate, convert, clean, and prepare audio assets for Three.js browser games using ElevenLabs. Use for sound effects, looping ambience, UI sounds, impact/weapon/vehicle audio, creature or boss stingers, announcer/dialogue TTS, scratch-performance voice conversion, voice cleanup/isolation, audio manifests, and game-ready web audio integration."
+
+prompt = """
+Invoke the ui:threejs-audio-generator skill.
+Load the prompt instructions from skills/threejs-game-skills-threejs-audio-generator/SKILL.md and consult the copy-pasteable references or guidelines inside skills/threejs-game-skills-threejs-audio-generator/references/ to complete the task.
+"""

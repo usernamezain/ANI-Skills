@@ -1,0 +1,6 @@
+description = ">-"
+
+prompt = """
+Invoke the ai:physical-ai-video-data-augmentation skill.
+Load the prompt instructions from skills/skills-physical-ai-video-data-augmentation/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-physical-ai-video-data-augmentation/references/ to complete the task.
+"""

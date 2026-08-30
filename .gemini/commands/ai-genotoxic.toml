@@ -1,0 +1,6 @@
+description = "Graph-informed mutation testing triage. Parses codebases with Trailmark, runs mutation testing and necessist, then uses survived mutants, unnecessary test statements, and call graph data to identify false positives, missing test coverage, and fuzzing targets. Use when triaging survived mutants, analyzing mutation testing results, identifying test gaps, finding fuzzing targets from weak tests, running mutation frameworks (including circomvent and cairo-mutants), or using necessist."
+
+prompt = """
+Invoke the ai:genotoxic skill.
+Load the prompt instructions from skills/skills-genotoxic/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-genotoxic/references/ to complete the task.
+"""

@@ -1,0 +1,6 @@
+description = "Use this to find out what someone wants, fears, or hides. Without interrogating them."
+
+prompt = """
+Invoke the ai:discovery-power skill.
+Load the prompt instructions from skills/dark-psychology-skills-discovery-power/SKILL.md and consult the copy-pasteable references or guidelines inside skills/dark-psychology-skills-discovery-power/references/ to complete the task.
+"""

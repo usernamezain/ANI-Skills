@@ -1,0 +1,6 @@
+# scraping:functions
+
+Deploy serverless browser automation as cloud functions using Browserbase. Use when the user wants to deploy browser automation to run on a schedule or cron, create a webhook endpoint for browser tasks, run automation in the cloud instead of locally, or asks about Browserbase Functions.
+
+**Skill folder:** `skills/skills-functions/`
+**Namespace:** `scraping`

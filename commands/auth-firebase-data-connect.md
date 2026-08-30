@@ -1,0 +1,6 @@
+# auth:firebase-data-connect
+
+Builds and deploys Firebase SQL Connect (aka Firebase Data Connect) backends with PostgreSQL securely. Use when designing schemas with tables and relations, writing authorized queries and mutations, configuring real-time data updates, or generating type-safe SDKs. Use when you need a relational database with Firebase, or when the user mentions SQL Connect or Data Connect.
+
+**Skill folder:** `skills/agent-skills-firebase-data-connect/`
+**Namespace:** `auth`

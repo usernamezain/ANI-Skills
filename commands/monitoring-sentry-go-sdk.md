@@ -1,0 +1,6 @@
+# monitoring:sentry-go-sdk
+
+Full Sentry SDK setup for Go. Use when asked to "add Sentry to Go", "install sentry-go", "setup Sentry in Go", or configure error monitoring, tracing, logging, metrics, or crons for Go applications. Supports net/http, Gin, Echo, Fiber, FastHTTP, Iris, Negroni, and gRPC.
+
+**Skill folder:** `skills/sentry-for-ai-sentry-go-sdk/`
+**Namespace:** `monitoring`

@@ -1,0 +1,6 @@
+# auth:cookie-sync
+
+Sync cookies from local Chrome to a Browserbase persistent context so the browse CLI can access authenticated sites. Use when the user wants to browse as themselves, sync cookies, or log into sites via Browserbase.
+
+**Skill folder:** `skills/skills-cookie-sync/`
+**Namespace:** `auth`

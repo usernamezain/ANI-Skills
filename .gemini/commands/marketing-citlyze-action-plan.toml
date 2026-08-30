@@ -1,0 +1,6 @@
+description = "Turn Citlyze optimization recommendations into a prioritized, sequenced action plan. Use when asked \"what should we do to improve AI visibility\", \"prioritize the recommendations\", \"make an AEO/GEO action plan\", or after a visibility report surfaces problems. Requires the Citlyze MCP server."
+
+prompt = """
+Invoke the marketing:citlyze-action-plan skill.
+Load the prompt instructions from skills/citlyze-skills-citlyze-action-plan/SKILL.md and consult the copy-pasteable references or guidelines inside skills/citlyze-skills-citlyze-action-plan/references/ to complete the task.
+"""

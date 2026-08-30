@@ -1,0 +1,6 @@
+description = "When the user wants to set up, interpret, or improve their app analytics and tracking. Also use when the user mentions \"analytics\", \"tracking\", \"metrics\", \"KPIs\", \"App Store Connect analytics\", \"install tracking\", \"funnel\", \"attribution\", or \"how is my app performing\". For A/B testing, see ab-test-store-listing. For retention metrics, see retention-optimization."
+
+prompt = """
+Invoke the marketing:app-analytics skill.
+Load the prompt instructions from skills/aso-skills-app-analytics/SKILL.md and consult the copy-pasteable references or guidelines inside skills/aso-skills-app-analytics/references/ to complete the task.
+"""

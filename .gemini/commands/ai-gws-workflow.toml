@@ -1,0 +1,6 @@
+description = "Google Workflow: Cross-service productivity workflows."
+
+prompt = """
+Invoke the ai:gws-workflow skill.
+Load the prompt instructions from skills/cli-gws-workflow/SKILL.md and consult the copy-pasteable references or guidelines inside skills/cli-gws-workflow/references/ to complete the task.
+"""

@@ -1,0 +1,6 @@
+description = "Use this skill when choosing or running NeMo Relay installation for the CLI, Python, Node.js, Rust, OpenClaw, Hermes, or maintained framework integrations before runtime configuration or quick-start setup."
+
+prompt = """
+Invoke the ai:nemo-relay-install skill.
+Load the prompt instructions from skills/skills-nemo-relay-install/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-nemo-relay-install/references/ to complete the task.
+"""

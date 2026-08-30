@@ -1,0 +1,6 @@
+description = ">-"
+
+prompt = """
+Invoke the api:google-ads-api-account-diagnostics skill.
+Load the prompt instructions from skills/skills-google-ads-api-account-diagnostics/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-google-ads-api-account-diagnostics/references/ to complete the task.
+"""

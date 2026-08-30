@@ -1,0 +1,6 @@
+description = "Plan and prepare a new paid-media campaign or cross-channel test before it can spend. Use when asked to create, launch, start, set up, or allocate budget to an advertising campaign on any supported platform."
+
+prompt = """
+Invoke the marketing:paid-ads-launch skill.
+Load the prompt instructions from skills/notfair-plugin-paid-ads-launch/SKILL.md and consult the copy-pasteable references or guidelines inside skills/notfair-plugin-paid-ads-launch/references/ to complete the task.
+"""

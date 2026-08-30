@@ -1,0 +1,6 @@
+description = "Used for running NV-Segment-CTMR on CT or MRI NIfTI volumes and recording label-map evidence. Not for clinical interpretation."
+
+prompt = """
+Invoke the ai:nv-segment-ctmr skill.
+Load the prompt instructions from skills/skills-nv-segment-ctmr/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-nv-segment-ctmr/references/ to complete the task.
+"""

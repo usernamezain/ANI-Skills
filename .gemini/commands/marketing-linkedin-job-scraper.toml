@@ -1,0 +1,6 @@
+description = ">"
+
+prompt = """
+Invoke the marketing:linkedin-job-scraper skill.
+Load the prompt instructions from skills/goose-skills-linkedin-job-scraper/SKILL.md and consult the copy-pasteable references or guidelines inside skills/goose-skills-linkedin-job-scraper/references/ to complete the task.
+"""

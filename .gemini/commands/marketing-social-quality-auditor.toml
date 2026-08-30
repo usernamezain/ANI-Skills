@@ -1,0 +1,6 @@
+description = "Use when the user asks to \"audit our social presence\" or \"is this batch safe to publish\"; runs either the typed ECHO asset gate or a separate program-maturity profile, with channel-truth, claim, disclosure, manipulation, UGC-rights, and denominator checks. Not for creator deliverables — use creator-content-auditor; not for launch readiness — use launch-readiness-auditor. 社媒资产门/运营成熟度/发布前放行"
+
+prompt = """
+Invoke the marketing:social-quality-auditor skill.
+Load the prompt instructions from skills/aaron-marketing-skills-social-quality-auditor/SKILL.md and consult the copy-pasteable references or guidelines inside skills/aaron-marketing-skills-social-quality-auditor/references/ to complete the task.
+"""

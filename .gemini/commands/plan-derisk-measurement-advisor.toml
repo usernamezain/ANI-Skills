@@ -1,0 +1,6 @@
+description = "Identify what to measure, test, or track to de-risk a product or AI idea. Use when stress-testing an idea across internal (DUFV) and external (PESTEL) dimensions."
+
+prompt = """
+Invoke the plan:derisk-measurement-advisor skill.
+Load the prompt instructions from skills/Product-Manager-Skills-derisk-measurement-advisor/SKILL.md and consult the copy-pasteable references or guidelines inside skills/Product-Manager-Skills-derisk-measurement-advisor/references/ to complete the task.
+"""

@@ -1,0 +1,6 @@
+description = "Research WeChat Official Account articles, analyze account profiles, track article performance, and read comments. Covers article discovery, account profiling, engagement statistics, comment analysis, and content strategy research on China's dominant messaging ecosystem."
+
+prompt = """
+Invoke the quality:wechat-mp-research skill.
+Load the prompt instructions from skills/sandbase-skills-wechat-mp-research/SKILL.md and consult the copy-pasteable references or guidelines inside skills/sandbase-skills-wechat-mp-research/references/ to complete the task.
+"""

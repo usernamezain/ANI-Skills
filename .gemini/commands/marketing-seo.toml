@@ -1,0 +1,6 @@
+description = "Optimize for search engine visibility and ranking. Use when asked to \"improve SEO\", \"optimize for search\", \"fix meta tags\", \"add structured data\", \"sitemap optimization\", or \"search engine optimization\"."
+
+prompt = """
+Invoke the marketing:seo skill.
+Load the prompt instructions from skills/web-quality-skills-seo/SKILL.md and consult the copy-pasteable references or guidelines inside skills/web-quality-skills-seo/references/ to complete the task.
+"""

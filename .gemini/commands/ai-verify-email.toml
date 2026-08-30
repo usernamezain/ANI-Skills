@@ -1,0 +1,6 @@
+description = "Verify if an email address is valid and deliverable"
+
+prompt = """
+Invoke the ai:verify-email skill.
+Load the prompt instructions from skills/goose-skills-verify-email/SKILL.md and consult the copy-pasteable references or guidelines inside skills/goose-skills-verify-email/references/ to complete the task.
+"""

@@ -1,0 +1,6 @@
+description = ">"
+
+prompt = """
+Invoke the ui:character-design skill.
+Load the prompt instructions from skills/skills-character-design/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-character-design/references/ to complete the task.
+"""

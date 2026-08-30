@@ -1,0 +1,6 @@
+description = "Install Holoscan SDK natively on Ubuntu via apt. Use for C++ installs on Ubuntu; pair with /holoscan-install-wheel for Python."
+
+prompt = """
+Invoke the ai:holoscan-install-debian skill.
+Load the prompt instructions from skills/skills-holoscan-install-debian/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-holoscan-install-debian/references/ to complete the task.
+"""

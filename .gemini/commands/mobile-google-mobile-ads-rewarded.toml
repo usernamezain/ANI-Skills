@@ -1,0 +1,6 @@
+description = ">-"
+
+prompt = """
+Invoke the mobile:google-mobile-ads-rewarded skill.
+Load the prompt instructions from skills/skills-google-mobile-ads-rewarded/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-google-mobile-ads-rewarded/references/ to complete the task.
+"""

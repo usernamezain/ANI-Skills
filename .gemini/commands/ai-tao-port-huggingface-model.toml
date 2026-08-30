@@ -1,0 +1,6 @@
+description = ">"
+
+prompt = """
+Invoke the ai:tao-port-huggingface-model skill.
+Load the prompt instructions from skills/skills-tao-port-huggingface-model/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-tao-port-huggingface-model/references/ to complete the task.
+"""

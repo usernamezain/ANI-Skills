@@ -1,0 +1,6 @@
+description = "Build evidence-backed SEO keyword insights and strategy using SandBase-managed search, keyword, site-analysis, and SERP capabilities. Use when asked to discover or prioritize keywords, assess search demand or ranking feasibility, map intent and topics, find competitor gaps, plan organic-search landing pages or content, or analyze a website's SEO opportunities."
+
+prompt = """
+Invoke the marketing:seo-keyword-insights skill.
+Load the prompt instructions from skills/sandbase-skills-seo-keyword-insights/SKILL.md and consult the copy-pasteable references or guidelines inside skills/sandbase-skills-seo-keyword-insights/references/ to complete the task.
+"""

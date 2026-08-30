@@ -1,0 +1,6 @@
+description = "Reviews the specified code against the canonical API Design guidelines. Use this skill when the user asks for an API review or to check code against API design principles."
+
+prompt = """
+Invoke the ui:api-review skill.
+Load the prompt instructions from skills/skills-api-review/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-api-review/references/ to complete the task.
+"""

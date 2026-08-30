@@ -1,0 +1,6 @@
+description = "Validate and use CPU offloading in Megatron Bridge, including layer-level activation offloading and fractional optimizer state offloading with HybridDeviceOptimizer."
+
+prompt = """
+Invoke the ai:nemo-mbridge-perf-cpu-offloading skill.
+Load the prompt instructions from skills/skills-nemo-mbridge-perf-cpu-offloading/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-nemo-mbridge-perf-cpu-offloading/references/ to complete the task.
+"""

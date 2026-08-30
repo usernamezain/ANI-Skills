@@ -1,0 +1,6 @@
+description = "Create a new Google Slides presentation and add initial slides."
+
+prompt = """
+Invoke the ai:recipe-create-presentation skill.
+Load the prompt instructions from skills/cli-recipe-create-presentation/SKILL.md and consult the copy-pasteable references or guidelines inside skills/cli-recipe-create-presentation/references/ to complete the task.
+"""

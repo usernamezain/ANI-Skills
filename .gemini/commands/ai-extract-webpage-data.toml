@@ -1,0 +1,6 @@
+description = "Extract structured data from web pages using AI"
+
+prompt = """
+Invoke the ai:extract-webpage-data skill.
+Load the prompt instructions from skills/goose-skills-extract-webpage-data/SKILL.md and consult the copy-pasteable references or guidelines inside skills/goose-skills-extract-webpage-data/references/ to complete the task.
+"""

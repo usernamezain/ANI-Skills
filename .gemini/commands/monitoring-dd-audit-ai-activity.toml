@@ -1,0 +1,6 @@
+description = "Audit what the Bits AI assistant (MCP server) has done in your Datadog org — tool calls by user, resources accessed, and anomaly flags for AI governance."
+
+prompt = """
+Invoke the monitoring:dd-audit-ai-activity skill.
+Load the prompt instructions from skills/agent-skills-dd-audit-ai-activity/SKILL.md and consult the copy-pasteable references or guidelines inside skills/agent-skills-dd-audit-ai-activity/references/ to complete the task.
+"""

@@ -1,0 +1,6 @@
+# mobile:flutter-apply-architecture-best-practices
+
+Architects a Flutter application using the recommended layered approach (UI, Logic, Data). Use when structuring a new project or refactoring for scalability.
+
+**Skill folder:** `skills/skills-flutter-apply-architecture-best-practices/`
+**Namespace:** `mobile`

@@ -1,0 +1,6 @@
+description = "Review your Google Calendar week, identify gaps, and add events to fill them."
+
+prompt = """
+Invoke the ai:recipe-plan-weekly-schedule skill.
+Load the prompt instructions from skills/cli-recipe-plan-weekly-schedule/SKILL.md and consult the copy-pasteable references or guidelines inside skills/cli-recipe-plan-weekly-schedule/references/ to complete the task.
+"""

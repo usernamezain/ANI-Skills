@@ -1,0 +1,6 @@
+# cloud:wp-block-development
+
+Use when developing WordPress (Gutenberg) blocks: block.json metadata, register_block_type(_from_metadata), attributes/serialization, supports, dynamic rendering (render.php/render_callback), deprecations/migrations, viewScript vs viewScriptModule, and @wordpress/scripts/@wordpress/create-block build and test workflows.
+
+**Skill folder:** `skills/agent-skills-wp-block-development/`
+**Namespace:** `cloud`

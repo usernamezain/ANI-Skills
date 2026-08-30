@@ -1,0 +1,6 @@
+description = "Instruments structured Sentry logs in a new or existing application."
+
+prompt = """
+Invoke the monitoring:sentry-instrument-logging skill.
+Load the prompt instructions from skills/sentry-for-ai-sentry-instrument-logging/SKILL.md and consult the copy-pasteable references or guidelines inside skills/sentry-for-ai-sentry-instrument-logging/references/ to complete the task.
+"""

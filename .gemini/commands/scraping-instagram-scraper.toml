@@ -1,0 +1,6 @@
+description = "Get Instagram profiles, posts, and reels"
+
+prompt = """
+Invoke the scraping:instagram-scraper skill.
+Load the prompt instructions from skills/goose-skills-instagram-scraper/SKILL.md and consult the copy-pasteable references or guidelines inside skills/goose-skills-instagram-scraper/references/ to complete the task.
+"""

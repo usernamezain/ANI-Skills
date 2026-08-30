@@ -1,0 +1,6 @@
+description = "Fetch and read transcripts from YouTube videos. Use when you need to summarize a video, answer questions about its content, or extract information from it."
+
+prompt = """
+Invoke the ai:youtube-watcher skill.
+Load the prompt instructions from skills/goose-skills-youtube-watcher/SKILL.md and consult the copy-pasteable references or guidelines inside skills/goose-skills-youtube-watcher/references/ to complete the task.
+"""

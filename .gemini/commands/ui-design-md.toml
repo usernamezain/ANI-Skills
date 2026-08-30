@@ -1,0 +1,6 @@
+description = "Analyze Stitch projects and synthesize a semantic design system into DESIGN.md files"
+
+prompt = """
+Invoke the ui:design-md skill.
+Load the prompt instructions from skills/stitch-skills-design-md/SKILL.md and consult the copy-pasteable references or guidelines inside skills/stitch-skills-design-md/references/ to complete the task.
+"""

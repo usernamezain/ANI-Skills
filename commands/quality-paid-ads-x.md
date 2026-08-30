@@ -1,0 +1,6 @@
+# quality:paid-ads-x
+
+Audit, diagnose, and safely operate connected X Ads (Twitter Ads) accounts through the NotFair MCP. Use for X Ads performance, campaign or line-item analysis, spend, conversions, targeting, promoted posts, audiences, budgets, bids, creative, campaign setup, or approved X Ads changes.
+
+**Skill folder:** `skills/notfair-plugin-paid-ads-x/`
+**Namespace:** `quality`

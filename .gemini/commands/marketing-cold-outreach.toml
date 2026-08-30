@@ -1,0 +1,6 @@
+description = "Use this for first messages to strangers. DMs, email, LinkedIn, WhatsApp."
+
+prompt = """
+Invoke the marketing:cold-outreach skill.
+Load the prompt instructions from skills/dark-psychology-skills-cold-outreach/SKILL.md and consult the copy-pasteable references or guidelines inside skills/dark-psychology-skills-cold-outreach/references/ to complete the task.
+"""

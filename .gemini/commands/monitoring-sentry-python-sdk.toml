@@ -1,0 +1,6 @@
+description = "Full Sentry SDK setup for Python. Use when asked to \"add Sentry to Python\", \"install sentry-sdk\", \"setup Sentry in Python\", or configure error monitoring, tracing, profiling, logging, metrics, crons, or AI monitoring for Python applications. Supports Django, Flask, FastAPI, Celery, Starlette, AIOHTTP, Tornado, and more."
+
+prompt = """
+Invoke the monitoring:sentry-python-sdk skill.
+Load the prompt instructions from skills/sentry-for-ai-sentry-python-sdk/SKILL.md and consult the copy-pasteable references or guidelines inside skills/sentry-for-ai-sentry-python-sdk/references/ to complete the task.
+"""

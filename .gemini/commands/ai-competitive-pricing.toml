@@ -1,0 +1,6 @@
+description = "Research competitor pricing strategies by extracting pricing pages, comparing product listings on Google Shopping and Amazon, and analyzing market positioning. Produces pricing benchmarks, tier comparisons, and feature-per-price analysis."
+
+prompt = """
+Invoke the ai:competitive-pricing skill.
+Load the prompt instructions from skills/sandbase-skills-competitive-pricing/SKILL.md and consult the copy-pasteable references or guidelines inside skills/sandbase-skills-competitive-pricing/references/ to complete the task.
+"""

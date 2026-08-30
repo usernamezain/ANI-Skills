@@ -1,0 +1,6 @@
+description = "Search Remotion documentation"
+
+prompt = """
+Invoke the ui:remotion-docs skill.
+Load the prompt instructions from skills/skills-remotion-docs/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-remotion-docs/references/ to complete the task.
+"""

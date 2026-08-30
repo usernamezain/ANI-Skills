@@ -1,0 +1,6 @@
+description = "AI-powered lead enrichment - find emails, phones, and enrich company/lead data"
+
+prompt = """
+Invoke the ai:lead-enrichment-sixtyfour skill.
+Load the prompt instructions from skills/goose-skills-lead-enrichment-sixtyfour/SKILL.md and consult the copy-pasteable references or guidelines inside skills/goose-skills-lead-enrichment-sixtyfour/references/ to complete the task.
+"""

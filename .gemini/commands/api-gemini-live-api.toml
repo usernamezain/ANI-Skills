@@ -1,0 +1,6 @@
+description = ">-"
+
+prompt = """
+Invoke the api:gemini-live-api skill.
+Load the prompt instructions from skills/skills-gemini-live-api/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-gemini-live-api/references/ to complete the task.
+"""

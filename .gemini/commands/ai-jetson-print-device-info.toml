@@ -1,0 +1,6 @@
+description = "Use when you need to print Jetson device info (module model, L4T version, kernel, OS version, current power mode) from a running Jetson target. This is an example skill."
+
+prompt = """
+Invoke the ai:jetson-print-device-info skill.
+Load the prompt instructions from skills/skills-jetson-print-device-info/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-jetson-print-device-info/references/ to complete the task.
+"""

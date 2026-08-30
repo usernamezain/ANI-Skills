@@ -1,0 +1,6 @@
+description = "When the user wants to monitor competitor apps on an ongoing basis — tracking metadata changes, keyword shifts, screenshot updates, rating trends, or new features. Use when the user mentions \"competitor monitoring\", \"track competitors\", \"competitor alert\", \"competitor changed their title\", \"watch a competitor app\", \"competitor weekly report\", \"competitive intelligence\", or \"what changed in competitor's listing\". For a one-time deep competitive analysis, see competitor-analysis. For market-wide chart movements, see market-movers."
+
+prompt = """
+Invoke the marketing:competitor-tracking skill.
+Load the prompt instructions from skills/aso-skills-competitor-tracking/SKILL.md and consult the copy-pasteable references or guidelines inside skills/aso-skills-competitor-tracking/references/ to complete the task.
+"""

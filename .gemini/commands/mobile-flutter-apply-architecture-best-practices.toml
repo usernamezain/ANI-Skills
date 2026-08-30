@@ -1,0 +1,6 @@
+description = "Architects a Flutter application using the recommended layered approach (UI, Logic, Data). Use when structuring a new project or refactoring for scalability."
+
+prompt = """
+Invoke the mobile:flutter-apply-architecture-best-practices skill.
+Load the prompt instructions from skills/skills-flutter-apply-architecture-best-practices/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-flutter-apply-architecture-best-practices/references/ to complete the task.
+"""

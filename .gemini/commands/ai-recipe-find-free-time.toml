@@ -1,0 +1,6 @@
+description = "Query Google Calendar free/busy status for multiple users to find a meeting slot."
+
+prompt = """
+Invoke the ai:recipe-find-free-time skill.
+Load the prompt instructions from skills/cli-recipe-find-free-time/SKILL.md and consult the copy-pasteable references or guidelines inside skills/cli-recipe-find-free-time/references/ to complete the task.
+"""

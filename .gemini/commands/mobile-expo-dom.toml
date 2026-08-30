@@ -1,0 +1,6 @@
+description = "Framework (OSS). Use Expo DOM components to run web code in a webview on native and as-is on web. Migrate web code to native incrementally. For the end-to-end migration of a whole web app, use the expo-web-to-native skill."
+
+prompt = """
+Invoke the mobile:expo-dom skill.
+Load the prompt instructions from skills/skills-expo-dom/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-expo-dom/references/ to complete the task.
+"""

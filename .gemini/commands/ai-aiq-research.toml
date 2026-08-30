@@ -1,0 +1,6 @@
+description = "|"
+
+prompt = """
+Invoke the ai:aiq-research skill.
+Load the prompt instructions from skills/skills-aiq-research/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-aiq-research/references/ to complete the task.
+"""

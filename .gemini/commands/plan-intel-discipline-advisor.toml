@@ -1,0 +1,6 @@
+description = "Triage a competitive or market question into the right intelligence disciplines, cadence, and executing skill. Use when you know something needs researching but not which channel to run."
+
+prompt = """
+Invoke the plan:intel-discipline-advisor skill.
+Load the prompt instructions from skills/Product-Manager-Skills-intel-discipline-advisor/SKILL.md and consult the copy-pasteable references or guidelines inside skills/Product-Manager-Skills-intel-discipline-advisor/references/ to complete the task.
+"""

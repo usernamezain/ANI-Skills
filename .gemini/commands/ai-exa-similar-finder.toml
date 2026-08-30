@@ -1,0 +1,6 @@
+description = "Find web pages and content similar to a given URL using Exa's neural similarity search. Ideal for competitor discovery, alternative source finding, related content research, and expanding research beyond known sources."
+
+prompt = """
+Invoke the ai:exa-similar-finder skill.
+Load the prompt instructions from skills/sandbase-skills-exa-similar-finder/SKILL.md and consult the copy-pasteable references or guidelines inside skills/sandbase-skills-exa-similar-finder/references/ to complete the task.
+"""

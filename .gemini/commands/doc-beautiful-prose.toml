@@ -1,0 +1,6 @@
+description = "A hard-edged writing style contract for timeless, forceful English prose without modern AI tics. Use when users ask for prose or rewrites that must be clean, exact, concrete, and free of AI cadence, filler, or therapeutic tone."
+
+prompt = """
+Invoke the doc:beautiful-prose skill.
+Load the prompt instructions from skills/beautiful_prose-beautiful-prose/SKILL.md and consult the copy-pasteable references or guidelines inside skills/beautiful_prose-beautiful-prose/references/ to complete the task.
+"""

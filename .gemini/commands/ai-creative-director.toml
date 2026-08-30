@@ -1,0 +1,6 @@
+description = ">"
+
+prompt = """
+Invoke the ai:creative-director skill.
+Load the prompt instructions from skills/creative-director-skill-creative-director/SKILL.md and consult the copy-pasteable references or guidelines inside skills/creative-director-skill-creative-director/references/ to complete the task.
+"""

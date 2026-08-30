@@ -1,0 +1,6 @@
+description = "Onboards a new user — sets up their brand for the first time from their website. Analyzes the brand, finds its competitors, and saves both to the company profile that every later session reads from. Use when the user wants to onboard, get started, or set up their brand or company profile. Not for just analyzing a brand from its website — that is analyzing-brand."
+
+prompt = """
+Invoke the marketing:onboarding-user skill.
+Load the prompt instructions from skills/superCMO-skills-onboarding-user/SKILL.md and consult the copy-pasteable references or guidelines inside skills/superCMO-skills-onboarding-user/references/ to complete the task.
+"""

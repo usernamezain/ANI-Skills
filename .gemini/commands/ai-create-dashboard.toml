@@ -1,0 +1,6 @@
+description = ">"
+
+prompt = """
+Invoke the ai:create-dashboard skill.
+Load the prompt instructions from skills/goose-skills-create-dashboard/SKILL.md and consult the copy-pasteable references or guidelines inside skills/goose-skills-create-dashboard/references/ to complete the task.
+"""

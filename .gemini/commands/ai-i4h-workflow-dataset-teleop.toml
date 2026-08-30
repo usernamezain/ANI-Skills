@@ -1,0 +1,6 @@
+description = "Record episodes for an agentic env via teleoperation (keyboard, SO-ARM leader, or VR) into HDF5. Use when the user wants to teleop or record human demos."
+
+prompt = """
+Invoke the ai:i4h-workflow-dataset-teleop skill.
+Load the prompt instructions from skills/skills-i4h-workflow-dataset-teleop/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-i4h-workflow-dataset-teleop/references/ to complete the task.
+"""

@@ -1,0 +1,6 @@
+description = ">-"
+
+prompt = """
+Invoke the ai:alloydb-basics skill.
+Load the prompt instructions from skills/skills-alloydb-basics/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-alloydb-basics/references/ to complete the task.
+"""

@@ -1,0 +1,6 @@
+description = "Framework (OSS). Guidelines for upgrading Expo SDK versions and fixing dependency issues"
+
+prompt = """
+Invoke the mobile:expo-upgrade skill.
+Load the prompt instructions from skills/skills-expo-upgrade/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-expo-upgrade/references/ to complete the task.
+"""

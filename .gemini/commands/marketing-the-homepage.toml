@@ -1,0 +1,6 @@
+description = "Structure a dev-tool homepage that converts developers into champions. Use when the landing page is written for the buyer instead of the developer, reads as salesy, buries what the product does, or makes it hard to start. Pairs with the ShipReady homepage audit."
+
+prompt = """
+Invoke the marketing:the-homepage skill.
+Load the prompt instructions from skills/gtm-cofounder-the-homepage/SKILL.md and consult the copy-pasteable references or guidelines inside skills/gtm-cofounder-the-homepage/references/ to complete the task.
+"""

@@ -1,0 +1,6 @@
+# marketing:writing-ad-copy
+
+Writes the words of an ad — the headline, primary text, description and call to action that go into the ad platform's own fields, shaped to the channel it runs on. Handles one channel or several, returning copy sized to each platform's limits. Nothing is generated here — text only. Use when the user wants ad copy, ad text, headlines, primary text, a description or captions written for a paid ad.
+
+**Skill folder:** `skills/superCMO-skills-writing-ad-copy/`
+**Namespace:** `marketing`

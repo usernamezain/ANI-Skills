@@ -1,0 +1,6 @@
+description = "Use this when you feel needy, the other side tests you, or you are losing control of the talk."
+
+prompt = """
+Invoke the ai:frame-control skill.
+Load the prompt instructions from skills/dark-psychology-skills-frame-control/SKILL.md and consult the copy-pasteable references or guidelines inside skills/dark-psychology-skills-frame-control/references/ to complete the task.
+"""

@@ -1,0 +1,6 @@
+description = "This skill helps agents use Figma's use_figma MCP tool in the Slides context. Can be used alongside figma-use which has foundational context for using the use_figma tool."
+
+prompt = """
+Invoke the ai:figma-use-slides skill.
+Load the prompt instructions from skills/mcp-server-guide-figma-use-slides/SKILL.md and consult the copy-pasteable references or guidelines inside skills/mcp-server-guide-figma-use-slides/references/ to complete the task.
+"""

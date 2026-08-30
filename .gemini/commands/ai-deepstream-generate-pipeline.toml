@@ -1,0 +1,6 @@
+description = "Build DeepStream GStreamer pipelines interactively. Use when the user asks about pipelines for video/image inference, detection, tracking, or streaming — including natural phrases like 'pipeline to infer on image', 'run inference on video', 'detect objects in stream', 'save inference output', 'deepstream pipeline', 'gst-launch pipeline', 'process video with detection', 'build a pipeline', or any request involving GStreamer/DeepStream elements (nvinfer, nvstreammux, nvtracker, etc.)."
+
+prompt = """
+Invoke the ai:deepstream-generate-pipeline skill.
+Load the prompt instructions from skills/skills-deepstream-generate-pipeline/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-deepstream-generate-pipeline/references/ to complete the task.
+"""

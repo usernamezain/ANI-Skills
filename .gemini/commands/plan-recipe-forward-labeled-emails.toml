@@ -1,0 +1,6 @@
+description = "Find Gmail messages with a specific label and forward them to another address."
+
+prompt = """
+Invoke the plan:recipe-forward-labeled-emails skill.
+Load the prompt instructions from skills/cli-recipe-forward-labeled-emails/SKILL.md and consult the copy-pasteable references or guidelines inside skills/cli-recipe-forward-labeled-emails/references/ to complete the task.
+"""

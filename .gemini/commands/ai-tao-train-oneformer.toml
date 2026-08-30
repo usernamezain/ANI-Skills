@@ -1,0 +1,6 @@
+description = "OneFormer for universal image segmentation. Unifies panoptic, instance, and semantic segmentation with a"
+
+prompt = """
+Invoke the ai:tao-train-oneformer skill.
+Load the prompt instructions from skills/skills-tao-train-oneformer/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-tao-train-oneformer/references/ to complete the task.
+"""

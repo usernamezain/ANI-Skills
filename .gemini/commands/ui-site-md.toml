@@ -1,0 +1,6 @@
+description = "Analyze a project description or site requirements and synthesize a project constitution into SITE.md for the Stitch Build Loop"
+
+prompt = """
+Invoke the ui:site-md skill.
+Load the prompt instructions from skills/stitch-skills-site-md/SKILL.md and consult the copy-pasteable references or guidelines inside skills/stitch-skills-site-md/references/ to complete the task.
+"""

@@ -1,0 +1,6 @@
+description = ">-"
+
+prompt = """
+Invoke the ai:gke-manifest-generation skill.
+Load the prompt instructions from skills/skills-gke-manifest-generation/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-gke-manifest-generation/references/ to complete the task.
+"""

@@ -1,0 +1,6 @@
+description = "Find and fix issues from Sentry using MCP. Use when asked to fix Sentry errors, debug production issues, investigate exceptions, or resolve bugs reported in Sentry. Methodically analyzes stack traces, breadcrumbs, traces, and context to identify root causes."
+
+prompt = """
+Invoke the monitoring:sentry-fix-issues skill.
+Load the prompt instructions from skills/sentry-for-ai-sentry-fix-issues/SKILL.md and consult the copy-pasteable references or guidelines inside skills/sentry-for-ai-sentry-fix-issues/references/ to complete the task.
+"""

@@ -1,0 +1,6 @@
+description = "Monocular depth estimation using Metric Depth Anything v2 or Relative Depth Anything architectures. Predicts"
+
+prompt = """
+Invoke the ai:tao-train-depth-anything-v2 skill.
+Load the prompt instructions from skills/skills-tao-train-depth-anything-v2/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-tao-train-depth-anything-v2/references/ to complete the task.
+"""

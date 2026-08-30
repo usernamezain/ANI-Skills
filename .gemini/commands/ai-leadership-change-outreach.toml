@@ -1,0 +1,6 @@
+description = ">"
+
+prompt = """
+Invoke the ai:leadership-change-outreach skill.
+Load the prompt instructions from skills/goose-skills-leadership-change-outreach/SKILL.md and consult the copy-pasteable references or guidelines inside skills/goose-skills-leadership-change-outreach/references/ to complete the task.
+"""

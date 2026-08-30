@@ -1,0 +1,6 @@
+description = "Create polished terminal GIF recordings using VHS (Video Hardware Software) by Charmbracelet. Use when asked to create terminal demos, CLI gifs, command-line recordings, or animated terminal screenshots for documentation, READMEs, or marketing."
+
+prompt = """
+Invoke the marketing:terminal-gif-recordings skill.
+Load the prompt instructions from skills/goose-skills-terminal-gif-recordings/SKILL.md and consult the copy-pasteable references or guidelines inside skills/goose-skills-terminal-gif-recordings/references/ to complete the task.
+"""

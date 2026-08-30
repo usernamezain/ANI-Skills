@@ -1,0 +1,6 @@
+# monitoring:pricing-packaging-tracker
+
+Track competitor pricing and packaging as a diffable time series. Use when monitoring tiers, gates, limits, and price moves on a monthly or quarterly cadence.
+
+**Skill folder:** `skills/Product-Manager-Skills-pricing-packaging-tracker/`
+**Namespace:** `monitoring`

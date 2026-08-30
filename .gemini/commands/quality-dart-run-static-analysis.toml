@@ -1,0 +1,6 @@
+description = "Execute `dart analyze` to identify warnings and errors, and use `dart fix --apply` to automatically resolve mechanical lint issues. Use during development to ensure code quality and before committing changes."
+
+prompt = """
+Invoke the quality:dart-run-static-analysis skill.
+Load the prompt instructions from skills/skills-dart-run-static-analysis/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-dart-run-static-analysis/references/ to complete the task.
+"""

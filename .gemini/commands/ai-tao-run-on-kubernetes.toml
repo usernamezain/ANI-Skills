@@ -1,0 +1,6 @@
+description = "Kubernetes execution platform — submits TAO container jobs as single-pod k8s Jobs with NVIDIA GPU scheduling."
+
+prompt = """
+Invoke the ai:tao-run-on-kubernetes skill.
+Load the prompt instructions from skills/skills-tao-run-on-kubernetes/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-tao-run-on-kubernetes/references/ to complete the task.
+"""

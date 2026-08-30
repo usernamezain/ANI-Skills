@@ -1,0 +1,6 @@
+description = ">"
+
+prompt = """
+Invoke the ai:icp-website-audit skill.
+Load the prompt instructions from skills/goose-skills-icp-website-audit/SKILL.md and consult the copy-pasteable references or guidelines inside skills/goose-skills-icp-website-audit/references/ to complete the task.
+"""

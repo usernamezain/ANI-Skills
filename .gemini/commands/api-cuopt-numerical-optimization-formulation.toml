@@ -1,0 +1,6 @@
+description = "LP, MILP, QP — concepts, problem-text parsing, and formulation patterns (parameters, constraints, decisions, objective). Concepts only; no API."
+
+prompt = """
+Invoke the api:cuopt-numerical-optimization-formulation skill.
+Load the prompt instructions from skills/skills-cuopt-numerical-optimization-formulation/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-cuopt-numerical-optimization-formulation/references/ to complete the task.
+"""

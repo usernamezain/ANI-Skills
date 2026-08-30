@@ -1,0 +1,6 @@
+description = "When the user wants to create or update their app marketing context document. Also use when the user mentions \"app context\", \"marketing brief\", \"app positioning\", or when starting any ASO or app marketing project. This is the foundation skill — all other skills check for this context first."
+
+prompt = """
+Invoke the marketing:app-marketing-context skill.
+Load the prompt instructions from skills/aso-skills-app-marketing-context/SKILL.md and consult the copy-pasteable references or guidelines inside skills/aso-skills-app-marketing-context/references/ to complete the task.
+"""

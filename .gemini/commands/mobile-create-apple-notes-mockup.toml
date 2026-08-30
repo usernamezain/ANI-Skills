@@ -1,0 +1,6 @@
+description = "Render pixel-accurate Apple Notes (iPhone, light mode) screenshot mockups from a JSON note spec. Outputs HTML + PNG at the iPhone 16/15 Pro native 1180×2556. Supports paragraphs, images, checklists, dividers, autocorrect underline, smart quotes, and an optional iOS keyboard chrome overlay used by the parent video-ad molecule."
+
+prompt = """
+Invoke the mobile:create-apple-notes-mockup skill.
+Load the prompt instructions from skills/goose-skills-create-apple-notes-mockup/SKILL.md and consult the copy-pasteable references or guidelines inside skills/goose-skills-create-apple-notes-mockup/references/ to complete the task.
+"""

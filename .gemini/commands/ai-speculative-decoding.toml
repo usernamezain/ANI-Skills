@@ -1,0 +1,6 @@
+description = "Accelerate LLM inference using speculative decoding, Medusa multiple heads, and lookahead decoding techniques. Use when optimizing inference speed (1.5-3.6× speedup), reducing latency for real-time applications, or deploying models with limited compute. Covers draft models, tree-based attention, Jacobi iteration, parallel token generation, and production deployment strategies."
+
+prompt = """
+Invoke the ai:speculative-decoding skill.
+Load the prompt instructions from skills/AI-Research-SKILLs-speculative-decoding/SKILL.md and consult the copy-pasteable references or guidelines inside skills/AI-Research-SKILLs-speculative-decoding/references/ to complete the task.
+"""

@@ -1,0 +1,6 @@
+description = ">-"
+
+prompt = """
+Invoke the security:firebase-security-rules-auditor skill.
+Load the prompt instructions from skills/agent-skills-firebase-security-rules-auditor/SKILL.md and consult the copy-pasteable references or guidelines inside skills/agent-skills-firebase-security-rules-auditor/references/ to complete the task.
+"""

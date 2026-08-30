@@ -1,0 +1,6 @@
+description = "Get LinkedIn profiles, company pages, and posts"
+
+prompt = """
+Invoke the marketing:linkedin-scraper skill.
+Load the prompt instructions from skills/goose-skills-linkedin-scraper/SKILL.md and consult the copy-pasteable references or guidelines inside skills/goose-skills-linkedin-scraper/references/ to complete the task.
+"""

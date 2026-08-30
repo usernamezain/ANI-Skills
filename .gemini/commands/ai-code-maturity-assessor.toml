@@ -1,0 +1,6 @@
+description = "Systematic code maturity assessment using Trail of Bits' 9-category framework. Analyzes codebase for arithmetic safety, auditing practices, access controls, complexity, decentralization, documentation, MEV risks, low-level code, and testing, then produces a scorecard with evidence-based ratings and a priority-ordered roadmap. Use when assessing or scoring the maturity of a smart contract or blockchain codebase, producing a maturity scorecard or evaluation, or judging how mature, well-tested, or well-documented such a project is against a rubric."
+
+prompt = """
+Invoke the ai:code-maturity-assessor skill.
+Load the prompt instructions from skills/skills-code-maturity-assessor/SKILL.md and consult the copy-pasteable references or guidelines inside skills/skills-code-maturity-assessor/references/ to complete the task.
+"""

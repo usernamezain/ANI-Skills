@@ -1,0 +1,6 @@
+description = "Gmail: Forward a message to new recipients."
+
+prompt = """
+Invoke the ai:gws-gmail-forward skill.
+Load the prompt instructions from skills/cli-gws-gmail-forward/SKILL.md and consult the copy-pasteable references or guidelines inside skills/cli-gws-gmail-forward/references/ to complete the task.
+"""

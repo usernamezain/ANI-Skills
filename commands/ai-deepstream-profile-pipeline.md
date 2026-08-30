@@ -1,0 +1,6 @@
+# ai:deepstream-profile-pipeline
+
+Profile a DeepStream pipeline with Nsight Systems and derive its configs from the measurement. Use when the user asks for an efficient, performant, or profiled pipeline — or to benchmark, tune, or measure FPS.
+
+**Skill folder:** `skills/skills-deepstream-profile-pipeline/`
+**Namespace:** `ai`

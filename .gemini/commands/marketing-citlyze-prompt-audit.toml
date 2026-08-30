@@ -1,0 +1,6 @@
+description = "Audit tracked prompts in Citlyze to find weak spots and coverage gaps. Use when asked \"which prompts are underperforming\", \"audit my tracked prompts\", \"where are we invisible\", or \"what prompts should we track next\". Requires the Citlyze MCP server."
+
+prompt = """
+Invoke the marketing:citlyze-prompt-audit skill.
+Load the prompt instructions from skills/citlyze-skills-citlyze-prompt-audit/SKILL.md and consult the copy-pasteable references or guidelines inside skills/citlyze-skills-citlyze-prompt-audit/references/ to complete the task.
+"""
