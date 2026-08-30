@@ -11,12 +11,13 @@
 ╚═╝  ╚═╝╚═╝  ╚═══╝╚═╝      ╚══════╝╚═╝  ╚═╝╚═╝╚══════╝╚══════╝╚══════╝
 ```
 
-### **3,028 Production AI Agent Skills · 29 Semantic Namespaces · 8 Supported AI Assistants**
+### **3,048 Production AI Agent Skills · 29 Semantic Namespaces · 8 Supported AI Assistants**
 
 [![npm version](https://img.shields.io/npm/v/ani-skills.svg?style=for-the-badge&color=white&labelColor=black)](https://www.npmjs.com/package/ani-skills)
 [![License: MIT](https://img.shields.io/badge/License-MIT-white.svg?style=for-the-badge&labelColor=black)](https://opensource.org/licenses/MIT)
-[![Skills Count](https://img.shields.io/badge/Skills-3%2C028%2B-white.svg?style=for-the-badge&labelColor=black)](https://github.com/usernamezain/ANI-Skills)
+[![Skills Count](https://img.shields.io/badge/Skills-3%2C048%2B-white.svg?style=for-the-badge&labelColor=black)](https://github.com/usernamezain/ANI-Skills)
 [![Namespaces](https://img.shields.io/badge/Namespaces-29-white.svg?style=for-the-badge&labelColor=black)](https://github.com/usernamezain/ANI-Skills)
+[![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-white.svg?style=for-the-badge&labelColor=black)](CONTRIBUTING.md)
 [![Platforms](https://img.shields.io/badge/Cloud%20%26%20DB-Neon%20%7C%20Google%20%7C%20AWS%20%7C%20Azure%20%7C%20NVIDIA-white.svg?style=for-the-badge&labelColor=black)](https://github.com/usernamezain/ANI-Skills)
 
 ---
@@ -190,6 +191,12 @@ All 3,028 skills are registered as slash commands:
 
 ## 🛡️ License & Contributing
 
-Licensed under the **MIT License**. Contributions, skill submissions, and platform integrations are welcome!
+Licensed under the **MIT License**. We welcome contributions from developers worldwide!
+
+👉 Read our [**Contributing Guide (CONTRIBUTING.md)**](CONTRIBUTING.md) to learn how to:
+- Add new AI agent skills and reference assets.
+- Craft new Executive Boss Prompts (`boss:*`).
+- Submit open-source GitHub repositories for batch ingestion.
+- Test changes locally with the interactive Web GUI popup installer.
 
 Built with ⚡ by [Zain Ali Mughal](https://www.linkedin.com/in/zainali-mughal/).
