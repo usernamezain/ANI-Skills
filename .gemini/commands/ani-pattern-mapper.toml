@@ -1,6 +1,0 @@
-description = "Analyzes codebase for existing patterns and produces PATTERNS.md mapping new files to closest analogs. Read-only codebase analysis spawned by /ani:plan-phase orchestrator before planning."
-
-prompt = """
-Invoke the ani:pattern-mapper skill.
-Load the prompt instructions from skills/pattern-mapper/SKILL.md and consult the copy-pasteable references or guidelines inside skills/pattern-mapper/references/ to complete the task.
-"""

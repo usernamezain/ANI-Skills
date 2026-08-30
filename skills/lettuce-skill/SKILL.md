@@ -1,5 +1,5 @@
 ---
-name: ani:lettuce-skill
+name: test:lettuce
 description: >
   Generates Lettuce BDD tests for Python with feature files and step definitions.
   Note: Lettuce is legacy/unmaintained; consider Behave for new projects. Use when

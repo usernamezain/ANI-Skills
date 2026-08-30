@@ -1,0 +1,6 @@
+# db:clickhouse-cloud-deploy
+
+Use when a user wants to deploy ClickHouse to the cloud, go to production, use ClickHouse Cloud, host a managed ClickHouse service, or migrate from a local ClickHouse setup to ClickHouse Cloud.
+
+**Skill folder:** `skills/clickhousectl-cloud-deploy/`
+**Namespace:** `db`

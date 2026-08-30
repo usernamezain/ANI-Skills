@@ -1,5 +1,5 @@
 ---
-name: ani:dsa-trie-prefix-tree
+name: dsa:trie
 description: Constructs character dictionary trees for fast lookup, prefixes, and auto-complete checks. Triggered by trie, prefix tree, search words, word dictionary.
 ---
 

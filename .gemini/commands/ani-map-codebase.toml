@@ -1,6 +1,0 @@
-description = "Analyze codebase with parallel mapper agents to produce .planning/codebase/ documents"
-
-prompt = """
-Invoke the ani:map-codebase skill.
-Load the prompt instructions from skills/map-codebase/SKILL.md and consult the copy-pasteable references or guidelines inside skills/map-codebase/references/ to complete the task.
-"""

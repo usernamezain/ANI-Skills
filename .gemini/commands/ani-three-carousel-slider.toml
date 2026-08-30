@@ -1,6 +1,0 @@
-description = "Skill for designing cylindrical 3D horizontal sliders."
-
-prompt = """
-Invoke the ani:three-carousel-slider skill.
-Load the prompt instructions from skills/three-carousel-slider/SKILL.md and consult the copy-pasteable references or guidelines inside skills/three-carousel-slider/references/ to complete the task.
-"""

@@ -1,5 +1,5 @@
 ---
-name: ani:tinybird-typescript-sdk-guidelines
+name: db:tinybird-typescript
 description: Tinybird TypeScript SDK for defining datasources, pipes, and queries with full type inference. Use when working with @tinybirdco/sdk, TypeScript Tinybird projects, or type-safe data ingestion and queries.
 ---
 

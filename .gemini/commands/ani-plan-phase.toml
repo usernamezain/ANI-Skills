@@ -1,6 +1,0 @@
-description = "Create detailed phase plan (PLAN.md) with verification loop"
-
-prompt = """
-Invoke the ani:plan-phase skill.
-Load the prompt instructions from skills/plan-phase/SKILL.md and consult the copy-pasteable references or guidelines inside skills/plan-phase/references/ to complete the task.
-"""

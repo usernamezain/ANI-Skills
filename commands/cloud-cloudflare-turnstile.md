@@ -1,0 +1,6 @@
+# cloud:cloudflare-turnstile
+
+Set up Cloudflare Turnstile end-to-end in a project — scan the codebase, create the widget via the Cloudflare API, deploy the managed siteverify Worker, write the frontend snippets, validate, and persist the skill. Load this when a user asks to add Turnstile, set up CAPTCHA, protect a form from bots, or fix a Turnstile integration. Mirrors developers.cloudflare.com/turnstile/spin.
+
+**Skill folder:** `skills/cloudflare-skills-turnstile-spin/`
+**Namespace:** `cloud`

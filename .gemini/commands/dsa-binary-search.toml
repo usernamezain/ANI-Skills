@@ -1,0 +1,6 @@
+description = "Searches sorted lists or arrays with rotational shifts or infinite boundaries. Triggered by modified binary search, order-agnostic binary search, ceiling of a number, next letter, search in a sorted infinite array."
+
+prompt = """
+Invoke the dsa:binary-search skill.
+Load the prompt instructions from skills/dsa-modified-binary-search/SKILL.md and consult the copy-pasteable references or guidelines inside skills/dsa-modified-binary-search/references/ to complete the task.
+"""

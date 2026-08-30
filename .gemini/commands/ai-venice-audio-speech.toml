@@ -1,0 +1,6 @@
+description = "Generate speech from text via POST /audio/speech. Covers TTS models (Kokoro, Qwen 3, xAI, Inworld, Chatterbox, Orpheus, ElevenLabs Turbo, MiniMax, Gemini Flash), voices per family, output formats (mp3/opus/aac/flac/wav/pcm), streaming, prompt/emotion styling, temperature/top_p, and language hints."
+
+prompt = """
+Invoke the ai:venice-audio-speech skill.
+Load the prompt instructions from skills/venice-skills-venice-audio-speech/SKILL.md and consult the copy-pasteable references or guidelines inside skills/venice-skills-venice-audio-speech/references/ to complete the task.
+"""

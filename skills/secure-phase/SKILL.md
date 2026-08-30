@@ -1,5 +1,5 @@
 ---
-name: ani:secure-phase
+name: plan:secure-phase
 description: Retroactively verify threat mitigations for a completed phase
 argument-hint: "[phase number]"
 allowed-tools:

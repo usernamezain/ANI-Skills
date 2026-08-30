@@ -1,5 +1,5 @@
 ---
-name: plan-checker
+name: plan:plan-checker
 description: Verifies plans will achieve phase goal before execution. Goal-backward analysis of plan quality. Spawned by /antigravity:plan-phase orchestrator.
 tools: Read, Bash, Glob, Grep
 color: green

@@ -1,0 +1,6 @@
+description = ">"
+
+prompt = """
+Invoke the test:xcuitest skill.
+Load the prompt instructions from skills/xcuitest-skill/SKILL.md and consult the copy-pasteable references or guidelines inside skills/xcuitest-skill/references/ to complete the task.
+"""

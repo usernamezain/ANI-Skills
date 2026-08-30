@@ -1,0 +1,6 @@
+description = "Deep static scan of codebase to generate .codebase documentation reports"
+
+prompt = """
+Invoke the plan:deep-code-scan skill.
+Load the prompt instructions from skills/deep-code-scan/SKILL.md and consult the copy-pasteable references or guidelines inside skills/deep-code-scan/references/ to complete the task.
+"""

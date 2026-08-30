@@ -1,5 +1,5 @@
 ---
-name: ani:test-framework-migration-skill
+name: test:framework-migration
 description: >
   Migrates and converts test automation scripts between Selenium, Playwright,
   Puppeteer, and Cypress. Use when the user asks to migrate, convert, or port

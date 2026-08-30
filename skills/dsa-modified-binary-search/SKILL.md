@@ -1,5 +1,5 @@
 ---
-name: ani:dsa-modified-binary-search
+name: dsa:binary-search
 description: Searches sorted lists or arrays with rotational shifts or infinite boundaries. Triggered by modified binary search, order-agnostic binary search, ceiling of a number, next letter, search in a sorted infinite array.
 ---
 

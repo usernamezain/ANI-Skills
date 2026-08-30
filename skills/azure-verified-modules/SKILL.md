@@ -1,5 +1,5 @@
 ---
-name: ani:azure-verified-modules
+name: cloud:azure-modules
 description: Azure Verified Modules (AVM) requirements and best practices for developing certified Azure Terraform modules. Use when creating or reviewing Azure modules that need AVM certification.
 ---
 

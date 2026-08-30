@@ -1,0 +1,6 @@
+description = "Tinybird CLI commands, workflows, and operations. Use when running tb commands, managing local development, deploying, or working with data operations."
+
+prompt = """
+Invoke the db:tinybird-cli skill.
+Load the prompt instructions from skills/tinybird-cli-guidelines/SKILL.md and consult the copy-pasteable references or guidelines inside skills/tinybird-cli-guidelines/references/ to complete the task.
+"""

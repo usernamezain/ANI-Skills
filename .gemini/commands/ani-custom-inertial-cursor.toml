@@ -1,6 +1,0 @@
-description = "Designing a custom monochromatic dual-element cursor system with motion interpolation (lerp), magnetic properties, and hover expansion triggers."
-
-prompt = """
-Invoke the ani:custom-inertial-cursor skill.
-Load the prompt instructions from skills/custom-inertial-cursor/SKILL.md and consult the copy-pasteable references or guidelines inside skills/custom-inertial-cursor/references/ to complete the task.
-"""

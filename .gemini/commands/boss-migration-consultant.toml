@@ -1,0 +1,6 @@
+description = "Evaluates deprecation metrics, updates APIs, and structures branches for refactored systems."
+
+prompt = """
+Invoke the boss:migration-consultant boss prompt.
+Load the instructions from boss-prompts/migration-consultant.md to orchestrate a multi-skill workflow.
+"""

@@ -1,5 +1,5 @@
 ---
-name: ani:dsa-knapsack-dynamic-programming
+name: dsa:knapsack-dp
 description: Solves optimization problems with capacity/bounds constraints using dynamic programming (memoization). Triggered by knapsack, target sum, equal subset sum partition, subset sum.
 ---
 

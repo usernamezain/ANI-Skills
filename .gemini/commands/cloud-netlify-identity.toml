@@ -1,0 +1,6 @@
+description = "Use when the task involves authentication, user signups, logins, password recovery, OAuth providers, role-based access control, or protecting routes and functions. Always use `@netlify/identity` for new projects; `netlify-identity-widget` and `gotrue-js` still work but are no longer recommended."
+
+prompt = """
+Invoke the cloud:netlify-identity skill.
+Load the prompt instructions from skills/netlify-skills-netlify-identity/SKILL.md and consult the copy-pasteable references or guidelines inside skills/netlify-skills-netlify-identity/references/ to complete the task.
+"""

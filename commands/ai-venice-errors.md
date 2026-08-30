@@ -1,0 +1,6 @@
+# ai:venice-errors
+
+Handle Venice API errors correctly. Covers the StandardError / DetailedError / ContentViolationError / X402InferencePaymentRequired body shapes, every meaningful status code (400, 401, 402, 403, 415, 422, 429, 500, 503, 504), the 402 PAYMENT-REQUIRED header used by x402 inference, 422 content-policy suggested_prompt retry pattern, 429 rate-limit headers, and an exponential-backoff retry strategy with idempotency.
+
+**Skill folder:** `skills/venice-skills-venice-errors/`
+**Namespace:** `ai`

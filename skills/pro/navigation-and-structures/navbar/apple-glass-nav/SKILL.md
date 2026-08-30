@@ -1,5 +1,5 @@
 ---
-name: ani:pro:navigation:apple-glass-nav
+name: ui:pro-navigation-and-structures-navbar-apple-glass-nav
 description: Generate a glassmorphic, iOS/macOS-inspired navbar with a Framer Motion layoutId-driven animated active pill that glides between nav items with Apple-caliber spring physics.
 ---
 

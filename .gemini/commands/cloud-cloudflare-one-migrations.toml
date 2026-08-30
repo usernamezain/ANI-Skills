@@ -1,0 +1,6 @@
+description = "Plans migrations from Zscaler ZIA/ZPA, Palo Alto, legacy VPN, SWG, or SASE stacks to Cloudflare One. Use for migration assessments, policy mapping, rollout plans, and parity/gap analysis."
+
+prompt = """
+Invoke the cloud:cloudflare-one-migrations skill.
+Load the prompt instructions from skills/cloudflare-skills-cloudflare-one-migrations/SKILL.md and consult the copy-pasteable references or guidelines inside skills/cloudflare-skills-cloudflare-one-migrations/references/ to complete the task.
+"""

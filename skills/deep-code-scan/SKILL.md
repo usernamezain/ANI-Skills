@@ -1,5 +1,5 @@
 ---
-name: ani:deep-code-scan
+name: plan:deep-code-scan
 description: Deep static scan of codebase to generate .codebase documentation reports
 argument-hint: "[target directory]"
 allowed-tools:

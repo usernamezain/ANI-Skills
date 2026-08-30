@@ -1,5 +1,5 @@
 ---
-name: ani:pro:complete-landing-pages:controlled-chaos
+name: ui:pro-complete-landing-pages-controlled-chaos
 description: Generate a full brutalist, maximalist startup landing page with hand-drawn SVG animations, GSAP scroll pinning, loud rotated typography, offset solid shadows, mouse-reactive parallax, and deliberately rule-breaking layouts.
 version: 1.0.0
 tags: ["landing-page", "gsap", "brutalist", "startup", "kinetic", "lenis", "hand-drawn", "svg-animation"]

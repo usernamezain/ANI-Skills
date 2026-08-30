@@ -1,0 +1,6 @@
+description = ">"
+
+prompt = """
+Invoke the ai:memory-systems skill.
+Load the prompt instructions from skills/memory-systems/SKILL.md and consult the copy-pasteable references or guidelines inside skills/memory-systems/references/ to complete the task.
+"""

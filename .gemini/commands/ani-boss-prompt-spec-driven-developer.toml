@@ -2,5 +2,5 @@ description = "Drives implementation loops by planning, discussing boundary requ
 
 prompt = """
 Invoke the ani:boss-prompt-spec-driven-developer skill.
-Load the prompt instructions from skills/boss-prompts/spec-driven-developer/SKILL.md and consult the copy-pasteable references or guidelines inside skills/boss-prompts/spec-driven-developer/ to complete the task.
+Load the prompt instructions from skills/boss-prompts/spec-driven-developer/SKILL.md and consult the copy-pasteable references or guidelines inside skills/boss-prompts/spec-driven-developer/references/ to complete the task.
 """

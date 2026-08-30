@@ -1,0 +1,6 @@
+description = "Constructs WebGL showrooms, mouse-reactive particle background systems, and preloading assets."
+
+prompt = """
+Invoke the boss:threejs-showroom-creator boss prompt.
+Load the instructions from boss-prompts/threejs-showroom-creator.md to orchestrate a multi-skill workflow.
+"""

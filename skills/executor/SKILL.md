@@ -1,5 +1,5 @@
 ---
-name: executor
+name: agent:executor
 description: Executes antigravity plans with atomic commits, deviation handling, checkpoint protocols, and state management. Spawned by execute-phase orchestrator or execute-plan command.
 tools: Read, Write, Edit, Bash, Grep, Glob, mcp__context7__*
 color: yellow

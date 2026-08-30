@@ -1,5 +1,5 @@
 ---
-name: ani:vercel-next-skills
+name: next:best-practices
 description: Next.js agent development guidelines and best practices
 argument-hint: "[instructions]"
 allowed-tools:

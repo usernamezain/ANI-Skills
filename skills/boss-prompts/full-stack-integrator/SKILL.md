@@ -1,5 +1,5 @@
 ---
-name: ani:boss-prompt-full-stack-integrator
+name: boss:full-stack-integrator
 description: Coordinates REST/GraphQL APIs and contracts between frontend UI layers and backend databases.
 argument-hint: "[additional instructions]"
 allowed-tools:

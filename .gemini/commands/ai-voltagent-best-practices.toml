@@ -1,0 +1,6 @@
+description = "VoltAgent architectural patterns and conventions. Covers agents vs workflows, project layout, memory, servers, and observability."
+
+prompt = """
+Invoke the ai:voltagent-best-practices skill.
+Load the prompt instructions from skills/voltagent-best-practices/SKILL.md and consult the copy-pasteable references or guidelines inside skills/voltagent-best-practices/references/ to complete the task.
+"""

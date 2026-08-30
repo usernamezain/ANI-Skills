@@ -1,5 +1,5 @@
 ---
-name: ani:codeception-skill
+name: test:codeception
 description: >
   Generates Codeception tests in PHP covering acceptance, functional, and unit
   testing. BDD-style with Actor pattern. Use when user mentions "Codeception",

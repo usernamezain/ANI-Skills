@@ -1,5 +1,5 @@
 ---
-name: ani:selenide-skill
+name: test:selenide
 description: >
   Generates Selenide tests in Java. Concise UI testing framework built on
   Selenium with automatic waits and fluent API. Use when user mentions "Selenide",

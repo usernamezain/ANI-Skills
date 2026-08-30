@@ -1,5 +1,5 @@
 ---
-name: ani:appium-skill
+name: test:appium
 description: >
   Generates production-grade Appium mobile automation scripts for Android and iOS
   in Java, Python, or JavaScript. Supports real device and emulator testing locally

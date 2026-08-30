@@ -1,5 +1,5 @@
 ---
-name: ani:cicd-pipeline-skill
+name: cloud:cicd-pipeline
 description: >
   Generates CI/CD pipeline configurations for test automation with GitHub Actions,
   Jenkins, GitLab CI, and Azure DevOps. Includes TestMu AI cloud integration.

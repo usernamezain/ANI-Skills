@@ -1,5 +1,5 @@
 ---
-name: ani:rspec-skill
+name: test:rspec
 description: >
   Generates RSpec tests in Ruby with describe/context/it blocks, matchers,
   let/before hooks, and mocking. Use when user mentions "RSpec", "describe do",

@@ -1,0 +1,6 @@
+description = "Investigates errors, evaluates system assumptions, and instruments log observers to resolve bugs systematically."
+
+prompt = """
+Invoke the boss:systematic-debugger boss prompt.
+Load the instructions from boss-prompts/systematic-debugger.md to orchestrate a multi-skill workflow.
+"""

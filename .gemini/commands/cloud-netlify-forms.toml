@@ -1,0 +1,6 @@
+description = "Guide for using Netlify Forms for HTML form handling. Use when adding contact forms, feedback forms, file upload forms, or any form that should be collected by Netlify. Covers the data-netlify attribute, spam filtering, AJAX submissions, file uploads, notifications, and the submissions API."
+
+prompt = """
+Invoke the cloud:netlify-forms skill.
+Load the prompt instructions from skills/netlify-skills-netlify-forms/SKILL.md and consult the copy-pasteable references or guidelines inside skills/netlify-skills-netlify-forms/references/ to complete the task.
+"""

@@ -1,0 +1,6 @@
+description = "Manage parallel workstreams — list, create, switch, status, progress, complete, and resume"
+
+prompt = """
+Invoke the plan:workstreams skill.
+Load the prompt instructions from skills/workstreams/SKILL.md and consult the copy-pasteable references or guidelines inside skills/workstreams/references/ to complete the task.
+"""

@@ -1,5 +1,5 @@
 ---
-name: ani:dsa-subsets
+name: dsa:subsets
 description: Generates permutations, combinations, and subsets using BFS backtracking. Triggered by subsets, subsets with duplicates, permutations, string permutations, uppercase/lowercase letters permutation.
 ---
 

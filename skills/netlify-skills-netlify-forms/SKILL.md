@@ -1,5 +1,5 @@
 ---
-name: ani:netlify-skills-netlify-forms
+name: cloud:netlify-forms
 description: Guide for using Netlify Forms for HTML form handling. Use when adding contact forms, feedback forms, file upload forms, or any form that should be collected by Netlify. Covers the data-netlify attribute, spam filtering, AJAX submissions, file uploads, notifications, and the submissions API.
 ---
 

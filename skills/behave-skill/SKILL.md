@@ -1,5 +1,5 @@
 ---
-name: ani:behave-skill
+name: test:behave
 description: >
   Generates Behave BDD tests for Python with Gherkin feature files and step
   implementations. Use when user mentions "Behave", "Python BDD", "Python

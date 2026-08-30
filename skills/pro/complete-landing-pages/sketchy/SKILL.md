@@ -1,5 +1,5 @@
 ---
-name: ani:pro:complete-landing-pages:sketchy
+name: ui:pro-complete-landing-pages-sketchy
 description: A creative, hand-drawn aesthetic landing page featuring SVG distortion filters to create wobbly "pencil" lines and interactive "sketchbook" mechanics.
 version: 1.0.0
 tags: ["landing-page", "gsap", "framer-motion", "svg-filter", "hand-drawn", "lenis"]

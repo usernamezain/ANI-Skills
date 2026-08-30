@@ -1,5 +1,5 @@
 ---
-name: ani:venice-skills-venice-audio-music
+name: ai:venice-audio-music
 description: Async music / audio-track generation via Venice. Covers the /audio/quote + /audio/queue + /audio/retrieve + /audio/complete lifecycle, lyrics vs instrumental, voice selection, duration, language, speed, model capability probing, and webhook-free polling.
 ---
 

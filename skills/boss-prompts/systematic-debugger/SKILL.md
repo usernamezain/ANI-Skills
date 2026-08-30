@@ -1,5 +1,5 @@
 ---
-name: ani:boss-prompt-systematic-debugger
+name: boss:systematic-debugger
 description: Investigates errors, evaluates system assumptions, and instruments log observers to resolve bugs systematically.
 argument-hint: "[additional instructions]"
 allowed-tools:

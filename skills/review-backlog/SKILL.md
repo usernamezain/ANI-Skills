@@ -1,5 +1,5 @@
 ---
-name: ani:review-backlog
+name: plan:review-backlog
 description: Review and promote backlog items to active milestone
 allowed-tools:
   - Read

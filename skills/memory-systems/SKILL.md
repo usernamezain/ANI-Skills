@@ -1,5 +1,5 @@
 ---
-name: memory-systems
+name: ai:memory-systems
 description: >
   Guides implementation of agent memory systems, compares production frameworks
   (Mem0, Zep/Graphiti, Letta, LangMem, Cognee), and designs persistence architectures

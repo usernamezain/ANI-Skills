@@ -1,5 +1,5 @@
 ---
-name: keyboard-grid-designer
+name: ui:keyboard-grid
 description: Skill for designing interactive custom keyboard grids with GSAP. Trigger when the user mentions custom keyboard, virtual key layouts, or accelerator composition.
 ---
 

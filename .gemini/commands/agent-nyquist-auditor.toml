@@ -1,0 +1,6 @@
+description = "Fills Nyquist validation gaps by generating tests and verifying coverage for phase requirements"
+
+prompt = """
+Invoke the agent:nyquist-auditor skill.
+Load the prompt instructions from skills/nyquist-auditor/SKILL.md and consult the copy-pasteable references or guidelines inside skills/nyquist-auditor/references/ to complete the task.
+"""

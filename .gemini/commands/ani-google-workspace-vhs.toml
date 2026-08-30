@@ -1,6 +1,0 @@
-description = "Invoke the ani:google-workspace-vhs skill"
-
-prompt = """
-Invoke the ani:google-workspace-vhs skill.
-Load the prompt instructions from skills/google-workspace-vhs/SKILL.md and consult its guidelines to complete the task.
-"""

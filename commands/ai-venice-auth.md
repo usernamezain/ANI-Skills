@@ -1,0 +1,6 @@
+# ai:venice-auth
+
+Authenticate to the Venice API with a Bearer API key or with an x402 / SIWE wallet. Covers header formats, the SIWE message fields, TTL and nonce rules, the venice-x402-client SDK, and how to choose between the two modes.
+
+**Skill folder:** `skills/venice-skills-venice-auth/`
+**Namespace:** `ai`

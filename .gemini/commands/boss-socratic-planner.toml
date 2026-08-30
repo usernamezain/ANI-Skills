@@ -1,0 +1,6 @@
+description = "Refines product ideas, analyzes blocker edge cases, and constructs modular roadmap plans."
+
+prompt = """
+Invoke the boss:socratic-planner boss prompt.
+Load the instructions from boss-prompts/socratic-planner.md to orchestrate a multi-skill workflow.
+"""

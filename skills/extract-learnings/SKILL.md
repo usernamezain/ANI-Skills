@@ -1,5 +1,5 @@
 ---
-name: ani:extract-learnings
+name: plan:extract-learnings
 description: Extract decisions, lessons, patterns, and surprises from completed phase artifacts
 argument-hint: <phase-number>
 allowed-tools:

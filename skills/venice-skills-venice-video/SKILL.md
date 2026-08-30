@@ -1,5 +1,5 @@
 ---
-name: ani:venice-skills-venice-video
+name: ai:venice-video
 description: Generate and transcribe videos via Venice. Covers the async /video/quote + /video/queue + /video/retrieve + /video/complete loop, text-to-video, image-to-video, video-to-video (upscale), audio input, reference images, scene and element support, plus /video/transcriptions for YouTube URLs.
 ---
 

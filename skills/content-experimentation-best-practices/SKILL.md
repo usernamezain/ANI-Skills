@@ -1,5 +1,5 @@
 ---
-name: ani:content-experimentation-best-practices
+name: quality:content-experiments
 description: Content experimentation and A/B testing guidance covering experiment design, hypotheses, metrics, sample size, statistical foundations, CMS-managed variants, and common analysis pitfalls. Use this skill when planning experiments, setting up variants, choosing success metrics, interpreting statistical results, or building experimentation workflows in a CMS or frontend stack.
 ---
 

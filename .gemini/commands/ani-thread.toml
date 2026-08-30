@@ -1,6 +1,0 @@
-description = "Manage persistent context threads for cross-session work"
-
-prompt = """
-Invoke the ani:thread skill.
-Load the prompt instructions from skills/thread/SKILL.md and consult the copy-pasteable references or guidelines inside skills/thread/references/ to complete the task.
-"""

@@ -1,410 +1,333 @@
 #!/usr/bin/env node
 /**
- * Antigravity Skills Library Installer
- * Interactive CLI helper to target environments.
+ * ANI-Skills Library Installer  v2.0
+ * ====================================
+ * Installs skills to all 8 supported AI coding agents
+ * (project-local paths AND global user paths).
+ *
+ * Supported agents:
+ *   Antigravity | Claude Code | Codex | Cursor
+ *   Gemini CLI  | GitHub Copilot | OpenCode | Windsurf
  */
-const fs = require('fs');
-const path = require('path');
-const readline = require('readline');
-const os = require('os');
+const fs      = require('fs');
+const path    = require('path');
+const readline= require('readline');
+const os      = require('os');
 const { execSync } = require('child_process');
 
-const rl = readline.createInterface({
-  input: process.stdin,
-  output: process.stdout
-});
+const rl = readline.createInterface({ input: process.stdin, output: process.stdout });
 
 const projectRoot = path.dirname(__dirname);
-const skillsSrc = path.join(projectRoot, 'skills');
-const commandsSrc = path.join(projectRoot, 'commands');
+const skillsSrc   = path.join(projectRoot, 'skills');
+const geminiCmdSrc= path.join(projectRoot, '.gemini', 'commands');
+
+const homeDir = process.env.HOME || process.env.USERPROFILE || os.homedir();
+const cwd     = process.cwd();
+
+// ─── helpers ─────────────────────────────────────────────────────────────────
 
 function showBanner() {
   console.clear();
   console.log(`
-==================================================
-        ANTIGRAVITY SKILLS LIBRARY SETUP          
-==================================================
-A repository of 444 AI agent skills and prompts.
-  `);
+╔══════════════════════════════════════════════════════╗
+║        ANI-SKILLS ULTRA PACKAGE  v2.0                ║
+║  444 skills · 8 agents · semantic namespaces         ║
+╚══════════════════════════════════════════════════════╝
+`);
 }
 
 function shouldLink() {
-  const isGit = fs.existsSync(path.join(projectRoot, '.git'));
-  const isNodeModules = projectRoot.includes('node_modules');
-  const isNpx = projectRoot.includes('npm-cache') || projectRoot.includes('_npx');
+  const isGit        = fs.existsSync(path.join(projectRoot, '.git'));
+  const isNodeModules= projectRoot.includes('node_modules');
+  const isNpx        = projectRoot.includes('npm-cache') || projectRoot.includes('_npx');
   return isGit && !isNodeModules && !isNpx;
 }
 
 function copyRecursiveSync(src, dest) {
-  const exists = fs.existsSync(src);
-  const stats = exists && fs.statSync(src);
-  const isDirectory = exists && stats.isDirectory();
-  if (isDirectory) {
+  if (!fs.existsSync(src)) return;
+  const stat = fs.statSync(src);
+  if (stat.isDirectory()) {
     fs.mkdirSync(dest, { recursive: true });
-    fs.readdirSync(src).forEach((childItemName) => {
-      copyRecursiveSync(path.join(src, childItemName), path.join(dest, childItemName));
-    });
+    fs.readdirSync(src).forEach(child =>
+      copyRecursiveSync(path.join(src, child), path.join(dest, child))
+    );
   } else {
     try {
-      if (fs.existsSync(dest)) {
-        fs.unlinkSync(dest);
-      }
+      if (fs.existsSync(dest)) fs.unlinkSync(dest);
       fs.copyFileSync(src, dest);
     } catch (e) {
-      try {
-        fs.chmodSync(dest, 0o666);
-        if (fs.existsSync(dest)) {
-          fs.unlinkSync(dest);
-        }
-        fs.copyFileSync(src, dest);
-      } catch (err) {
-        console.error(`[Warning] Failed to copy ${src} to ${dest}: ${err.message}`);
-      }
+      try { fs.chmodSync(dest, 0o666); fs.unlinkSync(dest); fs.copyFileSync(src, dest); }
+      catch (err) { console.error(`  [Warn] Copy failed ${src}: ${err.message}`); }
     }
   }
 }
 
 function linkOrCopy(src, dest) {
-  let pathExists = false;
-  let isSymlinkOrFile = false;
-  
+  if (!fs.existsSync(src)) { console.warn(`  [Skip] Source not found: ${src}`); return; }
   try {
-    const stat = fs.lstatSync(dest);
-    pathExists = true;
-    isSymlinkOrFile = stat.isSymbolicLink() || stat.isFile();
-  } catch (e) {
-    // Path does not exist at all
-  }
-
-  if (pathExists) {
-    try {
-      if (isSymlinkOrFile) {
-        fs.unlinkSync(dest);
-      } else {
-        fs.rmSync(dest, { recursive: true, force: true });
-      }
-    } catch (e) {
-      console.log(`Note: overwriting existing target ${dest} failed: ${e.message}`);
-    }
-  }
-
-  // Create parent directories if they don't exist
+    const s = fs.lstatSync(dest);
+    if (s.isSymbolicLink() || s.isFile()) fs.unlinkSync(dest);
+    else fs.rmSync(dest, { recursive: true, force: true });
+  } catch (_) {}
   fs.mkdirSync(path.dirname(dest), { recursive: true });
-
   if (shouldLink()) {
     try {
-      // Try junction link on Windows, symlink on other platforms
       const type = process.platform === 'win32' ? 'junction' : 'dir';
       fs.symlinkSync(src, dest, type);
-      console.log(`[Success] Symlinked ${src} -> ${dest}`);
+      console.log(`  [✓ Link] ${dest}`);
       return;
-    } catch (e) {
-      console.log(`[Permission Warning] Symlinking failed. Falling back to direct copying...`);
+    } catch (_) {}
+  }
+  copyRecursiveSync(src, dest);
+  console.log(`  [✓ Copy] ${dest}`);
+}
+
+// ─── ALL 8 AGENT TARGETS ─────────────────────────────────────────────────────
+//  Each entry:  { name, projectPath, globalPath, commandsGlobalPath? }
+
+function getAgents() {
+  return [
+    {
+      id:          'antigravity',
+      name:        'Antigravity IDE',
+      trigger:     path.join(homeDir, '.gemini', 'config'),
+      projectPath: path.join(cwd, '.agents', 'skills'),
+      globalPath:  path.join(homeDir, '.gemini', 'config', 'skills'),
+      commandsGlobal: [
+        path.join(homeDir, '.gemini', 'commands'),
+        path.join(homeDir, '.gemini', 'config', 'commands'),
+      ],
+      docs: 'https://antigravity.google/docs/skills',
+    },
+    {
+      id:          'claude',
+      name:        'Claude Code',
+      trigger:     path.join(homeDir, '.claude'),
+      projectPath: path.join(cwd, '.claude', 'skills'),
+      globalPath:  path.join(homeDir, '.claude', 'skills'),
+      docs: 'https://docs.anthropic.com/en/docs/claude-code/skills',
+    },
+    {
+      id:          'codex',
+      name:        'Codex (OpenAI)',
+      trigger:     path.join(homeDir, '.agents'),
+      projectPath: path.join(cwd, '.agents', 'skills'),
+      globalPath:  path.join(homeDir, '.agents', 'skills'),
+      docs: 'https://developers.openai.com/codex/skills',
+    },
+    {
+      id:          'cursor',
+      name:        'Cursor',
+      trigger:     path.join(homeDir, '.cursor'),
+      projectPath: path.join(cwd, '.cursor', 'skills'),
+      globalPath:  path.join(homeDir, '.cursor', 'skills'),
+      docs: 'https://cursor.com/docs/context/skills',
+    },
+    {
+      id:          'gemini-cli',
+      name:        'Gemini CLI',
+      trigger:     path.join(homeDir, '.gemini'),
+      projectPath: path.join(cwd, '.gemini', 'skills'),
+      globalPath:  path.join(homeDir, '.gemini', 'skills'),
+      commandsGlobal: [path.join(homeDir, '.gemini', 'commands')],
+      docs: 'https://geminicli.com/docs/cli/skills/',
+    },
+    {
+      id:          'copilot',
+      name:        'GitHub Copilot',
+      trigger:     path.join(homeDir, '.copilot'),
+      projectPath: path.join(cwd, '.github', 'skills'),
+      globalPath:  path.join(homeDir, '.copilot', 'skills'),
+      docs: 'https://docs.github.com/en/copilot/concepts/agents/about-agent-skills',
+    },
+    {
+      id:          'opencode',
+      name:        'OpenCode',
+      trigger:     path.join(homeDir, '.config', 'opencode'),
+      projectPath: path.join(cwd, '.opencode', 'skills'),
+      globalPath:  path.join(homeDir, '.config', 'opencode', 'skills'),
+      docs: 'https://opencode.ai/docs/skills',
+    },
+    {
+      id:          'windsurf',
+      name:        'Windsurf (Cascade)',
+      trigger:     path.join(homeDir, '.codeium'),
+      projectPath: path.join(cwd, '.windsurf', 'skills'),
+      globalPath:  path.join(homeDir, '.codeium', 'windsurf', 'skills'),
+      docs: 'https://docs.windsurf.com/windsurf/cascade/skills',
+    },
+  ];
+}
+
+// ─── install one agent ────────────────────────────────────────────────────────
+
+function installAgent(agent, mode = 'both') {
+  console.log(`\n▶ ${agent.name}`);
+  if (mode === 'project' || mode === 'both') {
+    linkOrCopy(skillsSrc, agent.projectPath);
+  }
+  if (mode === 'global' || mode === 'both') {
+    linkOrCopy(skillsSrc, agent.globalPath);
+    if (agent.commandsGlobal) {
+      agent.commandsGlobal.forEach(dest => linkOrCopy(geminiCmdSrc, dest));
     }
   }
-
-  try {
-    copyRecursiveSync(src, dest);
-    console.log(`[Success] Copied ${src} -> ${dest}`);
-  } catch (copyErr) {
-    console.error(`[Error] Copy failed: ${copyErr.message}`);
-  }
 }
 
-function configureEnvironment(envName, skillsDest, commandsDests) {
-  console.log(`\nConfiguring ${envName} targets...`);
-  
-  // Link or copy skills folder
-  linkOrCopy(skillsSrc, skillsDest);
-  
-  // Link custom commands folder if provided
-  if (commandsDests) {
-    const geminiConfSrc = path.join(projectRoot, '.gemini', 'commands');
-    const dests = Array.isArray(commandsDests) ? commandsDests : [commandsDests];
-    dests.forEach(dest => {
-      linkOrCopy(geminiConfSrc, dest);
-    });
-  }
-  
-  console.log(`${envName} skills and commands configured successfully.`);
-  rl.question('\nPress Enter to return to main menu...', () => mainMenu());
-}
+// ─── rules files ─────────────────────────────────────────────────────────────
 
 function generateRules() {
-  console.log('\nGenerating IDE Rules files for all AI agents...');
-  const ruleContent = `# Custom Agent Instructions: Antigravity Skills Library
+  const agents = getAgents();
+  const agentPathList = agents.map(a =>
+    `  ${a.name.padEnd(20)} project: ${a.projectPath}\n` +
+    `${''.padEnd(24)} global:  ${a.globalPath}`
+  ).join('\n');
 
-You are connected to the Antigravity Agent Skills Library containing 444 professional capabilities (visual scrollytelling, browser scraping/testing, planning workflows, and algorithmic DSA).
+  const content = `# ANI-Skills Ultra Package v2.0
+# 444 skills · Semantic namespaces · 8 AI agents
 
-## Skill Registry Path
-The skills registry is located in the local directory:
-./skills/
+## Skill Namespaces
+| Prefix    | Category                                  |
+|-----------|-------------------------------------------|
+| start:    | Project bootstrap & initialization        |
+| ui:       | UI/UX · GSAP · Three.js · animations      |
+| react:    | React ecosystem                           |
+| angular:  | Angular ecosystem                         |
+| next:     | Next.js / Vercel                          |
+| test:     | All testing frameworks                    |
+| scraping: | Browser automation & web scraping         |
+| db:       | Databases (ClickHouse, Neon, Supabase…)   |
+| cloud:    | Cloud infra (Cloudflare, Netlify, AWS…)   |
+| ai:       | AI/LLM frameworks (Gemini, Venice…)       |
+| stripe:   | Stripe payments                           |
+| api:      | API design, MCP, interfaces               |
+| dsa:      | Data structures & algorithms              |
+| plan:     | ANI planning workflow                     |
+| debug:    | Debugging & error recovery                |
+| security: | Security & hardening                      |
+| doc:      | Documentation & file generation           |
+| agent:    | Multi-agent orchestration patterns        |
+| git:      | Git workflow & versioning                 |
+| perf:     | Performance optimization                  |
+| obsidian: | Obsidian tools                            |
+| media:    | Content creation & media tools            |
+| quality:  | Code quality & review                     |
+| meta:     | Namespace meta-skills                     |
+| boss:     | Boss prompt orchestrators                 |
+
+## Skill Registry Paths
+${agentPathList}
 
 ## Execution Policy
-1. When asked to construct creative layouts (parallax, custom cursors, smooth scroll, 120fps cards), read the instructions in \`skills/<name>/SKILL.md\` and review its working code details in \`skills/<name>/references/index.html\`.
-2. When asked to perform web scraping, UI automation, or framework testing (Puppeteer, Playwright, Selenium, Cypress), consult \`skills/<name>-skill/SKILL.md\` and its test/scraping setup files.
-3. When asked to solve DSA problems, consult \`skills/dsa-<name>/SKILL.md\` for optimized algorithm complexity benchmarks and template structures in Python/JS.
-4. Coordinate multiple skills by consulting the master templates under \`boss-prompts/\`.
-
-## ANI Coding & Safety Standards (for ani-skills edits)
-Whenever modifying files inside the ANI orchestrator (under \`ani-skills/\` or \`ani-core/\`):
-1. **CommonJS only**: Use \`require()\`, never \`import\`.
-2. **No external dependencies in core**: Only Node.js built-ins.
-3. **Test framework**: Use \`node:test\` and \`node:assert\` ONLY.
-4. **File extensions**: Use \`.cjs\` for all test and lib files.
-5. **Safety**: Use \`execFileSync\` (array args) instead of \`execSync\`. Validate user paths using \`validatePath()\` from \`ani-skills/bin/lib/security.cjs\`.
+1. When a skill matches, read \`skills/<folder>/SKILL.md\` and any \`references/\` assets.
+2. Use the namespace to identify the skill category. Example: \`ui:gsap-scrolltrigger\` → \`skills/gsap-scrolltrigger-effects/SKILL.md\`
+3. For multi-skill tasks, consult \`boss-prompts/\` for orchestration personas.
+4. Follow ANI coding standards: CommonJS only, no external deps, execFileSync over execSync.
 `;
 
-  try {
-    fs.writeFileSync(path.join(process.cwd(), '.cursorrules'), ruleContent);
-    fs.writeFileSync(path.join(process.cwd(), '.windsurfrules'), ruleContent);
-    fs.writeFileSync(path.join(process.cwd(), '.traerules'), ruleContent);
-    fs.writeFileSync(path.join(process.cwd(), '.clinerules'), ruleContent);
-    fs.writeFileSync(path.join(process.cwd(), '.geminirules'), ruleContent);
-    console.log(`[Success] Wrote rules files for Cursor (.cursorrules), Windsurf (.windsurfrules), Trae (.traerules), Clinerules (.clinerules), and Gemini (.geminirules).`);
-  } catch (e) {
-    console.error(`[Error] Failed to write rule files: ${e.message}`);
-  }
-  rl.question('\nPress Enter to return to main menu...', () => mainMenu());
+  const files = [
+    '.cursorrules', '.windsurfrules', '.traerules',
+    '.clinerules', '.geminirules', '.copilot-rules',
+  ];
+  files.forEach(f => {
+    try {
+      fs.writeFileSync(path.join(projectRoot, f), content, 'utf8');
+      console.log(`  [✓] Wrote ${f}`);
+    } catch (e) {
+      console.error(`  [!] Failed ${f}: ${e.message}`);
+    }
+  });
+  console.log('\nRules files written.');
 }
 
-function localInstall() {
-  console.log('\nCopying skills to current workspace directory...');
-  const currentSkills = path.join(process.cwd(), 'skills');
-  const currentCommands = path.join(process.cwd(), 'commands');
-  const currentBoss = path.join(process.cwd(), 'boss-prompts');
-  
-  try {
-    copyRecursiveSync(skillsSrc, currentSkills);
-    copyRecursiveSync(commandsSrc, currentCommands);
-    copyRecursiveSync(path.join(projectRoot, 'boss-prompts'), currentBoss);
-    console.log(`[Success] Copied /skills, /commands, and /boss-prompts locally.`);
-  } catch (e) {
-    console.error(`[Error] Copy failed: ${e.message}`);
-  }
-  rl.question('\nPress Enter to return to main menu...', () => mainMenu());
-}
+// ─── compile index ────────────────────────────────────────────────────────────
 
 function compileIndex() {
-  console.log('\nCompiling skills index...');
+  console.log('\nRebuilding skills_index.json...');
   try {
-    const updateScript = path.join(projectRoot, 'scripts', 'update_skills_index.py');
-    const output = execSync(`python "${updateScript}"`).toString();
-    console.log(output);
-  } catch (e) {
-    console.error(`[Error] Failed to run update script: ${e.message}`);
-  }
-  rl.question('\nPress Enter to return to main menu...', () => mainMenu());
+    const s = path.join(projectRoot, 'scripts', 'update_skills_index.py');
+    console.log(execSync(`python "${s}"`).toString());
+  } catch (e) { console.error(`[Error] ${e.message}`); }
 }
+
+// ─── interactive menu ─────────────────────────────────────────────────────────
 
 function mainMenu() {
   showBanner();
-  const homeDir = process.env.HOME || process.env.USERPROFILE || os.homedir();
-  console.log('Select your target configuration environment:');
-  console.log(`[1] Configure for Antigravity IDE  ${path.join(homeDir, '.gemini', 'config')}`);
-  console.log(`[2] Configure for Antigravity 2.0  ${path.join(homeDir, '.gemini', 'antigravity')}`);
-  console.log(`[3] Configure for Claude Code CLI  ${path.join(homeDir, '.claude')}`);
-  console.log(`[4] Configure for Trae             ${path.join(homeDir, '.trae')}`);
-  console.log(`[5] Configure for Cursor           ${path.join(homeDir, '.cursor')}`);
-  console.log(`[6] Configure for Kiro             ${path.join(homeDir, '.kiro')}`);
-  console.log(`[7] Configure for Qoderworker      ${path.join(homeDir, '.qoderwork')}`);
-  console.log(`[8] Configure for CodeBuddy        ${path.join(homeDir, '.codebuddy')}`);
-  console.log(`[9] Configure for Cline            ${path.join(homeDir, '.cline')}`);
-  console.log('[10] Generate IDE Rules files (.cursorrules / .clinerules / etc.)');
-  console.log('[11] Copy all 444 skills and commands locally to current directory');
-  console.log('[12] Compile / Update skills search index');
-  console.log('[13] Exit');
-  
-  rl.question('\nEnter option (1-13): ', (choice) => {
-    switch (choice.trim()) {
-      case '1':
-        configureEnvironment(
-          'Antigravity IDE',
-          path.join(homeDir, '.gemini', 'config', 'skills'),
-          [path.join(homeDir, '.gemini', 'commands'), path.join(homeDir, '.gemini', 'config', 'commands')]
-        );
-        break;
-      case '2':
-        configureEnvironment(
-          'Antigravity 2.0',
-          path.join(homeDir, '.gemini', 'antigravity', 'skills'),
-          [path.join(homeDir, '.gemini', 'commands'), path.join(homeDir, '.gemini', 'antigravity', 'commands')]
-        );
-        break;
-      case '3':
-        configureEnvironment(
-          'Claude Code CLI',
-          path.join(homeDir, '.claude', 'skills'),
-          null
-        );
-        break;
-      case '4':
-        configureEnvironment(
-          'Trae',
-          path.join(homeDir, '.trae', 'skills'),
-          null
-        );
-        break;
-      case '5':
-        configureEnvironment(
-          'Cursor',
-          path.join(homeDir, '.cursor', 'skills'),
-          null
-        );
-        break;
-      case '6':
-        configureEnvironment(
-          'Kiro',
-          path.join(homeDir, '.kiro', 'skills'),
-          null
-        );
-        break;
-      case '7':
-        configureEnvironment(
-          'Qoderworker',
-          path.join(homeDir, '.qoderwork', 'skills'),
-          null
-        );
-        break;
-      case '8':
-        configureEnvironment(
-          'CodeBuddy',
-          path.join(homeDir, '.codebuddy', 'skills'),
-          null
-        );
-        break;
-      case '9':
-        configureEnvironment(
-          'Cline',
-          path.join(homeDir, '.cline', 'skills'),
-          null
-        );
-        break;
-      case '10':
-        generateRules();
-        break;
-      case '11':
-        localInstall();
-        break;
-      case '12':
-        compileIndex();
-        break;
-      case '13':
-        console.log('Setup completed. Enjoy your Antigravity Agent skills!');
-        rl.close();
-        process.exit(0);
-        break;
-      default:
-        console.log('Invalid option. Please choose an option from 1 to 13.');
-        rl.question('\nPress Enter to try again...', () => mainMenu());
-        break;
+  const agents = getAgents();
+  console.log('Install skills to an AI agent:\n');
+  agents.forEach((a, i) => {
+    console.log(`  [${i+1}]  ${a.name.padEnd(22)} → project + global`);
+  });
+  console.log(`\n  [A]  Install to ALL detected agents (auto)`);
+  console.log(`  [R]  Generate rules files (.cursorrules / .geminirules / etc.)`);
+  console.log(`  [I]  Rebuild skills_index.json`);
+  console.log(`  [Q]  Quit\n`);
+
+  rl.question('Choice: ', choice => {
+    const c = choice.trim().toUpperCase();
+    const idx = parseInt(c, 10);
+    if (!isNaN(idx) && idx >= 1 && idx <= agents.length) {
+      installAgent(agents[idx - 1]);
+      rl.question('\nPress Enter to return to menu...', () => mainMenu());
+    } else if (c === 'A') {
+      runAutoInstall(true);
+    } else if (c === 'R') {
+      generateRules();
+      rl.question('\nPress Enter to return to menu...', () => mainMenu());
+    } else if (c === 'I') {
+      compileIndex();
+      rl.question('\nPress Enter to return to menu...', () => mainMenu());
+    } else if (c === 'Q') {
+      console.log('\nDone. Enjoy your ANI-Skills Ultra package!');
+      rl.close();
+      process.exit(0);
+    } else {
+      console.log('Invalid option.');
+      rl.question('Press Enter...', () => mainMenu());
     }
   });
 }
 
-function runAutoInstall() {
-  console.log('Running Antigravity Skills Library Setup in Auto/Non-Interactive Mode...');
-  const homeDir = process.env.HOME || process.env.USERPROFILE || os.homedir();
-  
-  const targets = [
-    {
-      name: 'Antigravity IDE',
-      skillsDest: path.join(homeDir, '.gemini', 'config', 'skills'),
-      commandsDests: [path.join(homeDir, '.gemini', 'commands'), path.join(homeDir, '.gemini', 'config', 'commands')],
-      trigger: path.join(homeDir, '.gemini', 'config')
-    },
-    {
-      name: 'Antigravity 2.0',
-      skillsDest: path.join(homeDir, '.gemini', 'antigravity', 'skills'),
-      commandsDests: [path.join(homeDir, '.gemini', 'commands'), path.join(homeDir, '.gemini', 'antigravity', 'commands')],
-      trigger: path.join(homeDir, '.gemini', 'antigravity')
-    },
-    {
-      name: 'Claude Code CLI',
-      skillsDest: path.join(homeDir, '.claude', 'skills'),
-      commandsDests: null,
-      trigger: path.join(homeDir, '.claude')
-    },
-    {
-      name: 'Trae',
-      skillsDest: path.join(homeDir, '.trae', 'skills'),
-      commandsDests: null,
-      trigger: path.join(homeDir, '.trae')
-    },
-    {
-      name: 'Cursor',
-      skillsDest: path.join(homeDir, '.cursor', 'skills'),
-      commandsDests: null,
-      trigger: path.join(homeDir, '.cursor')
-    },
-    {
-      name: 'Kiro',
-      skillsDest: path.join(homeDir, '.kiro', 'skills'),
-      commandsDests: null,
-      trigger: path.join(homeDir, '.kiro')
-    },
-    {
-      name: 'Qoderworker',
-      skillsDest: path.join(homeDir, '.qoderwork', 'skills'),
-      commandsDests: null,
-      trigger: path.join(homeDir, '.qoderwork')
-    },
-    {
-      name: 'CodeBuddy',
-      skillsDest: path.join(homeDir, '.codebuddy', 'skills'),
-      commandsDests: null,
-      trigger: path.join(homeDir, '.codebuddy')
-    },
-    {
-      name: 'Cline',
-      skillsDest: path.join(homeDir, '.cline', 'skills'),
-      commandsDests: null,
-      trigger: path.join(homeDir, '.cline')
-    }
-  ];
+// ─── auto install (postinstall / --auto) ─────────────────────────────────────
 
-  let configuredAny = false;
+function runAutoInstall(interactive = false) {
+  showBanner();
+  console.log('Auto-detecting installed AI agents...\n');
+  const agents  = getAgents();
+  let configured = 0;
 
-  targets.forEach(target => {
-    if (fs.existsSync(target.trigger)) {
-      console.log(`\nDetected environment: ${target.name}. Configuring targets...`);
-      try {
-        // Copy skills
-        linkOrCopy(skillsSrc, target.skillsDest);
-        
-        // Copy commands
-        if (target.commandsDests) {
-          const geminiConfSrc = path.join(projectRoot, '.gemini', 'commands');
-          const dests = Array.isArray(target.commandsDests) ? target.commandsDests : [target.commandsDests];
-          dests.forEach(dest => {
-            linkOrCopy(geminiConfSrc, dest);
-          });
-        }
-        console.log(`[Success] Configured ${target.name} skills and commands.`);
-        configuredAny = true;
-      } catch (err) {
-        console.error(`[Error] Failed configuring ${target.name}: ${err.message}`);
-      }
+  agents.forEach(agent => {
+    if (fs.existsSync(agent.trigger)) {
+      installAgent(agent);
+      configured++;
+    } else {
+      console.log(`  [–] ${agent.name} not detected (${agent.trigger})`);
     }
   });
 
-  if (!configuredAny) {
-    console.log('\nNo standard AI environment directories detected (like .gemini, .cursor, .claude, etc.).');
-    console.log('Skipping auto configuration. To run interactively, run the script in a TTY terminal.');
-  } else {
-    console.log('\nAuto configuration completed successfully.');
+  generateRules();
+  compileIndex();
+
+  console.log(`\n✓ Configured ${configured} / ${agents.length} agents.`);
+  if (configured === 0) {
+    console.log('\nNo AI agent directories found. Run interactively: npx ani-skills');
   }
-  
-  rl.close();
-  process.exit(0);
+
+  if (interactive) {
+    rl.question('\nPress Enter to return to menu...', () => mainMenu());
+  } else {
+    rl.close();
+    process.exit(0);
+  }
 }
 
-// Start execution
-const args = process.argv.slice(2);
+// ─── entry ────────────────────────────────────────────────────────────────────
+const args   = process.argv.slice(2);
 const isAuto = args.includes('--auto') || args.includes('--yes') || args.includes('-y') || !process.stdout.isTTY;
 
 if (isAuto) {
-  runAutoInstall();
+  runAutoInstall(false);
 } else {
   mainMenu();
 }

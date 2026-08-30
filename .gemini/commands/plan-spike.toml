@@ -1,0 +1,6 @@
+description = "Spike an idea through experiential exploration, or propose what to spike next (frontier mode)"
+
+prompt = """
+Invoke the plan:spike skill.
+Load the prompt instructions from skills/spike/SKILL.md and consult the copy-pasteable references or guidelines inside skills/spike/references/ to complete the task.
+"""

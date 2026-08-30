@@ -1,5 +1,5 @@
 ---
-name: security-auditor
+name: security:auditor
 description: Verifies threat mitigations from PLAN.md threat model exist in implemented code. Produces SECURITY.md. Spawned by /antigravity:secure-phase.
 tools:
   - Read

@@ -1,5 +1,5 @@
 ---
-name: one-of-a-kind-portfolio-builder
+name: ui:portfolio-builder
 description: Build a genuinely distinctive personal/creative portfolio site by orchestrating the full library of installed animation and section skills (gsap-scrolltrigger-effects, custom-cursor-effects, text-motion-typography, morph-mask-reveal-transitions, preloader-visual-loading, threejs-interactive-backgrounds, retro-90s-ui-effects, buttery-smooth-120fps-performance, and the 20 section skills — hero, navbar, about, portfolio grid, testimonials, pricing, footer, contact form, stats, FAQ, team, CTA, gallery, timeline, blog, logo cloud, comparison table, video hero, newsletter). Use this skill whenever the user asks to "build my portfolio", "make a portfolio site", "design a personal website", or wants a site that "stands out", "looks unlike anything else", or "no one has seen before" — it is the master assembly skill that picks unusual, deliberately non-templated combinations from the other skills instead of defaulting to the most obvious pairing of each.
 ---
 

@@ -1,5 +1,5 @@
 ---
-name: ani:resume-work
+name: plan:resume
 description: Resume work from previous session with full context restoration
 allowed-tools:
   - Read

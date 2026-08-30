@@ -1,5 +1,5 @@
 ---
-name: ani:venice-skills-venice-billing
+name: ai:venice-billing
 description: Venice billing and usage analytics - GET /billing/balance, GET /billing/usage (paginated per-request ledger, JSON or CSV), and GET /billing/usage-analytics (aggregated by date/model/key). Covers the DIEM/USD/BUNDLED_CREDITS consumption priority and building dashboards. (Beta)
 ---
 

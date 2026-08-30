@@ -1,5 +1,5 @@
 ---
-name: ani:nunit-skill
+name: test:nunit
 description: >
   Generates NUnit 3 tests in C#. Covers Assert.That constraint model,
   parameterized tests, setup/teardown, and Moq mocking. Use when user mentions

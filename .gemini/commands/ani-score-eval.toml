@@ -1,6 +1,0 @@
-description = "Score the evaluation diff against the evaluation rubric."
-
-prompt = """
-Invoke the ani:score-eval skill.
-Load the prompt instructions from skills/score-eval/SKILL.md and consult the copy-pasteable references or guidelines inside skills/score-eval/references/ to complete the task.
-"""

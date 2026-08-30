@@ -1,5 +1,5 @@
 ---
-name: ani:pro:complete-landing-pages:parallax-masonry
+name: ui:pro-complete-landing-pages-parallax-masonry
 description: A high-end photography/portfolio landing page featuring smooth scrolling, complex parallax masonry grids, and magnetic interactive elements.
 version: 1.0.0
 tags: ["landing-page", "framer-motion", "parallax", "masonry", "lenis", "smooth-scroll"]

@@ -1,5 +1,5 @@
 ---
-name: ani:provider-actions
+name: cloud:terraform-provider-actions
 description: Implement Terraform Provider actions using the Plugin Framework. Use when developing imperative operations that execute at lifecycle events (before/after create, update, destroy).
 metadata:
   copyright: Copyright IBM Corp. 2026

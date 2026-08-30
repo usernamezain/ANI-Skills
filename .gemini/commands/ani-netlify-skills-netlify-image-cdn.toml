@@ -1,6 +1,0 @@
-description = "Invoke the ani:netlify-skills-netlify-image-cdn skill"
-
-prompt = """
-Invoke the ani:netlify-skills-netlify-image-cdn skill.
-Load the prompt instructions from skills/netlify-skills-netlify-image-cdn/SKILL.md and consult its guidelines to complete the task.
-"""

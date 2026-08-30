@@ -1,5 +1,5 @@
 ---
-name: ani:push-to-registry
+name: cloud:push-to-registry
 description: Push Packer build metadata to HCP Packer registry for tracking and managing image lifecycle. Use when integrating Packer builds with HCP Packer for version control and governance.
 ---
 

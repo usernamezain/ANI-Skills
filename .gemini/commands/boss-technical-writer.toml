@@ -1,0 +1,6 @@
+description = "Maps codebase configurations and builds technical guides, readmes, and Architectural Decision Records."
+
+prompt = """
+Invoke the boss:technical-writer boss prompt.
+Load the instructions from boss-prompts/technical-writer.md to orchestrate a multi-skill workflow.
+"""

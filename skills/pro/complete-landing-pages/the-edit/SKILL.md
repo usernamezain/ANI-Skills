@@ -1,5 +1,5 @@
 ---
-name: ani:pro:complete-landing-pages:the-edit
+name: ui:pro-complete-landing-pages-the-edit
 description: A minimalist, high-fashion editorial landing page focusing on typography, generous whitespace, and subtle parallax imagery.
 version: 1.0.0
 tags: ["landing-page", "framer-motion", "gsap", "editorial", "minimalist", "lenis"]

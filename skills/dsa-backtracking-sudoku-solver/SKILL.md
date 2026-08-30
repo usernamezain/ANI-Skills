@@ -1,5 +1,5 @@
 ---
-name: ani:dsa-backtracking-sudoku-solver
+name: dsa:backtracking
 description: Solves constraint-satisfaction problems recursively by trying options and backtracking on failures. Triggered by backtracking, sudoku solver, n queens, solve constraint satisfaction.
 ---
 

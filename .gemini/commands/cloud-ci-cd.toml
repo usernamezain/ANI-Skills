@@ -1,0 +1,6 @@
+description = "Automates CI/CD pipeline setup. Use when setting up or modifying build and deployment pipelines. Use when you need to automate quality gates, configure test runners in CI, or establish deployment strategies."
+
+prompt = """
+Invoke the cloud:ci-cd skill.
+Load the prompt instructions from skills/ci-cd-and-automation/SKILL.md and consult the copy-pasteable references or guidelines inside skills/ci-cd-and-automation/references/ to complete the task.
+"""

@@ -1,5 +1,5 @@
 ---
-name: ani:venice-skills-venice-api-keys
+name: ai:venice-api-keys
 description: Manage Venice API keys. Covers GET/POST/PATCH/DELETE /api_keys, GET /api_keys/{id}, GET /api_keys/rate_limits, GET /api_keys/rate_limits/log, the two-step /api_keys/generate_web3_key wallet flow, INFERENCE vs ADMIN key types, and per-key consumption limits (USD / DIEM).
 ---
 

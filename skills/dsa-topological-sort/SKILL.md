@@ -1,5 +1,5 @@
 ---
-name: ani:dsa-topological-sort
+name: dsa:topological-sort
 description: Performs linear ordering of vertices in directed acyclic graphs (DAG). Triggered by topological sort, tasks scheduling, tasks scheduling order, alien dictionary, reconstructing a sequence.
 ---
 

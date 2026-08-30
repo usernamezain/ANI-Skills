@@ -2,5 +2,5 @@ description = "Investigates errors, evaluates system assumptions, and instrument
 
 prompt = """
 Invoke the ani:boss-prompt-systematic-debugger skill.
-Load the prompt instructions from skills/boss-prompts/systematic-debugger/SKILL.md and consult the copy-pasteable references or guidelines inside skills/boss-prompts/systematic-debugger/ to complete the task.
+Load the prompt instructions from skills/boss-prompts/systematic-debugger/SKILL.md and consult the copy-pasteable references or guidelines inside skills/boss-prompts/systematic-debugger/references/ to complete the task.
 """

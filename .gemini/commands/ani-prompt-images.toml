@@ -1,6 +1,0 @@
-description = ">"
-
-prompt = """
-Invoke the ani:prompt-images skill.
-Load the prompt instructions from skills/prompt-images/SKILL.md and consult the copy-pasteable references or guidelines inside skills/prompt-images/references/ to complete the task.
-"""

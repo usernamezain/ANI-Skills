@@ -1,5 +1,5 @@
 ---
-name: ani:boss-prompt-e-commerce-ux-architect
+name: boss:e-commerce-ux-architect
 description: Builds high-performance e-commerce user interfaces with mega-menus, product details, and accordion FAQs.
 argument-hint: "[additional instructions]"
 allowed-tools:

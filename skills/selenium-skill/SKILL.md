@@ -1,5 +1,5 @@
 ---
-name: ani:selenium-skill
+name: test:selenium
 description: >
   Generates production-grade Selenium WebDriver automation scripts and tests
   in Java, Python, JavaScript, C#, Ruby, or PHP. Supports local execution

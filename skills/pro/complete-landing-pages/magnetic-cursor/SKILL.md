@@ -1,5 +1,5 @@
 ---
-name: ani:pro:complete-landing-pages:magnetic-cursor
+name: ui:pro-complete-landing-pages-magnetic-cursor
 description: A complete landing page component featuring a custom spring-physics magnetic cursor, noise overlays, and spotlight bento grids, built with Framer Motion.
 version: 1.0.0
 tags: ["landing-page", "framer-motion", "cursor", "bento-grid", "noise-overlay"]

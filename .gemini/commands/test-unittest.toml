@@ -1,0 +1,6 @@
+description = ">"
+
+prompt = """
+Invoke the test:unittest skill.
+Load the prompt instructions from skills/unittest-skill/SKILL.md and consult the copy-pasteable references or guidelines inside skills/unittest-skill/references/ to complete the task.
+"""

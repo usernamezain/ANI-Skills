@@ -1,0 +1,6 @@
+description = ">-"
+
+prompt = """
+Invoke the db:neon skill.
+Load the prompt instructions from skills/neon/SKILL.md and consult the copy-pasteable references or guidelines inside skills/neon/references/ to complete the task.
+"""

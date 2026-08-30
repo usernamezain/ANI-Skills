@@ -1,5 +1,5 @@
 ---
-name: ani:junit-5-skill
+name: test:junit5
 description: >
   Generates production-grade JUnit 5 unit and integration tests in Java.
   Covers assertions, parameterized tests, lifecycle hooks, mocking with

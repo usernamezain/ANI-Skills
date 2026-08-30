@@ -1,5 +1,5 @@
 ---
-name: ani:connect-recommend
+name: api:connect-recommend
 description: >-
   This skill should be used when the user asks about Stripe Connect configuration, charge patterns, dashboard access, or how to get started with Connect,
   is building a marketplace, platform, multi-vendor store, gig platform, or subscription platform,

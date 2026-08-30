@@ -1,5 +1,5 @@
 ---
-name: ani:flutter-testing-skill
+name: test:flutter
 description: >
   Generates Flutter widget tests, integration tests, and golden tests in Dart.
   Supports local execution and TestMu AI cloud for real device testing.

@@ -1,5 +1,5 @@
 ---
-name: ani:typefully
+name: media:typefully
 description: >
   Create, schedule, and manage social media posts via Typefully. ALWAYS use this
   skill when asked to draft, schedule, post, or check tweets, posts, threads, or

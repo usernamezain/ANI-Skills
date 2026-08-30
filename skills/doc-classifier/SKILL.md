@@ -1,5 +1,5 @@
 ---
-name: doc-classifier
+name: doc:classifier
 description: Classifies a single planning document as ADR, PRD, SPEC, DOC, or UNKNOWN. Extracts title, scope summary, and cross-references. Spawned in parallel by /antigravity:ingest-docs. Writes a JSON classification file and returns a one-line confirmation.
 tools: Read, Write, Grep, Glob
 color: yellow

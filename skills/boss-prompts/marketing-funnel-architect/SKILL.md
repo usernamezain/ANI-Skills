@@ -1,5 +1,5 @@
 ---
-name: ani:boss-prompt-marketing-funnel-architect
+name: boss:marketing-funnel-architect
 description: Orchestrates sign-up boxes, custom fields, and large navigation headers to drive user conversions.
 argument-hint: "[additional instructions]"
 allowed-tools:

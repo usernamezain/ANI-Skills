@@ -1,5 +1,5 @@
 ---
-name: multi-slat-about-reveal
+name: ui:slat-about-reveal
 description: Skill for designing scroll-pinned multi-slat reveals with alternating layers.
 ---
 

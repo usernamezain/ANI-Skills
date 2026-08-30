@@ -1,0 +1,6 @@
+description = "Generate images with Venice. Covers POST /image/generate (Venice-native), POST /images/generations (OpenAI-compatible), GET /image/styles (style presets), request fields (prompt, dimensions, cfg_scale, seed, variants, style_preset, aspect_ratio, resolution, safe_mode, watermark), and response formats."
+
+prompt = """
+Invoke the ai:venice-image-generate skill.
+Load the prompt instructions from skills/venice-skills-venice-image-generate/SKILL.md and consult the copy-pasteable references or guidelines inside skills/venice-skills-venice-image-generate/references/ to complete the task.
+"""

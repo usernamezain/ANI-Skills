@@ -1,5 +1,5 @@
 ---
-name: ani:boss-prompt-portfolio-builder
+name: boss:portfolio-builder
 description: Assembles responsive developer portfolios featuring grid animations and overlays.
 argument-hint: "[additional instructions]"
 allowed-tools:

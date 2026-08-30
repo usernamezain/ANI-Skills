@@ -1,6 +1,0 @@
-description = "Transform monolithic Terraform configurations into reusable, maintainable modules following HashiCorp's module design principles and community best practices."
-
-prompt = """
-Invoke the ani:refactor-module skill.
-Load the prompt instructions from skills/refactor-module/SKILL.md and consult the copy-pasteable references or guidelines inside skills/refactor-module/references/ to complete the task.
-"""

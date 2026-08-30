@@ -1,0 +1,6 @@
+description = "Archive completed milestone and prepare for next version"
+
+prompt = """
+Invoke the plan:complete-milestone skill.
+Load the prompt instructions from skills/complete-milestone/SKILL.md and consult the copy-pasteable references or guidelines inside skills/complete-milestone/references/ to complete the task.
+"""

@@ -2,5 +2,5 @@ description = "Assembles responsive developer portfolios featuring grid animatio
 
 prompt = """
 Invoke the ani:boss-prompt-portfolio-builder skill.
-Load the prompt instructions from skills/boss-prompts/portfolio-builder/SKILL.md and consult the copy-pasteable references or guidelines inside skills/boss-prompts/portfolio-builder/ to complete the task.
+Load the prompt instructions from skills/boss-prompts/portfolio-builder/SKILL.md and consult the copy-pasteable references or guidelines inside skills/boss-prompts/portfolio-builder/references/ to complete the task.
 """

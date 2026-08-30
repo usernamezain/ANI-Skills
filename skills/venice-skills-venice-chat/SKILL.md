@@ -1,5 +1,5 @@
 ---
-name: ani:venice-skills-venice-chat
+name: ai:venice-chat
 description: Call POST /chat/completions on Venice. Covers the OpenAI-compatible request shape, Venice-only venice_parameters (web search, E2EE, characters, thinking control, X search), multimodal inputs (images/audio/video), tool calls, reasoning controls, streaming, prompt caching, structured output, and model feature suffixes.
 ---
 

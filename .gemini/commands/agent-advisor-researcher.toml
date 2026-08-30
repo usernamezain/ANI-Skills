@@ -1,0 +1,6 @@
+description = "Researches a single gray area decision and returns a structured comparison table with rationale. Spawned by discuss-phase advisor mode."
+
+prompt = """
+Invoke the agent:advisor-researcher skill.
+Load the prompt instructions from skills/advisor-researcher/SKILL.md and consult the copy-pasteable references or guidelines inside skills/advisor-researcher/references/ to complete the task.
+"""

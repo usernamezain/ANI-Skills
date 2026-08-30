@@ -1,5 +1,5 @@
 ---
-name: ani:boss-prompt-error-recovery-specialist
+name: boss:error-recovery-specialist
 description: Diagnoses project failures, reviews logs, and applies corrections to restore standard setups.
 argument-hint: "[additional instructions]"
 allowed-tools:

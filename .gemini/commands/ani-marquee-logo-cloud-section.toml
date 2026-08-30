@@ -1,6 +1,0 @@
-description = "Build an infinitely scrolling logo cloud / client-showcase strip with seamless looping, pause-on-hover, and optional grayscale-to-color reveal on hover per logo. Use whenever the user wants a \"logo cloud\", \"client logos section\", \"as seen in\", \"trusted by\", or \"brands we work with\" strip."
-
-prompt = """
-Invoke the ani:marquee-logo-cloud-section skill.
-Load the prompt instructions from skills/marquee-logo-cloud-section/SKILL.md and consult the copy-pasteable references or guidelines inside skills/marquee-logo-cloud-section/references/ to complete the task.
-"""

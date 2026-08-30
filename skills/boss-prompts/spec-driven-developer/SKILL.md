@@ -1,5 +1,5 @@
 ---
-name: ani:boss-prompt-spec-driven-developer
+name: boss:spec-driven-developer
 description: Drives implementation loops by planning, discussing boundary requirements, writing tests first, and executing.
 argument-hint: "[additional instructions]"
 allowed-tools:

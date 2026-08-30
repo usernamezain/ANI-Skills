@@ -1,5 +1,5 @@
 ---
-name: ani:boss-prompt-agile-release-manager
+name: boss:agile-release-manager
 description: Coordinates user acceptance tests, builds release manifests, and updates roadmaps.
 argument-hint: "[additional instructions]"
 allowed-tools:

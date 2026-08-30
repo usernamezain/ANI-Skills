@@ -1,5 +1,5 @@
 ---
-name: ani:gauge-skill
+name: test:gauge
 description: >
   Generates Gauge test specifications in Markdown with step implementations
   in Java, Python, JS, or Ruby. ThoughtWorks' test automation framework.

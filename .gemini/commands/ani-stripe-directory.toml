@@ -1,6 +1,0 @@
-description = ">-"
-
-prompt = """
-Invoke the ani:stripe-directory skill.
-Load the prompt instructions from skills/stripe-directory/SKILL.md and consult the copy-pasteable references or guidelines inside skills/stripe-directory/references/ to complete the task.
-"""

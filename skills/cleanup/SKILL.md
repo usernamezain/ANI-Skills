@@ -1,5 +1,5 @@
 ---
-name: ani:cleanup
+name: plan:cleanup
 description: Archive accumulated phase directories from completed milestones
 allowed-tools:
   - Read

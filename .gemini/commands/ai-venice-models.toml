@@ -1,0 +1,6 @@
+description = "Discover Venice models, their capabilities, constraints, and pricing. Covers GET /models (with ?type filter), /models/traits, /models/compatibility_mapping, the ModelResponse schema (capabilities, constraints, pricing per type), and how to use this to pick the right model programmatically."
+
+prompt = """
+Invoke the ai:venice-models skill.
+Load the prompt instructions from skills/venice-skills-venice-models/SKILL.md and consult the copy-pasteable references or guidelines inside skills/venice-skills-venice-models/references/ to complete the task.
+"""

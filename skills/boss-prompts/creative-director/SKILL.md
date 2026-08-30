@@ -1,5 +1,5 @@
 ---
-name: ani:boss-prompt-creative-director
+name: boss:creative-director
 description: Orchestrates immersive visual aesthetics, fluid page transitions, and smooth scrolling for high-end landing pages.
 argument-hint: "[additional instructions]"
 allowed-tools:

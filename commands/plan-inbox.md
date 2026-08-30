@@ -1,0 +1,6 @@
+# plan:inbox
+
+Triage and review open GitHub issues and PRs against project templates and contribution guidelines.
+
+**Skill folder:** `skills/inbox/`
+**Namespace:** `plan`

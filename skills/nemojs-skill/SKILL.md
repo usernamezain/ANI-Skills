@@ -1,5 +1,5 @@
 ---
-name: ani:nemojs-skill
+name: test:nemo
 description: >
   Generates Nemo.js automation tests in JavaScript. PayPal's Selenium-based
   test framework for Node.js. Use when user mentions "Nemo.js", "nemo

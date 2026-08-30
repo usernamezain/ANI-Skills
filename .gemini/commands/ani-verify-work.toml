@@ -1,6 +1,0 @@
-description = "Validate built features through conversational UAT"
-
-prompt = """
-Invoke the ani:verify-work skill.
-Load the prompt instructions from skills/verify-work/SKILL.md and consult the copy-pasteable references or guidelines inside skills/verify-work/references/ to complete the task.
-"""

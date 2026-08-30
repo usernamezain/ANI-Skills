@@ -1,0 +1,6 @@
+# cloud:cloudflare
+
+Comprehensive Cloudflare platform skill covering Workers, Pages, storage (KV, D1, R2), AI (Workers AI, Vectorize, Agents SDK), feature flags (Flagship), networking (Tunnel, Spectrum), security (WAF, DDoS), and infrastructure-as-code (Terraform, Pulumi). Use for any Cloudflare development task. Biases towards retrieval from Cloudflare docs over pre-trained knowledge.
+
+**Skill folder:** `skills/cloudflare-skills-cloudflare/`
+**Namespace:** `cloud`

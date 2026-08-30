@@ -1,5 +1,5 @@
 ---
-name: ani:boss-prompt-monorepo-architect
+name: boss:monorepo-architect
 description: Structures workspaces, configure changesets, and compiles workspace registries.
 argument-hint: "[additional instructions]"
 allowed-tools:

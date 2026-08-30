@@ -1,6 +1,0 @@
-description = "Implement Terraform Provider resources and data sources using the Plugin Framework. Use when developing CRUD operations, schema design, state management, and acceptance testing for provider resources."
-
-prompt = """
-Invoke the ani:provider-resources skill.
-Load the prompt instructions from skills/provider-resources/SKILL.md and consult the copy-pasteable references or guidelines inside skills/provider-resources/references/ to complete the task.
-"""

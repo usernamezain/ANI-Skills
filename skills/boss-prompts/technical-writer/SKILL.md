@@ -1,5 +1,5 @@
 ---
-name: ani:boss-prompt-technical-writer
+name: boss:technical-writer
 description: Maps codebase configurations and builds technical guides, readmes, and Architectural Decision Records.
 argument-hint: "[additional instructions]"
 allowed-tools:

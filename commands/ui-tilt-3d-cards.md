@@ -1,0 +1,6 @@
+# ui:tilt-3d-cards
+
+Build a team/people section with 3D tilt-on-hover photo cards, a name/role reveal that slides up on hover, and a staggered scroll entrance. Use whenever the user wants a "team section", "our team", "people grid", "meet the team", or "staff directory" with more polish than plain photo grids.
+
+**Skill folder:** `skills/tilt-3d-team-cards-section/`
+**Namespace:** `ui`

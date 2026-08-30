@@ -1,5 +1,5 @@
 ---
-name: context
+name: meta:context
 description: "codebase intelligence | map graphify docs learnings"
 argument-hint: ""
 allowed-tools:

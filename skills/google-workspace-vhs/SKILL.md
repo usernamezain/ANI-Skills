@@ -1,5 +1,5 @@
 ---
-name: ani:google-workspace-vhs
+name: doc:google-workspace-vhs
 description: Writing and editing VHS .tape scripts for terminal demo GIFs
 argument-hint: "[instructions]"
 allowed-tools:

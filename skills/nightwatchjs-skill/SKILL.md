@@ -1,5 +1,5 @@
 ---
-name: ani:nightwatchjs-skill
+name: test:nightwatch
 description: >
   Generates NightwatchJS E2E tests in JavaScript. Integrated test runner with
   Selenium WebDriver, built-in assertions, and page objects. Use when user

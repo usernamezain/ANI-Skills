@@ -1,0 +1,6 @@
+description = "Build Azure managed images and Azure Compute Gallery images with Packer. Use when creating custom images for Azure VMs."
+
+prompt = """
+Invoke the cloud:azure-image skill.
+Load the prompt instructions from skills/azure-image-builder/SKILL.md and consult the copy-pasteable references or guidelines inside skills/azure-image-builder/references/ to complete the task.
+"""

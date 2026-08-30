@@ -1,5 +1,5 @@
 ---
-name: ani:publish-models
+name: ai:replicate-publish
 description: >
   Push and publish custom AI models to Replicate, and set up CI/CD for
   releasing new model versions safely. Use when running cog push,

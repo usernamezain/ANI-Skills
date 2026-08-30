@@ -1,5 +1,5 @@
 ---
-name: ani:voltagent-core-reference
+name: ai:voltagent-core
 # prettier-ignore
 description: Reference for the VoltAgent class: constructor options, lifecycle methods, and runtime behavior.
 license: MIT

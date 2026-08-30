@@ -1,5 +1,5 @@
 ---
-name: ani:boss-prompt-llm-eval-judge
+name: boss:llm-eval-judge
 description: Constructs Rubric scoring tables and checks for biases to evaluate language models.
 argument-hint: "[additional instructions]"
 allowed-tools:

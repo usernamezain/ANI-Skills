@@ -1,0 +1,6 @@
+description = "Orchestrates immersive visual aesthetics, fluid page transitions, and smooth scrolling for high-end landing pages."
+
+prompt = """
+Invoke the boss:creative-director boss prompt.
+Load the instructions from boss-prompts/creative-director.md to orchestrate a multi-skill workflow.
+"""

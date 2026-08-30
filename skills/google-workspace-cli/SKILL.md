@@ -1,5 +1,5 @@
 ---
-name: ani:google-workspace-cli
+name: doc:google-workspace-cli
 description: Google Workspace CLI (gws) schema rules and dry-run safety
 argument-hint: "[instructions]"
 allowed-tools:

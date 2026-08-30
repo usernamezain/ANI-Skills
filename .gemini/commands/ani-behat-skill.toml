@@ -1,6 +1,0 @@
-description = ">"
-
-prompt = """
-Invoke the ani:behat-skill skill.
-Load the prompt instructions from skills/behat-skill/SKILL.md and consult the copy-pasteable references or guidelines inside skills/behat-skill/references/ to complete the task.
-"""

@@ -1,0 +1,6 @@
+# ai:venice-characters
+
+Discover and use Venice public characters (persona-driven system prompts with a bound model). Covers GET /characters (search/filter/sort), /characters/{slug}, /characters/{slug}/reviews, the Character schema, and how to apply a character via venice_parameters.character_slug in chat completions.
+
+**Skill folder:** `skills/venice-skills-venice-characters/`
+**Namespace:** `ai`

@@ -1,5 +1,5 @@
 ---
-name: ani:pro:startup-landing-pages:kinetic
+name: ui:pro-startup-landing-pages-kinetic
 description: Generate a full motion-driven, agency-grade landing page with GSAP ScrollTrigger parallax, Lenis smooth scrolling, physics-based magnetic cursors, and velocity-skew image columns — the "Kinetic" aesthetic.
 ---
 

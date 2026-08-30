@@ -1,6 +1,0 @@
-description = "Invoke the ani:netlify-skills-netlify-deploy skill"
-
-prompt = """
-Invoke the ani:netlify-skills-netlify-deploy skill.
-Load the prompt instructions from skills/netlify-skills-netlify-deploy/SKILL.md and consult its guidelines to complete the task.
-"""

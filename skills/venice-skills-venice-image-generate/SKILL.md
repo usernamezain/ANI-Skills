@@ -1,5 +1,5 @@
 ---
-name: ani:venice-skills-venice-image-generate
+name: ai:venice-image-generate
 description: Generate images with Venice. Covers POST /image/generate (Venice-native), POST /images/generations (OpenAI-compatible), GET /image/styles (style presets), request fields (prompt, dimensions, cfg_scale, seed, variants, style_preset, aspect_ratio, resolution, safe_mode, watermark), and response formats.
 ---
 

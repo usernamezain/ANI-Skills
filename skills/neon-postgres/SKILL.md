@@ -1,5 +1,5 @@
 ---
-name: ani:neon-postgres
+name: db:neon-postgres
 description: >-
   Guides and best practices for working with Neon Serverless Postgres.
   Covers setup, connection methods, branching, autoscaling, scale-to-zero,

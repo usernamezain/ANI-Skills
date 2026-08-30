@@ -1,0 +1,6 @@
+description = "Run AI agent tasks remotely on Netlify using Claude, Codex, or Gemini. Use when the user wants to run an AI agent on their site, get a second opinion from another model, or delegate development tasks to run remotely against their repo."
+
+prompt = """
+Invoke the cloud:netlify-agent-runner skill.
+Load the prompt instructions from skills/netlify-skills-netlify-agent-runner/SKILL.md and consult the copy-pasteable references or guidelines inside skills/netlify-skills-netlify-agent-runner/references/ to complete the task.
+"""

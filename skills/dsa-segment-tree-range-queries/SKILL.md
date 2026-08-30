@@ -1,5 +1,5 @@
 ---
-name: ani:dsa-segment-tree-range-queries
+name: dsa:segment-tree
 description: Performs fast range query calculations (sum/min/max) and updates on arrays. Triggered by segment tree, range queries, range sum query, range min query.
 ---
 

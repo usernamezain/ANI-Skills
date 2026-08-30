@@ -1,5 +1,5 @@
 ---
-name: ani:score-eval
+name: ai:score-eval
 description: Score the evaluation diff against the evaluation rubric.
 disable-model-invocation: true
 ---

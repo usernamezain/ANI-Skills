@@ -1,5 +1,5 @@
 ---
-name: ani:vitest-skill
+name: test:vitest
 description: >
   Generates Vitest tests in JavaScript/TypeScript with Vite-native speed.
   Jest-compatible API with ESM support and HMR. Use when user mentions "Vitest",

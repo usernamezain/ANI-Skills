@@ -1,0 +1,6 @@
+description = "A ultra-premium, high-end creative editorial layout featuring spring-damped floating cursor images, typographic headers, asymmetric visual Indexes, and deep category menus."
+
+prompt = """
+Invoke the ui:pro-complete-landing-pages-magazine skill.
+Load the prompt instructions from skills/pro/complete-landing-pages/magazine/SKILL.md and consult the copy-pasteable references or guidelines inside skills/pro/complete-landing-pages/magazine/references/ to complete the task.
+"""

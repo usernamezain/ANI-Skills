@@ -2,5 +2,5 @@ description = "Maps codebase configurations and builds technical guides, readmes
 
 prompt = """
 Invoke the ani:boss-prompt-technical-writer skill.
-Load the prompt instructions from skills/boss-prompts/technical-writer/SKILL.md and consult the copy-pasteable references or guidelines inside skills/boss-prompts/technical-writer/ to complete the task.
+Load the prompt instructions from skills/boss-prompts/technical-writer/SKILL.md and consult the copy-pasteable references or guidelines inside skills/boss-prompts/technical-writer/references/ to complete the task.
 """

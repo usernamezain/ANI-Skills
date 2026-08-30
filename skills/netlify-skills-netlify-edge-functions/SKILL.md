@@ -1,5 +1,5 @@
 ---
-name: ani:netlify-skills-netlify-edge-functions
+name: cloud:netlify-edge
 description: Guide for writing Netlify Edge Functions. Use when building middleware, geolocation-based logic, request/response manipulation, authentication checks, A/B testing, or any low-latency edge compute. Covers Deno runtime, context.next() middleware pattern, geolocation, and when to choose edge vs serverless.
 ---
 

@@ -1,31 +1,75 @@
-# Antigravity Skills Library — Antigravity CLI Context
+# ANI-Skills Ultra — Antigravity CLI Context
 
-This context gives the Antigravity IDE and Gemini CLI the operating reference for the **Antigravity Skills Library**, a collection of **367 professional skills and prompts** across visual layout animations, testing automation, planning workflows, and algorithmic DSA.
+This context gives the Antigravity IDE and Gemini CLI the operating reference for the **ANI-Skills Ultra Package**, a collection of **517 professional skills** across semantic namespaces: UI animations, testing automation, cloud infrastructure, AI frameworks, planning workflows, and algorithmic DSA.
 
-## What Antigravity Skills Library is
+## Semantic Namespace Map
 
-A production-grade, zero-pain-point skills library for AI coding agents:
-- **Visual scrollytelling**: GSAP, ScrollTrigger, Lenis, and Three.js templates.
-- **Testing & Scraping**: 47 LambdaTest testing and browser automation (Puppeteer, Playwright, Selenium, Cypress) skills.
-- **DSA Solving**: 20 algorithm templates in Python and JS.
-- **Master Prompts**: 22 Boss Prompts for choreographing multiple skills together.
+| Prefix | Category |
+|---|---|
+| `start:` | Project bootstrap & initialization |
+| `ui:` | UI/UX · GSAP · Three.js · animations · layout |
+| `react:` | React ecosystem |
+| `angular:` | Angular ecosystem |
+| `next:` | Next.js / Vercel |
+| `test:` | All testing frameworks (Jest, Playwright, Cypress, RSpec…) |
+| `scraping:` | Browser automation & web scraping |
+| `db:` | Databases (ClickHouse, Neon, Supabase, Tinybird) |
+| `cloud:` | Cloud infra (Cloudflare, Netlify, AWS, Azure, Terraform) |
+| `ai:` | AI/LLM frameworks (Gemini, VoltAgent, Venice, Replicate…) |
+| `stripe:` | Stripe payments |
+| `api:` | API design, MCP, interfaces |
+| `dsa:` | Data structures & algorithms |
+| `plan:` | ANI planning workflow |
+| `debug:` | Debugging & error recovery |
+| `security:` | Security & hardening |
+| `doc:` | Documentation & file generation |
+| `agent:` | Multi-agent orchestration patterns |
+| `git:` | Git workflow & versioning |
+| `perf:` | Performance optimization |
+| `obsidian:` | Obsidian tools |
+| `media:` | Content creation & media tools |
+| `quality:` | Code quality & review |
+| `meta:` | Namespace meta-skills |
+| `boss:` | Boss prompt orchestrators (22 personas) |
 
-## The slash commands (installed via installer)
+## Installed Paths (all 8 AI agents)
 
-When this package is open inside the Antigravity IDE (built on the Gemini 3 backend), it automatically loads custom TOML commands defined under `.gemini/commands/`.
+| Agent | Project Path | Global Path |
+|---|---|---|
+| **Antigravity** | `.agents/skills/` | `~/.gemini/config/skills/` |
+| **Claude Code** | `.claude/skills/` | `~/.claude/skills/` |
+| **Codex** | `.agents/skills/` | `~/.agents/skills/` |
+| **Cursor** | `.cursor/skills/` | `~/.cursor/skills/` |
+| **Gemini CLI** | `.gemini/skills/` | `~/.gemini/skills/` |
+| **GitHub Copilot** | `.github/skills/` | `~/.copilot/skills/` |
+| **OpenCode** | `.opencode/skills/` | `~/.config/opencode/skills/` |
+| **Windsurf** | `.windsurf/skills/` | `~/.codeium/windsurf/skills/` |
 
-The commands are registered under the hyphenated namespace:
-- `/skill-dsa-sliding-window` — solve subarray/substring problems.
-- `/skill-buttery-smooth-120fps-performance` — implement smooth scrolling.
-- `/skill-puppeteer-skill` — run headless browser scraping or automation.
-- `/skill-[name]` — triggers any other of the 367 skills.
+## Slash Commands
 
-To configure links globally or generate Cursor/Windsurf/Trae rule files, run the installer:
-```bash
-npx ani-skills
+All skills are registered as slash commands using the format `/namespace-skill-name`:
+
+```
+/ui-gsap-scrolltrigger         → ui:gsap-scrolltrigger
+/start-new-project             → start:new-project
+/test-playwright               → test:playwright
+/db-clickhouse-best-practices  → db:clickhouse-best-practices
+/cloud-netlify-deploy          → cloud:netlify-deploy
+/ai-gemini-api                 → ai:gemini-api
+/dsa-sliding-window            → dsa:sliding-window
+/plan-discuss                  → plan:discuss
+/boss-creative-director        → boss:creative-director
 ```
 
 ## Working with Skills
-- Refer to \`skills/[name]/SKILL.md\` for parameters, constraints, and instructions.
-- Refer to \`skills/[name]/references/\` for copy-pasteable visual code samples or validation guides.
-- Refer to \`boss-prompts/\` for master prompts to compose multiple skills.
+- Refer to `skills/[folder-name]/SKILL.md` for parameters, constraints, and instructions.
+- Refer to `skills/[folder-name]/references/` for copy-pasteable visual code samples or validation guides.
+- Refer to `boss-prompts/` for master prompts to compose multiple skills.
+
+## Installer
+To configure all 8 agents at once:
+```bash
+npx ani-skills
+# or interactively:
+node bin/install.js
+```

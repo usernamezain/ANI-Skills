@@ -1,5 +1,5 @@
 ---
-name: ani:pro:navigation:sketchy-nav
+name: ui:pro-navigation-and-structures-navbar-sketchy-nav
 description: Generate a hand-drawn, organic navbar with SVG scribble path animations for the active state — built for indie makers, creative portfolios, and personality-driven brands.
 ---
 

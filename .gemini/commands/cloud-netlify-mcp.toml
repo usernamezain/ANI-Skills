@@ -1,0 +1,6 @@
+description = "Build, deploy, and secure Model Context Protocol (MCP) servers on Netlify. Use whenever the task involves creating an MCP server, exposing an app or API to AI agents as MCP tools, letting Claude / Cursor / Claude Code call a custom remote server, or adding MCP tools to an existing Netlify site. Covers the MCP SDK + Streamable HTTP transport on a Netlify Function, authentication (single shared secret vs per-user API keys with Netlify Identity), read/write safety, file uploads, and connecting clients. Use even when the user just says \"MCP\", \"tool server for an agent\", or \"let an AI use my API\"."
+
+prompt = """
+Invoke the cloud:netlify-mcp skill.
+Load the prompt instructions from skills/netlify-skills-netlify-mcp-servers/SKILL.md and consult the copy-pasteable references or guidelines inside skills/netlify-skills-netlify-mcp-servers/references/ to complete the task.
+"""

@@ -2,5 +2,5 @@ description = "Constructs Rubric scoring tables and checks for biases to evaluat
 
 prompt = """
 Invoke the ani:boss-prompt-llm-eval-judge skill.
-Load the prompt instructions from skills/boss-prompts/llm-eval-judge/SKILL.md and consult the copy-pasteable references or guidelines inside skills/boss-prompts/llm-eval-judge/ to complete the task.
+Load the prompt instructions from skills/boss-prompts/llm-eval-judge/SKILL.md and consult the copy-pasteable references or guidelines inside skills/boss-prompts/llm-eval-judge/references/ to complete the task.
 """

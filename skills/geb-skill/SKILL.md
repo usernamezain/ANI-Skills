@@ -1,5 +1,5 @@
 ---
-name: ani:geb-skill
+name: test:geb
 description: >
   Generates Geb browser automation tests in Groovy with Spock integration.
   jQuery-like content DSL and page object pattern. Use when user mentions "Geb",

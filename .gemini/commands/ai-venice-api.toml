@@ -1,0 +1,6 @@
+description = "High-level map of the Venice.ai API - base URL, authentication modes, endpoint categories, response headers, pricing model, error shape, and versioning. Load this first when starting any Venice integration."
+
+prompt = """
+Invoke the ai:venice-api skill.
+Load the prompt instructions from skills/venice-skills-venice-api-overview/SKILL.md and consult the copy-pasteable references or guidelines inside skills/venice-skills-venice-api-overview/references/ to complete the task.
+"""

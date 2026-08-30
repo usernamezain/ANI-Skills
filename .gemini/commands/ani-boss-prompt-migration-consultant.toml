@@ -2,5 +2,5 @@ description = "Evaluates deprecation metrics, updates APIs, and structures branc
 
 prompt = """
 Invoke the ani:boss-prompt-migration-consultant skill.
-Load the prompt instructions from skills/boss-prompts/migration-consultant/SKILL.md and consult the copy-pasteable references or guidelines inside skills/boss-prompts/migration-consultant/ to complete the task.
+Load the prompt instructions from skills/boss-prompts/migration-consultant/SKILL.md and consult the copy-pasteable references or guidelines inside skills/boss-prompts/migration-consultant/references/ to complete the task.
 """

@@ -1,6 +1,0 @@
-description = "Sorts arrays containing numbers in a given range (e.g. 1 to N) in-place without extra space. Triggered by cyclic sort, find missing number, find all duplicate numbers, find duplicate number."
-
-prompt = """
-Invoke the ani:dsa-cyclic-sort skill.
-Load the prompt instructions from skills/dsa-cyclic-sort/SKILL.md and consult the copy-pasteable references or guidelines inside skills/dsa-cyclic-sort/references/ to complete the task.
-"""

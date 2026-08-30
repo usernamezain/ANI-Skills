@@ -1,5 +1,5 @@
 ---
-name: ani:boss-prompt-saas-dashboard-designer
+name: boss:saas-dashboard-designer
 description: Constructs responsive admin grids, counter metrics, and sliding menus for SaaS applications.
 argument-hint: "[additional instructions]"
 allowed-tools:

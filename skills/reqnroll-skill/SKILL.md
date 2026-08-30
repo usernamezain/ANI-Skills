@@ -1,5 +1,5 @@
 ---
-name: ani:reqnroll-skill
+name: test:reqnroll
 description: >
   Generates production-grade Reqnroll BDD automation scripts for web (Selenium 3/4)
   and mobile (Appium 2) testing in C#. Supports parallel NUnit execution locally and

@@ -1,6 +1,0 @@
-description = "Initialize a new project with deep context gathering and PROJECT.md"
-
-prompt = """
-Invoke the ani:new-project skill.
-Load the prompt instructions from skills/new-project/SKILL.md and consult the copy-pasteable references or guidelines inside skills/new-project/references/ to complete the task.
-"""

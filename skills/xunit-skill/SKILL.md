@@ -1,5 +1,5 @@
 ---
-name: ani:xunit-skill
+name: test:xunit
 description: >
   Generates xUnit.net tests in C#. Covers Fact/Theory, constructor injection,
   IClassFixture, and FluentAssertions. Use when user mentions "xUnit",

@@ -1,5 +1,5 @@
 ---
-name: ani:pro:navigation:gradient-border-nav
+name: ui:pro-navigation-and-structures-navbar-gradient-border-nav
 description: Generate a dark, premium SaaS/AI navbar with a spinning conic-gradient animated border, glassmorphism backdrop, and a controlled active state — the go-to for AI-native and modern SaaS brands.
 ---
 

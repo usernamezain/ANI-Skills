@@ -1,5 +1,5 @@
 ---
-name: ani:settings
+name: plan:settings
 description: Configure antigravity workflow toggles and model profile
 allowed-tools:
   - Read

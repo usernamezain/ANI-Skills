@@ -1,6 +1,0 @@
-description = ">"
-
-prompt = """
-Invoke the ani:jest-skill skill.
-Load the prompt instructions from skills/jest-skill/SKILL.md and consult the copy-pasteable references or guidelines inside skills/jest-skill/references/ to complete the task.
-"""

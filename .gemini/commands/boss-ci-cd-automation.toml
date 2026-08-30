@@ -1,0 +1,6 @@
+description = "Designs Git workflows, automation runner hooks, testing gates, and release steps."
+
+prompt = """
+Invoke the boss:ci-cd-automation boss prompt.
+Load the instructions from boss-prompts/ci-cd-automation.md to orchestrate a multi-skill workflow.
+"""

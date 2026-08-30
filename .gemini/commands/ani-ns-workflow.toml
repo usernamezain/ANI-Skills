@@ -1,6 +1,0 @@
-description = "workflow | discuss plan execute verify phase progress"
-
-prompt = """
-Invoke the ani:workflow skill.
-Load the prompt instructions from skills/ns-workflow/SKILL.md and consult the copy-pasteable references or guidelines inside skills/ns-workflow/references/ to complete the task.
-"""

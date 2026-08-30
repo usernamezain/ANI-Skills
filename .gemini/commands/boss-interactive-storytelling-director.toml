@@ -1,0 +1,6 @@
+description = "Drives storytelling content using scroll timelines, testimonials, and marquees."
+
+prompt = """
+Invoke the boss:interactive-storytelling-director boss prompt.
+Load the instructions from boss-prompts/interactive-storytelling-director.md to orchestrate a multi-skill workflow.
+"""

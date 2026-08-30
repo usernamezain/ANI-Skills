@@ -1,5 +1,5 @@
 ---
-name: slat-reveal-designer
+name: ui:slat-reveal
 description: Skill for designing staggered reveal overlay slat animations.
 ---
 

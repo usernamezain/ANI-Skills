@@ -1,5 +1,5 @@
 ---
-name: ani:provider-resources
+name: cloud:terraform-provider-resources
 description: Implement Terraform Provider resources and data sources using the Plugin Framework. Use when developing CRUD operations, schema design, state management, and acceptance testing for provider resources.
 metadata:
   copyright: Copyright IBM Corp. 2026

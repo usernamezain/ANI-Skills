@@ -1,0 +1,6 @@
+description = "Transcribe audio files to text via POST /audio/transcriptions. Covers supported models (Parakeet, Whisper, Wizper, Scribe, xAI STT), supported formats (wav/flac/m4a/aac/mp4/mp3/ogg/webm), response formats (json/text), timestamps, and language hints. OpenAI-compatible multipart."
+
+prompt = """
+Invoke the ai:venice-transcription skill.
+Load the prompt instructions from skills/venice-skills-venice-audio-transcription/SKILL.md and consult the copy-pasteable references or guidelines inside skills/venice-skills-venice-audio-transcription/references/ to complete the task.
+"""

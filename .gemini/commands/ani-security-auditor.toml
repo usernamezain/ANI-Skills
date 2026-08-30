@@ -1,6 +1,0 @@
-description = "Verifies threat mitigations from PLAN.md threat model exist in implemented code. Produces SECURITY.md. Spawned by /ani:secure-phase."
-
-prompt = """
-Invoke the ani:security-auditor skill.
-Load the prompt instructions from skills/security-auditor/SKILL.md and consult the copy-pasteable references or guidelines inside skills/security-auditor/references/ to complete the task.
-"""

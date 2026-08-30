@@ -1,0 +1,6 @@
+description = "Verifies phase goal achievement through goal-backward analysis. Checks codebase delivers what phase promised, not just that tasks completed. Creates VERIFICATION.md report."
+
+prompt = """
+Invoke the agent:verifier skill.
+Load the prompt instructions from skills/verifier/SKILL.md and consult the copy-pasteable references or guidelines inside skills/verifier/references/ to complete the task.
+"""

@@ -1,0 +1,6 @@
+description = ">-"
+
+prompt = """
+Invoke the db:neon-storage skill.
+Load the prompt instructions from skills/neon-object-storage/SKILL.md and consult the copy-pasteable references or guidelines inside skills/neon-object-storage/references/ to complete the task.
+"""

@@ -1,6 +1,0 @@
-description = "This skill should be used when the user asks to \"model agent mental states\", \"implement BDI architecture\", \"create belief-desire-intention models\", \"transform RDF to beliefs\", \"build cognitive agent\", or mentions BDI ontology, mental state modeling, rational agency, or neuro-symbolic AI integration."
-
-prompt = """
-Invoke the ani:bdi-mental-states skill.
-Load the prompt instructions from skills/bdi-mental-states/SKILL.md and consult the copy-pasteable references or guidelines inside skills/bdi-mental-states/references/ to complete the task.
-"""

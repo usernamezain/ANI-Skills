@@ -1,5 +1,5 @@
 ---
-name: ticker-banner-designer
+name: ui:ticker-banner
 description: Skill for designing infinite horizontal marquee text banners.
 ---
 

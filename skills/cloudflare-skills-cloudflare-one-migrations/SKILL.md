@@ -1,5 +1,5 @@
 ---
-name: ani:cloudflare-skills-cloudflare-one-migrations
+name: cloud:cloudflare-one-migrations
 description: Plans migrations from Zscaler ZIA/ZPA, Palo Alto, legacy VPN, SWG, or SASE stacks to Cloudflare One. Use for migration assessments, policy mapping, rollout plans, and parity/gap analysis.
 ---
 

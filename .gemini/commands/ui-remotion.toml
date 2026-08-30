@@ -1,0 +1,6 @@
+description = "Best practices for Remotion - Video creation in React"
+
+prompt = """
+Invoke the ui:remotion skill.
+Load the prompt instructions from skills/remotion/SKILL.md and consult the copy-pasteable references or guidelines inside skills/remotion/references/ to complete the task.
+"""

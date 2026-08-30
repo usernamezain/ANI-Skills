@@ -1,0 +1,6 @@
+description = "Builds subtle, delightful micro-animations for interactive elements like custom cursors, CTAs, and headers."
+
+prompt = """
+Invoke the boss:micro-interaction-expert boss prompt.
+Load the instructions from boss-prompts/micro-interaction-expert.md to orchestrate a multi-skill workflow.
+"""

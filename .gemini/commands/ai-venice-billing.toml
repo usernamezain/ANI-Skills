@@ -1,0 +1,6 @@
+description = "Venice billing and usage analytics - GET /billing/balance, GET /billing/usage (paginated per-request ledger, JSON or CSV), and GET /billing/usage-analytics (aggregated by date/model/key). Covers the DIEM/USD/BUNDLED_CREDITS consumption priority and building dashboards. (Beta)"
+
+prompt = """
+Invoke the ai:venice-billing skill.
+Load the prompt instructions from skills/venice-skills-venice-billing/SKILL.md and consult the copy-pasteable references or guidelines inside skills/venice-skills-venice-billing/references/ to complete the task.
+"""

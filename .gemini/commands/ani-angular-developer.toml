@@ -1,6 +1,0 @@
-description = "Generates Angular code and provides architectural guidance. Trigger when creating projects, components, or services, or for best practices on reactivity (signals, linkedSignal, resource), forms, dependency injection, routing, SSR, accessibility (ARIA), animations, styling (component styles, Tailwind CSS), testing, or CLI tooling."
-
-prompt = """
-Invoke the ani:angular-developer skill.
-Load the prompt instructions from skills/angular-developer/SKILL.md and consult the copy-pasteable references or guidelines inside skills/angular-developer/references/ to complete the task.
-"""

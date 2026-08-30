@@ -1,6 +1,0 @@
-description = "Invoke the ani:google-design-md skill"
-
-prompt = """
-Invoke the ani:google-design-md skill.
-Load the prompt instructions from skills/google-design-md/SKILL.md and consult its guidelines to complete the task.
-"""

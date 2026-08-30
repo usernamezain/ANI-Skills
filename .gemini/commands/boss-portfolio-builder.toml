@@ -1,0 +1,6 @@
+description = "Assembles responsive developer portfolios featuring grid animations and overlays."
+
+prompt = """
+Invoke the boss:portfolio-builder boss prompt.
+Load the instructions from boss-prompts/portfolio-builder.md to orchestrate a multi-skill workflow.
+"""

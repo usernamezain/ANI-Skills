@@ -1,0 +1,6 @@
+description = "Guides Cloudflare One Zero Trust and SASE work across Access, Gateway, WARP, Tunnel, Cloudflare WAN, DLP, CASB, device posture, and identity. Use when designing, configuring, troubleshooting, or reviewing Cloudflare One deployments. Retrieval-first: use current Cloudflare docs/API schemas instead of embedded product docs."
+
+prompt = """
+Invoke the cloud:cloudflare-one skill.
+Load the prompt instructions from skills/cloudflare-skills-cloudflare-one/SKILL.md and consult the copy-pasteable references or guidelines inside skills/cloudflare-skills-cloudflare-one/references/ to complete the task.
+"""

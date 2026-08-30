@@ -1,5 +1,5 @@
 ---
-name: ani:boss-prompt-web-scraper-and-tester
+name: boss:web-scraper-and-tester
 description: Orchestrates browser automation, dynamic page crawling, element selecting, and end-to-end user flow testing using Puppeteer, Playwright, Selenium, and Cypress.
 argument-hint: "[additional instructions]"
 allowed-tools:

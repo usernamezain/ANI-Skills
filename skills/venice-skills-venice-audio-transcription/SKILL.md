@@ -1,5 +1,5 @@
 ---
-name: ani:venice-skills-venice-audio-transcription
+name: ai:venice-transcription
 description: Transcribe audio files to text via POST /audio/transcriptions. Covers supported models (Parakeet, Whisper, Wizper, Scribe, xAI STT), supported formats (wav/flac/m4a/aac/mp4/mp3/ogg/webm), response formats (json/text), timestamps, and language hints. OpenAI-compatible multipart.
 ---
 

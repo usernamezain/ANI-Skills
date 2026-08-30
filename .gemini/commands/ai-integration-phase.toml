@@ -1,0 +1,6 @@
+description = "Generate an AI-SPEC.md design contract for phases that involve building AI systems."
+
+prompt = """
+Invoke the ai:integration-phase skill.
+Load the prompt instructions from skills/ai-integration-phase/SKILL.md and consult the copy-pasteable references or guidelines inside skills/ai-integration-phase/references/ to complete the task.
+"""

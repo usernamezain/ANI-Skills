@@ -1,5 +1,5 @@
 ---
-name: ani:pro:liquid-reveal
+name: ui:pro-backgrounds-visuals-liquid-reveal
 description: Generate a highly interactive WebGL fluid simulation component for React. Use this whenever the user requests a liquid reveal, smoke simulation, interactive fluid background, or WebGL fluid canvas.
 ---
 

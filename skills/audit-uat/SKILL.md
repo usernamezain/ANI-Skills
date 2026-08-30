@@ -1,5 +1,5 @@
 ---
-name: ani:audit-uat
+name: plan:audit-uat
 description: Cross-phase audit of all outstanding UAT and verification items
 allowed-tools:
   - Read

@@ -1,0 +1,6 @@
+description = "Orchestrates browser automation, dynamic page crawling, element selecting, and end-to-end user flow testing using Puppeteer, Playwright, Selenium, and Cypress."
+
+prompt = """
+Invoke the boss:web-scraper-and-tester boss prompt.
+Load the instructions from boss-prompts/web-scraper-and-tester.md to orchestrate a multi-skill workflow.
+"""

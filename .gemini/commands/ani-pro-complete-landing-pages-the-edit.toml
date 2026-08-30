@@ -1,6 +1,0 @@
-description = "A minimalist, high-fashion editorial landing page focusing on typography, generous whitespace, and subtle parallax imagery."
-
-prompt = """
-Invoke the ani:pro:complete-landing-pages:the-edit skill.
-Load the prompt instructions from skills/pro/complete-landing-pages/the-edit/SKILL.md and consult the copy-pasteable references or guidelines inside skills/pro/complete-landing-pages/the-edit/references/ to complete the task.
-"""

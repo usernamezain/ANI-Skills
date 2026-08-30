@@ -1,6 +1,0 @@
-description = "Generate a premium, multi-section Awwwards-style complete landing page featuring horizontal scroll, parallax galleries, custom cursors, and GSAP ScrollTrigger typography reveals."
-
-prompt = """
-Invoke the ani:pro:awwwards skill.
-Load the prompt instructions from skills/pro/complete-landing-pages/awwwards/SKILL.md and consult the copy-pasteable references or guidelines inside skills/pro/complete-landing-pages/awwwards/references/ to complete the task.
-"""

@@ -1,0 +1,6 @@
+description = ">"
+
+prompt = """
+Invoke the db:clickhouse-js-rowbinary skill.
+Load the prompt instructions from skills/clickhouse-js-node-rowbinary/SKILL.md and consult the copy-pasteable references or guidelines inside skills/clickhouse-js-node-rowbinary/references/ to complete the task.
+"""

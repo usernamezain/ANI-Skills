@@ -1,5 +1,5 @@
 ---
-name: ani:stripe-projects
+name: stripe:projects
 description: >
   Use when the user wants to provision infrastructure or third-party services
   using Stripe Projects. Triggers: "I need a database", "set up auth", "add

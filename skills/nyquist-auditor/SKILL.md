@@ -1,5 +1,5 @@
 ---
-name: nyquist-auditor
+name: agent:nyquist-auditor
 description: Fills Nyquist validation gaps by generating tests and verifying coverage for phase requirements
 tools:
   - Read

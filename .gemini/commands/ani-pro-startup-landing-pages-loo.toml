@@ -1,6 +1,0 @@
-description = "Generate a full brutalist, CLI/developer-tool landing page with sharp GSAP entrance animations, a 3D CSS cube hero, horizontally pinned workflow pipeline, and mono typography — the \"Loo\" aesthetic."
-
-prompt = """
-Invoke the ani:pro:startup-landing-pages:loo skill.
-Load the prompt instructions from skills/pro/startup-landing-pages/loo/SKILL.md and consult the copy-pasteable references or guidelines inside skills/pro/startup-landing-pages/loo/references/ to complete the task.
-"""

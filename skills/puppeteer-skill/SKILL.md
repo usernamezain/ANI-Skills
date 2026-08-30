@@ -1,5 +1,5 @@
 ---
-name: ani:puppeteer-skill
+name: scraping:puppeteer
 description: >
   Generates Puppeteer scripts for browser automation, scraping, and PDF generation.
   Triggers on: "Puppeteer", "headless Chrome", "page.goto", "scrape", "PDF generation".

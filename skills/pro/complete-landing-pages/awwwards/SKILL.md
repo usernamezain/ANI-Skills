@@ -1,5 +1,5 @@
 ---
-name: ani:pro:awwwards
+name: ui:pro-complete-landing-pages-awwwards
 description: Generate a premium, multi-section Awwwards-style complete landing page featuring horizontal scroll, parallax galleries, custom cursors, and GSAP ScrollTrigger typography reveals.
 ---
 

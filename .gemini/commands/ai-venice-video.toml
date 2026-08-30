@@ -1,0 +1,6 @@
+description = "Generate and transcribe videos via Venice. Covers the async /video/quote + /video/queue + /video/retrieve + /video/complete loop, text-to-video, image-to-video, video-to-video (upscale), audio input, reference images, scene and element support, plus /video/transcriptions for YouTube URLs."
+
+prompt = """
+Invoke the ai:venice-video skill.
+Load the prompt instructions from skills/venice-skills-venice-video/SKILL.md and consult the copy-pasteable references or guidelines inside skills/venice-skills-venice-video/references/ to complete the task.
+"""

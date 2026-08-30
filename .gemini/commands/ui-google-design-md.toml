@@ -1,0 +1,6 @@
+description = "Google Labs DESIGN.md format spec for visual identity contracts"
+
+prompt = """
+Invoke the ui:google-design-md skill.
+Load the prompt instructions from skills/google-design-md/SKILL.md and consult the copy-pasteable references or guidelines inside skills/google-design-md/references/ to complete the task.
+"""

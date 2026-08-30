@@ -1,6 +1,0 @@
-description = "Build a newsletter signup section where the input/button morph into a confirmation checkmark state on successful submit, with an inline shake for invalid email and a subtle floating background shape. Use whenever the user wants a \"newsletter section\", \"email signup\", \"subscribe section\", or \"mailing list form\"."
-
-prompt = """
-Invoke the ani:morph-newsletter-signup-section skill.
-Load the prompt instructions from skills/morph-newsletter-signup-section/SKILL.md and consult the copy-pasteable references or guidelines inside skills/morph-newsletter-signup-section/references/ to complete the task.
-"""

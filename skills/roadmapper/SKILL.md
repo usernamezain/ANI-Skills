@@ -1,5 +1,5 @@
 ---
-name: roadmapper
+name: plan:roadmapper
 description: Creates project roadmaps with phase breakdown, requirement mapping, success criteria derivation, and coverage validation. Spawned by /antigravity:new-project orchestrator.
 tools: Read, Write, Bash, Glob, Grep
 color: purple

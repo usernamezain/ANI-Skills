@@ -1,6 +1,0 @@
-description = "Invoke the ani:vercel-next-skills skill"
-
-prompt = """
-Invoke the ani:vercel-next-skills skill.
-Load the prompt instructions from skills/vercel-next-skills/SKILL.md and consult its guidelines to complete the task.
-"""

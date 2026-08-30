@@ -1,6 +1,0 @@
-description = "This skill should be used when the user asks to \"start an LLM project\", \"design batch pipeline\", \"evaluate task-model fit\", \"structure agent project\", or mentions pipeline architecture, agent-assisted development, cost estimation, or choosing between LLM and traditional approaches."
-
-prompt = """
-Invoke the ani:project-development skill.
-Load the prompt instructions from skills/project-development/SKILL.md and consult the copy-pasteable references or guidelines inside skills/project-development/references/ to complete the task.
-"""

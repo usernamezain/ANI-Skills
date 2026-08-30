@@ -1,5 +1,5 @@
 ---
-name: ani:next
+name: plan:next
 description: "Smart entry — detect project state and route to the right next ANI action."
 effort: low
 allowed-tools:

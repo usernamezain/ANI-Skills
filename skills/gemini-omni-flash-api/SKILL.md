@@ -1,5 +1,5 @@
 ---
-name: ani:gemini-omni-flash-api
+name: ai:gemini-omni
 description: Use this skill for generative video editing, text-to-video, image-referenced video generation, and first-frame-to-video transition animations using the official google-genai SDK. Includes workflows for pre-processing/optimizing high-resolution or long source videos with ffmpeg, stripping audio for full sound regeneration, and handling turn-by-turn video editing and parallel execution.
 ---
 

@@ -1,5 +1,5 @@
 ---
-name: ani:testcafe-skill
+name: test:testcafe
 description: >
   Generates TestCafe automation tests in JavaScript or TypeScript. Supports local
   and TestMu AI cloud. Triggers on: "TestCafe", "test cafe", "fixture/test".

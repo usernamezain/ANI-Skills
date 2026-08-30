@@ -1,0 +1,6 @@
+# media:article-illustrator
+
+Analyzes article structure, identifies positions requiring visual aids, generates illustrations with Type × Style × Palette three-dimension approach. Use when user asks to "illustrate article", "add images", "generate images for article", or "为文章配图".
+
+**Skill folder:** `skills/baoyu-article-illustrator/`
+**Namespace:** `media`

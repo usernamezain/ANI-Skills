@@ -1,0 +1,6 @@
+description = "Call POST /embeddings on Venice. Covers request shape (input, model, encoding_format, dimensions, user), OpenAI compatibility, response compression (gzip/br), and practical usage for retrieval, clustering, and RAG."
+
+prompt = """
+Invoke the ai:venice-embeddings skill.
+Load the prompt instructions from skills/venice-skills-venice-embeddings/SKILL.md and consult the copy-pasteable references or guidelines inside skills/venice-skills-venice-embeddings/references/ to complete the task.
+"""

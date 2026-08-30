@@ -1,5 +1,5 @@
 ---
-name: ani:pro:complete-landing-pages:magazine
+name: ui:pro-complete-landing-pages-magazine
 description: A ultra-premium, high-end creative editorial layout featuring spring-damped floating cursor images, typographic headers, asymmetric visual Indexes, and deep category menus.
 category: pro/complete-landing-pages
 tags:

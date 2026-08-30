@@ -1,0 +1,6 @@
+description = "Use when implementing any feature or bugfix, before writing implementation code"
+
+prompt = """
+Invoke the test:tdd skill.
+Load the prompt instructions from skills/test-driven-development/SKILL.md and consult the copy-pasteable references or guidelines inside skills/test-driven-development/references/ to complete the task.
+"""

@@ -1,0 +1,6 @@
+description = "Drives implementation loops by planning, discussing boundary requirements, writing tests first, and executing."
+
+prompt = """
+Invoke the boss:spec-driven-developer boss prompt.
+Load the instructions from boss-prompts/spec-driven-developer.md to orchestrate a multi-skill workflow.
+"""

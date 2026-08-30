@@ -1,5 +1,5 @@
 ---
-name: floating-label-contact-form-section
+name: ui:floating-label-form
 description: Build a contact form section with animated floating labels, focus-state underline draw-in, inline validation micro-shakes, and a success-state morph on submit. Use whenever the user wants a "contact form", "contact section", "get in touch form", or a form with more polish than default browser styling. Pairs with morph-mask-reveal-transitions for the submit success state.
 ---
 

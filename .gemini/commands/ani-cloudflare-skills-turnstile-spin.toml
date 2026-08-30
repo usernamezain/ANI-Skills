@@ -1,6 +1,0 @@
-description = "Invoke the ani:cloudflare-skills-turnstile-spin skill"
-
-prompt = """
-Invoke the ani:cloudflare-skills-turnstile-spin skill.
-Load the prompt instructions from skills/cloudflare-skills-turnstile-spin/SKILL.md and consult its guidelines to complete the task.
-"""

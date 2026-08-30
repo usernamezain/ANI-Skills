@@ -1,0 +1,6 @@
+# db:clickhouse-postgres-rca
+
+MUST USE when investigating performance issues on a ClickHouse-managed Postgres instance. Provides an evidence-based RCA workflow that scrapes the Prometheus endpoint for system signal, pulls per-digest evidence from the Slow Query Patterns API, and recommends (does not apply) a fix.
+
+**Skill folder:** `skills/clickhouse-managed-postgres-rca/`
+**Namespace:** `db`

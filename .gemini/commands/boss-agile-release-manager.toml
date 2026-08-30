@@ -1,0 +1,6 @@
+description = "Coordinates user acceptance tests, builds release manifests, and updates roadmaps."
+
+prompt = """
+Invoke the boss:agile-release-manager boss prompt.
+Load the instructions from boss-prompts/agile-release-manager.md to orchestrate a multi-skill workflow.
+"""

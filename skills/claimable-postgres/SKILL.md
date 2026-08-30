@@ -1,5 +1,5 @@
 ---
-name: ani:claimable-postgres
+name: db:claimable-postgres
 description: >-
   Provision instant temporary Postgres databases via Claimable Postgres by Neon
   (neon.new) with no login, signup, or credit card. Supports REST API, CLI, and

@@ -1,0 +1,6 @@
+description = ">-"
+
+prompt = """
+Invoke the cloud:terraform-provider-tests skill.
+Load the prompt instructions from skills/provider-test-patterns/SKILL.md and consult the copy-pasteable references or guidelines inside skills/provider-test-patterns/references/ to complete the task.
+"""

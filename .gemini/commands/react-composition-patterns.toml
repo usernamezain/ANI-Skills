@@ -1,0 +1,6 @@
+description = "React composition patterns that scale. Use when refactoring components with"
+
+prompt = """
+Invoke the react:composition-patterns skill.
+Load the prompt instructions from skills/composition-patterns/SKILL.md and consult the copy-pasteable references or guidelines inside skills/composition-patterns/references/ to complete the task.
+"""

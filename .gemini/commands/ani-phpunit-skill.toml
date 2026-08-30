@@ -1,6 +1,0 @@
-description = ">"
-
-prompt = """
-Invoke the ani:phpunit-skill skill.
-Load the prompt instructions from skills/phpunit-skill/SKILL.md and consult the copy-pasteable references or guidelines inside skills/phpunit-skill/references/ to complete the task.
-"""

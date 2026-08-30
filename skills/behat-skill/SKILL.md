@@ -1,5 +1,5 @@
 ---
-name: ani:behat-skill
+name: test:behat
 description: >
   Generates Behat BDD tests for PHP with Gherkin feature files and MinkContext
   for browser testing. Use when user mentions "Behat", "PHP BDD", "Mink",

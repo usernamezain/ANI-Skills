@@ -1,0 +1,6 @@
+description = "Next.js agent development guidelines and best practices"
+
+prompt = """
+Invoke the next:best-practices skill.
+Load the prompt instructions from skills/vercel-next-skills/SKILL.md and consult the copy-pasteable references or guidelines inside skills/vercel-next-skills/references/ to complete the task.
+"""

@@ -1,0 +1,6 @@
+description = "Researches domain ecosystem before roadmap creation. Produces files in .planning/research/ consumed during roadmap creation. Spawned by /antigravity:new-project or /antigravity:new-milestone orchestrators."
+
+prompt = """
+Invoke the agent:project-researcher skill.
+Load the prompt instructions from skills/project-researcher/SKILL.md and consult the copy-pasteable references or guidelines inside skills/project-researcher/references/ to complete the task.
+"""

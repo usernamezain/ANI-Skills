@@ -1,0 +1,6 @@
+description = "Diagnoses project failures, reviews logs, and applies corrections to restore standard setups."
+
+prompt = """
+Invoke the boss:error-recovery-specialist boss prompt.
+Load the instructions from boss-prompts/error-recovery-specialist.md to orchestrate a multi-skill workflow.
+"""

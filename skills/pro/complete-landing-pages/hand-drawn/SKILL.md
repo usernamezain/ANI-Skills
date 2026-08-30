@@ -1,5 +1,5 @@
 ---
-name: ani:pro:complete-landing-pages:hand-drawn
+name: ui:pro-complete-landing-pages-hand-drawn
 description: An organic, pleasantly imperfect landing page utilizing complex SVG displacement turbulence maps, scroll-triggered text highlights, hover-scribble buttons, self-drawing SVG arrows, and vintage grid-paper layout structures.
 category: pro/complete-landing-pages
 tags:

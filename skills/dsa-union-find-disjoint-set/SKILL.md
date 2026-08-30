@@ -1,5 +1,5 @@
 ---
-name: ani:dsa-union-find-disjoint-set
+name: dsa:union-find
 description: Tracks dynamic connectivity and grouping in undirected graphs. Triggered by union find, disjoint set, redundancy connection, number of provinces.
 ---
 

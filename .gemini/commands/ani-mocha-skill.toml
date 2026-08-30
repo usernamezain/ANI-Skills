@@ -1,6 +1,0 @@
-description = ">"
-
-prompt = """
-Invoke the ani:mocha-skill skill.
-Load the prompt instructions from skills/mocha-skill/SKILL.md and consult the copy-pasteable references or guidelines inside skills/mocha-skill/references/ to complete the task.
-"""

@@ -1,5 +1,5 @@
 ---
-name: research-synthesizer
+name: agent:research-synthesizer
 description: Synthesizes research outputs from parallel researcher agents into SUMMARY.md. Spawned by /antigravity:new-project after 4 researcher agents complete.
 tools: Read, Write, Bash
 color: purple

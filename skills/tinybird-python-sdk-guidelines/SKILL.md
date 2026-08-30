@@ -1,5 +1,5 @@
 ---
-name: ani:tinybird-python-sdk-guidelines
+name: db:tinybird-python
 description: Tinybird Python SDK for defining datasources, pipes, and queries in Python. Use when working with tinybird-sdk, Python Tinybird projects, or data ingestion and queries in Python.
 ---
 

@@ -1,0 +1,6 @@
+description = "Comprehensive Cloudflare platform skill covering Workers, Pages, storage (KV, D1, R2), AI (Workers AI, Vectorize, Agents SDK), feature flags (Flagship), networking (Tunnel, Spectrum), security (WAF, DDoS), and infrastructure-as-code (Terraform, Pulumi). Use for any Cloudflare development task. Biases towards retrieval from Cloudflare docs over pre-trained knowledge."
+
+prompt = """
+Invoke the cloud:cloudflare skill.
+Load the prompt instructions from skills/cloudflare-skills-cloudflare/SKILL.md and consult the copy-pasteable references or guidelines inside skills/cloudflare-skills-cloudflare/references/ to complete the task.
+"""

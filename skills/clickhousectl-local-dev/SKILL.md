@@ -1,5 +1,5 @@
 ---
-name: ani:clickhousectl-local-dev
+name: db:clickhouse-local-dev
 description: Use when a user wants to build an application with ClickHouse, set up a local ClickHouse development environment, install ClickHouse, create a local server, create tables, or start developing with ClickHouse. Covers the full flow from zero to a working local ClickHouse setup.
 license: Apache-2.0
 metadata:

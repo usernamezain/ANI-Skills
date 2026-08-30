@@ -1,5 +1,5 @@
 ---
-name: ani:composio
+name: ai:composio
 description: Use 1000+ external apps via Composio - either directly through the CLI or by building AI agents and apps with the SDK
 tags: [composio, tool-router, agents, mcp, tools, api, automation, cli]
 ---

@@ -1,5 +1,5 @@
 ---
-name: ani:dsa-tree-dfs
+name: dsa:tree-dfs
 description: Traverses binary trees recursively or with stack (depth-first search) to evaluate paths or sums. Triggered by tree DFS, binary tree path sum, all paths for a sum, sum of path numbers, path with given sequence.
 ---
 

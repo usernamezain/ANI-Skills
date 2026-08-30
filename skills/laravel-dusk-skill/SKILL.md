@@ -1,5 +1,5 @@
 ---
-name: ani:laravel-dusk-skill
+name: test:laravel-dusk
 description: >
   Generates Laravel Dusk browser tests in PHP. Chrome-based E2E testing for
   Laravel apps. Use when user mentions "Dusk", "Laravel Dusk", "$browser->visit",

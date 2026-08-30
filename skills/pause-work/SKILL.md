@@ -1,5 +1,5 @@
 ---
-name: ani:pause-work
+name: plan:pause
 description: Create context handoff when pausing work mid-phase
 argument-hint: "[--report]"
 allowed-tools:

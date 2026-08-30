@@ -1,5 +1,5 @@
 ---
-name: ani:capture
+name: plan:capture
 description: Capture ideas, tasks, notes, and seeds to their destination
 argument-hint: "[--note | --backlog | --seed | --list] [text]"
 allowed-tools:

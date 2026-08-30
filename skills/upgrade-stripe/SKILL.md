@@ -1,5 +1,5 @@
 ---
-name: ani:upgrade-stripe
+name: stripe:upgrade
 description: Guide for upgrading Stripe API versions and SDKs
 
 ---

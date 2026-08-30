@@ -1,0 +1,6 @@
+description = "Constructs responsive admin grids, counter metrics, and sliding menus for SaaS applications."
+
+prompt = """
+Invoke the boss:saas-dashboard-designer boss prompt.
+Load the instructions from boss-prompts/saas-dashboard-designer.md to orchestrate a multi-skill workflow.
+"""

@@ -1,0 +1,6 @@
+description = "Manage antigravity workspaces — create, list, or remove isolated workspace environments"
+
+prompt = """
+Invoke the plan:workspace skill.
+Load the prompt instructions from skills/workspace/SKILL.md and consult the copy-pasteable references or guidelines inside skills/workspace/references/ to complete the task.
+"""

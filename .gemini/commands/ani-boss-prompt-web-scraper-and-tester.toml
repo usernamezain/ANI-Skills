@@ -2,5 +2,5 @@ description = "Orchestrates browser automation, dynamic page crawling, element s
 
 prompt = """
 Invoke the ani:boss-prompt-web-scraper-and-tester skill.
-Load the prompt instructions from skills/boss-prompts/web-scraper-and-tester/SKILL.md and consult the copy-pasteable references or guidelines inside skills/boss-prompts/web-scraper-and-tester/ to complete the task.
+Load the prompt instructions from skills/boss-prompts/web-scraper-and-tester/SKILL.md and consult the copy-pasteable references or guidelines inside skills/boss-prompts/web-scraper-and-tester/references/ to complete the task.
 """

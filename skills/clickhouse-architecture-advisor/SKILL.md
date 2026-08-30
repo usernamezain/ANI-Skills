@@ -1,5 +1,5 @@
 ---
-name: ani:clickhouse-architecture-advisor
+name: db:clickhouse-architect
 description: MUST USE when designing ClickHouse architectures, selecting between ingestion or modeling patterns, or translating best practices into workload-specific system designs. Complements clickhouse-best-practices with decision frameworks and explicit provenance labels.
 license: Apache-2.0
 metadata:

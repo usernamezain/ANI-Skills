@@ -1,0 +1,6 @@
+description = "Structures workspaces, configure changesets, and compiles workspace registries."
+
+prompt = """
+Invoke the boss:monorepo-architect boss prompt.
+Load the instructions from boss-prompts/monorepo-architect.md to orchestrate a multi-skill workflow.
+"""

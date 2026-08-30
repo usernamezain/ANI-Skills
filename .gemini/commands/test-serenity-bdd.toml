@@ -1,0 +1,6 @@
+description = ">"
+
+prompt = """
+Invoke the test:serenity-bdd skill.
+Load the prompt instructions from skills/serenity-bdd-skill/SKILL.md and consult the copy-pasteable references or guidelines inside skills/serenity-bdd-skill/references/ to complete the task.
+"""

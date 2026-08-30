@@ -1,5 +1,5 @@
 ---
-name: ani:venice-skills-venice-image-edit
+name: ai:venice-image-edit
 description: Transform existing images with Venice. Covers POST /image/edit (prompt-driven single-image edit), /image/multi-edit (compose 1-3 images), /image/upscale (2-4x upscale + enhance), and /image/background-remove. Accepts base64, file upload, or HTTPS URL.
 ---
 

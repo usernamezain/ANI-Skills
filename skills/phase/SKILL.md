@@ -1,5 +1,5 @@
 ---
-name: ani:phase
+name: plan:phase-crud
 description: CRUD for phases in ROADMAP.md — add, insert, remove, or edit phases
 argument-hint: "[--insert | --remove | --edit] <phase-name-or-number>"
 allowed-tools:

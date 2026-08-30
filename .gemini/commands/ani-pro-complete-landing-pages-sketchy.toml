@@ -1,6 +1,0 @@
-description = "A creative, hand-drawn aesthetic landing page featuring SVG distortion filters to create wobbly \"pencil\" lines and interactive \"sketchbook\" mechanics."
-
-prompt = """
-Invoke the ani:pro:complete-landing-pages:sketchy skill.
-Load the prompt instructions from skills/pro/complete-landing-pages/sketchy/SKILL.md and consult the copy-pasteable references or guidelines inside skills/pro/complete-landing-pages/sketchy/references/ to complete the task.
-"""

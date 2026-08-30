@@ -1,6 +1,0 @@
-description = "Show available antigravity commands and usage guide"
-
-prompt = """
-Invoke the ani:help skill.
-Load the prompt instructions from skills/help/SKILL.md and consult the copy-pasteable references or guidelines inside skills/help/references/ to complete the task.
-"""

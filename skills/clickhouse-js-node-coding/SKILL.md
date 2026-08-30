@@ -1,5 +1,5 @@
 ---
-name: ani:clickhouse-js-node-coding
+name: db:clickhouse-js-coding
 description: >
   Write idiomatic application code with the ClickHouse Node.js client
   (`@clickhouse/client`). Use this skill whenever a user is *building* against

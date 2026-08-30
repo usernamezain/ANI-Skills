@@ -1,0 +1,6 @@
+description = "Solves subarray or substring problems requiring tracking a contiguous sequence of elements. Triggered by sliding window, longest substring, minimum size subarray sum, maximum sum subarray of size k."
+
+prompt = """
+Invoke the dsa:sliding-window skill.
+Load the prompt instructions from skills/dsa-sliding-window/SKILL.md and consult the copy-pasteable references or guidelines inside skills/dsa-sliding-window/references/ to complete the task.
+"""

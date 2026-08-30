@@ -1,5 +1,5 @@
 ---
-name: ani:boss-prompt-ci-cd-automation
+name: boss:ci-cd-automation
 description: Designs Git workflows, automation runner hooks, testing gates, and release steps.
 argument-hint: "[additional instructions]"
 allowed-tools:

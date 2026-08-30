@@ -1,5 +1,5 @@
 ---
-name: ani:azure-image-builder
+name: cloud:azure-image
 description: Build Azure managed images and Azure Compute Gallery images with Packer. Use when creating custom images for Azure VMs.
 ---
 

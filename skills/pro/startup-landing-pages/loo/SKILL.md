@@ -1,5 +1,5 @@
 ---
-name: ani:pro:startup-landing-pages:loo
+name: ui:pro-startup-landing-pages-loo
 description: Generate a full brutalist, CLI/developer-tool landing page with sharp GSAP entrance animations, a 3D CSS cube hero, horizontally pinned workflow pipeline, and mono typography — the "Loo" aesthetic.
 ---
 

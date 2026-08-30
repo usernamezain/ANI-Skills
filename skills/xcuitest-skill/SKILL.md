@@ -1,5 +1,5 @@
 ---
-name: ani:xcuitest-skill
+name: test:xcuitest
 description: >
   Generates XCUITest UI tests for iOS/iPadOS apps in Swift. Apple's native
   testing framework for reliable, fast UI automation. Supports local simulators

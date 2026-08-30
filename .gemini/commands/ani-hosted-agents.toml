@@ -1,6 +1,0 @@
-description = "This skill should be used when the user asks to \"build background agent\", \"create hosted coding agent\", \"set up sandboxed execution\", \"implement multiplayer agent\", or mentions background agents, sandboxed VMs, agent infrastructure, Modal sandboxes, self-spawning agents, or remote coding environments."
-
-prompt = """
-Invoke the ani:hosted-agents skill.
-Load the prompt instructions from skills/hosted-agents/SKILL.md and consult the copy-pasteable references or guidelines inside skills/hosted-agents/references/ to complete the task.
-"""

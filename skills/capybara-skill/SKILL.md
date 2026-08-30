@@ -1,5 +1,5 @@
 ---
-name: ani:capybara-skill
+name: test:capybara
 description: >
   Generates Capybara E2E tests in Ruby with RSpec integration. Acceptance
   testing DSL for web apps. Use when user mentions "Capybara", "visit",

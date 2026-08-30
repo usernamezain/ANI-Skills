@@ -1,6 +1,0 @@
-description = "Generate developer behavioral profile and create Claude-discoverable artifacts"
-
-prompt = """
-Invoke the ani:profile-user skill.
-Load the prompt instructions from skills/profile-user/SKILL.md and consult the copy-pasteable references or guidelines inside skills/profile-user/references/ to complete the task.
-"""

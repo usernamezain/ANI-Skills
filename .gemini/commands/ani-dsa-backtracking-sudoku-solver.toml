@@ -1,6 +1,0 @@
-description = "Solves constraint-satisfaction problems recursively by trying options and backtracking on failures. Triggered by backtracking, sudoku solver, n queens, solve constraint satisfaction."
-
-prompt = """
-Invoke the ani:dsa-backtracking-sudoku-solver skill.
-Load the prompt instructions from skills/dsa-backtracking-sudoku-solver/SKILL.md and consult the copy-pasteable references or guidelines inside skills/dsa-backtracking-sudoku-solver/references/ to complete the task.
-"""

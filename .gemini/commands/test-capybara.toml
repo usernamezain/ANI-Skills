@@ -1,0 +1,6 @@
+description = ">"
+
+prompt = """
+Invoke the test:capybara skill.
+Load the prompt instructions from skills/capybara-skill/SKILL.md and consult the copy-pasteable references or guidelines inside skills/capybara-skill/references/ to complete the task.
+"""

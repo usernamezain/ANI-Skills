@@ -1,5 +1,5 @@
 ---
-name: subagent-driven-development
+name: agent:subagent-driven
 description: Use when executing implementation plans with independent tasks in the current session
 ---
 

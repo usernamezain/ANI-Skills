@@ -1,5 +1,5 @@
 ---
-name: ani:quick
+name: plan:quick
 description: Execute a quick task with antigravity guarantees (atomic commits, state tracking) but skip optional agents
 argument-hint: "[list | status <slug> | resume <slug> | --full] [--validate] [--discuss] [--research] [task description]"
 allowed-tools:

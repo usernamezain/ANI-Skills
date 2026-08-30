@@ -1,5 +1,5 @@
 ---
-name: ani:boss-prompt-interactive-storytelling-director
+name: boss:interactive-storytelling-director
 description: Drives storytelling content using scroll timelines, testimonials, and marquees.
 argument-hint: "[additional instructions]"
 allowed-tools:

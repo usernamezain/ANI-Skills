@@ -1,6 +1,0 @@
-description = "Invoke the ani:netlify-skills-netlify-access-control skill"
-
-prompt = """
-Invoke the ani:netlify-skills-netlify-access-control skill.
-Load the prompt instructions from skills/netlify-skills-netlify-access-control/SKILL.md and consult its guidelines to complete the task.
-"""

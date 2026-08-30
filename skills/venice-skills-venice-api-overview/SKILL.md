@@ -1,5 +1,5 @@
 ---
-name: ani:venice-skills-venice-api-overview
+name: ai:venice-api
 description: High-level map of the Venice.ai API - base URL, authentication modes, endpoint categories, response headers, pricing model, error shape, and versioning. Load this first when starting any Venice integration.
 ---
 

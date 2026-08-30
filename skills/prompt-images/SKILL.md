@@ -1,5 +1,5 @@
 ---
-name: ani:prompt-images
+name: ai:prompt-images
 description: >
   Prompting techniques for AI image generation and editing models on Replicate.
   Use when writing prompts for image models or building image generation features.

@@ -1,0 +1,6 @@
+# ai:venice-image-generate
+
+Generate images with Venice. Covers POST /image/generate (Venice-native), POST /images/generations (OpenAI-compatible), GET /image/styles (style presets), request fields (prompt, dimensions, cfg_scale, seed, variants, style_preset, aspect_ratio, resolution, safe_mode, watermark), and response formats.
+
+**Skill folder:** `skills/venice-skills-venice-image-generate/`
+**Namespace:** `ai`

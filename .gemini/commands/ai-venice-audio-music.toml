@@ -1,0 +1,6 @@
+description = "Async music / audio-track generation via Venice. Covers the /audio/quote + /audio/queue + /audio/retrieve + /audio/complete lifecycle, lyrics vs instrumental, voice selection, duration, language, speed, model capability probing, and webhook-free polling."
+
+prompt = """
+Invoke the ai:venice-audio-music skill.
+Load the prompt instructions from skills/venice-skills-venice-audio-music/SKILL.md and consult the copy-pasteable references or guidelines inside skills/venice-skills-venice-audio-music/references/ to complete the task.
+"""

@@ -1,5 +1,5 @@
 ---
-name: morph-newsletter-signup-section
+name: ui:morph-newsletter
 description: Build a newsletter signup section where the input/button morph into a confirmation checkmark state on successful submit, with an inline shake for invalid email and a subtle floating background shape. Use whenever the user wants a "newsletter section", "email signup", "subscribe section", or "mailing list form".
 ---
 

@@ -1,0 +1,6 @@
+description = "Implement Terraform Provider actions using the Plugin Framework. Use when developing imperative operations that execute at lifecycle events (before/after create, update, destroy)."
+
+prompt = """
+Invoke the cloud:terraform-provider-actions skill.
+Load the prompt instructions from skills/provider-actions/SKILL.md and consult the copy-pasteable references or guidelines inside skills/provider-actions/references/ to complete the task.
+"""

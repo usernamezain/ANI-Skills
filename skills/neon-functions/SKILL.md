@@ -1,5 +1,5 @@
 ---
-name: ani:neon-functions
+name: db:neon-functions
 description: >-
   Long-running, serverless Node.js HTTP functions deployed onto your Neon
   branch, with DATABASE_URL injected automatically and compute that runs next

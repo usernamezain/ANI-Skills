@@ -1,5 +1,5 @@
 ---
-name: ani:webdriverio-skill
+name: test:webdriverio
 description: >
   Generates WebdriverIO (WDIO) automation tests in JavaScript or TypeScript.
   Supports local and TestMu AI cloud. Use when user mentions "WebdriverIO",

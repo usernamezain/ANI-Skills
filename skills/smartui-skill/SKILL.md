@@ -1,5 +1,5 @@
 ---
-name: ani:smartui-skill
+name: test:smartui
 description: >
   Generates SmartUI visual regression test configurations for screenshot
   comparison on TestMu AI cloud. Framework-agnostic — works with Playwright,

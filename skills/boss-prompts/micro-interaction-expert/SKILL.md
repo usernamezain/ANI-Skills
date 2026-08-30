@@ -1,5 +1,5 @@
 ---
-name: ani:boss-prompt-micro-interaction-expert
+name: boss:micro-interaction-expert
 description: Builds subtle, delightful micro-animations for interactive elements like custom cursors, CTAs, and headers.
 argument-hint: "[additional instructions]"
 allowed-tools:

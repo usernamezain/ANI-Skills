@@ -1,6 +1,0 @@
-description = "Generates permutations, combinations, and subsets using BFS backtracking. Triggered by subsets, subsets with duplicates, permutations, string permutations, uppercase/lowercase letters permutation."
-
-prompt = """
-Invoke the ani:dsa-subsets skill.
-Load the prompt instructions from skills/dsa-subsets/SKILL.md and consult the copy-pasteable references or guidelines inside skills/dsa-subsets/references/ to complete the task.
-"""

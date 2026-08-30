@@ -1,5 +1,5 @@
 ---
-name: ani:specflow-skill
+name: test:specflow
 description: >
   Generates SpecFlow BDD tests for C#/.NET with Gherkin feature files and
   step bindings. Use when user mentions "SpecFlow", "C# BDD", ".NET Gherkin",

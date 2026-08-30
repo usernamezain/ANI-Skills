@@ -1,5 +1,5 @@
 ---
-name: ani:neon-postgres-branches
+name: db:neon-branches
 description: >-
   Choose and create the right Neon branch type for testing and development.
   Use when users ask about Neon branching, migration testing with real data,

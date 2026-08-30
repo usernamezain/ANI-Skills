@@ -1,5 +1,5 @@
 ---
-name: ani:help
+name: plan:help
 description: Show available antigravity commands and usage guide
 argument-hint: "[--brief | --full | <topic> | --brief <topic>]"
 allowed-tools:

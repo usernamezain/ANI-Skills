@@ -1,5 +1,5 @@
 ---
-name: ani:build-models
+name: ai:replicate-build
 description: >
   Package and build custom AI models with Cog for deployment on Replicate.
   Use when creating a cog.yaml or predict.py, defining model inputs and

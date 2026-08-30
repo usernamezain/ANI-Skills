@@ -1,5 +1,5 @@
 ---
-name: ani:boss-prompt-migration-consultant
+name: boss:migration-consultant
 description: Evaluates deprecation metrics, updates APIs, and structures branches for refactored systems.
 argument-hint: "[additional instructions]"
 allowed-tools:

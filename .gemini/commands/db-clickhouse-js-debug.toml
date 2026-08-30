@@ -1,0 +1,6 @@
+description = ">"
+
+prompt = """
+Invoke the db:clickhouse-js-debug skill.
+Load the prompt instructions from skills/clickhouse-js-node-troubleshooting/SKILL.md and consult the copy-pasteable references or guidelines inside skills/clickhouse-js-node-troubleshooting/references/ to complete the task.
+"""

@@ -1,5 +1,5 @@
 ---
-name: ani:boss-prompt-security-warden
+name: boss:security-warden
 description: Reviews codebase inputs, dependencies, authentication parameters, and secret leaks to secure modules.
 argument-hint: "[additional instructions]"
 allowed-tools:

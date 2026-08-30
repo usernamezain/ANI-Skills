@@ -1,0 +1,6 @@
+description = "Generate a comprehensive project summary from milestone artifacts for team onboarding and review"
+
+prompt = """
+Invoke the plan:milestone-summary skill.
+Load the prompt instructions from skills/milestone-summary/SKILL.md and consult the copy-pasteable references or guidelines inside skills/milestone-summary/references/ to complete the task.
+"""

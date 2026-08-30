@@ -1,5 +1,5 @@
 ---
-name: ani:map-codebase
+name: plan:map-codebase
 description: Analyze codebase with parallel mapper agents to produce .planning/codebase/ documents
 argument-hint: "[--fast [--focus tech|arch|quality|concerns]] [--query <term>|status|diff|refresh] [area]"
 allowed-tools:

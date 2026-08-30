@@ -1,6 +1,0 @@
-description = "Archive accumulated phase directories from completed milestones"
-
-prompt = """
-Invoke the ani:cleanup skill.
-Load the prompt instructions from skills/cleanup/SKILL.md and consult the copy-pasteable references or guidelines inside skills/cleanup/references/ to complete the task.
-"""

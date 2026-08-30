@@ -1,5 +1,5 @@
 ---
-name: ani:create-voltagent
+name: start:new-voltagent
 # prettier-ignore
 description: Skill for creating AI agent projects using the VoltAgent framework. Guide for CLI setup and manual bootstrapping.
 license: MIT

@@ -1,0 +1,6 @@
+description = "Writing and editing VHS .tape scripts for terminal demo GIFs"
+
+prompt = """
+Invoke the doc:google-workspace-vhs skill.
+Load the prompt instructions from skills/google-workspace-vhs/SKILL.md and consult the copy-pasteable references or guidelines inside skills/google-workspace-vhs/references/ to complete the task.
+"""

@@ -1,5 +1,5 @@
 ---
-name: ani:refactor-module
+name: cloud:terraform-refactor
 description: Transform monolithic Terraform configurations into reusable, maintainable modules following HashiCorp's module design principles and community best practices.
 metadata:
   copyright: Copyright IBM Corp. 2026

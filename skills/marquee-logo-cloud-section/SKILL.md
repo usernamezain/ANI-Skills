@@ -1,5 +1,5 @@
 ---
-name: marquee-logo-cloud-section
+name: ui:marquee-logo-cloud
 description: Build an infinitely scrolling logo cloud / client-showcase strip with seamless looping, pause-on-hover, and optional grayscale-to-color reveal on hover per logo. Use whenever the user wants a "logo cloud", "client logos section", "as seen in", "trusted by", or "brands we work with" strip.
 ---
 

@@ -1,5 +1,5 @@
 ---
-name: workflow
+name: meta:workflow
 description: "workflow | discuss plan execute verify phase progress"
 argument-hint: ""
 allowed-tools:

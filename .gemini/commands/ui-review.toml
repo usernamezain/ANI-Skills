@@ -1,0 +1,6 @@
+description = "Retroactive 6-pillar visual audit of implemented frontend code"
+
+prompt = """
+Invoke the ui:review skill.
+Load the prompt instructions from skills/ui-review/SKILL.md and consult the copy-pasteable references or guidelines inside skills/ui-review/references/ to complete the task.
+"""

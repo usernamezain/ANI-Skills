@@ -1,0 +1,6 @@
+# scraping:firecrawl-index
+
+Find the papers that answer a research query with Firecrawl Research, using semantic search, semantic and structural expansion, and in-body verification. Always use this skill for any literature-finding / paper-retrieval task — single-paper lookups or full multi-paper sets.
+
+**Skill folder:** `skills/firecrawl-research-index/`
+**Namespace:** `scraping`

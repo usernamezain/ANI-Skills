@@ -1,0 +1,6 @@
+description = "Generate Terraform HCL code following HashiCorp's official style conventions and best practices. Use when writing, reviewing, or generating Terraform configurations."
+
+prompt = """
+Invoke the cloud:terraform-style skill.
+Load the prompt instructions from skills/terraform-style-guide/SKILL.md and consult the copy-pasteable references or guidelines inside skills/terraform-style-guide/references/ to complete the task.
+"""

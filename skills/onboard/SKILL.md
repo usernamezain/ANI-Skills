@@ -1,5 +1,5 @@
 ---
-name: ani:onboard
+name: start:onboard
 description: "Guide existing codebase onboarding through mapping, doc ingest, and planning setup"
 argument-hint: "[--fast] [--text]"
 allowed-tools:

@@ -1,5 +1,5 @@
 ---
-name: ani:pro:flower-animation
+name: ui:pro-animations-motion-flower-animation
 description: Generate a complex, animated CSS/React blooming flower scene. Use this whenever the user requests a flower animation, blooming flowers, or a pure CSS/React animated background scene featuring nature elements.
 ---
 

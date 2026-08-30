@@ -1,5 +1,5 @@
 ---
-name: ani:ingest-docs
+name: plan:ingest-docs
 description: Bootstrap or merge a .planning/ setup from existing ADRs, PRDs, SPECs, and docs in a repo.
 argument-hint: "[path] [--mode new|merge] [--manifest <file>] [--resolve auto|interactive]"
 allowed-tools:

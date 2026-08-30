@@ -1,0 +1,6 @@
+# ai:gemini-live
+
+Use this skill when building real-time, bidirectional streaming applications with the Gemini Live API. Covers WebSocket-based audio/video/text streaming, voice activity detection (VAD), native audio features, function calling, session management, ephemeral tokens for client-side auth, live translation, and all Live API configuration options. SDKs covered - google-genai (Python), @google/genai (JavaScript/TypeScript).
+
+**Skill folder:** `skills/gemini-live-api-dev/`
+**Namespace:** `ai`

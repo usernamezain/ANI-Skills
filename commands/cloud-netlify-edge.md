@@ -1,0 +1,6 @@
+# cloud:netlify-edge
+
+Guide for writing Netlify Edge Functions. Use when building middleware, geolocation-based logic, request/response manipulation, authentication checks, A/B testing, or any low-latency edge compute. Covers Deno runtime, context.next() middleware pattern, geolocation, and when to choose edge vs serverless.
+
+**Skill folder:** `skills/netlify-skills-netlify-edge-functions/`
+**Namespace:** `cloud`

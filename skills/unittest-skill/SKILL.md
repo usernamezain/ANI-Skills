@@ -1,5 +1,5 @@
 ---
-name: ani:unittest-skill
+name: test:unittest
 description: >
   Generates Python unittest tests. Built-in testing framework with TestCase,
   setUp/tearDown, and assertion methods. Use when user mentions "unittest",

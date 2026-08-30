@@ -1,0 +1,6 @@
+# cloud:netlify-image-cdn
+
+Guide for using Netlify Image CDN for image optimization and transformation. Use when serving optimized images, creating responsive image markup, setting up user-uploaded image pipelines, or configuring image transformations. Covers the /.netlify/images endpoint, query parameters, remote image allowlisting, clean URL rewrites, and composing uploads with Functions + Blobs.
+
+**Skill folder:** `skills/netlify-skills-netlify-image-cdn/`
+**Namespace:** `cloud`

@@ -1,5 +1,5 @@
 ---
-name: ani:cucumber-skill
+name: test:cucumber
 description: >
   Generates Cucumber BDD tests with Gherkin feature files and step definitions
   in Java, JavaScript, or Ruby. Use when user mentions "Cucumber", "Gherkin",

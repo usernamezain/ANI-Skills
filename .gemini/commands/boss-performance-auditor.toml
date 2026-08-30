@@ -1,0 +1,6 @@
+description = "Reviews codebase assets, transitions, and loops to optimize CLS, LCP, and ensure 120fps smooth renders."
+
+prompt = """
+Invoke the boss:performance-auditor boss prompt.
+Load the instructions from boss-prompts/performance-auditor.md to orchestrate a multi-skill workflow.
+"""

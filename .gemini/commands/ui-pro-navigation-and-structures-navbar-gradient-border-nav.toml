@@ -1,0 +1,6 @@
+description = "Generate a dark, premium SaaS/AI navbar with a spinning conic-gradient animated border, glassmorphism backdrop, and a controlled active state — the go-to for AI-native and modern SaaS brands."
+
+prompt = """
+Invoke the ui:pro-navigation-and-structures-navbar-gradient-border-nav skill.
+Load the prompt instructions from skills/pro/navigation-and-structures/navbar/gradient-border-nav/SKILL.md and consult the copy-pasteable references or guidelines inside skills/pro/navigation-and-structures/navbar/gradient-border-nav/references/ to complete the task.
+"""

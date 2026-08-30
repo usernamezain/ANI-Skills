@@ -1,5 +1,5 @@
 ---
-name: quality
+name: meta:review
 description: "quality gates | code review debug audit security eval ui"
 argument-hint: ""
 allowed-tools:

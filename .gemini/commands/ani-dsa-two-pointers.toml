@@ -1,6 +1,0 @@
-description = "Optimizes search in sorted arrays/lists by iterating from both ends or at different speeds. Triggered by two pointers, two sum sorted, remove duplicates, squarring sorted array, triplet sum to zero."
-
-prompt = """
-Invoke the ani:dsa-two-pointers skill.
-Load the prompt instructions from skills/dsa-two-pointers/SKILL.md and consult the copy-pasteable references or guidelines inside skills/dsa-two-pointers/references/ to complete the task.
-"""

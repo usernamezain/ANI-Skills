@@ -1,5 +1,5 @@
 ---
-name: ani:robot-framework-skill
+name: test:robot-framework
 description: >
   Generates Robot Framework tests in keyword-driven syntax with Python.
   Supports SeleniumLibrary, RequestsLibrary, and custom keywords. Use when

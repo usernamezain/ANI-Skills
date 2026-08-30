@@ -1,0 +1,6 @@
+# ai:venice-api-keys
+
+Manage Venice API keys. Covers GET/POST/PATCH/DELETE /api_keys, GET /api_keys/{id}, GET /api_keys/rate_limits, GET /api_keys/rate_limits/log, the two-step /api_keys/generate_web3_key wallet flow, INFERENCE vs ADMIN key types, and per-key consumption limits (USD / DIEM).
+
+**Skill folder:** `skills/venice-skills-venice-api-keys/`
+**Namespace:** `ai`

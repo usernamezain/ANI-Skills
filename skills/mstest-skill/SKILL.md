@@ -1,5 +1,5 @@
 ---
-name: ani:mstest-skill
+name: test:mstest
 description: >
   Generates MSTest tests in C#. Microsoft's built-in testing framework for .NET.
   Use when user mentions "MSTest", "[TestMethod]", "[TestClass]",

@@ -1,5 +1,5 @@
 ---
-name: ani:google-design-md
+name: ui:google-design-md
 description: Google Labs DESIGN.md format spec for visual identity contracts
 argument-hint: "[instructions]"
 allowed-tools:

@@ -1,5 +1,5 @@
 ---
-name: ui-checker
+name: ui:checker
 description: Validates UI-SPEC.md design contracts against 6 quality dimensions. Produces BLOCK/FLAG/PASS verdicts. Spawned by /antigravity:ui-phase orchestrator.
 tools: Read, Bash, Glob, Grep
 color: "#22D3EE"

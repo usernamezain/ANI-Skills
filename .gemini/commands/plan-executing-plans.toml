@@ -1,0 +1,6 @@
+description = "Use when you have a written implementation plan to execute in a separate session with review checkpoints"
+
+prompt = """
+Invoke the plan:executing-plans skill.
+Load the prompt instructions from skills/executing-plans/SKILL.md and consult the copy-pasteable references or guidelines inside skills/executing-plans/references/ to complete the task.
+"""

@@ -1,5 +1,5 @@
 ---
-name: ani:testng-skill
+name: test:testng
 description: >
   Generates TestNG tests in Java with groups, data providers, parallel execution,
   XML suite configuration, and listeners. Use when user mentions "TestNG",

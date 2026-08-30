@@ -1,5 +1,5 @@
 ---
-name: ani:clickhouse-js-node-rowbinary
+name: db:clickhouse-js-rowbinary
 description: >
   Generate TypeScript/JavaScript code that reads/decodes AND writes/encodes
   ClickHouse RowBinary streams for the ClickHouse HTTP server.

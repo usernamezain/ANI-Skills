@@ -1,0 +1,6 @@
+# ai:venice-audio-speech
+
+Generate speech from text via POST /audio/speech. Covers TTS models (Kokoro, Qwen 3, xAI, Inworld, Chatterbox, Orpheus, ElevenLabs Turbo, MiniMax, Gemini Flash), voices per family, output formats (mp3/opus/aac/flac/wav/pcm), streaming, prompt/emotion styling, temperature/top_p, and language hints.
+
+**Skill folder:** `skills/venice-skills-venice-audio-speech/`
+**Namespace:** `ai`

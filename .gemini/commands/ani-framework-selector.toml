@@ -1,6 +1,0 @@
-description = "Presents an interactive decision matrix to surface the right AI/LLM framework for the user's specific use case. Produces a scored recommendation with rationale. Spawned by /ani:ai-integration-phase and /select-framework orchestrators."
-
-prompt = """
-Invoke the ani:framework-selector skill.
-Load the prompt instructions from skills/framework-selector/SKILL.md and consult the copy-pasteable references or guidelines inside skills/framework-selector/references/ to complete the task.
-"""

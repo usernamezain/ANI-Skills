@@ -1,5 +1,5 @@
 ---
-name: ani:pro:complete-landing-pages:dimensions
+name: ui:pro-complete-landing-pages-dimensions
 description: A stunning, high-contrast black-and-cyan multi-dimensional landing page utilizing GSAP scroll hijacking, vertical-to-horizontal pinning, parallax masonry grids, exploding 3D bentos, and infinite marquee loops.
 category: pro/complete-landing-pages
 tags:

@@ -1,0 +1,6 @@
+# media:compress-image
+
+Compresses images to WebP (default) or PNG with automatic tool selection. Use when user asks to "compress image", "optimize image", "convert to webp", or reduce image file size.
+
+**Skill folder:** `skills/baoyu-compress-image/`
+**Namespace:** `media`

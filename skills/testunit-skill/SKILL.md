@@ -1,5 +1,5 @@
 ---
-name: ani:testunit-skill
+name: test:ruby-testunit
 description: >
   Generates Test::Unit tests in Ruby. Classic xUnit-style testing with assert
   methods and test case classes. Use when user mentions "Test::Unit",

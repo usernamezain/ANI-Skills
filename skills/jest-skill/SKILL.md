@@ -1,5 +1,5 @@
 ---
-name: ani:jest-skill
+name: test:jest
 description: >
   Generates Jest unit and integration tests in JavaScript or TypeScript.
   Covers mocking, snapshots, async testing, and React component testing.

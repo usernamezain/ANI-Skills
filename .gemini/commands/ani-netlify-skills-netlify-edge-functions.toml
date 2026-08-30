@@ -1,6 +1,0 @@
-description = "Invoke the ani:netlify-skills-netlify-edge-functions skill"
-
-prompt = """
-Invoke the ani:netlify-skills-netlify-edge-functions skill.
-Load the prompt instructions from skills/netlify-skills-netlify-edge-functions/SKILL.md and consult its guidelines to complete the task.
-"""

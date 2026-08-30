@@ -1,5 +1,5 @@
 ---
-name: smooth-accordion-faq-section
+name: ui:accordion-faq
 description: Build an FAQ section with smoothly animated accordion expand/collapse (real height measurement, not fixed max-height hacks), a rotating plus/chevron icon, and staggered scroll entrance. Use whenever the user wants an "FAQ section", "accordion", "expandable list", or "collapsible questions".
 ---
 

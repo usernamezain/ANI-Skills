@@ -1,5 +1,5 @@
 ---
-name: ani:venice-skills-venice-models
+name: ai:venice-models
 description: Discover Venice models, their capabilities, constraints, and pricing. Covers GET /models (with ?type filter), /models/traits, /models/compatibility_mapping, the ModelResponse schema (capabilities, constraints, pricing per type), and how to use this to pick the right model programmatically.
 ---
 

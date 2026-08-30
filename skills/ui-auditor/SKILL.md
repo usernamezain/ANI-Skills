@@ -1,5 +1,5 @@
 ---
-name: ui-auditor
+name: ui:auditor
 description: Retroactive 6-pillar visual audit of implemented frontend code. Produces scored UI-REVIEW.md. Spawned by /antigravity:ui-review orchestrator.
 tools: Read, Write, Bash, Grep, Glob
 color: "#F472B6"

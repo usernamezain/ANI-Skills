@@ -1,6 +1,0 @@
-description = "Generate a premium hand-drawn, \"sketchy\" notebook-style hero section featuring drawn 3D shapes, SVG squiggles, and GSAP stroke drawing animations."
-
-prompt = """
-Invoke the ani:pro:sketchy skill.
-Load the prompt instructions from skills/pro/core-landing-pages/sketchy/SKILL.md and consult the copy-pasteable references or guidelines inside skills/pro/core-landing-pages/sketchy/references/ to complete the task.
-"""

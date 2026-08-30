@@ -1,5 +1,5 @@
 ---
-name: ani:run-models
+name: ai:replicate-run
 description: Run AI models on Replicate via predictions, webhooks, and streaming.
 ---
 

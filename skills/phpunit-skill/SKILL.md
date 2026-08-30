@@ -1,5 +1,5 @@
 ---
-name: ani:phpunit-skill
+name: test:phpunit
 description: >
   Generates PHPUnit tests in PHP. Covers assertions, data providers, mocking,
   and test doubles. Use when user mentions "PHPUnit", "TestCase", "assertEquals",

@@ -1,5 +1,5 @@
 ---
-name: ani:pro:sketchy
+name: ui:pro-core-landing-pages-sketchy
 description: Generate a premium hand-drawn, "sketchy" notebook-style hero section featuring drawn 3D shapes, SVG squiggles, and GSAP stroke drawing animations.
 ---
 

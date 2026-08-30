@@ -1,6 +1,0 @@
-description = ">"
-
-prompt = """
-Invoke the ani:appium-skill skill.
-Load the prompt instructions from skills/appium-skill/SKILL.md and consult the copy-pasteable references or guidelines inside skills/appium-skill/references/ to complete the task.
-"""

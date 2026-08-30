@@ -1,5 +1,5 @@
 ---
-name: ani:boss-prompt-performance-auditor
+name: boss:performance-auditor
 description: Reviews codebase assets, transitions, and loops to optimize CLS, LCP, and ensure 120fps smooth renders.
 argument-hint: "[additional instructions]"
 allowed-tools:

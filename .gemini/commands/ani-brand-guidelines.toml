@@ -1,6 +1,0 @@
-description = "Applies Anthropic's official brand colors and typography to any sort of artifact that may benefit from having Anthropic's look-and-feel. Use it when brand colors or style guidelines, visual formatting, or company design standards apply."
-
-prompt = """
-Invoke the ani:brand-guidelines skill.
-Load the prompt instructions from skills/brand-guidelines/SKILL.md and consult the copy-pasteable references or guidelines inside skills/brand-guidelines/references/ to complete the task.
-"""

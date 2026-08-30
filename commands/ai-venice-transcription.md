@@ -1,0 +1,6 @@
+# ai:venice-transcription
+
+Transcribe audio files to text via POST /audio/transcriptions. Covers supported models (Parakeet, Whisper, Wizper, Scribe, xAI STT), supported formats (wav/flac/m4a/aac/mp4/mp3/ogg/webm), response formats (json/text), timestamps, and language hints. OpenAI-compatible multipart.
+
+**Skill folder:** `skills/venice-skills-venice-audio-transcription/`
+**Namespace:** `ai`

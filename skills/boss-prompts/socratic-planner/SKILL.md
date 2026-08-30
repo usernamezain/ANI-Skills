@@ -1,5 +1,5 @@
 ---
-name: ani:boss-prompt-socratic-planner
+name: boss:socratic-planner
 description: Refines product ideas, analyzes blocker edge cases, and constructs modular roadmap plans.
 argument-hint: "[additional instructions]"
 allowed-tools:

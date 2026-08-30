@@ -1,6 +1,0 @@
-description = "A premier creative landing page utilizing Three.js React-Three-Fiber fluid-distort spheres, GSAP initial timeline revelations, glassmorphic floating navigations, bento grids, and scroll metrics."
-
-prompt = """
-Invoke the ani:pro:complete-landing-pages:kinetic-void skill.
-Load the prompt instructions from skills/pro/complete-landing-pages/kinetic-void/SKILL.md and consult the copy-pasteable references or guidelines inside skills/pro/complete-landing-pages/kinetic-void/references/ to complete the task.
-"""

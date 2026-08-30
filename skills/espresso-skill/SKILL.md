@@ -1,5 +1,5 @@
 ---
-name: ani:espresso-skill
+name: test:espresso
 description: >
   Generates Espresso UI tests for Android apps in Kotlin or Java. Espresso runs
   inside the app process for fast, reliable UI testing. Supports local and TestMu AI

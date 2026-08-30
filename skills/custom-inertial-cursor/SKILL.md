@@ -1,5 +1,5 @@
 ---
-name: custom-inertial-cursor
+name: ui:cursor-inertial
 description: Designing a custom monochromatic dual-element cursor system with motion interpolation (lerp), magnetic properties, and hover expansion triggers.
 ---
 

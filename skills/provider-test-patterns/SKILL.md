@@ -1,5 +1,5 @@
 ---
-name: ani:provider-test-patterns
+name: cloud:terraform-provider-tests
 description: >-
   Terraform provider acceptance test patterns using terraform-plugin-testing
   with the Plugin Framework. Covers test structure, TestCase/TestStep fields,

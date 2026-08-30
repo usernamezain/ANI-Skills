@@ -1,5 +1,5 @@
 ---
-name: ani:boss-prompt-threejs-showroom-creator
+name: boss:threejs-showroom-creator
 description: Constructs WebGL showrooms, mouse-reactive particle background systems, and preloading assets.
 argument-hint: "[additional instructions]"
 allowed-tools:

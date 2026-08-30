@@ -1,6 +1,0 @@
-description = "Invoke the ani:venice-skills-venice-augment skill"
-
-prompt = """
-Invoke the ani:venice-skills-venice-augment skill.
-Load the prompt instructions from skills/venice-skills-venice-augment/SKILL.md and consult its guidelines to complete the task.
-"""

@@ -1,5 +1,5 @@
 ---
-name: ani:workspace
+name: plan:workspace
 description: Manage antigravity workspaces — create, list, or remove isolated workspace environments
 argument-hint: "[--new | --list | --remove] [name]"
 allowed-tools:

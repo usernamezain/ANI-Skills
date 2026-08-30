@@ -1,6 +1,0 @@
-description = "Invoke the ani:venice-skills-venice-video skill"
-
-prompt = """
-Invoke the ani:venice-skills-venice-video skill.
-Load the prompt instructions from skills/venice-skills-venice-video/SKILL.md and consult its guidelines to complete the task.
-"""

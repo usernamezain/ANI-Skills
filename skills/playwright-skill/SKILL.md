@@ -1,5 +1,5 @@
 ---
-name: ani:playwright-skill
+name: test:playwright
 description: >
   Generates production-grade Playwright automation scripts and E2E tests
   in TypeScript, JavaScript, Python, Java, or C#. Supports local execution

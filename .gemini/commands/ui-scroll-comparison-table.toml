@@ -1,0 +1,6 @@
+description = "Build a feature-comparison section (plans/products side by side) where rows reveal progressively on scroll and a sticky header row stays visible while scrolling through a long table. Use whenever the user wants a \"comparison table\", \"feature comparison\", \"compare plans\", \"vs table\", or \"side-by-side comparison section\"."
+
+prompt = """
+Invoke the ui:scroll-comparison-table skill.
+Load the prompt instructions from skills/scroll-comparison-table-section/SKILL.md and consult the copy-pasteable references or guidelines inside skills/scroll-comparison-table-section/references/ to complete the task.
+"""

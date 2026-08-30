@@ -1,6 +1,0 @@
-description = "Hardens code against vulnerabilities. Use when handling user input, authentication, data storage, or external integrations. Use when building any feature that accepts untrusted data, manages user sessions, or interacts with third-party services."
-
-prompt = """
-Invoke the ani:security-and-hardening skill.
-Load the prompt instructions from skills/security-and-hardening/SKILL.md and consult the copy-pasteable references or guidelines inside skills/security-and-hardening/references/ to complete the task.
-"""

@@ -1,0 +1,6 @@
+description = "Coordinates REST/GraphQL APIs and contracts between frontend UI layers and backend databases."
+
+prompt = """
+Invoke the boss:full-stack-integrator boss prompt.
+Load the instructions from boss-prompts/full-stack-integrator.md to orchestrate a multi-skill workflow.
+"""

@@ -1,0 +1,6 @@
+description = "Review source files changed during a phase for bugs, security issues, and code quality problems"
+
+prompt = """
+Invoke the quality:code-review skill.
+Load the prompt instructions from skills/code-review/SKILL.md and consult the copy-pasteable references or guidelines inside skills/code-review/references/ to complete the task.
+"""

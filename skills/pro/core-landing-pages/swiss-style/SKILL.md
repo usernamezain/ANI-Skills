@@ -1,5 +1,5 @@
 ---
-name: ani:pro:swiss-style
+name: ui:pro-core-landing-pages-swiss-style
 description: Generate a premium Swiss design-inspired hero section featuring strict grid layouts, massive typography, smooth scrolling (Lenis), and interactive 3D WebGL images.
 ---
 

@@ -1,5 +1,5 @@
 ---
-name: ani:prompt-videos
+name: ai:prompt-videos
 description: >
   Prompting techniques for AI video generation models on Replicate.
   Use when writing prompts for video models or building video

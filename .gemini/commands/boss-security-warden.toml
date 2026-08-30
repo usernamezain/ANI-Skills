@@ -1,0 +1,6 @@
+description = "Reviews codebase inputs, dependencies, authentication parameters, and secret leaks to secure modules."
+
+prompt = """
+Invoke the boss:security-warden boss prompt.
+Load the instructions from boss-prompts/security-warden.md to orchestrate a multi-skill workflow.
+"""

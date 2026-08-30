@@ -1,6 +1,0 @@
-description = "MUST USE when designing ClickHouse architectures, selecting between ingestion or modeling patterns, or translating best practices into workload-specific system designs. Complements clickhouse-best-practices with decision frameworks and explicit provenance labels."
-
-prompt = """
-Invoke the ani:clickhouse-architecture-advisor skill.
-Load the prompt instructions from skills/clickhouse-architecture-advisor/SKILL.md and consult the copy-pasteable references or guidelines inside skills/clickhouse-architecture-advisor/references/ to complete the task.
-"""

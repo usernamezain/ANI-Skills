@@ -1,0 +1,6 @@
+description = "Builds high-performance e-commerce user interfaces with mega-menus, product details, and accordion FAQs."
+
+prompt = """
+Invoke the boss:e-commerce-ux-architect boss prompt.
+Load the instructions from boss-prompts/e-commerce-ux-architect.md to orchestrate a multi-skill workflow.
+"""

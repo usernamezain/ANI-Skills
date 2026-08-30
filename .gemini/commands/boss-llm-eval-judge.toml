@@ -1,0 +1,6 @@
+description = "Constructs Rubric scoring tables and checks for biases to evaluate language models."
+
+prompt = """
+Invoke the boss:llm-eval-judge boss prompt.
+Load the instructions from boss-prompts/llm-eval-judge.md to orchestrate a multi-skill workflow.
+"""

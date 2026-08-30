@@ -1,5 +1,5 @@
 ---
-name: ani:find-models
+name: ai:replicate-find
 description: Find AI models on Replicate using search and curated collections.
 ---
 

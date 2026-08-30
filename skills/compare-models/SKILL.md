@@ -1,5 +1,5 @@
 ---
-name: ani:compare-models
+name: ai:replicate-compare
 description: Compare Replicate models by cost, speed, quality, and capabilities.
 ---
 

@@ -1,5 +1,5 @@
 ---
-name: three-carousel-slider
+name: ui:three-carousel
 description: Skill for designing cylindrical 3D horizontal sliders.
 ---
 

@@ -1,6 +1,0 @@
-description = "Use when implementation is complete, all tests pass, and you need to decide how to integrate the work - guides completion of development work by presenting structured options for merge, PR, or cleanup"
-
-prompt = """
-Invoke the ani:finishing-a-development-branch skill.
-Load the prompt instructions from skills/finishing-a-development-branch/SKILL.md and consult the copy-pasteable references or guidelines inside skills/finishing-a-development-branch/references/ to complete the task.
-"""

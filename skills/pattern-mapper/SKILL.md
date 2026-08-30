@@ -1,5 +1,5 @@
 ---
-name: pattern-mapper
+name: agent:pattern-mapper
 description: Analyzes codebase for existing patterns and produces PATTERNS.md mapping new files to closest analogs. Read-only codebase analysis spawned by /antigravity:plan-phase orchestrator before planning.
 tools: Read, Bash, Glob, Grep, Write
 color: magenta
