@@ -1,301 +1,195 @@
-# `ani-skills` — The Professional AI Agent Skills Library
+# `ani-skills` — The Ultimate AI Agent Skills Library (Ultra v2.0)
 
-`ani-skills` is a production-grade, zero-overhead, multi-platform skills library containing **444 professional skills and prompts** across visual layout animations, browser testing automation, planning workflows, database optimizations, and data structures. It is custom-built to extend the capabilities of modern AI coding agents, including the **Antigravity IDE (Gemini CLI), Claude Code, Cursor, Windsurf, Trae, and Cline**.
+<div align="center">
 
----
-
-### Connect & Support
-* 🔗 **LinkedIn**: [Zain Ali Mughal](https://www.linkedin.com/in/zainali-mughal/)
-* 📢 **WhatsApp Channel** (✨ Join for more exclusive drops): 👉 [Join Here](https://whatsapp.com/channel/0029VbBUVv35fM5eAnXw3w2D)
-
----
-
-## Table of Contents
-
-1. [Overview & Architecture](#1-overview--architecture)
-2. [What are AI Agent Skills?](#2-what-are-ai-agent-skills)
-3. [Quick Start & CLI Installer](#3-quick-start--cli-installer)
-4. [Multi-Agent Configuration Guides](#4-multi-agent-configuration-guides)
-   - [Claude Code Integration](#claude-code-integration)
-   - [Antigravity IDE & Gemini CLI Integration](#antigravity-ide--gemini-cli-integration)
-   - [Cursor Rules Integration](#cursor-rules-integration)
-   - [Windsurf Rules Integration](#windsurf-rules-integration)
-   - [Trae Rules Integration](#trae-rules-integration)
-   - [Cline / Clinerules Integration](#cline--clinerules-integration)
-5. [The 444 Skills Directory Map](#5-the-444-skills-directory-map)
-   - [Creative Motion & Frontend Layouts (GSAP, Three.js, Canvas)](#creative-motion--frontend-layouts)
-   - [QA, Browser Scraping, & E2E Testing (Playwright, Puppeteer, Selenium)](#qa-browser-scraping--e2e-testing)
-   - [System Architecture, Databases, & Infrastructure (ClickHouse, Neon, Supabase)](#system-architecture-databases--infrastructure)
-   - [Planning, Workflow, & Safety Abstractions (ANI Workflow, Verification)](#planning-workflow--safety-abstractions)
-   - [Data Structures & Algorithms (DSA Complexes)](#data-structures--algorithms-dsa)
-6. [Orchestrating Complex Tasks (Boss Prompts)](#6-orchestrating-complex-tasks-boss-prompts)
-7. [ANI Coding & Safety Standards](#7-ani-coding--safety-standards)
-8. [Troubleshooting & Registry Diagnostics](#8-troubleshooting--registry-diagnostics)
-
----
-
-## 1. Overview & Architecture
-
-Modern AI coding agents perform tasks by reading context files, applying templates, and executing terminal commands. However, without dedicated guidance, agents frequently reinvent wheels, write sub-optimal algorithms, or struggle with complex frontend math (like scroll-bound curves, custom cursor hover vectors, or WebGL shader buffers).
-
-`ani-skills` addresses this gap by shipping a standardized local directory structure containing validated procedural instructions (`SKILL.md`) and rich source code assets (`references/`). When installed, it hooks directly into your editor's autocomplete menu and prompts system.
-
-### Package Architecture Diagram
-
-```mermaid
-graph TD
-    A[npm install -g ani-skills] --> B[npx ani-skills]
-    B --> C{Choose Option}
-    C -->|1| D[Claude Code CLI Symlink]
-    C -->|2| E[Antigravity IDE / Gemini TOML Command Setup]
-    C -->|3| F[Generate Rules Files: .cursorrules, .windsurfrules, .traerules, .clinerules, .geminirules]
-    C -->|4| G[Local Workspace Copy]
-    C -->|5| H[Rebuild Index]
-    
-    subgraph CoreLibrary ["Core Library"]
-        I[skills/ 444 Skills] --> J[SKILL.md Instructions]
-        I --> K[references/ Snippets & Templates]
-        L[boss-prompts/ 22 Boss Prompts] --> M[Agent Orchestration Rules]
-    end
-    
-    D --> CoreLibrary
-    E --> CoreLibrary
-    F --> CoreLibrary
-    G --> CoreLibrary
+```
+ █████╗ ███╗   ██╗██╗      ███████╗██╗  ██╗██╗██╗     ██╗     ███████╗
+██╔══██╗████╗  ██║██║      ██╔════╝██║ ██╔╝██║██║     ██║     ██╔════╝
+███████║██╔██╗ ██║██║█████╗███████╗█████╔╝ ██║██║     ██║     ███████╗
+██╔══██║██║╚██╗██║██║╚════╝╚════██║██╔═██╗ ██║██║     ██║     ╚════██║
+██║  ██║██║ ╚████║██║      ███████║██║  ██╗██║███████╗███████╗███████║
+╚═╝  ╚═╝╚═╝  ╚═══╝╚═╝      ╚══════╝╚═╝  ╚═╝╚═╝╚══════╝╚══════╝╚══════╝
 ```
 
----
+### **3,028 Production AI Agent Skills · 29 Semantic Namespaces · 8 Supported AI Assistants**
 
-## 2. What are AI Agent Skills?
-
-An **AI Agent Skill** is a self-contained module of instruction and code designed to be consumed by an LLM-based coding assistant. Each skill is located in a dedicated folder under `skills/<skill-name>/` and consists of two main pillars:
-
-### 1. The instruction Contract (`SKILL.md`)
-The `SKILL.md` file contains a YAML frontmatter header defining the skill's name and description, followed by step-by-step trigger rules, execution conditions, safety limits, and expected outputs.
-
-*Example structure:*
-```markdown
----
-name: antigravity:scroll-morph-navbar-section
-description: Trigger when the user wants to build a navbar that shrinks, changes color, or morphs on scroll using GSAP ScrollTrigger.
-disable-model-invocation: false
----
-
-<objective>
-Build a modern glassmorphic navbar that morphs smoothly into a compact pill layout or sticky header upon scrolling down the page.
-</objective>
-
-<requirements>
-1. Require GSAP and ScrollTrigger CDN scripts in the HTML header.
-2. Implement Lenis or smooth scrolling to prevent scroll stuttering.
-3. Configure CSS transitions using HSL tailoring to avoid ugly standard colors.
-</requirements>
-```
-
-### 2. The Reference Assets (`references/`)
-Each skill has a `references/` subdirectory containing working sample files (such as fully functional HTML files, CSS systems, or helper scripts). AI agents can pull from these files to quickly paste working code without guessing parameters.
+[![npm version](https://img.shields.io/npm/v/ani-skills.svg?style=for-the-badge&color=white&labelColor=black)](https://www.npmjs.com/package/ani-skills)
+[![License: MIT](https://img.shields.io/badge/License-MIT-white.svg?style=for-the-badge&labelColor=black)](https://opensource.org/licenses/MIT)
+[![Skills Count](https://img.shields.io/badge/Skills-3%2C028%2B-white.svg?style=for-the-badge&labelColor=black)](https://github.com/usernamezain/ANI-Skills)
+[![Namespaces](https://img.shields.io/badge/Namespaces-29-white.svg?style=for-the-badge&labelColor=black)](https://github.com/usernamezain/ANI-Skills)
+[![Platforms](https://img.shields.io/badge/Cloud%20%26%20DB-Neon%20%7C%20Google%20%7C%20AWS%20%7C%20Azure%20%7C%20NVIDIA-white.svg?style=for-the-badge&labelColor=black)](https://github.com/usernamezain/ANI-Skills)
 
 ---
 
-## 3. Quick Start & CLI Installer
+### Connect & Community
+🔗 **LinkedIn**: [Zain Ali Mughal](https://www.linkedin.com/in/zainali-mughal/)  
+📢 **WhatsApp Channel** (✨ Exclusive Skill Drops & Early Access): [Join Here](https://whatsapp.com/channel/0029VbBUVv35fM5eAnXw3w2D)
 
-The easiest way to integrate the skills library is using our global CLI installer.
+---
 
-### Installation
+</div>
 
-Install the package globally using npm:
+## 🌟 What is `ani-skills`?
+
+`ani-skills` is the world's most comprehensive open-source AI Coding Agent Skills Package. It equips AI Coding Assistants (**Antigravity IDE, Claude Code, Cursor, Windsurf, GitHub Copilot, Codex, Gemini CLI, and OpenCode**) with **3,028 deterministic skill contracts** (`SKILL.md`) and rich visual/architectural code assets (`references/`).
+
+Instead of hallucinating outdated syntax or writing naive boilerplate, your AI agent operates with principal engineer-level precision across **Frontend Animation, Cloud Infrastructure, Database Engineering, Marketing & SEO, Security Auditing, iOS/Flutter Mobile Development, and Multi-Agent Orchestration**.
+
+---
+
+## ⚡ Quick Start: Interactive GUI & CLI Installer
+
+Install globally or run on-demand with `npx`:
 
 ```bash
-npm install -g ani-skills
-```
-
-### Running the Setup CLI
-
-Execute the interactive configuration helper:
-
-```bash
+# Launch the Interactive Visual Web GUI Popup
 npx ani-skills
 ```
 
-The CLI will display the main configuration menu:
+Or install via npm:
+```bash
+npm install -g ani-skills
+ani-skills
+```
 
-```text
-==================================================
-        ANTIGRAVITY SKILLS LIBRARY SETUP          
-==================================================
-A repository of 444 AI agent skills and prompts.
-  
-Select your target configuration environment:
-[1] Configure Claude Code CLI (symlink skills & commands)
-[2] Configure Antigravity IDE / Gemini (install global skills)
-[3] Generate IDE Rules files (.cursorrules / .clinerules)
-[4] Copy all 444 skills and commands locally to current directory
-[5] Compile / Update skills search index
-[6] Exit
+### 🖥️ Interactive Web GUI Popup
+When you run `ani-skills`, an interactive monochromatic dashboard launches in your browser (`http://localhost:48123`):
+1. **Target AI Agent Detection:** Auto-detects installed AI tools (Cursor, Claude Code, Antigravity, Windsurf, Copilot, etc.).
+2. **Category Selection Checkboxes:** Select specific skill bundles (e.g. `ui:`, `marketing:`, `db:`, `cloud:`, `security:`, `boss:`) or install the complete suite with one click.
+3. **Instant Path Linking:** Automatically configures project and global paths and generates `.cursorrules`, `.windsurfrules`, `.geminirules`, and `.copilot-rules`.
 
-Enter option (1-6):
+For headless or automated CI/CD environments:
+```bash
+ani-skills --auto
 ```
 
 ---
 
-## 4. Multi-Agent Configuration Guides
+## 🏢 Platform Ecosystem Matrix
 
-### Claude Code Integration
-Option `[1]` in the installer configures **Claude Code** to natively recognize the skills. 
-- **Symlink Setup**: It creates a symlink from the global node modules package folder to your local user home directory under `~/.claude/ani-skills`.
-- **Slash Commands**: It registers the custom commands under `~/.claude/commands/`.
-- **Triggering**: Once configured, you can type `/` in the Claude Code terminal, and it will list all 444 skills as autocomplete choices (e.g. `/skill-tilt-hover-pricing-cards-section`). Selecting the command loads the corresponding `SKILL.md` and `references/` directly into the agent's context window.
+`ani-skills` features deep, official skill suites for all industry-leading cloud, database, and AI platforms:
 
----
-
-### Antigravity IDE & Gemini CLI Integration
-Option `[2]` configures the **Antigravity IDE** (powered by the Gemini backend).
-- **TOML Command Files**: The installer copies `.toml` metadata files for each skill to your editor configuration path: `~/.gemini/commands/`.
-- **Context Injection**: Each TOML config maps a slash command to its relative prompt sequence:
-  ```toml
-  description = "Trigger to build a buttery-smooth 120fps landing page layout."
-  prompt = "Load the skill config from skills/buttery-smooth-120fps-performance/SKILL.md and execute its instructions."
-  ```
-- **Usage**: Type `/` in the Antigravity chat pane, select the desired capability, and the agent will load the instructions and execute the task.
+| Platform Category | Featured Platforms & Technologies | Key Capabilities |
+|---|---|---|
+| **Databases & Vector DBs** | **Neon Postgres**, **Supabase**, **ClickHouse**, **DuckDB**, **MongoDB**, **Redis**, **Qdrant**, **Tinybird** | Serverless branching, vector indexing, query optimization, connection pooling, RLS policies, time-series aggregation |
+| **Cloud & DevOps Infra** | **Google Cloud Platform**, **Microsoft Azure**, **AWS**, **Cloudflare Workers**, **Netlify**, **HashiCorp Terraform**, **Firebase**, **Resend**, **Mailtrap**, **n8n** | Certified Terraform modules, serverless edge functions, DNS/CDN tuning, email pipelines, IAM least-privilege |
+| **AI & LLM Frameworks** | **OpenAI (GPT-4o/Codex)**, **Google Gemini**, **Hugging Face**, **NVIDIA (NIM / TensorRT / DOCA)**, **Fal.ai**, **Venice.ai**, **VoltAgent**, **MiniMax** | Structured outputs, function calling, multimodal pipelines, CUDA acceleration, voice/video agents, self-hosted LLMs |
+| **Creative & UI Animation** | **GreenSock (GSAP)**, **Three.js**, **WebGPU & TSL Shaders**, **Remotion (React Video)**, **Google Labs Stitch**, **Apple HIG Doctor**, **Figma MCP** | 120fps smooth scrolling, 3D particle physics, canvas rendering, generative design contracts, programmatic video generation |
+| **Mobile Ecosystems** | **iOS SwiftUI**, **Flutter**, **Expo**, **React Native**, **Apple Debug Bridge** | Real-device live QA, SwiftUI visual audit, App Store Optimization (ASO), native bridging, automated bug fixing |
+| **Marketing & Growth** | **Google SEO & AEO**, **App Store Optimization (ASO)**, **LinkedIn Strategy**, **X/Twitter (Postiz, TweetClaw, Xquik)**, **SuperCMO**, **Citlyze**, **Distribb** | Answer Engine Optimization (GEO/AEO), high-converting ad copy, AI video generation, automated social posting |
+| **Security & Hardening** | **Trail of Bits**, **VibeSec**, **OWASP Zero-Trust**, **CSO Audits** | Vulnerability scanning, memory safety, prompt injection defense, API token leak interception, AST static analysis |
+| **APM & Observability** | **Datadog APM**, **Sentry for AI**, **OpenTelemetry** | Distributed tracing, session replay, root-cause analysis (RCA), token cost anomaly detection, performance profiling |
 
 ---
 
-### Cursor Rules Integration
-Option `[3]` compiles a custom `.cursorrules` file in your workspace root.
-- **Rule Injection**: Cursor parses the `.cursorrules` file to control the behavioral constraints of Cursor Composer and Cursor Chat.
-- **Automatic Matching**: The file instructs Cursor's models to scan the `./skills/` folder whenever you type key phrases matching frontend layouts, database engines, or testing frameworks.
+## 🏷️ Semantic Namespace Architecture (3,028 Skills)
 
----
+All skills follow a clean semantic namespace taxonomy (`<namespace>:<skill-name>`):
 
-### Windsurf Rules Integration
-Option `[3]` also writes the rules to `.windsurfrules` in the workspace root.
-- **Cascade Behavior**: The Windsurf agent uses `.windsurfrules` to shape the behavior of Cascade (both in Write and Chat modes).
-- **Tool Constraints**: Instructs Cascade to reference `references/` directories before modifying layout files or generating database tables.
-
----
-
-### Trae Rules Integration
-Option `[3]` generates `.traerules` in the root workspace.
-- **AI Copilot Bounds**: The Trae AI copilot reads `.traerules` to maintain compliance with CommonJS formatting guidelines and relative path links, avoiding broken links or local path leakage.
-
----
-
-### Cline / Clinerules Integration
-Option `[3]` writes the configuration to `.clinerules` in the root directory.
-- **Custom Tool constraints**: Dictates Cline's directory discovery loop, guiding it to look for `SKILL.md` files in subfolders.
-
----
-
-## 5. The 444 Skills Directory Map
-
-The library is organized into five functional pillars. Below is a detailed mapping of the key skills in each directory category:
-
-### Creative Motion & Frontend Layouts
-These skills provide the step-by-step physics, math formulas, and layout setups for high-contrast, premium, responsive layouts.
-- **`buttery-smooth-120fps-performance`**: Best practices for setting up hardware-accelerated animations, avoiding repaint layout thrashing, and configuring requestAnimationFrame loops.
-- **`magnetic-cta-section`**: Calculations to pull page elements towards the user's mouse cursor dynamically based on vector distances.
-- **`scroll-morph-navbar-section`**: GSAP ScrollTrigger configs to shrink, highlight, or collapse menus on page scroll.
-- **`morphing-hamburger-icon`**: Canvas or CSS transitions to transform menu bars into closing symbols or custom shapes.
-- **`tilt-hover-pricing-cards-section`**: Vanilla CSS 3D perspective transforms that react to hover angles.
-- **`threejs-interactive-backgrounds`**: Fluid particles, noise shaders, and interactive WebGL canvases.
-- **`marquee-logo-cloud-section`**: Continuous, infinitely looping horizontal ticker rails.
-- **`mask-reveal-footer-section`**: Footer transitions that slide out from behind the viewport.
-- **`image-cursor-trail`**: Physics formulas to drop delayed fading image arrays behind the mouse.
-- **`top-down-curtain-menu`**: Full-screen slide-down layout navigations with cascading item staggered entries.
-
----
-
-### QA, Browser Scraping, & E2E Testing
-Testing configurations, scrapers, and browser controller modules that bypass cloud protections and run reliably.
-- **`playwright-skill`**: Standard E2E setups, parallel test runners, and dynamic page state captures.
-- **`puppeteer-skill`**: Scripting headless web browsers for high-performance scraping, dynamic DOM extraction, and page load waits.
-- **`selenium-skill`**: Legacy cross-browser automation, grid setups, and element click configurations.
-- **`cypress-skill`**: Testing applications inside sandboxed frames, with mock API stubs.
-- **`webdriverio-skill`**: Node-based automation systems targeting mobile frameworks.
-- **`browser-testing-with-devtools`**: Bypassing detection layers, overriding screen dimensions, and injecting custom cookies.
-- **`smartui-skill`**: Running visual regression tests, matching layout pixel diffs on Cloud grids.
-
----
-
-### System Architecture, Databases, & Infrastructure
-Optimized queries, schemas, and adapter setups for high-throughput databases and platforms.
-- **`clickhouse-best-practices`**: Columnar database configurations, index optimization keys, and partition strategies.
-- **`clickhousectl-local-dev`**: Launching ClickHouse containers, mounting volumes, and checking memory limits.
-- **`chdb-datastore`**: Embedded ClickHouse in-memory systems for fast analytical computations.
-- **`neon-postgres`**: Postgres setups configured to connect with the Neon Serverless driver.
-- **`neon-postgres-branches`**: Using Neon branching APIs to spin up temporary test databases during CI/CD steps.
-- **`neon-ai-gateway`**: Routing vector search operations through Neon vector extensions.
-- **`supabase` / `supabase-postgres-best-practices`**: Schema triggers, Row-Level Security (RLS) policies, and database connection pools.
-- **`better-auth-best-practices`**: Safe credential setups, 2FA workflows, and session token storage.
-- **`tinybird-best-practices`**: Real-time analytical APIs, pipeline SQL architectures, and ingestion endpoints.
-
----
-
-### Planning, Workflow, & Safety Abstractions
-The planning engine files that govern the agent's workflow cycle, ensuring it follows the **Plan-Execute-Verify** sequence.
-- **`plan-phase`**: Synthesizes the project design criteria into a structured `implementation_plan.md` before making code changes.
-- **`verify-work`**: Conducts unit testing, compiler sweeps, and visual verification walkthroughs.
-- **`spec-phase`**: Identifies project ambiguities and scores implementation paths.
-- **`ui-phase`**: Establishes design systems and styling guidelines using unified tokens.
-- **`systematic-debugging`**: Persistent debugging processes for tracking variables across compiler crashes.
-- **`observability-and-instrumentation`**: Telemetry log loops, performance trackers, and tracing integrations.
-
----
-
-### Data Structures & Algorithms (DSA)
-Validated structures in JS/Python for resolving algorithmic complexity tests.
-- **`dsa-sliding-window`**: Optimizing array subarrays and substring calculations from $O(n^2)$ to $O(n)$.
-- **`dsa-binary-search`**: Search routines on sorted ranges and rotated fields.
-- **`dsa-dynamic-programming`**: Memoization and tabulation methods for resolving optimization formulas.
-- **`dsa-graph-algorithms`**: BFS, DFS, Dijkstra, and topological sort algorithms for routing models.
-
----
-
-## 6. Orchestrating Complex Tasks (Boss Prompts)
-
-**Boss Prompts** are high-level role-based directives located in `boss-prompts/`. They orchestrate multiple skills together to guide agents through complex workflows. Recommended Boss Prompts include:
-
-- **`creative-director.md`**: Directs the agent to adopt a high-end designer perspective. It triggers visual animation skills (`buttery-smooth-120fps-performance`, `gsap-scrolltrigger-effects`, `custom-cursor-effects`) to construct high-fidelity interactive showcases.
-- **`web-scraper-and-tester.md`**: Directs the agent to act as a QA automation engineer, combining browser skills (`puppeteer-skill`, `playwright-skill`, `cypress-skill`) to scrap dynamic content or perform visual regression tests.
-- **`llm-eval-judge.md`**: Guides the agent to construct assessment pipelines, evaluating model outputs against specialized rubrics while avoiding bias.
-- **`performance-auditor.md`**: Leads the agent to run speed audits, profile SQL query performance, and trace memory leaks.
-
----
-
-## 7. ANI Coding & Safety Standards
-
-When modifying any core files inside the installer, skills, or rules configurations, agents must comply with these safety and architectural constraints:
-
-1.  **CommonJS Requirements**: Use CommonJS (`const fs = require('fs')`) for all Node scripts. Never use ES Modules (`import/export`) unless explicitly authorized in package files.
-2.  **No Core External Dependencies**: Keep scripts dependent only on standard Node.js APIs to ensure fast `npx` load times.
-3.  **Command Safety**: Avoid string concatenations in terminal execution to prevent command injection. Use array arguments with `execFileSync` instead of `execSync` where possible.
-4.  **Relative Link Integrity**: Maintain relative URLs (`../skills/`) in all public-facing files to prevent leaking local paths or breaking links on external user setups.
-
----
-
-## 8. Troubleshooting & Registry Diagnostics
-
-### Resolving E404 / E401 NPM Publish Errors
-If you run `npm publish` and encounter:
-```text
-npm error code E404
-npm error 404 Not Found - PUT https://registry.npmjs.org/ani-skills - Not found
 ```
-This is the NPM registry's security response when a user is **not logged in** or **lacks write permissions** for a package name. Follow these steps to resolve:
+ai:                 974 skills  ── OpenAI, Gemini, Hugging Face, NVIDIA NIM, Fal.ai, Venice
+marketing:          629 skills  ── SEO, AEO, Ads, Copywriting, Social Media, Influencer Growth
+ui:                 256 skills  ── GSAP, Three.js, WebGPU, Shaders, Pretext, Landings
+plan:               202 skills  ── Product Management, PRDs, GStack specs, roadmaps, agile
+db:                 113 skills  ── DuckDB, Neon Postgres, ClickHouse, Redis, MongoDB, Qdrant
+monitoring:         112 skills  ── Datadog APM, Sentry for AI, OpenTelemetry, RCA traces
+cloud:              107 skills  ── Azure, AWS, Cloudflare, Netlify, Terraform, n8n, Resend
+mobile:              83 skills  ── iOS SwiftUI, Flutter, Expo, React Native, ASO
+auth:                77 skills  ── Auth0, OAuth, JWT, 2FA, session security
+doc:                 75 skills  ── Publication PDF engine, Mermaid diagrams, Unslop, Humanizer
+security:            67 skills  ── Trail of Bits, VibeSec, CSO security audits, hardening
+quality:             52 skills  ── Canary releases, Careful guardrails, Freeze, Health review
+test:                50 skills  ── Jest, Playwright, Cypress, Vitest, Cucumber BDD, Robot
+api:                 50 skills  ── GraphQL Apollo, REST design, MCP server architectures
+scraping:            46 skills  ── Browserbase daemon, Puppeteer, X-Twitter scraping
+boss:                36 skills  ── Executive orchestrator personas (CEO, CSO, VP Eng, etc.)
+media:               20 skills  ── Content creation, video production, audio pipelines
+dsa:                 20 skills  ── Algorithmic DSA problem solving patterns
+agent:               19 skills  ── Multi-agent orchestration and subagent swarms
+git:                  8 skills  ── Branching hygiene, PR reviews, atomic commits
+debug:                7 skills  ── Scientific debugging and state recovery
+start:                6 skills  ── Project initialization and onboarding
+meta:                 6 skills  ── Meta-skills and configuration governors
+stripe:               4 skills  ── Stripe payments, billing, API migrations
+react:                3 skills  ── React core best practices
+obsidian:             3 skills  ── Obsidian markdown, bases, canvas
+angular:              1 skill   ── Modern standalone Angular architecture
+perf:                 1 skill   ── Core Web Vitals and runtime optimization
+next:                 1 skill   ── Next.js App Router and server actions
+```
 
-1.  **Verify NPM Login Status**:
-    Run `npm whoami` in your terminal. If it returns an error or is empty, you need to authenticate.
-2.  **Authenticate**:
-    Run `npm login` in your terminal. Complete the browser-based login and 2FA prompts.
-3.  **Check Name Availability**:
-    If you are logged in and still get a 404, check if the package name is taken by searching for it on npmjs.com. If it is already registered by another account, you must select a unique package name in `package.json`.
-4.  **Publish**:
-    Once logged in and verified, publish the package:
-    ```bash
-    npm publish
-    ```
+---
 
-### Diagnostics Checks
-You can run automated diagnostics to verify the health of the skills library at any time:
-- Run YAML verification: `npm run lint:skills`
-- Compile / refresh search index: `npm run build:index`
+## 👑 Executive Boss Personas (`boss:*`)
+
+`ani-skills` includes **36 Executive Orchestrator Personas** designed to lead multi-skill workflows and challenge architectural decisions:
+
+* `/boss-gstack-ceo-review` — **Garry Tan / Founder Mode Review:** 10x value proposition, ruthless scope pruning, founder conviction.
+* `/boss-gstack-office-hours` — **YC Partner Office Hours:** Growth bottlenecks, real user feedback signal, 48-hour action sprints.
+* `/boss-gstack-autoplan` — **4-Way Executive Board Review:** Simultaneous CEO + Design + Eng + DevEx audit.
+* `/boss-gstack-cso` — **Chief Security Officer:** Threat modeling, zero-trust review, data leaks, token security, OWASP top 10.
+* `/boss-gstack-eng-review` — **VP of Engineering / Principal Architect:** Concurrency, failure modes, data integrity, error boundaries.
+* `/boss-gstack-design-review` — **Principal Design Director:** Visual rhythm, typography, contrast, micro-interactions, layout polish.
+* `/boss-gstack-devex-review` — **Lead DevEx Architect:** API ergonomics, DX Hall of Fame comparison, setup velocity.
+* `/boss-gstack-investigate` — **Staff Debugger:** Hypothesis-driven root cause diagnosis, zero-assumption isolation testing.
+* `/boss-gstack-qa` — **Senior QA Automation Lead:** Live app dogfooding, user journey testing, edge-case bug fixing.
+* `/boss-gstack-ship` — **Release Captain:** Base branch sync, green test suite verification, changelog drafting, pre-landing checks.
+* `/boss-gstack-land-and-deploy` — **Deployment Commander:** Canary rollout, zero-downtime switch, telemetry monitoring, instant rollback.
+* `/boss-gstack-guard` — **Safety Warden:** Destructive command interception, file tree containment, session freezing.
+* `/boss-gstack-pair-agent` — **Remote Browser Pairing Copilot:** Live UI control, console log streaming, visual walk-throughs.
+
+---
+
+## 🛠️ Supported AI Coding Assistants & Paths
+
+| AI Assistant | Project-Local Skills Path | Global Skills Path |
+|---|---|---|
+| **Antigravity IDE** | `.agents/skills/` | `~/.gemini/config/skills/` |
+| **Claude Code** | `.claude/skills/` | `~/.claude/skills/` |
+| **Cursor** | `.cursor/skills/` | `~/.cursor/skills/` |
+| **Windsurf (Cascade)** | `.windsurf/skills/` | `~/.codeium/windsurf/skills/` |
+| **GitHub Copilot** | `.github/skills/` | `~/.copilot/skills/` |
+| **Codex (OpenAI)** | `.agents/skills/` | `~/.agents/skills/` |
+| **Gemini CLI** | `.gemini/skills/` | `~/.gemini/skills/` |
+| **OpenCode** | `.opencode/skills/` | `~/.config/opencode/skills/` |
+
+---
+
+## 📖 How to Use Skills in Your Code Editor
+
+All 3,028 skills are registered as slash commands:
+
+```bash
+# Frontend & Animations
+/ui-gsap-scrolltrigger         # GSAP ScrollTrigger pinning and scrubbing
+/ui-threejs-shaders            # GLSL fragment & vertex shaders in Three.js
+/ui-webgpu-threejs-tsl         # WebGPU Node Material shaders
+
+# Marketing & Growth
+/marketing-seo-audit           # Comprehensive Technical SEO & AEO audit
+/marketing-linkedin-hooks      # Viral LinkedIn hook generator
+/marketing-generating-ugc      # AI actor UGC video generator
+
+# Databases & Backend
+/db-neon-postgres              # Neon Postgres serverless branching & pooling
+/db-clickhouse-best-practices  # ClickHouse analytical query optimization
+/db-duckdb-analytics           # Embedded in-process analytical SQL
+
+# Cloud & Security
+/cloud-terraform-stacks        # Modern Terraform infrastructure as code
+/security-vibesec              # Real-time secure code writing verification
+/security-trailofbits-audit    # Comprehensive static analysis security audit
+
+# Executive Boss Reviews
+/boss-gstack-ceo-review        # Garry Tan Founder-Mode plan review
+/boss-gstack-cso               # Chief Security Officer zero-trust audit
+/boss-gstack-investigate       # Staff Debugger scientific bug diagnosis
+```
+
+---
+
+## 🛡️ License & Contributing
+
+Licensed under the **MIT License**. Contributions, skill submissions, and platform integrations are welcome!
+
+Built with ⚡ by [Zain Ali Mughal](https://www.linkedin.com/in/zainali-mughal/).
