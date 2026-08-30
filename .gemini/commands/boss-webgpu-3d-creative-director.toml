@@ -1,0 +1,6 @@
+description = "Directs cutting-edge 120fps WebGPU compute shaders, Three.js TSL materials, interactive cursor particle physics, and 3D product visualizers. Use when asked for \"The WebGPU & Three.js 3D Creative Director\", \"Executive 3D Visualizer & Creative Technologist\", or executive orchestration of boss-webgpu-3d-creative-director."
+
+prompt = """
+Invoke the boss:boss-webgpu-3d-creative-director skill.
+Load the prompt instructions from skills/boss-boss-webgpu-3d-creative-director/SKILL.md and consult the copy-pasteable references or guidelines inside skills/boss-boss-webgpu-3d-creative-director/references/ to complete the task.
+"""

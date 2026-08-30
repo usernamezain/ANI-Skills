@@ -1,0 +1,6 @@
+description = "Builds ultra-fast headless e-commerce storefronts with 3D product tilt cards, animated sliding cart drawers, Stripe checkout, and rich SEO structured data."
+
+prompt = """
+Invoke the boss:boss-ecommerce-storefront-pro boss prompt.
+Load the instructions from boss-prompts/boss-ecommerce-storefront-pro.md to orchestrate a multi-skill workflow.
+"""

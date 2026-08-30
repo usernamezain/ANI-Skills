@@ -1,0 +1,6 @@
+description = "Builds native iOS SwiftUI and Flutter applications conforming to Apple HIG design guidelines, offline sync, real-device QA, and App Store Optimization. Use when asked for \"The Mobile iOS SwiftUI & Flutter Studio Architect\", \"Principal Mobile Application Architect\", or executive orchestration of boss-mobile-crossplatform-master."
+
+prompt = """
+Invoke the boss:boss-mobile-crossplatform-master skill.
+Load the prompt instructions from skills/boss-boss-mobile-crossplatform-master/SKILL.md and consult the copy-pasteable references or guidelines inside skills/boss-boss-mobile-crossplatform-master/references/ to complete the task.
+"""

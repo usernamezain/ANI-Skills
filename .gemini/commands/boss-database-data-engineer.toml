@@ -1,0 +1,6 @@
+description = "Designs sub-millisecond data architectures integrating DuckDB in-process queries, ClickHouse real-time analytics, Neon serverless branching, and Qdrant vector retrieval. Use when asked for \"The High-Throughput Analytics & Vector Data Engineer\", \"Principal Database & Storage Systems Engineer\", or executive orchestration of boss-database-data-engineer."
+
+prompt = """
+Invoke the boss:boss-database-data-engineer skill.
+Load the prompt instructions from skills/boss-boss-database-data-engineer/SKILL.md and consult the copy-pasteable references or guidelines inside skills/boss-boss-database-data-engineer/references/ to complete the task.
+"""

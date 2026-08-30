@@ -1,0 +1,6 @@
+description = "Orchestrates full-funnel growth campaigns: Answer Engine Optimization (GEO/AEO), high-converting ad copy, automated LinkedIn hooks, and viral loops."
+
+prompt = """
+Invoke the boss:boss-growth-marketing-cmo boss prompt.
+Load the instructions from boss-prompts/boss-growth-marketing-cmo.md to orchestrate a multi-skill workflow.
+"""

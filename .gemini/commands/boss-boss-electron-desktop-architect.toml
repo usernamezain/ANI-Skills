@@ -1,0 +1,6 @@
+description = "Engineers high-performance Electron desktop apps featuring secure contextBridge IPC, frameless windows, system tray integration, local DuckDB, and monochromatic GSAP UI."
+
+prompt = """
+Invoke the boss:boss-electron-desktop-architect boss prompt.
+Load the instructions from boss-prompts/boss-electron-desktop-architect.md to orchestrate a multi-skill workflow.
+"""

@@ -1,0 +1,6 @@
+description = "Builds anti-detect web scrapers, Browserbase cloud browser automation, DOM hydration pipelines, and structured extraction queues."
+
+prompt = """
+Invoke the boss:boss-browser-automation-scraper boss prompt.
+Load the instructions from boss-prompts/boss-browser-automation-scraper.md to orchestrate a multi-skill workflow.
+"""

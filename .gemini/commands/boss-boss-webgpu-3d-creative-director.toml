@@ -1,0 +1,6 @@
+description = "Directs cutting-edge 120fps WebGPU compute shaders, Three.js TSL materials, interactive cursor particle physics, and 3D product visualizers."
+
+prompt = """
+Invoke the boss:boss-webgpu-3d-creative-director boss prompt.
+Load the instructions from boss-prompts/boss-webgpu-3d-creative-director.md to orchestrate a multi-skill workflow.
+"""

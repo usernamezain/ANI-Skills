@@ -1,0 +1,6 @@
+description = "Engineers resilient subscription billing lifecycles, metered usage calculations, webhook idempotency, Stripe Customer Portal, and dunning workflows. Use when asked for \"The Fintech & Stripe Metered Billing Architect\", \"Principal Billing & Fintech Systems Architect\", or executive orchestration of boss-fintech-stripe-billing."
+
+prompt = """
+Invoke the boss:boss-fintech-stripe-billing skill.
+Load the prompt instructions from skills/boss-boss-fintech-stripe-billing/SKILL.md and consult the copy-pasteable references or guidelines inside skills/boss-boss-fintech-stripe-billing/references/ to complete the task.
+"""

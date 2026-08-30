@@ -1,0 +1,6 @@
+description = "Instruments distributed tracing, AI token anomaly alerting, session replay crash forensics, and automated incident root cause analysis. Use when asked for \"The Sentry & Datadog APM Reliability Engineer\", \"Principal Site Reliability & APM Telemetry Engineer\", or executive orchestration of boss-observability-sre."
+
+prompt = """
+Invoke the boss:boss-observability-sre skill.
+Load the prompt instructions from skills/boss-boss-observability-sre/SKILL.md and consult the copy-pasteable references or guidelines inside skills/boss-boss-observability-sre/references/ to complete the task.
+"""

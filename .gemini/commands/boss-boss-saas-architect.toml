@@ -1,0 +1,6 @@
+description = "Architects complete multi-tenant SaaS platforms with authentication, Stripe subscriptions, Neon serverless Postgres, and GSAP animated dashboards."
+
+prompt = """
+Invoke the boss:boss-saas-architect boss prompt.
+Load the instructions from boss-prompts/boss-saas-architect.md to orchestrate a multi-skill workflow.
+"""

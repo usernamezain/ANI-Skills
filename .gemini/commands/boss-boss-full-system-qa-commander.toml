@@ -1,0 +1,6 @@
+description = "Commands multi-browser E2E test suites, visual regression diffing, Screenplay BDD scenarios, parallel CI test matrix, and zero-flakiness gates."
+
+prompt = """
+Invoke the boss:boss-full-system-qa-commander boss prompt.
+Load the instructions from boss-prompts/boss-full-system-qa-commander.md to orchestrate a multi-skill workflow.
+"""

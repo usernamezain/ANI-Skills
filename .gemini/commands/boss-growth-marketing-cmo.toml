@@ -1,0 +1,6 @@
+description = "Orchestrates full-funnel growth campaigns: Answer Engine Optimization (GEO/AEO), high-converting ad copy, automated LinkedIn hooks, and viral loops. Use when asked for \"The Automated Growth Engine & CMO Orchestrator\", \"Chief Marketing Officer & Growth Engineer\", or executive orchestration of boss-growth-marketing-cmo."
+
+prompt = """
+Invoke the boss:boss-growth-marketing-cmo skill.
+Load the prompt instructions from skills/boss-boss-growth-marketing-cmo/SKILL.md and consult the copy-pasteable references or guidelines inside skills/boss-boss-growth-marketing-cmo/references/ to complete the task.
+"""

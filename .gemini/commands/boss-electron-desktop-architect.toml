@@ -1,0 +1,6 @@
+description = "Engineers high-performance Electron desktop apps featuring secure contextBridge IPC, frameless windows, system tray integration, local DuckDB, and monochromatic GSAP UI. Use when asked for \"The Electron Desktop Application Architect\", \"Native Cross-Platform Desktop App Architect\", or executive orchestration of boss-electron-desktop-architect."
+
+prompt = """
+Invoke the boss:boss-electron-desktop-architect skill.
+Load the prompt instructions from skills/boss-boss-electron-desktop-architect/SKILL.md and consult the copy-pasteable references or guidelines inside skills/boss-boss-electron-desktop-architect/references/ to complete the task.
+"""

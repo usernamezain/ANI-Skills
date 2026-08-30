@@ -35,7 +35,10 @@ def slug_from_name(name: str) -> str:
     e.g.  ui:gsap-scrolltrigger  →  ui-gsap-scrolltrigger
           start:new-project       →  start-new-project
     """
-    return name.replace(":", "-").replace("/", "-").replace(" ", "-").lower()
+    slug = name.replace(":", "-").replace("/", "-").replace(" ", "-").lower()
+    if slug.startswith("boss-boss-"):
+        slug = slug.replace("boss-boss-", "boss-")
+    return slug
 
 
 TOML_TEMPLATE = '''\

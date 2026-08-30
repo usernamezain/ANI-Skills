@@ -1,0 +1,6 @@
+description = "Builds high-performance Next.js App Router websites integrated with Sanity headless CMS, Portable Text serialization, and on-demand ISR revalidation."
+
+prompt = """
+Invoke the boss:boss-headless-cms-content-architect boss prompt.
+Load the instructions from boss-prompts/boss-headless-cms-content-architect.md to orchestrate a multi-skill workflow.
+"""

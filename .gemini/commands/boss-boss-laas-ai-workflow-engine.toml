@@ -1,0 +1,6 @@
+description = "Builds multi-tenant LLM-as-a-Service and Workflow automation engines with token metering, streaming endpoints, Qdrant vector retrieval, and fallback routing."
+
+prompt = """
+Invoke the boss:boss-laas-ai-workflow-engine boss prompt.
+Load the instructions from boss-prompts/boss-laas-ai-workflow-engine.md to orchestrate a multi-skill workflow.
+"""

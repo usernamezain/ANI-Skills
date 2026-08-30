@@ -1,0 +1,6 @@
+description = "Instruments distributed tracing, AI token anomaly alerting, session replay crash forensics, and automated incident root cause analysis."
+
+prompt = """
+Invoke the boss:boss-observability-sre boss prompt.
+Load the instructions from boss-prompts/boss-observability-sre.md to orchestrate a multi-skill workflow.
+"""

@@ -1,0 +1,6 @@
+description = "Builds multi-tenant LLM-as-a-Service and Workflow automation engines with token metering, streaming endpoints, Qdrant vector retrieval, and fallback routing. Use when asked for \"The LaaS & LLM Workflow Engine Architect\", \"Logic / LLM / Learning as a Service Platform Architect\", or executive orchestration of boss-laas-ai-workflow-engine."
+
+prompt = """
+Invoke the boss:boss-laas-ai-workflow-engine skill.
+Load the prompt instructions from skills/boss-boss-laas-ai-workflow-engine/SKILL.md and consult the copy-pasteable references or guidelines inside skills/boss-boss-laas-ai-workflow-engine/references/ to complete the task.
+"""

@@ -1,0 +1,6 @@
+description = "Deploys certified HashiCorp Terraform modules, Cloudflare edge workers, AWS/Azure serverless infra, and automated canary release pipelines. Use when asked for \"The Multi-Cloud & Certified Terraform Commander\", \"Lead Cloud Infrastructure & DevOps Commander\", or executive orchestration of boss-devops-cloud-commander."
+
+prompt = """
+Invoke the boss:boss-devops-cloud-commander skill.
+Load the prompt instructions from skills/boss-boss-devops-cloud-commander/SKILL.md and consult the copy-pasteable references or guidelines inside skills/boss-boss-devops-cloud-commander/references/ to complete the task.
+"""

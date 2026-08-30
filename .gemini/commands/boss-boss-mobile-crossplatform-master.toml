@@ -1,0 +1,6 @@
+description = "Builds native iOS SwiftUI and Flutter applications conforming to Apple HIG design guidelines, offline sync, real-device QA, and App Store Optimization."
+
+prompt = """
+Invoke the boss:boss-mobile-crossplatform-master boss prompt.
+Load the instructions from boss-prompts/boss-mobile-crossplatform-master.md to orchestrate a multi-skill workflow.
+"""

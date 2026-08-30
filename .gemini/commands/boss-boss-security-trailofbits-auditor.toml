@@ -1,0 +1,6 @@
+description = "Conducts zero-trust security audits, AST static vulnerability scanning, cryptographic protocol validation, and OWASP Top 10 hardening."
+
+prompt = """
+Invoke the boss:boss-security-trailofbits-auditor boss prompt.
+Load the instructions from boss-prompts/boss-security-trailofbits-auditor.md to orchestrate a multi-skill workflow.
+"""

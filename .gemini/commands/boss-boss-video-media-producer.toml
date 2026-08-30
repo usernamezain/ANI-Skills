@@ -1,0 +1,6 @@
+description = "Generates programmatic video and motion graphics with Remotion (React), audio waveform synthesis, dynamic canvas captions, and social video pipelines."
+
+prompt = """
+Invoke the boss:boss-video-media-producer boss prompt.
+Load the instructions from boss-prompts/boss-video-media-producer.md to orchestrate a multi-skill workflow.
+"""

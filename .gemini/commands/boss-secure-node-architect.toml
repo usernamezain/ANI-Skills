@@ -1,0 +1,6 @@
+description = "Audits and hardens Node.js architectures against prototype pollution, timing attacks, ReDoS, memory leaks, and insecure crypto with zero external vulnerability footprint. Use when asked for \"The Zero-Vulnerability Node.js Hardening Master\", \"Principal Node.js Security Architect\", or executive orchestration of boss-secure-node-architect."
+
+prompt = """
+Invoke the boss:boss-secure-node-architect skill.
+Load the prompt instructions from skills/boss-boss-secure-node-architect/SKILL.md and consult the copy-pasteable references or guidelines inside skills/boss-boss-secure-node-architect/references/ to complete the task.
+"""

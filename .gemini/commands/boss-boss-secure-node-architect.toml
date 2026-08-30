@@ -1,0 +1,6 @@
+description = "Audits and hardens Node.js architectures against prototype pollution, timing attacks, ReDoS, memory leaks, and insecure crypto with zero external vulnerability footprint."
+
+prompt = """
+Invoke the boss:boss-secure-node-architect boss prompt.
+Load the instructions from boss-prompts/boss-secure-node-architect.md to orchestrate a multi-skill workflow.
+"""

@@ -1,0 +1,6 @@
+description = "Generates programmatic video and motion graphics with Remotion (React), audio waveform synthesis, dynamic canvas captions, and social video pipelines. Use when asked for \"The Programmatic Video & Motion Media Producer\", \"Executive Video & Media Engine Producer\", or executive orchestration of boss-video-media-producer."
+
+prompt = """
+Invoke the boss:boss-video-media-producer skill.
+Load the prompt instructions from skills/boss-boss-video-media-producer/SKILL.md and consult the copy-pasteable references or guidelines inside skills/boss-boss-video-media-producer/references/ to complete the task.
+"""

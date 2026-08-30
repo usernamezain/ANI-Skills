@@ -1,0 +1,6 @@
+description = "Designs stateful multi-agent orchestration systems, custom MCP tool servers, durable step execution, and real-time observability pipelines."
+
+prompt = """
+Invoke the boss:boss-ai-agent-platform-creator boss prompt.
+Load the instructions from boss-prompts/boss-ai-agent-platform-creator.md to orchestrate a multi-skill workflow.
+"""

@@ -3420,6 +3420,126 @@
     "description": "Configure Better Auth server and client, set up database adapters, manage sessions, add plugins, and handle environment variables. Use when users mention Better Auth, betterauth, auth.ts, or need to set up TypeScript authentication with email/password, OAuth, or plugin configuration."
   },
   {
+    "id": "boss-boss-ai-agent-platform-creator",
+    "path": "skills/boss-boss-ai-agent-platform-creator",
+    "name": "boss:boss-ai-agent-platform-creator",
+    "description": "Designs stateful multi-agent orchestration systems, custom MCP tool servers, durable step execution, and real-time observability pipelines. Use when asked for \"The Autonomous AI Agent & MCP Hub Architect\", \"Autonomous Multi-Agent Platform Director\", or executive orchestration of boss-ai-agent-platform-creator."
+  },
+  {
+    "id": "boss-boss-browser-automation-scraper",
+    "path": "skills/boss-boss-browser-automation-scraper",
+    "name": "boss:boss-browser-automation-scraper",
+    "description": "Builds anti-detect web scrapers, Browserbase cloud browser automation, DOM hydration pipelines, and structured extraction queues. Use when asked for \"The Stealth Web Scraping & Playwright Commander\", \"Lead Automation & Web Intelligence Engineer\", or executive orchestration of boss-browser-automation-scraper."
+  },
+  {
+    "id": "boss-boss-chrome-extension-pro",
+    "path": "skills/boss-boss-chrome-extension-pro",
+    "name": "boss:boss-chrome-extension-pro",
+    "description": "Builds production-grade Manifest V3 Chrome extensions with background service workers, sidepanels, declarativeNetRequest, and GSAP popup animations. Use when asked for \"The Chrome Extension Master Studio\", \"Manifest V3 Chrome Extension Architect\", or executive orchestration of boss-chrome-extension-pro."
+  },
+  {
+    "id": "boss-boss-database-data-engineer",
+    "path": "skills/boss-boss-database-data-engineer",
+    "name": "boss:boss-database-data-engineer",
+    "description": "Designs sub-millisecond data architectures integrating DuckDB in-process queries, ClickHouse real-time analytics, Neon serverless branching, and Qdrant vector retrieval. Use when asked for \"The High-Throughput Analytics & Vector Data Engineer\", \"Principal Database & Storage Systems Engineer\", or executive orchestration of boss-database-data-engineer."
+  },
+  {
+    "id": "boss-boss-devops-cloud-commander",
+    "path": "skills/boss-boss-devops-cloud-commander",
+    "name": "boss:boss-devops-cloud-commander",
+    "description": "Deploys certified HashiCorp Terraform modules, Cloudflare edge workers, AWS/Azure serverless infra, and automated canary release pipelines. Use when asked for \"The Multi-Cloud & Certified Terraform Commander\", \"Lead Cloud Infrastructure & DevOps Commander\", or executive orchestration of boss-devops-cloud-commander."
+  },
+  {
+    "id": "boss-boss-ecommerce-storefront-pro",
+    "path": "skills/boss-boss-ecommerce-storefront-pro",
+    "name": "boss:boss-ecommerce-storefront-pro",
+    "description": "Builds ultra-fast headless e-commerce storefronts with 3D product tilt cards, animated sliding cart drawers, Stripe checkout, and rich SEO structured data. Use when asked for \"The High-Conversion E-Commerce & Storefront Architect\", \"Headless E-Commerce & Storefront Lead\", or executive orchestration of boss-ecommerce-storefront-pro."
+  },
+  {
+    "id": "boss-boss-electron-desktop-architect",
+    "path": "skills/boss-boss-electron-desktop-architect",
+    "name": "boss:boss-electron-desktop-architect",
+    "description": "Engineers high-performance Electron desktop apps featuring secure contextBridge IPC, frameless windows, system tray integration, local DuckDB, and monochromatic GSAP UI. Use when asked for \"The Electron Desktop Application Architect\", \"Native Cross-Platform Desktop App Architect\", or executive orchestration of boss-electron-desktop-architect."
+  },
+  {
+    "id": "boss-boss-enterprise-auth-identity",
+    "path": "skills/boss-boss-enterprise-auth-identity",
+    "name": "boss:boss-enterprise-auth-identity",
+    "description": "Designs enterprise authentication architectures with Auth0 Actions, OAuth2/OIDC PKCE, WebAuthn Passkeys, and multi-tenant RBAC isolation. Use when asked for \"The Zero-Trust Auth & Multi-Tenant Identity Architect\", \"Principal Identity & Access Management Architect\", or executive orchestration of boss-enterprise-auth-identity."
+  },
+  {
+    "id": "boss-boss-fintech-stripe-billing",
+    "path": "skills/boss-boss-fintech-stripe-billing",
+    "name": "boss:boss-fintech-stripe-billing",
+    "description": "Engineers resilient subscription billing lifecycles, metered usage calculations, webhook idempotency, Stripe Customer Portal, and dunning workflows. Use when asked for \"The Fintech & Stripe Metered Billing Architect\", \"Principal Billing & Fintech Systems Architect\", or executive orchestration of boss-fintech-stripe-billing."
+  },
+  {
+    "id": "boss-boss-full-system-qa-commander",
+    "path": "skills/boss-boss-full-system-qa-commander",
+    "name": "boss:boss-full-system-qa-commander",
+    "description": "Commands multi-browser E2E test suites, visual regression diffing, Screenplay BDD scenarios, parallel CI test matrix, and zero-flakiness gates. Use when asked for \"The Full-System QA Automation Commander\", \"Chief Quality Assurance & Automation Commander\", or executive orchestration of boss-full-system-qa-commander."
+  },
+  {
+    "id": "boss-boss-growth-marketing-cmo",
+    "path": "skills/boss-boss-growth-marketing-cmo",
+    "name": "boss:boss-growth-marketing-cmo",
+    "description": "Orchestrates full-funnel growth campaigns: Answer Engine Optimization (GEO/AEO), high-converting ad copy, automated LinkedIn hooks, and viral loops. Use when asked for \"The Automated Growth Engine & CMO Orchestrator\", \"Chief Marketing Officer & Growth Engineer\", or executive orchestration of boss-growth-marketing-cmo."
+  },
+  {
+    "id": "boss-boss-headless-cms-content-architect",
+    "path": "skills/boss-boss-headless-cms-content-architect",
+    "name": "boss:boss-headless-cms-content-architect",
+    "description": "Builds high-performance Next.js App Router websites integrated with Sanity headless CMS, Portable Text serialization, and on-demand ISR revalidation. Use when asked for \"The Next.js Headless CMS & Static Site Studio\", \"Lead Headless CMS & Content Systems Architect\", or executive orchestration of boss-headless-cms-content-architect."
+  },
+  {
+    "id": "boss-boss-laas-ai-workflow-engine",
+    "path": "skills/boss-boss-laas-ai-workflow-engine",
+    "name": "boss:boss-laas-ai-workflow-engine",
+    "description": "Builds multi-tenant LLM-as-a-Service and Workflow automation engines with token metering, streaming endpoints, Qdrant vector retrieval, and fallback routing. Use when asked for \"The LaaS & LLM Workflow Engine Architect\", \"Logic / LLM / Learning as a Service Platform Architect\", or executive orchestration of boss-laas-ai-workflow-engine."
+  },
+  {
+    "id": "boss-boss-mobile-crossplatform-master",
+    "path": "skills/boss-boss-mobile-crossplatform-master",
+    "name": "boss:boss-mobile-crossplatform-master",
+    "description": "Builds native iOS SwiftUI and Flutter applications conforming to Apple HIG design guidelines, offline sync, real-device QA, and App Store Optimization. Use when asked for \"The Mobile iOS SwiftUI & Flutter Studio Architect\", \"Principal Mobile Application Architect\", or executive orchestration of boss-mobile-crossplatform-master."
+  },
+  {
+    "id": "boss-boss-observability-sre",
+    "path": "skills/boss-boss-observability-sre",
+    "name": "boss:boss-observability-sre",
+    "description": "Instruments distributed tracing, AI token anomaly alerting, session replay crash forensics, and automated incident root cause analysis. Use when asked for \"The Sentry & Datadog APM Reliability Engineer\", \"Principal Site Reliability & APM Telemetry Engineer\", or executive orchestration of boss-observability-sre."
+  },
+  {
+    "id": "boss-boss-saas-architect",
+    "path": "skills/boss-boss-saas-architect",
+    "name": "boss:boss-saas-architect",
+    "description": "Architects complete multi-tenant SaaS platforms with authentication, Stripe subscriptions, Neon serverless Postgres, and GSAP animated dashboards. Use when asked for \"The SaaS Master Architect (Open SaaS)\", \"Full-Stack SaaS & Subscription Platform Architect\", or executive orchestration of boss-saas-architect."
+  },
+  {
+    "id": "boss-boss-secure-node-architect",
+    "path": "skills/boss-boss-secure-node-architect",
+    "name": "boss:boss-secure-node-architect",
+    "description": "Audits and hardens Node.js architectures against prototype pollution, timing attacks, ReDoS, memory leaks, and insecure crypto with zero external vulnerability footprint. Use when asked for \"The Zero-Vulnerability Node.js Hardening Master\", \"Principal Node.js Security Architect\", or executive orchestration of boss-secure-node-architect."
+  },
+  {
+    "id": "boss-boss-security-trailofbits-auditor",
+    "path": "skills/boss-boss-security-trailofbits-auditor",
+    "name": "boss:boss-security-trailofbits-auditor",
+    "description": "Conducts zero-trust security audits, AST static vulnerability scanning, cryptographic protocol validation, and OWASP Top 10 hardening. Use when asked for \"The Trail of Bits Deep Security Auditor\", \"Chief Information Security Officer & Penetration Tester\", or executive orchestration of boss-security-trailofbits-auditor."
+  },
+  {
+    "id": "boss-boss-video-media-producer",
+    "path": "skills/boss-boss-video-media-producer",
+    "name": "boss:boss-video-media-producer",
+    "description": "Generates programmatic video and motion graphics with Remotion (React), audio waveform synthesis, dynamic canvas captions, and social video pipelines. Use when asked for \"The Programmatic Video & Motion Media Producer\", \"Executive Video & Media Engine Producer\", or executive orchestration of boss-video-media-producer."
+  },
+  {
+    "id": "boss-boss-webgpu-3d-creative-director",
+    "path": "skills/boss-boss-webgpu-3d-creative-director",
+    "name": "boss:boss-webgpu-3d-creative-director",
+    "description": "Directs cutting-edge 120fps WebGPU compute shaders, Three.js TSL materials, interactive cursor particle physics, and 3D product visualizers. Use when asked for \"The WebGPU & Three.js 3D Creative Director\", \"Executive 3D Visualizer & Creative Technologist\", or executive orchestration of boss-webgpu-3d-creative-director."
+  },
+  {
     "id": "boss-prompts/agile-release-manager",
     "path": "skills/boss-prompts/agile-release-manager",
     "name": "boss:agile-release-manager",

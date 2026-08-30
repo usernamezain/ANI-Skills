@@ -1,0 +1,6 @@
+description = "Engineers resilient subscription billing lifecycles, metered usage calculations, webhook idempotency, Stripe Customer Portal, and dunning workflows."
+
+prompt = """
+Invoke the boss:boss-fintech-stripe-billing boss prompt.
+Load the instructions from boss-prompts/boss-fintech-stripe-billing.md to orchestrate a multi-skill workflow.
+"""

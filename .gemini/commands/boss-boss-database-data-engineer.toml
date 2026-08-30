@@ -1,0 +1,6 @@
+description = "Designs sub-millisecond data architectures integrating DuckDB in-process queries, ClickHouse real-time analytics, Neon serverless branching, and Qdrant vector retrieval."
+
+prompt = """
+Invoke the boss:boss-database-data-engineer boss prompt.
+Load the instructions from boss-prompts/boss-database-data-engineer.md to orchestrate a multi-skill workflow.
+"""

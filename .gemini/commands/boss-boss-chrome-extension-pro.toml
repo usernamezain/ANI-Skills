@@ -1,0 +1,6 @@
+description = "Builds production-grade Manifest V3 Chrome extensions with background service workers, sidepanels, declarativeNetRequest, and GSAP popup animations."
+
+prompt = """
+Invoke the boss:boss-chrome-extension-pro boss prompt.
+Load the instructions from boss-prompts/boss-chrome-extension-pro.md to orchestrate a multi-skill workflow.
+"""

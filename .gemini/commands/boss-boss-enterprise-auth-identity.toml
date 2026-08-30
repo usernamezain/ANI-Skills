@@ -1,0 +1,6 @@
+description = "Designs enterprise authentication architectures with Auth0 Actions, OAuth2/OIDC PKCE, WebAuthn Passkeys, and multi-tenant RBAC isolation."
+
+prompt = """
+Invoke the boss:boss-enterprise-auth-identity boss prompt.
+Load the instructions from boss-prompts/boss-enterprise-auth-identity.md to orchestrate a multi-skill workflow.
+"""

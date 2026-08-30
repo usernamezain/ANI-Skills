@@ -1,0 +1,6 @@
+description = "Designs stateful multi-agent orchestration systems, custom MCP tool servers, durable step execution, and real-time observability pipelines. Use when asked for \"The Autonomous AI Agent & MCP Hub Architect\", \"Autonomous Multi-Agent Platform Director\", or executive orchestration of boss-ai-agent-platform-creator."
+
+prompt = """
+Invoke the boss:boss-ai-agent-platform-creator skill.
+Load the prompt instructions from skills/boss-boss-ai-agent-platform-creator/SKILL.md and consult the copy-pasteable references or guidelines inside skills/boss-boss-ai-agent-platform-creator/references/ to complete the task.
+"""

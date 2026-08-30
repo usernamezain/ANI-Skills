@@ -1,0 +1,6 @@
+description = "Builds production-grade Manifest V3 Chrome extensions with background service workers, sidepanels, declarativeNetRequest, and GSAP popup animations. Use when asked for \"The Chrome Extension Master Studio\", \"Manifest V3 Chrome Extension Architect\", or executive orchestration of boss-chrome-extension-pro."
+
+prompt = """
+Invoke the boss:boss-chrome-extension-pro skill.
+Load the prompt instructions from skills/boss-boss-chrome-extension-pro/SKILL.md and consult the copy-pasteable references or guidelines inside skills/boss-boss-chrome-extension-pro/references/ to complete the task.
+"""

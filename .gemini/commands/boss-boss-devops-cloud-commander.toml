@@ -1,0 +1,6 @@
+description = "Deploys certified HashiCorp Terraform modules, Cloudflare edge workers, AWS/Azure serverless infra, and automated canary release pipelines."
+
+prompt = """
+Invoke the boss:boss-devops-cloud-commander boss prompt.
+Load the instructions from boss-prompts/boss-devops-cloud-commander.md to orchestrate a multi-skill workflow.
+"""
