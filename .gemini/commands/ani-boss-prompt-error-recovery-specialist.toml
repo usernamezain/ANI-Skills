@@ -1,6 +1,0 @@
-description = "Diagnoses project failures, reviews logs, and applies corrections to restore standard setups."
-
-prompt = """
-Invoke the ani:boss-prompt-error-recovery-specialist skill.
-Load the prompt instructions from skills/boss-prompts/error-recovery-specialist/SKILL.md and consult the copy-pasteable references or guidelines inside skills/boss-prompts/error-recovery-specialist/references/ to complete the task.
-"""

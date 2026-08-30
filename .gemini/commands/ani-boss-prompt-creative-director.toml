@@ -1,6 +1,0 @@
-description = "Orchestrates immersive visual aesthetics, fluid page transitions, and smooth scrolling for high-end landing pages."
-
-prompt = """
-Invoke the ani:boss-prompt-creative-director skill.
-Load the prompt instructions from skills/boss-prompts/creative-director/SKILL.md and consult the copy-pasteable references or guidelines inside skills/boss-prompts/creative-director/references/ to complete the task.
-"""

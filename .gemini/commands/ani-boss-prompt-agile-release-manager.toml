@@ -1,6 +1,0 @@
-description = "Coordinates user acceptance tests, builds release manifests, and updates roadmaps."
-
-prompt = """
-Invoke the ani:boss-prompt-agile-release-manager skill.
-Load the prompt instructions from skills/boss-prompts/agile-release-manager/SKILL.md and consult the copy-pasteable references or guidelines inside skills/boss-prompts/agile-release-manager/references/ to complete the task.
-"""

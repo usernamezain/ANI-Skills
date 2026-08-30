@@ -1,0 +1,6 @@
+description = "Official GSAP skill for timelines — gsap.timeline(), position parameter, nesting, playback. Use when sequencing animations, choreographing keyframes, or when the user asks about animation sequencing, timelines, or animation order (in GSAP or when recommending a library that supports timelines)."
+
+prompt = """
+Invoke the ui:gsap-timeline-official skill.
+Load the prompt instructions from skills/gsap-timeline-official/SKILL.md and consult the copy-pasteable references or guidelines inside skills/gsap-timeline-official/references/ to complete the task.
+"""

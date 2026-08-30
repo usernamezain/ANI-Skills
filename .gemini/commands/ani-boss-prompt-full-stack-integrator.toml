@@ -1,6 +1,0 @@
-description = "Coordinates REST/GraphQL APIs and contracts between frontend UI layers and backend databases."
-
-prompt = """
-Invoke the ani:boss-prompt-full-stack-integrator skill.
-Load the prompt instructions from skills/boss-prompts/full-stack-integrator/SKILL.md and consult the copy-pasteable references or guidelines inside skills/boss-prompts/full-stack-integrator/references/ to complete the task.
-"""

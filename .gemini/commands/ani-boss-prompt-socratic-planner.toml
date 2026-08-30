@@ -1,6 +1,0 @@
-description = "Refines product ideas, analyzes blocker edge cases, and constructs modular roadmap plans."
-
-prompt = """
-Invoke the ani:boss-prompt-socratic-planner skill.
-Load the prompt instructions from skills/boss-prompts/socratic-planner/SKILL.md and consult the copy-pasteable references or guidelines inside skills/boss-prompts/socratic-planner/references/ to complete the task.
-"""

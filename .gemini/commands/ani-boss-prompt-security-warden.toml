@@ -1,6 +1,0 @@
-description = "Reviews codebase inputs, dependencies, authentication parameters, and secret leaks to secure modules."
-
-prompt = """
-Invoke the ani:boss-prompt-security-warden skill.
-Load the prompt instructions from skills/boss-prompts/security-warden/SKILL.md and consult the copy-pasteable references or guidelines inside skills/boss-prompts/security-warden/references/ to complete the task.
-"""

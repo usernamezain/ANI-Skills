@@ -1,6 +1,0 @@
-description = "Reviews codebase assets, transitions, and loops to optimize CLS, LCP, and ensure 120fps smooth renders."
-
-prompt = """
-Invoke the ani:boss-prompt-performance-auditor skill.
-Load the prompt instructions from skills/boss-prompts/performance-auditor/SKILL.md and consult the copy-pasteable references or guidelines inside skills/boss-prompts/performance-auditor/references/ to complete the task.
-"""

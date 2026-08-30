@@ -1,0 +1,6 @@
+description = "Official GSAP skill for GSAP plugins — registration, ScrollToPlugin, ScrollSmoother, Flip, Draggable, Inertia, Observer, SplitText, ScrambleText, SVG and physics plugins, CustomEase, EasePack, CustomWiggle, CustomBounce, GSDevTools. Use when the user asks about a GSAP plugin, scroll-to, flip animations, draggable, SVG drawing, or plugin registration."
+
+prompt = """
+Invoke the ui:gsap-plugins skill.
+Load the prompt instructions from skills/gsap-plugins/SKILL.md and consult the copy-pasteable references or guidelines inside skills/gsap-plugins/references/ to complete the task.
+"""

@@ -1,6 +1,0 @@
-description = "Constructs responsive admin grids, counter metrics, and sliding menus for SaaS applications."
-
-prompt = """
-Invoke the ani:boss-prompt-saas-dashboard-designer skill.
-Load the prompt instructions from skills/boss-prompts/saas-dashboard-designer/SKILL.md and consult the copy-pasteable references or guidelines inside skills/boss-prompts/saas-dashboard-designer/references/ to complete the task.
-"""

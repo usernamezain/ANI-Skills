@@ -1,6 +1,0 @@
-description = "Builds subtle, delightful micro-animations for interactive elements like custom cursors, CTAs, and headers."
-
-prompt = """
-Invoke the ani:boss-prompt-micro-interaction-expert skill.
-Load the prompt instructions from skills/boss-prompts/micro-interaction-expert/SKILL.md and consult the copy-pasteable references or guidelines inside skills/boss-prompts/micro-interaction-expert/references/ to complete the task.
-"""

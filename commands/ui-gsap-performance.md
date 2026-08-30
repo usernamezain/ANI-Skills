@@ -1,0 +1,6 @@
+# ui:gsap-performance
+
+Official GSAP skill for performance — prefer transforms, avoid layout thrashing, will-change, batching. Use when optimizing GSAP animations, reducing jank, or when the user asks about animation performance, FPS, or smooth 60fps.
+
+**Skill folder:** `skills/gsap-performance/`
+**Namespace:** `ui`

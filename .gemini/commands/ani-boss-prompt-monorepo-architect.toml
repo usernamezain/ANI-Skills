@@ -1,6 +1,0 @@
-description = "Structures workspaces, configure changesets, and compiles workspace registries."
-
-prompt = """
-Invoke the ani:boss-prompt-monorepo-architect skill.
-Load the prompt instructions from skills/boss-prompts/monorepo-architect/SKILL.md and consult the copy-pasteable references or guidelines inside skills/boss-prompts/monorepo-architect/references/ to complete the task.
-"""

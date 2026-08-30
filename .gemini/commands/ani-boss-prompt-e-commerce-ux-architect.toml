@@ -1,6 +1,0 @@
-description = "Builds high-performance e-commerce user interfaces with mega-menus, product details, and accordion FAQs."
-
-prompt = """
-Invoke the ani:boss-prompt-e-commerce-ux-architect skill.
-Load the prompt instructions from skills/boss-prompts/e-commerce-ux-architect/SKILL.md and consult the copy-pasteable references or guidelines inside skills/boss-prompts/e-commerce-ux-architect/references/ to complete the task.
-"""

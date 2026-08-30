@@ -1,0 +1,6 @@
+# ui:gsap-plugins
+
+Official GSAP skill for GSAP plugins — registration, ScrollToPlugin, ScrollSmoother, Flip, Draggable, Inertia, Observer, SplitText, ScrambleText, SVG and physics plugins, CustomEase, EasePack, CustomWiggle, CustomBounce, GSDevTools. Use when the user asks about a GSAP plugin, scroll-to, flip animations, draggable, SVG drawing, or plugin registration.
+
+**Skill folder:** `skills/gsap-plugins/`
+**Namespace:** `ui`

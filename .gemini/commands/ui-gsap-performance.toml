@@ -1,0 +1,6 @@
+description = "Official GSAP skill for performance — prefer transforms, avoid layout thrashing, will-change, batching. Use when optimizing GSAP animations, reducing jank, or when the user asks about animation performance, FPS, or smooth 60fps."
+
+prompt = """
+Invoke the ui:gsap-performance skill.
+Load the prompt instructions from skills/gsap-performance/SKILL.md and consult the copy-pasteable references or guidelines inside skills/gsap-performance/references/ to complete the task.
+"""
