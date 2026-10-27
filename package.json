@@ -46,7 +46,6 @@
   },
   "homepage": "https://github.com/usernamezain/ANI-Skills#readme",
   "files": [
-    "skills",
     "commands",
     "boss-prompts",
     "bin",

@@ -49,7 +49,7 @@ This context gives the Antigravity IDE and Gemini CLI the operating reference fo
 | **OpenCode** | `.opencode/skills/` | `~/.config/opencode/skills/` |
 | **Windsurf** | `.windsurf/skills/` | `~/.codeium/windsurf/skills/` |
 
-## Interactive GUI & CLI Installer
+## Interactive GUI & CLI Installer (Smart Zero-Lag Edition)
 
 When typing `ani-skills` or running `npx ani-skills`:
 ```bash
@@ -58,6 +58,19 @@ ani-skills
 npx ani-skills
 ```
 An interactive Web GUI popup launches automatically in the browser with:
-- Target AI Agent selector (Antigravity, Claude Code, Cursor, Windsurf, Copilot, Codex, Gemini CLI, OpenCode)
-- Interactive category checkboxes for selective downloading and linking
-- Instant path configuration and rules file generation.
+- **Smart Workspace Stack Detection:** Identifies active project technologies (React, Next.js, Python, Tailwind, Neon, etc.) and auto-selects only required skills (eliminating prompt lag).
+- **Target AI Agent selector:** (Antigravity IDE, Claude Code, Cursor, Windsurf, Copilot, Codex, Gemini CLI, OpenCode).
+- **1-Click "Install Required Only":** Zero-lag installation that keeps AI prompt bars responsive.
+- **Instant path configuration and lean rules file generation:** Tailors directives to active project requirements.
+
+### Precision CLI Modes:
+```bash
+# Auto-installs only project-required skills (Zero-Lag Default)
+ani-skills --auto
+
+# Preview required skills without writing to disk
+ani-skills --dry-run
+
+# Force complete 3,028 skills suite
+ani-skills --all
+```

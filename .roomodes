@@ -1,0 +1,50 @@
+# ANI-Skills Ultra — Optimized Project Context
+# Detected Stack: Universal Project Baseline
+# Active Required Profile: 7 skills (Zero-Lag Precision Profile)
+
+## Configured Agent Registry Paths
+  VS Code (Claude Ext) project: C:\Users\SHABBIR TRADERS\Desktop\skills\.vscode\skills
+                         global:  C:\Users\SHABBIR TRADERS\.vscode\skills
+  Antigravity IDE      project: C:\Users\SHABBIR TRADERS\Desktop\skills\.agents\skills
+                         global:  C:\Users\SHABBIR TRADERS\.gemini\config\skills
+  Claude Code          project: C:\Users\SHABBIR TRADERS\Desktop\skills\.claude\skills
+                         global:  C:\Users\SHABBIR TRADERS\.claude\skills
+  Cursor               project: C:\Users\SHABBIR TRADERS\Desktop\skills\.cursor\skills
+                         global:  C:\Users\SHABBIR TRADERS\.cursor\skills
+  Windsurf (Cascade)   project: C:\Users\SHABBIR TRADERS\Desktop\skills\.windsurf\skills
+                         global:  C:\Users\SHABBIR TRADERS\.codeium\windsurf\skills
+  GitHub Copilot       project: C:\Users\SHABBIR TRADERS\Desktop\skills\.github\skills
+                         global:  C:\Users\SHABBIR TRADERS\.copilot\skills
+  Cline / Roo Code     project: C:\Users\SHABBIR TRADERS\Desktop\skills\.cline\skills
+                         global:  C:\Users\SHABBIR TRADERS\.cline\skills
+  Aider CLI            project: C:\Users\SHABBIR TRADERS\Desktop\skills\.aider\skills
+                         global:  C:\Users\SHABBIR TRADERS\.aider\skills
+  Continue.dev         project: C:\Users\SHABBIR TRADERS\Desktop\skills\.continue\skills
+                         global:  C:\Users\SHABBIR TRADERS\.continue\skills
+  Trae IDE             project: C:\Users\SHABBIR TRADERS\Desktop\skills\.trae\skills
+                         global:  C:\Users\SHABBIR TRADERS\.trae\skills
+  PearAI               project: C:\Users\SHABBIR TRADERS\Desktop\skills\.pearai\skills
+                         global:  C:\Users\SHABBIR TRADERS\.pearai\skills
+  Goose / Block        project: C:\Users\SHABBIR TRADERS\Desktop\skills\.goose\skills
+                         global:  C:\Users\SHABBIR TRADERS\.config\goose\skills
+  OpenHands            project: C:\Users\SHABBIR TRADERS\Desktop\skills\.openhands\skills
+                         global:  C:\Users\SHABBIR TRADERS\.openhands\skills
+  Zed IDE AI           project: C:\Users\SHABBIR TRADERS\Desktop\skills\.zed\skills
+                         global:  C:\Users\SHABBIR TRADERS\.config\zed\skills
+  Gemini CLI           project: C:\Users\SHABBIR TRADERS\Desktop\skills\.gemini\skills
+                         global:  C:\Users\SHABBIR TRADERS\.gemini\skills
+  Codex (OpenAI)       project: C:\Users\SHABBIR TRADERS\Desktop\skills\.agents\skills
+                         global:  C:\Users\SHABBIR TRADERS\.agents\skills
+
+## Active Project Directives
+- `/git-workflow`: Structures git workflow practices. Use when making any code change. Use when committing, branching, resolving ...
+- `/git-finish-branch`: Use when implementation is complete, all tests pass, and you need to decide how to integrate the work - guides...
+- `/git-pr-branch`: Create a clean PR branch by filtering out .planning/ commits — ready for code review...
+- `/debug-systematic`: Use when encountering any bug, test failure, or unexpected behavior, before proposing fixes...
+- `/debug-recovery`: Guides systematic root-cause debugging. Use when tests fail, builds break, behavior doesn't match expectations...
+- `/quality-review-and-quality`: Conducts multi-axis code review. Use before merging any change. Use when reviewing code written by yourself, a...
+- `/quality-verify-completion`: Use when about to claim work is complete, fixed, or passing, before committing or creating PRs - requires runn...
+
+## Execution Policy
+1. When matching a directive, read `.agents/skills/<folder>/SKILL.md` and its `references/` assets.
+2. Only load skills strictly required for the immediate task to preserve context window and maintain zero latency.

@@ -3,3 +3,13 @@ node_modules/
 dist/
 build/
 .DS_Store
+
+# Local AI Agent Installed Skills Directories
+.agents/
+.claude/
+.cursor/
+.windsurf/
+.trae/
+.vscode/
+.gemini/skills/
+.github/skills/

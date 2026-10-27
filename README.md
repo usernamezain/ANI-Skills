@@ -54,14 +54,22 @@ ani-skills
 ```
 
 ### 🖥️ Interactive Web GUI Popup
-When you run `ani-skills`, an interactive monochromatic dashboard launches in your browser (`http://localhost:48123`):
-1. **Target AI Agent Detection:** Auto-detects installed AI tools (Cursor, Claude Code, Antigravity, Windsurf, Copilot, etc.).
-2. **Category Selection Checkboxes:** Select specific skill bundles (e.g. `ui:`, `marketing:`, `db:`, `cloud:`, `security:`, `boss:`) or install the complete suite with one click.
-3. **Instant Path Linking:** Automatically configures project and global paths and generates `.cursorrules`, `.windsurfrules`, `.geminirules`, and `.copilot-rules`.
+When you run `ani-skills`, an interactive dashboard launches in your browser (`http://localhost:48123`):
+1. **Smart Workspace Detection (Zero-Lag):** Analyzes your project's `package.json`, Python deps, Docker, Mobile, or Terraform configs and auto-recommends ONLY required skills (98–99% bloat reduction).
+2. **Target AI Agent Detection:** Auto-detects installed AI tools (Cursor, Claude Code, Antigravity IDE, Windsurf, Copilot, etc.).
+3. **1-Click Required-Only or Custom Selection:** Click *"Install Required Only"* for immediate zero-lag configuration, or customize specific categories.
+4. **Lean Rules Generation:** Generates optimized `.cursorrules`, `.windsurfrules`, `.geminirules`, and `.copilot-rules` listing only project-active directives to preserve context window.
 
-For headless or automated CI/CD environments:
+### ⚡ CLI Precision Installation
 ```bash
+# Smart Auto-Install (Zero-Lag Default: detects stack & installs only required skills)
 ani-skills --auto
+
+# Preview which required skills will be installed without modifying disk
+ani-skills --dry-run
+
+# Force install all 3,028 skills (warning: may cause editor prompt lag)
+ani-skills --all
 ```
 
 ---
